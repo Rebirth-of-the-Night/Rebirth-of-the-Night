@@ -16,7 +16,7 @@ tips.addTip("Breaking or placing blocks and making loud noises can attract monst
 tips.addTip("Many monsters investigate or even break light sources if they are close enough.")
 tips.addTip("Take time to stash your food. Most crops won't grow during the winter!")
 tips.addTip("Blood moons are rare, but very dangerous!")
-tips.addTip("Monsters lead invasions every 17 nights!")
+tips.addTip("Monsters lead invasions every 15 nights!")
 tips.addTip("The Arcane Barrier separates the Beneath and the Overworld.")
 tips.addTip("Breaking the Arcane Barrier will unleash new monsters upon the Overworld.")
 tips.addTip("Onyx and Dragonsteel are some of the sturdiest materials for armor known.")
