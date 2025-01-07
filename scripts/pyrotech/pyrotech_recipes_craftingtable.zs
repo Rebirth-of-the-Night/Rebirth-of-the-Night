@@ -150,10 +150,6 @@ recipes.addShaped("pyro_refractory_brick_kiln", <pyrotech:brick_kiln>,
  [[refractoryBrick,null,refractoryBrick],
   [refractoryMaterial,refractoryBrick,refractoryMaterial],
   [refractoryBrick,null,refractoryBrick]]);
-recipes.addShaped("pyro_log_pile", <pyrotech:log_pile>,
- [[<ore:logWood>,<ore:logWood>,<ore:logWood>],
-  [<ore:logWood>,<ore:logWood>,<ore:logWood>],
-  [<ore:logWood>,<ore:logWood>,<ore:logWood>]]);
 recipes.addShaped("composting_bin", <pyrotech:compost_bin>,
  [[<earthworks:item_timber>,null,<earthworks:item_timber>],
   [<earthworks:item_timber>,null,<earthworks:item_timber>],

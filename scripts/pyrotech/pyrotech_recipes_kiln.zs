@@ -54,7 +54,7 @@ StoneKiln.addRecipe("bwm_cobble_to_stone", <minecraft:stone:0>, <minecraft:cobbl
 //PitKiln.addRecipe("bwmcobble_to_stone3", <minecraft:stone:5>, <betterwithmods:cobblestone:2>, 20*320, true);
 PitKiln.addRecipe("mudbrick_to_clay", <minecraft:clay_ball>, <biomesoplenty:mud_brick>, 20*360, true);
 StoneKiln.addRecipe("charge_to_burnt_goo", <betterslimes:black_slime>, <minecraft:fire_charge>, 20*320, true);
-PitKiln.addRecipe("charcoal_pile", <contenttweaker:charcoal_pile>, <pyrotech:log_pile>, 20*210, true);
+PitKiln.addRecipe("charcoal_pile", <contenttweaker:charcoal_pile>, <ore:mundaneLogPile>, 20*210, true);
 PitKiln.addRecipe("charcoal_flakes", <pyrotech:material:15>, <pyrotech:rock:7>, 20*210, 0.25, [<biomesoplenty:ash>*2], true);
 PitKiln.addRecipe("bwm_flint_block", <betterwithmods:aesthetic:5>, <ore:gravel>, 20*210, true);
 PitKiln.addRecipe("whitecobble_to_stone", <betterwithmods:aesthetic:6>, <betterwithmods:aesthetic:7>, 20*280, true);

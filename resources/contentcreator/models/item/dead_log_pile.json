@@ -1,0 +1,8 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"side": "biomesoplenty:blocks/dead_log",
+		"end": "contentcreator:blocks/dead_log_pile",
+		"particle": "biomesoplenty:blocks/dead_log"
+	}
+}

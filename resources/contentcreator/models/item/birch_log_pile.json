@@ -1,0 +1,8 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"side": "minecraft:blocks/log_birch",
+		"end": "contentcreator:blocks/birch_log_pile",
+		"particle": "minecraft:blocks/log_birch"
+	}
+}
