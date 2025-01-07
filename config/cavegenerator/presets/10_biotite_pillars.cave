@@ -1,0 +1,169 @@
+{
+  enabled: true
+  dimensions: [ 1 ]
+  biomes: {
+    names: []
+  }
+  structures: [
+    {
+      name: biotite_pillar_large_x32
+      matchers: [ "end_stone" ]
+      height: [ 30, 120 ]
+      directions: down
+      chance: 0.1
+      count: 1
+      offset: [ 0, 1, 0 ]
+      airChecks: [
+        [ 0, 4, 0 ]
+        [ 0, 8, 0 ]
+        [ 0, 12, 0 ]
+        [ 0, 16, 0 ]
+        [ 0, 20, 0 ]
+        [ 0, 24, 0 ]
+        [ 0, 28, 0 ]
+        [ 0, 32, 0 ]
+      ]
+      solidChecks: [
+        [ 0, 0, 0 ]
+        [ 2, 0, 2 ]
+        [ -2, 0, -2 ]
+        [ 2, 0, -2 ]
+        [ -2, 0, 2 ]
+      ]
+      checkSurface: false
+      debugSpawns: true
+    }
+    {
+      name: biotite_pillar_large_x40
+      matchers: [ "end_stone" ]
+      height: [ 30, 120 ]
+      directions: down
+      chance: 0.1
+      count: 1
+      offset: [ 0, 1, 0 ]
+      airChecks: [
+        [ 0, 4, 0 ]
+        [ 0, 8, 0 ]
+        [ 0, 12, 0 ]
+        [ 0, 16, 0 ]
+        [ 0, 20, 0 ]
+        [ 0, 24, 0 ]
+        [ 0, 28, 0 ]
+        [ 0, 32, 0 ]
+        [ 0, 36, 0 ]
+        [ 0, 40, 0 ]
+      ]
+      solidChecks: [
+        [ 0, 0, 0 ]
+        [ 2, 0, 2 ]
+        [ -2, 0, -2 ]
+        [ 2, 0, -2 ]
+        [ -2, 0, 2 ]
+      ]
+      checkSurface: false
+      debugSpawns: true
+    }
+    {
+      name: biotite_pillar_large_x48
+      matchers: [ "end_stone" ]
+      height: [ 30, 120 ]
+      directions: down
+      chance: 0.1
+      count: 1
+      offset: [ 0, 1, 0 ]
+      airChecks: [
+        [ 0, 4, 0 ]
+        [ 0, 8, 0 ]
+        [ 0, 12, 0 ]
+        [ 0, 16, 0 ]
+        [ 0, 20, 0 ]
+        [ 0, 24, 0 ]
+        [ 0, 28, 0 ]
+        [ 0, 32, 0 ]
+        [ 0, 36, 0 ]
+        [ 0, 40, 0 ]
+        [ 0, 44, 0 ]
+        [ 0, 48, 0 ]
+      ]
+      solidChecks: [
+        [ 0, 0, 0 ]
+        [ 2, 0, 2 ]
+        [ -2, 0, -2 ]
+        [ 2, 0, -2 ]
+        [ -2, 0, 2 ]
+      ]
+      checkSurface: false
+      debugSpawns: true
+    }
+    {
+      name: biotite_pillar_large_x56
+      matchers: [ "end_stone" ]
+      height: [ 30, 120 ]
+      directions: down
+      chance: 0.1
+      count: 1
+      offset: [ 0, 1, 0 ]
+      airChecks: [
+        [ 0, 4, 0 ]
+        [ 0, 8, 0 ]
+        [ 0, 12, 0 ]
+        [ 0, 16, 0 ]
+        [ 0, 20, 0 ]
+        [ 0, 24, 0 ]
+        [ 0, 28, 0 ]
+        [ 0, 32, 0 ]
+        [ 0, 36, 0 ]
+        [ 0, 40, 0 ]
+        [ 0, 44, 0 ]
+        [ 0, 48, 0 ]
+        [ 0, 52, 0 ]
+        [ 0, 56, 0 ]
+      ]
+      solidChecks: [
+        [ 0, 0, 0 ]
+        [ 2, 0, 2 ]
+        [ -2, 0, -2 ]
+        [ 2, 0, -2 ]
+        [ -2, 0, 2 ]
+      ]
+      checkSurface: false
+      debugSpawns: true
+    }
+    {
+      name: biotite_pillar_large_x64
+      matchers: [ "end_stone" ]
+      height: [ 30, 120 ]
+      directions: down
+      chance: 0.1
+      count: 1
+      offset: [ 0, 1, 0 ]
+      airChecks: [
+        [ 0, 4, 0 ]
+        [ 0, 8, 0 ]
+        [ 0, 12, 0 ]
+        [ 0, 16, 0 ]
+        [ 0, 20, 0 ]
+        [ 0, 24, 0 ]
+        [ 0, 28, 0 ]
+        [ 0, 32, 0 ]
+        [ 0, 36, 0 ]
+        [ 0, 40, 0 ]
+        [ 0, 44, 0 ]
+        [ 0, 48, 0 ]
+        [ 0, 52, 0 ]
+        [ 0, 56, 0 ]
+        [ 0, 60, 0 ]
+        [ 0, 64, 0 ]
+      ]
+      solidChecks: [
+        [ 0, 0, 0 ]
+        [ 2, 0, 2 ]
+        [ -2, 0, -2 ]
+        [ 2, 0, -2 ]
+        [ -2, 0, 2 ]
+      ]
+      checkSurface: false
+      debugSpawns: true
+    }
+  ]
+}

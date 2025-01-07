@@ -1,0 +1,8 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"side": "minecraft:blocks/log_big_oak",
+		"end": "contentcreator:blocks/dark_oak_log_pile",
+		"particle": "minecraft:blocks/log_big_oak"
+	}
+}

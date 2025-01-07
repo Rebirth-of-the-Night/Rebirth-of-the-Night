@@ -273,7 +273,7 @@ item.pyrotech.obsidian.hammer.name=§6Onyx Sledgehammer
 
 tile.pyrotech.thatch.name=Hay Bale
 tile.pyrotech.coal_coke_block.name=Block of Coal Coke
-tile.pyrotech.log_pile.name=Log Pile
+tile.pyrotech.log_pile.name=Oak Log Pile
 tile.pyrotech.refractory_brick_block.name=Refractory Block
 tile.pyrotech.limestone.name=Desert Varnish
 tile.pyrotech.refractory_glass.name=Refractory Glass

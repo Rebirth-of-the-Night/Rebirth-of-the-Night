@@ -1,0 +1,8 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"side": "aether_legacy:blocks/skyroot_log_side",
+		"end": "contentcreator:blocks/skyroot_log_pile",
+		"particle": "aether_legacy:blocks/skyroot_log_side"
+	}
+}

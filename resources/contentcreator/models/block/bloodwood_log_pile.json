@@ -1,0 +1,8 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"side": "betterwithmods:blocks/blood_wood_side",
+		"end": "contentcreator:blocks/bloodwood_log_pile",
+		"particle": "betterwithmods:blocks/blood_wood_side"
+	}
+}

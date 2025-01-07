@@ -1,0 +1,20 @@
+{
+  enabled: true
+  biomes: {
+    names: [ "biometweaker:depths" ]
+  }
+  structures: [
+    {
+      name: dwarven_tower_1
+      matchers: [ "contenttweaker:greatbrick_gneiss" ]
+      height: [ 0, 120 ]
+      directions: down
+      chance: 0.005
+      count: 1.5
+      offset: [ 0, 0, 0 ]
+      airChecks: [ [ 0, 36, 0 ], [ 0, 32, 0 ], [ 0, 28, 0 ], [ 0, 24, 0 ], [ 0, 20, 0 ], [ 0, 16, 0 ], [ 0, 12, 0 ], [ 0, 8, 0 ], [ 0, 4, 0 ] ]
+      solidChecks: [ [ 0, -1, 0 ], [ 0, -1, -1 ], [ -1, -1, -1 ], [ -1, -1, 0 ], [ 1, -1, 0 ], [ 1, -1, 1 ], [ 0, -1, 1 ], [ -1, -1, 1 ], [ 1, -1, -1 ] ]
+      debugSpawns: false
+    }
+  ]
+}

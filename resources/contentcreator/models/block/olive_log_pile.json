@@ -1,0 +1,8 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"side": "rustic:blocks/log_olive",
+		"end": "contentcreator:blocks/olive_log_pile",
+		"particle": "rustic:blocks/log_olive"
+	}
+}
