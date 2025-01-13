@@ -13,7 +13,8 @@ JEI.removeAndHide(<toroquest:toro_armor_helmet>);
 JEI.removeAndHide(<toroquest:toro_armor_chestplate>);
 JEI.removeAndHide(<toroquest:toro_armor_leggings>);
 JEI.removeAndHide(<toroquest:toro_armor_boots>);
-
+recipes.remove(<toroquest:toro_leather>);
+JEI.removeAndHide(<toroquest:toro_leather>);
 
 val removedScrolls as string[] = [
     "earth",
