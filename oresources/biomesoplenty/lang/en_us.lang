@@ -1,6 +1,10 @@
 item.berries.name=Hawberry
 tile.plant_0.berrybush.name=Hawthorn Bush
 
+item.persimmon.name=Jiro Persimmon
+item.peach.name=Nectarine Peach
+item.pear.name=Bartlett Pear
+
 item.jar_empty.name=Mason Jar
 tile.blue_fire.name=Cursed Fire
 item.jar_filled_blue_fire.name=Cursed Fire Mason Jar
