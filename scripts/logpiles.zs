@@ -8,6 +8,7 @@ import mods.pyrotech.Burn;
 // Log Pile Oresources
 val mundaneLogPile = <ore:mundaneLogPile>;
 mundaneLogPile.add(
+    <pyrotech:log_pile>,
     <contentcreator:spruce_log_pile:*>,
     <contentcreator:birch_log_pile:*>,
     <contentcreator:jungle_log_pile:*>,

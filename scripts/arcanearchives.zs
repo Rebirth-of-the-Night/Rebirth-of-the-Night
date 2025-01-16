@@ -105,7 +105,7 @@ GCT.replaceRecipe("devouring_charm", <arcanearchives:devouring_charm>*4, [<ore:i
 
 GCT.replaceRecipe("radiant_key", <arcanearchives:radiant_key>*4, [<ore:ingotElectrum>, <ore:nuggetElectrum>.firstItem*3, <arcanearchives:shaped_quartz>]);
 
-GCT.replaceRecipe("radiant_lantern", <arcanearchives:radiant_lantern>*4, [<arcanearchives:raw_quartz>*2, <ore:nuggetElectrum>.firstItem*2]);
+GCT.replaceRecipe("radiant_lantern", <arcanearchives:radiant_lantern>*4, [<arcanearchives:shaped_quartz>, <ore:nuggetElectrum>.firstItem*2]);
 
 GCT.replaceRecipe("radiant_tank", <arcanearchives:radiant_tank>, [<arcanearchives:shaped_quartz>*2, <arcanearchives:containment_field>, <ore:ingotElectrum>, <endreborn:item_end_essence>*2]);
 
@@ -157,6 +157,11 @@ GCT.addRecipe("faerite", <contenttweaker:faerite>, [<twilightforest:carminite>, 
 GCT.addRecipe("magicinfused_wood1", <biomesoplenty:log_1:5>*16, [<arcanearchives:radiant_dust>, <contenttweaker:magic_blend>, <ore:mundaneWood>*16]);
 
 GCT.addRecipe("magicinfused_wood2", <biomesoplenty:log_1:5>*64, [<arcanearchives:radiant_dust>*2, <contenttweaker:magic_blend>*2, <ore:mundaneWood>*64]);
+
+//Radiant Chests
+recipes.remove(<arcanearchives:radiant_chest>);
+
+GCT.addRecipe("radiant_matrix", <arcanearchives:radiant_chest>, [<arcanearchives:matrix_brace>, <arcanearchives:shaped_quartz>*2]);
 
 // Misc
 
