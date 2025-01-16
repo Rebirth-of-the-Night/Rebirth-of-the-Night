@@ -1,6 +1,6 @@
 setIcon(<arcanearchives:radiant_chest>)
-setTitle("Radiant Chest")
-setDescription("Craft a highly upgradable radiant chest.")
+setTitle("Radiant Storage Matrix")
+setDescription("Craft a radiant storage matrix.")
 
 addParent("triumph:advancements/storage/netherchest")
 
