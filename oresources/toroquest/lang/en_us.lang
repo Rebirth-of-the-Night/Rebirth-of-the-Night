@@ -5,6 +5,13 @@ civilization.moon.name=Shadits
 civilization.sun.name=Lumens
 civilization.water.name=Umbertoi
 
+civilization.green.name=Allegada
+civilization.brown.name=Gustaberg
+civilization.red.name=Emberium
+civilization.black.name=Shadits
+civilization.yellow.name=Lumens
+civilization.blue.name=Umbertoi
+
 ################## CRIME REPORTED ##################
 
 text.toroquest.crime_reported=§oCrime reported!§r
@@ -464,21 +471,6 @@ quests.breed.acceptany0=We had to slaughter some of our livestock in preparation
 quests.breed.acceptany1=A terrible disease has wiped out much of our livestock. I will need you to breed several animals to strengthen their numbers.
 
 ################## CIVILIZATION NAMES ##################
-
-civilization.earth.name=Terra
-civilization.wind.name=Gustaberg
-civilization.fire.name=Emberium
-civilization.moon.name=Shadits
-civilization.sun.name=Lumens
-civilization.water.name=Umbertau
-
-civilization.green.name=Wild
-civilization.brown.name=Mithril
-civilization.red.name=Briar
-civilization.black.name=Moor
-civilization.yellow.name=Dawn
-civilization.teal.name=Glacier
-
 civilization.null.name=our village
 civilization.house.name=House
 
