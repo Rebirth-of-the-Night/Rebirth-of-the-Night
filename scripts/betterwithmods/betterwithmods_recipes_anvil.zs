@@ -31,20 +31,11 @@ Anvil.removeShaped(<betterwithaddons:wrought_bars>);
 Anvil.removeShaped(<betterwithaddons:steel_masonpick>); // replaced with content tweaker items for removal of building blocks (craftable only at foundry)
 
 Anvil.removeShaped(<betterwithmods:steel_axle>);
-Anvil.addShaped(<betterwithmods:steel_axle>, [
-   [null, null, cSteelNugget, steelGear],
-   [null, cSteelNugget, leatherBelt, cSteelNugget],
-   [cSteelNugget, leatherBelt, cSteelNugget, null],
-   [steelGear, cSteelNugget, null, null]
-]);
-
 Anvil.removeShaped(<betterwithmods:steel_gearbox>);
-Anvil.addShaped(<betterwithmods:steel_gearbox>, [
-   [cSteelIngot, cSteelIngot, steelGear, cSteelIngot],
-   [steelGear, steelGear, redstoneLatch, cSteelIngot],
-   [cSteelIngot, redstoneLatch, steelGear, steelGear],
-   [cSteelIngot, steelGear, cSteelIngot, cSteelIngot]
-]);
+
+jei.removeAndHide(<betterwithmods:steel_axle>);
+jei.removeAndHide(<betterwithmods:steel_gearbox>);
+jei.removeAndHide(<betterwithmods:steel_broken_gearbox>);
 
 Anvil.removeShaped(<betterwithmods:material:48>);
 Anvil.addShaped(steelGear * 2, 
