@@ -135,6 +135,20 @@ Enchanter.registerEnchantment(<atop:ruby_axe>, 8800);
 Enchanter.registerEnchantment(<atop:ruby_shovel>, 8800);
 Enchanter.registerEnchantment(<atop:ruby_hoe>, 8800);
 
+//Gem Weapons
+Enchanter.registerEnchantment(<spartanweaponry:boomerang_diamond>, 8800);
+Enchanter.registerEnchantment(<spartanweaponry:greatsword_diamond>, 8800);
+Enchanter.registerEnchantment(<spartanweaponry:halberd_diamond>, 8800);
+Enchanter.registerEnchantment(<spartanweaponry:hammer_diamond>, 8800);
+Enchanter.registerEnchantment(<spartanweaponry:javelin_diamond>, 8800);
+Enchanter.registerEnchantment(<spartanweaponry:longsword_diamond>, 8800);
+Enchanter.registerEnchantment(<spartanweaponry:mace_diamond>, 8800);
+Enchanter.registerEnchantment(<spartanweaponry:rapier_diamond>, 8800);
+Enchanter.registerEnchantment(<spartanweaponry:saber_diamond>, 8800);
+Enchanter.registerEnchantment(<spartanweaponry:staff_diamond>, 8800);
+Enchanter.registerEnchantment(<spartanweaponry:throwing_knife_diamond>, 8800);
+Enchanter.registerEnchantment(<spartanweaponry:throwing_axe_diamond>, 8800);
+
 //Sapphire
 Enchanter.registerEnchantment(<atop:sapphire_helmet>, 8800);
 Enchanter.registerEnchantment(<atop:sapphire_chestplate>, 8800);
@@ -867,6 +881,9 @@ Enchanter.registerEnchantment(<nyx:meteor_sword>, 12000);
 Enchanter.registerEnchantment(<nyx:meteor_bow>, 12000);
 Enchanter.registerEnchantment(<nyx:meteor_hammer>, 12000);
 Enchanter.registerEnchantment(<demonic_scythe:demonic_scythe>, 12000);
+Enchanter.registerEnchantment(<msmlegacy:relic_infinity>, 12000);
+Enchanter.registerEnchantment(<msmlegacy:relic_keyblade>, 12000);
+
 
 //Legendary Quality
 Enchanter.registerEnchantment(<betteranimalsplus:hirschgeistskullwearable>, 32200);
