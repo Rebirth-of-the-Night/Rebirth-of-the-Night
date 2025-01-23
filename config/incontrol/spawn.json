@@ -1074,7 +1074,7 @@
 
   // Void Eyes
  {
-    "dimension": [0,1,10],
+    "dimension": [1],
     "mob": "primitivemobs:void_eye",
     "gamestage": "killedEnderDragon",
     "maxlight": 5,
