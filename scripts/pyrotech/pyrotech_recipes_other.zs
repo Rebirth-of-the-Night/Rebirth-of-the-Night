@@ -327,3 +327,13 @@ Burn.createBuilder("distilled_enderslag", <betterwithmods:material:39>, "endrebo
     .setRequiresRefractoryBlocks(false)
     .setFluidLevelAffectsFailureChance(false)
     .register();
+
+Burn.createBuilder("iron_sand", <minecraft:iron_nugget>*4, "betterwithaddons:iron_sand")
+    .setBurnStages(1)
+    .setTotalBurnTimeTicks(8 * 60 * 20)
+	.setFailureChance(0.2)
+    .addFailureItem(<minecraft:iron_nugget>*1)
+    .addFailureItem(<minecraft:iron_nugget>*2)
+    .setRequiresRefractoryBlocks(true)
+    .setFluidLevelAffectsFailureChance(false)
+    .register();
