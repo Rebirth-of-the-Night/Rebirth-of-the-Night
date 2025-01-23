@@ -281,7 +281,7 @@ Condenser.addRecipe(fireresElixirAether, [aloe, blazepowder], null, bottle, drea
 Condenser.addRecipe(speedElixirBeneath, [cocaine, fasthaw, virdust], null, bottle, lunarwater * 250);
 Condenser.addRecipe(magnetismElixirBeneath, [metdust, steeldust, mooncap], zanitegem, bottle, arcmythril * 500);
 Condenser.addRecipe(luckElixirBeneath, [paralex, nethercoin, fourclover], null, bottle, lunarwater * 250);
-Condenser.addRecipe(featherElixirBeneath, [cloudsbluff, cloudgold], null, bottle, lunarwater * 250);
+Condenser.addRecipe(featherElixirBeneath, [cloudsbluff, cloudgold,], zanitegem, bottle, lunarwater * 250);
 Condenser.addRecipe(healthboostElixirBeneath, [bloodorchid, flesh, plaguehide], null, bottle, bioflow * 250);
 Condenser.addRecipe(strengthElixirBeneath, [core, spirits, voidflame], null, bottle, lunarwater * 250);
 Condenser.addRecipe(forcefulElixirBeneath, [core, jumphaw, cocaine], null, bottle, lunarwater * 250);
