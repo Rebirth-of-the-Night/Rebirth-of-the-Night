@@ -72,6 +72,7 @@ var redstone = <minecraft:redstone>;
 var vis = <contenttweaker:vis_shard>;
 var allium = <minecraft:red_flower:2>;
 var firetears = <twilightforest:fiery_tears>;
+var firedcin = <contenttweaker:flashfired_cincinnasite>;
 
 
 //Define liquids
@@ -229,6 +230,9 @@ val featherElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced F
 val healthboostElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Health Boost Elixir"},ElixirEffects:[{Effect: "minecraft:health_boost", Duration: 14400, Amplifier: 3}]});
 val strengthElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Strength Elixir"},ElixirEffects:[{Effect: "minecraft:strength", Duration: 12000, Amplifier: 2}]});
 val forcefulElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Forceful Elixir"},ElixirEffects:[{Effect: "elenaidodge2:forceful", Duration: 12000, Amplifier: 2},{Effect: "elenaidodge2:feathers", Duration: 1200, Amplifier: 2}]});
+val fireResElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Fire Resistance Elixir"},ElixirEffects:[{Effect: "minecraft:fire_resistance", Duration: 18000, Amplifier: 9}]});
+val hasteElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Haste Elixir"},ElixirEffects:[{Effect: "minecraft:haste", Duration: 12000, Amplifier: 2}]});
+
 
 val demonicElixirEnd = <rustic:elixir>.withTag({display:{LocName:"Demonic Strength Elixir"},ElixirEffects:[{Effect: "minecraft:strength", Duration: 12000, Amplifier: 6},{Effect: "demonic_scythe:demonic_corruption", Duration: 12000, Amplifier: 8},{Effect: "potioncore:vulnerable", Duration: 12000, Amplifier: 1}]});
 val geomancyElixirEnd = <rustic:elixir>.withTag({display:{LocName:"Earth Master's Elixir"},ElixirEffects:[{Effect: "mowziesmobs:geomancy", Duration: 12000, Amplifier: 1},{Effect: "defiledlands:grounded", Duration: 12000, Amplifier: 2},{Effect: "extraalchemy:effect.magnetism", Duration: 12000, Amplifier: 3},{Effect: "rustic:ironskin", Duration: 12000, Amplifier: 3},{Effect: "potioncore:solid_core", Duration: 12000, Amplifier: 3}]});
@@ -281,10 +285,13 @@ Condenser.addRecipe(fireresElixirAether, [aloe, blazepowder], null, bottle, drea
 Condenser.addRecipe(speedElixirBeneath, [cocaine, fasthaw, virdust], null, bottle, lunarwater * 250);
 Condenser.addRecipe(magnetismElixirBeneath, [metdust, steeldust, mooncap], zanitegem, bottle, arcmythril * 500);
 Condenser.addRecipe(luckElixirBeneath, [paralex, nethercoin, fourclover], null, bottle, lunarwater * 250);
-Condenser.addRecipe(featherElixirBeneath, [cloudsbluff, cloudgold,], zanitegem, bottle, lunarwater * 250);
+Condenser.addRecipe(featherElixirBeneath, [cloudsbluff, cloudgold], zanitegem, bottle, lunarwater * 250);
 Condenser.addRecipe(healthboostElixirBeneath, [bloodorchid, flesh, plaguehide], null, bottle, bioflow * 250);
 Condenser.addRecipe(strengthElixirBeneath, [core, spirits, voidflame], null, bottle, lunarwater * 250);
 Condenser.addRecipe(forcefulElixirBeneath, [core, jumphaw, cocaine], null, bottle, lunarwater * 250);
+Condenser.addRecipe(fireResElixirBeneath, [aloe, blazepowder, mooncap], null, bottle, dreadcold*500);
+Condenser.addRecipe(hasteElixirBeneath, [redstone, firedcin, mooncap], null, bottle, spiritfire*500);
+
 
 /////CRAFTABLE POST-END\\\\\
 Condenser.addRecipe(geomancyElixirEnd, [earthruby, steeldust, mooncap], biotite, bottle, arcmythril * 1000);
