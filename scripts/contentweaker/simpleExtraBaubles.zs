@@ -71,10 +71,12 @@ clockwork_heart.onWornTick = function(bauble, wearer) {
 clockwork_heart.onUnequipped = function(bauble, wearer) {
     if(wearer instanceof IPlayer) {
         var player as IPlayer = wearer;
-        player.attackEntityFrom(brokenHeart, 9999);
+        if(!(player.isPotionActive(<potion:minecraft:health_boost>)) && !(player.isPotionActive(<potion:minecraft:regeneration>))){
+            player.attackEntityFrom(brokenHeart, 100);
+        }
     }
 };
-clockwork_heart.baubleType = "BODY";
+clockwork_heart.baubleType = "CHARM";
 clockwork_heart.register();
 
 var doll_heart = VanillaFactory.createBaubleItem("doll_heart");
@@ -95,5 +97,5 @@ doll_heart.onUnequipped = function(bauble, wearer) {
         player.attackEntityFrom(brokenHeart, 9999);
     }
 };
-doll_heart.baubleType = "BODY";
+doll_heart.baubleType = "CHARM";
 doll_heart.register();

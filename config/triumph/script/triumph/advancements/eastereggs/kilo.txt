@@ -1,6 +1,6 @@
 setIcon("dungeontactics:terrible_feather")
 setTitle("Talk is Cheep")
-setDescription("Craft Dev Relic 6 of 6 by combining angel feathers with runes of life and soul.")
+setDescription("Craft Dev Relic 6 of 7 by combining angel feathers with runes of life and soul.")
 
 addParent("triumph:advancements/eastereggs/root")
 

@@ -1,6 +1,6 @@
 setIcon("contenttweaker:kompy_kantrip")
 setTitle("Kompy's Kantrip")
-setDescription("Craft Dev Relic 4 of 6 by crafting Whimsicott.")
+setDescription("Craft Dev Relic 4 of 7 by crafting Whimsicott.")
 
 addParent("triumph:advancements/eastereggs/root")
 

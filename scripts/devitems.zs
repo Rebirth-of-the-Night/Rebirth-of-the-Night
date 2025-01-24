@@ -28,7 +28,7 @@ mods.betterwithmods.Anvil.addShaped(<dungeontactics:steel_sword>,
 JEI.addDescription([<contenttweaker:calamarigold>],["Mari has a cheerful personality and makes many jokes. She always keeps her chin up when faced with hardship so as not to burden others, and is ready to try her hand at anything. Mari speaks with an accent, and she has a high, cheerful voice. Mari speaks Japanese but often inserts English words into her sentences. She is so excited to be with you <3"]);
 
 <contenttweaker:calamarigold>.addTooltip(format.aqua('"Right-click me! I have a surprise for you!"'));
-<contenttweaker:calamarigold>.addTooltip(format.darkBlue("Developer Relic 1/6"));
+<contenttweaker:calamarigold>.addTooltip(format.darkBlue("Developer Relic 1/7"));
 
 recipes.addHiddenShapeless("CalaMariGold", <contenttweaker:calamarigold>,
 	[<harvestcraft:calamarirawitem>,<minecraft:yellow_flower>]);
@@ -212,7 +212,7 @@ recipes.addHiddenShaped("tickywicky", <dungeontactics:terrible_feather>.withTag(
 ]);
 
 //ProvidenceDaemon
-
+//Prototype
 val clockworkHeart = <contenttweaker:clockwork_heart>;
 <contenttweaker:clockwork_heart>.addTooltip(format.darkPurple("tick, tick, tick..."));
 <contenttweaker:clockwork_heart>.addTooltip(format.darkRed("Still not enough... I must be PERFECT"));
@@ -226,18 +226,19 @@ mods.betterwithmods.Anvil.addShapedFixed(<contenttweaker:clockwork_heart>,
    [<contenttweaker:material_part:45>, <contenttweaker:material_part:45>, <scalinghealth:crystalshard>, <contenttweaker:material_part:45>]
 ]);
 
+//A permanent upgrade
 val dollHeart = <contenttweaker:doll_heart>;
 <contenttweaker:doll_heart>.addTooltip(format.darkPurple("tick, tick, tick..."));
-<contenttweaker:doll_heart>.addTooltip(format.white("Discarding my humanity... perfect"));
+<contenttweaker:doll_heart>.addTooltip(format.white("No going back now..."));
 <contenttweaker:doll_heart>.addTooltip(format.darkBlue("Dev Relic 7/7"));
-JEI.addDescription(<contenttweaker:clockwork_heart>,"Provides the perfection of a doll, but at a cost... Requires an imperfect heart encased in porcelain and infused with life giving metal");
+JEI.addDescription(<contenttweaker:clockwork_heart>,"Provides a weak facsimile of perfection, but at what cost? Requires an imperfect heart encased in porcelain and infused with life giving metal");
 
 mods.betterwithmods.Anvil.addShapedFixed(<contenttweaker:doll_heart>.withTag({ench: [{lvl: 1, id: 10}]}),
 [
-   [<contenttweaker:viridea_biomatter>, <ceramics:unfired_clay:4>, <ceramics:unfired_clay:4>, <contenttweaker:viridea_biomatter>],
-   [<ceramics:unfired_clay:4>, <contenttweaker:viridea_biomatter>, <contenttweaker:clockwork_heart>, <ceramics:unfired_clay:4>],
-   [<ceramics:unfired_clay:4>, <contenttweaker:viridea_biomatter>, <contenttweaker:viridea_biomatter>, <ceramics:unfired_clay:4>],
-   [<contenttweaker:viridea_biomatter>, <ceramics:unfired_clay:4>, <ceramics:unfired_clay:4>, <contenttweaker:viridea_biomatter>]
+   [<contenttweaker:raw_viridium>, <ceramics:unfired_clay:4>, <ceramics:unfired_clay:4>, <contenttweaker:raw_viridium>],
+   [<ceramics:unfired_clay:4>, <contenttweaker:raw_viridium>, <contenttweaker:clockwork_heart>, <ceramics:unfired_clay:4>],
+   [<ceramics:unfired_clay:4>, <contenttweaker:raw_viridium>, <contenttweaker:raw_viridium>, <ceramics:unfired_clay:4>],
+   [<contenttweaker:raw_viridium>, <ceramics:unfired_clay:4>, <ceramics:unfired_clay:4>, <contenttweaker:raw_viridium>]
 ]);
 
 
