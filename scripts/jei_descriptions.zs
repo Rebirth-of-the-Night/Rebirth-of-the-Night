@@ -52,9 +52,6 @@ import mods.jei.JEI;
 JEI.addItem(<biomesoplenty:farmland_0:1>);
 JEI.addItem(<biomesoplenty:grass_path:1>);
 JEI.addItem(<biomesoplenty:grass_path:2>);
-JEI.addItem(<netherex:blue_fire>);
-JEI.addItem(<endreborn:end_fire>);
-JEI.addItem(<betterwithmods:stoked_flame>);
 
 /* Tools, Weapons, and Armor */
 val handle = <spartanweaponry:material>;
