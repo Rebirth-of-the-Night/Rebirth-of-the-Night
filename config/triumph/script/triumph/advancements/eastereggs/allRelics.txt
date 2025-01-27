@@ -39,7 +39,7 @@ criteria = addCriteria("heavenshalberd", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/eastereggs/heavenshalberd")
 
 criteria = addCriteria("providencedaemon", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/eastereggs/heavenshalberd")
+criteria.setAdvancement("triumph:advancements/eastereggs/providencedaemon")
 
 setFrameType("CHALLENGE")
 hideLines()
