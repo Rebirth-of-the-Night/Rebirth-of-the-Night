@@ -19,7 +19,7 @@ recipes.addShaped("scalinghealth_medkit_2", <scalinghealth:healingitem:1>,
 
 recipes.addShaped("scalinghealth_medkit_3", <scalinghealth:healingitem:1>, 
 [[null, <ore:genericMetal>, null], 
-[<scalinghealth:healingitem>, <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:instant_health", Amplifier: 2}]}), <scalinghealth:healingitem>], 
+[<scalinghealth:healingitem>, <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:instant_health", Amplifier: 4}]}), <scalinghealth:healingitem>], 
 [<minecraft:string>, <ore:durableFiber>, <minecraft:string>]]);
 
 recipes.addShaped("scalinghealth_medkit_4", <scalinghealth:healingitem:1>, 
