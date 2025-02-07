@@ -210,11 +210,12 @@ val strengthElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple 
 val forcefulElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple Forceful Elixir"},ElixirEffects:[{Effect: "elenaidodge2:forceful", Duration: 9600, Amplifier: 0}]});
 val fireresElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple Fire Resistance Elixir"},ElixirEffects:[{Effect: "minecraft:fire_resistance", Duration: 9600, Amplifier: 3}]});
 val healthElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Metabolic Whey"},ElixirEffects:[{Effect: "minecraft:regeneration", Duration: 160, Amplifier: 2},{Effect: "minecraft:hunger", Duration: 160, Amplifier: 29},{Effect: "minecraft:nausea", Duration: 160, Amplifier: 0}]});
+val hasteElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple Haste Elixir"},ElixirEffects:[{Effect: "minecraft:haste", Duration: 9600, Amplifier: 1}]});
 
-val healthElixirNether = <rustic:elixir>.withTag({display:{LocName:"Simple Healing Elixir"},ElixirEffects:[{Effect: "minecraft:instant_health", Amplifier: 2}]});
+val masteryElixirNether = <rustic:elixir>.withTag({display:{LocName:"Simple Mastery Elixir"},ElixirEffects:[{Effect: "dpt:mastery", Duration: 9600, Amplifier: 1}]});
+val healthElixirNether = <rustic:elixir>.withTag({display:{LocName:"Simple Healing Elixir"},ElixirEffects:[{Effect: "minecraft:instant_health", Amplifier: 4}]});
 val ironskinElixirNether = <rustic:elixir>.withTag({display:{LocName:"Simple Ironskin Elixir"},ElixirEffects:[{Effect: "rustic:ironskin", Duration: 4800, Amplifier: 1}]});
 val enduranceElixirNether = <rustic:elixir>.withTag({display:{LocName:"Simple Endurance Elixir"},ElixirEffects:[{Effect: "elenaidodge2:endurance", Duration: 14400, Amplifier: 0},{Effect: "elenaidodge2:feathers", Duration: 2400, Amplifier: 0}]});
-val hasteElixirNether = <rustic:elixir>.withTag({display:{LocName:"Simple Haste Elixir"},ElixirEffects:[{Effect: "minecraft:haste", Duration: 9600, Amplifier: 1}]});
 
 val poisonresElixirAether = <rustic:elixir>.withTag({display:{LocName:"Simple Poison Resistance Elixir"},ElixirEffects:[{Effect: "mowziesmobs:poison_resist", Duration: 9600, Amplifier: 0}]});
 val jumpboostElixirAether = <rustic:elixir>.withTag({display:{LocName:"Simple Jump Boost Elixir"},ElixirEffects:[{Effect: "minecraft:jump_boost", Duration: 9600, Amplifier: 1}]});
@@ -266,12 +267,13 @@ Condenser.addRecipe(healthboostElixirOverworld, [bloodorchid, fleshblockR], null
 Condenser.addRecipe(strengthElixirOverworld, [core, spirits], null, bottle, lunarwater * 125);
 Condenser.addRecipe(forcefulElixirOverworld, [core, jumphaw], null, bottle, lunarwater * 125);
 Condenser.addRecipe(fireresElixirOverworld, [aloe, scab], null, bottle, lunarwater * 125);
+Condenser.addRecipe(hasteElixirOverworld, [cohosh, redstone], null, bottle, lunarwater * 125);
 
 /////CRAFTABLE POST-NETHER\\\\\
 Condenser.addRecipe(healthElixirNether, [tear, tarblock], null, bottle, lunarwater * 1000);
 Condenser.addRecipe(ironskinElixirNether, [ironW, horsetail], null, bottle, blood * 125);
 Condenser.addRecipe(enduranceElixirNether, [horsetail, thistle], null, bottle, spiritfire * 250);
-Condenser.addRecipe(hasteElixirNether, [cincinnasite, redstone], null, bottle, spiritfire * 125);
+Condenser.addRecipe(masteryElixirNether, [<betterwithmods:material:16>, redstone], null, bottle, spiritfire * 125);
 
 /////CRAFTABLE POST-AETHER\\\\\
 Condenser.addRecipe(poisonresElixirAether, [petal, deathstalk], null, bottle, poison * 125);
