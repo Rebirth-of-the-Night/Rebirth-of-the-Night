@@ -1,7 +1,7 @@
 {
     "parent":"item/handheld",
     "textures": {
-        "layer0":"spartanweaponry:items/katana_silver"
+        "layer0":"spartanweaponry:items/mace_silver"
     },
     "display": {
         "thirdperson_righthand": {

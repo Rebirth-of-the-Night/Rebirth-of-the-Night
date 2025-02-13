@@ -1,17 +1,17 @@
 {
     "parent":"item/handheld",
     "textures": {
-        "layer0":"spartanweaponry:items/katana_silver"
+        "layer0":"spartanweaponry:items/rapier_silver"
     },
     "display": {
         "thirdperson_righthand": {
             "rotation": [ 0, -90, 55 ],
-            "translation": [ 0, 5.00, 0.5 ],
+            "translation": [ 0, 5.75, 0.5 ],
             "scale": [ 1.00, 1.00, 1.00 ]
         },
         "thirdperson_lefthand": {
             "rotation": [ 0, 90, -55 ],
-            "translation": [ 0, 5.00, 0.5 ],
+            "translation": [ 0, 5.75, 0.5 ],
             "scale": [ 1.00, 1.00, 1.00 ]
         },
         "firstperson_righthand": {
