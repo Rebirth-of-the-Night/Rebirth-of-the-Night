@@ -64,7 +64,7 @@ clockwork_heart.onWornTick = function(bauble, wearer) {
         if (!player.world.isRemote() && player.world.getWorldTime() % 10 == 0 as long) {
             player.removePotionEffect(<potion:minecraft:haste>);
             player.removePotionEffect(<potion:minecraft:speed>);
-            
+            player.removePotionEffect(<potion:dpt:mastery>);
         } 
     }
 };
@@ -72,7 +72,7 @@ clockwork_heart.onUnequipped = function(bauble, wearer) {
     if(wearer instanceof IPlayer) {
         var player as IPlayer = wearer;
         if(!(player.isPotionActive(<potion:minecraft:health_boost>)) && !(player.isPotionActive(<potion:minecraft:regeneration>))){
-            player.attackEntityFrom(brokenHeart, 100);
+            player.attackEntityFrom(brokenHeart, 200);
         }
     }
 };
