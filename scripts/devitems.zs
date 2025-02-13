@@ -231,7 +231,7 @@ val dollHeart = <contenttweaker:doll_heart>;
 <contenttweaker:doll_heart>.addTooltip(format.darkPurple("tick, tick, tick..."));
 <contenttweaker:doll_heart>.addTooltip(format.white("No going back now..."));
 <contenttweaker:doll_heart>.addTooltip(format.darkBlue("Dev Relic 7/7"));
-JEI.addDescription(<contenttweaker:clockwork_heart>,"Provides a weak facsimile of perfection, but at what cost? Requires an imperfect heart encased in porcelain and infused with life giving metal");
+JEI.addDescription(<contenttweaker:doll_heart>,"Provides a weak facsimile of perfection, but at what cost? Requires an imperfect heart encased in porcelain and infused with life giving metal");
 
 mods.betterwithmods.Anvil.addShapedFixed(<contenttweaker:doll_heart>.withTag({ench: [{lvl: 1, id: 10}]}),
 [
