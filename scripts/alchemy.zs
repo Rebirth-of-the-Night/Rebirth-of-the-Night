@@ -234,7 +234,7 @@ val forcefulElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced 
 val fireResElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Fire Resistance Elixir"},ElixirEffects:[{Effect: "minecraft:fire_resistance", Duration: 18000, Amplifier: 9}]});
 val hasteElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Haste Elixir"},ElixirEffects:[{Effect: "minecraft:haste", Duration: 12000, Amplifier: 2}]});
 
-
+val nightvisionElixirEnd = <rustic:elixir>.withTag({display:{LocName:"Advanced Night Vision Elixir"},ElixirEffects:[{Effect: "minecraft:night_vision", Duration: 18000, Amplifier: 0}]});
 val demonicElixirEnd = <rustic:elixir>.withTag({display:{LocName:"Demonic Strength Elixir"},ElixirEffects:[{Effect: "minecraft:strength", Duration: 12000, Amplifier: 6},{Effect: "demonic_scythe:demonic_corruption", Duration: 12000, Amplifier: 8},{Effect: "potioncore:vulnerable", Duration: 12000, Amplifier: 1}]});
 val geomancyElixirEnd = <rustic:elixir>.withTag({display:{LocName:"Earth Master's Elixir"},ElixirEffects:[{Effect: "mowziesmobs:geomancy", Duration: 12000, Amplifier: 1},{Effect: "defiledlands:grounded", Duration: 12000, Amplifier: 2},{Effect: "extraalchemy:effect.magnetism", Duration: 12000, Amplifier: 3},{Effect: "rustic:ironskin", Duration: 12000, Amplifier: 3},{Effect: "potioncore:solid_core", Duration: 12000, Amplifier: 3}]});
 val sunElixirEnd = <rustic:elixir>.withTag({display:{LocName:"Elixir of the Solar Master"},ElixirEffects:[{Effect: "mowziesmobs:suns_blessing", Duration: 12000, Amplifier: 0},{Effect: "minecraft:fire_resistance", Duration: 12000, Amplifier: 9},{Effect: "rustic:blazing_trail", Duration: 12000, Amplifier: 0}]});
@@ -299,6 +299,7 @@ Condenser.addRecipe(hasteElixirBeneath, [redstone, firedcin, mooncap], null, bot
 Condenser.addRecipe(geomancyElixirEnd, [earthruby, steeldust, mooncap], biotite, bottle, arcmythril * 1000);
 Condenser.addRecipe(demonicElixirEnd, [bloodeye, soulurn, core], biotite, bottle, slag * 500);
 Condenser.addRecipe(sunElixirEnd, [suntouched, starblock, mooncap], biotite, bottle, arcmythril * 1000);
+Condenser.addRecipe(nightvisionElixirEnd, [<mowziesmobs:glowing_jelly>, <rotn_blocks:exorite_crystal>, mooncap], biotite, bottle, arcmythril * 500);
 
 
 
