@@ -1,6 +1,6 @@
 setIcon("contenttweaker:calamarigold")
 setTitle("CalaMariGold")
-setDescription("Craft Dev Relic 1 of 6 by combining the two items in her name (hint: it's not gold!).")
+setDescription("Craft Dev Relic 1 of 7 by combining the two items in her name (hint: it's not gold!).")
 
 addParent("triumph:advancements/eastereggs/root")
 

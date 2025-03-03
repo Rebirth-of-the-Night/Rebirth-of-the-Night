@@ -116,6 +116,7 @@ CompactingBin.addRecipe("bonemeal_antidupe", <minecraft:bone_block>, <minecraft:
 CompactingBin.addRecipe("clay_compacting", <minecraft:clay>, <minecraft:clay_ball>, 4, true);
 CompactingBin.addRecipe("mud_compacting", <biomesoplenty:mud>, <biomesoplenty:mudball>, 4, true);
 CompactingBin.addRecipe("compactrottenflesh", <charm:rotten_flesh_block>, <minecraft:rotten_flesh>, 9, true);
+CompactingBin.addRecipe("compactflesh", <biomesoplenty:flesh>, <biomesoplenty:fleshchunk>, 4, true);
 
 //Composting Recipes
 CompostBin.addRecipe(<pyrotech:mulch>, <betterwithmods:material:2>, 12);
@@ -373,5 +374,14 @@ Burn.createBuilder("distilled_enderslag", <betterwithmods:material:39>, "endrebo
     .addFailureItem(<betterwithmods:material:39>) // enderslag
     .addFailureItem(<betterwithmods:material:39>*2) // enderslag
     .setRequiresRefractoryBlocks(false)
+    .setFluidLevelAffectsFailureChance(false)
+    .register();
+Burn.createBuilder("iron_sand", <minecraft:iron_nugget>*4, "betterwithaddons:iron_sand")
+    .setBurnStages(1)
+    .setTotalBurnTimeTicks(8 * 60 * 20)
+    .setFailureChance(0.2)
+    .addFailureItem(<minecraft:iron_nugget>*1)
+    .addFailureItem(<minecraft:iron_nugget>*2)
+    .setRequiresRefractoryBlocks(true)
     .setFluidLevelAffectsFailureChance(false)
     .register();

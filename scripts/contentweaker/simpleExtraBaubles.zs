@@ -168,17 +168,19 @@ clockwork_heart.onWornTick = function(bauble, wearer) {
         if (!player.world.isRemote() && player.world.getWorldTime() % 10 == 0 as long) {
             player.removePotionEffect(<potion:minecraft:haste>);
             player.removePotionEffect(<potion:minecraft:speed>);
-            
+            player.removePotionEffect(<potion:dpt:mastery>);
         } 
     }
 };
 clockwork_heart.onUnequipped = function(bauble, wearer) {
     if(wearer instanceof IPlayer) {
         var player as IPlayer = wearer;
-        player.attackEntityFrom(brokenHeart, 9999);
+        if(!(player.isPotionActive(<potion:minecraft:health_boost>)) && !(player.isPotionActive(<potion:minecraft:regeneration>))){
+            player.attackEntityFrom(brokenHeart, 200);
+        }
     }
 };
-clockwork_heart.baubleType = "BODY";
+clockwork_heart.baubleType = "CHARM";
 clockwork_heart.register();
 
 var doll_heart = VanillaFactory.createBaubleItem("doll_heart");
@@ -199,5 +201,5 @@ doll_heart.onUnequipped = function(bauble, wearer) {
         player.attackEntityFrom(brokenHeart, 9999);
     }
 };
-doll_heart.baubleType = "BODY";
+doll_heart.baubleType = "CHARM";
 doll_heart.register();

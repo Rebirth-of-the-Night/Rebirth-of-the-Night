@@ -496,7 +496,7 @@
  {
    "dimension": 10,
   "mob": "mowziesmobs:lantern",
-  "maxlight": 4,
+  "maxlight": 9,
   "minlight": 0,
   "maxheight": 190,
   "minheight": 90,
@@ -1074,7 +1074,7 @@
 
   // Void Eyes
  {
-    "dimension": [0,1,10],
+    "dimension": [1],
     "mob": "primitivemobs:void_eye",
     "gamestage": "killedEnderDragon",
     "maxlight": 5,

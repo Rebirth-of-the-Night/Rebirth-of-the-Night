@@ -33,6 +33,10 @@ Anvil.removeShaped(<betterwithaddons:steel_masonpick>); // replaced with content
 Anvil.removeShaped(<betterwithmods:steel_axle>);
 Anvil.removeShaped(<betterwithmods:steel_gearbox>);
 
+jei.removeAndHide(<betterwithmods:steel_axle>);
+jei.removeAndHide(<betterwithmods:steel_gearbox>);
+jei.removeAndHide(<betterwithmods:steel_broken_gearbox>);
+
 Anvil.removeShaped(<betterwithmods:material:48>);
 Anvil.addShaped(steelGear * 2, 
 [

@@ -13,6 +13,7 @@ recipes.addShapeless("crafting_mat", <craftingcraft:portable_crafting_table:0>, 
 
 recipes.remove(<minecraft:crafting_table>);
 recipes.addShapeless("crafting_table", <minecraft:crafting_table>, [<ore:stickMat>, <contenttweaker:crafting_tools>]);
+recipes.addShapeless("crafting_log_oak", <randomthings:customworkbench>.withTag({woodName: "minecraft:log", woodMeta: 0}), [<minecraft:log:0>, <contenttweaker:crafting_tools>]);
 
 recipes.addShapeless("mythril_block_crafting_table", <randomthings:customworkbench>.withTag({woodName: "simpleores:mythril_block", woodMeta: 0}), [<simpleores:mythril_block>, <contenttweaker:crafting_tools>]);
 
