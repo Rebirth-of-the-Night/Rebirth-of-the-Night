@@ -69,6 +69,10 @@ JEI.removeAndHide(<betterwithmods:candle_holder>);
 JEI.removeAndHide(<betterwithmods:aesthetic:8>);
 JEI.removeAndHide(<betterwithmods:material:46>);
 
+
+Anvil.removeShaped(<betterwithmods:steel_axle>);
+Anvil.removeShaped(<betterwithmods:steel_gearbox>);
+
 JEI.removeAndHide(<betterwithmods:steel_gearbox>);
 JEI.removeAndHide(<betterwithmods:steel_broken_gearbox>);
 JEI.removeAndHide(<betterwithmods:steel_axle>);
