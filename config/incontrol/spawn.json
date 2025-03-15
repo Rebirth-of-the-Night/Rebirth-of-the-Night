@@ -798,11 +798,7 @@
     "mob": "quark:ashen",
     "result": "deny"
  },
- {
-   "dimension": 0,
-   "mob": "quark:ashen",
-   "result": "deny"
- },
+
  {
     "dimension": 10,
     "mob": "quark:dweller",
