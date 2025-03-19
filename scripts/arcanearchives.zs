@@ -101,17 +101,17 @@ GCT.replaceRecipe("containment_field", <arcanearchives:containment_field>, [<arc
 
 GCT.replaceRecipe("matrix_brace", <arcanearchives:matrix_brace>, [<arcanearchives:scintillating_inlay>, <ore:ingotElectrum>*2]);
 
-GCT.replaceRecipe("devouring_charm", <arcanearchives:devouring_charm>*4, [<ore:ingotGold>*8, <bountifulbaubles:amuletsingluttony>, <mod_lavacow:sharptooth>*4]);
+GCT.replaceRecipe("devouring_charm", <arcanearchives:devouring_charm>*4, [<ore:ingotGold>*8, <betterwithmods:urn:9>, <mod_lavacow:sharptooth>*4]);
 
 GCT.replaceRecipe("radiant_key", <arcanearchives:radiant_key>*4, [<ore:ingotElectrum>, <ore:nuggetElectrum>.firstItem*3, <arcanearchives:shaped_quartz>]);
 
 GCT.replaceRecipe("radiant_lantern", <arcanearchives:radiant_lantern>*4, [<arcanearchives:shaped_quartz>, <ore:nuggetElectrum>.firstItem*2]);
 
-GCT.replaceRecipe("radiant_tank", <arcanearchives:radiant_tank>, [<arcanearchives:shaped_quartz>*2, <arcanearchives:containment_field>, <ore:ingotElectrum>, <endreborn:item_end_essence>*2]);
+GCT.replaceRecipe("radiant_tank", <arcanearchives:radiant_tank>, [<arcanearchives:shaped_quartz>*2, <arcanearchives:containment_field>, <ore:ingotElectrum>, <endreborn:item_end_essence>]);
 
 GCT.replaceRecipe("monitoring_crystal", <arcanearchives:monitoring_crystal>, [<arcanearchives:shaped_quartz>, <ore:nuggetElectrum>.firstItem*2, <ore:stickWood>*4]);
 
-GCT.replaceRecipe("radiant_trove", <arcanearchives:radiant_trove>*12, [<arcanearchives:shaped_quartz>*4, <arcanearchives:material_interface>, <arcanearchives:radiant_chest>, <endreborn:item_end_essence>*4]);
+GCT.replaceRecipe("radiant_trove", <arcanearchives:radiant_trove>*12, [<arcanearchives:shaped_quartz>*4, <arcanearchives:material_interface>, <arcanearchives:radiant_chest>, <endreborn:item_end_essence>*2]);
 
 // Cut gems
 GCT.addRecipe("pristine_diamond", <contenttweaker:pristine_diamond>, [<minecraft:diamond>, <minecraft:gold_nugget>*6, <minecraft:redstone>*8, <rustic:cloudsbluff>*4]);
@@ -146,7 +146,7 @@ GCT.addRecipe("holy_zanite", <contenttweaker:holy_zanite>, [<aether_legacy:zanit
 
 GCT.addRecipe("electrified_zanite", <contenttweaker:electrified_zanite>, [<aether_legacy:zanite_gemstone>, <aether_legacy:ambrosium_shard>*6, <ore:nuggetElectrum>.firstItem*8, <minecraft:glowstone_dust>*4]);
 
-GCT.addRecipe("voidseen_exorite", <contenttweaker:voidseen_exorite>, [<rotn_blocks:exorite_crystal>, <minecraft:ender_eye>*6, <minecraft:dragon_breath>*4, <endreborn:item_end_essence>*8]);
+GCT.addRecipe("voidseen_exorite", <contenttweaker:voidseen_exorite>, [<rotn_blocks:exorite_crystal>, <minecraft:ender_eye>*6, <minecraft:dragon_breath>*4, <endreborn:item_end_essence>*4]);
 
 GCT.addRecipe("animated_exorite", <contenttweaker:animated_exorite>, [<rotn_blocks:exorite_crystal>, <biomesoplenty:fleshchunk>*6, <minecraft:clay_ball>*8, <minecraft:blaze_powder>*4]);
 

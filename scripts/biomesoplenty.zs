@@ -13,22 +13,21 @@ JEI.removeAndHide(<biomesoplenty:biome_finder>);
 JEI.removeAndHide(<biomesoplenty:gem:7>);
 JEI.removeAndHide(<biomesoplenty:gem_ore:7>);
 JEI.removeAndHide(<biomesoplenty:gem_block:7>);
-JEI.removeAndHide(<biomesoplenty:gem_ore:7>);
 
 JEI.removeAndHide(<biomesoplenty:gem:3>);
 JEI.removeAndHide(<biomesoplenty:gem_ore:3>);
 JEI.removeAndHide(<biomesoplenty:gem_block:3>);
-JEI.removeAndHide(<biomesoplenty:gem_ore:3>);
 
 JEI.removeAndHide(<biomesoplenty:gem:4>);
 JEI.removeAndHide(<biomesoplenty:gem_ore:4>);
 JEI.removeAndHide(<biomesoplenty:gem_block:4>);
-JEI.removeAndHide(<biomesoplenty:gem_ore:4>);
 
 JEI.removeAndHide(<biomesoplenty:gem:5>);
 JEI.removeAndHide(<biomesoplenty:gem_ore:5>);
 JEI.removeAndHide(<biomesoplenty:gem_block:5>);
-JEI.removeAndHide(<biomesoplenty:gem_ore:5>);
+
+JEI.removeAndHide(<biomesoplenty:gem:0>);
+JEI.removeAndHide(<biomesoplenty:gem_ore:0>);
 
 JEI.removeAndHide(<biomesoplenty:honey_block>);
 JEI.removeAndHide(<biomesoplenty:honeycomb>);
@@ -151,3 +150,11 @@ recipes.addShaped("blue_giant_petal", <contenttweaker:petal_blue_big_flower>, [
     [<contenttweaker:giant_blue_flower_petal>,<contenttweaker:giant_blue_flower_petal>],
     [<contenttweaker:giant_blue_flower_petal>,<contenttweaker:giant_blue_flower_petal>]
 ]);
+
+//amethyst
+furnace.remove(<biomesoplenty:gem:0>);
+furnace.remove(<biomesoplenty:gem:0>*2);
+furnace.addRecipe(<rotn_blocks:exorite_crystal>, <osv:biomesoplenty_amethyst_ore_end_stone>, 1);
+furnace.addRecipe(<rotn_blocks:exorite_crystal>, <osv:biomesoplenty_amethyst_ore_obsidian>, 1);
+furnace.addRecipe(<rotn_blocks:exorite_crystal>*2, <osv:biomesoplenty_amethyst_ore_end_stone:1>, 1);
+furnace.addRecipe(<rotn_blocks:exorite_crystal>*2, <osv:biomesoplenty_amethyst_ore_obsidian:1>, 1);
