@@ -1,0 +1,15 @@
+setIcon(<rotn_blocks:exorite_crystal>)
+setTitle("Taking Back What's Yours")
+setDescription("Mine exorite ore, strange crystals formed in the End")
+
+addParent("triumph:advancements/ores/copper")
+
+criteria = addCriteria("Exorite", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreAmethyst>)
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+hideLines()
+alwaysVisible()
+setPos(-30,-52)

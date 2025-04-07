@@ -1,0 +1,251 @@
+{
+  "version": 2,
+  "location": "multiblocked:alchemical_mixer",
+  "traits": {
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 33,
+        "y": 32,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 34,
+        "y": 78,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 33,
+        "y": 122,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 125,
+        "y": 77,
+        "autoIO": false
+      }
+    ],
+    "fluid": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 77,
+        "y": 37,
+        "autoIO": false,
+        "tC": 16000
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "betterwithmods:wooden_axle",
+          "meta": 4
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "lightEmissive": 7,
+      "parent": "unformed"
+    },
+    "working": {
+      "lightEmissive": 15,
+      "parent": "idle",
+      "sound": {
+        "sound": "exsartagine:bubbling",
+        "loop": true,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 0.5
+      }
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "alchemical_mixer",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "ABC",
+        " DC",
+        " EC",
+        " JJ"
+      ],
+      [
+        "KFL",
+        " @G",
+        " HG",
+        " IJ"
+      ],
+      [
+        "ABC",
+        " DC",
+        " EC",
+        " JJ"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "outputs": {
+        "capability": "item",
+        "type": "capability",
+        "io": "OUT"
+      },
+      "controller": {
+        "location": "multiblocked:alchemical_mixer",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "contenttweaker:block_electrum",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "slatewalls": {
+        "blocks": [
+          {
+            "id": "earthworks:wall_slate_shingle"
+          },
+          {
+            "id": "earthworks:wall_slate_slab"
+          },
+          {
+            "id": "earthworks:wall_slate_tile"
+          }
+        ],
+        "type": "blocks"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "betterwithmods:cooking_pot",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "slateblock": {
+        "blocks": [
+          {
+            "id": "earthworks:block_slate_slab"
+          },
+          {
+            "id": "earthworks:block_slate_shingle"
+          },
+          {
+            "id": "earthworks:block_slate_tile"
+          }
+        ],
+        "type": "blocks"
+      },
+      "stairs": {
+        "blocks": [
+          {
+            "id": "aesthetics:iron_brick_stairs"
+          }
+        ],
+        "type": "blocks"
+      },
+      "fluidin": {
+        "capability": "fluid",
+        "type": "capability",
+        "io": "IN"
+      },
+      "any": {
+        "type": "any"
+      },
+      "axle": {
+        "blocks": [
+          {
+            "id": "betterwithmods:wooden_axle"
+          }
+        ],
+        "type": "blocks"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "stairs"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "slatewalls"
+      ],
+      "D": [
+        "slatewalls"
+      ],
+      "E": [
+        "slateblock"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "slateblock"
+      ],
+      "H": [
+        "axle"
+      ],
+      "I": [
+        "fluidin"
+      ],
+      "J": [
+        "stairs"
+      ],
+      "K": [
+        "outputs"
+      ],
+      "L": []
+    }
+  }
+}

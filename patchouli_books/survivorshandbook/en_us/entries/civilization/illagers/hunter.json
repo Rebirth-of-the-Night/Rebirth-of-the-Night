@@ -1,0 +1,29 @@
+{
+  "name": "Hunter",
+  "icon": "minecraft:bow",
+  "category": "civilization_illagers",
+  "read_by_default": "true",
+  "pages": [
+	{
+      "type": "text",
+      "text": "The hunter is an illager who lives off the land by harvesting whatever animals they can shoot down with their bow.$(br2)Hunters seem to keep to themselves for the most part; so long as I don't bother them, they won't bother me. However, I shouldn't stick around too long; they will attack if they get more wary of me."
+    },
+    {
+      "type": "entity",
+          "entity": "hunterillager:hunter_illager",
+          "scale": 0.8,
+          "offset": 0.25,
+          "rotate": "true",
+        "default_rotation": -45,
+        "text": "When hurt, hunters like to hastily chow down on meat they've harvested and cooked to quickly top up."
+  },
+	{
+      "type": "text",
+      "text": "$(thing)Humans$() and $(thing)villagers$() appear to maintain a complex and functional hierarchy. A human $(thing)Lord$() guides the village in economic and politic matters along with a small group of humans acting as $(thing)Guards$() who have settled here in exchange for protecting villagers in their day to day lives working on the land and other labors such as smithing or recording what little history is known."
+    },
+	{
+      "type": "text",
+      "text": "Common sense dictates that if I want to use their services and become another member of the community, I will have to earn the trust of this village; for this purpose, I should talk to the Lord here and improve my reputation by doing quests for them."
+    }
+  ]
+}

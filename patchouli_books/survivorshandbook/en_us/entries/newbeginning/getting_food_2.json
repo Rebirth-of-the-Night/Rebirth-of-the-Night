@@ -1,0 +1,105 @@
+{
+  "name": "Food: Meat & Cooking",
+  "icon": "minecraft:cooked_chicken",
+  "category": "newbeginning",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "minecraft:beef",
+      "title": "Meat & Cooking",
+      "text": "Living off of roots and berries is all well and good, but hardly satisfying. If I want some real food, I've gotta get my hands dirty.$(br2)But, first things first. If I want to sink my teeth into some elite meats, I should understand food safety beforehand."
+    },
+    {
+      "type": "item_list_spotlight",
+      "title": "Cooking",
+      "text": "Most food is better and safer cooked than raw. Below are various ways I could go about cooking:",
+      "a":"pyrotech:campfire",
+      "a_t":"Campfires can cook food and provide buffs when resting by their side.",
+      "a_i":"book:hover_icon.png",
+      "b":"minecraft:furnace",
+      "b_t":"A rock furnace is a solid option for cooking and smelting ores. Not too healthy...",
+      "b_i":"book:hover_icon.png",
+      "c":"futuremc:smoker",
+      "c_t":"A specialized furnace; faster, but can only cook food. Tasty and no traces of tin in your meat.",
+      "c_i":"book:hover_icon.png",
+      "d":"ironfurnaces:iron_furnace_idle",
+      "d_t":"A prettier counterpart to the rock furnace made of mud bricks.",
+      "d_i":"book:hover_icon.png",
+      "e":"ironfurnaces:gold_furnace_idle",
+      "e_t":"A 25% more efficient clay brick furnace. Better all-around.",
+      "e_i":"book:hover_icon.png",
+      "f":"ironfurnaces:diamond_furnace_idle",
+      "f_t":"A 75% more efficient masonry brick furnace. One of the most practical options.",
+      "f_i":"book:hover_icon.png",
+      "g":"betterwithmods:cooking_pot:1",
+      "g_t":"Only requires a lit fire under it and can cook in bulk.",
+      "g_i":"book:hover_icon.png",
+      "text2": "Not everything edible I can find needs cooking, but for the things that do, a campfire or rock furnace will be the most convenient choices."
+    },
+    {
+      "type": "item_list_spotlight",
+      "title": "Meat",
+      "text": "There seems to be some animals around. I wouldn't mind some protein to get me through the day!",
+      "a":"minecraft:beef",
+      "a_t":"Beef from bulls and cows.",
+      "a_i":"book:hover_icon.png",
+      "b":"minecraft:porkchop",
+      "b_t":"Pork from swine.",
+      "b_i":"book:hover_icon.png",
+      "c":"minecraft:chicken",
+      "c_t":"Chicken from... well, chickens.",
+      "c_i":"book:hover_icon.png",
+      "d":"minecraft:rabbit",
+      "d_t":"Rabbit from does and bucks.",
+      "d_i":"book:hover_icon.png",
+      "e":"minecraft:mutton",
+      "e_t":"Mutton from rams and ewes.",
+      "e_i":"book:hover_icon.png",
+      "f":"betteranimalsplus:venisonraw",
+      "f_t":"Venison from deer.",
+      "f_i":"book:hover_icon.png",
+      "g":"animania:raw_chevon",
+      "g_t":"Chevon from does and bucks.",
+      "g_i":"book:hover_icon.png",
+      "text2": "Eating raw meat isn't very pleasant, and might even be hazardous in some cases. I should always cook my meats before eating; it's safer and more filling, anyways."
+    },
+    {
+      "type": "text",
+      "text": "These aren't the only meats I can find, of course; nearly every animal I might come across has something yummy on its bones, from the smallest frogs to the most hulking bulls. $(br2)That being said, I shouldn't expect all of them to go down without a fight.$(br2)Killing animals also yields many useful byproducts like $(thing)tallow$(), $(thing)leather$(), $(thing)wool$() and $(thing)feathers$(), which all may come in handy later."
+    },
+    {
+      "type": "item_list_spotlight",
+      "title": "Seafood",
+      "text": "There's plenty of water around here; if I'm feeling pescatarian, I could always go for something more aquatic:",
+      "a_i":"book:empty.png",
+      "b":"minecraft:fish",
+      "b_t":"Fish from fishing.",
+      "b_i":"book:hover_icon.png",
+      "c":"minecraft:fish:1",
+      "c_t":"Salmon from rivers.",
+      "c_i":"book:hover_icon.png",
+      "d":"betteranimalsplus:eel_meat_raw",
+      "d_t":"Eels from rivers. Like to bite.",
+      "d_i":"book:hover_icon.png",
+      "e":"quark:crab_leg",
+      "e_t":"Crab from beaches. Don't get too close!",
+      "e_i":"book:hover_icon.png",
+      "f":"mod_lavacow:piranha",
+      "f_t":"Piranhas from ponds and lakes. Very feisty.",
+      "f_i":"book:hover_icon.png",
+      "g_i":"book:empty.png",
+      "text2": "Aside from jumping into the water myself and getting all wet, I can also kick back and go fishing by making a crude fishing rod like so:"
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:crude_fishing_pole",
+      "text": "After the fish bites the hook, I should reel in fast before it can escape.$(br2)I shouldn't expect something so hastily cobbled together to last; it may unexpectedly break after reeling something in."
+    },
+    {
+      "type": "relations",
+      "entries": [
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "name": "Basic Tools & Weapons",
+  "icon": "minecraft:stone_pickaxe",
+  "category": "newbeginning",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "minecraft:stone_pickaxe",
+      "title": "Basic Tools",
+      "text": "Now that I've gotten a crafting station set up, it's time to get down to business.$(br2)First, I should gather up some more resources around me; the stuff I've already been picking up like sticks and stones, as well as whatever else I think could be of use."
+    },
+    {
+      "type": "crafting",
+      "recipe": "ct_shapeless-1591466075",
+      "title": "Cobblestone",
+      "text": "While I can use rocks to craft stone tools, some may require a more sturdy base; compressing some rocks into a solid bit of cobblestone should help with that."
+    },
+    {
+      "type": "text",
+      "text": "Two simple stone tools I can make right now are an axe and a pickaxe. The pickaxe, while it can mine stone, isn't great at it - the stone I mine breaks up into little rocks, which I can simply compress back into cobblestone for now. Pickaxes made with stronger material can mine stone without breaking it into pieces. The axe will allow me to chop down some trees a bit faster for more wood, which I'll need for this next part."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:stone_pickaxe",
+      "recipe2": "crafttweaker:stone_axe"
+    },
+    {
+      "type": "text",
+      "text": "A shield will be very helpful once I finish crafting and begin to explore. Holding a shield in my offhand and a tool in my main hand ensures that I'll never be fully caught off guard while I'm working. I can start off with a crude wooden shield, then reinforce it with some stone that I've already been mining for increased durability. I can also shield bash by hitting while blocking to launch my attacker back."
+    },
+    {
+      "type": "crafting",
+      "recipe": "spartanshields:shield_vanilla_wood_2",
+      "recipe2": "crafttweaker:stone_shield"
+    },
+    {
+      "type": "text",
+      "text": "Now, for weapons. A weapon needs a nice, good grip, so I'll need a handle.$(br2)To get the twine for a handle, I'll have to make a drying rack, which I can fashion out of some ladders made with sticks.$(br2)The drying rack can hold four items at a time. The environment I put it in can affect how fast it dries, as well as factors like the temperature of the biome I'm in."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:wooden_ladder",
+      "recipe2": "crafttweaker:standing_dryingrack"
+    },
+    {
+      "type": "text",
+      "text": "After, I'll need to break the tall grass and foliage around me to get some plant fibers. I can then place the plant fibers on the drying rack to dry them out after a short time, making dried fibers, which I can then turn into some twine.$(br2)Combining one twine with a stick gets me a handle, ready to be fashioned into a weapon. On the next few pages are some of my choices for weapons:"
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:dry_to_twine",
+      "recipe2": "crafttweaker:string_twine_handle"
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:stone_sword",
+      "text": "A simple stone arming sword, nice and sharpened. Pairs great with the shield. Not too much on the heavy side, but still weighty enough to deal some damage. A good all rounder."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:stone_mallet",
+      "text": "A blunt, heavy mallet. Fairly weighty and not the swiftest weapon, but it sure does pack a punch. Can knock back whatever enemies dare to mess with me."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:stone_mace",
+      "text": "A good hearty mace to bludgeon monsters with. Comparable to the arming sword, but it swings slightly slower. The mace seems to hurt undead monsters a bit extra, however, which might come in handy."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:stone_dagger",
+      "text": "Like the arming sword, but smaller. Not very deadly, but its ease of movement makes up for it. Can be very quickly swung for some cheap hits. Its lightness also makes it throwable, though I'll need to fetch it back myself."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:stone_warhammer",
+      "text": "A weapon with a sharpened spike at one end, great for piercing armor. It requires quite some force when swinging, so having something like a shield in my other hand might make it a lot slower to swing."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:string_twine_pole",
+      "text": "For these next weapons, I'll need a pole. It's similar to how I can make a handle, but it uses a few more sticks for that extra reach."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:stone_spear",
+      "text": "A nicely sharpened, pokey spear. The pole provides extra reach, pairing excellently with a shield for both good offense and defense."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:stone_quarterstaff",
+      "text": "A swift pole with blunt stone on both ends. Great against a group of monsters, with its wide sweeping attack. Similar to the warhammer, I'll need both hands to swing at full speed."
+    },
+    {
+      "type": "text",
+      "text": "Now for some throwable weapons. As I mentioned earlier with the dagger, these provide a ranged alternative to combat.$(br2)$(italics)$(#a84b0f)Except for the boomerang, these next weapons have 'ammo'; meaning how many times you can throw them before they must be picked up again. Some throwing weapons have more 'ammo' than others. They can still be used as melee weapons.$()"
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:stone_throwing_knife",
+      "text": "A sharp stone knife, light and throwable. Fast to wind up and throw, and equally as fast in hand to hand combat, like the dagger. Can be thrown a moderate distance."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:stone_tomahawk",
+      "text": "A heavier, more lethal throwing weapon. While it can deal more damage than the throwing knife, it comes at the sacrifice of wind up time and is sluggish in melee combat. Can't be thrown as far as the knife."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:stone_javelin",
+      "text": "A spear specially designed for throwing. Takes the longest to wind up, but deals the most damage. It can be thrown the furthest out of the three, and with the most accuracy. Moderate as a melee weapon."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:stoner_boomer",
+      "text": "A quaint little boomerang. Has the neat advantage of coming back after being thrown, meaning I won't need to come running after it all the time. Packs quite a punch, though the javelin is still the most damaging out of the four."
+    },
+    {
+      "type": "relations",
+      "entries": [
+      ]
+    }
+  ]
+}

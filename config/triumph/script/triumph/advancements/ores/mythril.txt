@@ -1,0 +1,15 @@
+setIcon("simpleores:mythril_ingot")
+setTitle("Mystical Power")
+setDescription("Mine mythril ore, a mysterious highly magic metal found near the bottom of The Beneath")
+
+addParent("triumph:advancements/ores/diamond")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("Mythril Ore", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreMythril>)
+
+alwaysVisible()
+setPos(-74,-25)
+hideLines()

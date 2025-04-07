@@ -1,0 +1,13 @@
+setIcon("contenttweaker:doll_heart")
+setTitle("Tick, tick, tick")
+setDescription("Craft Dev Relic 7 of 7 with a prototype, porcelain, and a metal infused with vitality")
+
+addParent("triumph:advancements/eastereggs/root")
+
+criteria = addCriteria("Dev Relic 7", "minecraft:inventory_changed")
+criteria.addItem("contenttweaker:doll_heart")
+
+alwaysVisible()
+hideLines()
+
+setPos(-190,138)

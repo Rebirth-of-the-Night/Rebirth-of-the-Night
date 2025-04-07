@@ -1,0 +1,13 @@
+setIcon("minecraft:diamond")
+setTitle("Diamonds!")
+setDescription("Mine diamond ore, one of the gems that can be alloyed. Mending and arcane...")
+
+addParent("triumph:advancements/ores/silver")
+
+
+criteria = addCriteria("Diamond", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreDiamond>)
+
+alwaysVisible()
+setPos(-198,-30)
+hideLines()

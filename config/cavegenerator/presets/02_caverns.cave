@@ -1,0 +1,78 @@
+{
+  imports: common_values.cave::NATURAL_STONE
+  dimensions: [ 0 ]
+  biomes: {
+    names: [
+      minecraft:forest
+      minecraft:forest_hills
+      twilightforest:twilight_glacier
+      minecraft:birch_forest
+      minecraft:birch_forest_hills
+      minecraft:roofed_forest
+      minecraft:redwood_taiga
+      minecraft:redwood_taiga_hills
+      minecraft:mutated_forest
+      minecraft:mutated_birch_forest
+      minecraft:mutated_birch_forest_hills
+      minecraft:mutated_roofed_forest
+      minecraft:desert
+      minecraft:desert_hills
+      biomesoplenty:eucalyptus_forest
+      biomesoplenty:grove
+      biomesoplenty:maple_woods
+      biomesoplenty:mystic_grove
+      biomesoplenty:orchard
+      biomesoplenty:seasonal_forest
+      biomesoplenty:woodland
+    ]
+  }
+  blacklistBiomes: true
+  replaceableBlocks: $NATURAL_STONE
+  replaceDecorators: true
+  caverns: {
+    height: [ 16, 58 ]
+    generators: {
+      frequency: 0.015
+      gain: 0.4
+      type: Cellular
+      returnType: Distance3Div
+      jitter: 0.75
+      perturb: true
+      perturbAmp: 10
+      perturbFreq: 0.025
+      invert: true
+      threshold: -0.4
+      stretch: 0.58
+    }
+  }
+  rooms: {
+    scale: 7
+    stretch: 0.8
+  }
+  tunnels: {
+    # Most tunnels will spawn alone.
+    systemChance: 0.00050
+    noiseYReduction: false
+    resizeBranches: false
+    scale: {
+      randFactor: 0
+      startVal: 4.5
+      startValRandFactor: 0
+    }
+    dPitch: {
+      factor: 0.6
+    }
+    # Spawn rate roughly in half.
+    count: 7
+    stretch: {
+      randFactor: 0
+      startVal: 0.6
+    }
+  }
+  caveBlocks: {
+    states: lava
+    height: [ 0, 9 ]
+  }
+  # Whether the preset is enabled globally.
+  enabled: true
+}

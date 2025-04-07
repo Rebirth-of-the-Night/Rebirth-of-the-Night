@@ -1,0 +1,184 @@
+[
+  {
+    "placeType": "Any",
+    "layerType": "Cutout",
+    "hasGUI": true,
+    "extraVariants": [],
+    "resourceName": "item_gate",
+    "model": "requious:assembly_block",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Any",
+    "layerType": "Cutout",
+    "hasGUI": true,
+    "extraVariants": [],
+    "resourceName": "laser",
+    "model": "requious:assembly_laser",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Any",
+    "layerType": "Cutout",
+    "hasGUI": true,
+    "extraVariants": [],
+    "resourceName": "assembler",
+    "model": "requious:assembly_slab",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "resourceName": "dryer",
+    "model": "requious:dryer",
+    "placeType": "Horizontal",
+    "hasGUI": true,
+    "colorA": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "colorB": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
+  },
+  {
+    "resourceName": "splosher",
+    "model": "requious:assembly_laser",
+    "placeType": "Any",
+    "hasGUI": true,
+    "colorA": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "colorB": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "aabb": {
+      "x1": 0.1,
+      "y1": 0.0,
+      "z1": 0.1,
+      "x2": 0.9,
+      "y2": 0.9,
+      "z2": 0.9
+    }
+  },
+  {
+    "resourceName": "interaction",
+    "model": "requious:interaction",
+    "placeType": "Any",
+    "hasGUI": true,
+    "colorA": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "colorB": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
+  },
+  {
+    "resourceName": "growth_ferment",
+    "model": "requious:fermentation",
+    "placeType": "Any",
+    "hasGUI": true,
+    "colorA": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "colorB": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
+  },
+  {
+    "placeType": "Up",
+    "hasGUI": true,
+    "resourceName": "night_jar",
+    "model": "requious:night_jar",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 3.0,
+    "blastResistance": 2.0,
+    "aabb": {
+      "x1": 0.2,
+      "y1": 0.0,
+      "z1": 0.2,
+      "x2": 0.8,
+      "y2": 0.9,
+      "z2": 0.8
+    }
+  }
+]

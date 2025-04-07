@@ -1,0 +1,12 @@
+setIcon("simpleores:copper_ingot")
+setTitle("Flimsy But Plentiful")
+setDescription("Mine copper ore, which can be alloyed with tin for bronze or with zinc for brass!")
+
+addParent("triumph:advancements/ores/root")
+
+criteria = addCriteria("Copper ore", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreCopper>)
+
+alwaysVisible()
+setPos(-456,-59)
+hideLines()

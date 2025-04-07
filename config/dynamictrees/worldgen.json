@@ -1,0 +1,45 @@
+[
+	[
+	{ "select" : { "name": "biomesoplenty:flower_island"	}, "apply" : { "blacklist": true } },
+	{ "select" : { "name": "biomesoplenty:sacred_springs"	}, "apply" : { "blacklist": true } },
+	{ "select" : { "name": "biomesoplenty:origin_island"	}, "apply" : { "blacklist": true } },
+	{
+		"__comment" : "cancels all vanilla generation except for those blacklisted above",
+		"select" : { "name": "biomesoplenty:.*" },
+		"apply" : {
+			"cancelvanilla": true
+		}
+	},
+	{
+		"__comment" : "Arid Desert has a chance to generate dead trees. But dead trees don't grow in white sand or salty crust so occurence is very rare",
+		"select": { "name": "biometweaker:atacamian_desert" },
+		"apply": {
+			"species" : "dead",
+			"chance": 0.2
+		} 
+	},
+	{
+		"__comment" : "Vanilla swamps now have actual willows in them",
+		"select": { "name": "minecraft:swampland" },
+		"apply": {
+			"species": {
+				"random": {
+					"willow": 30,
+					"oakswamp": 3,
+					"mushroombrn": 1,
+					"dead": 2
+				},
+				"method": "replace"
+			},
+			"chance": 0.85
+		}
+	},
+	{
+		"__comment" : "Frozen aether trees",
+		"select": { "name": "biometweaker:aether_cliffs" },
+		"apply": {
+			"species": "skyroot",
+			"chance": 0.3
+		}
+	}
+]

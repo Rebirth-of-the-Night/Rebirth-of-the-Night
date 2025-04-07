@@ -1,0 +1,48 @@
+name: simpleores_adamantium_ore
+mod: simpleores
+block: {
+  location: simpleores:adamantium_ore
+  hardness: 8
+  level: 3
+  light: 1
+  resistance: 5.0
+}
+loot: [
+  {
+    item: contenttweaker:material_part:10
+    count: [ 1, 3 ]
+    xp: [ 1, 3 ]
+    chance: 1
+  },
+  {
+    item: contenttweaker:viridea_seed
+    count: [ 1 ]
+    xp: [ 3, 5 ]
+    chance: 0.05
+  },
+]
+texture: {
+  shade: true
+  original: simpleores:blocks/adamantium_ore
+}
+recipe: {
+  result: simpleores:adamantium_ingot
+  xp: 0.699999988079071
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 90, 120 ]
+    size: 7
+    count: 2
+	chance: 0.25
+	dimensions: [10]
+  },
+  {
+    height: [ 121, 190 ]
+    size: 14
+    count: 4
+	chance: 0.5
+	dimensions: [10]
+  }
+]

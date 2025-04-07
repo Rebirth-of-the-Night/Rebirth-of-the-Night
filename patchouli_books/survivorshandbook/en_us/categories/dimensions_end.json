@@ -1,0 +1,8 @@
+{
+  "name": "The End",
+  "description": "Islands of alien life in a seemingly infinite void...",
+  "icon": "minecraft:end_stone",
+  "sortnum": 6,
+  "read_by_default": "true",
+  "parent": "dimensions"
+}

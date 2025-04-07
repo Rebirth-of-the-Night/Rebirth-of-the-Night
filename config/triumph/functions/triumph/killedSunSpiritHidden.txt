@@ -1,0 +1,10 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+title @p times 40 120 60
+title @p subtitle {"text":"A terrible dread seeps into your bones...", "color":"white"}
+title @p title {"text":"The Dead of Winter", "bold":false, "italic":true, "color":"black"}
+tellraw @p {"text":"More ley lines have opened; magicite has been infused with new quintessences...","color":"gold"}
+playsound dsurround:wind ambient @p ~ ~ ~ 0.8 0.5
+gamestage silentadd @p killedSunSpirit
+effect @p netherex:frostbitten 180 1
+give @p scalinghealth:crystalshard 5

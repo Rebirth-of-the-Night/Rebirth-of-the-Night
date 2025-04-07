@@ -1,0 +1,37 @@
+{
+  "name": "Chillager",
+  "icon": "iceologer:ice_wand",
+  "category": "civilization_illagers",
+  "read_by_default": "true",
+  "pages": [
+	  {
+      "type": "text",
+      "text": "The Chillager is an illager that wields formiddable ice magic - manifesting itself as a giant boulder of ice that gets hurled on my head. The ice is plenty freezing and slows me down, and it hurts, to be sure.$(br2)Besides that, the Chillager does not seem to possess other methods of offense."
+    },
+    {
+      "type": "entity",
+          "entity": "iceologer:iceologer",
+          "scale": 0.8,
+          "offset": 0.25,
+          "rotate": "true",
+        "default_rotation": -45,
+        "text": "Their distinctive attire: a cozy blue cloak and cape, with striking blue face markings."
+    },
+    {
+    "type": "spotlight",
+    "item": "iceologer:ice_wand",
+    "title": "Cryomancy",
+    "text": "It would seem that the Chillager's powers lie within this wand; I can now gain my own mastery over the powers of cryomancy.$(br2)Using this wand will allow me to hurl my own ice boulders at whatever feels like having a bad time with me."
+    },
+    {
+    "type": "entity",
+        "entity": "iceologer:icecube",
+        "scale": 0.8,
+        "offset": -0.1,
+        "rotate": "true",
+      "default_rotation": -45,
+      "name": "Ice Boulder",
+      "text": "These ice boulders will follow their target until it crashes down on my foe. Frosty!"
+    }
+  ]
+}

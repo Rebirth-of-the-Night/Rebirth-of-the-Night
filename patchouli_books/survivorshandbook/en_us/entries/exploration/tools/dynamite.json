@@ -1,0 +1,23 @@
+{
+    "name": "Dynamite",
+    "icon": "betterwithmods:dynamite_bundle",
+    "category": "exploration_tools",
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "betterwithmods:dynamite_bundle",
+            "text": "Mining out a large section of stone can prove to be quite cumbersome, so I might resort to using $(thing)dynamite$() and $(thing)dynamite bundles$() to clear it out.$(br2)I can also make $(thing)mining charges$() with $(thing)dynamite bundles$() to have a more controlled explosion."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:betterwithmodsdynamite",
+            "recipe2": "betterwithmods:items/dynamite_bundle"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:betterminingcharge",
+            "recipe2": "crafttweaker:tnt_dynamite"
+        }
+    ]
+}

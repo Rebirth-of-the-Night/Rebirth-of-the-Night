@@ -1,0 +1,79 @@
+{
+	"populate": 
+	{
+		"blue_fire": {
+            "distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": "netherex:blue_fire",
+				"surface": "netherex:frostburn_ice",
+				"cluster-size": 3
+				},
+			"material": [
+					{
+					"name": "netherex:frostburn_ice"
+					}
+				],
+			"cluster-count": 5,
+			"chunk-chance": 1,
+			"biome": {
+				"restriction": "whitelist",
+				"value": "biometweaker:aether_cliffs"
+			}
+		},
+		"ice_spikes": {
+            "distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": "iceandfire:dragon_ice_spikes",
+				"surface": "netherex:frostburn_ice",
+				"cluster-size": 3
+				},
+			"material": [
+					{
+					"name": "netherex:frostburn_ice"
+					}
+				],
+			"cluster-count": 20,
+			"chunk-chance": 1,
+			"biome": {
+				"restriction": "whitelist",
+				"value": "biometweaker:aether_cliffs"
+			}
+		},
+		"dread_clouds": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "geode",
+				"block": {
+					"name":"adpother:dreadmist",
+					"properties": {
+							"density" : "heavy"
+						}
+				},
+				"material": "minecraft:air",
+				"hollow": true,
+				"filler": {
+					"name":"adpother:dreadmist",
+					"properties": {
+							"density" : "heavy"
+						}
+				},
+				"crust": {
+					"name":"adpother:dreadmist",
+					"properties": {
+							"density" : "heavy"
+						}
+				}
+			},
+			"cluster-count": 1,
+			"chunk-chance": 10,
+			"min-height": 219,
+			"max-height": 220,
+			"biome": {
+				"restriction": "whitelist",
+				"value": "biometweaker:aether_cliffs"
+			}
+		}
+	}
+}

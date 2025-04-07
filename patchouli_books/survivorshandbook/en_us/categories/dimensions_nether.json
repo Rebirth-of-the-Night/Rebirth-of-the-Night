@@ -1,0 +1,8 @@
+{
+  "name": "The Nether",
+  "description": "In the deepest layers of the earth lie a hellish heat-blasted landscape...",
+  "icon": "minecraft:netherrack",
+  "sortnum": 3,
+  "read_by_default": "true",
+  "parent": "dimensions"
+}

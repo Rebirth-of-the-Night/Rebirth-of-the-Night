@@ -1,0 +1,24 @@
+setIcon(<solcarrot:food_book>)
+setTitle("Epicurean's Tattered Dietary Guide")
+setDescription("Find the Tattered Dietary Guide.")
+
+
+addParent("triumph:advancements/progression/root")
+
+addRewardFunction("triumph:food_book")
+
+
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(true)
+
+criteria = addCriteria("Epicurean's Tattered Dietary Guide", "minecraft:inventory_changed")
+criteria.addItem("solcarrot:food_book")
+
+hideLines()
+
+alwaysVisible()
+setPos(-53,29)

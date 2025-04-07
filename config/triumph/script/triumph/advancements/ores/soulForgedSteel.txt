@@ -1,0 +1,12 @@
+setIcon(<betterwithmods:material:14>)
+setTitle("Soul Imbued Steel")
+setDescription("Craft soulforged steel, a forbidden alloy that can tank anything but the pain it feels")
+
+addParent("triumph:advancements/ores/crudesteel")
+
+criteria = addCriteria("Soulforged Steel", "minecraft:inventory_changed")
+criteria.addItem(<betterwithmods:material:14>)
+
+
+alwaysVisible()
+setPos(-74,-79)

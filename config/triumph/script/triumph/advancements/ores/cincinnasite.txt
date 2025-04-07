@@ -1,0 +1,12 @@
+setIcon("betternether:cincinnasite")
+setTitle("Beauty From Hell")
+setDescription("Mine cincinnasite ore, a peculiarly golden metal extensively used in the past in the Nether")
+
+addParent("triumph:advancements/ores/bronze")
+
+criteria = addCriteria("Cincinnasite", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreCincinnasite>)
+
+alwaysVisible()
+setPos(-170,-104)
+hideLines()

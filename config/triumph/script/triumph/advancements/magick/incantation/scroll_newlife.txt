@@ -1,0 +1,14 @@
+setIcon(<lifescroll:spawnscroll>)
+setTitle("Ancestral Recall")
+setDescription("Anchor your soul to your current location.")
+
+
+addParent("triumph:advancements/magick/incantation/incantation")
+
+criteria = addCriteria("impossible", "minecraft:impossible")
+// advancement granted via scripts/events.zs
+
+hideLines()
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-330,-365)

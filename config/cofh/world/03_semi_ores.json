@@ -1,0 +1,163 @@
+{
+	"dependencies": [
+		"cavegenerator",
+		"bettermineshafts",
+		"rotn_blocks"
+		],
+	"populate": 
+	{
+		"wonder_geode": {
+			"distribution": "cave",
+			"generator": {
+				"type": "cluster",
+				"block": [
+					{
+						"name": "rotn_blocks:wonder_geode",
+						"weight": 6
+					},
+					{
+						"name": "contenttweaker:marmatite",
+						"weight": 1
+					}
+				],
+				"cluster-size": 7
+				},
+			"cluster-count": 3,
+			"material": [
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+			"ground-level": 60,
+			"chunk-chance": 2,
+			"retrogen": "true"
+		},
+		"ancient_slag": {
+			"distribution": "gaussian",
+			"generator": {
+				"type": "lake",
+				"block": "contenttweaker:raw_wrought_iron",
+				"material": [
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"use-material": true,
+				"solid-outline": true,
+				"total-outline": true,
+				"outline-block":{
+					"name": "pyrotech:pile_slag",
+					"weight": 12
+					},
+				"gap-block": "contenttweaker:raw_wrought_iron"
+			},
+			"cluster-count": 1,
+			"chunk-chance": 18,
+			"center-height": 50,
+			"spread": 10,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0,
+					7
+				]
+			}
+		},
+		"ancient_ocean_slag": {
+			"distribution": "gaussian",
+			"generator": {
+				"type": "lake",
+				"block": "contenttweaker:raw_wrought_iron",
+				"material": [
+					"minecraft:sand",
+					"minecraft:dirt",
+					"minecraft:gravel"
+				],
+				"use-material": true,
+				"solid-outline": true,
+				"total-outline": true,
+				"outline-block":[
+					{
+					"name": "pyrotech:pile_slag",
+					"weight": 12
+					},
+					{
+					"name": "minecraft:sandstone",
+					"weight": 12
+					}
+				],
+				"gap-block": "contenttweaker:raw_wrought_iron"
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"center-height": 46,
+			"spread": 3,
+			"biome": {
+				"restriction": "whitelist",
+				"value": "minecraft:ocean"
+			},
+			"retrogen": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"arid_desert_halite": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": "contenttweaker:halite",
+				"surface": "contenttweaker:salty_crust",
+				"see-sky": true,
+				"cluster-size": 9
+			},
+			"material": "contenttweaker:salty_crust",
+			"cluster-count": 1,
+			"chunk-chance": 10,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": "biometweaker:atacamian_desert"
+			}
+		},
+		"zinc_pebbles": {
+			"distribution": "cave",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech:rock",
+						"properties": {
+							"variant" : "rock_andesite"
+						}
+					}
+				],
+				"surface": [
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"material": "air",
+				"cluster-size": 64,
+				"see-sky": false
+				},
+			"cluster-count": 48,
+			"ground-level": 64,
+			"chunk-chance": 8,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "FROZEN"
+					}
+				]
+			}
+		}
+	}
+}

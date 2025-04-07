@@ -1,0 +1,12 @@
+setIcon("simpleores:tin_ingot")
+setTitle("Not Quite Iron")
+setDescription("Mine tin ore, which can be alloyed with copper for bronze!")
+
+addParent("triumph:advancements/ores/copper")
+
+criteria = addCriteria("Tin ore", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreTin>)
+
+alwaysVisible()
+setPos(-409,-59)
+hideLines()

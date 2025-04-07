@@ -1,0 +1,14 @@
+name = "Beast Slayer"
+filename = "ancientbeasts-1.9.99999.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "b6c609b965124cb230888f3c9e566aeb8b3cfd60"
+
+[update]
+[update.curseforge]
+file-id = 4060888
+project-id = 518157

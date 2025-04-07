@@ -1,0 +1,56 @@
+{
+  "name": "Wood and Crafting",
+  "icon": "pyrotech:crude_axe",
+  "category": "newbeginning",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "minecraft:log",
+      "title": "Getting Wood",
+      "text": "Well, no use in lollygagging about for too long. If I'm going to be prepared, I need to get to work now.$(br2)I'll start by finding the nearest tree and punching it at the very base until it falls. Then, I'll need to gather up some rocks and sticks for my next move."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:pyro_crude_axe",
+      "text": "I'll eventually need to build a workshop; for now, I need a crafting table, to work smarter and not harder.$(br2)Until then, I can make a crude axe to get some planks."
+    },
+    {
+      "type": "chop_recipe",
+      "item1": "minecraft:log",
+      "item2": "hitwithaxe:debarked_oak",
+      "item3": "minecraft:planks",
+      "text": "Debarking comes first; I can turn stripped logs into planks, and sticks, if I need to. After, I can gather up more loose rocks and sticks and combine them with my crude axe to make implements for a crafting table:"
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:crafting_tools",
+      "text": "Then, I can place the crafting tools on the plank I just processed earlier, like so:"
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:crafting_table",
+      "text": "Ta-da! A fully fledged crafting table. With this, I can now more efficiently saw up planks from logs, at a rate of three planks per wood log:"
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:oak_planks",
+      "text": "Additionally, I can create more complex items with my larger and more sturdy workspace. I should also look into making a $(thing)portable crafting mat$(), great for crafting on the go:"
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:crafting_mat",
+      "text": "Now, I should look at making some basic tools. A $(thing)pickaxe$(), a weapon like an $(thing)arming sword$(), a $(thing)shield$() and a $(thing)drying rack$() sound like a good place to start."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "survival/gathering/string",
+        "newbeginning/basic_tools_weapons",
+        "survival/gathering/carminberries",
+        "survival/gathering/hawthorne",
+        "innovation/light_machines/saw"
+      ]
+    }
+  ]
+}

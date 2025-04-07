@@ -1,0 +1,16 @@
+behgameon:shield1
+behgameon:shield10
+behgameon:shield11
+behgameon:shield12
+behgameon:shield13
+behgameon:shield14
+behgameon:shield15
+behgameon:shield2
+behgameon:shield3
+behgameon:shield4
+behgameon:shield5
+behgameon:shield6
+behgameon:shield7
+behgameon:shield8
+behgameon:shield9
+dungeontactics:alchemist_brew

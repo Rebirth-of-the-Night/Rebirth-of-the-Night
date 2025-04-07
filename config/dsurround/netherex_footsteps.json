@@ -1,0 +1,69 @@
+{
+	"items": {
+		"LEATHER": [
+			"netherex:salamander_hide_helmet",
+			"netherex:salamander_hide_chestplate",
+			"netherex:salamander_hide_leggings",
+			"netherex:salamander_hide_boots"
+		],
+		"AXE": [
+			"netherex.item.ItemGoldenWitherBoneAxe",
+			"netherex.item.ItemGoldenWitherBonePickaxe"
+		],
+		"SWORD": [
+			"netherex.item.ItemGoldenWitherBoneSword"
+		],
+		"TOOL": [
+			"netherex.item.ItemGoldenWitherBoneHoe",
+			"netherex.item.ItemGoldenWitherBoneShovel"
+		]
+	},
+	"footsteps": {
+		"minecraft:netherrack": "stone",
+		"netherex:netherrack_path": "stone",
+		"netherex:hyphae": "stone,grass",
+		"netherex:elder_mushroom_cap": "organic",
+		"netherex:elder_mushroom_stem": "organic",
+		"netherex:enoki_mushroom_stem": "organic",
+		"netherex:enoki_mushroom_cap": "organic",
+		"netherex:rime_block": "composite",
+		"netherex:frostburn_ice": "ice",
+		"minecraft:red_nether_brick": "brickstone",
+		"netherex:red_nether_brick_stairs": "brickstone",
+		"netherex:red_nether_brick_slab": "brickstone",
+		"netherex:red_nether_brick_fence+bigger": "brickstone",
+		"netherex:red_nether_brick_fence_gate+bigger": "brickstone",
+		"futuremc:red_nether_brick_wall+bigger": "brickstone",
+		"netherex:fiery_nether_brick": "brickstone",
+		"netherex:fiery_nether_brick_stairs": "brickstone",
+		"netherex:fiery_nether_brick_slab": "brickstone",
+		"netherex:fiery_nether_brick_fence+bigger": "brickstone",
+		"netherex:fiery_nether_brick_fence_gate+bigger": "brickstone",
+		"netherex:fiery_nether_brick_wall+bigger": "brickstone",
+		"netherex:basalt_stairs": "obsidian",
+		"netherex:basalt_smooth_stairs": "obsidian",
+		"netherex:basalt_brick_stairs": "obsidian",
+		"netherex:basalt_pillar_stairs": "obsidian",
+		"netherex:basalt_slab": "obsidian",
+		"netherex:basalt_fence": "brickstone",
+		"netherex:basalt_wall": "obsidian",
+		"netherex:quartz_fence_gate": "marble",
+		"netherex:basalt_fence_gate": "obsidian",
+		"netherex:basalt_smooth_fence_gate": "obsidian",
+		"netherex:basalt_brick_fence_gate": "obsidian",
+		"netherex:basalt_pillar_fence_gate": "obsidian",
+		"netherex:thornstalk[part=top]": "straw",
+		"netherex:thornstalk[part=middle]": "straw",
+		"netherex:thornstalk[part=bottom]": "straw",
+		"netherex:thornstalk[part=top]+foliage": "straw",
+		"netherex:thornstalk[part=middle]+foliage": "straw",
+		"netherex:thornstalk[part=bottom]+foliage": "straw",
+		"netherex:tilled_soul_sand": "quicksand",
+		"netherex:icy_nether_brick_stairs": "brickstone",
+		"netherex:lively_nether_brick_stairs": "brickstone",
+		"netherex:gloomy_nether_brick_stairs": "brickstone",
+		"netherex:icy_nether_brick_fence_gate+bigger": "brickstone",
+		"netherex:lively_nether_brick_fence_gate+bigger": "brickstone",
+		"netherex:gloomy_nether_brick_fence_gate+bigger": "brickstone"
+	}
+}

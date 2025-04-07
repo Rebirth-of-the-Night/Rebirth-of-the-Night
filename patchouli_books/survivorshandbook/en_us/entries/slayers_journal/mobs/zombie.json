@@ -1,0 +1,26 @@
+{
+    "name": "Zombie",
+    "icon": "minecraft:rotten_flesh",
+    "category": "slayers_journal_mobs",
+    "advancement": "triumph:advancements/progression/slayersjournal",
+    "sortnum": 1,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "text",
+            "text": "At night, the undead rise.$(br2)The $(thing)zombie$() is the most common of them, making up the \"infantry\" of the nightly hordes of monsters.$(br2)While the $(thing)zombie$() by itself is not much of a threat, only being able to harm via direct touch, it is in their numbers that their strengths lie; congregating in packs, ready to gang up"
+        },
+        {
+            "type": "text",
+            "text": "on the unsuspecting, using some form of silent communication to alert the others, coordinate their attacks, and even summon more of their brethren to rise from the ground, if necessary.$(br2)The $(thing)zombie$() is also a hungry creature with a keen sense of smell, and in pursuit of sustenance it will perform all manner of tricks and maneuvers to get to the flesh it so craves: digging, breaking, and smashing"
+        },
+        {
+            "type": "text",
+            "text": "through any obstacles, riding their own undead cavalry, wielding shields, weapons, pickaxes, and even explosives, all while running, jumping, and strafing towards their target, and fleeing, if in critical condition.$(br2)To think that every night, overwhelming numbers of these creatures rise, seeking out any living, sentient peoples and hunting them down ruthlessly and"
+        },
+        {
+            "type": "text",
+            "text": "unceasingly; no wonder the world is so sparsely populated. If I am to stay alive, I must utilize every measure I can to beat back the night and fight fervently for my own survival."
+        }
+    ]
+}

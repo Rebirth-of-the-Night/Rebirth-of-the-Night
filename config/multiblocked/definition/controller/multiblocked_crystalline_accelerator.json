@@ -1,0 +1,230 @@
+{
+  "version": 2,
+  "location": "multiblocked:crystalline_accelerator",
+  "traits": {
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 32,
+        "y": 77,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 118,
+        "y": 76,
+        "autoIO": false
+      }
+    ],
+    "fluid": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 70,
+        "y": 74,
+        "autoIO": false,
+        "tC": 1000
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "aesthetics:mythril_bars",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "lightEmissive": 7,
+      "parent": "unformed"
+    },
+    "working": {
+      "lightEmissive": 15,
+      "parent": "idle",
+      "sound": {
+        "sound": "minecraft:block.enchantment_table.use",
+        "loop": true,
+        "delay": 0,
+        "volume": 0.5,
+        "pitch": 2.0
+      }
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "accelerator",
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "   ",
+        "A A",
+        "   ",
+        "   ",
+        "BBB",
+        "   "
+      ],
+      [
+        " C ",
+        "DED",
+        " F ",
+        " @ ",
+        "GHI",
+        " J "
+      ],
+      [
+        "   ",
+        "DDD",
+        "KDK",
+        "KDK",
+        "DDD",
+        "   "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "output": {
+        "capability": "item",
+        "type": "capability",
+        "io": "OUT"
+      },
+      "mythril": {
+        "blocks": [
+          {
+            "id": "contenttweaker:residual_mythril"
+          }
+        ],
+        "type": "blocks"
+      },
+      "res": {
+        "blocks": [
+          {
+            "id": "arcanearchives:radiant_resonator"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "multiblocked:crystalline_accelerator",
+        "type": "component"
+      },
+      "stair": {
+        "blocks": [
+          {
+            "id": "aesthetics:iron_brick_stairs"
+          }
+        ],
+        "type": "blocks"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "contenttweaker:magicked_stone",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "quartz": {
+        "blocks": [
+          {
+            "id": "arcanearchives:raw_quartz_cluster"
+          }
+        ],
+        "type": "blocks"
+      },
+      "fluid": {
+        "capability": "fluid",
+        "type": "capability",
+        "io": "IN"
+      },
+      "K": {
+        "states": [
+          {
+            "id": "betterwithaddons:wrought_bars",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "stair"
+      ],
+      "B": [
+        "stair"
+      ],
+      "C": [
+        "output"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "res"
+      ],
+      "F": [
+        "quartz"
+      ],
+      "G": [
+        "stair"
+      ],
+      "H": [
+        "mythril"
+      ],
+      "I": [
+        "stair"
+      ],
+      "J": [
+        "fluid"
+      ],
+      "K": [
+        "K"
+      ]
+    }
+  }
+}

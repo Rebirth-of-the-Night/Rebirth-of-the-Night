@@ -1,0 +1,34 @@
+name: simpleores_mythril_ore
+mod: simpleores
+block: {
+  location: simpleores:mythril_ore
+  light: 7
+  hardness: 10
+  level: 3
+}
+loot: [
+  {
+    item: contenttweaker:raw_mythril
+    count: [ 1, 2 ]
+    xp: [ 3, 5 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: true
+  original: simpleores:blocks/mythril_ore
+}
+recipe: {
+  result: simpleores:mythril_ingot
+  xp: 0.699999988079071
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 60 ]
+    size: 10
+    count: 3
+	chance: 0.45
+	dimensions: [10]
+  }
+]

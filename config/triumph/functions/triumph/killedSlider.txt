@@ -1,0 +1,3 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+advancement grant @p only triumph:advancements/progression/hidden/hiddenKilledSlider

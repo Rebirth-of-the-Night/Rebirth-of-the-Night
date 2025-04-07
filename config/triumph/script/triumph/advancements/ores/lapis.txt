@@ -1,0 +1,12 @@
+setIcon(<minecraft:dye, meta:4>)
+setTitle("We Can Enchant!")
+setDescription("Mine lapis ore, a beautiful opaque stone commonly associated with magick")
+
+addParent("triumph:advancements/ores/bronze")
+
+criteria = addCriteria("Lapis", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreLapis>)
+
+alwaysVisible()
+setPos(-213,44)
+hideLines()

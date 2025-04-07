@@ -1,0 +1,12 @@
+setIcon(<minecraft:coal>)
+setTitle("Being Naughty")
+setDescription("Mine coal ore, an excellent (not yet explosive) fuel")
+
+addParent("triumph:advancements/ores/root")
+
+criteria = addCriteria("Lapis", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreCoal>)
+
+alwaysVisible()
+setPos(-456,39)
+hideLines()
