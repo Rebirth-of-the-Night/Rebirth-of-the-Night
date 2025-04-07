@@ -714,7 +714,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 // MACHINES
 <multiblocked:gale_chamber>.addTooltip(format.gold("Right click with two brass blocks to construct!"));
 <multiblocked:biotic_incubator>.addTooltip(format.gold("Right click with two brass blocks to construct!"));
-<multiblocked:pyro_reactor>.addTooltip(format.gold("WIP, do not use."));
+<multiblocked:pyro_reactor>.addTooltip(format.gold("Right click with two brass blocks to construct!"));
 <multiblocked:multiblock_builder>.addTooltip(format.gold("Right click on a controller to build the multiblock machine automatically!"));
 <multiblocked:multiblock_builder>.removeTooltip("auto build");
 

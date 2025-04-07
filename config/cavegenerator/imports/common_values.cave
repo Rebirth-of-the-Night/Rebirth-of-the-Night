@@ -256,8 +256,10 @@
     minecraft:dirt
     minecraft:dirt:2
     minecraft:snow
+    minecraft:gravel
     contenttweaker:weathered_dirt
     minecraft:grass
+    biomesoplenty:dirt
     biomesoplenty:dirt:0
     biomesoplenty:dirt:1
     biomesoplenty:dirt:2
@@ -269,6 +271,7 @@
     biomesoplenty:grass:3
     biomesoplenty:grass:4
     biomesoplenty:grass:7
+    biomesoplenty:hard_ice
     biomesoplenty:hard_ice:0
   ]
 }
