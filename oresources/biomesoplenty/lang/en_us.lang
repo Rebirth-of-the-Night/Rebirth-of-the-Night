@@ -1,5 +1,6 @@
 item.berries.name=Hawberry
-tile.plant_0.berrybush.name=Hawthorn Bush
+tile.plant_0.berrybush.name=Ripe Hawthorn Bush
+tile.plant_0.bush.name=Hawthorn Bush
 
 item.persimmon.name=Jiro Persimmon
 item.peach.name=Nectarine Peach
@@ -26,6 +27,10 @@ tile.gem_block.amethyst_block.name=Block of Exorite
 tile.gem_ore.amethyst_ore.name=Exorite Ore
 
 tile.ash_block.name=Block of Ashes
+tile.mud.mud.name=Block of Mud
+
+item.fleshchunk.name=Flesh Chunk
+tile.flesh.name=Block of Flesh
 
 tile.grass.daisy_grass_block.name=Composite Flowering Grass Block
 

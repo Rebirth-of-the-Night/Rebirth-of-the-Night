@@ -36,6 +36,7 @@ tile.netherWartBlock.name=Block of Nether Wart
 tile.purpurBlock.name=Block of Purpur
 tile.brick.name=Block of Bricks
 tile.netherBrick.name=Block of Nether Bricks
+tile.clay.name=Block of Clay
 
 item.cauldron.name=Fluid Cauldron
 tile.hayBlock.name=Straw Bale
@@ -59,6 +60,7 @@ item.slimeball.name=Green Slimeball
 item.arrow.name=Flint Arrow
 item.cookie.name=Chocolate Chip Cookie
 item.brick.name=Clay Brick
+item.clay.name=Clay Ball
 
 item.swordIron.name=Iron Arming Sword
 item.swordStone.name=Stone Arming Sword

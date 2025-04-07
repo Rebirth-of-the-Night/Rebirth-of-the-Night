@@ -170,6 +170,8 @@ recipes.addShaped("fat_candle", <betterwithmods:candle>*2, [
 	[<ore:burnable_fat>]
 ]);
 
+recipes.addShapeless("clay_brick_revert",<minecraft:clay_ball>,[<betterwithmods:unfired_pottery:4>]);
+
 recipes.remove(<simple_paraglider:paraglider>);
 recipes.addShaped("paraglider", <simple_paraglider:paraglider>, [
     [<betterwithmods:material:11>,<contenttweaker:raw_gravitite>,<betterwithmods:material:11>],
