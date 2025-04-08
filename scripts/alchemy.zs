@@ -103,9 +103,6 @@ recipes.addShaped(<rustic:retort>, [
 recipes.remove(<rustic:condenser_advanced>);
 recipes.remove(<rustic:retort_advanced>);
 
-
-
-
 //advanced condenser
 RecipeBuilder.get("mage")
   .setShaped([
@@ -304,3 +301,117 @@ Condenser.addRecipe(nightvisionElixirEnd, [<mowziesmobs:glowing_jelly>, <rotn_bl
 
 /////CRAFTABLE POST-TWILIGHT FOREST\\\\\
 Condenser.addRecipe(flightElixirTF, [heart, angel, firetears], voidseen, bottle, gravitite * 720); //this effect will eventually be moved to a bauble, and the fuel for said bauble will be craftable at this stage instead
+
+/////DYNAMIC TREES POTIONS\\\\\
+/*Biochar*/ Condenser.addRecipe(<dynamictrees:dendropotion:0>, [<minecraft:coal:1>], null, <minecraft:potion>.withTag({Potion: "minecraft:water"}), null);
+/*Depletion*/ Condenser.addRecipe(<dynamictrees:dendropotion:1>, [<minecraft:slime_ball>], null, <dynamictrees:dendropotion:0>, null);
+/*Gigas*/ Condenser.addRecipe(<dynamictrees:dendropotion:2>, [<minecraft:pumpkin_seeds>], null, <dynamictrees:dendropotion:0>, null);
+/*Burgeoning*/ Condenser.addRecipe(<dynamictrees:dendropotion:3>, [<minecraft:ghast_tear>], null, <dynamictrees:dendropotion:0>, null);
+/*Transformation Base*/ Condenser.addRecipe(<dynamictrees:dendropotion:6>, [<minecraft:prismarine_crystals>], null, <dynamictrees:dendropotion:0>, null);
+
+var transformationTargets as IIngredient[string] = {
+    "dynamictrees:apple": <dynamictrees:appleseed>,
+    "dynamictrees:oak": <dynamictrees:oakseed>,
+    "dynamictrees:spruce": <dynamictrees:spruceseed>,
+    "dynamictrees:birch": <dynamictrees:birchseed>,
+    "dynamictrees:jungle": <dynamictrees:jungleseed>,
+    "dynamictrees:acacia": <dynamictrees:acaciaseed>,
+    "dynamictrees:darkoak": <dynamictrees:darkoakseed>,
+    "dynamictrees:cactus": <dynamictrees:cactusseed>,
+    "dynamictreesbop:floweringoak": <dynamictreesbop:floweringoakseed>,
+    "dynamictreesbop:yellowautumn": <dynamictreesbop:yellowautumnseed>,
+    "dynamictreesbop:orangeautumn": <dynamictreesbop:orangeautumnseed>,
+    "dynamictreesbop:oakdying": <dynamictreesbop:oakdyingseed>,
+    "dynamictreesbop:maple": <dynamictreesbop:mapleseed>,
+    "dynamictreesbop:persimmon": <dynamictreesbop:persimmonseed>,
+    "dynamictreesbop:peach": <dynamictreesbop:peachseed>,
+    "dynamictreesbop:pear": <dynamictreesbop:pearseed>,
+    "dynamictreesbop:poplar": <dynamictreesbop:poplarseed>,
+    "dynamictreesbop:darkpoplar": <dynamictreesbop:darkpoplarseed>,
+    "dynamictreesbop:magic": <dynamictreesbop:magicseed>,
+    "dynamictreesbop:umbranconifer": <dynamictreesbop:umbranconiferseed>,
+    "dynamictreesbop:umbran": <dynamictreesbop:umbranseed>,
+    "dynamictreesbop:fir": <dynamictreesbop:firseed>,
+    "dynamictreesbop:whitecherry": <dynamictreesbop:whitecherryseed>,
+    "dynamictreesbop:pinkcherry": <dynamictreesbop:pinkcherryseed>,
+    "dynamictreesbop:jacaranda": <dynamictreesbop:jacarandaseed>,
+    "dynamictreesbop:redwood": <dynamictreesbop:redwoodseed>,
+    "dynamictreesbop:willow": <dynamictreesbop:willowseed>,
+    "dynamictreesbop:hellbark": <dynamictreesbop:hellbarkseed>,
+    "dynamictreesbop:pine": <dynamictreesbop:pineseed>,
+    "dynamictreesbop:palm": <dynamictreesbop:palmseed>,
+    "dynamictreesbop:mahogany": <dynamictreesbop:mahoganyseed>,
+    "dynamictreesbop:mangrove": <dynamictreesbop:mangroveseed>,
+    "dynamictreesbop:ebony": <dynamictreesbop:ebonyseed>,
+    "dynamictreesbop:bamboo": <dynamictreesbop:bambooseed>,
+    "dynamictreesbop:eucalyptus": <dynamictreesbop:eucalyptusseed>,
+    "dynamictreesphc:papaya" : <dynamictreesphc:papayaseed>,
+    "dynamictreesphc:cherry" : <dynamictreesphc:cherryseed>,
+    "dynamictreesphc:fig" : <dynamictreesphc:figseed>,
+    "dynamictreesphc:soursop" : <dynamictreesphc:soursopseed>,
+    "dynamictreesphc:rambutan" : <dynamictreesphc:rambutanseed>,
+    "dynamictreesphc:jackfruit" : <dynamictreesphc:jackfruitseed>,
+    "dynamictreesphc:lemon" : <dynamictreesphc:lemonseed>,
+    "dynamictreesphc:pear" : <dynamictreesphc:pearseed>,
+    "dynamictreesphc:olive" : <dynamictreesphc:oliveseed>,
+    "dynamictreesphc:spiderweb" : <dynamictreesphc:spiderwebseed>,
+    "dynamictreesphc:grapefruit" : <dynamictreesphc:grapefruitseed>,
+    "dynamictreesphc:pomegranate" : <dynamictreesphc:pomegranateseed>,
+    "dynamictreesphc:cashew" : <dynamictreesphc:cashewseed>,
+    "dynamictreesphc:vanillabean" : <dynamictreesphc:vanillabeanseed>,
+    "dynamictreesphc:starfruit" : <dynamictreesphc:starfruitseed>,
+    "dynamictreesphc:banana" : <dynamictreesphc:bananaseed>,
+    "dynamictreesphc:plum" : <dynamictreesphc:plumseed>,
+    "dynamictreesphc:avocado" : <dynamictreesphc:avocadoseed>,
+    "dynamictreesphc:pecan" : <dynamictreesphc:pecanseed>,
+    "dynamictreesphc:pistachio" : <dynamictreesphc:pistachioseed>,
+    "dynamictreesphc:hazelnut" : <dynamictreesphc:hazelnutseed>,
+    "dynamictreesphc:lime" : <dynamictreesphc:limeseed>,
+    "dynamictreesphc:peppercorn" : <dynamictreesphc:peppercornseed>,
+    "dynamictreesphc:almond" : <dynamictreesphc:almondseed>,
+    "dynamictreesphc:gooseberry" : <dynamictreesphc:gooseberryseed>,
+    "dynamictreesphc:peach" : <dynamictreesphc:peachseed>,
+    "dynamictreesphc:chestnut" : <dynamictreesphc:chestnutseed>,
+    "dynamictreesphc:pawpaw" : <dynamictreesphc:pawpawseed>,
+    "dynamictreesphc:coconut" : <dynamictreesphc:coconutseed>,
+    "dynamictreesphc:mango" : <dynamictreesphc:mangoseed>,
+    "dynamictreesphc:apricot" : <dynamictreesphc:apricotseed>,
+    "dynamictreesphc:orange" : <dynamictreesphc:orangeseed>,
+    "dynamictreesphc:walnut" : <dynamictreesphc:walnutseed>,
+    "dynamictreesphc:lychee" : <dynamictreesphc:lycheeseed>,
+    "dynamictreesphc:persimmon" : <dynamictreesphc:persimmonseed>,
+    "dynamictreesphc:guava" : <dynamictreesphc:guavaseed>,
+    "dynamictreesphc:breadfruit" : <dynamictreesphc:breadfruitseed>,
+    "dynamictreesphc:nutmeg" : <dynamictreesphc:nutmegseed>,
+    "dynamictreesphc:durian" : <dynamictreesphc:durianseed>,
+    "dynamictreesphc:tamarind" : <dynamictreesphc:tamarindseed>,
+    "dynamictreesphc:passionfruit" : <dynamictreesphc:passionfruitseed>,
+    "dynamictreesphc:cinnamon" : <dynamictreesphc:cinnamonseed>,
+    "dynamictreesphc:maple" : <dynamictreesphc:mapleseed>,
+    "dynamictreesphc:paperbark" : <dynamictreesphc:paperbarkseed>,
+    "dynamictreesphc:date" : <dynamictreesphc:dateseed>,
+    "dynamictreesphc:dragonfruit" : <dynamictreesphc:dragonfruitseed>,
+    "dynamictreesdefiledlands:tenebra" : <dynamictreesdefiledlands:tenebraseed>,
+    "dynamictreesquark:blossoming" : <dynamictreesquark:blossomingseed>,
+    "dynamictreesquark:swampoak" : <dynamictreesquark:swampoakseed>,
+    "dynamictreestheaether:skyroot" : <dynamictreestheaether:skyrootseed>,
+    "dynamictreestheaether:goldenoak" : <dynamictreestheaether:goldenoakseed>,
+    "dynamictreestheaether:crystal" : <dynamictreestheaether:crystalseed>,
+    "dynamictreestheaether:holiday" : <dynamictreestheaether:holidayseed>,
+    "dynamictreesttf:sicklytwilightoak" : <dynamictreesttf:sicklytwilightoakseed>,
+    "dynamictreesttf:robusttwilightoak" : <dynamictreesttf:robusttwilightoakseed>,
+    "dynamictreesttf:canopy" : <dynamictreesttf:canopyseed>,
+    "dynamictreesttf:mangrove" : <dynamictreesttf:mangroveseed>,
+    "dynamictreesttf:darkwood" : <dynamictreesttf:darkwoodseed>,
+    "dynamictreesttf:treeoftime" : <dynamictreesttf:treeoftimeseed>,
+    "dynamictreesttf:treeoftransformation" : <dynamictreesttf:treeoftransformationseed>,
+    "dynamictreesttf:minerstree" : <dynamictreesttf:minerstreeseed>,
+    "dynamictreesttf:sortingtree" : <dynamictreesttf:sortingtreeseed>,
+    "dynamictreesttf:rainbowoak" : <dynamictreesttf:rainbowoakseed>,
+    "rustic:olive" : <rustic:oliveseed>,
+    "rustic:ironwood" : <rustic:ironwoodseed>
+} as IIngredient[string];
+
+for targetTree, seed in transformationTargets{
+  Condenser.addRecipe(<dynamictrees:dendropotion:6>.withTag({target:targetTree}), [seed], null, <dynamictrees:dendropotion:6>, null);
+}
