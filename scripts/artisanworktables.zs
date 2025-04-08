@@ -25,7 +25,7 @@ recipes.addShaped("artisans_carver_gold", <artisanworktables:artisans_carver_sto
     [<ore:stickWood>,null]
 ]);
 recipes.remove(<artisanworktables:artisans_carver_gold>);
-recipes.addShaped("artisans_carver_gold", <artisanworktables:artisans_carver_gold>, [
+recipes.addShaped("artisans_carver_gold2", <artisanworktables:artisans_carver_gold>, [
     [null,<ore:genericMetalNuggets>],
     [<ore:stickWood>,null]
 ]);

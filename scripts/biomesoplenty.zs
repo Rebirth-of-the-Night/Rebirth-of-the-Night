@@ -102,12 +102,6 @@ recipes.addShaped("white_sand",<biomesoplenty:white_sand>*8,[
     [<ore:sand>,<ore:sand>,<ore:sand>]
 ]);
 
-recipes.removeByRecipeName("biomesoplenty:mud_bricks_stairs");
-recipes.addShapedMirrored("mud_brick_stairs",<biomesoplenty:mud_brick_stairs:0>*8,[
-    [<biomesoplenty:mud_brick_block:0>,null,null],
-    [<biomesoplenty:mud_brick_block:0>,<biomesoplenty:mud_brick_block:0>,null],
-    [<biomesoplenty:mud_brick_block:0>,<biomesoplenty:mud_brick_block:0>,<biomesoplenty:mud_brick_block:0>]
-]);
 recipes.addShapeless("mud_bricks_from_stairs",<biomesoplenty:mud_brick_block:0>*3,[<biomesoplenty:mud_brick_stairs:0>,<biomesoplenty:mud_brick_stairs:0>,<biomesoplenty:mud_brick_stairs:0>,<biomesoplenty:mud_brick_stairs:0>]);
 
 recipes.removeByRecipeName("biomesoplenty:white_sandstone_stairs");
