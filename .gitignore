@@ -71,7 +71,6 @@ mods/JustEnoughResources*.jar
 mods/LoadingProfiler*.jar
 mods/Mapmaker's+Gadgets*.jar
 mods/Mineshot*.jar
-mods/sampler-*.jar
 mods/spark-forge*.jar
 mods/tellme*.jar
 mods/world_generation_profiler*.jar
@@ -119,3 +118,4 @@ ears-debug.log
 /fancymenu_data/
 resourcepacks/tweaked enderman 1.12.zip
 /vintagefix
+/mods/1.12.2
