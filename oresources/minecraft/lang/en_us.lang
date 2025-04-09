@@ -7,6 +7,8 @@ tile.anvil.intact.name=Iron Anvil
 tile.anvil.slightlyDamaged.name=Damaged Iron Anvil
 tile.anvil.veryDamaged.name=Crumbling Iron Anvil
 
+item.shears.name=Iron Shears
+
 entity.MinecartRideable.name=Minecart
 
 screenshot.success=Saved screenshot and copied to clipboard. Press CTRL + V to paste.

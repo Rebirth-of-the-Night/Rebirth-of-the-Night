@@ -43,7 +43,12 @@ JEI.removeAndHide(<betterwithmods:steel_gearbox>);
 JEI.removeAndHide(<betterwithmods:steel_broken_gearbox>);
 
 
-JEI.removeAndHide(<betterwithmods:bark:*>);
+JEI.removeAndHide(<betterwithmods:bark>);
+JEI.removeAndHide(<betterwithmods:bark:1>);
+JEI.removeAndHide(<betterwithmods:bark:2>);
+JEI.removeAndHide(<betterwithmods:bark:3>);
+JEI.removeAndHide(<betterwithmods:bark:4>);
+JEI.removeAndHide(<betterwithmods:bark:5>);
 JEI.removeAndHide(<betterwithmods:nether_growth>);
 JEI.removeAndHide(<betterwithmods:steel_saw>);
 JEI.removeAndHide(<betterwithmods:material:52>);
