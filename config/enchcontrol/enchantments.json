@@ -3022,7 +3022,7 @@
   {
     "id": "randomenchantments:transposition",
     "name": "enchantment.transposition",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
@@ -3044,7 +3044,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Swap places with the attacker."
+    ]
   },
   {
     "id": "minecraft:sharpness",
@@ -3071,7 +3073,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Increases weapon damage."
+    ]
   },
   {
     "id": "trident:loyalty",
@@ -3098,7 +3102,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Thrown tridents return to their owner."
+    ]
   },
   {
     "id": "dungeontactics:mage_affinity",
@@ -3128,7 +3134,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Reduces wand powder costs."
+    ]
   },
   {
     "id": "minecraft:frost_walker",
@@ -3155,7 +3163,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "The power of ** freezes water underfoot."
+    ]
   },
   {
     "id": "nyx:lunar_edge",
@@ -3270,7 +3280,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Cooks all food in the player's inventory."
+    ]
   },
   {
     "id": "defiledlands:blazing",
@@ -3297,7 +3309,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Converts fired blastem fruit into blazing variants."
+    ]
   },
   {
     "id": "msmlegacy:venomous_aspect",
@@ -3324,7 +3338,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Attacks may poison the target."
+    ]
   },
   {
     "id": "defiledlands:economical",
@@ -3350,8 +3366,13 @@
     "incompatible": [],
     "applicability_mode": 0,
     "items_list_mode": 0,
-    "items_list": [],
-    "description": []
+    "items_list": [
+      "defiledlands:umbra_blaster",
+      "defiledlands:ravager"
+    ],
+    "description": [
+      "Gives a chance for the weapon to not consume ammo when fired"
+    ]
   },
   {
     "id": "spartanweaponry:razors_edge",
@@ -3379,12 +3400,14 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Increases the damage of thrown weapons."
+    ]
   },
   {
     "id": "randomenchantments:randomness",
     "name": "enchantment.randomness",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "VERY_RARE",
@@ -3406,12 +3429,14 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Blocks drop random items when mined."
+    ]
   },
   {
     "id": "randomenchantments:stonelover",
     "name": "enchantment.stonelover",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "VERY_RARE",
@@ -3433,7 +3458,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Pickaxe has an 80% chance to restore 1 durability if mining stone."]
   },
   {
     "id": "charm:clumsiness_curse",
@@ -3460,7 +3485,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Your weapon may accidentally miss when swung. Oops!"
+    ]
   },
   {
     "id": "dungeontactics:disorient",
@@ -3488,7 +3515,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Applies Blindness to all targets in a four block range."
+    ]
   },
   {
     "id": "dungeontactics:poison_feather",
@@ -3574,7 +3603,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "The power of ** allows the bow to pull arrows from thin air."
+    ]
   },
   {
     "id": "msmlegacy:extinction",
@@ -3601,7 +3632,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Attacking a mob will kill every mob of that type that exists in the world. Only applicable on a legendary sword of untold power."
+    ]
   },
   {
     "id": "minecraft:vanishing_curse",
@@ -3633,7 +3666,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Item will vanish from this plane of exisitence on death."
+    ]
   },
   {
     "id": "spartanweaponry:hydrodynamic",
@@ -3661,7 +3696,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Allows thrown weapons to travel through water as if it were air."
+    ]
   },
   {
     "id": "dungeontactics:trinket_jump",
@@ -3695,7 +3732,7 @@
   {
     "id": "randomenchantments:instant_death",
     "name": "enchantment.instant_death",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "VERY_RARE",
@@ -3717,7 +3754,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Does what it says on the tin." 
+    ]
   },
   {
     "id": "minecraft:efficiency",
@@ -3744,7 +3783,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Greatly increases tool mining speed."
+    ]
   },
   {
     "id": "dungeontactics:sonicboom",
@@ -3772,12 +3813,14 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "This is only worth turning into enchanted paper..."
+    ]
   },
   {
     "id": "endreborn:shulker_core",
     "name": "enchantment.shulker_core",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
@@ -3804,7 +3847,7 @@
   {
     "id": "randomenchantments:true_lifesteal",
     "name": "enchantment.true_lifesteal",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "VERY_RARE",
@@ -3826,7 +3869,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Damage dealt by a weapon enchanted with this restores some health; armor piercing."
+    ]
   },
   {
     "id": "dungeontactics:trinket_nightvision",
@@ -3883,7 +3928,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Thrown weapons return to the user upon hitting the ground."
+    ]
   },
   {
     "id": "minecraft:fortune",
@@ -3910,7 +3957,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Increases the drop rate of mined ores and gems."
+    ]
   },
   {
     "id": "msmlegacy:ender_pulse",
@@ -3994,7 +4043,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "'HELP, HELP! I CAN'T GET IT OFF!' - Last words of many a spectre's victim."
+    ]
   },
   {
     "id": "bettercombat:webbing",
@@ -4022,7 +4073,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Arrows create webs at the target's feet."
+    ]
   },
   {
     "id": "dungeontactics:trinket_resistance",
@@ -4079,7 +4132,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "The sword whispers to you..."
+    ]
   },
   {
     "id": "dungeontactics:transport",
@@ -4107,7 +4162,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Summons a tamed, saddled skeleton horse."
+    ]
   },
   {
     "id": "minecraft:projectile_protection",
@@ -4137,7 +4194,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Increases the wearer's resistance to ranged attacks."
+    ]
   },
   {
     "id": "randomenchantments:homing",
@@ -4164,7 +4223,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Arrows track down enemies."
+    ]
   },
   {
     "id": "dungeontactics:sunder",
@@ -4192,7 +4253,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Deals heavy damage to all targets within 4 blocks."
+    ]
   },
   {
     "id": "dungeontactics:berserking",
@@ -4220,7 +4283,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Increases the damage dealt when the wielder has less armor."
+    ]
   },
   {
     "id": "randomenchantments:butterfingers",
@@ -4247,7 +4312,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Oops."
+    ]
   },
   {
     "id": "randomenchantments:swift",
@@ -4274,7 +4341,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Increases the attack speed of the item."
+    ]
   },
   {
     "id": "randomenchantments:global_traveler",
@@ -4301,7 +4370,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "While using this tool, obtained resources will go directly into the linked container by the grace of the petals."
+    ]
   },
   {
     "id": "trident:riptide",
@@ -4328,7 +4399,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Underwater or during rain, thrown tridents will drag the wielder along with them."
+    ]
   },
   {
     "id": "cyclicmagic:enchantment.launch",
@@ -4468,7 +4541,7 @@
     "items_list_mode": 0,
     "items_list": [],
     "description": [
-      "Increases the effect of any self-healing in 10 per cent, per level."
+      "Increases the effect of any self-healing by 10 percent, per level."
     ]
   },
   {
@@ -4529,7 +4602,7 @@
   {
     "id": "randomenchantments:lightning",
     "name": "enchantment.lightning",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
