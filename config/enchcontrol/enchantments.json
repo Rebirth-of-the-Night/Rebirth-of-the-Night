@@ -25,7 +25,7 @@
     "items_list_mode": 0,
     "items_list": [],
     "description": [
-      "Increases magic damage in 10 per cent, per level. Does not stack Arcane Conversion or Aetheralized."
+      "Increases magic damage by 10 percent, per level. Does not stack with Arcane Conversion or Aetheralized."
     ]
   },
   {
@@ -54,7 +54,7 @@
     "items_list_mode": 0,
     "items_list": [],
     "description": [
-      "Increases chance and amount of loot."
+      "Increases amount of loot and the drop chance of rarer loot."
     ]
   },
   {
@@ -114,7 +114,7 @@
     "items_list_mode": 0,
     "items_list": [],
     "description": [
-      "Arrow can pierce through several mobs."
+      "Arrows can pierce through several mobs."
     ]
   },
   {
@@ -1050,7 +1050,7 @@
     "items_list_mode": 0,
     "items_list": [],
     "description": [
-      "Removes the friction with water by 33 per cent per level."
+      "Removes the friction with water by 33 percent per level."
     ]
   },
   {
@@ -1766,7 +1766,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+      "Increases arrow damage."
+    ]
   },
   {
     "id": "randomenchantments:fumbling",
@@ -1910,7 +1912,7 @@
     "items_list_mode": 0,
     "items_list": [],
     "description": [
-      "Decreases the draw speed."
+      "Decreases the draw time."
     ]
   },
   {
@@ -2030,7 +2032,7 @@
     "items_list_mode": 0,
     "items_list": [],
     "description": [
-      "While wearing this as equipment, obtained resources will go directly into the inventory by the grace of the petals."
+      "While using this tool, obtained resources will go directly into the inventory by the grace of the petals."
     ]
   },
   {
@@ -2152,7 +2154,7 @@
     "items_list_mode": 0,
     "items_list": [],
     "description": [
-      "Reduces all forms of fall damage taken in 12 percent per level."
+      "Reduces all forms of fall damage taken by 12 percent per level."
     ]
   },
   {
@@ -2240,7 +2242,7 @@
     "items_list_mode": 0,
     "items_list": [],
     "description": [
-      "Teleports to wherever the arrows land except for lava or other harming places."
+      "Teleports you to wherever the arrows land, as long as that block is safe."
     ]
   },
   {
@@ -2330,7 +2332,7 @@
     "items_list_mode": 0,
     "items_list": [],
     "description": [
-		"Gives a chance to inflict damage to any mob which hits the Shield when blocking."
+		"Gives a chance to inflict damage to any mob which hits the shield when blocking."
 	]
   },
   {
@@ -2508,7 +2510,7 @@
     "items_list_mode": 0,
     "items_list": [],
     "description": [
-		"The art of applying Strength and Resistance to the user. Or to surrounding targers if held."
+		"The art of applying Strength and Resistance to the user. Or to surrounding targets if held."
 	]
   },
   {
@@ -2537,7 +2539,7 @@
     "items_list_mode": 0,
     "items_list": [],
     "description": [
-		"The sigil of the Eternal Reaper who hates the Mother of Change and their spawns. Each level deals an extra 2.5HP to arthropods."
+		"The sigil of the Eternal Reaper who hates the Mother of Change and their spawn. Each level deals an extra 2.5HP to arthropods."
 	]
   },
   {
@@ -2881,7 +2883,7 @@
     "curse": false,
     "allowed_on_books": true,
     "min_lvl": 1,
-    "max_lvl": 5,
+    "max_lvl": 3,
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
