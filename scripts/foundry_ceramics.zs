@@ -334,7 +334,7 @@ Melting.removeRecipe(<dungeontactics:tin_tinydust>);
 Melting.removeRecipe(<dungeontactics:gold_tinydust>);
 Melting.removeRecipe(<dungeontactics:silver_tinydust>);
 Melting.removeRecipe(<dungeontactics:iron_tinydust>);
-Melting.removeRecipe(<betterwithmods:material:48>);
+
 
 //Removed molds
 MoldStation.removeRecipe([//Gear
