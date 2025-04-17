@@ -3252,7 +3252,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Allows the weapon's wielder to become invisible at will. Only applicable on a blade of legendary power."]
   },
   {
     "id": "dungeontactics:cooking",
@@ -3986,7 +3986,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Allows the bearer to teleport at will."]
   },
   {
     "id": "msmlegacy:consuming_shadows",
@@ -4013,7 +4013,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Attacks will inflict nearby enemies with wither and blindness."]
   },
   {
     "id": "minecraft:binding_curse",
@@ -4428,7 +4428,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["?"]
   },
   {
     "id": "randomenchantments:torches",
@@ -4455,7 +4455,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Arrows place torches on impact."]
   },
   {
     "id": "minecraft:fire_protection",
@@ -4485,7 +4485,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Reduces all fire damage taken by the wearer."]
   },
   {
     "id": "dungeontactics:restoration",
@@ -4569,7 +4569,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Attacks will inflict nearby mobs with slowness."]
   },
   {
     "id": "mod_lavacow:corrosive",
@@ -4597,7 +4597,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Causes the weapon to inflict the Corroded status on its victims, increasing the damage they take by 20% per level."]
   },
   {
     "id": "randomenchantments:lightning",
@@ -4624,7 +4624,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Causes the weapon to strike the target with lightning."]
   },
   {
     "id": "spartanweaponry:supercharge",
@@ -4652,7 +4652,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Reduces charging time for throwing weapons by 20% per level."]
   },
   {
     "id": "minecraft:unbreaking",
@@ -4679,7 +4679,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Item loses durability at a much slower rate."]
   },
   {
     "id": "msmlegacy:sparks",
@@ -4706,7 +4706,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Attacks will deal additional fire damage to other nearby mobs."]
   },
   {
     "id": "randomenchantments:disarm",
@@ -4760,7 +4760,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Reduces the time between bites when fishing."]
   },
   {
     "id": "dungeontactics:satiate",
@@ -4896,7 +4896,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Increases sweep attack damage."]
   },
   {
     "id": "msmlegacy:wisdom",
@@ -4923,7 +4923,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Attacks deal more damage the higher your EXP level is."]
   },
   {
     "id": "dungeontactics:wither",
@@ -5005,7 +5005,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Allows the wielder to exchange durability for powerful buffs."]
   },
   {
     "id": "spectral_edge:spectral_edge",
@@ -5032,7 +5032,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Increases the weapon's damage by a percentage."]
   },
   {
     "id": "charm:magnetic",
@@ -5089,7 +5089,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Reduces the weight of the armor piece, allowing for easier dodging and sprinting."]
   },
   {
     "id": "dungeontactics:forging",
@@ -5202,7 +5202,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["The wearer will take much less damage from explosions."]
   },
   {
     "id": "msmlegacy:greed",
@@ -5229,6 +5229,6 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Attacks have a chance to spawn additional exp orbs."]
   }
 ]
