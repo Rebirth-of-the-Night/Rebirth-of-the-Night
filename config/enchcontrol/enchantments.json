@@ -24,9 +24,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Increases magic damage by 10 percent, per level. Does not stack with Arcane Conversion or Aetheralized."
-    ]
+    "description": ["Increases magic damage by 10 percent, per level. Does not stack with Arcane Conversion or Aetheralized."]
   },
   {
     "id": "minecraft:looting",
@@ -53,9 +51,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Increases amount of loot and the drop chance of rarer loot."
-    ]
+    "description": ["Increases amount of loot and the drop chance of rarer loot."]
   },
   {
     "id": "randomenchantments:shattering",
@@ -82,9 +78,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Arrows break glass."
-    ]
+    "description": ["Arrows break glass."]
   },
   {
     "id": "randomenchantments:piercing",
@@ -113,9 +107,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Arrows can pierce through several mobs."
-    ]
+    "description": ["Arrows can pierce through several mobs."]
   },
   {
     "id": "charm:rusting_curse",
@@ -142,9 +134,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Item degrades faster."
-    ]
+    "description": ["Item degrades faster."]
   },
   {
     "id": "spartanweaponry:sharpshooter",
@@ -172,9 +162,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Reduces time to aim crossbows by 0.1 seconds per level."
-    ]
+    "description": ["Reduces time to aim crossbows by 0.1 seconds per level."]
   },
   {
     "id": "minecraft:flame",
@@ -201,9 +189,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Shoots fire arrows."
-    ]
+    "description": ["Shoots fire arrows."]
   },
   {
     "id": "minecraft:aqua_affinity",
@@ -230,9 +216,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Increases underwater mining speed."
-    ]
+    "description": ["Increases underwater mining speed."]
   },
   {
     "id": "dungeontactics:freezing",
@@ -260,9 +244,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Apply Slowness and Frostburn to all targets in range."
-    ]
+    "description": ["Apply Slowness and Frostburn to all targets in range."]
   },
   {
     "id": "randomenchantments:hooked",
@@ -289,9 +271,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Turns the fishing rod into a grappling hook."
-    ]
+    "description": ["Turns the fishing rod into a grappling hook."]
   },
   {
     "id": "randomenchantments:solar",
@@ -323,9 +303,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Item is slowly repaired while outside, blessed by the energy of the sun."
-    ]
+    "description": ["Item is slowly repaired while outside, blessed by the energy of the sun."]
   },
   {
     "id": "endreborn:ender_killer",
@@ -352,9 +330,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "The secret of the farlanders to dealing more damage to their own kin."
-    ]
+    "description": ["The secret of the farlanders to dealing more damage to their own kin."]
   },
   {
     "id": "randomenchantments:ricochet",
@@ -383,9 +359,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Arrows bounce off walls and floors."
-    ]
+    "description": ["Arrows bounce off walls and floors."]
   },
   {
     "id": "defiledlands:destructive",
@@ -415,9 +389,7 @@
       "defiledlands:umbra_blaster",
       "defiledlands:concussion_smasher"
     ],
-    "description": [
-      "Explosions caused by Umbra Blaster or Concussion Smasher become much stronger."
-    ]
+    "description": ["Explosions caused by Umbra Blaster or Concussion Smasher become much stronger."]
   },
   {
     "id": "spartanweaponry:propulsion",
@@ -445,9 +417,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Increases throwing speed and range."
-    ]
+    "description": ["Increases throwing speed and range."]
   },
   {
     "id": "dungeontactics:companion",
@@ -475,9 +445,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Summon forth the lost soul of a dog to fight for you."
-    ]
+    "description": ["Summon forth the lost soul of a dog to fight for you."]
   },
   {
     "id": "dungeontactics:trinket_strength",
@@ -504,9 +472,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "This is only worth turning into enchanted paper..."
-    ]
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "endreborn:ender_core",
@@ -533,9 +499,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "On being hit, teleport nearby."
-    ]
+    "description": ["On being hit, teleport nearby."]
   },
   {
     "id": "randomenchantments:floating",
@@ -562,9 +526,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Inflicts levitation on target for 10 seconds."
-    ]
+    "description": ["Inflicts levitation on target for 10 seconds."]
   },
   {
     "id": "mod_lavacow:poisonous",
@@ -592,9 +554,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Inflicts target with the equivalent level of Poison for 8 seconds."
-    ]
+    "description": ["Inflicts target with the equivalent level of Poison for 8 seconds."]
   },
   {
     "id": "dungeontactics:trinket_invisibility",
@@ -621,9 +581,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "This is only worth turning into enchanted paper..."
-    ]
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "dungeontactics:pinmissile",
@@ -651,9 +609,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Materializes and shoots 18 arrows in a circle around conjurer."
-    ]
+    "description": ["Materializes and shoots 18 arrows in a circle around conjurer."]
   },
   {
     "id": "charm:curse_break",
@@ -680,9 +636,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Renders curses on items inert when applied."
-    ]
+    "description": ["Renders curses on items inert when applied."]
   },
   {
     "id": "dungeontactics:poison_fade",
@@ -710,9 +664,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "This is only worth turning into enchanted paper..."
-    ]
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "spartanweaponry:incendiary",
@@ -740,9 +692,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Throwing weapons set enemies on fire."
-    ]
+    "description": ["Throwing weapons set enemies on fire."]
   },
   {
     "id": "randomenchantments:momentum",
@@ -771,9 +721,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Mining speed increases for every consecutive mined block."
-    ]
+    "description": ["Mining speed increases for every consecutive mined block."]
   },
   {
     "id": "minecraft:protection",
@@ -803,9 +751,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Increases damage reduction."
-    ]
+    "description": ["Increases damage reduction."]
   },
   {
     "id": "minecraft:mending",
@@ -837,9 +783,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "The unholy power of restoring matter to a previous state."
-    ]
+    "description": ["The unholy power of restoring matter to a previous state."]
   },
   {
     "id": "dungeontactics:debilitating",
@@ -869,9 +813,7 @@
     "items_list": [
       "dungeontactics:potshot"
     ],
-    "description": [
-      "Potshot projecticles inflict Slowness V and Wither for five seconds"
-    ]
+    "description": ["Potshot projecticles inflict Slowness V and Wither for five seconds"]
   },
   {
     "id": "minecraft:smite",
@@ -900,9 +842,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Bring forth the blessing of the Holy Flame upon all who live in death [Deals more damage to undead]."
-    ]
+    "description": ["Bring forth the blessing of the Holy Flame upon all who live in death [Deals more damage to undead]."]
   },
   {
     "id": "minecraft:fire_aspect",
@@ -929,9 +869,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Channel the spirits of fire to set enemies ablaze."
-    ]
+    "description": ["Channel the spirits of fire to set enemies ablaze."]
   },
   {
     "id": "msmlegacy:descension",
@@ -958,9 +896,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Hold shift to slow your descent while falling."
-    ]
+    "description": ["Hold shift to slow your descent while falling."]
   },
   {
     "id": "minecraft:knockback",
@@ -987,9 +923,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Increases how far back hit enemies are sent."
-    ]
+    "description": ["Increases how far back hit enemies are sent."]
   },
   {
     "id": "dungeontactics:uncover",
@@ -1017,9 +951,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Removes the physical armor of all targets within the area."
-    ]
+    "description": ["Removes the physical armor of all targets within the area."]
   },
   {
     "id": "minecraft:depth_strider",
@@ -1049,9 +981,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Removes the friction with water by 33 percent per level."
-    ]
+    "description": ["Removes the friction with water by 33 percent per level."]
   },
   {
     "id": "randomenchantments:equal_mine",
@@ -1078,9 +1008,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "All blocks become equally fast to mine."
-    ]
+    "description": ["All blocks become equally fast to mine."]
   },
   {
     "id": "randomenchantments:lumberjack",
@@ -1107,9 +1035,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Chops connected logs."
-    ]
+    "description": ["Chops connected logs."]
   },
   {
     "id": "randomenchantments:eternal",
@@ -1136,9 +1062,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Stagnation makes this item unable to despawn through the lapse of time."
-    ]
+    "description": ["Stagnation makes this item unable to despawn through the lapse of time."]
   },
   {
     "id": "msmlegacy:scorn",
@@ -1167,9 +1091,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Bound by reality, greatly increases attack in any dimension that is not the Overworld."
-    ]
+    "description": ["Bound by reality, greatly increases attack in any dimension that is not the Overworld."]
   },
   {
     "id": "charm:harming_curse",
@@ -1196,9 +1118,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Using this item has a chance to hurt you."
-    ]
+    "description": ["Using this item has a chance to hurt you."]
   },
   {
     "id": "dungeontactics:poison_cinder",
@@ -1226,9 +1146,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "This is only worth turning into enchanted paper..."
-    ]
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "msmlegacy:frozen_aspect",
@@ -1255,9 +1173,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Attacks deal additional frost damage and have a chance to slow the target."
-    ]
+    "description": ["Attacks deal additional frost damage and have a chance to slow the target."]
   },
   {
     "id": "msmlegacy:ignite",
@@ -1284,9 +1200,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Attacks do additional fire damage and will set mobs on fire for a short time."
-    ]
+    "description": ["Attacks do additional fire damage and will set mobs on fire for a short time."]
   },
   {
     "id": "msmlegacy:ender_aura",
@@ -1313,9 +1227,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Chance to teleport to a random mob when attacking."
-    ]
+    "description": ["Chance to teleport to a random mob when attacking."]
   },
   {
     "id": "dungeontactics:explosive",
@@ -1343,9 +1255,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Arrow impact causes explosions."
-    ]
+    "description": ["Arrow impact causes explosions."]
   },
   {
     "id": "dungeontactics:trinket_haste",
@@ -1372,9 +1282,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "This is only worth turning into enchanted paper..."
-    ]
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "randomenchantments:back_to_the_chamber",
@@ -1401,9 +1309,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "This is only worth turning into enchanted paper..."
-    ]
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "dungeontactics:poison_bark",
@@ -1431,9 +1337,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "This is only worth turning into enchanted paper..."
-    ]
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "randomenchantments:shadow",
@@ -1465,9 +1369,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Weakens equipment when under the light of the sun."
-    ]
+    "description": ["Weakens equipment when under the light of the sun."]
   },
   {
     "id": "spartanweaponry:expanse",
@@ -1495,9 +1397,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Increases maximum ammo capacity for throwing weapons by 25% or one ammo per level, whichever is greater."
-    ]
+    "description": ["Increases maximum ammo capacity for throwing weapons by 25% or one ammo per level, whichever is greater."]
   },
   {
     "id": "corpsecomplex:soulbound",
@@ -1529,9 +1429,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Item will persist in inventory after death."
-    ]
+    "description": ["Item will persist in inventory after death."]
   },
   {
     "id": "msmlegacy:absorb",
@@ -1558,9 +1456,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Attacks have a chance to replenish your hunger and saturation."
-    ]
+    "description": ["Attacks have a chance to replenish your hunger and saturation."]
   },
   {
     "id": "msmlegacy:decay",
@@ -1587,9 +1483,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Attacks have a chance to apply the hunger and wither effect to the target."
-    ]
+    "description": ["Attacks have a chance to apply the hunger and wither effect to the target."]
   },
   {
     "id": "randomenchantments:reflect",
@@ -1617,9 +1511,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Arrows that get blocked by the shield will redirect to the entity with double the power."
-    ]
+    "description": ["Arrows that get blocked by the shield will redirect to the entity with double the power."]
   },
   {
     "id": "dungeontactics:poison_tangle",
@@ -1647,9 +1539,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "This is only worth turning into enchanted paper..."
-    ]
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "dungeontactics:disarm",
@@ -1677,9 +1567,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Removes the main hand item of all targets within the area."
-    ]
+    "description": ["Removes the main hand item of all targets within the area."]
   },
   {
     "id": "msmlegacy:feast",
@@ -1706,9 +1594,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Attacks have a chance to restore some of the weapons durability."
-    ]
+    "description": ["Attacks have a chance to restore some of the weapons durability."]
   },
   {
     "id": "charm:haunting_curse",
@@ -1735,9 +1621,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Monsters will sometimes appear near the player."
-    ]
+    "description": ["Monsters will sometimes appear near the player."]
   },
   {
     "id": "minecraft:power",
@@ -1766,9 +1650,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Increases arrow damage."
-    ]
+    "description": ["Increases arrow damage."]
   },
   {
     "id": "randomenchantments:fumbling",
@@ -1795,9 +1677,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Tool doesn't mine as quickly as it should."
-    ]
+    "description": ["Tool doesn't mine as quickly as it should."]
   },
   {
     "id": "randomenchantments:breaking",
@@ -1824,9 +1704,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Tool breaks faster."
-    ]
+    "description": ["Tool breaks faster."]
   },
   {
     "id": "trident:channeling",
@@ -1853,9 +1731,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Calls upon lightning when thrown at a mob while a thunderstorm is occurring."
-    ]
+    "description": ["Calls upon lightning when thrown at a mob while a thunderstorm is occurring."]
   },
   {
     "id": "randomenchantments:resistance",
@@ -1882,9 +1758,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Items with this enchantment are immune to almost all forms of damage including lava, cactus, fire, explosions, etc."
-    ]
+    "description": ["Items with this enchantment are immune to almost all forms of damage including lava, cactus, fire, explosions, etc."]
   },
   {
     "id": "randomenchantments:quickdraw",
@@ -1911,9 +1785,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Decreases the draw time."
-    ]
+    "description": ["Decreases the draw time."]
   },
   {
     "id": "dungeontactics:clustered",
@@ -1941,9 +1813,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "This is only worth turning into enchanted paper..."
-    ]
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "nyx:lunar_shield",
@@ -1973,9 +1843,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Increases armor protection based on moon phase. Strongest at full moon."
-    ]
+    "description": ["Increases armor protection based on moon phase. Strongest at full moon."]
   },
   {
     "id": "dungeontactics:trinket_speed",
@@ -2002,9 +1870,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "This is only worth turning into enchanted paper..."
-    ]
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "randomenchantments:magnetic",
@@ -2031,9 +1897,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "While using this tool, obtained resources will go directly into the inventory by the grace of the petals."
-    ]
+    "description": ["While using this tool, obtained resources will go directly into the inventory by the grace of the petals."]
   },
   {
     "id": "minecraft:luck_of_the_sea",
@@ -2060,9 +1924,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Increases luck while fishing."
-    ]
+    "description": ["Increases luck while fishing."]
   },
   {
     "id": "dungeontactics:trinket_gills",
@@ -2089,9 +1951,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "This is only worth turning into enchanted paper..."
-    ]
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "minecraft:respiration",
@@ -2121,9 +1981,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Extends underwater breathing time by 15 seconds per level."
-    ]
+    "description": ["Extends underwater breathing time by 15 seconds per level."]
   },
   {
     "id": "minecraft:feather_falling",
@@ -2153,9 +2011,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Reduces all forms of fall damage taken by 12 percent per level."
-    ]
+    "description": ["Reduces all forms of fall damage taken by 12 percent per level."]
   },
   {
     "id": "dungeontactics:punish",
@@ -2183,9 +2039,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Deals 3 magic damage to all targets in range."
-    ]
+    "description": ["Deals 3 magic damage to all targets in range."]
   },
   {
     "id": "randomenchantments:deflect",
@@ -2212,9 +2066,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Arrows bounce off armor in the direction of the shooter."
-    ]
+    "description": ["Arrows bounce off armor in the direction of the shooter."]
   },
   {
     "id": "randomenchantments:teleportation",
@@ -2241,9 +2093,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Teleports you to wherever the arrows land, as long as that block is safe."
-    ]
+    "description": ["Teleports you to wherever the arrows land, as long as that block is safe."]
   },
   {
     "id": "dungeontactics:magicmissile",
@@ -2271,9 +2121,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Materializes a homing projectile, like that of the forgotten and exploited shulkers."
-    ]
+    "description": ["Materializes a homing projectile, like that of the forgotten and exploited shulkers."]
   },
   {
     "id": "dungeontactics:poison_sanguine",
@@ -2301,9 +2149,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "This is only worth turning into enchanted paper..."
-    ]
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "spartanshields:ssenchspikes",
@@ -3044,9 +2890,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Swap places with the attacker."
-    ]
+    "description": ["Swap places with the attacker."]
   },
   {
     "id": "minecraft:sharpness",
@@ -3073,9 +2917,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Increases weapon damage."
-    ]
+    "description": ["Increases weapon damage."]
   },
   {
     "id": "trident:loyalty",
@@ -3102,9 +2944,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Thrown tridents return to their owner."
-    ]
+    "description": ["Thrown tridents return to their owner."]
   },
   {
     "id": "dungeontactics:mage_affinity",
@@ -3134,9 +2974,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Reduces wand powder costs."
-    ]
+    "description": ["Reduces wand powder costs."]
   },
   {
     "id": "minecraft:frost_walker",
@@ -3163,9 +3001,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "The power of ** freezes water underfoot."
-    ]
+    "description": ["The power of ** freezes water underfoot."]
   },
   {
     "id": "nyx:lunar_edge",
@@ -3193,9 +3029,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Increases damage based on moon phase. Strongest at full moon."
-    ]
+    "description": ["Increases damage based on moon phase. Strongest at full moon."]
   },
   {
     "id": "dungeontactics:poison_ailment",
@@ -3280,9 +3114,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Cooks all food in the player's inventory."
-    ]
+    "description": ["Cooks all food in the player's inventory."]
   },
   {
     "id": "defiledlands:blazing",
@@ -3309,9 +3141,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Converts fired blastem fruit into blazing variants."
-    ]
+    "description": ["Converts fired blastem fruit into blazing variants."]
   },
   {
     "id": "msmlegacy:venomous_aspect",
@@ -3338,9 +3168,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Attacks may poison the target."
-    ]
+    "description": ["Attacks may poison the target."]
   },
   {
     "id": "defiledlands:economical",
@@ -3370,9 +3198,7 @@
       "defiledlands:umbra_blaster",
       "defiledlands:ravager"
     ],
-    "description": [
-      "Gives a chance for the weapon to not consume ammo when fired"
-    ]
+    "description": ["Gives a chance for the weapon to not consume ammo when fired"]
   },
   {
     "id": "spartanweaponry:razors_edge",
@@ -3400,9 +3226,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Increases the damage of thrown weapons."
-    ]
+    "description": ["Increases the damage of thrown weapons."]
   },
   {
     "id": "randomenchantments:randomness",
@@ -3429,9 +3253,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Blocks drop random items when mined."
-    ]
+    "description": ["Blocks drop random items when mined."]
   },
   {
     "id": "randomenchantments:stonelover",
@@ -3485,9 +3307,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Your weapon may accidentally miss when swung. Oops!"
-    ]
+    "description": ["Your weapon may accidentally miss when swung. Oops!"]
   },
   {
     "id": "dungeontactics:disorient",
@@ -3515,9 +3335,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Applies Blindness to all targets in a four block range."
-    ]
+    "description": ["Applies Blindness to all targets in a four block range."]
   },
   {
     "id": "dungeontactics:poison_feather",
@@ -3574,9 +3392,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "This is only worth turning into enchanted paper..."
-    ]
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "minecraft:infinity",
@@ -3603,9 +3419,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "The power of ** allows the bow to pull arrows from thin air."
-    ]
+    "description": ["The power of ** allows the bow to pull arrows from thin air."]
   },
   {
     "id": "msmlegacy:extinction",
@@ -3632,9 +3446,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Attacking a mob will kill every mob of that type that exists in the world. Only applicable on a legendary sword of untold power."
-    ]
+    "description": ["Attacking a mob will kill every mob of that type that exists in the world. Only applicable on a legendary sword of untold power."]
   },
   {
     "id": "minecraft:vanishing_curse",
@@ -3666,9 +3478,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Item will vanish from this plane of exisitence on death."
-    ]
+    "description": ["Item will vanish from this plane of exisitence on death."]
   },
   {
     "id": "spartanweaponry:hydrodynamic",
@@ -3696,9 +3506,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Allows thrown weapons to travel through water as if it were air."
-    ]
+    "description": ["Allows thrown weapons to travel through water as if it were air."]
   },
   {
     "id": "dungeontactics:trinket_jump",
@@ -3725,9 +3533,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "This is only worth turning into enchanted paper..."
-    ]
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "randomenchantments:instant_death",
@@ -3754,9 +3560,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Does what it says on the tin." 
-    ]
+    "description": ["Does what it says on the tin." ]
   },
   {
     "id": "minecraft:efficiency",
@@ -3783,9 +3587,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Greatly increases tool mining speed."
-    ]
+    "description": ["Greatly increases tool mining speed."]
   },
   {
     "id": "dungeontactics:sonicboom",
@@ -3813,9 +3615,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "This is only worth turning into enchanted paper..."
-    ]
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "endreborn:shulker_core",
@@ -3842,7 +3642,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "randomenchantments:true_lifesteal",
@@ -3869,9 +3669,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Damage dealt by a weapon enchanted with this restores some health; armor piercing."
-    ]
+    "description": ["Damage dealt by a weapon enchanted with this restores some health; armor piercing."]
   },
   {
     "id": "dungeontactics:trinket_nightvision",
@@ -3898,9 +3696,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "This is only worth turning into enchanted paper..."
-    ]
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "spartanweaponry:return",
@@ -3928,9 +3724,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Thrown weapons return to the user upon hitting the ground."
-    ]
+    "description": ["Thrown weapons return to the user upon hitting the ground."]
   },
   {
     "id": "minecraft:fortune",
@@ -3957,9 +3751,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Increases the drop rate of mined ores and gems."
-    ]
+    "description": ["Increases the drop rate of mined ores and gems."]
   },
   {
     "id": "msmlegacy:ender_pulse",
@@ -4043,9 +3835,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "'HELP, HELP! I CAN'T GET IT OFF!' - Last words of many a spectre's victim."
-    ]
+    "description": ["'HELP, HELP! I CAN'T GET IT OFF!' - Last words of many a spectre's victim."]
   },
   {
     "id": "bettercombat:webbing",
@@ -4073,9 +3863,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Arrows create webs at the target's feet."
-    ]
+    "description": ["Arrows create webs at the target's feet."]
   },
   {
     "id": "dungeontactics:trinket_resistance",
@@ -4102,9 +3890,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "This is only worth turning into enchanted paper..."
-    ]
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "livingenchantment:enchantment.living",
@@ -4132,9 +3918,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "The sword whispers to you..."
-    ]
+    "description": ["The sword whispers to you..."]
   },
   {
     "id": "dungeontactics:transport",
@@ -4162,9 +3946,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Summons a tamed, saddled skeleton horse."
-    ]
+    "description": ["Summons a tamed, saddled skeleton horse."]
   },
   {
     "id": "minecraft:projectile_protection",
@@ -4194,9 +3976,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Increases the wearer's resistance to ranged attacks."
-    ]
+    "description": ["Increases the wearer's resistance to ranged attacks."]
   },
   {
     "id": "randomenchantments:homing",
@@ -4223,9 +4003,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Arrows track down enemies."
-    ]
+    "description": ["Arrows track down enemies."]
   },
   {
     "id": "dungeontactics:sunder",
@@ -4253,9 +4031,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Deals heavy damage to all targets within 4 blocks."
-    ]
+    "description": ["Deals heavy damage to all targets within 4 blocks."]
   },
   {
     "id": "dungeontactics:berserking",
@@ -4283,9 +4059,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Increases the damage dealt when the wielder has less armor."
-    ]
+    "description": ["Increases the damage dealt when the wielder has less armor."]
   },
   {
     "id": "randomenchantments:butterfingers",
@@ -4312,9 +4086,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Oops."
-    ]
+    "description": ["Oops."]
   },
   {
     "id": "randomenchantments:swift",
@@ -4341,9 +4113,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Increases the attack speed of the item."
-    ]
+    "description": ["Increases the attack speed of the item."]
   },
   {
     "id": "randomenchantments:global_traveler",
@@ -4370,9 +4140,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "While using this tool, obtained resources will go directly into the linked container by the grace of the petals."
-    ]
+    "description": ["While using this tool, obtained resources will go directly into the linked container by the grace of the petals."]
   },
   {
     "id": "trident:riptide",
@@ -4399,14 +4167,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Underwater or during rain, thrown tridents will drag the wielder along with them."
-    ]
+    "description": ["Underwater or during rain, thrown tridents will drag the wielder along with them."]
   },
   {
     "id": "cyclicmagic:enchantment.launch",
     "name": "enchantment.launch",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "UNCOMMON",
@@ -4428,7 +4194,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": ["?"]
+    "description": ["Multi-jump, I think?"]
   },
   {
     "id": "randomenchantments:torches",
@@ -4513,7 +4279,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Heals the caster for 4 health."]
   },
   {
     "id": "bettercombat:revitalize",
@@ -4540,9 +4306,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": [
-      "Increases the effect of any self-healing by 10 percent, per level."
-    ]
+    "description": ["Increases the effect of any self-healing by 10 percent, per level."]
   },
   {
     "id": "msmlegacy:frost_wave",
@@ -4733,7 +4497,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Allows the weapon's wielder to pull their foe's weapons from their friends."]
   },
   {
     "id": "minecraft:lure",
@@ -4788,7 +4552,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Regenerates hunger and saturation for the caster."]
   },
   {
     "id": "randomenchantments:paralysis",
@@ -4815,7 +4579,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Any entity struck with this weapon will find themselves unable to move, jump, or attack."]
   },
   {
     "id": "trident:impaling",
@@ -4842,7 +4606,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Trident deals more damage to aquatic targets."]
   },
   {
     "id": "randomenchantments:cursed_jump",
@@ -4869,7 +4633,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Any entity struck with this weapon will be unable to prevent themselves from skyrocketing into the air when they jump."]
   },
   {
     "id": "minecraft:sweeping",
@@ -4951,7 +4715,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Inflicts wither upon all enemies in range."]
   },
   {
     "id": "defiledlands:sharpshooter",
@@ -4978,7 +4742,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Increases projectile speed and accuracy."]
   },
   {
     "id": "msmlegacy:vitality",
@@ -5059,7 +4823,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["While using this tool, obtained resources will go directly into the inventory by the grace of the petals."]
   },
   {
     "id": "elenaidodge2:lightweight",
@@ -5117,7 +4881,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Smelts all smeltable items in the caster’s inventory."]
   },
   {
     "id": "mod_lavacow:lifesteal",
@@ -5145,7 +4909,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Weapon heals it's wielder for a portion of the damage it deals."]
   },
   {
     "id": "randomenchantments:stonebound",
@@ -5172,7 +4936,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Tool gains more mining speed at lower durability, but reduced damage."]
   },
   {
     "id": "minecraft:blast_protection",
