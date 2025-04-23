@@ -371,7 +371,7 @@ key.mod_lavacow.special=Mount Special Ability
 
 enchantment.mod_lavacow.poisonous=Poisonous
 enchantment.mod_lavacow.poisonous.desc=Inflicts the target with Poison.
-enchantment.mod_lavacow.lifesteal=Lifesteal
+enchantment.mod_lavacow.Lifesteal=Lifesteal
 enchantment.mod_lavacow.lifesteal.desc=Heals the player while dealing damage to targets.
 enchantment.mod_lavacow.corrosive=Corrosive
 enchantment.mod_lavacow.corrosive.desc=Makes target more vulnerable, increasing damage from all sources.
