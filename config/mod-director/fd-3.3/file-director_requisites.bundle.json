@@ -1,4 +1,13 @@
 {
+    "curse":[
+        {
+            "addonId": 1214490,
+            "fileId": 6407168,
+            "installationPolicy": {
+                "description": "OPTIONAL: Cleanroom Launcher is still in alpha. Accepting this download will require you to relaunch the pack once in order to set up Cleanroom."
+            }
+        }
+    ],
     "url": [
         {
             "url": "https://optifine.net/adloadx?f=preview_OptiFine_1.12.2_HD_U_G6_pre1.jar",
