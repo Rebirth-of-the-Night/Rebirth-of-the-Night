@@ -257,8 +257,8 @@ JEI.addDescription(<rustic:wildberry_bush>,"Carminberry bushes are a harmless so
 JEI.addDescription(<rustic:mooncap_mushroom>, "Found in Jungle biomes and caves.");
 JEI.addDescription(<rustic:cloudsbluff>,"This puffy white flower is found at high altitudes.");
 JEI.addDescription(<betterwithaddons:thorn_rose>, "A mysterious plant that rapidly grows on sand and will wander towards structures like walls. Causes significant damage and can be harvested for Midori and Thorny Roses.");
-JEI.addDescription(<biomesoplenty:berries>, "A berry extracted from an unwilling hawthorn. Although they are unfulfilling and sour, some animals like them, but they are too hard to get. Horses, especially, may surprise their owners when presented with a prepared hawthorn dish.");
-JEI.addDescription(<biomesoplenty:plant_0:5>, "The common hawthorn bush produces a sour berry and has soft leaves. When under stress or pressure from an external force trying to grab its fruit, its branches will harden and poke any unwanted visitors. The berry itself presents particular properties when prepared and fed to horses.");
+JEI.addDescription(<biomesoplenty:berries>, "A berry extracted from an unwilling hawthorn. Although they are unfulfilling and sour, horses enjoy them, but struggle to access them due to their thorny guard. If fed many prepared hawthorn berries, your four-legged friend may become a steed worthy of envy.");
+JEI.addDescription(<biomesoplenty:plant_0:5>, "The common hawthorn bush produces a sour, hard berry and has soft leaves. When something tries to pick its fruit, its mildly toxic branches will harden and prick any unwanted visitors, though it may be worth the pain; the berry itself has peculiar properties when prepared and fed to horses.");
 JEI.addDescription(<minecraft:cactus>,"Can be used to fill a bottle with water. Drink it in a hot and arid biome to receive a small buff.");
 JEI.addDescription(<pyrotech:mulch>, "The smart gardener knows that with some nitrogen and potash, one gets mulch! Applying it to farmland will protect the block from being trampled and will help crops grow a little faster.");
 

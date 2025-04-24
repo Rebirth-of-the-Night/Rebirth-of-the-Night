@@ -57,7 +57,7 @@ Saw.add(<twilightforest:magic_log:1>,[<twilightforest:trans_planks>*5,<hitwithax
 Saw.add(<twilightforest:magic_log:2>,[<twilightforest:mine_planks>*5,<hitwithaxe:bark:15>*4,<pyrotech:rock:7>*2]);
 Saw.add(<twilightforest:magic_log:3>,[<twilightforest:sort_planks>*5,<hitwithaxe:bark:15>*4,<pyrotech:rock:7>*2]);
 Saw.add(<twilightforest:giant_log>, [<minecraft:planks>*320,<hitwithaxe:bark:15>*256,<pyrotech:rock:7>*128]);
-Saw.add(<betterwithmods:blood_log>,[<biomesoplenty:fleshchunk>*8,<betterwithmods:bark:6>*4,<netherex:bone_sliver>]);
+Saw.add(<betterwithmods:blood_log>,[<biomesoplenty:fleshchunk>*3,<betterwithmods:bark:6>*4,<netherex:bone_sliver>]);
 Saw.add(<aether_legacy:aether_log:*>,[<aether_legacy:skyroot_plank>*5,<hitwithaxe:bark:15>*4,<pyrotech:rock:7>*2]);
 Saw.add(<defiledlands:tenebra_log>,[<defiledlands:tenebra_planks>*5,<hitwithaxe:bark:15>*4,<pyrotech:rock:7>*2]);
 Saw.add(<minecraft:noteblock>,[<cyclicmagic:doorbell_simple>*4,<minecraft:redstone>,<pyrotech:rock:7>*2]);
