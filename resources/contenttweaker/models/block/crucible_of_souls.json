@@ -3,10 +3,10 @@
 	"parent": "block/block",
 	"ambientocclusion": false,
 	"textures": {
-		"0": "globalxp:blocks/vessel_side",
-		"1": "globalxp:blocks/vessel_bot",
-		"2": "globalxp:blocks/vessel_top",
-		"particle": "globalxp:blocks/vessel_side"
+		"0": "contenttweaker:blocks/crucible_of_souls_side",
+		"1": "contenttweaker:blocks/crucible_of_souls_bot",
+		"2": "contenttweaker:blocks/crucible_of_souls_top",
+		"particle": "contenttweaker:blocks/crucible_of_souls_side"
 	},
 	"elements": [
 		{

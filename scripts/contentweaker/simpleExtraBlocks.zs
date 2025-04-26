@@ -656,6 +656,15 @@ crucible.setToolLevel(0);
 crucible.setToolClass("shovel");
 crucible.register();
 
+// Crucible of souls
+var crucible_of_souls = VanillaFactory.createBlock("crucible_of_souls", <blockmaterial:Iron>);
+crucible_of_souls.setCreativeTab(<creativetab:rotn_blocks>);
+crucible_of_souls.setBlockSoundType(<soundtype:stone>);
+crucible_of_souls.setFullBlock(false);
+crucible_of_souls.setToolLevel(0);
+crucible_of_souls.setToolClass("pickaxe");
+crucible_of_souls.register();
+
 // Unfired Rustic Vase
 var pot_unfired = VanillaFactory.createBlock("pot_unfired", <blockmaterial:Clay>);
 pot_unfired.axisAlignedBB = AxisAlignedBB.create(
