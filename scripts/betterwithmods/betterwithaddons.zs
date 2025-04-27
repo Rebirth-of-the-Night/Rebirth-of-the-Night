@@ -105,7 +105,7 @@ for item in bwaArray {
 	// (a|b|c) gets anything that matches one of those three
 	// (?!a|b|c).* gets everything except items matching those three
 val regexArray = [
-	"(iron|diamond|gold).*",
+	"(iron|diamond|gold)_(?!sand).*",
 	".*(paper|samurai)",
 	"food_(?!carrot_baked|beetroot_baked|clownfish_cooked|pufferfish_baked|mulberry).*",
 	"crop.*",
