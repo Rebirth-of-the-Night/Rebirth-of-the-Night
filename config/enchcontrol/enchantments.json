@@ -1397,7 +1397,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": ["Increases maximum ammo capacity for throwing weapons by 25% or one ammo per level, whichever is greater."]
+    "description": ["Increases maximum ammo capacity for throwing weapons by 25 percent or one ammo per level, whichever is greater."]
   },
   {
     "id": "corpsecomplex:soulbound",
@@ -2417,7 +2417,7 @@
     "items_list_mode": 0,
     "items_list": [],
     "description": [
-		"The fury of the silent sentinels. Each level adds a 15% chance to deal damage back to attackers."
+		"The fury of the silent sentinels. Each level adds a 15 percent chance to deal damage back to attackers."
 	]
   },
   {
@@ -3001,7 +3001,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": ["The power of ** freezes water underfoot."]
+    "description": ["The grace of Yumara freezes water underfoot."]
   },
   {
     "id": "nyx:lunar_edge",
@@ -3280,7 +3280,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": ["Pickaxe has an 80% chance to restore 1 durability if mining stone."]
+    "description": ["Pickaxe has an 80 percent chance to restore 1 durability if mining stone."]
   },
   {
     "id": "charm:clumsiness_curse",
@@ -3419,7 +3419,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": ["The power of ** allows the bow to pull arrows from thin air."]
+    "description": ["An arcane masterpiece allows the bow to pull arrows from thin air."]
   },
   {
     "id": "msmlegacy:extinction",
@@ -4194,7 +4194,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": ["Multi-jump, I think?"]
+    "description": ["Grants the wearer an addition jump per level."]
   },
   {
     "id": "randomenchantments:torches",
@@ -4361,7 +4361,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": ["Causes the weapon to inflict the Corroded status on its victims, increasing the damage they take by 20% per level."]
+    "description": ["Causes the weapon to inflict the Corroded status on its victims, increasing the damage they take by 20 percent per level."]
   },
   {
     "id": "randomenchantments:lightning",
@@ -4416,7 +4416,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": ["Reduces charging time for throwing weapons by 20% per level."]
+    "description": ["Reduces charging time for throwing weapons by 20 percent per level."]
   },
   {
     "id": "minecraft:unbreaking",
