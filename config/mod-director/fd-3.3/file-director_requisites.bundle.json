@@ -4,7 +4,7 @@
             "addonId": 1214490,
             "fileId": 6407168,
             "installationPolicy": {
-                "description": "OPTIONAL: Cleanroom Launcher is still in alpha. Accepting this download will require you to relaunch the pack once in order to set up Cleanroom."
+                "description": "OPTIONAL & EXPERIMENTAL!!: Cleanroom Launcher is still in alpha. Accepting this download will require you to perform an additional setup step, as well as download a java version of 21 or newer."
             }
         }
     ],
