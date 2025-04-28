@@ -273,8 +273,8 @@ recipes.addShaped(<betterwithaddons:ancestry_bottle>, [
 //INFUSER
 recipes.addShaped(<betterwithaddons:ancestry_infuser>, [
     [<contenttweaker:vis_speck>, <betterwithaddons:ancestry_bottle>, <contenttweaker:vis_speck>],
-    [<minecraft:gold_ingot>, <minecraft:carpet:10>, <minecraft:gold_ingot>],
-    [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]
+    [<minecraft:gold_ingot>, <minecraft:carpet:*>, <minecraft:gold_ingot>],
+    [<contenttweaker:magicked_stone>, <contenttweaker:magicked_stone>, <contenttweaker:magicked_stone>]
 ]);
 
 Infuser.addShaped(<betterwithaddons:greatarrow_lightning>*8,[
@@ -282,6 +282,12 @@ Infuser.addShaped(<betterwithaddons:greatarrow_lightning>*8,[
     [<betterwithaddons:greatarrow>,<rats:charged_creeper_chunk>,<betterwithaddons:greatarrow>],
     [<betterwithaddons:greatarrow>,<betterwithaddons:greatarrow>,<betterwithaddons:greatarrow>]
 ], 0);
+
+// Crucible of Souls
+Infuser.addShaped(<contenttweaker:crucible_of_souls>,[
+    [<biomesoplenty:gem:5>],
+    [<betterwithmods:cooking_pot>]
+], 16);
 
 // Spirit charging
 Infuser.addShapeless(<cyclicmagic:wand_hypno>,

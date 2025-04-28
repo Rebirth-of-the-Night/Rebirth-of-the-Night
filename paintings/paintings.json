@@ -936,7 +936,7 @@
 		"isCreative": false
     },
 	{
-        "motive": "Banner - Lanara`s Companions",
+        "motive": "banner - lanara's companions",
 		"textures": {
             "back": "paintings:null"
         },
@@ -1000,8 +1000,8 @@
     },
 	{
         "motive": "poster - dominion",
-        "width": 3,
-        "height": 2,
+        "width": 1,
+        "height": 3,
 		"isCreative": false
     },
 	{
@@ -1295,12 +1295,6 @@
         "height": 4,
 		"isCreative": false
     },
-    {
-        "motive": "The Exalted Ember",
-        "width": 2,
-        "height": 5,
-		"isCreative": false
-    },
 	{
         "motive": "Misshap",
         "width": 4,
@@ -1355,6 +1349,12 @@
         "height": 3,
 		"isCreative": false
     },
+    {
+        "motive": "The Exalted Ember",
+        "width": 2,
+        "height": 5,
+		"isCreative": false
+    },
 	{
         "motive": "Turin Turambar",
         "width": 3,
@@ -1365,7 +1365,7 @@
         "motive": "Hail to the New King",
         "width": 3,
         "height": 4,
-		"isCreative": false
+		"isCreative": true
     },
 	{
         "motive": "Mona Lisa",
@@ -1413,7 +1413,7 @@
         "motive": "Cradle",
         "width": 5,
         "height": 3,
-		"isCreative": false
+		"isCreative": true
     },
 	{
         "motive": "Mortarid Countryside",

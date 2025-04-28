@@ -661,6 +661,7 @@ var crucible_of_souls = VanillaFactory.createBlock("crucible_of_souls", <blockma
 crucible_of_souls.setCreativeTab(<creativetab:rotn_blocks>);
 crucible_of_souls.setBlockSoundType(<soundtype:stone>);
 crucible_of_souls.setFullBlock(false);
+crucible_of_souls.setLightOpacity(0);
 crucible_of_souls.setToolLevel(0);
 crucible_of_souls.setToolClass("pickaxe");
 crucible_of_souls.register();

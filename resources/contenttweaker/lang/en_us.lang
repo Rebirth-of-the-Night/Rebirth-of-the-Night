@@ -745,7 +745,7 @@ item.contenttweaker.clockwork_heart.name=Imperfect Brass Heart
 item.contenttweaker.doll_heart.name=Perfect Heart
 
 #------------------------------------------------------------------------------
-# Unfired Items
+# Unfired Items and Pottery
 #------------------------------------------------------------------------------
 
 tile.contenttweaker.crucible.name=Unfired Crucible
@@ -764,3 +764,5 @@ tile.contenttweaker.unfired_mud_brick.name=Unfired Mud Brick
 tile.contenttweaker.unfired_fiery_brick.name=Unfired Fiery Brick
 tile.contenttweaker.unfired_refractory_brick.name=Unfired Refractory Brick
 tile.contenttweaker.unfired_porcelain_brick.name=Unfired Porcelain Brick
+
+tile.contenttweaker.crucible_of_souls.name=Crucible of Souls

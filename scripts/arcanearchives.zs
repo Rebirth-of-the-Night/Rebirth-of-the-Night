@@ -84,7 +84,7 @@ brewing.addBrew(<ore:logWoodWithoutMagic>, <contenttweaker:magic_blend>, <biomes
 //// Replaces the shaped radiant quartz recipe without disordering the GCT screen: GCT.replaceRecipe("shaped_quartz", <arcanearchives:shaped_quartz>, [<arcanearchives:raw_quartz>*10]);
 
 // radiant amphora
-GCT.replaceRecipe("radiant_amphora", <arcanearchives:radiant_amphora>, [<arcanearchives:radiant_dust>*4, <betterwithmods:urn:9>, <ore:nuggetElectrum>.firstItem*4]);
+GCT.removeRecipe(<arcanearchives:radiant_amphora>); // Recipe done in warecrafting station, pottery.zs
 
 GCT.replaceRecipe("scintillating_inlay", <arcanearchives:scintillating_inlay>, [<arcanearchives:radiant_dust>*6, <minecraft:redstone>*12, <ore:ingotElectrum>, <ore:nuggetElectrum>.firstItem*6]);
 

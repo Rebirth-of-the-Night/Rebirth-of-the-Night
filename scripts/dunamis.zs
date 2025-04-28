@@ -21,6 +21,13 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
+  
+// Radiant Amphora
+RecipeBuilder.get("mage")
+ .setShapeless([<arcanearchives:radiant_dust>, <betterwithmods:urn:9>, <ore:nuggetElectrum>.firstItem])
+ .addOutput(<arcanearchives:radiant_amphora>)
+ .setExtraOutputOne(<randomthings:ingredient:2>, 0.2)
+ .create();
 
 // Scepters
 #bases

@@ -10,6 +10,7 @@ item.jar_empty.name=Mason Jar
 tile.blue_fire.name=Cursed Fire
 item.jar_filled_blue_fire.name=Cursed Fire Mason Jar
 item.gem_peridot.name=Alexandrite
+item.gem_malachite.name=Benelyte
 item.terrestrial_artifact.name=Stillborn Crimson Petal
 
 tile.gem_block.peridot_block.name=Block of Alexandrite
@@ -25,6 +26,7 @@ tile.honey_block.name=Honey Residue
 
 tile.gem_block.amethyst_block.name=Block of Exorite
 tile.gem_ore.amethyst_ore.name=Exorite Ore
+tile.gem_block.malachite_block.name=Block of Benelyte
 
 tile.ash_block.name=Block of Ashes
 tile.mud.mud.name=Block of Mud
