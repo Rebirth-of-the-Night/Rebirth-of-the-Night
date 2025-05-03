@@ -455,7 +455,7 @@ JEI.addDescription(<netherchest:nether_chest>,"When items are stored in a Nether
 JEI.addDescription(<pyrotech:compacting_bin>, "A reinforced container that's useful to compact stuff into denser materials or blocks.");
 JEI.addDescription(<pyrotech:shelf>,"Displays items much more visibly than a chest ever could.");
 JEI.addDescription(<pyrotech:stash>,"When all you need is somewhere to stash items... without requiring an arcane trove. Can hold up to 48 stacks of the same item.");
-JEI.addDescription(<bundles:bundle:*>,"The all-in-one inventory declutterer, bundles can hold up to 128 different items, all in one inventory slot! Some exceptions apply, such as potions and elixirs taking up 8 items worth of storage, or unstackables taking up 64 items worth. Shift right-click to empty the contents of a bundle into your inventory.");
+JEI.addDescription(<bundles:bundle:*>,"The all-in-one inventory declutterer, bundles can hold up to 128 different items, all in one inventory slot! Some exceptions apply, such as potions and elixirs taking up 8 items worth of storage, or unstackables taking up 64 items worth. Shift right-click to empty the contents of a bundle into your inventory. Can be dyed like leather armor for color coding storage.");
 
 
 /* Rats and the Plague */
