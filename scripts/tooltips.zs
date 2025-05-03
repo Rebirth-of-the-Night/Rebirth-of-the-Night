@@ -622,7 +622,6 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <rustic:chili_pepper>.addTooltip(format.yellow("Summer"));
 
 // Wands
-
 <dungeontactics:magic_scroll>.removeTooltip("^Restoration( \\d+)?");
 <dungeontactics:magic_scroll>.removeTooltip("^Satiating( \\d+)?");
 <dungeontactics:magic_scroll>.removeTooltip("^Forging( \\d+)?");
@@ -644,8 +643,10 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <dungeontactics:magic_scroll>.removeTooltip("^Hold LSHIFT to see enchantments description");
 
 // Satchel
-
 <deadmanssatchel:deadmanssatchel>.removeTooltip("^Owner( \\d+)?");
+
+// Bundles
+<bundles:bundle:*>.addTooltip("Shift-right click to dump contents into inventory.");
 
 // Scepters
 <defiledlands:tears_flame>.removeTooltip("Shoots fireballs");
@@ -706,6 +707,12 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <betterwithaddons:greatbow:*>.addTooltip(format.darkAqua("Arrow Speed: ") + format.gray("x1.7"));
 <betterwithaddons:greatbow:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x2.5"));
 
+// Astikorcarts
+<astikorcarts:cargocart>.addTooltip("Can be ridden by one person.");
+<astikorcarts:cargocart>.addTooltip("Has a double chest worth of storage space; shift right-click to open.");
+<astikorcarts:mobcart>.addTooltip("Used to transport up to two animals; can also be ridden by players.");
+<astikorcarts:plowcart>.addTooltip("Plows the ground under it when pulled by a horse.");
+<astikorcarts:plowcart>.addTooltip("Right-click to lower its beams to ground level.");
 
 // BUGS
 #<aether_legacy:enchanted_blueberry:*>.addTooltip(format.red("DO NOT FEED TO HYPPOGRYPHS; CURRENTLY BUGGED AND UNTAMABLE."));

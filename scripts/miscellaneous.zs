@@ -108,13 +108,6 @@ recipes.addShaped("water_well", <well:well>,[
     [<contenttweaker:masonry_brick>, <betterwithmods:screw_pump>, <contenttweaker:masonry_brick>]
 ]);
 
-// Bundle pouch
-recipes.remove(<bundles:bundle>);
-recipes.addShaped("bundle_pouch", <bundles:bundle>,
-    [[null,durable_fiber,null],
-    [leather_sheets,durable_fabric,leather_sheets],
-    [null,leather_sheets,null]]);
-
 // assorted hiding
 
 # minecraft

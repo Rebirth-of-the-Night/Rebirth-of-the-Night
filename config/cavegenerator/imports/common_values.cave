@@ -257,6 +257,7 @@
     minecraft:dirt:2
     minecraft:snow
     minecraft:gravel
+    minecraft:packed_ice
     contenttweaker:weathered_dirt
     minecraft:grass
     biomesoplenty:dirt

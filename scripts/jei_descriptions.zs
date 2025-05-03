@@ -423,6 +423,10 @@ JEI.addDescription(<advancedliftingmethods:blowing_elevator>,"Thanks to reverse-
 JEI.addDescription(<malisisdoors:garage_door>, "Apply a redstone signal to lift the gate. All connected gates move as one block.");
 JEI.addDescription(<malisisdoors:jail_door>, "Apply a redstone signal to open and close.");
 
+/* Horse Carts */
+JEI.addDescription(<astikorcarts:cargocart>, "When attached to a horse, supply carts are an efficient way to transport both items and players. It has a double chest worth of capacity; one person can ride on the back of it. Be careful to not get stuck on thin trees or obstacles, as it can detach from a horse and leave your stuff stranded!");
+JEI.addDescription(<astikorcarts:mobcart>, "The livestock cart can carry up to two animals on it. Attach it to a horse to move your farm animals place to place, or use it to scoop up animals to start a farm.");
+JEI.addDescription(<astikorcarts:plowcart>, "Horse plows are the most efficient way to work the land. When used with tools like shovels or hoes, it can turn a large area into farmland, or make a nice path to walk on that gives a slight speed boost.");
 
 /* Nyx Stars and Meteors */
 JEI.addDescription(<nyx:fallen_star>,"A piece of the heavens lies inside fallen stars. These will rarely fall from the sky, but are more common during a star shower.");
@@ -450,7 +454,8 @@ JEI.addDescription(<ore:ingotElectrum>,"Normal electrum holds little value when 
 JEI.addDescription(<netherchest:nether_chest>,"When items are stored in a Nether Chest, their normal stack size limit is multiplied by 8, due to the way the Nether compresses space by a factor of 8. This stack size increase also applies to tools and any other items that aren't normally stackable. Despite their name, trying to open one in the Nether is a very bad idea.");
 JEI.addDescription(<pyrotech:compacting_bin>, "A reinforced container that's useful to compact stuff into denser materials or blocks.");
 JEI.addDescription(<pyrotech:shelf>,"Displays items much more visibly than a chest ever could.");
-JEI.addDescription(<pyrotech:stash>,"When all you need is somewhere to stash items... without requiring an arcane trove. Can hold up to 32 stacks of the same item.");
+JEI.addDescription(<pyrotech:stash>,"When all you need is somewhere to stash items... without requiring an arcane trove. Can hold up to 48 stacks of the same item.");
+JEI.addDescription(<bundles:bundle:*>,"The all-in-one inventory declutterer, bundles can hold up to 128 different items, all in one inventory slot! Some exceptions apply, such as potions and elixirs taking up 8 items worth of storage, or unstackables taking up 64 items worth. Shift right-click to empty the contents of a bundle into your inventory.");
 
 
 /* Rats and the Plague */
@@ -578,7 +583,7 @@ JEI.addDescription(<aether_legacy:cloud_staff>,"Summons a pair of cloud sentries
 JEI.addDescription(<defiledlands:tears_flame>,"Charge to shoot 5 fire balls at your target. Can be recharged using spirits in the Ancestral Infuser.");
 
 /* Hit with Axe */
-JEI.addDescription(<hitwithaxe:debarked_magic>, "Hit a magic wood log with an axe.");
+JEI.addDescription(<hitwithaxe:debarked_magic>, "Hit a magic log with an axe.");
 
 /* Yeasts */
 JEI.addDescription(<growthcraft_cellar:yeast>, "A yeast which appears to be basic in nature. It can be cultivated in culture jars with any fermentable liquid in any biome, albeit at a lower rate in biomes where other yeasts might flourish. Placing this in the output slot of a culture jar will ensure only brewer's yeast is produced, irrespective of the biome.");
