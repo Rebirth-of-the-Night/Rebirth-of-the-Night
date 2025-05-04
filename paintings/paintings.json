@@ -30,7 +30,19 @@
 		"isCreative": true
     },
 	{
+        "motive": "sigil Thymos-Eros",
+        "width": 1,
+        "height": 1,
+		"isCreative": true
+    },
+	{
         "motive": "sigil Soter",
+        "width": 1,
+        "height": 1,
+		"isCreative": true
+    },
+	{
+        "motive": "sigil Yaruk",
         "width": 1,
         "height": 1,
 		"isCreative": true
@@ -78,7 +90,16 @@
         },
         "width": 3,
         "height": 3,
-		"isCreative": false
+		"isCreative": true
+    },
+	{
+        "motive": "Portraits of Madness - Red",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 3,
+        "height": 3,
+		"isCreative": true
     },
 	{
         "motive": "Requisitioner",
@@ -789,6 +810,12 @@
 		"isCreative": false
     },
 	{
+        "motive": "A Lily for Mortarid",
+        "width": 4,
+        "height": 1,
+		"isCreative": false
+    },
+	{
         "motive": "Lighthouse Vista",
         "width": 4,
         "height": 1,
@@ -891,6 +918,12 @@
 		"isCreative": false
     },
 	{
+        "motive": "Velunith in the Sky",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
         "motive": "Banner - Drachenritter Family",
 		"textures": {
             "back": "paintings:null"
@@ -976,6 +1009,12 @@
     },
 	{
         "motive": "The Immense",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Trinity of Light",
         "width": 3,
         "height": 2,
 		"isCreative": false
@@ -1314,6 +1353,12 @@
 		"isCreative": false
     },
 	{
+        "motive": "Fjords of Stormsight",
+        "width": 4,
+        "height": 3,
+		"isCreative": false
+    },
+	{
         "motive": "Streets of the Aki-Shadits",
         "width": 4,
         "height": 3,
@@ -1418,7 +1463,7 @@
 	{
         "motive": "Mortarid Countryside",
         "width": 6,
-        "height": 4,
+        "height": 3,
 		"isCreative": false
     },
 	{

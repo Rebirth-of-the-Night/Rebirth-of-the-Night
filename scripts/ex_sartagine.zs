@@ -419,14 +419,17 @@ val meatball = <mod_lavacow:meatball>;
 val misoPaste = <harvestcraft:misopasteitem>;
 val cakeBatter = <betterwithmods:raw_pastry>;
 
-//Stock Recipes
+// Stock Recipes
 recipes.remove(stock);
 //ExSartagine.addPotRecipe(<minecraft:bone>|<undergroundbiomes:fossil_piece:2>|<undergroundbiomes:fossil_piece:3>|<undergroundbiomes:fossil_piece:5>|<undergroundbiomes:fossil_piece:7>, stock);
 //ExSartagine.addPotRecipe(veggie, stock*2);
 //ExSartagine.addPotRecipe(<ore:listAllmeatraw>|<betterwithaddons:congealed>, stock*3);
 
-//Wormhole Potion
+// Wormhole Potion
 ExSartagine.addKettleRecipe([<quark:arrow_ender>,<minecraft:glass_bottle>],null,waterBottle,[<bountifulbaubles:potionwormhole>],300);
+
+// Lavender Porridge
+ExSartagine.addKettleRecipe([<rustic:ginseng>,<biomesoplenty:flower_1>], <minecraft:bowl>, waterBottle2, [<betterwithmods:chicken_soup>], 300);
 
 // Remove vanilla pastry recipes
 recipes.removeByRecipeName("harvestcraft:minecraft_pumpkinpie");
@@ -3656,6 +3659,8 @@ ExSartagine.addKettleRecipe([rawChicken,<harvestcraft:bbqsauceitem>,veggie,chees
 recipes.remove(<harvestcraft:quesadillaitem>);
 ExSartagine.addKettleRecipe([<harvestcraft:tortillaitem>,cheese],cookKitKettle,null,[<harvestcraft:quesadillaitem>],80);
 //Miso Paste (not organized, move once other items are done) [KEEPER]
+//Koji Mold duping
+Mortar.addRecipe(["stone"], koji_mold*2, 12, [rice,koji_mold]);
 recipes.remove(misoPaste);
 ExSartagine.addKettleRecipe([soybean,soybean,soybean,koji_mold,salt],null,waterBottle2,[misoPaste*3],80);
 //Raw End Pizza [KEEPER]

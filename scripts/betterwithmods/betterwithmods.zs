@@ -538,6 +538,7 @@ recipes.removeShapeless(<betterwithmods:candle:*>,[<quark:candle:*>]);
 
 Cauldron.remove([<minecraft:mushroom_stew>]);
 Cauldron.remove([<minecraft:rabbit_stew>]);
+Cauldron.remove([<betterwithmods:chicken_soup>]);
 Cauldron.addUnstoked([<minecraft:cooked_rabbit>|<animania:cooked_prime_rabbit>,<ore:cookedCarrot>,<ore:cookedPotato>,<ore:foodFlour>,<ore:listAllmushroom>*3,<minecraft:bowl>*5],[<minecraft:rabbit_stew>*5]);
 
 Cauldron.addUnstoked([<quark:crab_leg>],[<quark:cooked_crab_leg>]);
@@ -596,7 +597,6 @@ recipes.remove(<betterwithmods:material:45>); // diamond ingot
 recipes.addShapeless("Hemp Fibers", <betterwithmods:material:3>*3,[<betterwithmods:material:2>,<betterwithmods:material:2>]);
 recipes.addShapeless("Hemp Seeds", <betterwithmods:hemp>,[<ore:cropHemp>]);
 
-JEI.removeAndHide(<betterwithmods:chicken_soup>);
 JEI.removeAndHide(<betterwithmods:cobblestone:0>);
 JEI.removeAndHide(<betterwithmods:cobblestone:1>);
 JEI.removeAndHide(<betterwithmods:cobblestone:2>);

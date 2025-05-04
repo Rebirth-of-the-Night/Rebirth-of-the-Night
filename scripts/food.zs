@@ -1685,6 +1685,10 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
 <rustic:chili_pepper>.foodValues.hunger = 1;
 <rustic:chili_pepper>.foodValues.saturationModifier = 1;
 
+// bwm
+<betterwithmods:chicken_soup>.foodValues.hunger = 2;
+<betterwithmods:chicken_soup>.foodValues.saturationModifier = 0.1;
+
 // Copy Paste
 /*
 .foodValues.hunger = ;
