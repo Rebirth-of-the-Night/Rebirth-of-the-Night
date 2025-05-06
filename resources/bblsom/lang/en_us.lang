@@ -1,3 +1,13 @@
+tile.bblsom.unknown_soil.name=(WIP) Unknown Soil
+tile.bblsom.unknown_soilbed.name=(WIP) Unknown Soilbed
+
+tile.bblsom.red_crown.name=Red Crown
+tile.bblsom.red_crown_huge.name=Red Crown
+tile.bblsom.arzabals_veil.name=(WIP) Arzabal's Veil
+tile.bblsom.arzabals_veil_huge.name=(WIP) Arzabal's Veil
+
+tile.bblsom.block_brooding_silk.name=Block of Brooding Silk
+
 item.tile.bblsom.wildflowers_west_kraired.name=Kraired Wildflowers
 item.tile.bblsom.wildflowers_north_kraired.name=Kraired Wildflowers
 item.tile.bblsom.wildflowers_atashum.name=Atashum Wildflowers
