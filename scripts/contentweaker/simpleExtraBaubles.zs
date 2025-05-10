@@ -72,7 +72,8 @@ clockwork_heart.onUnequipped = function(bauble, wearer) {
     if(wearer instanceof IPlayer) {
         var player as IPlayer = wearer;
         if(!(player.isPotionActive(<potion:minecraft:health_boost>)) && !(player.isPotionActive(<potion:minecraft:regeneration>))){
-            player.attackEntityFrom(brokenHeart, 200);
+            player.addPotionEffect(<potion:wards:effect_unbreaking>.makePotionEffect(20, 199));
+            player.attackEntityFrom(brokenHeart, 300);
         }
     }
 };
@@ -94,7 +95,8 @@ doll_heart.onWornTick = function(bauble, wearer) {
 doll_heart.onUnequipped = function(bauble, wearer) {
     if(wearer instanceof IPlayer) {
         var player as IPlayer = wearer;
-        player.attackEntityFrom(brokenHeart, 9999);
+        player.addPotionEffect(<potion:wards:effect_unbreaking>.makePotionEffect(20, 199));
+        player.attackEntityFrom(brokenHeart, 500);
     }
 };
 doll_heart.baubleType = "CHARM";
