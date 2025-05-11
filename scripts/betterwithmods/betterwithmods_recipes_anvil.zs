@@ -156,3 +156,12 @@ Anvil.addShaped(<contenttweaker:steel_crowbar>,
    [<dungeontactics:steel_ingot>, <contenttweaker:material_part:49>, <dungeontactics:steel_ingot>, <contenttweaker:material_part:49>],
    [null, null, <contenttweaker:material_part:49>, <dungeontactics:steel_ingot>]
 ]);
+
+Anvil.removeShaped(<betterwithmods:block_dispenser>);
+mods.betterwithmods.Anvil.addShapedFixed(<betterwithmods:block_dispenser>, 
+[
+   [<ore:blockMossy>, <ore:blockMossy>, <ore:blockMossy>, <ore:blockMossy>],
+   [<ore:blockMossy>, <betterwithmods:urn:8>, <betterwithmods:urn:8>, <ore:blockMossy>],
+   [<ore:stone>, <minecraft:redstone_torch>, <minecraft:redstone_torch>, <ore:stone>],
+   [<ore:stone>, <minecraft:redstone>, <minecraft:redstone>, <ore:stone>]
+]);

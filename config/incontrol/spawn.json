@@ -255,7 +255,7 @@
 {
     "mob": "biomesoplenty:wasp",
 	"onjoin": true,
-    "potion": ["minecraft:fire_resistance,1000000,0"]
+    "potion": ["minecraft:fire_resistance,1000000,10"]
   },
   
 // goblin mace nerf
@@ -331,13 +331,13 @@
 {
     "mob": "betteranimalsplus:hirschgeist",
 	"onjoin": true,
-    "potion": ["minecraft:fire_resistance,1000000,1", "wards:effect_projectile_protection,1000000,14", "potioncore:purity,1000000,2", "minecraft:regeneration,1000000,1", "extraalchemy:effect.dislocation,60,2", "potioncore:teleport_surface,60,1"]
+    "potion": ["minecraft:fire_resistance,1000000,10", "wards:effect_projectile_protection,1000000,14", "potioncore:purity,1000000,2", "minecraft:regeneration,1000000,1", "extraalchemy:effect.dislocation,60,2", "potioncore:teleport_surface,60,1"]
   },
 
 {
     "mob": "aether_legacy:valkyrie_queen",
 	"onjoin": true,
-    "potion": ["minecraft:fire_resistance,1000000,1", "wards:effect_projectile_protection,1000000,14", "potioncore:purity,1000000,2", "minecraft:regeneration,1000000,1", "potioncore:solid_core,1000000,2", "potioncore:magic_shield,1000000,2"]	
+    "potion": ["minecraft:fire_resistance,1000000,10", "wards:effect_projectile_protection,1000000,14", "potioncore:purity,1000000,2", "minecraft:regeneration,1000000,1", "potioncore:solid_core,1000000,2", "potioncore:magic_shield,1000000,2"]	
   },
   
 // mob special effects  
@@ -350,7 +350,7 @@
    {
     "mob": "mod_lavacow:sludgelord",
     "onjoin": true,
-    "potion": ["minecraft:fire_resistance,1000000,1", "minecraft:regeneration,1000000,1", "wards:effect_projectile_protection,1000000,10"]
+    "potion": ["minecraft:fire_resistance,1000000,10", "minecraft:regeneration,1000000,1", "wards:effect_projectile_protection,1000000,10"]
   },
 
 // no creeper, aww man
@@ -2344,7 +2344,7 @@
     "result": "allow",
 	"damagemultiply": 0.7,
     "healthmultiply": 0.5,
-	"potion": "minecraft:fire_resistance,1000000,1"
+	"potion": "minecraft:fire_resistance,1000000,10"
  },
  {
     "dimension": 10,
@@ -2479,7 +2479,7 @@
     "result": "allow",
 	"damagemultiply": 1.5,
     "healthmultiply": 1.5,
-	"potion": ["minecraft:fire_resistance,1000000,1", "potioncore:purity,1000000,1", "extraalchemy:effect.concentration,1000000,1"]
+	"potion": ["minecraft:fire_resistance,1000000,10", "potioncore:purity,1000000,1", "extraalchemy:effect.concentration,1000000,1"]
  },
  {
     "dimension": -1,

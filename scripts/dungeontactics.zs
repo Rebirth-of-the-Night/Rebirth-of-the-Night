@@ -154,7 +154,13 @@ LootTable.removeGlobalItem("dungeontactics:wither_web");
 //recipes.remove(<dungeontactics:magic_scroll>);
 JEI.removeAndHide(<dungeontactics:magic_scroll>);
 
-<ore:buttonStone>.addItems([<minecraft:stone_button>,<undergroundbiomes:igneous_stone_button:*>,<undergroundbiomes:metamorphic_stone_button:*>,<undergroundbiomes:sedimentary_stone_button:*>]);
+recipes.removeByRecipeName("dungeontactics:tools/magic_pouch");
+recipes.addShaped("wand_powder_pouch",<dungeontactics:magic_pouch:639>,[
+    [null,<ore:twine>,null],
+    [null,<dungeontactics:magic_powder>,null],
+    [null,<ore:leather>,null]
+]);
+
 recipes.remove(<dungeontactics:rocket_pants>);
 recipes.addShaped("rocket_pants",<dungeontactics:rocket_pants>,[
     [<minecraft:redstone>,<ore:buttonStone>,<minecraft:redstone>],

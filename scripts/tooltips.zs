@@ -165,6 +165,7 @@ for w, weapon in sapphireweps{
 <iceandfire:pixie_dust:*>.addTooltip("What would happen if I had a taste...?");
 <contenttweaker:xp_tome_mundane>.addTooltip("Grants 500 XP on use.");
 <contenttweaker:xp_tome_arcane>.addTooltip("Grants 5 LEVELS on use.");
+<rats:feral_rat_claw>.addTooltip("Dropped from unnaturally large rodents.");
 
 // Arcane Archives
 <arcanearchives:raw_quartz:*>.addTooltip("Right-click on any chest to convert it to a Radiant Chest.");
@@ -543,7 +544,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <dungeontactics:lantern_magic:*>.addTooltip("Light with a Flint and Steel to activate.");
 <dungeontactics:lantern_magic:*>.addTooltip(format.red("DOES NOT DROP WHEN BROKEN!"));
 <extraalchemy:potion_ring:*>.addTooltip("Consumes 5 or 8 xp every 30 seconds while active, depending on potion strength.");
-<dungeontactics:magic_pouch:*>.addTooltip("Right-click to open.");
+<dungeontactics:magic_pouch:*>.addTooltip("Shift right-click to take out one wand powder.");
+<dungeontactics:magic_pouch:*>.addTooltip("Right-click to stuff all wand powder in inventory into pouch.");
 <pyrotech:material:12>.addTooltip("Used for dried fiber.");
 <pyrotech:material:12>.addShiftTooltip("Obtained from breaking grass or as a byproduct of fibrous plants", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <pyrotech:refractory_door>.addShiftTooltip("Needs to be facing the inside of the structure.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));

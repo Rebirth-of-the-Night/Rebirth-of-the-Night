@@ -49,6 +49,7 @@ val pathBlockB = <ore:pathBlockB>;
 pathBlockB.addItems([
   <minecraft:stonebrick:*>,
   <minecraft:prismarine:1>,
+  <betterwithaddons:whitebrick>,
   <betterwithaddons:whitebrick:1>,
   <betterwithaddons:whitebrick:2>,
   <betterwithaddons:whitebrick:3>,
@@ -78,17 +79,17 @@ pathBlockB.addItems([
   <contenttweaker:brick_minecraft_clay>,
   <contenttweaker:brick_quark_sandy>,
   <contenttweaker:brick_pyrotech_masonry>,
-  <contenttweaker:brick_pyrotech_refractory>
-  ,<contenttweaker:brick_minecraft_nether>,
+  <contenttweaker:brick_pyrotech_refractory>,
+  <contenttweaker:brick_minecraft_nether>,
   <contenttweaker:brick_netherex_fiery>,
   <contenttweaker:brick_minecraft_end>,
   <contenttweaker:brick_betterwithaddons_whitebrick>,
   <contenttweaker:brick_ceramics_porcelain>,
-  <defiledlands:stone_defiled_decoration:0>,
+  <defiledlands:stone_defiled_decoration>,
   <defiledlands:stone_defiled_decoration:1>,
   <defiledlands:stone_defiled_decoration:2>,
   <defiledlands:stone_defiled_decoration:3>,
-  <defiledlands:ravaging_decoration:0>,
+  <defiledlands:ravaging_decoration>,
   <defiledlands:ravaging_decoration:1>,
   <endreborn:chiseled_end_bricks:*>,
   <iceandfire:dread_stone_bricks:*>,
@@ -202,7 +203,7 @@ pathBlockB.addItems([
 ]);
 
 <ore:pathBlockA>.addTooltip("Valid path block.");
-<ore:pathBlockA>.addTooltip("Speed Increase: 1.3x");
+<ore:pathBlockA>.addTooltip("Speed increase: 1.3x");
 
 <ore:pathBlockB>.addTooltip("Valid path block.");
-<ore:pathBlockB>.addTooltip("Speed Increase: 1.4x");
+<ore:pathBlockB>.addTooltip("Speed increase: 1.4x");

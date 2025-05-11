@@ -46,6 +46,7 @@
 		"quark:midori_pillar": "brickstone",
 		"quark:sturdy_stone": "stoneutility",
 		"quark:monster_box": "metalbar",
+		"quark:grate": "metalbar",
 
 		"contenttweaker:loose_big_brimstone_bricks": "brickstone,fire",
 		"quark:biome_brick[variant=fire_stone_brick]": "brickstone,fire",
