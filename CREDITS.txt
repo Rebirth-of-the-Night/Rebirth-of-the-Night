@@ -5,6 +5,7 @@
 
 §r~ ~ ~ §nRebirth Of The Night§r ~ ~ ~
 Logo Created By Charlie
+Intro Logo Loading Animation By Charlie
 Font Created By Charlie, based on https://www.dafont.com/breathe-fire.font
 
 §r~ ~ ~ §nSoundtracks & Music§r ~ ~ ~
@@ -203,8 +204,7 @@ Info & Resources Wiki Icons By
 
 §r~ ~ ~ §nAnimation§r ~ ~ ~
 
-Main Menu Intro Animation:
-Animation, Compilation, Retexturing and Composition By Kombee
+Main Menu Animation, Compilation, Retexturing and Composition By Kombee
 
 Minecraft Village - https://skfb.ly/ovMvG
 Minecraft - Villager Knight - https://skfb.ly/6Z9Hq
@@ -229,3 +229,6 @@ Your contributions and hard work help make Rebirth of the Night possible.
 
 If your credit is missing from this list, please contact us:
 rotn.modpack@gmail.com
+
+
+
