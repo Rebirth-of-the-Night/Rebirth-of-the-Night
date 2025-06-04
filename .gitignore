@@ -121,3 +121,6 @@ config/mod-director/file-director_requisites.bundle.json
 config/relauncher.json
 /vintagefix/transformerCache
 /config/normalasm
+config/cd4017be/compiled.dat
+/config/konkrete/locals
+llibrary/config.dat
