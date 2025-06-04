@@ -119,3 +119,5 @@ ears-debug.log
 /fancymenu_data/
 config/mod-director/file-director_requisites.bundle.json
 config/relauncher.json
+/vintagefix/transformerCache
+/config/normalasm
