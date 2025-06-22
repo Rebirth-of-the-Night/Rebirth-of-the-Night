@@ -138,7 +138,6 @@ LootTable.removeGlobalItem("rats:music_disc_living_mice");
 
 // addPlayerOnlyDrop(weightedItem, min, max);
 
-
 JEI.addDescription(<rats:plague_leech>,"A disgusting critter typically found on plagued-infested beasts. Some species are hardy enough to survive in the guts of living creatures.");
 
 // New Rat Item Recipes
@@ -291,6 +290,9 @@ recipes.addShaped("rats_seed_bowl",<rats:rat_seed_bowl>,[
     [<ore:listAllseed>,<ore:listAllseed>,<ore:listAllseed>],
     [null,<contenttweaker:bowl>|<minecraft:bowl>,null],
 ]);
+
+// Feral Rat Claw
+recipes.addShapeless("feral_rat_claw", <minecraft:dye:15>, [<rats:feral_rat_claw>]);
 
 // cheese workaround until official fix
 val orecheese = <ore:foodCheese>;

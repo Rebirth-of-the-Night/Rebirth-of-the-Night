@@ -26,6 +26,12 @@ var redstoneLatch = <ore:latchRedstone>;
 var steelGear = <pyrotech:cog_bone>;
 var sfsNugget = <ore:nuggetSoulforgedSteel>;
 var sfsIngot = <ore:ingotSoulforgedSteel>;
+var vnugg = <ore:nuggetViridium>.firstItem;
+var tannedstrap = <betterwithmods:material:8>;
+var glue = <ore:glue>;
+var tanned = <ore:hideTanned>;
+var durafiber = <ore:durableFiber>;
+var feralratclaw = <rats:feral_rat_claw>;
 
 Anvil.removeShaped(<betterwithaddons:wrought_bars>);
 Anvil.removeShaped(<betterwithaddons:steel_masonpick>); // replaced with content tweaker items for removal of building blocks (craftable only at foundry)
@@ -164,4 +170,13 @@ mods.betterwithmods.Anvil.addShapedFixed(<betterwithmods:block_dispenser>,
    [<ore:blockMossy>, <betterwithmods:urn:8>, <betterwithmods:urn:8>, <ore:blockMossy>],
    [<ore:stone>, <minecraft:redstone_torch>, <minecraft:redstone_torch>, <ore:stone>],
    [<ore:stone>, <minecraft:redstone>, <minecraft:redstone>, <ore:stone>]
+]);
+
+// Climbing Gloves
+Anvil.addShaped(<cyclicmagic:glove_climb>,
+[
+   [vnugg, vnugg, feralratclaw, feralratclaw],
+   [vnugg, feralratclaw, tanned, tanned],
+   [feralratclaw, tanned, glue, tannedstrap],
+   [feralratclaw, tanned, tannedstrap, durafiber]
 ]);

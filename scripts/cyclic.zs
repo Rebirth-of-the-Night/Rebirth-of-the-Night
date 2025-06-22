@@ -182,12 +182,6 @@ recipes.addShaped("cyclic_large_button", <cyclicmagic:button_large>, [
     [masonry_brick, white_metal_nugget, masonry_brick]
 ]);
 
-recipes.addShaped("climbing_gloves", <cyclicmagic:glove_climb>, [
-	[vnugg, vnugg, tanned],
-    [vnugg, glue, tanned],
-    [tanned, tanned, duracloth]
-]);
-
 recipes.addShaped("immersive_carbon_paper", carpaper*6, [
 	[paper, paper, paper],
     [wax, carbond, wax],
