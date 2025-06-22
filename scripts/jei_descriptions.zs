@@ -128,7 +128,7 @@ val charcoal = <minecraft:coal:1>;
 val zincOre = <pyrotech:rock:3>;
 
 JEI.addDescription(<endreborn:block_essence_ore>, "A hard and somewhat hypnotizing rock some consider to be unnatural. It is the source of End essence.");
-JEI.addDescription(<endreborn:item_end_essence>, "As their civilization collapsed, the ensuing chaos leaked living entropy into the world.");
+JEI.addDescription(<endreborn:item_end_essence>, "As their civilization collapsed, the ensuing chaos leaked living entropy into the world; entropy that can replace substances long gone from this world in the right hands.");
 JEI.addDescription(<biomesoplenty:biome_essence>,"Residual energy of that which was extinguished by the Void. Can be found at the bottom of the Ender Dragon island.");
 JEI.addDescription(<ore:ingotSilver>,"A material known to be effective when used against undead monsters. Silver is strong in damage and efficiency, but weak in other aspects.");
 JEI.addDescription(<ore:ingotIron>,"Although bronze is tougher and more durable than iron, iron will always be far more versatile for all sorts of crafting and utilities.");

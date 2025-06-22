@@ -84,7 +84,7 @@
 		"isCreative": true
     },
 	{
-        "motive": "giant sigil Soter",
+        "motive": "giant sigil Order",
 		"textures": {
             "back": "paintings:null"
         },
@@ -930,6 +930,12 @@
 		"isCreative": false
     },
 	{
+        "motive": "Wanderer of the Sunset",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
         "motive": "Velunith in the Sky",
         "width": 2,
         "height": 2,
@@ -1474,6 +1480,12 @@
     },
 	{
         "motive": "Mortarid Countryside",
+        "width": 6,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "The Way of the Crown",
         "width": 6,
         "height": 3,
 		"isCreative": false
