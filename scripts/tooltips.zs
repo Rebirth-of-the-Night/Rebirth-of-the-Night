@@ -178,7 +178,8 @@ for w, weapon in sapphireweps{
 <betterwithmods:material:12>.addTooltip("Just a crafting material.");
 <betterwithmods:material:12>.addShiftTooltip('Can be eaten, but if it had a label, it would read "DO NOT EAT."', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <betterwithmods:hibachi:*>.addTooltip("Powered by redstone");
-<betterwithaddons:ancestry_bottle:*>.addTooltip("Spirits found throughout the world can be bottled up or manually crafted");
+<betterwithaddons:ancestry_bottle:*>.addTooltip("Obtained by bottling spirits from slaying undead monsters.");
+<betterwithaddons:ancestry_bottle:*>.addTooltip("Can also be crafted.");
 <betterwithmods:material:29>.addTooltip(format.red("Extremely volatile."));
 <betterwithmods:material:29>.addTooltip(format.red("Taking damage while transporting this will result in irreparable loss of life... and everything on you."));
 <betterwithaddons:slat:*>.addTooltip("Perfect for being covered with tatami mats!");
@@ -524,8 +525,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <exsartagine:range_extended>.addTooltip("An extension for the Stove. Up to three can be added to either side of a Stove. Can only be placed next to Stoves.");
 <exsartagine:hearth_extended>.addTooltip("An extension for the Hearth. Only one can be added to the side of a Hearth. Can only be placed next to Hearths.");
 
-<biomesoplenty:terrestrial_artifact>.addTooltip("Has a chance to be dropped from Ancient Lodestone.");
-<dungeontactics:mithril_block>.addTooltip("Found in frozen and artic biomes.");
+<biomesoplenty:terrestrial_artifact>.addTooltip("Has a chance to be dropped from Mysterious Lodestone.");
+<dungeontactics:mithril_block>.addTooltip("Found in frozen and arctic biomes.");
 
 <advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Pushes:") + "" + format.yellow(" Living entities."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Chute Compat.:") + format.green(" YES."));

@@ -24,6 +24,7 @@ item.bucketLava.name=Quality Lava Bucket
 
 menu.singleplayer=Start Your Journey
 menu.multiplayer=Play With Friends
+menu.options=Options
 
 tile.blockLapis.name=Block of Lapis Lazuli
 tile.blockGold.name=Block of Gold

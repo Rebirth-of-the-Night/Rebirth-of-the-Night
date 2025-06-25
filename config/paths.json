@@ -41,6 +41,10 @@
 
 "1.4,3,true": {
 "minecraft:stonebrick": [],
+"minecraft:nether_brick": [],
+"minecraft:brick_block": [],
+"minecraft:end_bricks": [],
+"minecraft:red_nether_brick": [],
 "minecraft:prismarine:1": [],
 "betterwithaddons:whitebrick": [],
 "betternether:cincinnasite_bricks": [],

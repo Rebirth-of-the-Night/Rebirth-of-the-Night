@@ -72,6 +72,7 @@ JEI.removeAndHide(<dynamictreesbop:mangrovebranch>);
 JEI.removeAndHide(<dynamictreesphc:paperbarkcutbranch>);
 JEI.removeAndHide(<dynamictreesphc:palmbranch>);
 JEI.removeAndHide(<dynamictreesphc:dragonfruitbranch>);
+JEI.removeAndHide(<patchouli:guide_book>.withTag({"patchouli:book": "dynamictrees:guide"}));
 
 JEI.removeAndHide(<dynamictrees:staff>.withTag({code: "P", tree: "dynamictrees:oak"}));
 

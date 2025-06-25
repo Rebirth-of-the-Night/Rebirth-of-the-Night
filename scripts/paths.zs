@@ -48,6 +48,10 @@ pathBlockA.addItems([
 val pathBlockB = <ore:pathBlockB>;
 pathBlockB.addItems([
   <minecraft:stonebrick:*>,
+  <minecraft:nether_brick>,
+  <minecraft:brick_block>,
+  <minecraft:end_bricks>,
+  <minecraft:red_nether_brick>,
   <minecraft:prismarine:1>,
   <betterwithaddons:whitebrick>,
   <betterwithaddons:whitebrick:1>,
