@@ -1,0 +1,231 @@
+{
+  enabled: true
+  biomes: {
+    names: [
+      minecraft:mushroom_island
+      minecraft:mushroom_island_shore
+    ]
+  }
+  structures: [
+    {
+      name: red_mini_mushroom_x2
+      matchers: [ "mycelium" ]
+      height: [ 60, 120 ]
+      checkSurface: false
+      directions: down
+      chance: 1
+      count: 1
+      offset: [ 0, 1, 0 ]
+      airChecks: [
+        [ 0, 1, 0 ]
+        [ 0, 2, 0 ]
+      ]
+      solidChecks: []
+      debugSpawns: true
+    }
+    {
+      name: red_mini_mushroom_x3
+      matchers: [ "mycelium" ]
+      height: [ 60, 120 ]
+      checkSurface: false
+      directions: down
+      chance: 1
+      count: 1
+      offset: [ 0, 1, 0 ]
+      airChecks: [
+        [ 0, 1, 0 ]
+        [ 0, 2, 0 ]
+        [ 0, 3, 0 ]
+      ]
+      solidChecks: []
+      debugSpawns: true
+    }
+    {
+      name: red_mini_mushroom_x4
+      matchers: [ "mycelium" ]
+      height: [ 60, 120 ]
+      checkSurface: false
+      directions: down
+      chance: 1
+      count: 1
+      offset: [ 0, 1, 0 ]
+      airChecks: [
+        [ 0, 1, 0 ]
+        [ 0, 2, 0 ]
+        [ 0, 3, 0 ]
+        [ 0, 4, 0 ]
+      ]
+      solidChecks: []
+      debugSpawns: true
+    }
+    {
+      name: red_mini_mushroom_x5
+      matchers: [ "mycelium" ]
+      height: [ 60, 120 ]
+      checkSurface: false
+      directions: down
+      chance: 1
+      count: 1
+      offset: [ 0, 1, 0 ]
+      airChecks: [
+        [ 0, 1, 0 ]
+        [ 0, 2, 0 ]
+        [ 0, 3, 0 ]
+        [ 0, 4, 0 ]
+        [ 0, 5, 0 ]
+      ]
+      solidChecks: []
+      debugSpawns: true
+    }
+    {
+      name: red_mini_mushroom_x6
+      matchers: [ "mycelium" ]
+      height: [ 60, 120 ]
+      checkSurface: false
+      directions: down
+      chance: 1
+      count: 1
+      offset: [ 0, 1, 0 ]
+      airChecks: [
+        [ 0, 1, 0 ]
+        [ 0, 2, 0 ]
+        [ 0, 3, 0 ]
+        [ 0, 4, 0 ]
+        [ 0, 5, 0 ]
+        [ 0, 6, 0 ]
+      ]
+      solidChecks: []
+      debugSpawns: true
+    }
+    {
+      name: brown_mini_mushroom_x2
+      matchers: [ "mycelium" ]
+      height: [ 60, 120 ]
+      checkSurface: false
+      directions: down
+      chance: 1
+      count: 1
+      offset: [ 0, 1, 0 ]
+      airChecks: [
+        [ 0, 1, 0 ]
+        [ 0, 2, 0 ]
+        [ 1, 2, 0 ]
+        [ -1, 2, 0 ]
+        [ 0, 2, 1 ]
+        [ 0, 2, -1 ]
+        [ 1, 2, 1 ]
+        [ 1, 2, -1 ]
+        [ -1, 2, 1 ]
+        [ -1, 2, -1 ]
+      ]
+      solidChecks: []
+      debugSpawns: true
+    }
+    {
+      name: brown_mini_mushroom_x3
+      matchers: [ "mycelium" ]
+      height: [ 60, 120 ]
+      checkSurface: false
+      directions: down
+      chance: 1
+      count: 1
+      offset: [ 0, 1, 0 ]
+      airChecks: [
+        [ 0, 1, 0 ]
+        [ 0, 2, 0 ]
+        [ 0, 3, 0 ]
+        [ 1, 3, 0 ]
+        [ -1, 3, 0 ]
+        [ 0, 3, 1 ]
+        [ 0, 3, -1 ]
+        [ 1, 3, 1 ]
+        [ 1, 3, -1 ]
+        [ -1, 3, 1 ]
+        [ -1, 3, -1 ]
+      ]
+      solidChecks: []
+      debugSpawns: true
+    }
+    {
+      name: brown_mini_mushroom_x4
+      matchers: [ "mycelium" ]
+      height: [ 60, 120 ]
+      checkSurface: false
+      directions: down
+      chance: 1
+      count: 1
+      offset: [ 0, 1, 0 ]
+      airChecks: [
+        [ 0, 1, 0 ]
+        [ 0, 2, 0 ]
+        [ 0, 3, 0 ]
+        [ 0, 4, 0 ]
+        [ 1, 4, 0 ]
+        [ -1, 4, 0 ]
+        [ 0, 4, 1 ]
+        [ 0, 4, -1 ]
+        [ 1, 4, 1 ]
+        [ 1, 4, -1 ]
+        [ -1, 4, 1 ]
+        [ -1, 4, -1 ]
+      ]
+      solidChecks: []
+      debugSpawns: true
+    }
+    {
+      name: brown_mini_mushroom_x5
+      matchers: [ "mycelium" ]
+      height: [ 60, 120 ]
+      checkSurface: false
+      directions: down
+      chance: 1
+      count: 1
+      offset: [ 0, 1, 0 ]
+      airChecks: [
+        [ 0, 1, 0 ]
+        [ 0, 2, 0 ]
+        [ 0, 3, 0 ]
+        [ 0, 4, 0 ]
+        [ 0, 5, 0 ]
+        [ 1, 5, 0 ]
+        [ -1, 5, 0 ]
+        [ 0, 5, 1 ]
+        [ 0, 5, -1 ]
+        [ 1, 5, 1 ]
+        [ 1, 5, -1 ]
+        [ -1, 5, 1 ]
+        [ -1, 5, -1 ]
+      ]
+      solidChecks: []
+      debugSpawns: true
+    }
+    {
+      name: brown_mini_mushroom_x6
+      matchers: [ "mycelium" ]
+      height: [ 60, 120 ]
+      checkSurface: false
+      directions: down
+      chance: 1
+      count: 1
+      offset: [ 0, 1, 0 ]
+      airChecks: [
+        [ 0, 1, 0 ]
+        [ 0, 2, 0 ]
+        [ 0, 3, 0 ]
+        [ 0, 4, 0 ]
+        [ 0, 5, 0 ]
+        [ 0, 6, 0 ]
+        [ 1, 6, 0 ]
+        [ -1, 6, 0 ]
+        [ 0, 6, 1 ]
+        [ 0, 6, -1 ]
+        [ 1, 6, 1 ]
+        [ 1, 6, -1 ]
+        [ -1, 6, 1 ]
+        [ -1, 6, -1 ]
+      ]
+      solidChecks: []
+      debugSpawns: true
+    }
+  ]
+}
