@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:12>)
+setIcon(<contenttweaker:material_part:34>)
 setTitle("Pale Gold")
 setDescription("Obtain electrum, which can make the best material for repairing equipment at an Aetherial Capacitor!")
 
