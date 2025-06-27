@@ -8,7 +8,7 @@ import mods.betterwithmods.Crucible;
 
 Crucible.removeAll();
 
-Crucible.addStoked([<ore:cobblestone>],[<minecraft:stone>]);
+Crucible.addStoked([<ore:cobblestone>],[<contenttweaker:coade_stone_polished>]);
 for cobble, stone in mapCobbleToStone {
     Crucible.addUnstoked([cobble], [stone]);
 }

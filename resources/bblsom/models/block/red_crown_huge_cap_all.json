@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bblsom:blocks/mushroom_block_skin_red_crown"
+  }
+}

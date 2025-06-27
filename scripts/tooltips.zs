@@ -188,8 +188,8 @@ for w, weapon in sapphireweps{
 <betterwithmods:single_machine>.addTooltip("Can grind and mill all sorts of items.");
 <betterwithmods:single_machine>.addShiftTooltip("Operate with a Hand Crank (consumes food). Consider powering with a Windmill or a Water Wheel as soon as possible", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <betterwithaddons:ancestry_infuser>.addShiftTooltip("Soulsand containing spirits must be placed below this block in a dark area. Soulsand and infuser must be floating and away from any block", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<betterwithmods:steel_gearbox:*>.addTooltip("Won't break from weather!");
-<betterwithmods:steel_axle:*>.addTooltip("Won't break from weather! Can also go up to 5 blocks, instead of the usual 3.");
+<betterwithmods:steel_gearbox:*>.addTooltip("Won't break from weather! [NON FUNCTIONAL WITH WOODEN MACHINERY. DON'T USE].");
+<betterwithmods:steel_axle:*>.addTooltip("Won't break from weather! Can also go up to 5 blocks, instead of the usual 3 [NON FUNCTIONAL WITH WOODEN MACHINERY. DON'T USE].");
 <contenttweaker:mythril_masonpick:*>.addTooltip("Can instantly remove resistant blocks for 20 durability.");
 <contenttweaker:sfs_masonpick:*>.addTooltip("Can instantly remove resistant blocks for 20 durability.");
 <contenttweaker:steel_crowbar:*>.addTooltip("Can instantly remove resistant blocks for 20 durability.");
@@ -633,7 +633,6 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <rustic:chili_pepper>.addTooltip(format.yellow("Summer"));
 
 // Wands
-
 <dungeontactics:magic_scroll>.removeTooltip("^Restoration( \\d+)?");
 <dungeontactics:magic_scroll>.removeTooltip("^Satiating( \\d+)?");
 <dungeontactics:magic_scroll>.removeTooltip("^Forging( \\d+)?");
@@ -655,8 +654,10 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <dungeontactics:magic_scroll>.removeTooltip("^Hold LSHIFT to see enchantments description");
 
 // Satchel
-
 <deadmanssatchel:deadmanssatchel>.removeTooltip("^Owner( \\d+)?");
+
+// Bundles
+<bundles:bundle:*>.addTooltip("Shift-right click to dump contents into inventory.");
 
 // Scepters
 <defiledlands:tears_flame>.removeTooltip("Shoots fireballs");
@@ -716,7 +717,14 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <betterwithaddons:greatbow:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x2.5"));
 
 // Liquids
-<liquid:concentrated_bioflow>.addTooltip("You can tell that in this form it is highly toxical.");
+<liquid:concentrated_bioflow>.addTooltip("You can tell that, in this form, it is highly toxical.");
+
+// Astikorcarts
+<astikorcarts:cargocart>.addTooltip("Can be ridden by one person.");
+<astikorcarts:cargocart>.addTooltip("Has a double chest worth of storage space; shift right-click to open.");
+<astikorcarts:mobcart>.addTooltip("Used to transport up to two animals; can also be ridden by players.");
+<astikorcarts:plowcart>.addTooltip("Plows the ground under it when pulled by a horse.");
+<astikorcarts:plowcart>.addTooltip("Right-click to lower its beams to ground level.");
 
 // BUGS
 #<aether_legacy:enchanted_blueberry:*>.addTooltip(format.red("DO NOT FEED TO HYPPOGRYPHS; CURRENTLY BUGGED AND UNTAMABLE."));
@@ -725,7 +733,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 // MACHINES
 <multiblocked:gale_chamber>.addTooltip(format.gold("Right click with two brass blocks to construct!"));
 <multiblocked:biotic_incubator>.addTooltip(format.gold("Right click with two brass blocks to construct!"));
-<multiblocked:pyro_reactor>.addTooltip(format.gold("WIP, do not use."));
+<multiblocked:pyro_reactor>.addTooltip(format.gold("Right click with two brass blocks to construct!"));
 <multiblocked:multiblock_builder>.addTooltip(format.gold("Right click on a controller to build the multiblock machine automatically!"));
 <multiblocked:multiblock_builder>.removeTooltip("auto build");
 

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "bblsom:blocks/mushroom_red_crown"
+  }
+}

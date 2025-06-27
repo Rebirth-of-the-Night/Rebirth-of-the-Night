@@ -7,6 +7,8 @@ tile.anvil.intact.name=Iron Anvil
 tile.anvil.slightlyDamaged.name=Damaged Iron Anvil
 tile.anvil.veryDamaged.name=Crumbling Iron Anvil
 
+item.shears.name=Iron Shears
+
 entity.MinecartRideable.name=Minecart
 
 screenshot.success=Saved screenshot and copied to clipboard. Press CTRL + V to paste.
@@ -22,6 +24,7 @@ item.bucketLava.name=Quality Lava Bucket
 
 menu.singleplayer=Start Your Journey
 menu.multiplayer=Play With Friends
+menu.options=Options
 
 tile.blockLapis.name=Block of Lapis Lazuli
 tile.blockGold.name=Block of Gold
@@ -36,6 +39,7 @@ tile.netherWartBlock.name=Block of Nether Wart
 tile.purpurBlock.name=Block of Purpur
 tile.brick.name=Block of Bricks
 tile.netherBrick.name=Block of Nether Bricks
+tile.clay.name=Block of Clay
 
 item.cauldron.name=Fluid Cauldron
 tile.hayBlock.name=Straw Bale
@@ -59,6 +63,7 @@ item.slimeball.name=Green Slimeball
 item.arrow.name=Flint Arrow
 item.cookie.name=Chocolate Chip Cookie
 item.brick.name=Clay Brick
+item.clay.name=Clay Ball
 
 item.swordIron.name=Iron Arming Sword
 item.swordStone.name=Stone Arming Sword

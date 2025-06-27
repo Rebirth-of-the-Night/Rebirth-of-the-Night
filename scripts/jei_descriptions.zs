@@ -55,6 +55,9 @@ import mods.jei.JEI;
 JEI.addItem(<biomesoplenty:farmland_0:1>);
 JEI.addItem(<biomesoplenty:grass_path:1>);
 JEI.addItem(<biomesoplenty:grass_path:2>);
+#JEI.addItem(<netherex:blue_fire>);
+#JEI.addItem(<endreborn:end_fire>);
+#JEI.addItem(<betterwithmods:stoked_flame>);
 
 /* Tools, Weapons, and Armor */
 val handle = <spartanweaponry:material>;
@@ -72,11 +75,11 @@ JEI.addDescription(<spartanshields:shield_basic_bronze>, "Also known as hoplon. 
 
 JEI.addDescription(<atop:tanzanite_helmet>,"In the heart of a vast forest...");
 
-JEI.addDescription(<betterwithmods:steel_pickaxe>,"Provides the best mining speed and durability, but can only be enchanted in the True Enchanting Table.");
-JEI.addDescription(<betterwithmods:steel_mattock>,"The best mining tool obtainable. Combines the Refined Pickaxe and Refined Shovel into one tool, but can only be enchanted in the True Enchanting Table.");
-JEI.addDescription(<betterwithmods:steel_axe>,"Provides the best mining speed and durability, but can only be enchanted in the True Enchanting Table.");
-JEI.addDescription(<betterwithmods:steel_shovel>,"Provides the best mining speed and durability, but can only be enchanted in the True Enchanting Table.");
-JEI.addDescription(<betterwithmods:steel_hoe>,"Provides the best durability, but can only be enchanted in the True Enchanting Table.");
+JEI.addDescription(<betterwithmods:steel_pickaxe>,"Provides excellent mining speed and durability, but can only be enchanted in the True Enchanting Table.");
+JEI.addDescription(<betterwithmods:steel_mattock>,"One of the most versatile mining tools obtainable. Combines the Soulforged Pickaxe, Shovel and Hoe into one tool, but can only be enchanted in the True Enchanting Table.");
+JEI.addDescription(<betterwithmods:steel_axe>,"Provides excellent chopping speed and durability, but can only be enchanted in the True Enchanting Table.");
+JEI.addDescription(<betterwithmods:steel_shovel>,"Provides excellent digging speed and durability, but can only be enchanted in the True Enchanting Table.");Add commentMore actions
+JEI.addDescription(<betterwithmods:steel_hoe>,"Provides excellent durability and harvest area, but can only be enchanted in the True Enchanting Table.");
 JEI.addDescription(<betterwithmods:steel_hacksaw>,"Right-click with this on a block of soulforged steel to cut down the block!");
 
 JEI.addDescription([<betterwithaddons:steel_machete>],["A multipurpose tool. Cuts through thick foliage and spiderwebs easily. Acts like shears. When right-clicked, places vines from your inventory. Can only be enchanted in the True Enchanting Table."]);
@@ -130,14 +133,14 @@ val zincOre = <pyrotech:rock:3>;
 JEI.addDescription(<endreborn:block_essence_ore>, "A hard and somewhat hypnotizing rock some consider to be unnatural. It is the source of End essence.");
 JEI.addDescription(<endreborn:item_end_essence>, "As their civilization collapsed, the ensuing chaos leaked living entropy into the world.");
 JEI.addDescription(<biomesoplenty:biome_essence>,"Residual energy of that which was extinguished by the Void. Can be found at the bottom of the Ender Dragon island.");
-JEI.addDescription(<ore:ingotSilver>,"A material known to be effective when used against undead monsters. Silver is strong in damage and mining speed, but weak in other aspects.");
-JEI.addDescription(<ore:ingotIron>,"Although bronze and steel are tougher and more durable than iron, iron will always be useful for all sorts of tools and utilities.");
+JEI.addDescription(<ore:ingotSilver>,"A material known to be effective when used against undead monsters. Silver is strong in damage and efficiency, but weak in other aspects.");
+JEI.addDescription(<ore:ingotIron>,"Although bronze is tougher and more durable than iron, iron will always be far more versatile for all sorts of crafting and utilities.");
 JEI.addDescription(<contenttweaker:material_part:49>,"Iron with very little carbon content and traces of slag is called wrought iron. Strong but somewhat brittle, it finds application in machinery and ornamentation.",'Most peculiar are the tremendous amounts of this metal that are found buried underground, for it does not form "naturally".');
-JEI.addDescription(crudeSteelIngot,["Steel made in a crucible is not the most pure, strong or durable alloy of steel, but it manages to easily outclass bronze. Steel is widely used in mechanisms for it's durability.",'Although smiths have discovered alloys of steel that are much harder and flexible, the complex process has been lost to the ages while others have been deemed too "disturbing" to make. Yet there are rumors that a craftsperson skilled enough could make a steel alloy better than anything discovered before.']);
-JEI.addDescription(sfsSteelIngot,"Used as a late-game crafting material. It can craft a Mattock - the best mining tool available! It is also needed for some advanced contraptions.");
-JEI.addDescription(<ore:ingotBronze>,"Definitely better than iron, not quite as good as steel.");
+JEI.addDescription(crudeSteelIngot,["Steel made in a crucible is not the most pure, strong or durable alloy of steel, but it manages to easily outclass bronze. Steel is widely used in mechanisms for its durability.",'Although smiths have discovered alloys of steel that are much harder and flexible, the complex process has been lost to the ages while others have been deemed too "disturbing" to make. Yet there are rumors that a craftsperson skilled enough could make a steel alloy better than anything discovered before.']);
+JEI.addDescription(sfsSteelIngot,"Used as a late-game crafting material, capable of creating some of the most versatile tools around. It is also needed for some advanced contraptions.");
+JEI.addDescription(<ore:ingotBronze>,"Tougher than iron, but not quite as good as steel. Not quite as versatile as iron, either.");
 JEI.addDescription(<ore:ingotBrass>,"Used for machines that have lots of moving parts and require little friction. It also has several accoustic properties.");
-JEI.addDescription(<rotn_blocks:exorite_crystal>,"A beautiful gem common to the lands of the Ender folk, sometimes confused with amethyst.");
+JEI.addDescription(<rotn_blocks:exorite_crystal>,"A beautiful gem common to the lands of the Ender folk, sometimes confused with amethysts from the Nether. It possesses qualities that can only be described as alien.");
 JEI.addDescription(<netherex:amethyst_crystal>,"A beautiful gem native to the lands of the Pigfolk, this variety is most rare since all known deposits in the Nether have been mined up. Some villagers in the coldest of places collect this gem through unknown methods.");
 JEI.addDescription(<ore:gemDiamond>,'Diamond! The hardest material available in this world where you awakened. Its applications are countless, but apart of serving various purposes as a gem, like most other gems it can prove a powerful reinforcing material for steel alloy; diamond ingots can create "diamond" armor, tools and weapons.');
 JEI.addDescription(charcoal,"The process to obtaining quality charcoal requires either a proper kiln or pit burning. A simple furnace's direct fire is too strong and would just burn the wood...");
@@ -215,15 +218,15 @@ JEI.addDescription(denseRedstone, "Found deep below in caves, the purest variety
 JEI.addDescription(kaolin_quartz, "A valuable cluster of high quality quartz obtained from the Nether; it contains a good amount of kaolin, the most important component in the elaboration of porcelain.");
 JEI.addDescription(<betterwithmods:material:15>, "The dust of dried, flesh-like rock. It instantly becomes a viscuous substance when touching fluids; a conveyor belt could be another method of transport for this...");
 JEI.addDescription(ground_nether_dust, "The dust of dried, flesh-like rock. It instantly becomes a viscuous substance when touching fluids; a conveyor belt could be another method of transport for this...");
-JEI.addDescription(<rustic:rope>, "Used for supporting various plants so that they can grow. Used with Crop Stakes. Refer to your Almanac for details.");
-JEI.addDescription(<rustic:crop_stake>, "Used for supporting various plants so that they can grow. Used with Agricultural Rope. Refer to your Almanac for details.");
+JEI.addDescription(<rustic:rope>, "Used for supporting various plants so that they can grow, such as Roma tomatoes and Cayenne chilies. Can be tied onto a crop stake.");Add commentMore actions
+JEI.addDescription(<rustic:crop_stake>, "Used for supporting various plants so that they can grow, such as Roma tomatoes and Cayenne chilies. Simple Rope can be tied onto a crop stake.");
 JEI.addDescription(expertly_crafted_arrow_head, "This arrow head is of an exquisite quality and was clearly made by the hand of someone who has dedicated their whole life to their profession. It may be used by an equally talented fletcher to make high grade arrows.");
 JEI.addDescription(<pyrotech:compost_bin>,"Composting is simple; fill up the composter with food you don't need, pour in a bit of water, and let time take care of the rest.");
 
 JEI.addDescription(<dungeontactics:engineers_wrench_iron>,"Used to rotate blocks, such as pistons or fans, and to reset triggered traps. Good for picking up redstone stuff and rails. Sneak & use on a trap plate to hide it.");
 JEI.removeAndHide(<base:wrench>);
 JEI.addDescription(<contenttweaker:peat>,"A mass of partially decomposed vegetal matter found in swamps, bogs and the like. It's a good fuel, but it can be improved further.");
-JEI.addDescription(<contenttweaker:mossy_peat>,"Peat overtaken by cave moss. This sponge-like mass can and will absorb coalbed methane like no other substance.");
+JEI.addDescription(<contenttweaker:mossy_peat>,"Peat overtaken by cave moss. This sponge-like mass will absorb coalbed methane like no other. It also has extreme spring potential, jump at your own risk.");
 JEI.addDescription(<contenttweaker:charmpeat>,"The result of mossy peat absorbing coalbed methane. The gas contained within can burn hot enough to smelt any metal.");
 
 
@@ -259,8 +262,8 @@ JEI.addDescription(<rustic:wildberry_bush>,"Carminberry bushes are a harmless so
 JEI.addDescription(<rustic:mooncap_mushroom>, "Found in Jungle biomes and caves.");
 JEI.addDescription(<rustic:cloudsbluff>,"This puffy white flower is found at high altitudes.");
 JEI.addDescription(<betterwithaddons:thorn_rose>, "A mysterious plant that rapidly grows on sand and will wander towards structures like walls. Causes significant damage and can be harvested for Midori and Thorny Roses.");
-JEI.addDescription(<biomesoplenty:berries>, "A berry extracted from an unwilling hawthorn. Although they are unfulfilling and sour, some animals like them, but they are too hard to get. Horses, especially, may surprise their owners when presented with a prepared hawthorn dish.");
-JEI.addDescription(<biomesoplenty:plant_0:5>, "The common hawthorn bush produces a sour berry and has soft leaves. When under stress or pressure from an external force trying to grab its fruit, its branches will harden and poke any unwanted visitors. The berry itself presents particular properties when prepared and fed to horses.");
+JEI.addDescription(<biomesoplenty:berries>, "A berry extracted from an unwilling hawthorn. Although they are unfulfilling and sour, horses enjoy them, but struggle to access them due to their thorny guard. If fed many prepared hawthorn berries, your four-legged friend may become a steed worthy of envy.");
+JEI.addDescription(<biomesoplenty:plant_0:5>, "The common hawthorn bush produces a sour, hard berry and has soft leaves. When something tries to pick its fruit, its mildly toxic branches will harden and prick any unwanted visitors, though it may be worth the pain; the berry itself has peculiar properties when prepared and fed to horses.");
 JEI.addDescription(<minecraft:cactus>,"Can be used to fill a bottle with water. Drink it in a hot and arid biome to receive a small buff.");
 JEI.addDescription(<pyrotech:mulch>, "The smart gardener knows that with some nitrogen and potash, one gets mulch! Applying it to farmland will protect the block from being trampled and will help crops grow a little faster.");
 
@@ -424,6 +427,10 @@ JEI.addDescription(<advancedliftingmethods:blowing_elevator>,"Thanks to reverse-
 JEI.addDescription(<malisisdoors:garage_door>, "Apply a redstone signal to lift the gate. All connected gates move as one block.");
 JEI.addDescription(<malisisdoors:jail_door>, "Apply a redstone signal to open and close.");
 
+/* Horse Carts */
+JEI.addDescription(<astikorcarts:cargocart>, "When attached to a horse, supply carts are an efficient way to transport both items and players. It has a double chest worth of capacity; one person can ride on the back of it. Be careful to not get stuck on thin trees or obstacles, as it can detach from a horse and leave your stuff stranded!");
+JEI.addDescription(<astikorcarts:mobcart>, "The livestock cart can carry up to two animals on it. Attach it to a horse to move your farm animals place to place, or use it to scoop up animals to start a farm.");
+JEI.addDescription(<astikorcarts:plowcart>, "Horse plows are the most efficient way to work the land. When used with tools like shovels or hoes, it can turn a large area into farmland, or make a nice path to walk on that gives a slight speed boost.");
 
 /* Nyx Stars and Meteors */
 JEI.addDescription(<nyx:fallen_star>,"A piece of the heavens lies inside fallen stars. These will rarely fall from the sky, but are more common during a star shower.");
@@ -451,7 +458,8 @@ JEI.addDescription(<ore:ingotElectrum>,"Normal electrum holds little value when 
 JEI.addDescription(<netherchest:nether_chest>,"When items are stored in a Nether Chest, their normal stack size limit is multiplied by 8, due to the way the Nether compresses space by a factor of 8. This stack size increase also applies to tools and any other items that aren't normally stackable. Despite their name, trying to open one in the Nether is a very bad idea.");
 JEI.addDescription(<pyrotech:compacting_bin>, "A reinforced container that's useful to compact stuff into denser materials or blocks.");
 JEI.addDescription(<pyrotech:shelf>,"Displays items much more visibly than a chest ever could.");
-JEI.addDescription(<pyrotech:stash>,"When all you need is somewhere to stash items... without requiring an arcane trove. Can hold up to 32 stacks of the same item.");
+JEI.addDescription(<pyrotech:stash>,"When all you need is somewhere to stash items... without requiring an arcane trove. Can hold up to 48 stacks of the same item.");
+JEI.addDescription(<bundles:bundle:*>,"The all-in-one inventory declutterer, bundles can hold up to 128 different items, all in one inventory slot! Some exceptions apply, such as potions and elixirs taking up 8 items worth of storage, or unstackables taking up 64 items worth. Shift right-click to empty the contents of a bundle into your inventory. Can be dyed like leather armor for color coding storage.");
 
 
 /* Rats and the Plague */
@@ -519,11 +527,11 @@ JEI.addDescription(<contenttweaker:scaffolding>, "A rickety building material th
 JEI.addDescription(<animania:raw_prime_bacon>, "Shut the fuck up. I mean this when I say it. Y'all might think it's weird until you feel the raw bacon slime down your throat and you experience bliss. It's not even dangerous, almost all 'raw bacon' that you can buy has already been smoked and sanitized. Shut the fuck up. Literally. Y'all will never know what it's like to feel good because you're always putting people down. Seriously. Shut the fuck up 'is this real' yes it's real. You guys just hate to see whenever someone else is winning. I bet that you guys like your bacon fucking crispy, no pleasurable texture to it at all when you bite into it. Y'know what, that can be your body if you keep on talking about this. I'll cook you up since you guys love cooked shit so much, and eat you, and complain that it's overcooked. I bet you guys haven't had a good slice of bacon in your life. Hell, I bet y'all haven't ever had good food in the first place. Fuck you all, I'm literally happier than any of you and you're all just pissed because you can't be like me. Fuck off, losers.");
 JEI.addDescription(<atop:amber_sword>, "Deep in the human unconscious is a pervasive need for a logical universe that makes sense, But the real universe is always one step beyond logic.");
 JEI.addDescription(<contenttweaker:slime_nesting>, "Lime slimes proliferate in droves in the Overworld's grasslands when left unchecked. A slime nesting is the only spot on which lime and watermelon slimes can appear; getting rid of it will get rid of them... or it could be used to redirect their population.");
-JEI.addDescription(<netherex:blue_fire>, "An unnatural blue flame emits a freezing cold sensation. Unlike regular fire, it cannot be put out by water. Most commonly found high in the Aether in its frozen regions.");
-JEI.addDescription(<endreborn:end_fire>, "A supernatural flame that defies logic. It does not even naturally occur, seeming to be some arcane invention of the Enderfolk; their secrets remain a mystery...");
-JEI.addDescription(<betterwithmods:stoked_flame>, "A superheated flame only producible by stoking the flame of a hibachi, powered by hellfire. When combined with certain containers such as a cooking cauldron or crucible, it allows you to reach extreme temperatures that are necessary for certain creations. Take care when using it; some recipes may not play with the superheated temperatures too nicely...");
-JEI.addDescription(<biomesoplenty:blue_fire>, "An unusual flame found within the Nether; rather than burning, it causes uncontrollable movements. Can be picked up with a Mason Jar.");
-JEI.addDescription(<biomesoplenty:jar_filled:1>, "Obtained by picking up Cursed Fire with a Mason Jar. Can be put elsewhere.");
+#JEI.addDescription(<netherex:blue_fire>, "An unnatural blue flame emits a freezing cold sensation. Unlike regular fire, it cannot be put out by water. Most commonly found high in the Aether in its frozen regions.");
+#JEI.addDescription(<endreborn:end_fire>, "A supernatural flame that defies logic. It does not even naturally occur, seeming to be some arcane invention of the Enderfolk; their secrets remain a mystery...");
+#JEI.addDescription(<betterwithmods:stoked_flame>, "A superheated flame only producible by stoking the flame of a hibachi, powered by hellfire. When combined with certain containers such as a cooking cauldron or crucible, it allows you to reach extreme temperatures that are necessary for certain creations. Take care when using it; some recipes may not play with the superheated temperatures too nicely...");Add commentMore actions
+#JEI.addDescription(<biomesoplenty:blue_fire>, "An unusual flame found within the Nether; rather than burning, it causes uncontrollable movements. Can be picked up with a Mason Jar.");
+#JEI.addDescription(<biomesoplenty:jar_filled:1>, "Obtained by picking up Cursed Fire with a Mason Jar. Can be put elsewhere.");
 
 
 /* Runes and Magic */
@@ -578,7 +586,7 @@ JEI.addDescription(<aether_legacy:cloud_staff>,"Summons a pair of cloud sentries
 JEI.addDescription(<defiledlands:tears_flame>,"Charge to shoot 5 fire balls at your target. Can be recharged using spirits in the Ancestral Infuser.");
 
 /* Hit with Axe */
-JEI.addDescription(<hitwithaxe:debarked_magic>, "Hit a magic wood log with an axe.");
+JEI.addDescription(<hitwithaxe:debarked_magic>, "Hit a magic log with an axe.");
 
 /* Yeasts */
 JEI.addDescription(<growthcraft_cellar:yeast>, "A yeast which appears to be basic in nature. It can be cultivated in culture jars with any fermentable liquid in any biome, albeit at a lower rate in biomes where other yeasts might flourish. Placing this in the output slot of a culture jar will ensure only brewer's yeast is produced, irrespective of the biome.");

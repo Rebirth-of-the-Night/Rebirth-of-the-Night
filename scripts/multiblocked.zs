@@ -59,7 +59,7 @@ recipes.addShaped((<multiblocked:gale_chamber>), [
 ]);
 recipes.addShaped((<multiblocked:alchemical_mixer>), [
     [null, <earthworks:block_slate>.reuse(), null],
-    [<aesthetics:iron_brick_stairs>.reuse(), <betterwithmods:steel_axle>, <aesthetics:iron_brick_stairs>.reuse()], 
+    [<aesthetics:iron_brick_stairs>.reuse(), <betterwithmods:wooden_axle>, <aesthetics:iron_brick_stairs>.reuse()], 
     [null, <betterwithmods:cooking_pot:1>.reuse(), null]
 ]);
 recipes.addShaped((<multiblocked:biotic_incubator>), [

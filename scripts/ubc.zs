@@ -161,7 +161,8 @@ val stonecobbleDecoMap = {
 	<contenttweaker:siltstone_cobble> : [<contentcreator:siltstone_cobblestone_slab>,<contentcreator:siltstone_cobblestone_stairs>],
 	<contenttweaker:dolomite_cobble> : [<contentcreator:dolomite_cobblestone_slab>, <contentcreator:dolomite_cobblestone_stairs>],
 	<contenttweaker:greywacke_cobble> : [<contentcreator:greywacke_cobblestone_slab>,<contentcreator:greywacke_cobblestone_stairs>],
-    <contenttweaker:chert_cobble> : [<contentcreator:chert_cobblestone_slab>,<contentcreator:chert_cobblestone_stairs>]
+    <contenttweaker:chert_cobble> : [<contentcreator:chert_cobblestone_slab>,<contentcreator:chert_cobblestone_stairs>],
+    <contenttweaker:coade_stone_polished> : [<contentcreator:coade_stone_polished_slab>,<contentcreator:coade_stone_polished_stairs>]
 } as IItemStack[][IItemStack];
 
 for fullCobble, cobbleDeco in stonecobbleDecoMap{ // cobbleDeco[0] is for slabs, cobbleDeco[1] is for stairs
@@ -186,3 +187,11 @@ for fullCobble, cobbleDeco in stonecobbleDecoMap{ // cobbleDeco[0] is for slabs,
 		[cobbleDeco[0],cobbleDeco[0]
 	]);
 }
+
+// Polished coade recipes are a placeholder until vanilla stone becomes quartzite.Add commentMore actions
+recipes.addShaped("coade_ornate_polished_slab",<contentcreator:coade_stone_ornate_slab>*3, [
+  [<contentcreator:coade_stone_polished_slab>,<contentcreator:coade_stone_polished_slab>,<contentcreator:coade_stone_polished_slab>]
+]);
+recipes.addShaped("coade_polished_ornate_slab",<contentcreator:coade_stone_polished_slab>*3, [
+  [<contentcreator:coade_stone_ornate_slab>,<contentcreator:coade_stone_ornate_slab>,<contentcreator:coade_stone_ornate_slab>]
+]);

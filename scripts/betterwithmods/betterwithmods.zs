@@ -42,7 +42,12 @@ recipes.addShapeless("betterwithmods_items/material/material_padding_wool", <bet
 JEI.removeAndHide(<betterwithmods:steel_gearbox>);
 JEI.removeAndHide(<betterwithmods:steel_broken_gearbox>);
 
-JEI.removeAndHide(<betterwithmods:bark:*>);
+JEI.removeAndHide(<betterwithmods:bark>);
+JEI.removeAndHide(<betterwithmods:bark:1>);
+JEI.removeAndHide(<betterwithmods:bark:2>);
+JEI.removeAndHide(<betterwithmods:bark:3>);
+JEI.removeAndHide(<betterwithmods:bark:4>);
+JEI.removeAndHide(<betterwithmods:bark:5>);
 JEI.removeAndHide(<betterwithmods:nether_growth>);
 JEI.removeAndHide(<betterwithmods:steel_saw>);
 JEI.removeAndHide(<betterwithmods:material:52>);
@@ -176,6 +181,8 @@ recipes.addShaped("fat_candle", <betterwithmods:candle>*2, [
     [<ore:burnable_fat>],
 	[<ore:burnable_fat>]
 ]);
+
+recipes.addShapeless("clay_brick_revert",<minecraft:clay_ball>,[<betterwithmods:unfired_pottery:4>]);
 
 recipes.remove(<simple_paraglider:paraglider>);
 recipes.addShaped("paraglider", <simple_paraglider:paraglider>, [
@@ -548,6 +555,7 @@ Cauldron.remove([<betterwithmods:material:12>]);
 Cauldron.addStoked([<ore:pelt>],[<betterwithmods:material:12>]);
 Cauldron.remove([<minecraft:mushroom_stew>]);
 Cauldron.remove([<minecraft:rabbit_stew>]);
+Cauldron.remove([<betterwithmods:chicken_soup>]);
 Cauldron.addUnstoked([<minecraft:cooked_rabbit>|<animania:cooked_prime_rabbit>,<ore:cookedCarrot>,<ore:cookedPotato>,<ore:foodFlour>,<ore:listAllmushroom>*3,<minecraft:bowl>*5],[<minecraft:rabbit_stew>*5]);
 
 Cauldron.addUnstoked([<quark:crab_leg>],[<quark:cooked_crab_leg>]);
@@ -602,7 +610,6 @@ recipes.remove(<betterwithmods:material:45>); // diamond ingot
 recipes.addShapeless("Hemp Fibers", <betterwithmods:material:3>*3,[<betterwithmods:material:2>,<betterwithmods:material:2>]);
 recipes.addShapeless("Hemp Seeds", <betterwithmods:hemp>,[<ore:cropHemp>]);
 
-JEI.removeAndHide(<betterwithmods:chicken_soup>);
 JEI.removeAndHide(<betterwithmods:cobblestone:0>);
 JEI.removeAndHide(<betterwithmods:cobblestone:1>);
 JEI.removeAndHide(<betterwithmods:cobblestone:2>);

@@ -202,9 +202,8 @@ recipes.addShaped("immersive_prospector", <cyclicmagic:tool_spelunker>, [
 ]);
 
 recipes.addShaped("obsidian_shears", obsi_shear,[
-	[null, obsi_shard, null],
-    [obsi_shard, null, obsi_shard],
-    [null, obsi_shard, null]
+	[null, obsi_shard],
+    [obsi_shard, null]
 ]);
 
 recipes.addShaped("powered_conveyor", st_conveyor*12,[
