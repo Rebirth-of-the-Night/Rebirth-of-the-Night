@@ -154,6 +154,13 @@ Mill.builder()
 .setGrindType("fairylights:cord.stretch")
 .build();
 
+// Plagued Hide Refinement
+Mill.builder()
+.buildRecipe([<mod_lavacow:pigboarhide>], [<contenttweaker:monster_hide>*6])
+.setPriority(3)
+.setGrindType("fairylights:cord.stretch")
+.build();
+
 // Spring coiling
 Mill.builder()
 .buildRecipe([<betterwithmods:steel_block>], [<betterwithmods:material:49>*12])

@@ -103,7 +103,7 @@ This useful map couldn't have been made without the contribution of the Crafttwe
 */
 
 //metal
-var ore as string[] = ["Iron", "Copper", "Tin", "Silver", "Gold", "Viridium", "Mythril"];Add commentMore actions
+var ore as string[] = ["Iron", "Copper", "Tin", "Silver", "Gold", "Viridium", "Mythril"];
 for mat in ore {
 //optional furnace ore recipes removal  ==>  furnace.remove(oreDict["ingot"~mat], oreDict["ore"~mat]);
     StoneKiln.addRecipe("StoneKiln"~mat, oreDict["ingot"~mat].firstItem, oreDict["ore"~mat], 20*250, true);
@@ -125,7 +125,7 @@ for mat in rawOre {
 }
 
 //gem
-var gemOre as string[] = ["Coal", "Redstone", "Lapis", "Diamond", "Ruby", "Sapphire", "Peridot", "Emerald", "Quartz", "Onyx", "Zanite"];Add commentMore actions
+var gemOre as string[] = ["Coal", "Redstone", "Lapis", "Diamond", "Ruby", "Sapphire", "Peridot", "Emerald", "Quartz", "Onyx", "Zanite"];
 for mat1 in gemOre {
 //optional furnace ore recipes removal  ==>  furnace.remove(oreDict["gem"~mat1], oreDict["ore"~mat1]);
     StoneKiln.addRecipe("StoneKiln"~mat1, oreDict["gem"~mat1].firstItem, oreDict["ore"~mat1], 20*270, true);

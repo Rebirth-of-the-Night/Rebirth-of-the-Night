@@ -167,6 +167,7 @@ for w, weapon in sapphireweps{
 <iceandfire:pixie_dust:*>.addTooltip("What would happen if I had a taste...?");
 <contenttweaker:xp_tome_mundane>.addTooltip("Grants 500 XP on use.");
 <contenttweaker:xp_tome_arcane>.addTooltip("Grants 5 LEVELS on use.");
+<rats:feral_rat_claw>.addTooltip("Dropped from unnaturally large rodents.");
 
 // Arcane Archives
 <arcanearchives:raw_quartz:*>.addTooltip("Right-click on any chest to convert it to a Radiant Chest.");
@@ -179,7 +180,8 @@ for w, weapon in sapphireweps{
 <betterwithmods:material:12>.addTooltip("Just a crafting material.");
 <betterwithmods:material:12>.addShiftTooltip('Can be eaten, but if it had a label, it would read "DO NOT EAT."', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <betterwithmods:hibachi:*>.addTooltip("Powered by redstone");
-<betterwithaddons:ancestry_bottle:*>.addTooltip("Spirits found throughout the world can be bottled up or manually crafted");
+<betterwithaddons:ancestry_bottle:*>.addTooltip("Obtained by bottling spirits from slaying undead monsters.");
+<betterwithaddons:ancestry_bottle:*>.addTooltip("Can also be artifically crafted when in dire need.");
 <betterwithmods:material:29>.addTooltip(format.red("Extremely volatile."));
 <betterwithmods:material:29>.addTooltip(format.red("Taking damage while transporting this will result in irreparable loss of life... and everything on you."));
 <betterwithaddons:slat:*>.addTooltip("Perfect for being covered with tatami mats!");
@@ -532,8 +534,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <exsartagine:range_extended>.addTooltip("An extension for the Stove. Up to three can be added to either side of a Stove. Can only be placed next to Stoves.");
 <exsartagine:hearth_extended>.addTooltip("An extension for the Hearth. Only one can be added to the side of a Hearth. Can only be placed next to Hearths.");
 
-<biomesoplenty:terrestrial_artifact>.addTooltip("Has a chance to be dropped from Ancient Lodestone.");
-<dungeontactics:mithril_block>.addTooltip("Found in frozen and artic biomes.");
+<biomesoplenty:terrestrial_artifact>.addTooltip("Has a chance to be dropped from Mysterious Lodestone.");
+<dungeontactics:mithril_block>.addTooltip("Found in frozen and arctic biomes.");
 
 <advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Pushes:") + "" + format.yellow(" Living entities."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Chute Compat.:") + format.green(" YES."));
@@ -552,6 +554,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <dungeontactics:lantern_magic:*>.addTooltip("Light with a Flint and Steel to activate.");
 <dungeontactics:lantern_magic:*>.addTooltip(format.red("DOES NOT DROP WHEN BROKEN!"));
 <extraalchemy:potion_ring:*>.addTooltip("Consumes 5 or 8 xp every 30 seconds while active, depending on potion strength.");
+<dungeontactics:magic_pouch:*>.addTooltip("Shift right-click to take out one wand powder.");
+<dungeontactics:magic_pouch:*>.addTooltip("Right-click to stuff all wand powder in inventory into pouch.");
 <dungeontactics:magic_pouch:*>.addTooltip("Right-click to open.");
 <pyrotech:material:12>.addTooltip("Used for dried fiber.");
 <pyrotech:material:12>.addShiftTooltip("Obtained from breaking grass or as a byproduct of fibrous plants", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));

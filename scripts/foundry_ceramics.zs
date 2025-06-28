@@ -142,6 +142,7 @@ Mortar.addRecipe(["diamond"], <ceramics:unfired_clay:4> * 9, 5, [kaolin_quartz, 
 Mortar.addRecipe(["diamond"], <ceramics:unfired_clay:4>, 5, [kaolin_quartz, <minecraft:clay_ball> * 8]);
 
 recipes.addShapeless("unfired_porcelain_bricks",<contenttweaker:unfired_porcelain_brick>,[<ceramics:unfired_clay:4>]);
+recipes.addShapeless("unfired_porcelain_revert",<ceramics:unfired_clay:4>,[<contenttweaker:unfired_porcelain_brick>]);
 
 //Refracotta colors
 val refracotta = <contenttweaker:refracotta>;

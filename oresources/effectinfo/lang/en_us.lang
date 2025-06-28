@@ -15,7 +15,18 @@ effect.regeneration.4.desc=Regenerates 1 HP per 3 ticks.
 effect.resistance.2.desc=Blocks 20%% of any incoming damage per level aside from Void and Starving Damage.
 effect.resistance.3.desc=Poison Immunity.
 effect.resistance.4.desc=Immune to any incoming damage aside from Void and Starving Damage.
-effect.fireResistance.0.desc=Fire Resistance. Increase visibility in Lava.
+
+effect.fireResistance.0.desc=Reduces fire damage by 10%%. Increases visibility in lava.
+effect.fireResistance.1.desc=Reduces fire damage by 20%%. 
+effect.fireResistance.2.desc=Reduces fire damage by 30%%. 
+effect.fireResistance.3.desc=Reduces fire damage by 40%%. 
+effect.fireResistance.4.desc=Reduces fire damage by 50%%. 
+effect.fireResistance.5.desc=Reduces fire damage by 60%%. 
+effect.fireResistance.6.desc=Reduces fire damage by 70%%. 
+effect.fireResistance.7.desc=Reduces fire damage by 80%%. 
+effect.fireResistance.8.desc=Reduces fire damage by 90%%. 
+effect.fireResistance.9.desc=Reduces fire damage by 100%%. 
+
 effect.waterBreathing.0.desc=Water Breathing.
 effect.invisibility.0.desc=Hides entities' shapes, shrink the area where it can be detected. Armors lower the efficacy.
 effect.blindness.0.desc=Darkens FOV, lose visibility, no sprinting and critical damage dealing.
@@ -49,11 +60,10 @@ effect.feathers.0.desc=+4 temporary Extra Feathers per level. Oh to be loved by 
 effect.replenishment.0.desc=Increases feather regeneration speed.
 effect.endurance.0.desc=Each level unlocks 2 steel feathers.
 effect.forceful.0.desc=Increases dodge distance.
-effect.weight.0.desc=Turns all feathers to steel and will remove Endurance effect.
+effect.weight.0.desc=Turns all feathers to steel and removes Endurance effect.
 effect.feeble.0.desc=Decreases dodge distance.
 
-rats.plague.0.desc=This terrible strand of the plague will get worse each 10 minutes unless a valid cure item or a plague doctor cures it (or you die from its final stage).
-rats.plague.1.desc=Healing rate and effectiveness reduced by 50%
-rats.plague.2.desc=All forms of HP regen blocked.
-rats.plague.3.desc=Takes damage each minute. Was it this painful to them?
-rats.plague.4.desc=Consistent damage until death. After respawn, maximum HP is reduced by 2 hearts until a healing stone is consumed. What does it mean to respawn?
+rats.plague.0.desc=All healing is halved. Advances stage every 10 min. until cured or dying to its final stage.
+rats.plague.1.desc=Health regeneration completely nullified.
+rats.plague.2.desc=Slow, painful symptoms set in. Was it this painful to them?
+rats.plague.3.desc=Lethal damage until death. Upon respawn, max health is reduced by 2 hearts until a healing stone is consumed. What does it mean to respawn?

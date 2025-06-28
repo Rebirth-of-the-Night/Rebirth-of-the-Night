@@ -12,6 +12,7 @@ JEI.removeAndHide(<simpleores:copper_block>);
 
 val ingotViri = <simpleores:adamantium_ingot>;
 val nuggetViri = <ore:nuggetViridium>.firstItem;
+val barViri = <aesthetics:adamantium_bars>;
 val ingotMyth = <simpleores:mythril_ingot>;
 val nuggetMyth = <ore:nuggetMythril>.firstItem;
 val ingotCopp = <simpleores:copper_ingot>;
@@ -78,6 +79,10 @@ recipes.addShapedMirrored("iron_brick_stairs", <aesthetics:iron_brick_stairs>*4,
 recipes.addShaped("iron_brick_stairs_back", <ore:ingotWroughtIron>.firstItem*6, [
     [<aesthetics:iron_brick_stairs>, <aesthetics:iron_brick_stairs>],
     [<aesthetics:iron_brick_stairs>, <aesthetics:iron_brick_stairs>]
+]);
+recipes.addShaped("viridium_bars", <aesthetics:adamantium_bars>*16, [
+    [ingotViri, ingotViri, ingotViri],
+    [ingotViri, ingotViri, ingotViri]
 ]);
 // Copper Blocks
 var blockCoppA = <rotn_blocks:copper_block>;

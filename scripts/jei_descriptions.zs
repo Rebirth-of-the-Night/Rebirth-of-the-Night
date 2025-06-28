@@ -78,7 +78,7 @@ JEI.addDescription(<atop:tanzanite_helmet>,"In the heart of a vast forest...");
 JEI.addDescription(<betterwithmods:steel_pickaxe>,"Provides excellent mining speed and durability, but can only be enchanted in the True Enchanting Table.");
 JEI.addDescription(<betterwithmods:steel_mattock>,"One of the most versatile mining tools obtainable. Combines the Soulforged Pickaxe, Shovel and Hoe into one tool, but can only be enchanted in the True Enchanting Table.");
 JEI.addDescription(<betterwithmods:steel_axe>,"Provides excellent chopping speed and durability, but can only be enchanted in the True Enchanting Table.");
-JEI.addDescription(<betterwithmods:steel_shovel>,"Provides excellent digging speed and durability, but can only be enchanted in the True Enchanting Table.");Add commentMore actions
+JEI.addDescription(<betterwithmods:steel_shovel>,"Provides excellent digging speed and durability, but can only be enchanted in the True Enchanting Table.");
 JEI.addDescription(<betterwithmods:steel_hoe>,"Provides excellent durability and harvest area, but can only be enchanted in the True Enchanting Table.");
 JEI.addDescription(<betterwithmods:steel_hacksaw>,"Right-click with this on a block of soulforged steel to cut down the block!");
 
@@ -131,7 +131,7 @@ val charcoal = <minecraft:coal:1>;
 val zincOre = <pyrotech:rock:3>;
 
 JEI.addDescription(<endreborn:block_essence_ore>, "A hard and somewhat hypnotizing rock some consider to be unnatural. It is the source of End essence.");
-JEI.addDescription(<endreborn:item_end_essence>, "As their civilization collapsed, the ensuing chaos leaked living entropy into the world.");
+JEI.addDescription(<endreborn:item_end_essence>, "As their civilization collapsed, the ensuing chaos leaked living entropy into the world; entropy that can replace substances long gone from this world in the right hands.");
 JEI.addDescription(<biomesoplenty:biome_essence>,"Residual energy of that which was extinguished by the Void. Can be found at the bottom of the Ender Dragon island.");
 JEI.addDescription(<ore:ingotSilver>,"A material known to be effective when used against undead monsters. Silver is strong in damage and efficiency, but weak in other aspects.");
 JEI.addDescription(<ore:ingotIron>,"Although bronze is tougher and more durable than iron, iron will always be far more versatile for all sorts of crafting and utilities.");
@@ -218,7 +218,7 @@ JEI.addDescription(denseRedstone, "Found deep below in caves, the purest variety
 JEI.addDescription(kaolin_quartz, "A valuable cluster of high quality quartz obtained from the Nether; it contains a good amount of kaolin, the most important component in the elaboration of porcelain.");
 JEI.addDescription(<betterwithmods:material:15>, "The dust of dried, flesh-like rock. It instantly becomes a viscuous substance when touching fluids; a conveyor belt could be another method of transport for this...");
 JEI.addDescription(ground_nether_dust, "The dust of dried, flesh-like rock. It instantly becomes a viscuous substance when touching fluids; a conveyor belt could be another method of transport for this...");
-JEI.addDescription(<rustic:rope>, "Used for supporting various plants so that they can grow, such as Roma tomatoes and Cayenne chilies. Can be tied onto a crop stake.");Add commentMore actions
+JEI.addDescription(<rustic:rope>, "Used for supporting various plants so that they can grow, such as Roma tomatoes and Cayenne chilies. Can be tied onto a crop stake.");
 JEI.addDescription(<rustic:crop_stake>, "Used for supporting various plants so that they can grow, such as Roma tomatoes and Cayenne chilies. Simple Rope can be tied onto a crop stake.");
 JEI.addDescription(expertly_crafted_arrow_head, "This arrow head is of an exquisite quality and was clearly made by the hand of someone who has dedicated their whole life to their profession. It may be used by an equally talented fletcher to make high grade arrows.");
 JEI.addDescription(<pyrotech:compost_bin>,"Composting is simple; fill up the composter with food you don't need, pour in a bit of water, and let time take care of the rest.");
@@ -473,6 +473,7 @@ JEI.addDescription(<rats:black_death_mask>,"Diseases are perfected through exper
 JEI.addDescription(<rats:block_of_cheese>,"This cheese has been crammed together roughly. Separating it into edible wedges is impossible, but it can still be used as a way to hoard food for rats... or used as decoration.");
 JEI.addDescription(<rats:rattrap>,"Used to lure and kill wild rats. Must be baited with food and reset after each use.");
 JEI.addDescription(<rats:rat_cage>,"Used to contain rats for breeding or keeping them out of trouble. Cages can be connected with rat tubes and outfitted with many cage decorations.");
+JEI.addDescription(<rats:ratlantean_flame>,"An spiritual remnant of the mutated plague revenants roaming the Beneath. This concentrated substance is particularly bright despite its origin, perhaps a lure or a call for help.");
 
 
 /* Bees */
@@ -511,7 +512,7 @@ JEI.addDescription(<contenttweaker:ofuda>,"An old sheet of paper with indecipher
 JEI.addDescription(<betterwithaddons:ancestry_bottle>,"Spirits extracted from souls; little remains of the original entity. Keep a bottle in your inventory when killing paranormal undead to snatch the spirit before it returns to the spiritual realm.");
 JEI.addDescription(<iceandfire:fire_lily>,"An uncommon sight in the overworld, dragon lilies can be found at extremities corresponding to their name; ice lilies in freezing cold places, and fire lilies in scorching hot regions. These flowers were once a favored treat of the fearsome and mystical dragon; however, the beasts have not been seen in the overworld for eons...");
 JEI.addDescription(<iceandfire:frost_lily>,"An uncommon sight in the overworld, dragon lilies can be found at extremities corresponding to their name; ice lilies in freezing cold places, and fire lilies in scorching hot regions. These flowers were once a favored treat of the fearsome and mystical dragon; however, the beasts have not been seen in the overworld for eons...");
-JEI.addDescription(<biomesoplenty:terrestrial_artifact>, "A strange, glimmering petal-like crimson gem. Some seem to be preserved in good condition inside the Mysterious Lodestone in cold biomes.");
+JEI.addDescription(<biomesoplenty:terrestrial_artifact>, "A strange, glimmering petal-like crimson gem. Some seem to be preserved in good condition inside the Mysterious Lodestone in freezing biomes.");
 
 /* Miscellaneous (and I mean TRUE miscellaneous) */
 val arcaneBarrier = <dimstack:bedrock:0>;
@@ -522,14 +523,14 @@ val lodestone = <dungeontactics:mithril_block>;
 JEI.addDescription(arcanePortal,"Getting past these will take you to places...");
 JEI.addDescription(arcaneBarrier,"Getting past these will take you to dark places...");
 JEI.addDescription(dummy_fire,"Fire! Once thought to be the case, there is now no certainty that humans were the first civilization to conquer this force of nature, but they are still just as good making the most out of it as ever. Ignite a flame using a hand drill, a flint and steel, a fire charge... or more obscure methods. More often than not, fire is best used in controlled environments, like torches, campfires and furnaces.");
-JEI.addDescription(lodestone, "Ancient stones with strange properties buried in the coldest parts of the world. Mining them grants magnet for a while and they can contain Stillborn Crimson Petals");
+JEI.addDescription(lodestone, "Ancient stones with peculiar properties found in freezing parts of the world. Breaking one grants a strong magnetic pull; they can also contain Stillborn Crimson Petals. How did those get there?");
 JEI.addDescription(<contenttweaker:scaffolding>, "A rickety building material thrown together by monsters who are smarter than they seem. Easily cleared away. Breaks down over time.");
 JEI.addDescription(<animania:raw_prime_bacon>, "Shut the fuck up. I mean this when I say it. Y'all might think it's weird until you feel the raw bacon slime down your throat and you experience bliss. It's not even dangerous, almost all 'raw bacon' that you can buy has already been smoked and sanitized. Shut the fuck up. Literally. Y'all will never know what it's like to feel good because you're always putting people down. Seriously. Shut the fuck up 'is this real' yes it's real. You guys just hate to see whenever someone else is winning. I bet that you guys like your bacon fucking crispy, no pleasurable texture to it at all when you bite into it. Y'know what, that can be your body if you keep on talking about this. I'll cook you up since you guys love cooked shit so much, and eat you, and complain that it's overcooked. I bet you guys haven't had a good slice of bacon in your life. Hell, I bet y'all haven't ever had good food in the first place. Fuck you all, I'm literally happier than any of you and you're all just pissed because you can't be like me. Fuck off, losers.");
 JEI.addDescription(<atop:amber_sword>, "Deep in the human unconscious is a pervasive need for a logical universe that makes sense, But the real universe is always one step beyond logic.");
 JEI.addDescription(<contenttweaker:slime_nesting>, "Lime slimes proliferate in droves in the Overworld's grasslands when left unchecked. A slime nesting is the only spot on which lime and watermelon slimes can appear; getting rid of it will get rid of them... or it could be used to redirect their population.");
 #JEI.addDescription(<netherex:blue_fire>, "An unnatural blue flame emits a freezing cold sensation. Unlike regular fire, it cannot be put out by water. Most commonly found high in the Aether in its frozen regions.");
 #JEI.addDescription(<endreborn:end_fire>, "A supernatural flame that defies logic. It does not even naturally occur, seeming to be some arcane invention of the Enderfolk; their secrets remain a mystery...");
-#JEI.addDescription(<betterwithmods:stoked_flame>, "A superheated flame only producible by stoking the flame of a hibachi, powered by hellfire. When combined with certain containers such as a cooking cauldron or crucible, it allows you to reach extreme temperatures that are necessary for certain creations. Take care when using it; some recipes may not play with the superheated temperatures too nicely...");Add commentMore actions
+#JEI.addDescription(<betterwithmods:stoked_flame>, "A superheated flame only producible by stoking the flame of a hibachi, powered by hellfire. When combined with certain containers such as a cooking cauldron or crucible, it allows you to reach extreme temperatures that are necessary for certain creations. Take care when using it; some recipes may not play with the superheated temperatures too nicely...");
 #JEI.addDescription(<biomesoplenty:blue_fire>, "An unusual flame found within the Nether; rather than burning, it causes uncontrollable movements. Can be picked up with a Mason Jar.");
 #JEI.addDescription(<biomesoplenty:jar_filled:1>, "Obtained by picking up Cursed Fire with a Mason Jar. Can be put elsewhere.");
 

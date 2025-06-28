@@ -389,6 +389,7 @@ gnugs.addAll(<ore:nuggetIron>);
 gnugs.addAll(<ore:nuggetBronze>);
 gnugs.addAll(<ore:nuggetSilver>);
 gnugs.addAll(<ore:nuggetSteel>);
+gnugs.addAll(<ore:nuggetWroughtIron>);
 
 val bars = <ore:bars>;
 bars.addAll(<ore:genericMetalBars>);
@@ -663,6 +664,13 @@ recipes.addShapeless("name_tag",<minecraft:name_tag>,[
     <ore:string>, <ore:nuggetGold>, <minecraft:paper>
 ]);
 
+recipes.removeByRecipeName("minecraft:dispenser");
+recipes.addShaped("vanilla_dispenser",<minecraft:dispenser>,[
+    [<ore:cobblestone>,<ore:cobblestone>,<ore:cobblestone>],
+    [<ore:cobblestone>,<minecraft:bow:*>,<ore:cobblestone>],
+    [<ore:cobblestone>,<minecraft:redstone>,<ore:cobblestone>]
+]);
+
 recipes.remove(<minecraft:fish:0>);
 recipes.remove(<minecraft:stone_slab:5>);
 recipes.addShaped("stone_brick_slab",<minecraft:stone_slab:5>*6,[
@@ -715,6 +723,8 @@ recipes.addShaped("oak_fence_gate",<minecraft:fence_gate>,[
     [<ore:stickWood>,<minecraft:planks:0>,<ore:stickWood>],
     [<ore:stickWood>,<minecraft:planks:0>,<ore:stickWood>]
 ]);
+
+
 
 val fenceStickMap = {
     <minecraft:planks:1> : [<minecraft:spruce_fence>,<minecraft:spruce_fence_gate>],
@@ -1045,6 +1055,10 @@ recipes.addShaped("bowl",<minecraft:bowl>*4,[
     [null,<ore:stickMat>,null]
 ]);
 
+recipes.addShapeless("bowl_to_cot_bowl",<contenttweaker:bowl>,[<minecraft:bowl>]);
+
+recipes.addShapeless("cot_bowl_to_bowl",<minecraft:bowl>,[<contenttweaker:bowl>]);
+
 val ladderMats = <ore:ladderMat>;
 ladderMats.mirror(<ore:stickWood>);
 ladderMats.removeItems([<aether_legacy:skyroot_stick>,<betternether:nether_reed>]);
@@ -1125,7 +1139,7 @@ recipes.addShaped("wooden_podium",<iceandfire:podium:0>,[
 ]);
 
 recipes.removeByRecipeName("dungeontactics:misc/convenience/books_from_shelves");
-recipes.addShapeless("book_from_bookshelf",<minecraft:book>,[<ore:bookshelf>]);
+recipes.addShapeless("book_from_bookshelf",<minecraft:book>*3,[<ore:bookshelf>]);
 
 JEI.removeAndHide(<minecraft:shield>);
 LootTable.removeGlobalItem("minecraft:shield");
@@ -1161,8 +1175,6 @@ recipes.addShaped("scrapped_leather", <pyrotech:hide_small_scraped>,
 [[<contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>],
 [<contenttweaker:tattered_hide>, <betterwithmods:material:3>, <contenttweaker:tattered_hide>],
 [<contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>]]);
-
-recipes.addShapeless("fiery_nether_brick_sludge",<contenttweaker:unfired_fiery_brick>,[<contenttweaker:fiery_sludge>]);
 
 // Mossy brick recipes
 recipes.remove(<rats:marbled_cheese_brick_mossy>);
@@ -1338,6 +1350,8 @@ farmland.add(
 <ore:grass>.addItems([<minecraft:grass_path>,<aether_legacy:aether_grass>,<aether_legacy:enchanted_aether_grass>,<betterwithaddons:extra_grass:0>,<betterwithaddons:extra_grass:1>,<betterwithaddons:extra_grass:2>,<betterwithaddons:extra_grass:3>,<biomesoplenty:grass:1>,<biomesoplenty:grass:2>,<biomesoplenty:grass:3>,<biomesoplenty:grass:4>,<biomesoplenty:grass:5>,<biomesoplenty:grass:6>,<biomesoplenty:grass:7>,<biomesoplenty:grass:8>,<biomesoplenty:grass_path:0>,<stygian:endgrass>]);
 
 <ore:lever>.addItems([<minecraft:lever>,<aether_legacy:aether_lever>]);
+
+<ore:buttonStone>.addItems([<minecraft:stone_button>,<undergroundbiomes:igneous_stone_button:*>,<undergroundbiomes:metamorphic_stone_button:*>,<undergroundbiomes:sedimentary_stone_button:*>]);
 
 <ore:mat>.addItems([<harvestcraft:wovencottonitem>]);
 <ore:mat>.addAll(<ore:wool>);

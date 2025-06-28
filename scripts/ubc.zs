@@ -188,7 +188,7 @@ for fullCobble, cobbleDeco in stonecobbleDecoMap{ // cobbleDeco[0] is for slabs,
 	]);
 }
 
-// Polished coade recipes are a placeholder until vanilla stone becomes quartzite.Add commentMore actions
+// Polished coade recipes are a placeholder until vanilla stone becomes quartzite.
 recipes.addShaped("coade_ornate_polished_slab",<contentcreator:coade_stone_ornate_slab>*3, [
   [<contentcreator:coade_stone_polished_slab>,<contentcreator:coade_stone_polished_slab>,<contentcreator:coade_stone_polished_slab>]
 ]);

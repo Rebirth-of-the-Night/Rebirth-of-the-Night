@@ -1,0 +1,18 @@
+{
+        "blocks":[
+                {
+                        "blocks": [
+                                "rotn_blocks:scuttling_block"
+                        ],
+                        "chance": 1000,
+                        "sounds": [
+                                {
+                                        "sound": "minecraft:entity.silverfish.step",
+                                        "volume": 3.0,
+                                        "pitch": 1.0,
+                                        "variable": true
+                                }
+                        ]
+                }
+        ]
+}

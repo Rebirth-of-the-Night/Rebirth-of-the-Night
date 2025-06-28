@@ -34,6 +34,18 @@ HarvestCraftTweaker.removeMarketByOutput(<harvestcraft:chilipepperseeditem>);
 HarvestCraftTweaker.removeMarketByOutput(<harvestcraft:grapeseeditem>);
 HarvestCraftTweaker.removeMarketByOutput(<harvestcraft:greengrapeseeditem>);
 
+//Flowers - temporary until generation is added in
+HarvestCraftTweaker.addMarket(<bblsom:wildflowers_west_kraired>*32, <biomesoplenty:gem:2>, 1);
+HarvestCraftTweaker.addMarket(<bblsom:wildflowers_north_kraired>*32, <biomesoplenty:gem:2>, 1);
+HarvestCraftTweaker.addMarket(<bblsom:wildflowers_atashum>*32, <biomesoplenty:gem:1>, 1);
+HarvestCraftTweaker.addMarket(<bblsom:wildflowers_haelat>*32, <biomesoplenty:gem:1>, 1);
+HarvestCraftTweaker.addMarket(<bblsom:wildflowers_rising_isles>*32, <biomesoplenty:gem:6>, 1);
+HarvestCraftTweaker.addMarket(<bblsom:wildflowers_rymoe>*32, <biomesoplenty:gem:1>, 1);
+HarvestCraftTweaker.addMarket(<bblsom:wildflowers_hailakand>*32, <minecraft:diamond>, 1);
+HarvestCraftTweaker.addMarket(<bblsom:wildflowers_mortarid>*32, <minecraft:diamond>, 1);
+HarvestCraftTweaker.addMarket(<bblsom:wildflowers_prektane>*32, <minecraft:diamond>, 1);
+HarvestCraftTweaker.addMarket(<bblsom:wildflowers_wanlonggu>*32, <biomesoplenty:gem:6>, 1);
+
 // HarvestCraftTweaker.addShipping(IItemStack toBuy, IItemStack input, int cost);
 // HarvestCraftTweaker.removeShippingByOutput(IItemStack output);
 

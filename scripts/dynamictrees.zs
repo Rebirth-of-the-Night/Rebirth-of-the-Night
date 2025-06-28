@@ -72,7 +72,7 @@ JEI.removeAndHide(<dynamictreesbop:mangrovebranch>);
 JEI.removeAndHide(<dynamictreesphc:paperbarkcutbranch>);
 JEI.removeAndHide(<dynamictreesphc:palmbranch>);
 JEI.removeAndHide(<dynamictreesphc:dragonfruitbranch>);
-JEI.removeAndHide(<dynamictreesphc:dragonfruitbranch>);
+JEI.removeAndHide(<patchouli:guide_book>.withTag({"patchouli:book": "dynamictrees:guide"}));
 
 JEI.removeAndHide(<dynamictrees:staff>.withTag({code: "P", tree: "dynamictrees:oak"}));
 
@@ -84,5 +84,3 @@ recipes.addShapeless("dirt_bucket_stone", <dynamictrees:dirtbucket>,
 recipes.addShaped("bamboo_to_bamboo_shoot", <dynamictreesbop:bambooseed>,
  [[null,<ore:shears>,null],
   [<biomesoplenty:bamboo>,<biomesoplenty:bamboo>,<biomesoplenty:bamboo>]]);
-
-recipes.addShapeless("dyntree_guide", <patchouli:guide_book>.withTag({"patchouli:book": "dynamictrees:guide"}),[<minecraft:book>, <ore:treeSapling>]);

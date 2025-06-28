@@ -22,7 +22,7 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .create();
 
-// Radiant AmphoraAdd commentMore actions
+// Radiant Amphora
 RecipeBuilder.get("mage")
  .setShapeless([<arcanearchives:radiant_dust>, <betterwithmods:urn:9>, <ore:nuggetElectrum>.firstItem])
  .addOutput(<arcanearchives:radiant_amphora>)

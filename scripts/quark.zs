@@ -71,6 +71,12 @@ recipes.addShaped("paper_wall",<quark:paper_wall>,[
 	[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]
 ]);
 
+recipes.remove(<quark:grate>);
+recipes.addShaped("generic_metal_grate",<quark:grate>,[
+	[<ore:genericMetalBars>,<ore:genericMetalBars>],Add commentMore actions
+	[<ore:genericMetalBars>,<ore:genericMetalBars>]
+]);
+
 //Immersive plating
 recipes.addShaped("steel_plate", <quark:iron_plate>*24,
  [[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],

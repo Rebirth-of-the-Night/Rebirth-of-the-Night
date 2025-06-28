@@ -83,10 +83,7 @@ recipes.remove(<cyclicmagic:button_large>);
 recipes.removeByRecipeName("cyclicmagic:item.carbon_paper_1_2");
 // apple recipes on betterwithmods.zs
 
-var vnugg = <ore:nuggetViridium>.firstItem;
-var duracloth = <betterwithmods:material:4>;
 var glue = <ore:glue>;
-var leather_sheet = <pyrotech:material:38>;
 var pipe = <quark:pipe>;
 var pipepump = <cyclicmagic:fluid_pump>;
 var pipeliquid = <cyclicmagic:fluid_pipe>;
@@ -182,12 +179,6 @@ recipes.addShaped("cyclic_large_button", <cyclicmagic:button_large>, [
     [masonry_brick, white_metal_nugget, masonry_brick],
     [white_metal_nugget, button_wood, white_metal_nugget],
     [masonry_brick, white_metal_nugget, masonry_brick]
-]);
-
-recipes.addShaped("climbing_gloves", <cyclicmagic:glove_climb>, [
-	[vnugg, vnugg, leather_sheet],
-    [vnugg, glue, leather_sheet],
-    [leather_sheet, leather_sheet, duracloth]
 ]);
 
 recipes.addShaped("immersive_carbon_paper", carpaper*6, [
