@@ -2236,7 +2236,7 @@
     "dimension": [0,10,1,-1],
     "mob": "specialmobs:blindingenderman",
     "gamestage": "killedEnderDragon",
-    "random": 0.225,
+    "random": 0.1,
     "maxlight": 7,
 
     "result": "allow",
@@ -2745,24 +2745,7 @@
     "dimension": 4,
     "mob": "specialmobs:joltblaze",
     "gamestage": "killedSunSpirit",
-    "random": 0.3,
-	"maxlight": 7,
-
-	"seesky": true,
-    
-    "result": "allow"
- },
- {
-    "dimension": 4,
-    "mob": "specialmobs:joltblaze",
-    "result": "deny"
- },
-
- {
-    "dimension": 4,
-    "mob": "specialmobs:joltblaze",
-    "gamestage": "killedSunSpirit",
-    "random": 0.3,
+    "random": 0.15,
 	"maxlight": 7,
 
 	"seesky": true,
