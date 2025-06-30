@@ -73,24 +73,25 @@ recipes.addShaped("paper_wall",<quark:paper_wall>,[
 
 recipes.remove(<quark:grate>);
 recipes.addShaped("generic_metal_grate",<quark:grate>,[
-	[<ore:genericMetalBars>,<ore:genericMetalBars>],Add commentMore actions
+	[<ore:genericMetalBars>,<ore:genericMetalBars>],
 	[<ore:genericMetalBars>,<ore:genericMetalBars>]
 ]);
 
 //Immersive plating
-recipes.addShaped("steel_plate", <quark:iron_plate>*24,
- [[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],
-  [<ore:ingotSteel>,<minetraps:nails:*>,<ore:ingotSteel>],
-  [<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>]]);
+recipes.addShaped("steel_plate", <quark:iron_plate>*24,[
+	[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],
+	[<ore:ingotSteel>,<minetraps:nails:*>,<ore:ingotSteel>],
+	[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>]
+]);
 recipes.addShaped("iron_plate_2_0",<quark:iron_plate:1>*8,[
-   [<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>],
-    [<quark:iron_plate>,flimsywaterbucket,<quark:iron_plate>],
-    [<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>]
+	[<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>],
+	[<quark:iron_plate>,flimsywaterbucket,<quark:iron_plate>],
+	[<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>]
 ]);
 recipes.addShaped("iron_plate_2_1",<quark:iron_plate:1>*8,[
-   [<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>],
-    [<quark:iron_plate>,qualitybucket,<quark:iron_plate>],
-    [<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>]
+	[<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>],
+	[<quark:iron_plate>,qualitybucket,<quark:iron_plate>],
+	[<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>]
 ]);
 recipes.addShaped("iron_plate", <contenttweaker:iron_plate>*24, [
 	[<minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],

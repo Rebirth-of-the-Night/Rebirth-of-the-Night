@@ -707,6 +707,23 @@ raw_mythril.setCreativeTab(<creativetab:rotn_blocks>);
 raw_mythril.setToolLevel(2);
 raw_mythril.register();
 
+// The Small Door
+var small_door = VanillaFactory.createBlock("small_door", <blockmaterial:Iron>);
+small_door.axisAlignedBB = AxisAlignedBB.create(
+     2.0 / 16.0,
+     0.0 / 16.0,
+     2.0 / 16.0,
+	14.0 / 16.0,
+    16.0 / 16.0,
+    14.0 / 16.0
+	);
+small_door.setCreativeTab(<creativetab:rotn_blocks>);
+small_door.setBlockSoundType(<soundtype:stone>);
+small_door.setFullBlock(false);
+small_door.setToolLevel(1);
+small_door.setToolClass("pickaxe");
+small_door.register();
+
 // Unfired Refractory Crucible
 var crucible = VanillaFactory.createBlock("crucible", <blockmaterial:Iron>);
 crucible.setCreativeTab(<creativetab:rotn_blocks>);
@@ -715,6 +732,16 @@ crucible.setFullBlock(false);
 crucible.setToolLevel(0);
 crucible.setToolClass("shovel");
 crucible.register();
+
+// Crucible of souls
+var crucible_of_souls = VanillaFactory.createBlock("crucible_of_souls", <blockmaterial:Iron>);
+crucible_of_souls.setCreativeTab(<creativetab:rotn_blocks>);
+crucible_of_souls.setBlockSoundType(<soundtype:stone>);
+crucible_of_souls.setFullBlock(false);
+crucible_of_souls.setLightOpacity(0);
+crucible_of_souls.setToolLevel(0);
+crucible_of_souls.setToolClass("pickaxe");
+crucible_of_souls.register();
 
 // Unfired Rustic Vase
 var pot_unfired = VanillaFactory.createBlock("pot_unfired", <blockmaterial:Clay>);
@@ -1748,6 +1775,20 @@ loose_red_sandstone_bricks.setGravity(true);
 loose_red_sandstone_bricks.setToolLevel(1);
 loose_red_sandstone_bricks.setBlockLayer("CUTOUT_MIPPED");
 loose_red_sandstone_bricks.register();
+//White Sandstone
+var loose_white_sandstone_bricks = VanillaFactory.createBlock("loose_white_sandstone_bricks", <blockmaterial:Rock>);
+loose_white_sandstone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_white_sandstone_bricks.setGravity(true);
+loose_white_sandstone_bricks.setToolLevel(1);
+loose_white_sandstone_bricks.setBlockLayer("CUTOUT_MIPPED");
+loose_white_sandstone_bricks.register();
+//Red Granite Sandstone
+var loose_red_granite_sandstone_bricks = VanillaFactory.createBlock("loose_red_granite_sandstone_bricks", <blockmaterial:Rock>);
+loose_red_granite_sandstone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_red_granite_sandstone_bricks.setGravity(true);
+loose_red_granite_sandstone_bricks.setToolLevel(1);
+loose_red_granite_sandstone_bricks.setBlockLayer("CUTOUT_MIPPED");
+loose_red_granite_sandstone_bricks.register();
 // Soulsandstone
 var loose_soulsandstone_bricks = VanillaFactory.createBlock("loose_soulsandstone_bricks", <blockmaterial:Rock>);
 loose_soulsandstone_bricks.setCreativeTab(<creativetab:rotn_blocks>);

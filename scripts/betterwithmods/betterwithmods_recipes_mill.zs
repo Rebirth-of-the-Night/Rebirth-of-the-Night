@@ -34,7 +34,7 @@ Mill.remove([<betterwithmods:material:33>]);
 
 // scrapped hide
 
-val hideScraping as IItemStack[IIngredient] = {
+val hideScrapingMill as IItemStack[IIngredient] = {
   <pyrotech:pelt_cow>                  :     <pyrotech:hide_scraped>,
   <pyrotech:pelt_mooshroom>            :     <pyrotech:hide_scraped>,
   <pyrotech:hide_llama>                :     <pyrotech:hide_scraped>,
@@ -61,7 +61,7 @@ val hideScraping as IItemStack[IIngredient] = {
   <rats:rat_pelt>                      :     <contenttweaker:hide_tiny_scraped>
 } as IItemStack[IIngredient];
 
-for pelt, scraped in hideScraping {
+for pelt, scraped in hideScrapingMill {
   Mill.builder()
   .buildRecipe([pelt], [scraped])
   .setPriority(1)

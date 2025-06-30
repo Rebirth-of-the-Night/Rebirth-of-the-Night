@@ -421,7 +421,7 @@ recipes.remove(<toroquest:toro_leather>);
 recipes.remove(<spartanweaponry:quiver_bolt_moderate>);
 recipes.remove(<spartanweaponry:quiver_arrow_moderate>);
 
-recipes.addShapeless("spartanweaponry:handle", handle*4, [stick,stick,stick,stick,leather_strip]);
+recipes.addShapeless("spartanweaponry_handle", handle*4, [stick,stick,stick,stick,leather_strip]);
 recipes.addShaped("leather_helmet", <minecraft:leather_helmet>,
  [[leather_sheet,leather_sheet,leather_sheet],
   [leather_sheet,null,leather_sheet]]);

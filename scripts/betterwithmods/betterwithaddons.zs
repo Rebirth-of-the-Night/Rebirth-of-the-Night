@@ -105,7 +105,7 @@ for item in bwaArray {
 	// (a|b|c) gets anything that matches one of those three
 	// (?!a|b|c).* gets everything except items matching those three
 val regexArray = [
-	"(iron|diamond|gold).*",
+	"(iron|diamond|gold)_(?!sand).*",
 	".*(paper|samurai)",
 	"food_(?!carrot_baked|beetroot_baked|clownfish_cooked|pufferfish_baked|mulberry).*",
 	"crop.*",
@@ -273,8 +273,8 @@ recipes.addShaped(<betterwithaddons:ancestry_bottle>, [
 //INFUSER
 recipes.addShaped(<betterwithaddons:ancestry_infuser>, [
     [<contenttweaker:vis_speck>, <betterwithaddons:ancestry_bottle>, <contenttweaker:vis_speck>],
-    [<minecraft:gold_ingot>, <minecraft:carpet:10>, <minecraft:gold_ingot>],
-    [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]
+    [<minecraft:gold_ingot>, <minecraft:carpet:*>, <minecraft:gold_ingot>],
+    [<contenttweaker:magicked_stone>, <contenttweaker:magicked_stone>, <contenttweaker:magicked_stone>]
 ]);
 
 Infuser.addShaped(<betterwithaddons:greatarrow_lightning>*8,[
@@ -283,6 +283,12 @@ Infuser.addShaped(<betterwithaddons:greatarrow_lightning>*8,[
     [<betterwithaddons:greatarrow>,<betterwithaddons:greatarrow>,<betterwithaddons:greatarrow>]
 ], 0);
 
+// Crucible of Souls
+Infuser.addShaped(<contenttweaker:crucible_of_souls>,[
+    [<biomesoplenty:gem:5>],
+    [<betterwithmods:cooking_pot>]
+], 16);
+
 // Spirit charging
 Infuser.addShapeless(<cyclicmagic:wand_hypno>,
 [<cyclicmagic:wand_hypno>.anyDamage(),<contenttweaker:vis_sliver>], 64);
@@ -290,7 +296,7 @@ Infuser.addShapeless(<cyclicmagic:wand_hypno>,
 Infuser.addShapeless(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, ench: [{lvl: 5 as short, id: 25 as short}], RepairCost: 1, Quality: {}, display: {Name: "§4Unlabored §o§6Flawlessness"}, "Quark:RuneAttached": 1 as byte}),[<spartanweaponry:katana_wood>, <simpleores:onyx_rod>], 27);
 
 Infuser.removeAllTransmutation();
-Infuser.addTransmutation(<contenttweaker:ofuda>,<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 267}]}), 44); //if this break, the enchantment is cursebreak from RLtweaker
+Infuser.addTransmutation(<contenttweaker:ofuda>,<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 170}]}), 44); //if this breaks, the enchantment is cursebreak from Charm + RLmixns
 Infuser.addTransmutation(<betternether:gray_mold>,<contenttweaker:koji_mold>, 1);
 Infuser.addTransmutation(<dynamictrees:oakseed>,<dynamictreesbop:whitecherryseed>, 1);
 Infuser.addTransmutation(<dynamictreesbop:orangeautumnseed>,<dynamictreesbop:whitecherryseed>, 1);

@@ -108,7 +108,6 @@ pathBlockB.addItems([
   <randomthings:stainedbrick:*>,
   <undergroundbiomes:igneous_brick:*>,
   <undergroundbiomes:metamorphic_brick:*>,
-  <contenttweaker:cobblestone_path_coade>,
   <contenttweaker:cobblestone_path_red_granite>,
   <inspirations:path:*>,
   <contenttweaker:grass_paver>,
@@ -202,7 +201,6 @@ pathBlockB.addItems([
   <earthworks:block_slate_tile_verte>,
   <earthworks:block_slate_tile_purple>,
   <futuremc:smooth_stone>,
-  <contenttweaker:dry_fitted_coade_stone>,
   <contenttweaker:dry_fitted_mixed_stone>
 ]);
 
