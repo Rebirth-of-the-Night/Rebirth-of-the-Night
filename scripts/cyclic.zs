@@ -224,7 +224,7 @@ recipes.addShapeless("ramp_conveyor_2_straight", st_conveyor*2, [<cyclicmagic:pl
 //]);
 
 //Spelunker potions with prospecting kit in rustic.zs
-
+/*
 Anvil.addShaped(pipepump, 
 [
 	[reframat, pipe, reframat, null],
@@ -232,12 +232,12 @@ Anvil.addShaped(pipepump,
 	[reframat, pipe, reframat, null],
 	[null, null, null, null]
 ]);
-
+*/
 // Pipes
 val paneGlass = <ore:paneGlass>;
 paneGlass.addItems([<betternether:quartz_glass_pane>, <betternether:quartz_glass_framed_pane>,<netherex:soul_glass_pane>,<quark:framed_glass_pane>]);
 
-for item in paneGlass.items{
+/*for item in paneGlass.items{
 Anvil.addShaped(pipeliquid * 12, 
 [
 	[null, reframat, reframat, null],
@@ -247,7 +247,7 @@ Anvil.addShaped(pipeliquid * 12,
 ]);
 }
 
-/* //Requires RF
+//Requires RF
 Anvil.addShaped(<cyclicmagic:fluid_drain>,[
 	[steel, screwpump , steel],
     [refratank, screwpump, pipepump],
