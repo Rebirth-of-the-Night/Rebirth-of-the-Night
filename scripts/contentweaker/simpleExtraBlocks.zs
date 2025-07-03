@@ -446,6 +446,25 @@ voided_rock.setSlipperiness(0.7f);
 voided_rock.setToolLevel(4);
 voided_rock.register();
 
+// vathodermis
+var vathodermis = VanillaFactory.createBlock("vathodermis", <blockmaterial:Rock>);
+vathodermis.setCreativeTab(<creativetab:rotn_blocks>);
+vathodermis.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+    16.0 / 16.0,
+    15.0 / 16.0,
+    16.0 / 16.0
+	);
+vathodermis.setBlockHardness(100.0);
+vathodermis.setBlockResistance(7.5);
+vathodermis.setSlipperiness(0.9f);
+vathodermis.setLightValue(0.1);
+vathodermis.setToolLevel(4);
+vathodermis.setToolClass("axe");
+vathodermis.register();
+
 // void_block
 var void_block = VanillaFactory.createBlock("void_block", <blockmaterial:Fire>);
 void_block.axisAlignedBB = AxisAlignedBB.create(
