@@ -1903,6 +1903,38 @@ recipes.addShaped(<minecraft:iron_bars> * 16, [
     [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
 ]);
 
+//Sandstone Recipe Overhaul
+recipes.remove(<minecraft:sandstone>);
+recipes.addShaped(<minecraft:sandstone> * 4, [
+    [<minecraft:sand>, <minecraft:sand>],
+    [<minecraft:sand>, <minecraft:sand>]
+]);
+recipes.remove(<minecraft:red_sandstone>);
+recipes.addShaped(<minecraft:red_sandstone> * 4, [
+    [<minecraft:sand:1>, <minecraft:sand:1>],
+    [<minecraft:sand:1>, <minecraft:sand:1>]
+]);
+recipes.remove(<quark:soul_sandstone>);
+recipes.addShaped(<quark:soul_sandstone> * 4, [
+    [<minecraft:soul_sand>, <minecraft:soul_sand>],
+    [<minecraft:soul_sand>, <minecraft:soul_sand>]
+]);
+recipes.remove(<biomesoplenty:white_sandstone>);
+recipes.addShaped(<biomesoplenty:white_sandstone> * 4, [
+    [<biomesoplenty:white_sand>, <biomesoplenty:white_sand>],
+    [<biomesoplenty:white_sand>, <biomesoplenty:white_sand>]
+]);
+recipes.remove(<undergroundbiomes:igneous_sandstone>);
+recipes.addShaped(<undergroundbiomes:igneous_sandstone> * 4, [
+    [<undergroundbiomes:igneous_sand>, <undergroundbiomes:igneous_sand>],
+    [<undergroundbiomes:igneous_sand>, <undergroundbiomes:igneous_sand>]
+]);
+recipes.remove(<defiledlands:sandstone_defiled>);
+recipes.addShaped(<defiledlands:sandstone_defiled> * 4, [
+    [<defiledlands:sand_defiled>, <defiledlands:sand_defiled>],
+    [<defiledlands:sand_defiled>, <defiledlands:sand_defiled>]
+]);
+
 // ContentTweaker extra blocks recipes
 // All Lunarin bricks
 recipes.remove(<villagenames:lunaringoldbrick>);
@@ -2474,6 +2506,7 @@ recipes.addShapedMirrored("golden_bb", <ceramics:clay_hard:3>*8,[
     [<contenttweaker:brick_ceramics_porcelain>, <ore:nuggetGold>, <contenttweaker:brick_ceramics_porcelain>],
     [<contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>]
 ]);
+
 ////////////////////////////////////// End of the temporary brick recipes.
 
 // L'egg recipe is in inspirations.zs
