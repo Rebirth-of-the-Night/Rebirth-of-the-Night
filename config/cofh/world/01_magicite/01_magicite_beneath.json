@@ -13,7 +13,7 @@
                 "block": [
                     {
                         "name": "quark:crystal",
-                        "metadata": 2
+                        "properties": {"crystal_orange"}
                     }
                 ],
                 "cluster-size": 50,
@@ -40,7 +40,7 @@
                 "block": [
                     {
                         "name": "quark:crystal",
-                        "metadata": 4
+                        "properties": {"crystal_green"}
                     }
                 ],
                 "cluster-size": 50,
@@ -67,7 +67,7 @@
                 "block": [
                     {
                         "name": "quark:crystal",
-                        "metadata": 6
+                        "properties": {"crystal_indigo"}
                     }
                 ],
                 "cluster-size": 50,
@@ -94,7 +94,7 @@
                 "block": [
                     {
                         "name": "quark:crystal",
-                        "metadata": 7
+                        "properties": {"crystal_violet"}
                     }
                 ],
                 "cluster-size": 50,
@@ -121,7 +121,7 @@
                 "block": [
                     {
                         "name": "quark:crystal",
-                        "metadata": 8
+                        "properties": {"crystal_black"}
                     }
                 ],
                 "cluster-size": 50,
@@ -138,7 +138,7 @@
                 10
             ],
         "retrogen": "true"
-        }            
+        }           
         }
     }
 }

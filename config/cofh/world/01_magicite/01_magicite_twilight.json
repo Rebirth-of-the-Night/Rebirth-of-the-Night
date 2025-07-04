@@ -9,7 +9,7 @@
                     "block": 
                             {
                             "name": "quark:crystal",
-                            "metadata": 0
+                            "properties": {"crystal_white"}
                             },
                     "material": "minecraft:stone",
                     "cluster-size": 6           
@@ -32,10 +32,10 @@
                         "block": 
                                 {
                                 "name": "quark:crystal",
-                                "metadata": 1
+                                "properties": 1
                                 },
                         "material": "minecraft:stone",
-                        "cluster-size": 6           
+                        "cluster-size": {"crystal_indigo"}      
                 },
                 "cluster-count": 4,
                 "min-height": 0,
@@ -55,7 +55,7 @@
                         "block": 
                                 {
                                 "name": "quark:crystal",
-                                "metadata": 7
+                                "properties": {"crystal_violet"}
                                 },
                         "material": "minecraft:stone",
                         "cluster-size": 6           
@@ -78,7 +78,7 @@
                         "block": 
                                 {
                                 "name": "quark:crystal",
-                                "metadata": 5
+                                "properties": {"crystal_blue"}
                                 },
                         "material": "minecraft:stone",
                         "cluster-size": 6           
@@ -101,7 +101,7 @@
                         "block": 
                                 {
                                 "name": "quark:crystal",
-                                "metadata": 8
+                                "properties": {"crystal_black"}
                                 },
                         "material": "minecraft:stone",
                         "cluster-size": 6           

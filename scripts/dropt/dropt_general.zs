@@ -95,7 +95,7 @@ Dropt.list("codex_junk")
 Dropt.list("halolite")
 
   .add(Dropt.rule()
-      .matchBlocks(["primal:ore_salt:1"])
+      .matchBlocks(["contenttweaker:halolite"])
 	  .dropStrategy("UNIQUE")
       .addDrop(Dropt.drop()
 	      .force()

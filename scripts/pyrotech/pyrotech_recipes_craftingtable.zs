@@ -380,7 +380,7 @@ val sheepHideScraping as IItemStack[IIngredient] = {
 } as IItemStack[IIngredient];
 
 for i, entry in sheepHideScraping.entrySet {
-  recipes.addShapeless("hideScraping"~i, entry.value, [
+  recipes.addShapeless("sheepHideScraping"~i, entry.value, [
     entry.key.transformReplace(<pyrotech:hide_scraped>),
     <ore:smallKnife>.transformDamage()
   ]);

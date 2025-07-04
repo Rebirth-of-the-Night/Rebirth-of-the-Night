@@ -3,7 +3,7 @@
 		"pyrotech:anvil_granite": "brickstone",
 		"pyrotech:stone_tank": "brickstone,glass",
 		"pyrotech:brick_tank": "brickstone,glass",
-		"pyrotech:stone_bricks": "brickstone",
+		"contenttweaker:brick_pyrotech_masonry": "brickstone",
 		"pyrotech:refractory_brick_block": "brickstone",
 		"pyrotech:tar_drain": "brickstone",
 		"pyrotech:tar_drain[variant=stone]": "sandstone",

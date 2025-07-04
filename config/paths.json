@@ -45,7 +45,7 @@
 "minecraft:brick_block": [],
 "minecraft:end_bricks": [],
 "minecraft:red_nether_brick": [],
-"minecraft:prismarine:1": [],
+"minecraft:prismarine": [1],
 "betterwithaddons:whitebrick": [],
 "betternether:cincinnasite_bricks": [],
 "ceramics:clay_hard": [],
@@ -90,12 +90,12 @@
 "quark:magma_bricks": [],
 "quark:snow_bricks": [],
 "quark:polished_netherrack": [],
-"quark:elder_prismarine:1": [],
+"quark:elder_prismarine": [1],
 "randomthings:stainedbrick": [],
 "undergroundbiomes:igneous_brick": [],
 "undergroundbiomes:metamorphic_brick": [],
 
-"contenttweaker:cobblestone_path_coade": [],
+"contenttweaker:cobblestone_path_quartzite": [],
 "contenttweaker:cobblestone_path_red_granite": [],
 "inspirations:path": [],
 "contenttweaker:grass_paver": [],
@@ -198,7 +198,7 @@
 
 "futuremc:smooth_stone": [],
 
-"contenttweaker:dry_fitted_coade_stone": [],
+"contenttweaker:dry_fitted_conglomerate_stone": [],
 "contenttweaker:dry_fitted_mixed_stone": []
 }
 }
