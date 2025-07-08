@@ -3029,9 +3029,64 @@
 	"onjoin": true,
 	"result": "default",
 	"nbt": {"DeathLootTable": "rotn:bap_badger"}
-	}
+	},
 
 
-////// Seasonal Changes 
+///////Beast Slayer
+   {
+    "dimension": [-1, 0, 1, 4, 7, 10], 
+    "mob": "ancientbeasts:ghost",
+    "result": "deny"
+ },
+ {
+    "dimension": [-1, 0, 1, 4, 7, 10], 
+    "mob": "ancientbeasts:zealot",
+    "result": "deny"
+ },
+ {
+    "dimension": [-1, 0, 1, 4, 7, 10], 
+    "mob": "ancientbeasts:frostash_fox",
+    "result": "deny"
+ },
+ {
+    "dimension": [-1, 0, 1, 4, 7, 10], 
+    "mob": "ancientbeasts:frost_walker",
+    "result": "deny"
+ },
+ {
+    "dimension": [-1, 0, 1, 4, 7, 10], 
+    "mob": "ancientbeasts:giant_zombie",
+    "result": "deny"
+ },
+ {
+    "dimension": [-1, 0, 1, 4, 7, 10], 
+    "mob": "ancientbeasts:damcell",
+    "result": "deny"
+ },
+ {
+    "dimension": [-1, 0, 1, 4, 7, 10], 
+    "mob": "ancientbeasts:netherhound",
+    "result": "deny"
+ },
+ {
+    "dimension": [-1, 0, 1, 4, 7, 10], 
+    "mob": "ancientbeasts:owlstack",
+    "result": "deny"
+ },
+ {
+    "dimension": [-1, 0, 1, 4, 7, 10], 
+    "mob": "ancientbeasts:rifted_enderman",
+    "result": "deny"
+ },
+ {
+    "dimension": [-1, 0, 1, 4, 7, 10], 
+    "mob": "ancientbeasts:bonepile",
+    "result": "deny"
+ },
+ {
+    "dimension": [-1, 0, 1, 4, 7, 10], 
+    "mob": "ancientbeasts:rifted_enderman",
+    "result": "deny"
+ }
 
 ]
