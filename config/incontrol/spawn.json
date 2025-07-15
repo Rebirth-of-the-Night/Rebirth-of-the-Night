@@ -2247,7 +2247,7 @@
     "dimension": [0,10,1,-1],
     "mob": "specialmobs:blindingenderman",
     "gamestage": "killedEnderDragon",
-    "random": 0.225,
+    "random": 0.1,
     "maxlight": 7,
 
     "result": "allow",
@@ -2756,28 +2756,9 @@
     "dimension": 4,
     "mob": "specialmobs:joltblaze",
     "gamestage": "killedSunSpirit",
-    "random": 0.3,
+    "random": 0.15,
 	"maxlight": 7,
-
-	"seesky": true,
-    
-    "result": "allow"
- },
- {
-    "dimension": 4,
-    "mob": "specialmobs:joltblaze",
-    "result": "deny"
- },
-
- {
-    "dimension": 4,
-    "mob": "specialmobs:joltblaze",
-    "gamestage": "killedSunSpirit",
-    "random": 0.3,
-	"maxlight": 7,
-
-	"seesky": true,
-    
+	"seesky": true,  
     "result": "allow"
  },
  {
@@ -3046,20 +3027,71 @@
     "dimension": 0,
     "mob": "iceandfire:snowvillager",
     "result": "deny"
+ },///////Beast Slayer
+   {
+    "dimension": [-1, 0, 1, 4, 7, 10], 
+    "mob": "ancientbeasts:ghost",
+    "result": "deny"
+ },
+ {
+    "dimension": [-1, 0, 1, 4, 7, 10], 
+    "mob": "ancientbeasts:zealot",
+    "result": "deny"
+ },
+ {
+    "dimension": [-1, 0, 1, 4, 7, 10], 
+    "mob": "ancientbeasts:frostash_fox",
+    "result": "deny"
+ },
+ {
+    "dimension": [-1, 0, 1, 4, 7, 10], 
+    "mob": "ancientbeasts:frost_walker",
+    "result": "deny"
+ },
+ {
+    "dimension": [-1, 0, 1, 4, 7, 10], 
+    "mob": "ancientbeasts:giant_zombie",
+    "result": "deny"
+ },
+ {
+    "dimension": [-1, 0, 1, 4, 7, 10], 
+    "mob": "ancientbeasts:damcell",
+    "result": "deny"
+ },
+ {
+    "dimension": [-1, 0, 1, 4, 7, 10], 
+    "mob": "ancientbeasts:netherhound",
+    "result": "deny"
+ },
+ {
+    "dimension": [-1, 0, 1, 4, 7, 10], 
+    "mob": "ancientbeasts:owlstack",
+    "result": "deny"
+ },
+ {
+    "dimension": [-1, 0, 1, 4, 7, 10], 
+    "mob": "ancientbeasts:rifted_enderman",
+    "result": "deny"
+ },
+ {
+    "dimension": [-1, 0, 1, 4, 7, 10], 
+    "mob": "ancientbeasts:bonepile",
+    "result": "deny"
+ },
+ {
+    "dimension": [-1, 0, 1, 4, 7, 10], 
+    "mob": "ancientbeasts:rifted_enderman",
+    "result": "deny"
  },
 /////// Attach loot tables for use with loot tweaker here
 	//only make onjoin true when testing /summon or spawn eggs 
 	
 	//badger
-	{
+ {
 	"mob": "betteranimalsplus:badger",
 	"dimension": 0,
 	"onjoin": true,
 	"result": "default",
 	"nbt": {"DeathLootTable": "rotn:bap_badger"}
-	}
-
-
-////// Seasonal Changes 
-
+ }
 ]

@@ -44,6 +44,18 @@ JEI.removeAndHide(<quark:nether_brick_fence_gate>);
 JEI.removeAndHide(<quark:smoker>);
 JEI.removeAndHide(<quark:polished_stone>);
 
+JEI.removeAndHide(<quark:custom_chest:0>);
+JEI.removeAndHide(<quark:custom_chest:1>);
+JEI.removeAndHide(<quark:custom_chest:2>);
+JEI.removeAndHide(<quark:custom_chest:3>);
+JEI.removeAndHide(<quark:custom_chest:4>);
+
+JEI.removeAndHide(<quark:custom_chest_trap:0>);
+JEI.removeAndHide(<quark:custom_chest_trap:1>);
+JEI.removeAndHide(<quark:custom_chest_trap:2>);
+JEI.removeAndHide(<quark:custom_chest_trap:3>);
+JEI.removeAndHide(<quark:custom_chest_trap:4>);
+
 removeRecipeNameArray(
 	concatString([["quark:iron_"], ["button", "ladder", "plate_1"]]));
 

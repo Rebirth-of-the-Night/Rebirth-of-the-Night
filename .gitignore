@@ -130,3 +130,7 @@ config/relauncher.json
 config/cd4017be/compiled.dat
 /config/konkrete/locals
 llibrary/config.dat
+/relauncher
+/config/litematica
+/config/minihud
+/journeymap
