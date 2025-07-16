@@ -86,6 +86,9 @@ tile.mossy_holystone_slab.name=Mossy Holystone Slab
 tile.holystone_brick_slab.name=Holystone Brick Slab
 tile.aerogel_slab.name=Aerogel Slab
 
+tile.pillar.name=Angelic Pillar
+tile.pillar_top.name=Angelic Pillar Crown
+
 tile.enchanter.name=Aetherium Capacitor
 tile.altar.name=Aetherium Capacitor
 container.aether_legacy.enchanter=Aetherium Capacitor

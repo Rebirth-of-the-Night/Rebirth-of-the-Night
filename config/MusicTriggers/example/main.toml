@@ -3,6 +3,10 @@
 # for any specific questions you might have regarding the main config file
 
 [triggers]
+	[[triggers.dimension]]
+		identifier = "aether"
+		priority = "100"
+		resource_name = [ "4" ]
 	[triggers.menu]
 	[triggers.raining]
 
@@ -152,6 +156,29 @@
 		start_delay = "0"
 		fade_in = "20"
 [songs]
+	[songs.Aether10]
+		triggers = [ "dimension-aether" ]
+	[songs.Aether9]
+		triggers = [ "dimension-aether" ]
+	[songs.Aether7]
+		volume = "0.6"
+		triggers = [ "dimension-aether" ]
+	[songs.Aether6]
+		volume = "0.6"
+		triggers = [ "dimension-aether" ]
+	[songs.Aether5]
+		volume = "0.5"
+		triggers = [ "dimension-aether" ]
+	[songs.Aether4]
+		volume = "0.6"
+		triggers = [ "dimension-aether" ]
+	[songs.Aether3]
+		triggers = [ "dimension-aether" ]
+	[songs.Aether2]
+		volume = "0.6"
+		triggers = [ "dimension-aether" ]
+	[songs.Aether1]
+		triggers = [ "dimension-aether" ]
 	[songs.DuNock-Street]
 		triggers = [ "menu" ]
 

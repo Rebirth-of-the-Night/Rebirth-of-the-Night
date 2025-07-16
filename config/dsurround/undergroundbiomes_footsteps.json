@@ -1,6 +1,6 @@
 {
 	"footsteps": {
-		"undergroundbiomes:igneous_speleothem[type=basalt]": "obsidian",
+		"undergroundbiomes:igneous_speleothem[type=basalt]": "asmc:block.basalt.step",
 		"undergroundbiomes:metamorphic_speleothem[type=marble]": "marble",
 		"undergroundbiomes:sedimentary_speleothem[type=limestone]": "sandstone",
 		"undergroundbiomes:sedimentary_speleothem[type=chalk]": "sandstone",

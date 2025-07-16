@@ -58,7 +58,7 @@
     "unformed": {
       "renderer": {
         "state": {
-          "id": "betterwithmods:steel_axle",
+          "id": "betterwithmods:wooden_axle",
           "meta": 4
         },
         "type": "blockstate"
@@ -199,7 +199,7 @@
       "axle": {
         "blocks": [
           {
-            "id": "betterwithmods:steel_axle"
+            "id": "betterwithmods:wooden_axle"
           }
         ],
         "type": "blocks"

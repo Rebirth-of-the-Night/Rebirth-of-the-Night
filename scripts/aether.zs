@@ -32,6 +32,7 @@ JEI.removeAndHide(<aether_legacy:dungeon_trap:5>);
 JEI.removeAndHide(<aether_legacy:developer_stick>);
 JEI.removeAndHide(<aether_legacy:aether_portal>);
 JEI.removeAndHide(<aether_legacy:present>);
+JEI.removeAndHide(<aether_legacy:skyroot_chest>);
 
 JEI.removeAndHide(<aether_legacy:holystone_brick_double_slab>);
 JEI.removeAndHide(<aether_legacy:carved_double_slab>);

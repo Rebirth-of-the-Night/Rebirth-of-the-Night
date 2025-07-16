@@ -44,6 +44,18 @@ JEI.removeAndHide(<quark:nether_brick_fence_gate>);
 JEI.removeAndHide(<quark:smoker>);
 JEI.removeAndHide(<quark:polished_stone>);
 
+JEI.removeAndHide(<quark:custom_chest:0>);
+JEI.removeAndHide(<quark:custom_chest:1>);
+JEI.removeAndHide(<quark:custom_chest:2>);
+JEI.removeAndHide(<quark:custom_chest:3>);
+JEI.removeAndHide(<quark:custom_chest:4>);
+
+JEI.removeAndHide(<quark:custom_chest_trap:0>);
+JEI.removeAndHide(<quark:custom_chest_trap:1>);
+JEI.removeAndHide(<quark:custom_chest_trap:2>);
+JEI.removeAndHide(<quark:custom_chest_trap:3>);
+JEI.removeAndHide(<quark:custom_chest_trap:4>);
+
 removeRecipeNameArray(
 	concatString([["quark:iron_"], ["button", "ladder", "plate_1"]]));
 
@@ -71,20 +83,27 @@ recipes.addShaped("paper_wall",<quark:paper_wall>,[
 	[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]
 ]);
 
+recipes.remove(<quark:grate>);
+recipes.addShaped("generic_metal_grate",<quark:grate>,[
+	[<ore:genericMetalBars>,<ore:genericMetalBars>],
+	[<ore:genericMetalBars>,<ore:genericMetalBars>]
+]);
+
 //Immersive plating
-recipes.addShaped("steel_plate", <quark:iron_plate>*24,
- [[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],
-  [<ore:ingotSteel>,<minetraps:nails:*>,<ore:ingotSteel>],
-  [<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>]]);
+recipes.addShaped("steel_plate", <quark:iron_plate>*24,[
+	[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],
+	[<ore:ingotSteel>,<minetraps:nails:*>,<ore:ingotSteel>],
+	[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>]
+]);
 recipes.addShaped("iron_plate_2_0",<quark:iron_plate:1>*8,[
-   [<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>],
-    [<quark:iron_plate>,flimsywaterbucket,<quark:iron_plate>],
-    [<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>]
+	[<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>],
+	[<quark:iron_plate>,flimsywaterbucket,<quark:iron_plate>],
+	[<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>]
 ]);
 recipes.addShaped("iron_plate_2_1",<quark:iron_plate:1>*8,[
-   [<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>],
-    [<quark:iron_plate>,qualitybucket,<quark:iron_plate>],
-    [<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>]
+	[<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>],
+	[<quark:iron_plate>,qualitybucket,<quark:iron_plate>],
+	[<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>]
 ]);
 recipes.addShaped("iron_plate", <contenttweaker:iron_plate>*24, [
 	[<minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],

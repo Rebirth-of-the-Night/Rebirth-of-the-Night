@@ -64,14 +64,6 @@ recipes.addShapedMirrored("black_tapestry", <contenttweaker:tapestry_black>*4, [
 ]);
 
 // Other CoT
-recipes.addShaped("star_block", <contenttweaker:star_block>, [
-    [<nyx:fallen_star>, <nyx:fallen_star>, <nyx:fallen_star>],
-	[<nyx:fallen_star>, <nyx:fallen_star>, <nyx:fallen_star>],
-    [<nyx:fallen_star>, <nyx:fallen_star>, <nyx:fallen_star>]
-]);
-recipes.addShapeless("star_block_to_star", <nyx:fallen_star>*9,
-   	[<contenttweaker:star_block>]);
-
 recipes.addShaped("emblem-stone_red", <contenttweaker:emblem_stone_red>*8, [ 
     [<minecraft:concrete:14>, <minecraft:concrete:14>, <minecraft:concrete:14>],
 	[<minecraft:concrete:14>, <minecraft:gold_nugget>, <minecraft:concrete:14>],
@@ -107,13 +99,6 @@ recipes.addShaped("water_well", <well:well>,[
     [<contenttweaker:masonry_brick>, <betterwithmods:bucket>, <contenttweaker:masonry_brick>],
     [<contenttweaker:masonry_brick>, <betterwithmods:screw_pump>, <contenttweaker:masonry_brick>]
 ]);
-
-// Bundle pouch
-recipes.remove(<bundles:bundle>);
-recipes.addShaped("bundle_pouch", <bundles:bundle>,
-    [[null,durable_fiber,null],
-    [leather_sheets,durable_fabric,leather_sheets],
-    [null,leather_sheets,null]]);
 
 // assorted hiding
 

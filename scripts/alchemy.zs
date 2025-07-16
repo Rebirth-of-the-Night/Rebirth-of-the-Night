@@ -73,6 +73,7 @@ var vis = <contenttweaker:vis_shard>;
 var allium = <minecraft:red_flower:2>;
 var firetears = <twilightforest:fiery_tears>;
 var firedcin = <contenttweaker:flashfired_cincinnasite>;
+var rabbitfoot = <minecraft:rabbit_foot>;
 
 //Define liquids
 var hotspring = <liquid:hot_spring_water>;
@@ -86,6 +87,15 @@ var bioflow = <liquid:concentrated_bioflow>;
 var gravitite = <liquid:gravitite>; 
 var slag = <liquid:ender_slag>;
 
+// Stack sizes
+var potions = <minecraft:potion>;
+var potions_splash = <minecraft:splash_potion>;
+var potions_lingering = <minecraft:lingering_potion>;
+
+potions.maxStackSize = 8;
+potions_splash.maxStackSize = 8;
+potions_lingering.maxStackSize = 8;
+<rustic:elixir>.maxStackSize = 8;
 
 //Change condenser recipes
 recipes.remove(<rustic:condenser>);
@@ -222,7 +232,7 @@ val fireresElixirAether = <rustic:elixir>.withTag({display:{LocName:"Empowered F
 
 val speedElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Speed Elixir"},ElixirEffects:[{Effect: "minecraft:speed", Duration: 18000, Amplifier: 1},{Effect: "elenaidodge2:forceful", Duration: 9600, Amplifier: 1}]});
 val magnetismElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Geomancy Elixir"},ElixirEffects:[{Effect: "extraalchemy:effect.magnetism", Duration: 18000, Amplifier: 1},{Effect: "rustic:ironskin", Duration: 18000, Amplifier: 1},{Effect: "potioncore:solid_core", Duration: 18000, Amplifier: 0}]});
-val luckElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Lucky Elixir"},ElixirEffects:[{Effect: "minecraft:luck", Duration: 36000, Amplifier: 2},{Effect: "wards:effect_fortune", Duration: 6000, Amplifier: 3}]});
+val luckElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Lucky Elixir"},ElixirEffects:[{Effect: "minecraft:luck", Duration: 36000, Amplifier: 2},{Effect: "wards:effect_fortune", Duration: 6000, Amplifier: 2}]});
 val featherElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Featherlight Elixir"},ElixirEffects:[{Effect: "rustic:feather", Duration: 18000, Amplifier: 0}]});
 val healthboostElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Health Boost Elixir"},ElixirEffects:[{Effect: "minecraft:health_boost", Duration: 14400, Amplifier: 3}]});
 val strengthElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Strength Elixir"},ElixirEffects:[{Effect: "minecraft:strength", Duration: 12000, Amplifier: 2}]});
@@ -283,7 +293,7 @@ Condenser.addRecipe(fireresElixirAether, [aloe, blazepowder], null, bottle, drea
 /////CRAFTABLE POST-BENEATH\\\\\
 Condenser.addRecipe(speedElixirBeneath, [cocaine, fasthaw, virdust], null, bottle, lunarwater * 250);
 Condenser.addRecipe(magnetismElixirBeneath, [metdust, steeldust, mooncap], zanitegem, bottle, arcmythril * 500);
-Condenser.addRecipe(luckElixirBeneath, [paralex, nethercoin, fourclover], null, bottle, lunarwater * 250);
+Condenser.addRecipe(luckElixirBeneath, [paralex, rabbitfoot, fourclover], null, bottle, lunarwater * 250);
 Condenser.addRecipe(featherElixirBeneath, [cloudsbluff, cloudgold], zanitegem, bottle, lunarwater * 250);
 Condenser.addRecipe(healthboostElixirBeneath, [bloodorchid, flesh, plaguehide], null, bottle, bioflow * 250);
 Condenser.addRecipe(strengthElixirBeneath, [core, spirits, voidflame], null, bottle, lunarwater * 250);

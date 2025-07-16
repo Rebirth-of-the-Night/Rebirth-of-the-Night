@@ -13,22 +13,19 @@ JEI.removeAndHide(<biomesoplenty:biome_finder>);
 JEI.removeAndHide(<biomesoplenty:gem:7>);
 JEI.removeAndHide(<biomesoplenty:gem_ore:7>);
 JEI.removeAndHide(<biomesoplenty:gem_block:7>);
-JEI.removeAndHide(<biomesoplenty:gem_ore:7>);
 
 JEI.removeAndHide(<biomesoplenty:gem:3>);
 JEI.removeAndHide(<biomesoplenty:gem_ore:3>);
 JEI.removeAndHide(<biomesoplenty:gem_block:3>);
-JEI.removeAndHide(<biomesoplenty:gem_ore:3>);
 
 JEI.removeAndHide(<biomesoplenty:gem:4>);
 JEI.removeAndHide(<biomesoplenty:gem_ore:4>);
 JEI.removeAndHide(<biomesoplenty:gem_block:4>);
-JEI.removeAndHide(<biomesoplenty:gem_ore:4>);
 
-JEI.removeAndHide(<biomesoplenty:gem:5>);
-JEI.removeAndHide(<biomesoplenty:gem_ore:5>);
-JEI.removeAndHide(<biomesoplenty:gem_block:5>);
-JEI.removeAndHide(<biomesoplenty:gem_ore:5>);
+JEI.removeAndHide(<biomesoplenty:gem:0>);
+JEI.removeAndHide(<biomesoplenty:gem_ore:0>);
+
+JEI.removeAndHide(<biomesoplenty:gem_ore:5>); // Benelyte
 
 JEI.removeAndHide(<biomesoplenty:honey_block>);
 JEI.removeAndHide(<biomesoplenty:honeycomb>);
@@ -85,7 +82,19 @@ recipes.addShaped("exorite_to_block", <biomesoplenty:gem_block:0>, [
 recipes.removeByRecipeName("biomesoplenty:amethyst");
 recipes.addShapeless("block_to_exorite",<rotn_blocks:exorite_crystal>*9,[<biomesoplenty:gem_block:0>]);
 
+recipes.remove(<biomesoplenty:gem_block:5>);
+recipes.addShaped("benelyte_to_block", <biomesoplenty:gem_block:5>, [
+    [<biomesoplenty:gem:5>,<biomesoplenty:gem:5>,<biomesoplenty:gem:5>],
+    [<biomesoplenty:gem:5>,<biomesoplenty:gem:5>,<biomesoplenty:gem:5>],
+    [<biomesoplenty:gem:5>,<biomesoplenty:gem:5>,<biomesoplenty:gem:5>]
+]);
+
+recipes.removeByRecipeName("biomesoplenty:malachite");
+recipes.addShapeless("block_to_benelyte",<biomesoplenty:gem:5>*9,[<biomesoplenty:gem_block:5>]);
+
 recipes.addShapeless("unfired_mud_bricks",<contenttweaker:unfired_mud_brick>,[<biomesoplenty:mudball>]);
+
+recipes.addShapeless("mud_brick_revert",<biomesoplenty:mudball>,[<contenttweaker:unfired_mud_brick>]);
 
 furnace.addRecipe(<minecraft:clay_ball>, <biomesoplenty:mud_brick>, 0.3);
 
@@ -101,12 +110,6 @@ recipes.addShaped("white_sand",<biomesoplenty:white_sand>*8,[
     [<ore:sand>,<ore:sand>,<ore:sand>]
 ]);
 
-recipes.removeByRecipeName("biomesoplenty:mud_bricks_stairs");
-recipes.addShapedMirrored("mud_brick_stairs",<biomesoplenty:mud_brick_stairs:0>*8,[
-    [<biomesoplenty:mud_brick_block:0>,null,null],
-    [<biomesoplenty:mud_brick_block:0>,<biomesoplenty:mud_brick_block:0>,null],
-    [<biomesoplenty:mud_brick_block:0>,<biomesoplenty:mud_brick_block:0>,<biomesoplenty:mud_brick_block:0>]
-]);
 recipes.addShapeless("mud_bricks_from_stairs",<biomesoplenty:mud_brick_block:0>*3,[<biomesoplenty:mud_brick_stairs:0>,<biomesoplenty:mud_brick_stairs:0>,<biomesoplenty:mud_brick_stairs:0>,<biomesoplenty:mud_brick_stairs:0>]);
 
 recipes.removeByRecipeName("biomesoplenty:white_sandstone_stairs");
@@ -151,3 +154,12 @@ recipes.addShaped("blue_giant_petal", <contenttweaker:petal_blue_big_flower>, [
     [<contenttweaker:giant_blue_flower_petal>,<contenttweaker:giant_blue_flower_petal>],
     [<contenttweaker:giant_blue_flower_petal>,<contenttweaker:giant_blue_flower_petal>]
 ]);
+
+//amethyst
+furnace.remove(<biomesoplenty:gem:0>);
+furnace.remove(<biomesoplenty:gem:0>*2);
+furnace.remove(<biomesoplenty:gem:5>); //Benelyte
+furnace.addRecipe(<rotn_blocks:exorite_crystal>, <osv:biomesoplenty_amethyst_ore_end_stone>, 1);
+furnace.addRecipe(<rotn_blocks:exorite_crystal>, <osv:biomesoplenty_amethyst_ore_obsidian>, 1);
+furnace.addRecipe(<rotn_blocks:exorite_crystal>*2, <osv:biomesoplenty_amethyst_ore_end_stone:1>, 1);
+furnace.addRecipe(<rotn_blocks:exorite_crystal>*2, <osv:biomesoplenty_amethyst_ore_obsidian:1>, 1);

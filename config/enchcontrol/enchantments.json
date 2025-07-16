@@ -1,5 +1,32 @@
 [
   {
+    "id": "bettercombat:sorcery",
+    "name": "enchantment.sorcery",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "UNCOMMON",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 5,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "ARMOR_HEAD",
+    "equipment_slots": [
+      "HEAD"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": ["Increases magic damage by 10 percent, per level. Does not stack with Arcane Conversion or Aetheralized."]
+  },
+  {
     "id": "minecraft:looting",
     "name": "enchantment.lootBonus",
     "enabled": true,
@@ -24,19 +51,19 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Increases amount of loot and the drop chance of rarer loot."]
   },
   {
     "id": "randomenchantments:shattering",
     "name": "enchantment.shattering",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
     "treasure": false,
     "double_price": false,
     "curse": false,
-    "allowed_on_books": true,
+    "allowed_on_books": false,
     "min_lvl": 1,
     "max_lvl": 1,
     "custom_evaluations": false,
@@ -51,17 +78,17 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Arrows break glass."]
   },
   {
-    "id": "dungeontactics:smelting",
-    "name": "enchantment.dungeontactics:smelting",
+    "id": "randomenchantments:piercing",
+    "name": "enchantment.piercing",
     "enabled": true,
     "hide_on_item": false,
     "hide_on_book": false,
-    "rarity": "UNCOMMON",
-    "treasure": false,
-    "double_price": false,
+    "rarity": "VERY_RARE",
+    "treasure": true,
+    "double_price": true,
     "curse": false,
     "allowed_on_books": true,
     "min_lvl": 1,
@@ -69,19 +96,18 @@
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "DIGGER",
+    "type": "BOW",
     "equipment_slots": [
-      "MAINHAND",
-      "OFFHAND"
+      "MAINHAND"
     ],
     "incompat_mode": 0,
     "incompatible": [
-      "minecraft:fortune"
+      "randomenchantments:ricochet"
     ],
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Arrows can pierce through several mobs."]
   },
   {
     "id": "charm:rusting_curse",
@@ -108,34 +134,35 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Item degrades faster."]
   },
   {
-    "id": "randomenchantments:piercing",
-    "name": "enchantment.piercing",
-    "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
-    "rarity": "VERY_RARE",
+    "id": "spartanweaponry:sharpshooter",
+    "name": "enchantment.spartanweaponry:sharpshooter",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "RARE",
     "treasure": false,
     "double_price": false,
     "curse": false,
-    "allowed_on_books": false,
+    "allowed_on_books": true,
     "min_lvl": 1,
-    "max_lvl": 1,
+    "max_lvl": 3,
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "BOW",
+    "type": "sw_crossbow",
     "equipment_slots": [
-      "MAINHAND"
+      "MAINHAND",
+      "OFFHAND"
     ],
     "incompat_mode": 0,
     "incompatible": [],
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Reduces time to aim crossbows by 0.1 seconds per level."]
   },
   {
     "id": "minecraft:flame",
@@ -162,7 +189,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Shoots fire arrows."]
   },
   {
     "id": "minecraft:aqua_affinity",
@@ -182,22 +209,19 @@
     "max_ench_eval": "MIN+5",
     "type": "ARMOR_HEAD",
     "equipment_slots": [
-      "HEAD",
-      "CHEST",
-      "LEGS",
-      "FEET"
+      "HEAD"
     ],
     "incompat_mode": 0,
     "incompatible": [],
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Increases underwater mining speed."]
   },
   {
     "id": "dungeontactics:freezing",
     "name": "enchantment.dungeontactics:freezing",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "UNCOMMON",
@@ -220,15 +244,15 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Apply Slowness and Frostburn to all targets in range."]
   },
   {
     "id": "randomenchantments:hooked",
     "name": "enchantment.hooked",
-    "enabled": false,
+    "enabled": true,
     "hide_on_item": false,
     "hide_on_book": false,
-    "rarity": "RARE",
+    "rarity": "VERY_RARE",
     "treasure": false,
     "double_price": false,
     "curse": false,
@@ -247,14 +271,14 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Turns the fishing rod into a grappling hook."]
   },
   {
     "id": "randomenchantments:solar",
     "name": "enchantment.solar",
-    "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "VERY_RARE",
     "treasure": false,
     "double_price": false,
@@ -279,7 +303,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Item is slowly repaired while outside, blessed by the energy of the sun."]
   },
   {
     "id": "endreborn:ender_killer",
@@ -306,7 +330,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["The secret of the farlanders to dealing more damage to their own kin."]
   },
   {
     "id": "randomenchantments:ricochet",
@@ -329,16 +353,76 @@
       "MAINHAND"
     ],
     "incompat_mode": 0,
+    "incompatible": [
+      "randomenchantments:piercing"
+    ],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": ["Arrows bounce off walls and floors."]
+  },
+  {
+    "id": "defiledlands:destructive",
+    "name": "enchantment.destructive",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "COMMON",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 5,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "DESTRUCTIVE",
+    "equipment_slots": [
+      "MAINHAND"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 1,
+    "items_list": [
+      "defiledlands:umbra_blaster",
+      "defiledlands:concussion_smasher"
+    ],
+    "description": ["Explosions caused by Umbra Blaster or Concussion Smasher become much stronger."]
+  },
+  {
+    "id": "spartanweaponry:propulsion",
+    "name": "enchantment.spartanweaponry:propulsion",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "RARE",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 3,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "sw_throwing_weapon",
+    "equipment_slots": [
+      "MAINHAND",
+      "OFFHAND"
+    ],
+    "incompat_mode": 0,
     "incompatible": [],
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Increases throwing speed and range."]
   },
   {
     "id": "dungeontactics:companion",
     "name": "enchantment.dungeontactics:companion",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "VERY_RARE",
@@ -361,19 +445,19 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Summon forth the lost soul of a dog to fight for you."]
   },
   {
     "id": "dungeontactics:trinket_strength",
     "name": "enchantment.dungeontactics:trinket_strength",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "UNCOMMON",
     "treasure": false,
     "double_price": false,
     "curse": false,
-    "allowed_on_books": true,
+    "allowed_on_books": false,
     "min_lvl": 1,
     "max_lvl": 2,
     "custom_evaluations": false,
@@ -388,7 +472,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "endreborn:ender_core",
@@ -400,7 +484,7 @@
     "treasure": false,
     "double_price": false,
     "curse": false,
-    "allowed_on_books": false,
+    "allowed_on_books": true,
     "min_lvl": 1,
     "max_lvl": 1,
     "custom_evaluations": false,
@@ -415,14 +499,14 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["On being hit, teleport nearby."]
   },
   {
     "id": "randomenchantments:floating",
     "name": "enchantment.floating",
-    "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "VERY_RARE",
     "treasure": false,
     "double_price": false,
@@ -442,11 +526,11 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Inflicts levitation on target for 10 seconds."]
   },
   {
     "id": "mod_lavacow:poisonous",
-    "name": "enchantment.mod_lavacow.Poisonous",
+    "name": "enchantment.mod_lavacow.poisonous",
     "enabled": true,
     "hide_on_item": false,
     "hide_on_book": false,
@@ -454,7 +538,7 @@
     "treasure": false,
     "double_price": false,
     "curse": false,
-    "allowed_on_books": true,
+    "allowed_on_books": false,
     "min_lvl": 1,
     "max_lvl": 3,
     "custom_evaluations": false,
@@ -470,12 +554,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Inflicts target with the equivalent level of Poison for 8 seconds."]
   },
   {
     "id": "dungeontactics:trinket_invisibility",
     "name": "enchantment.dungeontactics:trinket_invisibility",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
@@ -497,12 +581,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "dungeontactics:pinmissile",
     "name": "enchantment.dungeontactics:pinmissile",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
@@ -525,7 +609,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Materializes and shoots 18 arrows in a circle around conjurer."]
   },
   {
     "id": "charm:curse_break",
@@ -552,12 +636,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Renders curses on items inert when applied."]
   },
   {
     "id": "dungeontactics:poison_fade",
     "name": "enchantment.dungeontactics:poison_fade",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "COMMON",
@@ -580,7 +664,35 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["This is only worth turning into enchanted paper..."]
+  },
+  {
+    "id": "spartanweaponry:incendiary",
+    "name": "enchantment.spartanweaponry:incendiary",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "RARE",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 1,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "sw_throwing_weapon",
+    "equipment_slots": [
+      "MAINHAND",
+      "OFFHAND"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": ["Throwing weapons set enemies on fire."]
   },
   {
     "id": "randomenchantments:momentum",
@@ -603,11 +715,13 @@
       "MAINHAND"
     ],
     "incompat_mode": 0,
-    "incompatible": [],
+    "incompatible": [
+      "minecraft:efficiency"
+    ],
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Mining speed increases for every consecutive mined block."]
   },
   {
     "id": "minecraft:protection",
@@ -637,7 +751,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Increases damage reduction."]
   },
   {
     "id": "minecraft:mending",
@@ -645,7 +759,7 @@
     "enabled": true,
     "hide_on_item": false,
     "hide_on_book": false,
-    "rarity": "RARE",
+    "rarity": "VERY_RARE",
     "treasure": true,
     "double_price": true,
     "curse": false,
@@ -653,8 +767,8 @@
     "min_lvl": 1,
     "max_lvl": 1,
     "custom_evaluations": false,
-    "min_ench_eval": "1+LVL*10",
-    "max_ench_eval": "MIN+5",
+    "min_ench_eval": "LVL*25",
+    "max_ench_eval": "MIN+50",
     "type": "BREAKABLE",
     "equipment_slots": [
       "MAINHAND",
@@ -668,18 +782,16 @@
     "incompatible": [],
     "applicability_mode": 0,
     "items_list_mode": 0,
-    "items_list": [
-      "minecraft:elytra"
-    ],
-    "description": []
+    "items_list": [],
+    "description": ["The unholy power of restoring matter to a previous state."]
   },
   {
     "id": "dungeontactics:debilitating",
     "name": "enchantment.dungeontactics:debilitating",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
-    "rarity": "UNCOMMON",
+    "rarity": "VERY_RARE",
     "treasure": false,
     "double_price": false,
     "curse": false,
@@ -697,9 +809,11 @@
     "incompat_mode": 0,
     "incompatible": [],
     "applicability_mode": 0,
-    "items_list_mode": 0,
-    "items_list": [],
-    "description": []
+    "items_list_mode": 1,
+    "items_list": [
+      "dungeontactics:potshot"
+    ],
+    "description": ["Potshot projecticles inflict Slowness V and Wither for five seconds"]
   },
   {
     "id": "minecraft:smite",
@@ -723,13 +837,12 @@
     ],
     "incompat_mode": 0,
     "incompatible": [
-		"endreborn:ender_killer",
-		"dungeontactics:runed"
+		"endreborn:ender_killer"
 	],
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Bring forth the blessing of the Holy Flame upon all who live in death [Deals more damage to undead]."]
   },
   {
     "id": "minecraft:fire_aspect",
@@ -756,12 +869,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Channel the spirits of fire to set enemies ablaze."]
   },
   {
     "id": "msmlegacy:descension",
     "name": "enchantment.msmlegacy.descension",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
@@ -783,7 +896,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Hold shift to slow your descent while falling."]
   },
   {
     "id": "minecraft:knockback",
@@ -810,12 +923,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Increases how far back hit enemies are sent."]
   },
   {
     "id": "dungeontactics:uncover",
     "name": "enchantment.dungeontactics:uncover",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "UNCOMMON",
@@ -838,7 +951,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Removes the physical armor of all targets within the area."]
   },
   {
     "id": "minecraft:depth_strider",
@@ -868,14 +981,14 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Removes the friction with water by 33 percent per level."]
   },
   {
     "id": "randomenchantments:equal_mine",
     "name": "enchantment.equal_mine",
     "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "VERY_RARE",
     "treasure": false,
     "double_price": false,
@@ -895,41 +1008,14 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
-  },
-  {
-    "id": "randomenchantments:eternal",
-    "name": "enchantment.eternal",
-    "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
-    "rarity": "VERY_RARE",
-    "treasure": false,
-    "double_price": false,
-    "curse": false,
-    "allowed_on_books": false,
-    "min_lvl": 1,
-    "max_lvl": 1,
-    "custom_evaluations": false,
-    "min_ench_eval": "1+LVL*10",
-    "max_ench_eval": "MIN+5",
-    "type": "WEAPON",
-    "equipment_slots": [
-      "MAINHAND"
-    ],
-    "incompat_mode": 0,
-    "incompatible": [],
-    "applicability_mode": 0,
-    "items_list_mode": 0,
-    "items_list": [],
-    "description": []
+    "description": ["All blocks become equally fast to mine."]
   },
   {
     "id": "randomenchantments:lumberjack",
     "name": "enchantment.lumberjack",
     "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "VERY_RARE",
     "treasure": false,
     "double_price": false,
@@ -949,12 +1035,39 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Chops connected logs."]
+  },
+  {
+    "id": "randomenchantments:eternal",
+    "name": "enchantment.eternal",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "VERY_RARE",
+    "treasure": true,
+    "double_price": true,
+    "curse": false,
+    "allowed_on_books": false,
+    "min_lvl": 1,
+    "max_lvl": 1,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "WEAPON",
+    "equipment_slots": [
+      "MAINHAND"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": ["Stagnation makes this item unable to despawn through the lapse of time."]
   },
   {
     "id": "msmlegacy:scorn",
     "name": "enchantment.msmlegacy.scorn",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
@@ -972,16 +1085,18 @@
       "MAINHAND"
     ],
     "incompat_mode": 0,
-    "incompatible": [],
+    "incompatible": [
+      "minecraft:smite"
+    ],
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Bound by reality, greatly increases attack in any dimension that is not the Overworld."]
   },
   {
     "id": "charm:harming_curse",
     "name": "charm.enchantment.harming_curse",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "COMMON",
@@ -1003,12 +1118,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Using this item has a chance to hurt you."]
   },
   {
     "id": "dungeontactics:poison_cinder",
     "name": "enchantment.dungeontactics:poison_cinder",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "COMMON",
@@ -1031,12 +1146,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "msmlegacy:frozen_aspect",
     "name": "enchantment.msmlegacy.frozen_aspect",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "COMMON",
@@ -1058,12 +1173,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Attacks deal additional frost damage and have a chance to slow the target."]
   },
   {
     "id": "msmlegacy:ignite",
     "name": "enchantment.msmlegacy.ignite",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "COMMON",
@@ -1085,12 +1200,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Attacks do additional fire damage and will set mobs on fire for a short time."]
   },
   {
     "id": "msmlegacy:ender_aura",
     "name": "enchantment.msmlegacy.ender_aura",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "VERY_RARE",
@@ -1112,7 +1227,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Chance to teleport to a random mob when attacking."]
   },
   {
     "id": "dungeontactics:explosive",
@@ -1124,7 +1239,7 @@
     "treasure": false,
     "double_price": false,
     "curse": false,
-    "allowed_on_books": false,
+    "allowed_on_books": true,
     "min_lvl": 1,
     "max_lvl": 2,
     "custom_evaluations": false,
@@ -1140,12 +1255,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Arrow impact causes explosions."]
   },
   {
     "id": "dungeontactics:trinket_haste",
     "name": "enchantment.dungeontactics:trinket_haste",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "COMMON",
@@ -1167,7 +1282,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "randomenchantments:back_to_the_chamber",
@@ -1194,12 +1309,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "dungeontactics:poison_bark",
     "name": "enchantment.dungeontactics:poison_bark",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "COMMON",
@@ -1222,19 +1337,19 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "randomenchantments:shadow",
     "name": "enchantment.shadow",
     "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "COMMON",
-    "treasure": true,
-    "double_price": true,
+    "treasure": false,
+    "double_price": false,
     "curse": true,
-    "allowed_on_books": false,
+    "allowed_on_books": true,
     "min_lvl": 1,
     "max_lvl": 1,
     "custom_evaluations": false,
@@ -1254,94 +1369,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Weakens equipment when under the light of the sun."]
   },
   {
-    "id": "msmlegacy:absorb",
-    "name": "enchantment.msmlegacy.absorb",
+    "id": "spartanweaponry:expanse",
+    "name": "enchantment.spartanweaponry:expanse",
     "enabled": true,
-    "hide_on_item": false,
-    "hide_on_book": false,
-    "rarity": "RARE",
-    "treasure": false,
-    "double_price": false,
-    "curse": false,
-    "allowed_on_books": true,
-    "min_lvl": 1,
-    "max_lvl": 1,
-    "custom_evaluations": false,
-    "min_ench_eval": "1+LVL*10",
-    "max_ench_eval": "MIN+5",
-    "type": "MSM_LEGACY_ABSORB",
-    "equipment_slots": [
-      "MAINHAND"
-    ],
-    "incompat_mode": 0,
-    "incompatible": [],
-    "applicability_mode": 0,
-    "items_list_mode": 0,
-    "items_list": [],
-    "description": []
-  },
-  {
-    "id": "msmlegacy:decay",
-    "name": "enchantment.msmlegacy.decay",
-    "enabled": true,
-    "hide_on_item": false,
-    "hide_on_book": false,
-    "rarity": "COMMON",
-    "treasure": false,
-    "double_price": false,
-    "curse": false,
-    "allowed_on_books": true,
-    "min_lvl": 1,
-    "max_lvl": 1,
-    "custom_evaluations": false,
-    "min_ench_eval": "1+LVL*10",
-    "max_ench_eval": "MIN+5",
-    "type": "MSM_LEGACY_DECAY",
-    "equipment_slots": [
-      "MAINHAND"
-    ],
-    "incompat_mode": 0,
-    "incompatible": [],
-    "applicability_mode": 0,
-    "items_list_mode": 0,
-    "items_list": [],
-    "description": []
-  },
-  {
-    "id": "spartanweaponry:throwing_fire",
-    "name": "enchantment.spartanweaponry:throwing_fire",
-    "enabled": true,
-    "hide_on_item": false,
-    "hide_on_book": false,
-    "rarity": "RARE",
-    "treasure": false,
-    "double_price": false,
-    "curse": false,
-    "allowed_on_books": true,
-    "min_lvl": 1,
-    "max_lvl": 1,
-    "custom_evaluations": false,
-    "min_ench_eval": "1+LVL*10",
-    "max_ench_eval": "MIN+5",
-    "type": "sw_throwing_weapon",
-    "equipment_slots": [
-      "MAINHAND",
-      "OFFHAND"
-    ],
-    "incompat_mode": 0,
-    "incompatible": [],
-    "applicability_mode": 0,
-    "items_list_mode": 0,
-    "items_list": [],
-    "description": []
-  },
-  {
-    "id": "spartanweaponry:supercharge",
-    "name": "enchantment.spartanweaponry:supercharge",
-    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
@@ -1364,11 +1397,11 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Increases maximum ammo capacity for throwing weapons by 25 percent or one ammo per level, whichever is greater."]
   },
   {
-    "id": "spartanweaponry:propulsion",
-    "name": "enchantment.spartanweaponry:propulsion",
+    "id": "corpsecomplex:soulbound",
+    "name": "enchantment.corpsecomplex.soulbound",
     "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
@@ -1378,21 +1411,79 @@
     "curse": false,
     "allowed_on_books": true,
     "min_lvl": 1,
-    "max_lvl": 1,
+    "max_lvl": 4,
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "sw_throwing_weapon",
+    "type": "ALL",
     "equipment_slots": [
       "MAINHAND",
-      "OFFHAND"
+      "OFFHAND",
+      "FEET",
+      "LEGS",
+      "CHEST",
+      "HEAD"
     ],
     "incompat_mode": 0,
     "incompatible": [],
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Item will persist in inventory after death."]
+  },
+  {
+    "id": "msmlegacy:absorb",
+    "name": "enchantment.msmlegacy.absorb",
+    "enabled": false,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "RARE",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 2,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "MSM_LEGACY_ABSORB",
+    "equipment_slots": [
+      "MAINHAND"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": ["Attacks have a chance to replenish your hunger and saturation."]
+  },
+  {
+    "id": "msmlegacy:decay",
+    "name": "enchantment.msmlegacy.decay",
+    "enabled": false,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "COMMON",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 1,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "MSM_LEGACY_DECAY",
+    "equipment_slots": [
+      "MAINHAND"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": ["Attacks have a chance to apply the hunger and wither effect to the target."]
   },
   {
     "id": "randomenchantments:reflect",
@@ -1404,7 +1495,7 @@
     "treasure": false,
     "double_price": false,
     "curse": false,
-    "allowed_on_books": true,
+    "allowed_on_books": false,
     "min_lvl": 1,
     "max_lvl": 1,
     "custom_evaluations": false,
@@ -1420,12 +1511,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Arrows that get blocked by the shield will redirect to the entity with double the power."]
   },
   {
     "id": "dungeontactics:poison_tangle",
     "name": "enchantment.dungeontactics:poison_tangle",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "COMMON",
@@ -1448,12 +1539,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "dungeontactics:disarm",
     "name": "enchantment.dungeontactics:disarm",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "UNCOMMON",
@@ -1476,19 +1567,19 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Removes the main hand item of all targets within the area."]
   },
   {
     "id": "msmlegacy:feast",
     "name": "enchantment.msmlegacy.feast",
     "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "VERY_RARE",
     "treasure": false,
     "double_price": false,
     "curse": false,
-    "allowed_on_books": false,
+    "allowed_on_books": true,
     "min_lvl": 1,
     "max_lvl": 3,
     "custom_evaluations": false,
@@ -1503,35 +1594,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
-  },
-  {
-    "id": "spartanweaponry:throwing_range",
-    "name": "enchantment.spartanweaponry:throwing_range",
-    "enabled": true,
-    "hide_on_item": false,
-    "hide_on_book": false,
-    "rarity": "UNCOMMON",
-    "treasure": false,
-    "double_price": false,
-    "curse": false,
-    "allowed_on_books": true,
-    "min_lvl": 1,
-    "max_lvl": 3,
-    "custom_evaluations": false,
-    "min_ench_eval": "1+LVL*10",
-    "max_ench_eval": "MIN+5",
-    "type": "sw_throwing_weapon",
-    "equipment_slots": [
-      "MAINHAND",
-      "OFFHAND"
-    ],
-    "incompat_mode": 0,
-    "incompatible": [],
-    "applicability_mode": 0,
-    "items_list_mode": 0,
-    "items_list": [],
-    "description": []
+    "description": ["Attacks have a chance to restore some of the weapons durability."]
   },
   {
     "id": "charm:haunting_curse",
@@ -1558,7 +1621,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Monsters will sometimes appear near the player."]
   },
   {
     "id": "minecraft:power",
@@ -1581,23 +1644,25 @@
       "MAINHAND"
     ],
     "incompat_mode": 0,
-    "incompatible": [],
+    "incompatible": [
+      "randomenchantments:piercing"
+    ],
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Increases arrow damage."]
   },
   {
     "id": "randomenchantments:fumbling",
     "name": "enchantment.fumbling",
     "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "COMMON",
-    "treasure": true,
-    "double_price": true,
+    "treasure": false,
+    "double_price": false,
     "curse": true,
-    "allowed_on_books": false,
+    "allowed_on_books": true,
     "min_lvl": 1,
     "max_lvl": 1,
     "custom_evaluations": false,
@@ -1612,7 +1677,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Tool doesn't mine as quickly as it should."]
   },
   {
     "id": "randomenchantments:breaking",
@@ -1621,8 +1686,8 @@
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "COMMON",
-    "treasure": true,
-    "double_price": true,
+    "treasure": false,
+    "double_price": false,
     "curse": true,
     "allowed_on_books": true,
     "min_lvl": 1,
@@ -1639,14 +1704,41 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Tool breaks faster."]
+  },
+  {
+    "id": "trident:channeling",
+    "name": "enchantment.minecraft.channeling",
+    "enabled": false,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "VERY_RARE",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 1,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "TRIDENT",
+    "equipment_slots": [
+      "MAINHAND"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": ["Calls upon lightning when thrown at a mob while a thunderstorm is occurring."]
   },
   {
     "id": "randomenchantments:resistance",
     "name": "enchantment.resistance",
     "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "VERY_RARE",
     "treasure": false,
     "double_price": false,
@@ -1666,21 +1758,21 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Items with this enchantment are immune to almost all forms of damage including lava, cactus, fire, explosions, etc."]
   },
   {
     "id": "randomenchantments:quickdraw",
     "name": "enchantment.quickdraw",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
     "treasure": false,
     "double_price": false,
     "curse": false,
-    "allowed_on_books": true,
+    "allowed_on_books": false,
     "min_lvl": 1,
-    "max_lvl": 2,
+    "max_lvl": 3,
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
@@ -1693,12 +1785,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Decreases the draw time."]
   },
   {
     "id": "dungeontactics:clustered",
     "name": "enchantment.dungeontactics:clustered",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
@@ -1721,7 +1813,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "nyx:lunar_shield",
@@ -1751,12 +1843,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Increases armor protection based on moon phase. Strongest at full moon."]
   },
   {
     "id": "dungeontactics:trinket_speed",
     "name": "enchantment.dungeontactics:trinket_speed",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "COMMON",
@@ -1778,16 +1870,16 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "randomenchantments:magnetic",
     "name": "enchantment.magnetic",
-    "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "VERY_RARE",
-    "treasure": false,
+    "treasure": true,
     "double_price": false,
     "curse": false,
     "allowed_on_books": false,
@@ -1805,7 +1897,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["While using this tool, obtained resources will go directly into the inventory by the grace of the petals."]
   },
   {
     "id": "minecraft:luck_of_the_sea",
@@ -1832,12 +1924,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Increases luck while fishing."]
   },
   {
     "id": "dungeontactics:trinket_gills",
     "name": "enchantment.dungeontactics:trinket_gills",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "UNCOMMON",
@@ -1859,7 +1951,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "minecraft:respiration",
@@ -1873,7 +1965,7 @@
     "curse": false,
     "allowed_on_books": true,
     "min_lvl": 1,
-    "max_lvl": 3,
+    "max_lvl": 5,
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
@@ -1889,7 +1981,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Extends underwater breathing time by 15 seconds per level."]
   },
   {
     "id": "minecraft:feather_falling",
@@ -1919,12 +2011,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Reduces all forms of fall damage taken by 12 percent per level."]
   },
   {
     "id": "dungeontactics:punish",
     "name": "enchantment.dungeontactics:punish",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
@@ -1947,17 +2039,17 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Deals 3 magic damage to all targets in range."]
   },
   {
     "id": "randomenchantments:deflect",
     "name": "enchantment.deflect",
     "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "VERY_RARE",
-    "treasure": true,
-    "double_price": true,
+    "treasure": false,
+    "double_price": false,
     "curse": false,
     "allowed_on_books": false,
     "min_lvl": 1,
@@ -1974,17 +2066,17 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Arrows bounce off armor in the direction of the shooter."]
   },
   {
     "id": "randomenchantments:teleportation",
     "name": "enchantment.teleportation",
     "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "VERY_RARE",
-    "treasure": false,
-    "double_price": false,
+    "treasure": true,
+    "double_price": true,
     "curse": false,
     "allowed_on_books": false,
     "min_lvl": 1,
@@ -2001,12 +2093,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Teleports you to wherever the arrows land, as long as that block is safe."]
   },
   {
     "id": "dungeontactics:magicmissile",
     "name": "enchantment.dungeontactics:magicmissile",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
@@ -2029,12 +2121,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Materializes a homing projectile, like that of the forgotten and exploited shulkers."]
   },
   {
     "id": "dungeontactics:poison_sanguine",
     "name": "enchantment.dungeontactics:poison_sanguine",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "COMMON",
@@ -2057,7 +2149,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "spartanshields:ssenchspikes",
@@ -2085,12 +2177,43 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+		"Gives a chance to inflict damage to any mob which hits the shield when blocking."
+	]
+  },
+  {
+    "id": "bettercombat:gourmand",
+    "name": "enchantment.gourmand",
+    "enabled": false,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "RARE",
+    "treasure": false,
+    "double_price": false,
+    "curse": true,
+    "allowed_on_books": false,
+    "min_lvl": 1,
+    "max_lvl": 1,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "ARMOR_CHEST",
+    "equipment_slots": [
+      "CHEST"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": [
+		"Converts damage taken into hunger (BUGGED, DON'T USE)."
+	]
   },
   {
     "id": "msmlegacy:keen_edge",
     "name": "enchantment.msmlegacy.keen_edge",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "COMMON",
@@ -2112,19 +2235,21 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+		"Attacks deal more damage (applies to draconic blade)."
+	]
   },
   {
     "id": "randomenchantments:obsidian_buster",
     "name": "enchantment.obsidian_buster",
-    "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "VERY_RARE",
     "treasure": false,
-    "double_price": false,
+    "double_price": true,
     "curse": false,
-    "allowed_on_books": false,
+    "allowed_on_books": true,
     "min_lvl": 1,
     "max_lvl": 1,
     "custom_evaluations": false,
@@ -2139,17 +2264,19 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+		"Mining speed increases by 100 when used on obsidian."
+	]
   },
   {
     "id": "randomenchantments:phasing",
     "name": "enchantment.phasing",
     "enabled": false,
     "hide_on_item": false,
-    "hide_on_book": true,
+    "hide_on_book": false,
     "rarity": "VERY_RARE",
     "treasure": true,
-    "double_price": false,
+    "double_price": true,
     "curse": false,
     "allowed_on_books": false,
     "min_lvl": 1,
@@ -2163,17 +2290,17 @@
     ],
     "incompat_mode": 0,
     "incompatible": [],
-    "applicability_mode": 1,
-    "items_list_mode": 1,
-    "items_list": [
-      "simpleores:mythril_bow"
-    ],
-    "description": []
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": [
+		"Arrows go through walls."
+	]
   },
   {
     "id": "dungeontactics:smite",
     "name": "enchantment.dungeontactics:smite",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
@@ -2192,16 +2319,20 @@
       "OFFHAND"
     ],
     "incompat_mode": 0,
-    "incompatible": [],
+    "incompatible": [
+      "endreborn:ender_killer"
+    ],
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+		"Strike all targets in a 4-block radius with demonic lightning."
+	]
   },
   {
     "id": "dungeontactics:rage",
     "name": "enchantment.dungeontactics:rage",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "VERY_RARE",
@@ -2224,7 +2355,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+		"The art of applying Strength and Resistance to the user. Or to surrounding targets if held."
+	]
   },
   {
     "id": "minecraft:bane_of_arthropods",
@@ -2247,42 +2380,13 @@
       "MAINHAND"
     ],
     "incompat_mode": 0,
-    "incompatible": [
-		"endreborn:ender_killer",
-		"dungeontactics:runed"
-	],
-    "applicability_mode": 0,
-    "items_list_mode": 0,
-    "items_list": [],
-    "description": []
-  },
-  {
-    "id": "spartanweaponry:throwing_damage",
-    "name": "enchantment.spartanweaponry:throwing_damage",
-    "enabled": true,
-    "hide_on_item": false,
-    "hide_on_book": false,
-    "rarity": "COMMON",
-    "treasure": false,
-    "double_price": false,
-    "curse": false,
-    "allowed_on_books": true,
-    "min_lvl": 1,
-    "max_lvl": 5,
-    "custom_evaluations": false,
-    "min_ench_eval": "1+LVL*10",
-    "max_ench_eval": "MIN+5",
-    "type": "sw_throwing_weapon",
-    "equipment_slots": [
-      "MAINHAND",
-      "OFFHAND"
-    ],
-    "incompat_mode": 0,
     "incompatible": [],
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+		"The sigil of the Eternal Reaper who hates the Mother of Change and their spawn. Each level deals an extra 2.5HP to arthropods."
+	]
   },
   {
     "id": "minecraft:thorns",
@@ -2312,19 +2416,21 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+		"The fury of the silent sentinels. Each level adds a 15 percent chance to deal damage back to attackers."
+	]
   },
   {
     "id": "randomenchantments:exploding",
     "name": "enchantment.exploding",
-    "enabled": false,
+    "enabled": true,
     "hide_on_item": false,
     "hide_on_book": false,
-    "rarity": "RARE",
+    "rarity": "VERY_RARE",
     "treasure": false,
     "double_price": false,
     "curse": false,
-    "allowed_on_books": false,
+    "allowed_on_books": true,
     "min_lvl": 1,
     "max_lvl": 5,
     "custom_evaluations": false,
@@ -2335,19 +2441,23 @@
       "MAINHAND"
     ],
     "incompat_mode": 0,
-    "incompatible": [],
+    "incompatible": [
+		"minecraft:power"
+	],
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+		"A revolutionary power born from many disparate technologies. Causes arrows to explode on impact without destroying blocks."
+	]
   },
   {
     "id": "randomenchantments:true_shot",
     "name": "enchantment.true_shot",
-    "enabled": false,
+    "enabled": true,
     "hide_on_item": false,
     "hide_on_book": false,
-    "rarity": "RARE",
+    "rarity": "VERY_RARE",
     "treasure": false,
     "double_price": false,
     "curse": false,
@@ -2362,11 +2472,45 @@
       "MAINHAND"
     ],
     "incompat_mode": 0,
+    "incompatible": [
+		"minecraft:power",
+		"randomenchantments:exploding"
+	],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": [
+		"The result of a mind unbound but honed in the very concept of the bow. Arrow is not affected by gravity."
+	]
+  },
+  {
+    "id": "spartanweaponry:spreadshot",
+    "name": "enchantment.spartanweaponry:spreadshot",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "RARE",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 1,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "BOW",
+    "equipment_slots": [
+      "MAINHAND"
+    ],
+    "incompat_mode": 0,
     "incompatible": [],
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+		"A refined raiser and technique allows this trickshot. Fires 3 projecticles instead of 1."
+	]
   },
   {
     "id": "minecraft:silk_touch",
@@ -2375,7 +2519,7 @@
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
-    "treasure": true,
+    "treasure": false,
     "double_price": false,
     "curse": false,
     "allowed_on_books": true,
@@ -2393,15 +2537,17 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+		"This tool contains an anomalous anima in its fundamental concept. It can harvest blocks that would otherwise transform or break."
+	]
   },
   {
     "id": "randomenchantments:grappling",
     "name": "enchantment.grappling",
-    "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
-    "rarity": "VERY_RARE",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "UNCOMMON",
     "treasure": false,
     "double_price": false,
     "curse": false,
@@ -2420,14 +2566,75 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+		"Allows grappling to the targeted block using a reinforced line and hook. Engineering does not prevent fall damage..."
+	]
+  },
+  {
+    "id": "spartanweaponry:rapid_load",
+    "name": "enchantment.spartanweaponry:rapid_load",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "VERY_RARE",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 3,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "BOW",
+    "equipment_slots": [
+      "MAINHAND"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": [
+		"Improved entrypoints and bolt bundles decrease crossbow reloading by 0.2 seconds per level."
+	]
+  },
+  {
+    "id": "spartanweaponry:lucky_throw",
+    "name": "enchantment.spartanweaponry:lucky_throw",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "RARE",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 3,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "sw_throwing_weapon",
+    "equipment_slots": [
+      "MAINHAND",
+      "OFFHAND"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": [
+		"Infuses throwable weapons with will. Increases loot from enemies."
+	]
   },
   {
     "id": "randomenchantments:harvesting",
     "name": "enchantment.harvesting",
-    "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "VERY_RARE",
     "treasure": false,
     "double_price": false,
@@ -2447,12 +2654,14 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+		"A novelty technique; arrows pop melons, pumpkins, and the like."
+	]
   },
   {
     "id": "msmlegacy:ascension",
     "name": "enchantment.msmlegacy.ascension",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "COMMON",
@@ -2474,12 +2683,74 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+		"Attacks will send the target up into the air."
+	]
+  },
+  {
+    "id": "dungeontactics:soulsteal",
+    "name": "enchantment.dungeontactics:soulsteal",
+    "enabled": false,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "VERY_RARE",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": false,
+    "min_lvl": 1,
+    "max_lvl": 1,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "ALL",
+    "equipment_slots": [
+      "MAINHAND",
+      "OFFHAND"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": [
+		"This is only worth turning into enchanted paper..."
+	]
+  },
+  {
+    "id": "bettercombat:lightning",
+    "name": "enchantment.lightning",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "VERY_RARE",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 3,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "throwing",
+    "equipment_slots": [
+      "MAINHAND",
+      "OFFHAND"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": [
+		"Summons lightning from the sky on projectile impact. A manifestation of demonic anger."
+	]
   },
   {
     "id": "dungeontactics:ducttaped",
     "name": "enchantment.dungeontactics:ducttaped",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "COMMON",
@@ -2502,7 +2773,9 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+		"This has been repaired, but the gale has left its mark. Galebound can only be used up to level 5."
+	]
   },
   {
     "id": "minecraft:punch",
@@ -2529,12 +2802,43 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+		"Each level increases the knockback on target."
+	]
+  },
+  {
+    "id": "defiledlands:safeguard",
+    "name": "enchantment.safeguard",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "RARE",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 1,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "UMBRA_BLASTER",
+    "equipment_slots": [
+      "MAINHAND"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": [
+		"An enhanced and better engineered manifestation of vacuous power makes the Umbra Blaster not destroy blocks. In a sense, not unlike the plague."
+	]
   },
   {
     "id": "dungeontactics:poison_bramble",
     "name": "enchantment.dungeontactics:poison_bramble",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "COMMON",
@@ -2557,19 +2861,21 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+		"This is only worth turning into enchanted paper..."
+	]
   },
   {
     "id": "randomenchantments:transposition",
     "name": "enchantment.transposition",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
     "treasure": false,
     "double_price": false,
     "curse": false,
-    "allowed_on_books": true,
+    "allowed_on_books": false,
     "min_lvl": 1,
     "max_lvl": 1,
     "custom_evaluations": false,
@@ -2584,12 +2890,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Swap places with the attacker."]
   },
   {
     "id": "minecraft:sharpness",
     "name": "enchantment.damage.all",
-    "enabled": false,
+    "enabled": true,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "COMMON",
@@ -2606,22 +2912,44 @@
     "equipment_slots": [
       "MAINHAND"
     ],
-    "incompat_mode": 1,
-    "incompatible": [
-      "endreborn:ender_killer",
-      "dungeontactics:runed"
-	],
-    "applicability_mode": 1,
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
     "items_list_mode": 0,
-    "items_list": [
-      "msmlegacy:dawn_star"
+    "items_list": [],
+    "description": ["Increases weapon damage."]
+  },
+  {
+    "id": "trident:loyalty",
+    "name": "enchantment.minecraft.loyalty",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "UNCOMMON",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 3,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "TRIDENT",
+    "equipment_slots": [
+      "MAINHAND"
     ],
-    "description": []
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": ["Thrown tridents return to their owner."]
   },
   {
     "id": "dungeontactics:mage_affinity",
     "name": "enchantment.dungeontactics:mage_affinity",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "UNCOMMON",
@@ -2646,7 +2974,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Reduces wand powder costs."]
   },
   {
     "id": "minecraft:frost_walker",
@@ -2673,7 +3001,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["The grace of Yumara freezes water underfoot."]
   },
   {
     "id": "nyx:lunar_edge",
@@ -2701,12 +3029,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Increases damage based on moon phase. Strongest at full moon."]
   },
   {
     "id": "dungeontactics:poison_ailment",
     "name": "enchantment.dungeontactics:poison_ailment",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "COMMON",
@@ -2729,12 +3057,14 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+		"This is only worth turning into enchanted paper..."
+	]
   },
   {
     "id": "msmlegacy:stealth",
     "name": "enchantment.msmlegacy.stealth",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "COMMON",
@@ -2756,12 +3086,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Allows the weapon's wielder to become invisible at will. Only applicable on a blade of legendary power."]
   },
   {
     "id": "dungeontactics:cooking",
     "name": "enchantment.dungeontactics:cooking",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "COMMON",
@@ -2784,12 +3114,39 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Cooks all food in the player's inventory."]
+  },
+  {
+    "id": "defiledlands:blazing",
+    "name": "enchantment.blazing",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "VERY_RARE",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 1,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "UMBRA_BLASTER",
+    "equipment_slots": [
+      "MAINHAND"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": ["Converts fired blastem fruit into blazing variants."]
   },
   {
     "id": "msmlegacy:venomous_aspect",
     "name": "enchantment.msmlegacy.venomous_aspect",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "COMMON",
@@ -2811,14 +3168,72 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Attacks may poison the target."]
+  },
+  {
+    "id": "defiledlands:economical",
+    "name": "enchantment.economical",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "UNCOMMON",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 4,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "GUN",
+    "equipment_slots": [
+      "MAINHAND"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [
+      "defiledlands:umbra_blaster",
+      "defiledlands:ravager"
+    ],
+    "description": ["Gives a chance for the weapon to not consume ammo when fired"]
+  },
+  {
+    "id": "spartanweaponry:razors_edge",
+    "name": "enchantment.spartanweaponry:razors_edge",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "COMMON",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 5,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "sw_throwing_weapon",
+    "equipment_slots": [
+      "MAINHAND",
+      "OFFHAND"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": ["Increases the damage of thrown weapons."]
   },
   {
     "id": "randomenchantments:randomness",
     "name": "enchantment.randomness",
     "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "VERY_RARE",
     "treasure": false,
     "double_price": false,
@@ -2838,19 +3253,19 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Blocks drop random items when mined."]
   },
   {
     "id": "randomenchantments:stonelover",
     "name": "enchantment.stonelover",
     "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "VERY_RARE",
-    "treasure": true,
+    "treasure": false,
     "double_price": false,
     "curse": false,
-    "allowed_on_books": false,
+    "allowed_on_books": true,
     "min_lvl": 1,
     "max_lvl": 1,
     "custom_evaluations": false,
@@ -2865,7 +3280,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Pickaxe has an 80 percent chance to restore 1 durability if mining stone."]
   },
   {
     "id": "charm:clumsiness_curse",
@@ -2892,12 +3307,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Your weapon may accidentally miss when swung. Oops!"]
   },
   {
     "id": "dungeontactics:disorient",
     "name": "enchantment.dungeontactics:disorient",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "UNCOMMON",
@@ -2920,12 +3335,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Applies Blindness to all targets in a four block range."]
   },
   {
     "id": "dungeontactics:poison_feather",
     "name": "enchantment.dungeontactics:poison_feather",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "COMMON",
@@ -2948,12 +3363,14 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": [
+		"This is only worth turning into enchanted paper..."
+	]
   },
   {
     "id": "dungeontactics:trinket_fireshield",
     "name": "enchantment.dungeontactics:trinket_fireshield",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "UNCOMMON",
@@ -2975,19 +3392,19 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "minecraft:infinity",
     "name": "enchantment.arrowInfinite",
-    "enabled": false,
+    "enabled": true,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "VERY_RARE",
     "treasure": false,
     "double_price": false,
     "curse": false,
-    "allowed_on_books": false,
+    "allowed_on_books": true,
     "min_lvl": 1,
     "max_lvl": 1,
     "custom_evaluations": false,
@@ -3001,15 +3418,13 @@
     "incompatible": [],
     "applicability_mode": 0,
     "items_list_mode": 0,
-    "items_list": [
-      "betterwithaddons:greatbow"
-    ],
-    "description": []
+    "items_list": [],
+    "description": ["An arcane masterpiece allows the bow to pull arrows from thin air."]
   },
   {
     "id": "msmlegacy:extinction",
     "name": "enchantment.msmlegacy.extinction",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
@@ -3031,7 +3446,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Attacking a mob will kill every mob of that type that exists in the world. Only applicable on a legendary sword of untold power."]
   },
   {
     "id": "minecraft:vanishing_curse",
@@ -3063,12 +3478,40 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Item will vanish from this plane of exisitence on death."]
+  },
+  {
+    "id": "spartanweaponry:hydrodynamic",
+    "name": "enchantment.spartanweaponry:hydrodynamic",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "VERY_RARE",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 1,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "sw_throwing_weapon",
+    "equipment_slots": [
+      "MAINHAND",
+      "OFFHAND"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": ["Allows thrown weapons to travel through water as if it were air."]
   },
   {
     "id": "dungeontactics:trinket_jump",
     "name": "enchantment.dungeontactics:trinket_jump",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "COMMON",
@@ -3090,14 +3533,14 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "randomenchantments:instant_death",
     "name": "enchantment.instant_death",
     "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "VERY_RARE",
     "treasure": false,
     "double_price": false,
@@ -3117,7 +3560,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Does what it says on the tin." ]
   },
   {
     "id": "minecraft:efficiency",
@@ -3144,17 +3587,17 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Greatly increases tool mining speed."]
   },
   {
     "id": "dungeontactics:sonicboom",
     "name": "enchantment.dungeontactics:sonicboom",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "VERY_RARE",
     "treasure": false,
-    "double_price": true,
+    "double_price": false,
     "curse": false,
     "allowed_on_books": true,
     "min_lvl": 1,
@@ -3172,19 +3615,19 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "endreborn:shulker_core",
     "name": "enchantment.shulker_core",
     "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "RARE",
     "treasure": false,
     "double_price": false,
     "curse": false,
-    "allowed_on_books": false,
+    "allowed_on_books": true,
     "min_lvl": 1,
     "max_lvl": 3,
     "custom_evaluations": false,
@@ -3199,14 +3642,14 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "randomenchantments:true_lifesteal",
     "name": "enchantment.true_lifesteal",
-    "enabled": true,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "enabled": false,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "VERY_RARE",
     "treasure": false,
     "double_price": false,
@@ -3226,19 +3669,19 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Damage dealt by a weapon enchanted with this restores some health; armor piercing."]
   },
   {
     "id": "dungeontactics:trinket_nightvision",
     "name": "enchantment.dungeontactics:trinket_nightvision",
     "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "VERY_RARE",
     "treasure": false,
     "double_price": false,
     "curse": false,
-    "allowed_on_books": false,
+    "allowed_on_books": true,
     "min_lvl": 1,
     "max_lvl": 1,
     "custom_evaluations": false,
@@ -3253,7 +3696,35 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["This is only worth turning into enchanted paper..."]
+  },
+  {
+    "id": "spartanweaponry:return",
+    "name": "enchantment.spartanweaponry:return",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "VERY_RARE",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 3,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "sw_throwing_weapon",
+    "equipment_slots": [
+      "MAINHAND",
+      "OFFHAND"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": ["Thrown weapons return to the user upon hitting the ground."]
   },
   {
     "id": "minecraft:fortune",
@@ -3276,18 +3747,16 @@
       "MAINHAND"
     ],
     "incompat_mode": 0,
-    "incompatible": [
-      "dungeontactics:smelting"
-    ],
+    "incompatible": [],
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Increases the drop rate of mined ores and gems."]
   },
   {
     "id": "msmlegacy:ender_pulse",
     "name": "enchantment.msmlegacy.ender_pulse",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "VERY_RARE",
@@ -3309,12 +3778,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Allows the bearer to teleport at will."]
   },
   {
     "id": "msmlegacy:consuming_shadows",
     "name": "enchantment.msmlegacy.consuming_shadows",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
@@ -3336,7 +3805,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Attacks will inflict nearby enemies with wither and blindness."]
   },
   {
     "id": "minecraft:binding_curse",
@@ -3366,46 +3835,40 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["'HELP, HELP! I CAN'T GET IT OFF!' - Last words of many a spectre's victim."]
   },
   {
-    "id": "dungeontactics:runed",
-    "name": "enchantment.dungeontactics:runed",
-    "enabled": false,
+    "id": "bettercombat:webbing",
+    "name": "enchantment.webbing",
+    "enabled": true,
     "hide_on_item": false,
     "hide_on_book": false,
-    "rarity": "RARE",
+    "rarity": "VERY_RARE",
     "treasure": false,
     "double_price": false,
     "curse": false,
     "allowed_on_books": true,
     "min_lvl": 1,
-    "max_lvl": 3,
+    "max_lvl": 1,
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "WEAPON",
+    "type": "throwing",
     "equipment_slots": [
       "MAINHAND",
       "OFFHAND"
     ],
-    "incompat_mode": 1,
-    "incompatible": [
-		"minecraft:sharpness",
-		"minecraft:bane_of_arthropods",
-		"minecraft:smite",
-		"endreborn:ender_killer",
-    "nyx:lunar_edge"
-	],
+    "incompat_mode": 0,
+    "incompatible": [],
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Arrows create webs at the target's feet."]
   },
   {
     "id": "dungeontactics:trinket_resistance",
     "name": "enchantment.dungeontactics:trinket_resistance",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "UNCOMMON",
@@ -3427,19 +3890,19 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["This is only worth turning into enchanted paper..."]
   },
   {
     "id": "livingenchantment:enchantment.living",
     "name": "enchantment.living",
-    "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "VERY_RARE",
     "treasure": true,
     "double_price": true,
     "curse": false,
-    "allowed_on_books": false,
+    "allowed_on_books": true,
     "min_lvl": 1,
     "max_lvl": 1,
     "custom_evaluations": false,
@@ -3450,25 +3913,17 @@
       "MAINHAND",
       "OFFHAND"
     ],
-    "incompat_mode": 1,
-    "incompatible": [
-      "minecraft:sharpness",
-      "minecraft:bane_of_arthropods",
-      "minecraft:smite",
-      "nyx:lunar_edge"
-	  ],
-    "applicability_mode": 1,
-    "items_list_mode": 1,
-    "items_list": [
-      "msmlegacy:dawn_star",
-      "dungeontactics:silver_sword"
-    ],
-    "description": []
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": ["The sword whispers to you..."]
   },
   {
     "id": "dungeontactics:transport",
     "name": "enchantment.dungeontactics:transport",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "VERY_RARE",
@@ -3491,7 +3946,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Summons a tamed, saddled skeleton horse."]
   },
   {
     "id": "minecraft:projectile_protection",
@@ -3521,12 +3976,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Increases the wearer's resistance to ranged attacks."]
   },
   {
     "id": "randomenchantments:homing",
     "name": "enchantment.homing",
-    "enabled": false,
+    "enabled": true,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
@@ -3548,12 +4003,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Arrows track down enemies."]
   },
   {
     "id": "dungeontactics:sunder",
     "name": "enchantment.dungeontactics:sunder",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "VERY_RARE",
@@ -3576,12 +4031,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Deals heavy damage to all targets within 4 blocks."]
   },
   {
     "id": "dungeontactics:berserking",
     "name": "enchantment.dungeontactics:berserking",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "UNCOMMON",
@@ -3604,19 +4059,19 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Increases the damage dealt when the wielder has less armor."]
   },
   {
     "id": "randomenchantments:butterfingers",
     "name": "enchantment.butterfingers",
-    "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "COMMON",
-    "treasure": true,
-    "double_price": true,
+    "treasure": false,
+    "double_price": false,
     "curse": true,
-    "allowed_on_books": false,
+    "allowed_on_books": true,
     "min_lvl": 1,
     "max_lvl": 1,
     "custom_evaluations": false,
@@ -3631,12 +4086,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Oops."]
   },
   {
     "id": "randomenchantments:swift",
     "name": "enchantment.swift",
-    "enabled": false,
+    "enabled": true,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
@@ -3645,7 +4100,7 @@
     "curse": false,
     "allowed_on_books": false,
     "min_lvl": 1,
-    "max_lvl": 5,
+    "max_lvl": 1,
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
@@ -3658,14 +4113,14 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Increases the attack speed of the item."]
   },
   {
     "id": "randomenchantments:global_traveler",
     "name": "enchantment.global_traveler",
-    "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "VERY_RARE",
     "treasure": false,
     "double_price": false,
@@ -3685,7 +4140,34 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["While using this tool, obtained resources will go directly into the linked container by the grace of the petals."]
+  },
+  {
+    "id": "trident:riptide",
+    "name": "enchantment.minecraft.riptide",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "RARE",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 3,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "TRIDENT",
+    "equipment_slots": [
+      "MAINHAND"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": ["Underwater or during rain, thrown tridents will drag the wielder along with them."]
   },
   {
     "id": "cyclicmagic:enchantment.launch",
@@ -3697,7 +4179,7 @@
     "treasure": false,
     "double_price": false,
     "curse": false,
-    "allowed_on_books": false,
+    "allowed_on_books": true,
     "min_lvl": 1,
     "max_lvl": 5,
     "custom_evaluations": false,
@@ -3712,14 +4194,14 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Grants the wearer an addition jump per level."]
   },
   {
     "id": "randomenchantments:torches",
     "name": "enchantment.torches",
-    "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "VERY_RARE",
     "treasure": false,
     "double_price": false,
@@ -3739,7 +4221,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Arrows place torches on impact."]
   },
   {
     "id": "minecraft:fire_protection",
@@ -3769,12 +4251,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Reduces all fire damage taken by the wearer."]
   },
   {
     "id": "dungeontactics:restoration",
     "name": "enchantment.dungeontactics:restoration",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "COMMON",
@@ -3797,12 +4279,39 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Heals the caster for 4 health."]
+  },
+  {
+    "id": "bettercombat:revitalize",
+    "name": "enchantment.revitalize",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "UNCOMMON",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 8,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "ARMOR_CHEST",
+    "equipment_slots": [
+      "CHEST"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": ["Increases the effect of any self-healing by 10 percent, per level."]
   },
   {
     "id": "msmlegacy:frost_wave",
     "name": "enchantment.msmlegacy.frost_wave",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
@@ -3821,16 +4330,14 @@
     ],
     "incompat_mode": 0,
     "incompatible": [],
-    "applicability_mode": 1,
-    "items_list_mode": 1,
-    "items_list": [
-      "msmlegacy:glacial_blade"
-    ],
-    "description": []
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": ["Attacks will inflict nearby mobs with slowness."]
   },
   {
     "id": "mod_lavacow:corrosive",
-    "name": "enchantment.mod_lavacow.Corrosive",
+    "name": "enchantment.mod_lavacow.corrosive",
     "enabled": true,
     "hide_on_item": false,
     "hide_on_book": false,
@@ -3854,7 +4361,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Causes the weapon to inflict the Corroded status on its victims, increasing the damage they take by 20 percent per level."]
   },
   {
     "id": "randomenchantments:lightning",
@@ -3881,7 +4388,35 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Causes the weapon to strike the target with lightning."]
+  },
+  {
+    "id": "spartanweaponry:supercharge",
+    "name": "enchantment.spartanweaponry:supercharge",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "RARE",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 2,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "sw_throwing_weapon",
+    "equipment_slots": [
+      "MAINHAND",
+      "OFFHAND"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": ["Reduces charging time for throwing weapons by 20 percent per level."]
   },
   {
     "id": "minecraft:unbreaking",
@@ -3908,12 +4443,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Item loses durability at a much slower rate."]
   },
   {
     "id": "msmlegacy:sparks",
     "name": "enchantment.msmlegacy.sparks",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
@@ -3935,12 +4470,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Attacks will deal additional fire damage to other nearby mobs."]
   },
   {
     "id": "randomenchantments:disarm",
     "name": "enchantment.disarm",
-    "enabled": false,
+    "enabled": true,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "VERY_RARE",
@@ -3962,7 +4497,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Allows the weapon's wielder to pull their foe's weapons from their friends."]
   },
   {
     "id": "minecraft:lure",
@@ -3989,12 +4524,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Reduces the time between bites when fishing."]
   },
   {
     "id": "dungeontactics:satiate",
     "name": "enchantment.dungeontactics:satiate",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "VERY_RARE",
@@ -4017,12 +4552,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Regenerates hunger and saturation for the caster."]
   },
   {
     "id": "randomenchantments:paralysis",
     "name": "enchantment.paralysis",
-    "enabled": false,
+    "enabled": true,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "VERY_RARE",
@@ -4044,11 +4579,11 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Any entity struck with this weapon will find themselves unable to move, jump, or attack."]
   },
   {
-    "id": "spartanweaponry:throwing_luck",
-    "name": "enchantment.spartanweaponry:throwing_luck",
+    "id": "trident:impaling",
+    "name": "enchantment.minecraft.impaling",
     "enabled": true,
     "hide_on_item": false,
     "hide_on_book": false,
@@ -4058,26 +4593,25 @@
     "curse": false,
     "allowed_on_books": true,
     "min_lvl": 1,
-    "max_lvl": 3,
+    "max_lvl": 5,
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "sw_throwing_weapon",
+    "type": "TRIDENT",
     "equipment_slots": [
-      "MAINHAND",
-      "OFFHAND"
+      "MAINHAND"
     ],
     "incompat_mode": 0,
     "incompatible": [],
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Trident deals more damage to aquatic targets."]
   },
   {
     "id": "randomenchantments:cursed_jump",
     "name": "enchantment.cursed_jump",
-    "enabled": false,
+    "enabled": true,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
@@ -4099,19 +4633,19 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Any entity struck with this weapon will be unable to prevent themselves from skyrocketing into the air when they jump."]
   },
   {
     "id": "minecraft:sweeping",
     "name": "enchantment.sweeping",
-    "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "UNCOMMON",
     "treasure": false,
     "double_price": false,
     "curse": false,
-    "allowed_on_books": false,
+    "allowed_on_books": true,
     "min_lvl": 1,
     "max_lvl": 3,
     "custom_evaluations": false,
@@ -4126,12 +4660,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Increases sweep attack damage."]
   },
   {
     "id": "msmlegacy:wisdom",
     "name": "enchantment.msmlegacy.wisdom",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
@@ -4153,12 +4687,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Attacks deal more damage the higher your EXP level is."]
   },
   {
     "id": "dungeontactics:wither",
     "name": "enchantment.dungeontactics:wither",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
@@ -4181,12 +4715,39 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Inflicts wither upon all enemies in range."]
+  },
+  {
+    "id": "defiledlands:sharpshooter",
+    "name": "enchantment.sharpshooter",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "COMMON",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 3,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "GUN",
+    "equipment_slots": [
+      "MAINHAND"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": ["Increases projectile speed and accuracy."]
   },
   {
     "id": "msmlegacy:vitality",
     "name": "enchantment.msmlegacy.vitality",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
@@ -4208,7 +4769,34 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Allows the wielder to exchange durability for powerful buffs."]
+  },
+  {
+    "id": "spectral_edge:spectral_edge",
+    "name": "enchantment.damage.spectral",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "COMMON",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 5,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "WEAPON",
+    "equipment_slots": [
+      "MAINHAND"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": ["Increases the weapon's damage by a percentage."]
   },
   {
     "id": "charm:magnetic",
@@ -4226,7 +4814,7 @@
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "DIGGER",
+    "type": "RLTweaker Charm magnetic",
     "equipment_slots": [
       "MAINHAND"
     ],
@@ -4235,12 +4823,42 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["While using this tool, obtained resources will go directly into the inventory by the grace of the petals."]
+  },
+  {
+    "id": "elenaidodge2:lightweight",
+    "name": "enchantment.lightweight",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "UNCOMMON",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 3,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "ARMOR",
+    "equipment_slots": [
+      "FEET",
+      "LEGS",
+      "CHEST",
+      "HEAD"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": ["Reduces the weight of the armor piece, allowing for easier dodging and sprinting."]
   },
   {
     "id": "dungeontactics:forging",
     "name": "enchantment.dungeontactics:forging",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "VERY_RARE",
@@ -4263,14 +4881,14 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Smelts all smeltable items in the caster’s inventory."]
   },
   {
     "id": "mod_lavacow:lifesteal",
-    "name": "enchantment.mod_lavacow.Lifesteal",
-    "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "name": "enchantment.mod_lavacow.lifesteal",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "VERY_RARE",
     "treasure": false,
     "double_price": false,
@@ -4291,12 +4909,12 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Weapon heals it's wielder for a portion of the damage it deals."]
   },
   {
     "id": "randomenchantments:stonebound",
     "name": "enchantment.stonebound",
-    "enabled": false,
+    "enabled": true,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "VERY_RARE",
@@ -4318,7 +4936,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Tool gains more mining speed at lower durability, but reduced damage."]
   },
   {
     "id": "minecraft:blast_protection",
@@ -4348,7 +4966,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["The wearer will take much less damage from explosions."]
   },
   {
     "id": "msmlegacy:greed",
@@ -4375,60 +4993,6 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
-  },
-  {
-    "id": "spartanweaponry:spreadshot",
-    "name": "enchantment.spartanweaponry.spreadshot",
-    "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
-    "rarity": "VERY_RARE",
-    "treasure": false,
-    "double_price": false,
-    "curse": false,
-    "allowed_on_books": false,
-    "min_lvl": 1,
-    "max_lvl": 1,
-    "custom_evaluations": false,
-    "min_ench_eval": "1+LVL*10",
-    "max_ench_eval": "MIN+5",
-    "type": "BOW",
-    "equipment_slots": [
-      "MAINHAND"
-    ],
-    "incompat_mode": 0,
-    "incompatible": [],
-    "applicability_mode": 0,
-    "items_list_mode": 0,
-    "items_list": [],
-    "description": []
-  },
-  {
-    "id": "spartanweaponry:rapid_load",
-    "name": "enchantment.spartanweaponry.rapid_load",
-    "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
-    "rarity": "VERY_RARE",
-    "treasure": false,
-    "double_price": false,
-    "curse": false,
-    "allowed_on_books": false,
-    "min_lvl": 1,
-    "max_lvl": 1,
-    "custom_evaluations": false,
-    "min_ench_eval": "1+LVL*10",
-    "max_ench_eval": "MIN+5",
-    "type": "BOW",
-    "equipment_slots": [
-      "MAINHAND"
-    ],
-    "incompat_mode": 0,
-    "incompatible": [],
-    "applicability_mode": 0,
-    "items_list_mode": 0,
-    "items_list": [],
-    "description": []
+    "description": ["Attacks have a chance to spawn additional exp orbs."]
   }
 ]

@@ -1,0 +1,7 @@
+{
+  "parent": "bblsom:block/wildpetals_1",
+  "textures": {
+    "flowerbed": "bblsom:blocks/wildflowers_west_kraired",
+    "stem": "bblsom:blocks/wildflowers_stem"
+  }
+}

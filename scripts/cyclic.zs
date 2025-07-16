@@ -83,10 +83,7 @@ recipes.remove(<cyclicmagic:button_large>);
 recipes.removeByRecipeName("cyclicmagic:item.carbon_paper_1_2");
 // apple recipes on betterwithmods.zs
 
-var vnugg = <ore:nuggetViridium>.firstItem;
-var duracloth = <betterwithmods:material:4>;
 var glue = <ore:glue>;
-var leather_sheet = <pyrotech:material:38>;
 var pipe = <quark:pipe>;
 var pipepump = <cyclicmagic:fluid_pump>;
 var pipeliquid = <cyclicmagic:fluid_pipe>;
@@ -184,12 +181,6 @@ recipes.addShaped("cyclic_large_button", <cyclicmagic:button_large>, [
     [masonry_brick, white_metal_nugget, masonry_brick]
 ]);
 
-recipes.addShaped("climbing_gloves", <cyclicmagic:glove_climb>, [
-	[vnugg, vnugg, leather_sheet],
-    [vnugg, glue, leather_sheet],
-    [leather_sheet, leather_sheet, duracloth]
-]);
-
 recipes.addShaped("immersive_carbon_paper", carpaper*6, [
 	[paper, paper, paper],
     [wax, carbond, wax],
@@ -202,9 +193,8 @@ recipes.addShaped("immersive_prospector", <cyclicmagic:tool_spelunker>, [
 ]);
 
 recipes.addShaped("obsidian_shears", obsi_shear,[
-	[null, obsi_shard, null],
-    [obsi_shard, null, obsi_shard],
-    [null, obsi_shard, null]
+	[null, obsi_shard],
+    [obsi_shard, null]
 ]);
 
 recipes.addShaped("powered_conveyor", st_conveyor*12,[
@@ -233,7 +223,7 @@ recipes.addShapeless("ramp_conveyor_2_straight", st_conveyor*2, [<cyclicmagic:pl
 //]);
 
 //Spelunker potions with prospecting kit in rustic.zs
-
+/*
 Anvil.addShaped(pipepump, 
 [
 	[reframat, pipe, reframat, null],
@@ -241,12 +231,12 @@ Anvil.addShaped(pipepump,
 	[reframat, pipe, reframat, null],
 	[null, null, null, null]
 ]);
-
+*/
 // Pipes
 val paneGlass = <ore:paneGlass>;
 paneGlass.addItems([<betternether:quartz_glass_pane>, <betternether:quartz_glass_framed_pane>,<netherex:soul_glass_pane>,<quark:framed_glass_pane>]);
 
-for item in paneGlass.items{
+/*for item in paneGlass.items{
 Anvil.addShaped(pipeliquid * 12, 
 [
 	[null, reframat, reframat, null],
@@ -256,7 +246,7 @@ Anvil.addShaped(pipeliquid * 12,
 ]);
 }
 
-/* //Requires RF
+//Requires RF
 Anvil.addShaped(<cyclicmagic:fluid_drain>,[
 	[steel, screwpump , steel],
     [refratank, screwpump, pipepump],

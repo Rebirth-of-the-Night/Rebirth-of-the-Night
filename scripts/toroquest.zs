@@ -15,6 +15,9 @@ JEI.removeAndHide(<toroquest:toro_armor_leggings>);
 JEI.removeAndHide(<toroquest:toro_armor_boots>);
 recipes.remove(<toroquest:toro_leather>);
 JEI.removeAndHide(<toroquest:toro_leather>);
+recipes.remove(<toroquest:recruitment_papers>);
+
+recipes.addShapeless(<toroquest:recruitment_papers>, [<minecraft:iron_sword>,<minecraft:iron_helmet>,<minecraft:iron_chestplate>,<minecraft:iron_leggings>,<minecraft:iron_boots>,<spartanshields:shield_basic_iron>,<minecraft:dye:0>,<minecraft:feather>,<minecraft:paper>]);
 
 val removedScrolls as string[] = [
     "earth",

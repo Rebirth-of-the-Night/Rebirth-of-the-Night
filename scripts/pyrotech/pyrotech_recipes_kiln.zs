@@ -103,10 +103,15 @@ This useful map couldn't have been made without the contribution of the Crafttwe
 */
 
 //metal
-var stringMat as string[] = ["Iron", "Copper", "Tin", "Silver", "Gold", "Viridium", "Mythril"];
-for mat in stringMat {
+var ore as string[] = ["Iron", "Copper", "Tin", "Silver", "Gold", "Viridium", "Mythril"];
+for mat in ore {
 //optional furnace ore recipes removal  ==>  furnace.remove(oreDict["ingot"~mat], oreDict["ore"~mat]);
     StoneKiln.addRecipe("StoneKiln"~mat, oreDict["ingot"~mat].firstItem, oreDict["ore"~mat], 20*250, true);
+}
+
+var denseOre as string[] = ["Iron", "Copper", "Tin", "Silver", "Gold", "Viridium", "Mythril"];
+for mat in denseOre {
+    StoneKiln.addRecipe("StoneKilnDense"~mat, oreDict["ingot"~mat].firstItem*2, oreDict["denseore"~mat], 20*250, true);
 }
 
 var dustMat as string[] = ["Iron", "Copper", "Tin", "Brass", "Silver", "Gold", "Viridium", "Mythril", "SoulforgedSteel", "CrucibleSteel", "Endorium", "Bronze", "Electrum"];
@@ -120,8 +125,18 @@ for mat in rawOre {
 }
 
 //gem
-var stringMat1 as string[] = ["Coal", "Redstone", "Lapis", "Diamond", "Ruby", "Sapphire", "Peridot", "Emerald", "Quartz", "Amethyst", "EnderBiotite", "Onyx", "Ambrosium", "Zanite"];
-for mat1 in stringMat1 {
+var gemOre as string[] = ["Coal", "Redstone", "Lapis", "Diamond", "Ruby", "Sapphire", "Peridot", "Emerald", "Quartz", "Onyx", "Zanite"];
+for mat1 in gemOre {
 //optional furnace ore recipes removal  ==>  furnace.remove(oreDict["gem"~mat1], oreDict["ore"~mat1]);
     StoneKiln.addRecipe("StoneKiln"~mat1, oreDict["gem"~mat1].firstItem, oreDict["ore"~mat1], 20*270, true);
 }
+
+var denseGemOre as string[] = ["Coal", "Redstone", "Lapis", "Diamond", "Ruby", "Sapphire", "Peridot", "Emerald", "Onyx"];
+for mat1 in denseGemOre {
+    StoneKiln.addRecipe("StoneKilnDense"~mat1, oreDict["gem"~mat1].firstItem*2, oreDict["denseore"~mat1], 20*270, true);
+}
+
+
+StoneKiln.addRecipe("StoneKilnExorite", <rotn_blocks:exorite_crystal>, <ore:oreAmethyst>, 20*270, true);
+StoneKiln.addRecipe("StoneKilnDenseExorite", <rotn_blocks:exorite_crystal>*2, <ore:denseoreAmethyst>, 20*270, true);
+StoneKiln.addRecipe("StoneKilnBiotite", <quark:biotite>, <quark:biotite_ore>, 20*270, true);

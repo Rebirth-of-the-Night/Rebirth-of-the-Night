@@ -1,0 +1,12 @@
+{
+  biomes: {
+    names: [ "beneath:the_beneath" ]
+  }
+  replaceableBlocks: [ "undergroundbiomes:metamorphic_stone", "undergroundbiomes:sedimentary_stone", "minecraft:stone", "minecraft:netherrack" ]
+  layers: [
+    {
+      state: contenttweaker:vathodermis
+      height: [ 0, 20 ]
+    }
+  ]
+}

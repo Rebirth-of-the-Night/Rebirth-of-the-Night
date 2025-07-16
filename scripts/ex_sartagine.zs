@@ -3659,6 +3659,8 @@ ExSartagine.addKettleRecipe([rawChicken,<harvestcraft:bbqsauceitem>,veggie,chees
 recipes.remove(<harvestcraft:quesadillaitem>);
 ExSartagine.addKettleRecipe([<harvestcraft:tortillaitem>,cheese],cookKitKettle,null,[<harvestcraft:quesadillaitem>],80);
 //Miso Paste (not organized, move once other items are done) [KEEPER]
+//Koji Mold duping
+Mortar.addRecipe(["stone"], koji_mold*2, 12, [rice,koji_mold]);
 recipes.remove(misoPaste);
 ExSartagine.addKettleRecipe([soybean,soybean,soybean,koji_mold,salt],null,waterBottle2,[misoPaste*3],80);
 //Raw End Pizza [KEEPER]

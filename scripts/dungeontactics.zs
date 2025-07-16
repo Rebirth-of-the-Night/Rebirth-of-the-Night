@@ -87,6 +87,7 @@ recipes.removeByRecipeName("dungeontactics:misc/books/dungeonpedia_volume_8");
 recipes.removeByRecipeName("dungeontactics:tools/grinder_block");
 recipes.removeByRecipeName("dungeontactics:traps/trap_port");
 recipes.removeByRecipeName("dungeontactics:traps/trap_ambush");
+recipes.removeByRecipeName("dungeontactics:misc/materials/mithril_block");
 
 JEI.removeAndHide(<dungeontactics:fire_starter>);
 recipes.addShapeless("flint_and_steel_relic",<minecraft:flint_and_steel>,[<contenttweaker:steel_artifact>,<minecraft:flint>]);
@@ -163,8 +164,13 @@ val rock = <pyrotech:rock>|<pyrotech_compat:rock_igneous:5>;
 recipes.remove(<dungeontactics:potshot_ammo>);
 recipes.addShapeless("potshot_ammo",<dungeontactics:potshot_ammo>*4,[rock,<minecraft:paper>]);
 
+recipes.removeByRecipeName("dungeontactics:tools/magic_pouch");
+recipes.addShaped("wand_powder_pouch",<dungeontactics:magic_pouch:639>,[
+    [null,<ore:twine>,null],
+    [null,<dungeontactics:magic_powder>,null],
+    [null,<ore:leather>,null]
+]);
 
-<ore:buttonStone>.addItems([<minecraft:stone_button>,<undergroundbiomes:igneous_stone_button:*>,<undergroundbiomes:metamorphic_stone_button:*>,<undergroundbiomes:sedimentary_stone_button:*>]);
 recipes.remove(<dungeontactics:rocket_pants>);
 recipes.addShaped("rocket_pants",<dungeontactics:rocket_pants>,[
     [<minecraft:redstone>,<ore:buttonStone>,<minecraft:redstone>],

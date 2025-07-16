@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": { "model": "bblsom:block_brooding_silk" },
+        "inventory": { "model": "bblsom:block_brooding_silk" }
+    }
+}

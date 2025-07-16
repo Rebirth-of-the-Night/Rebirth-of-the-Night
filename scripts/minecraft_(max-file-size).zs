@@ -389,6 +389,7 @@ gnugs.addAll(<ore:nuggetIron>);
 gnugs.addAll(<ore:nuggetBronze>);
 gnugs.addAll(<ore:nuggetSilver>);
 gnugs.addAll(<ore:nuggetSteel>);
+gnugs.addAll(<ore:nuggetWroughtIron>);
 
 val bars = <ore:bars>;
 bars.addAll(<ore:genericMetalBars>);
@@ -663,6 +664,13 @@ recipes.addShapeless("name_tag",<minecraft:name_tag>,[
     <ore:string>, <ore:nuggetGold>, <minecraft:paper>
 ]);
 
+recipes.removeByRecipeName("minecraft:dispenser");
+recipes.addShaped("vanilla_dispenser",<minecraft:dispenser>,[
+    [<ore:cobblestone>,<ore:cobblestone>,<ore:cobblestone>],
+    [<ore:cobblestone>,<minecraft:bow:*>,<ore:cobblestone>],
+    [<ore:cobblestone>,<minecraft:redstone>,<ore:cobblestone>]
+]);
+
 recipes.remove(<minecraft:fish:0>);
 recipes.remove(<minecraft:stone_slab:5>);
 recipes.addShaped("stone_brick_slab",<minecraft:stone_slab:5>*6,[
@@ -715,6 +723,8 @@ recipes.addShaped("oak_fence_gate",<minecraft:fence_gate>,[
     [<ore:stickWood>,<minecraft:planks:0>,<ore:stickWood>],
     [<ore:stickWood>,<minecraft:planks:0>,<ore:stickWood>]
 ]);
+
+
 
 val fenceStickMap = {
     <minecraft:planks:1> : [<minecraft:spruce_fence>,<minecraft:spruce_fence_gate>],
@@ -971,19 +981,6 @@ recipes.addShaped("Chainmail Boots", <minecraft:chainmail_boots>,[
     [chain, null, chain]
 ]);
 
-JEI.removeAndHide(<aether_legacy:skyroot_chest>);
-JEI.removeAndHide(<quark:custom_chest:0>);
-JEI.removeAndHide(<quark:custom_chest:1>);
-JEI.removeAndHide(<quark:custom_chest:2>);
-JEI.removeAndHide(<quark:custom_chest:3>);
-JEI.removeAndHide(<quark:custom_chest:4>);
-
-JEI.removeAndHide(<quark:custom_chest_trap:0>);
-JEI.removeAndHide(<quark:custom_chest_trap:1>);
-JEI.removeAndHide(<quark:custom_chest_trap:2>);
-JEI.removeAndHide(<quark:custom_chest_trap:3>);
-JEI.removeAndHide(<quark:custom_chest_trap:4>);
-
 // Iron Furnaces Hiding
 JEI.removeAndHide(<ironfurnaces:iron_furnace_active>);
 JEI.removeAndHide(<ironfurnaces:gold_furnace_active>);
@@ -1044,6 +1041,10 @@ recipes.addShaped("bowl",<minecraft:bowl>*4,[
     [<ore:stickMat>,null,<ore:stickMat>],
     [null,<ore:stickMat>,null]
 ]);
+
+recipes.addShapeless("bowl_to_cot_bowl",<contenttweaker:bowl>,[<minecraft:bowl>]);
+
+recipes.addShapeless("cot_bowl_to_bowl",<minecraft:bowl>,[<contenttweaker:bowl>]);
 
 val ladderMats = <ore:ladderMat>;
 ladderMats.mirror(<ore:stickWood>);
@@ -1116,30 +1117,11 @@ recipes.addShaped("brewing_stand_hcstructures", <minecraft:brewing_stand>,[
     [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
 ]);
 
-var woodenPodiumMat = <biomesoplenty:planks_0:0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:6>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|<biomesoplenty:planks_0:14>|<biomesoplenty:planks_0:15>|<betternether:stalagnate_planks>|<betternether:reeds_block>|<rustic:planks>|<rustic:planks:1>|<stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>|<twilightforest:tower_wood:*>|<twilightforest:twilight_oak_planks>|<twilightforest:canopy_planks>|<twilightforest:mangrove_planks>|<twilightforest:dark_planks>|<twilightforest:time_planks>|<twilightforest:trans_planks>|<twilightforest:mine_planks>|<twilightforest:sort_planks>|<aether_legacy:skyroot_plank>|<betterwithaddons:planks_sakura>|<betterwithaddons:planks_mulberry>;
-
-recipes.addShaped("wooden_podium",<iceandfire:podium:0>,[
-    [<minecraft:wooden_slab>,woodenPodiumMat,<minecraft:wooden_slab>],
-    [null,woodenPodiumMat,null],
-    [<minecraft:wooden_slab>,woodenPodiumMat,<minecraft:wooden_slab>]
-]);
-
 recipes.removeByRecipeName("dungeontactics:misc/convenience/books_from_shelves");
-recipes.addShapeless("book_from_bookshelf",<minecraft:book>,[<ore:bookshelf>]);
+recipes.addShapeless("book_from_bookshelf",<minecraft:book>*3,[<ore:bookshelf>]);
 
 JEI.removeAndHide(<minecraft:shield>);
 LootTable.removeGlobalItem("minecraft:shield");
-
-
-var potions = <minecraft:potion>;
-var potions_splash = <minecraft:splash_potion>;
-var potions_lingering = <minecraft:lingering_potion>;
-var elixir = <rustic:elixir>;
-
-potions.maxStackSize = 8;
-potions_splash.maxStackSize = 8;
-potions_lingering.maxStackSize = 8;
-elixir.maxStackSize = 8;
 
 RecipeBuilder.get("mage")
   .setName("holy_stake")
@@ -1161,8 +1143,6 @@ recipes.addShaped("scrapped_leather", <pyrotech:hide_small_scraped>,
 [[<contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>],
 [<contenttweaker:tattered_hide>, <betterwithmods:material:3>, <contenttweaker:tattered_hide>],
 [<contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>]]);
-
-recipes.addShapeless("fiery_nether_brick_sludge",<contenttweaker:unfired_fiery_brick>,[<contenttweaker:fiery_sludge>]);
 
 // Mossy brick recipes
 recipes.remove(<rats:marbled_cheese_brick_mossy>);
@@ -1338,6 +1318,8 @@ farmland.add(
 <ore:grass>.addItems([<minecraft:grass_path>,<aether_legacy:aether_grass>,<aether_legacy:enchanted_aether_grass>,<betterwithaddons:extra_grass:0>,<betterwithaddons:extra_grass:1>,<betterwithaddons:extra_grass:2>,<betterwithaddons:extra_grass:3>,<biomesoplenty:grass:1>,<biomesoplenty:grass:2>,<biomesoplenty:grass:3>,<biomesoplenty:grass:4>,<biomesoplenty:grass:5>,<biomesoplenty:grass:6>,<biomesoplenty:grass:7>,<biomesoplenty:grass:8>,<biomesoplenty:grass_path:0>,<stygian:endgrass>]);
 
 <ore:lever>.addItems([<minecraft:lever>,<aether_legacy:aether_lever>]);
+
+<ore:buttonStone>.addItems([<minecraft:stone_button>,<undergroundbiomes:igneous_stone_button:*>,<undergroundbiomes:metamorphic_stone_button:*>,<undergroundbiomes:sedimentary_stone_button:*>]);
 
 <ore:mat>.addItems([<harvestcraft:wovencottonitem>]);
 <ore:mat>.addAll(<ore:wool>);
@@ -1891,6 +1873,38 @@ recipes.remove(<minecraft:iron_bars>);
 recipes.addShaped(<minecraft:iron_bars> * 16, [
     [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
     [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
+]);
+
+//Sandstone Recipe Overhaul
+recipes.remove(<minecraft:sandstone>);
+recipes.addShaped(<minecraft:sandstone> * 4, [
+    [<minecraft:sand>, <minecraft:sand>],
+    [<minecraft:sand>, <minecraft:sand>]
+]);
+recipes.remove(<minecraft:red_sandstone>);
+recipes.addShaped(<minecraft:red_sandstone> * 4, [
+    [<minecraft:sand:1>, <minecraft:sand:1>],
+    [<minecraft:sand:1>, <minecraft:sand:1>]
+]);
+recipes.remove(<quark:soul_sandstone>);
+recipes.addShaped(<quark:soul_sandstone> * 4, [
+    [<minecraft:soul_sand>, <minecraft:soul_sand>],
+    [<minecraft:soul_sand>, <minecraft:soul_sand>]
+]);
+recipes.remove(<biomesoplenty:white_sandstone>);
+recipes.addShaped(<biomesoplenty:white_sandstone> * 4, [
+    [<biomesoplenty:white_sand>, <biomesoplenty:white_sand>],
+    [<biomesoplenty:white_sand>, <biomesoplenty:white_sand>]
+]);
+recipes.remove(<undergroundbiomes:igneous_sandstone>);
+recipes.addShaped(<undergroundbiomes:igneous_sandstone> * 4, [
+    [<undergroundbiomes:igneous_sand>, <undergroundbiomes:igneous_sand>],
+    [<undergroundbiomes:igneous_sand>, <undergroundbiomes:igneous_sand>]
+]);
+recipes.remove(<defiledlands:sandstone_defiled>);
+recipes.addShaped(<defiledlands:sandstone_defiled> * 4, [
+    [<defiledlands:sand_defiled>, <defiledlands:sand_defiled>],
+    [<defiledlands:sand_defiled>, <defiledlands:sand_defiled>]
 ]);
 
 // ContentTweaker extra blocks recipes
@@ -2464,6 +2478,7 @@ recipes.addShapedMirrored("golden_bb", <ceramics:clay_hard:3>*8,[
     [<contenttweaker:brick_ceramics_porcelain>, <ore:nuggetGold>, <contenttweaker:brick_ceramics_porcelain>],
     [<contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>]
 ]);
+
 ////////////////////////////////////// End of the temporary brick recipes.
 
 // L'egg recipe is in inspirations.zs

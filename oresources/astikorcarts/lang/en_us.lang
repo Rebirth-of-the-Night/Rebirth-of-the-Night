@@ -1,0 +1,11 @@
+item.astikorcarts:cargocart.name=Supply Cart
+item.astikorcarts:plowcart.name=Horse Plow
+item.astikorcarts:mobcart.name=Livestock Cart
+item.astikorcarts:wheel.name=Cart Wheel
+itemGroup.astikorcarts=AstikorCarts
+entity.astikorcarts:cargocart.name=Supply Cart
+entity.astikorcarts:plowcart.name=Horse Plow
+entity.astikorcarts:mobcart.name=Livestock Cart
+key.categories.astikorcarts=AstikorCarts
+key.astikorcarts.desc=Action Key
+config.astikorcarts:speedmodifier=Speed Modifier

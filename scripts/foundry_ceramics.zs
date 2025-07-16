@@ -142,6 +142,7 @@ Mortar.addRecipe(["diamond"], <ceramics:unfired_clay:4> * 9, 5, [kaolin_quartz, 
 Mortar.addRecipe(["diamond"], <ceramics:unfired_clay:4>, 5, [kaolin_quartz, <minecraft:clay_ball> * 8]);
 
 recipes.addShapeless("unfired_porcelain_bricks",<contenttweaker:unfired_porcelain_brick>,[<ceramics:unfired_clay:4>]);
+recipes.addShapeless("unfired_porcelain_revert",<ceramics:unfired_clay:4>,[<contenttweaker:unfired_porcelain_brick>]);
 
 //Refracotta colors
 val refracotta = <contenttweaker:refracotta>;
@@ -334,7 +335,6 @@ Melting.removeRecipe(<dungeontactics:tin_tinydust>);
 Melting.removeRecipe(<dungeontactics:gold_tinydust>);
 Melting.removeRecipe(<dungeontactics:silver_tinydust>);
 Melting.removeRecipe(<dungeontactics:iron_tinydust>);
-Melting.removeRecipe(<betterwithmods:material:48>);
 
 //Removed molds
 MoldStation.removeRecipe([//Gear
@@ -962,8 +962,6 @@ Casting.addRecipe(<minecraft:light_weighted_pressure_plate>, <liquid:gold>*((144
 Casting.addRecipe(<minecraft:heavy_weighted_pressure_plate>, <liquid:iron>*((144*2)-(16*2*2)), <foundry:mold:1>);
 Casting.addRecipe(<betterwithmods:steel_pressure_plate>, <liquid:soulforged_steel>*((144*2)-(16*2*2)), <foundry:mold:1>, <minecraft:redstone>);
 
-// MISC //
-Casting.removeRecipe(<liquid:iron>*576, <foundry:mold:2>);
 
 val lava_bricks = <ceramics:clay_hard:5>;
 recipes.removeByRecipeName("ceramics:decoration/lava_bricks/block");

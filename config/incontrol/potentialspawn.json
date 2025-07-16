@@ -383,7 +383,7 @@
     "mobs": [
       {
         "mob": "primitivemobs:void_eye",
-        "weight": 3,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       }

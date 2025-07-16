@@ -193,7 +193,8 @@ mods.betterwithmods.Anvil.removeShaped(<spartancompat:katana_onyx>);
 JEI.addDescription(<spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}),"Old and not very useful. It is really just a stick that someone probably found lying around, yet it feels like it comes from another era. It can be assumed that whoever its original wielder was, they really trusted it.");
 JEI.addDescription(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, ench: [{lvl: 5 as short, id: 25 as short}], RepairCost: 1, Quality: {}, display: {Name: "§4Unlabored §o§6Flawlessness"}, "Quark:RuneAttached": 1 as byte}),"Restored to a pristine state, the wisdom and power of previous generations has been deeply §linfused §rinto this artifact.");
 JEI.addDescription(<contenttweaker:nethercoin>,"Some sort of currency from an era long forgotten, before the disease had decimated the population of the Nether.","Only some high ranking individuals have them.");
-<contenttweaker:nethercoin>.addTooltip("Might be valuable to an archeologist or merchant from far away. Wasn't there some 'collector' in villages?");
+<contenttweaker:nethercoin>.addTooltip("Might be valuable to an archaeologist or merchant from far away.");
+<contenttweaker:nethercoin>.addTooltip("Wasn't there some 'collector' in villages?");
 
 
 //Kilo
@@ -217,8 +218,8 @@ recipes.addHiddenShaped("tickywicky", <dungeontactics:terrible_feather>.withTag(
 //ProvidenceDaemon
 //Prototype
 val clockworkHeart = <contenttweaker:clockwork_heart>;
-<contenttweaker:clockwork_heart>.addTooltip(format.darkPurple("tick, tick, tick..."));
-<contenttweaker:clockwork_heart>.addTooltip(format.darkRed("Still not enough... I must be PERFECT"));
+<contenttweaker:clockwork_heart>.addTooltip(format.darkPurple("Tick, tick, tick..."));
+<contenttweaker:clockwork_heart>.addTooltip(format.darkRed("Still not enough... I must be PERFECT."));
 JEI.addDescription(<contenttweaker:clockwork_heart>,"Provides some enhancements, but at a cost...");
 mods.betterwithmods.Anvil.addShapedFixed(<contenttweaker:clockwork_heart>, 
 [
@@ -230,10 +231,10 @@ mods.betterwithmods.Anvil.addShapedFixed(<contenttweaker:clockwork_heart>,
 
 //A permanent upgrade
 val dollHeart = <contenttweaker:doll_heart>;
-<contenttweaker:doll_heart>.addTooltip(format.darkPurple("tick, tick, tick..."));
-<contenttweaker:doll_heart>.addTooltip(format.white("No going back now..."));
+<contenttweaker:doll_heart>.addTooltip(format.darkPurple("Tick, tick, tick..."));
+<contenttweaker:doll_heart>.addTooltip(format.white("No going back now."));
 <contenttweaker:doll_heart>.addTooltip(format.darkBlue("Dev Relic 7/7"));
-JEI.addDescription(<contenttweaker:doll_heart>,"Provides a weak facsimile of perfection, but at what cost? Requires an imperfect heart encased in porcelain and infused with life giving metal");
+JEI.addDescription(<contenttweaker:doll_heart>,"Provides a weak facsimile of perfection, but at what cost? Requires an imperfect heart encased in porcelain and infused with life giving metal.");
 mods.betterwithmods.Anvil.addShapedFixed(<contenttweaker:doll_heart>.withTag({ench: [{lvl: 1, id: 10}]}),
 [
    [<contenttweaker:raw_viridium>, <ceramics:unfired_clay:4>, <ceramics:unfired_clay:4>, <contenttweaker:raw_viridium>],

@@ -38,6 +38,8 @@ recipes.addShaped("wares_table", <artisanworkstumps:workstump_potter>,
   [<minecraft:clay_ball>,<ore:workbench>,<minecraft:clay_ball>],
   [null,<ore:logWood>,null]]);
 
+recipes.addShapeless("porcelain_brick_revert",<ceramics:unfired_clay:4>,[<contenttweaker:unfired_porcelain_brick>]);
+
 // Refractory block to Crucible
 RecipeBuilder.get("potter")
  .setShapeless([<contenttweaker:modelingrefractory>])

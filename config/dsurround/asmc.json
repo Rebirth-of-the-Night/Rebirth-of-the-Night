@@ -1,0 +1,59 @@
+{
+	"footsteps": {
+		"minecraft:nether_brick": "asmc:block.nether_bricks.step",
+		"minecraft:red_nether_brick": "asmc:block.nether_bricks.step",
+		"minecraft:nether_brick_stairs": "asmc:block.nether_bricks.step",
+		"minecraft:nether_brick_fence+bigger": "asmc:block.nether_bricks.step",
+		"minecraft:stone_slab[variant=nether_brick]": "asmc:block.nether_bricks.step",
+		"minecraft:double_stone_slab[variant=nether_brick]": "asmc:block.nether_bricks.step",
+		"netherex:nether_brick_fence_gate+bigger": "asmc:block.nether_bricks.step",
+		"futuremc:nether_brick_wall+bigger": "asmc:block.nether_bricks.step",
+
+
+
+		"minecraft:netherrack": "asmc:block.netherrack.step",
+		"pyrotech_compat:rock_netherrack": "asmc:block.netherrack.step",
+		"minecraft:magma": "asmc:block.netherrack.step,fire",
+
+
+
+		"minecraft:bone_block": "asmc:block.bone_block.step",
+
+
+		
+		"minecraft:nether_wart_block": "asmc:block.wart_block.step",
+		"minecraft:brown_mushroom_block": "asmc:block.wart_block.break",
+		"minecraft:red_mushroom_block": "asmc:block.wart_block.break",
+		"bblsom:red_crown_huge": "asmc:block.wart_block.break",
+
+
+
+		"netherex:basalt": "asmc:block.basalt.step",
+
+
+		"minecraft:soul_sand": "asmc:block.soul_sand.step",
+		"betterwithaddons:ancestry_sand": "asmc:block.soul_sand.place",
+
+		"biomesoplenty:bramble_plant": "futuremc:nether_stem_step",
+
+
+		"minecraft:quartz_ore": "asmc:block.nether_ore.step",
+		"netherex:quartz_ore": "asmc:block.nether_ore.step",
+		"betternether:cincinnasite_ore": "asmc:block.nether_ore.step",
+		"osv:betternether_cincinnasite_ore_netherex_fiery_netherrack": "asmc:block.nether_ore.step",
+		"osv:betternether_cincinnasite_ore_netherex_fiery_netherrack[dense=true]": "asmc:block.nether_ore.step",
+		"osv:gold_ore_netherex_basalt": "asmc:block.nether_ore.step,asmc:block.basalt.step",
+		"osv:gold_ore_netherex_basalt[dense=true]": "asmc:block.nether_ore.step,asmc:block.basalt.step",
+		"osv:betternether_cincinnasite_ore_netherex_basalt": "asmc:block.nether_ore.step,asmc:block.basalt.step",
+		"osv:betternether_cincinnasite_ore_netherex_basalt[dense=true]": "asmc:block.nether_ore.step,asmc:block.basalt.step",
+		"osv:betternether_cincinnasite_ore_obsidian": "asmc:block.nether_ore.step,obsidian",
+		"osv:betternether_cincinnasite_ore_obsidian[dense=true]": "asmc:block.nether_ore.step,obsidian",
+		"simpleores:onyx_ore": "asmc:block.nether_ore.step",
+		"contenttweaker:dormant_onyx": "asmc:block.nether_ore.step",
+		"osv:simpleores_onyx_ore_contenttweaker_ardicite": "asmc:block.nether_ore.step,fire",
+		"osv:simpleores_onyx_ore_contenttweaker_ardicite[dense=true]": "asmc:block.nether_ore.step,fire",
+		"contenttweaker:dormant_ardicite_onyx": "asmc:block.nether_ore.step,fire",
+		"osv:simpleores_onyx_ore_futuremc_smooth_quartz": "asmc:block.nether_ore.step,marble",
+		"osv:simpleores_onyx_ore_futuremc_smooth_quartz[dense=true]": "asmc:block.nether_ore.step,marble"
+	}
+}

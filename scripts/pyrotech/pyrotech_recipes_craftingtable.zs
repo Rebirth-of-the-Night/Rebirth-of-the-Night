@@ -248,6 +248,7 @@ recipes.addShaped("pyro_refractory_faucet", <pyrotech:faucet_brick>*2,
   [refractoryMaterial,refractoryBrick,refractoryMaterial]]);
 recipes.addShapeless("pyro_refracotrymaterial_slag", refractoryMaterial*2, [<pyrotech:material:8>,<pyrotech:material:8>,<pyrotech:material:8>,<minecraft:clay_ball>]);
 recipes.addShapeless("pyro_unfiredlime_lime", <contenttweaker:unfired_refractory_brick>,[refractoryMaterial]);
+recipes.addShapeless("pyro_unfiredlime_revert",refractoryMaterial,[<contenttweaker:unfired_refractory_brick>]);
 furnace.remove(<minecraft:stonebrick:2>);
 furnace.addRecipe(<contenttweaker:brick_minecraft_stone>, <minecraft:stonebrick:2>, 0.0);
 furnace.addRecipe(<minecraft:stonebrick:2>, <contenttweaker:brick_minecraft_stone>, 0.0);
@@ -379,7 +380,7 @@ val sheepHideScraping as IItemStack[IIngredient] = {
 } as IItemStack[IIngredient];
 
 for i, entry in sheepHideScraping.entrySet {
-  recipes.addShapeless("hideScraping"~i, entry.value, [
+  recipes.addShapeless("sheepHideScraping"~i, entry.value, [
     entry.key.transformReplace(<pyrotech:hide_scraped>),
     <ore:smallKnife>.transformDamage()
   ]);
@@ -420,7 +421,7 @@ recipes.remove(<toroquest:toro_leather>);
 recipes.remove(<spartanweaponry:quiver_bolt_moderate>);
 recipes.remove(<spartanweaponry:quiver_arrow_moderate>);
 
-recipes.addShapeless("spartanweaponry:handle", handle*4, [stick,stick,stick,stick,leather_strip]);
+recipes.addShapeless("spartanweaponry_handle", handle*4, [stick,stick,stick,stick,leather_strip]);
 recipes.addShaped("leather_helmet", <minecraft:leather_helmet>,
  [[leather_sheet,leather_sheet,leather_sheet],
   [leather_sheet,null,leather_sheet]]);
