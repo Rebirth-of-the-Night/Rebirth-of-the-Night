@@ -54,6 +54,25 @@ recipes.addShaped("icicles",<iceandfire:dragon_ice_spikes>,[
     [<minecraft:ice>,null,<minecraft:ice>]
 ]);
 
+recipes.removeByRecipeName("iceandfire:deathworm_gauntlet_white");
+recipes.addShaped("deathworm_gauntlet_white",<iceandfire:deathworm_gauntlet_white>,[
+    [null,<iceandfire:deathworm_tounge>,null],
+    [<iceandfire:deathworm_chitin:1>,<ore:slimeball>,<iceandfire:deathworm_chitin:1>],
+    [<iceandfire:deathworm_chitin:1>,<iceandfire:deathworm_chitin:1>,<iceandfire:deathworm_chitin:1>]
+]);
+recipes.removeByRecipeName("iceandfire:deathworm_gauntlet_yellow");
+recipes.addShaped("deathworm_gauntlet_yellow",<iceandfire:deathworm_gauntlet_yellow>,[
+    [null,<iceandfire:deathworm_tounge>,null],
+    [<iceandfire:deathworm_chitin>,<ore:slimeball>,<iceandfire:deathworm_chitin>],
+    [<iceandfire:deathworm_chitin>,<iceandfire:deathworm_chitin>,<iceandfire:deathworm_chitin>]
+]);
+recipes.removeByRecipeName("iceandfire:deathworm_gauntlet_red");
+recipes.addShaped("deathworm_gauntlet_red",<iceandfire:deathworm_gauntlet_red>,[
+    [null,<iceandfire:deathworm_tounge>,null],
+    [<iceandfire:deathworm_chitin:2>,<ore:slimeball>,<iceandfire:deathworm_chitin:2>],
+    [<iceandfire:deathworm_chitin:2>,<iceandfire:deathworm_chitin:2>,<iceandfire:deathworm_chitin:2>]
+]);
+
 // Pixie Wand
 recipes.remove(<iceandfire:pixie_wand>);
 

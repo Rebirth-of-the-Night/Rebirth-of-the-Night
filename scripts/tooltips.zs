@@ -541,6 +541,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <dungeontactics:rocket_pants:*>.addTooltip("Rocket man burning out his fuse.");
 <dungeontactics:bounce_boots:*>.addTooltip("Minimizes fall damage with bounciness!");
 <dungeontactics:lantern_magic:*>.addTooltip("Outputs a magical aura that forces most creatures to steer away from it.");
+<dungeontactics:ducttape>.addShiftTooltip("Single use. Items can be repaired a maximum amount of 5 times with repair kits. Will prevent enchanting unless a true enchanting table is used.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <iceandfire:dragonbone_bow:*>.addTooltip("Only shoots Dragonbone Arrows.");
 <dungeontactics:lantern_magic:*>.addTooltip("Light with a Flint and Steel to activate.");
 <dungeontactics:lantern_magic:*>.addTooltip(format.red("DOES NOT DROP WHEN BROKEN!"));

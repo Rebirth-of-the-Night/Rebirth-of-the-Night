@@ -250,6 +250,8 @@ for potion in potionMap{
 <simpleores:adamantium_helmet:*>.addTooltip(format.darkGreen("Rare Armor"));
 <simpleores:adamantium_boots:*>.addTooltip(format.darkGreen("Rare Armor"));
 <simpleores:adamantium_ingot:*>.addTooltip(format.darkGreen("Rare Material"));
+<biomesoplenty:gem:5>.addTooltip(format.darkGreen("Rare Material"));
+<biomesoplenty:gem:5>.addTooltip("An elusive gem valued by mages, arcanists, and artisans of the occult.");
 
 <naturescompass:naturescompass>.displayName = "§aBiome Compass";
 

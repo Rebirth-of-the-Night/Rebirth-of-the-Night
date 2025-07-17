@@ -151,7 +151,60 @@ JEI.addDescription(<ore:dustGold>,"Crumblier metals can be bashed into workable 
 JEI.addDescription(<ore:dustSilver>,"Crumblier metals can be bashed into workable dusts without the need of an anvil.");
 JEI.addDescription(<ore:dustGravitite>,"Crumblier metals can be bashed into workable dusts without the need of an anvil.");
 JEI.addDescription(<ore:dustEndorium>,"Crumblier metals can be bashed into workable dusts without the need of an anvil.");
-JEI.addDescription(zincOre, "Also known as calamine. It can be found underground in freezing biomes where lodestones also appear.");
+JEI.addDescription(zincOre, "Also known as calamine. It can be found underground in freezing biomes where lodestones can also be seen.");
+
+JEI.addDescription(<biomesoplenty:gem:5>, "An unstable crystal that almost seems to be alive, rarely found in 'wonder geodes.' Current discoveries include the ability to allure and syphon spirits and souls. Maybe more uses will be discovered in the future.");
+JEI.addDescription(<biomesoplenty:gem:5>, "An old tale tells of an army that laid weapons down and gave birth to new life.");
+
+/* Simple ores */
+# Copper
+JEI.addDescription(<ore:ingotCopper>,"A rudimentary but serviceable metal. Best used to make redstone components and bronze.");
+//JEI.addDescription(<ore:blockCopper>, "Blocks of copper have the particularity of developing a crust or patina of a beautiful color similar to diamond; this natural feature can be prevented by coating it in wax.");
+
+# Tin
+JEI.addDescription(<ore:ingotTin>,"Good for building structures and creating components. Best used to make bronze and a few simple utility items.");
+
+# Viridium
+JEI.addDescription(<ore:ingotViridium>,"Viridium is found underground in the Beneath. A brittle, almost glasslike material; strangely light... literally. Weighs very little, and gives off a dim glow in the otherwise suffocating darkness of the Beneath.");
+JEI.addDescription(<simpleores:adamantium_helmet>,"Lightweight and highly protective. Let the conquest begin!");
+JEI.addDescription(<simpleores:adamantium_chestplate>,"Lightweight and highly protective.");
+JEI.addDescription(<simpleores:adamantium_leggings>,"Lightweight and highly protective.");
+JEI.addDescription(<simpleores:adamantium_boots>,"For long runs.");
+JEI.addDescription(<simpleores:adamantium_sword>,"So light, you could probably wear full armor and carry two of these around with ease.");
+JEI.addDescription(<simpleores:adamantium_pickaxe>,"Fragile, yet very effective.");
+JEI.addDescription(<simpleores:adamantium_axe>,"Small tree killer.");
+JEI.addDescription(<simpleores:adamantium_shovel>,"No dirt block will resist you now.");
+JEI.addDescription(<simpleores:adamantium_hoe>,"Is this thing just for farming?");
+JEI.addDescription(<simpleores:adamantium_shears>,"One of a kind. These shears are so sharp and nimble, you could actually cut the explosive glands off of a common creeper.");
+
+# Mythril
+JEI.addDescription(<ore:ingotMythril>,"Mythril is found deep underground in the Beneath, not always as an ore. A powerful arcane metal with peculiar traits that set it apart from other ores.");
+JEI.addDescription(<simpleores:mythril_helmet>,"Comfortable, practical and will keep you alive.");
+JEI.addDescription(<simpleores:mythril_chestplate>,"Comfortable, practical and will keep you alive.");
+JEI.addDescription(<simpleores:mythril_leggings>,"Comfortable, practical and will keep you alive.");
+JEI.addDescription(<simpleores:mythril_boots>,"Comfortable, practical and will keep you alive.");
+JEI.addDescription(<simpleores:mythril_sword>,"An elegant weapon... for a more civilized age. This is the most powerful sword the earth can provide.");
+JEI.addDescription(<simpleores:mythril_bow>,"Powerful, nimble, and deadly.");
+JEI.addDescription(<simpleores:mythril_pickaxe>,"The cooler blue pickaxe. Mine with more grace than ever before!");
+JEI.addDescription(<simpleores:mythril_axe>,"The heads of your enemies will fall before you... or maybe just a lot of tree trunks.");
+JEI.addDescription(<simpleores:mythril_shovel>,"An elegant design for a less-than-glamorous task.");
+JEI.addDescription(<simpleores:mythril_hoe>,"Capable of reaping all those pesky crops.");
+
+# Onyx
+JEI.addDescription(<simpleores:onyx_ore>,"A reclusive crystalline mineral found in the Nether. Extremely tough and one of the hardest known materials. Tools made of Soulforged Steel or other... 'exotic' components are strong enough to break it into chunks.");
+JEI.addDescription(<ore:gemOnyx>,"A reclusive crystalline mineral found in the Nether. Extremely tough and one of the hardest known materials. Tools made of Soulforged Steel or other... 'exotic' components are strong enough to break it into chunks like these.");
+JEI.addDescription(<simpleores:onyx_block>,"Arguably one of the hardest materials to have ever existed. Somehow, in the hands of an expert crafter, it becomes illogically malleable, but few have successfully harvested Onyx and lived to tell about it...");
+JEI.addDescription(<simpleores:onyx_helmet>,"Heavy-duty protection. Armor doesn't get much better than this.");
+JEI.addDescription(<simpleores:onyx_chestplate>,"Heavy-duty protection. Armor doesn't get much better than this.");
+JEI.addDescription(<simpleores:onyx_leggings>,"Heavy-duty protection. Armor doesn't get much better than this.");
+JEI.addDescription(<simpleores:onyx_boots>,"Heavy-duty protection. Armor doesn't get much better than this.");
+JEI.addDescription(<simpleores:onyx_sword>,"The sheer magnitude of this thing is enough to give any monster a hard time, especially in tandem with the onyx greatbow.");
+JEI.addDescription(<betterwithaddons:greatbow>,"The tension built by this bow paired with its twin sword will eradicate any living being that stands in its way. Only a greatarrow can withstand such pressure.");
+JEI.addDescription(<simpleores:onyx_pickaxe>,"Ergonomic to a fault. This is a true miner's best friend... although not quite as adaptable as a tool made of Soulforged Steel.");
+JEI.addDescription(<simpleores:onyx_bow>,"OwO? What's this, how did you get it?");
+JEI.addDescription(<simpleores:onyx_axe>,"Chop through wood like butter!");
+JEI.addDescription(<simpleores:onyx_shovel>,"Huge blade for huge pebbles.");
+JEI.addDescription(<simpleores:onyx_hoe>,"This won't burn the fields, right?");
 
 /* Manufacturing */
 val hempFiber = <betterwithmods:material:3>;
@@ -352,7 +405,6 @@ JEI.addDescription(<quark:black_ash>, "Foul essence! Decay can be felt being con
 JEI.addDescription(<ore:blockCandle>, "An aesthetic alternative to torches. Will fall if their support is removed.");
 JEI.addDescription(<minecraft:torch>, "An adventurer's best friend. Most will rather delve into caves looking for mineral coal than assemble a charcoal production operation, especially those in dire situations. Other more powerful light sources include Glaretorches, Hanging Lights or Lanterns.");
 JEI.addDescription(<arcanearchives:quartz_sliver>, "A cheap alternative to torches obtained by smashing radiant quartz against a hard surface.");
-JEI.addDescription(<simpleores:copper_block>, "Blocks of copper have the particularity of developing a crust or patina of a beautiful color similar to diamond; this natural feature can be prevented by coating it in wax.");
 
 /* Redstone, Automation and Functional Blocks */
 JEI.addDescription(<quark:ender_watcher>, "Redstone technology combined with the unblinking will of an Eye of Ender. Emits a redstone signal when looked at.");

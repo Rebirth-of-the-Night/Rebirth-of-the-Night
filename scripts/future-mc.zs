@@ -426,6 +426,7 @@ var ores as IItemStack[string] = {
 	"simpleores_copper_ore" : <simpleores:copper_ingot>,
 	"redstone_ore" : <minecraft:redstone>,
 	"biomesoplenty_peridot_ore" : <biomesoplenty:gem:2>,
+	"biomesoplenty_malachite_ore" : <biomesoplenty:gem:5>,
 	"coal_ore" : <minecraft:coal>,
 	"emerald_ore" : <minecraft:emerald>,
 	"diamond_ore" : <minecraft:diamond>,
