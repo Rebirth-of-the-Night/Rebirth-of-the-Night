@@ -128,3 +128,16 @@ llibrary/config.dat
 /config/litematica
 /config/minihud
 /journeymap
+config/fancymenu/config.txt
+config/fancymenu/locals/de_de.local
+config/fancymenu/locals/en_us.local
+config/fancymenu/locals/pl_pl.local
+config/fancymenu/locals/pt_br.local
+config/fancymenu/locals/ru_ru.local
+config/fancymenu/locals/uk_ua.local
+config/fancymenu/locals/zh_cn.local
+config/konkrete/locals/de_de.local
+config/konkrete/locals/en_us.local
+config/konkrete/locals/pl_pl.local
+config/konkrete/locals/pt_br.local
+impossible_data/what_is_this_folder.txt
