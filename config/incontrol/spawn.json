@@ -494,7 +494,7 @@
 /// MowziesMobs Beneath spawn cap
  // lantern
  {
-   "dimension": 10,
+  "dimension": 10,
   "mob": "mowziesmobs:lantern",
   "maxlight": 12,
   "minlight": 0,
@@ -517,8 +517,8 @@
     "result": "deny"
  },
 
-{
-   "dimension": 10,
+ {
+  "dimension": 10,
   "mob": "mowziesmobs:grottol",
   "maxlight": 1,
   "minlight": 0,
@@ -527,18 +527,18 @@
   "maxheight": 200,
     
   "result": "allow"
-},
-{
+ },
+ {
   "dimension": 10,
   "mob": "mowziesmobs:grottol",
   "result": "deny"
-},
+ },
 
 
 // attempt to ensure black death only spawns one at a time
 
  
-  {
+ {
     "mob": "minecraft:pig",
     "onjoin": true,
     "result": "deny"
@@ -550,25 +550,25 @@
     "result": "deny"
  },
  
-  {
+ {
     "mob": "minecraft:cow",
     "onjoin": true,
     "result": "deny"
  },*/
  
-  {
+ {
     "mob": "minecraft:chicken",
     "onjoin": true,
     "result": "deny"
  },
  
-  {
+ {
     "mob": "minecraft:mooshroom",
     "onjoin": true,
     "result": "deny"
  },
  
-  {
+ {
     "mob": "minecraft:rabbit",
     "onjoin": true,
     "result": "deny"
@@ -822,7 +822,15 @@
     "mob": "mod_lavacow:undertaker",
     "result": "deny"
  }, 
+ ///////////// TWILIGHT FOREST /////////////
+  // Replaced fauna
 
+ {
+    "mob": "twilightforest:deer",
+    "dimension": 7,
+    "onjoin": true,
+    "result": "deny"
+ }, 
  /////////////// GAME STAGES ///////////////
   // Zotzpyre
  {
