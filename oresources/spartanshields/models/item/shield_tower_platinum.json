@@ -1,6 +1,4 @@
 {
-	"format_version": "1.21.6",
-	"credit": "Made with Blockbench",
 	"parent": "spartanshields:item/shield_tower_platinum_normal",
 	"overrides": [
 		{"predicate": {"blocking": 1}, "model": "spartanshields:item/shield_tower_platinum_blocking"}

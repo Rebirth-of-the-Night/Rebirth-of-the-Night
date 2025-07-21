@@ -1,6 +1,5 @@
 {
-	"format_version": "1.21.6",
-	"credit": "Made with Blockbench",
+	"credit": "Foreck",
 	"texture_size": [32, 32],
 	"textures": {
 		"2": "bountifulbaubles:items/durenynd_will_back",
