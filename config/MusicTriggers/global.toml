@@ -1,0 +1,54 @@
+#  Global header!
+#  Line 2
+
+toggles_path = "toggles"
+
+[channels]
+	[channels.example]
+		#   This mod does not create custom sound categories on it's own, but categories registered from other mods will still work.
+		#   These are the normal categories: master, music, record, weather, block, hostile, neutral, player, ambient, voice
+		#   Note that you can nest config files in folders by specifying the folder before it like folder/filename.
+		explicitly_overrides = false
+		jukebox = "jukebox"
+		main = "main"
+		pauses_overrides = false
+		redirect = "redirect"
+		renders = "renders"
+
+[debug]
+	#   If SHOW_DEBUG and CURRENT_SONG_ONLY are both enabled, but you want to see the timestamps as well
+	allow_timestamps = false
+	#   If BLOCK_STREAMING_ONLY is disabled, BLOCKED_MOD_CATEGORIES will be able to stop non streaming audio sources like sound effects from playing
+	block_sound_effects = true
+	#   A list of mod ids to block audio in the specified audio category from so there is no overlap in music playing during events from other mods
+	blocked_sound_categories = [ "minecraft;music" ]
+	client_only = false
+	#   Show the debug info
+	enable_debug_info = false
+	enable_discs = true
+	#   Turing this down will potentially help with audio stutters (Min:1/Max:10)
+	encoding_quality = 10
+	gui_fuzz = true
+	#   Allows for the combination of song pools in the case of multiple triggers with the same priority value being able to play at once
+	independent_audio_pools = false
+	#   When Music Triggers starts playing audio, the audio from these categories will be stopped or paused dependeing on the channel settings. Only affects blocked audio
+	interrupted_sound_categories = [ "music" ]
+	#   If PAUSE_WHEN_TABBED is set to false, the music will no longer get paused when the game is not in focus
+	pause_unless_focused = true
+	#   Allows vanilla and blocked music to play when there is music from Music Triggers already playing
+	play_normal_music = false
+	#   Turing this down will potentially help with audio stutters (HIGH/MEDIUM/LOW)
+	resampling_quality = "HIGH"
+	#   Reverses the priority checker in the case of multiple triggers being able to play at once so the lowest priority wins instead of the highest
+	reverse_priority = false
+	show_channel_info = true
+	show_position_info = true
+	#   If SHOW_DEBUG is set to true, but you only want to see the song name
+	show_song_info = false
+	show_status_info = true
+	show_target_info = true
+	show_trigger_info = true
+	slow_tick_factor = 5.0
+	tick_rate = 20
+	write_default_values = [ "channel", "from", "image", "interrupt_handler", "main", "songs", "title", "toggle", "triggers", "universal_audio", "universal_triggers" ]
+
