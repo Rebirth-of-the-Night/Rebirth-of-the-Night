@@ -196,7 +196,6 @@ recipes.addShaped("potion_vaporizer", <randomthings:potionvaporizer>, [
 ]);
 
 // contact blocks
-// contact blocks
 recipes.remove(<randomthings:contactlever>);
 recipes.addShaped(<randomthings:contactlever>, [
     [<ore:stone>, <minecraft:iron_bars>, <ore:stone>],
