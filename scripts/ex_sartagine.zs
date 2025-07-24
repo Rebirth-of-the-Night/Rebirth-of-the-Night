@@ -128,6 +128,13 @@ recipes.addShapeless("quality_cooking_kit", <contenttweaker:cooking_kit_quality>
     tempKnives
 ]);
 
+recipes.addShapeless("elite_cooking_kit", <contenttweaker:cooking_kit_elite>, [
+    <spartancompat:dagger_adamantium:*>.anyDamage().noReturn(),
+    <betternether:quartz_glass_pane>|<netherex:soul_glass_pane>,
+    <advancedmortars:mortar:1>,
+    tempKnives
+]);
+
 recipes.addShapeless("premium_cooking_kit", <contenttweaker:cooking_kit_premium>, [
     <spartancompat:throwing_knife_mythril:*>.anyDamage().noReturn(),
     <betternether:quartz_glass_pane>|<netherex:soul_glass_pane>,
