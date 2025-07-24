@@ -744,3 +744,24 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 // PIPES
 <inspirations:pipe>.addTooltip(format.gold("Basic item pipe. Can only move items in one direction similar to a hopper."));
 <quark:pipe>.addTooltip(format.gold("Advanced item pipe. Can move items in multiple directions and take dropped items from an open end."));
+
+//Alcohol
+<contenttweaker:tankard_beer>.addTooltip(format.red("Tipsy (4:00) 40%"));
+<contenttweaker:tankard_beer>.addTooltip(format.blue("Strength (1:30)"));
+
+<contenttweaker:tankard_cider>.addTooltip(format.red("Tipsy (4:00) 40%"));
+<contenttweaker:tankard_cider>.addTooltip(format.blue("Absorption (1:30)"));
+
+<contenttweaker:tankard_sake>.addTooltip(format.red("Tipsy (4:00) 40%"));
+<contenttweaker:tankard_sake>.addTooltip(format.blue("Resistance (1:30)"));
+
+<contenttweaker:tankard_red_wine>.addTooltip(format.red("Tipsy (4:00) 40%"));
+<contenttweaker:tankard_red_wine>.addTooltip(format.blue("Resistance (1:30)"));
+
+<contenttweaker:tankard_ambrosia_mocktail>.addTooltip(format.red("Tipsy (4:00) 40%"));
+
+<contenttweaker:tankard_silken_nectar>.addTooltip(format.red("Tipsy (4:00) 40%"));
+
+<contenttweaker:tankard_mythril_energy>.addTooltip(format.red("Tipsy (4:00) 40%"));
+
+<contenttweaker:tankard_chemomile>.addTooltip(format.red("Tipsy (4:00) 40%"));

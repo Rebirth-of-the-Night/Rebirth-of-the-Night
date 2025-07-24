@@ -774,3 +774,17 @@ tile.contenttweaker.unfired_refractory_brick.name=Unfired Refractory Brick
 tile.contenttweaker.unfired_porcelain_brick.name=Unfired Porcelain Brick
 
 tile.contenttweaker.crucible_of_souls.name=Crucible of Souls
+
+#------------------------------------------------------------------------------
+# Alcohol
+#------------------------------------------------------------------------------
+
+item.contenttweaker.tankard.name=Tankard
+item.contenttweaker.tankard_beer.name=Beer
+item.contenttweaker.tankard_cider.name=Cider
+item.contenttweaker.tankard_sake.name=Sake
+item.contenttweaker.tankard_red_wine.name=Red Wine
+item.contenttweaker.tankard_ambrosia_mocktail.name=Ambrosia Mocktail
+item.contenttweaker.tankard_silken_nectar.name=Silken Nectar
+item.contenttweaker.tankard_mythril_energy.name=Mythril Energy
+item.contenttweaker.tankard_chemomile.name=Chemomile
