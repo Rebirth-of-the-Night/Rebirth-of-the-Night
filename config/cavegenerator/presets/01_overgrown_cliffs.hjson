@@ -50,7 +50,7 @@
   ]
   wallDecorators: [
     {
-      states: minecraft:stone
+      states: undergroundbiomes:sedimentary_stone:2
       directions: down
       matchers: biomesoplenty:grass:1
       height: [ 0, 280 ]
