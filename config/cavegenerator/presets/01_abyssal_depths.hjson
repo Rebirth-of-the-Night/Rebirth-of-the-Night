@@ -1,0 +1,103 @@
+{
+  enabled: true
+  biomes: {
+    names: [ "biometweaker:abyssal_depths" ]
+  }
+  rooms: {
+    scale: 9
+    stretch: 0.6
+  }
+  tunnels: {
+    # Use consistent scale values.
+    resizeBranches: false
+    scale: {
+      startVal: 2.7
+      startValRandFactor: 0.9
+    }
+    stretch: {
+      randFactor: 0.08
+      startVal: 0.9
+    }
+  }
+  ravines: {
+    # Increase ravine frequency.
+    chance: 0.2
+    distance: 140
+    scale: {
+      startVal: 2
+      startValRandFactor: 2
+    }
+    noiseYFactor: 0.9
+    originHeight: [ 70, 170 ]
+    yaw: { startValRandFactor: 1.5 }
+    pitch: { startValRandFactor: 0.75 }
+    dYaw: { randFactor: 5 }
+    stretch: { startVal: 4 }
+    walls: {
+      frequency: 0.1
+      range: [ 0, 4 ]
+    }
+  }
+  wallDecorators: [
+    # quark:iron_plate:1
+    {
+      states: quark:iron_plate:1
+      matchers: [ "minecraft:prismarine:0", "twilightforest:stone_twist:4", "deeperdepths:deepslate" ]
+      directions: down
+      height: [ 10, 50 ]
+      integrity: 0.002
+      placement: EMBED
+    }
+    # bloodstained
+    {
+      states: railcraft:bloodstained:5
+      matchers: [ "minecraft:prismarine:0", "twilightforest:stone_twist:4", "deeperdepths:deepslate" ]
+      directions: up
+      height: [ 10, 50 ]
+      integrity: 0.001
+      placement: OVERLAY
+    }
+  ]
+  caveBlocks: [
+    # Fills y=(12-45) with water.
+    {
+      states: water
+      height: [ 12, 85 ]
+    }
+    # Places caustic/abyssal shadows below water.
+    {
+      states: minetraps:quicksand
+      height: [ 0, 11 ]
+    }
+  ]
+  clusters: [
+    # minecraft:prismarine
+    {
+      states: [ "minecraft:prismarine:0" ]
+      chance: 0.1
+      radiusX: [ 13, 19 ]
+      radiusY: [ 9, 15 ]
+      radiusZ: [ 13, 19 ]
+      centerHeight: [ 24, 36 ]
+    }
+    # twilightforest:stone_twist:4
+    {
+      states: [ "twilightforest:stone_twist:4" ]
+      chance: 0.1
+      radiusX: [ 13, 19 ]
+      radiusY: [ 9, 15 ]
+      radiusZ: [ 13, 19 ]
+      centerHeight: [ 24, 36 ]
+    }
+  ]
+  stalactites: [
+    # Glowstone
+    {
+      state: aether_legacy:icestone:0
+      chance: 0.05
+      type: STALACTITE
+      height: [ 30, 60 ]
+      length: 1
+    }
+  ]
+}
