@@ -1,0 +1,131 @@
+import mods.requious.SlotVisual;
+import mods.requious.Color;
+import mods.requious.ComponentFace;
+import mods.requious.AssemblyRecipe;
+import crafttweaker.world.IWorld;
+
+var keg = <assembly:keg>;
+var arrowRight = SlotVisual.create(1, 1).addPart("requious:textures/gui/assembly_gauges.png", 0, 8).addDirectional("requious:textures/gui/assembly_gauges.png", 1, 8,mods.requious.GaugeDirection.right(),false);
+keg.setDecorationSlot(0,0, SlotVisual.create(9,10).addPart("contenttweaker:textures/gui/kegui.png",0,0));
+static keginput1 as SlotVisual = SlotVisual.createSimple("contenttweaker:textures/gui/kegui.png",1,1);
+static keginput2 as SlotVisual = SlotVisual.createSimple("contenttweaker:textures/gui/kegui.png",2,1);
+static keginput3 as SlotVisual = SlotVisual.createSimple("contenttweaker:textures/gui/kegui.png",1,2);
+static keginput4 as SlotVisual = SlotVisual.createSimple("contenttweaker:textures/gui/kegui.png",2,2);
+static kegcatalyst as SlotVisual = SlotVisual.createSimple("contenttweaker:textures/gui/kegui.png",3,1);
+static kegfluid as SlotVisual = SlotVisual.createSimple("contenttweaker:textures/gui/kegui.png",3,2);
+static kegstock as SlotVisual = SlotVisual.createSimple("contenttweaker:textures/gui/kegui.png",6,1);
+static kegcontainer as SlotVisual = SlotVisual.createSimple("contenttweaker:textures/gui/kegui.png",5,3);
+static kegcontaineroutput as SlotVisual = SlotVisual.createSimple("contenttweaker:textures/gui/kegui.png",6,4);
+static kegoutput as SlotVisual = SlotVisual.createSimple("contenttweaker:textures/gui/kegui.png",7,3);
+static kegblank as SlotVisual = SlotVisual.createSimple("contenttweaker:textures/gui/kegui.png",10,10);
+
+keg.setTextSlot(3,0).setVisual(mods.requious.SlotVisual.create(0,0)).setRenderText("Keg");
+
+
+keg.setItemSlot(1, 1, ComponentFace.up(), 64)
+       .setAccess(true, false)
+       .setBackground(keginput1)
+       .setGroup("input")
+       .setGroup("item");
+keg.setItemSlot(2, 1, ComponentFace.up(), 64)
+       .setAccess(true, false)
+       .setBackground(keginput2)
+       .setGroup("input")
+       .setGroup("item");
+keg.setItemSlot(1, 2, ComponentFace.up(), 64)
+       .setAccess(true, false)
+       .setBackground(keginput3)
+       .setGroup("input")
+       .setGroup("item");
+keg.setItemSlot(2, 2, ComponentFace.up(), 64)
+       .setAccess(true, false)
+       .setBackground(keginput4)
+       .setGroup("input")
+       .setGroup("item");
+keg.setItemSlot(3, 1, ComponentFace.up(), 64)
+       .setAccess(true, false)
+       .setBackground(kegcatalyst)
+       .setGroup("catalyst");
+keg.setFluidSlot(3, 2, ComponentFace.horizontal(), 8000)
+       .setAccess(true, false)
+       .setBackground(kegfluid)
+       .allowBucket(true, true)
+       .setGroup("input_fluid");
+keg.setDurationSlot(4, 1)
+       .setVisual(arrowRight)
+       .setGroup("input");
+    
+
+
+
+
+keg.setItemSlot(6, 1, ComponentFace.down(), 64)
+       .setAccess(false, false)
+       .setBackground(kegstock)
+       .setGroup("stock")
+       .noDrop()
+       .setHandAccess(false, false);
+keg.setItemSlot(5, 3, ComponentFace.front(), 64)
+       .setAccess(true, false)
+       .setBackground(kegcontainer)
+       .setGroup("container");
+keg.setItemSlot(6, 4, ComponentFace.down(), 64)
+       .setAccess(false, true)
+       .setBackground(kegcontaineroutput)
+       .setGroup("container_output");
+keg.setItemSlot(7, 3, ComponentFace.down(), 64)
+       .setAccess(false, true)
+       .setBackground(kegoutput)
+       .setGroup("output");
+keg.setItemSlot(8, 0, ComponentFace.down(), 1)
+       .setAccess(false, false)
+       .setBackground(kegblank)
+       .setGroup("info")
+       .noDrop()
+       .setHandAccess(false, false);
+//
+var info = AssemblyRecipe.create(function(container){
+    container.addItemOutput("info",<contenttweaker:keg_info>);
+});
+keg.addRecipe(info);
+//
+var beer = AssemblyRecipe.create(function(container){
+    container.addItemOutput("stock",<contenttweaker:tankard_beer>.withTag({display: {Lore: ["Extract with Bottle or Tankard"]}}));
+})
+.requireItem("input", <minecraft:wheat>*2)
+.requireFluid("input_fluid", <liquid:water>*250)
+.requireDuration("input", 60);
+keg.addJEIRecipe(beer);
+keg.addRecipe(beer);
+var tankard_beer = AssemblyRecipe.create(function(container){
+    container.addItemOutput("output",<contenttweaker:tankard_beer>);
+})
+.requireItem("stock", <contenttweaker:tankard_beer>)
+.requireItem("container", <contenttweaker:tankard>);
+keg.addRecipe(tankard_beer);
+//
+var ironberry_stout = AssemblyRecipe.create(function(container){
+    container.addItemOutput("stock",<contenttweaker:tankard_ironberry_stout>);
+    container.addItemOutput("container_output",<contenttweaker:tankard>*2);
+})
+.requireItem("input", <contenttweaker:tankard_beer>*2)
+.requireDuration("input", 60);
+keg.addJEIRecipe(ironberry_stout);
+keg.addRecipe(ironberry_stout);
+var tankard_ironberry_stout = AssemblyRecipe.create(function(container){
+    container.addItemOutput("output",<contenttweaker:tankard_ironberry_stout>);
+})
+.requireItem("stock", <contenttweaker:tankard_ironberry_stout>)
+.requireItem("container", <contenttweaker:tankard>);
+keg.addRecipe(tankard_ironberry_stout);
+//
+
+
+keg.setJEIItemSlot(0,0,"input",keginput1);
+keg.setJEIItemSlot(1,0,"input",keginput1);
+keg.setJEIItemSlot(0,1,"input",keginput1);
+keg.setJEIItemSlot(1,1,"input",keginput1);
+keg.setJEIItemSlot(0,2,"catalyst",kegcatalyst);
+keg.setJEIFluidSlot(1,2,"input_fluid",keginput1);
+keg.setJEIItemSlot(3,1,"stock",keginput1);
+keg.setJEIDurationSlot(2,1,"input", arrowRight);

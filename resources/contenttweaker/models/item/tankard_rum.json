@@ -1,0 +1,6 @@
+{
+  "parent": "contenttweaker:item/tankard",
+  "textures": {
+    "layer0": "contenttweaker:items/tankard_rum"
+  }
+}

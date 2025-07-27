@@ -389,7 +389,7 @@ dolomite_straws.setToolLevel(0);
 dolomite_straws.register();
 
 // Wolf Statue
-var wolf_statue = VanillaFactory.createBlock("wolf_statue", <blockmaterial:Rock>);
+var wolf_statue = VanillaFactory.createDirectionalBlock("wolf_statue", <blockmaterial:Rock>, "HORIZONTAL", false, true);
 wolf_statue.axisAlignedBB = AxisAlignedBB.create(
      2.0 / 16.0,
      0.0 / 16.0,
@@ -2721,6 +2721,272 @@ concrete_gray_brick.setBlockHardness(40.0);
 concrete_gray_brick.setBlockResistance(5.0);
 concrete_gray_brick.setToolLevel(1);
 concrete_gray_brick.register();
+
+//Curtains
+
+var curtain_white = VanillaFactory.createDirectionalBlock("curtain_white", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+curtain_white.setBlockHardness(2.0);
+curtain_white.setBlockResistance(1.0);
+curtain_white.setPassable(true);
+curtain_white.setToolClass("axe");
+curtain_white.setFullBlock(false);
+curtain_white.setLightOpacity(0);
+curtain_white.setBlockSoundType(<soundtype:wood>);
+curtain_white.setBlockLayer("CUTOUT_MIPPED");
+curtain_white.register();
+
+var curtain_orange = VanillaFactory.createDirectionalBlock("curtain_orange", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+curtain_orange.setBlockHardness(2.0);
+curtain_orange.setBlockResistance(1.0);
+curtain_orange.setPassable(true);
+curtain_orange.setToolClass("axe");
+curtain_orange.setFullBlock(false);
+curtain_orange.setLightOpacity(0);
+curtain_orange.setBlockSoundType(<soundtype:wood>);
+curtain_orange.setBlockLayer("CUTOUT_MIPPED");
+curtain_orange.register();
+
+var curtain_magenta = VanillaFactory.createDirectionalBlock("curtain_magenta", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+curtain_magenta.setBlockHardness(2.0);
+curtain_magenta.setBlockResistance(1.0);
+curtain_magenta.setPassable(true);
+curtain_magenta.setToolClass("axe");
+curtain_magenta.setFullBlock(false);
+curtain_magenta.setLightOpacity(0);
+curtain_magenta.setBlockSoundType(<soundtype:wood>);
+curtain_magenta.setBlockLayer("CUTOUT_MIPPED");
+curtain_magenta.register();
+
+var curtain_light_blue = VanillaFactory.createDirectionalBlock("curtain_light_blue", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+curtain_light_blue.setBlockHardness(2.0);
+curtain_light_blue.setBlockResistance(1.0);
+curtain_light_blue.setPassable(true);
+curtain_light_blue.setToolClass("axe");
+curtain_light_blue.setFullBlock(false);
+curtain_light_blue.setLightOpacity(0);
+curtain_light_blue.setBlockSoundType(<soundtype:wood>);
+curtain_light_blue.setBlockLayer("CUTOUT_MIPPED");
+curtain_light_blue.register();
+
+var curtain_yellow = VanillaFactory.createDirectionalBlock("curtain_yellow", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+curtain_yellow.setBlockHardness(2.0);
+curtain_yellow.setBlockResistance(1.0);
+curtain_yellow.setPassable(true);
+curtain_yellow.setToolClass("axe");
+curtain_yellow.setFullBlock(false);
+curtain_yellow.setLightOpacity(0);
+curtain_yellow.setBlockSoundType(<soundtype:wood>);
+curtain_yellow.setBlockLayer("CUTOUT_MIPPED");
+curtain_yellow.register();
+
+var curtain_lime = VanillaFactory.createDirectionalBlock("curtain_lime", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+curtain_lime.setBlockHardness(2.0);
+curtain_lime.setBlockResistance(1.0);
+curtain_lime.setPassable(true);
+curtain_lime.setToolClass("axe");
+curtain_lime.setFullBlock(false);
+curtain_lime.setLightOpacity(0);
+curtain_lime.setBlockSoundType(<soundtype:wood>);
+curtain_lime.setBlockLayer("CUTOUT_MIPPED");
+curtain_lime.register();
+
+var curtain_pink = VanillaFactory.createDirectionalBlock("curtain_pink", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+curtain_pink.setBlockHardness(2.0);
+curtain_pink.setBlockResistance(1.0);
+curtain_pink.setPassable(true);
+curtain_pink.setToolClass("axe");
+curtain_pink.setFullBlock(false);
+curtain_pink.setLightOpacity(0);
+curtain_pink.setBlockSoundType(<soundtype:wood>);
+curtain_pink.setBlockLayer("CUTOUT_MIPPED");
+curtain_pink.register();
+
+var curtain_gray = VanillaFactory.createDirectionalBlock("curtain_gray", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+curtain_gray.setBlockHardness(2.0);
+curtain_gray.setBlockResistance(1.0);
+curtain_gray.setPassable(true);
+curtain_gray.setToolClass("axe");
+curtain_gray.setFullBlock(false);
+curtain_gray.setLightOpacity(0);
+curtain_gray.setBlockSoundType(<soundtype:wood>);
+curtain_gray.setBlockLayer("CUTOUT_MIPPED");
+curtain_gray.register();
+
+var curtain_light_gray = VanillaFactory.createDirectionalBlock("curtain_light_gray", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+curtain_light_gray.setBlockHardness(2.0);
+curtain_light_gray.setBlockResistance(1.0);
+curtain_light_gray.setPassable(true);
+curtain_light_gray.setToolClass("axe");
+curtain_light_gray.setFullBlock(false);
+curtain_light_gray.setLightOpacity(0);
+curtain_light_gray.setBlockSoundType(<soundtype:wood>);
+curtain_light_gray.setBlockLayer("CUTOUT_MIPPED");
+curtain_light_gray.register();
+
+var curtain_cyan = VanillaFactory.createDirectionalBlock("curtain_cyan", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+curtain_cyan.setBlockHardness(2.0);
+curtain_cyan.setBlockResistance(1.0);
+curtain_cyan.setPassable(true);
+curtain_cyan.setToolClass("axe");
+curtain_cyan.setFullBlock(false);
+curtain_cyan.setLightOpacity(0);
+curtain_cyan.setBlockSoundType(<soundtype:wood>);
+curtain_cyan.setBlockLayer("CUTOUT_MIPPED");
+curtain_cyan.register();
+
+var curtain_purple = VanillaFactory.createDirectionalBlock("curtain_purple", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+curtain_purple.setBlockHardness(2.0);
+curtain_purple.setBlockResistance(1.0);
+curtain_purple.setPassable(true);
+curtain_purple.setToolClass("axe");
+curtain_purple.setFullBlock(false);
+curtain_purple.setLightOpacity(0);
+curtain_purple.setBlockSoundType(<soundtype:wood>);
+curtain_purple.setBlockLayer("CUTOUT_MIPPED");
+curtain_purple.register();
+
+var curtain_blue = VanillaFactory.createDirectionalBlock("curtain_blue", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+curtain_blue.setBlockHardness(2.0);
+curtain_blue.setBlockResistance(1.0);
+curtain_blue.setPassable(true);
+curtain_blue.setToolClass("axe");
+curtain_blue.setFullBlock(false);
+curtain_blue.setLightOpacity(0);
+curtain_blue.setBlockSoundType(<soundtype:wood>);
+curtain_blue.setBlockLayer("CUTOUT_MIPPED");
+curtain_blue.register();
+
+var curtain_brown = VanillaFactory.createDirectionalBlock("curtain_brown", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+curtain_brown.setBlockHardness(2.0);
+curtain_brown.setBlockResistance(1.0);
+curtain_brown.setPassable(true);
+curtain_brown.setToolClass("axe");
+curtain_brown.setFullBlock(false);
+curtain_brown.setLightOpacity(0);
+curtain_brown.setBlockSoundType(<soundtype:wood>);
+curtain_brown.setBlockLayer("CUTOUT_MIPPED");
+curtain_brown.register();
+
+var curtain_green = VanillaFactory.createDirectionalBlock("curtain_green", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+curtain_green.setBlockHardness(2.0);
+curtain_green.setBlockResistance(1.0);
+curtain_green.setPassable(true);
+curtain_green.setToolClass("axe");
+curtain_green.setFullBlock(false);
+curtain_green.setLightOpacity(0);
+curtain_green.setBlockSoundType(<soundtype:wood>);
+curtain_green.setBlockLayer("CUTOUT_MIPPED");
+curtain_green.register();
+
+var curtain_red = VanillaFactory.createDirectionalBlock("curtain_red", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+curtain_red.setBlockHardness(2.0);
+curtain_red.setBlockResistance(1.0);
+curtain_red.setPassable(true);
+curtain_red.setToolClass("axe");
+curtain_red.setFullBlock(false);
+curtain_red.setLightOpacity(0);
+curtain_red.setBlockSoundType(<soundtype:wood>);
+curtain_red.setBlockLayer("CUTOUT_MIPPED");
+curtain_red.register();
+
+var curtain_black = VanillaFactory.createDirectionalBlock("curtain_black", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+curtain_black.setBlockHardness(2.0);
+curtain_black.setBlockResistance(1.0);
+curtain_black.setPassable(true);
+curtain_black.setToolClass("axe");
+curtain_black.setFullBlock(false);
+curtain_black.setLightOpacity(0);
+curtain_black.setBlockSoundType(<soundtype:wood>);
+curtain_black.setBlockLayer("CUTOUT_MIPPED");
+curtain_black.register();
+
+var curtain_trans = VanillaFactory.createDirectionalBlock("curtain_trans", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+curtain_trans.setBlockHardness(2.0);
+curtain_trans.setBlockResistance(1.0);
+curtain_trans.setPassable(true);
+curtain_trans.setToolClass("axe");
+curtain_trans.setFullBlock(false);
+curtain_trans.setLightOpacity(0);
+curtain_trans.setBlockSoundType(<soundtype:wood>);
+curtain_trans.setBlockLayer("CUTOUT_MIPPED");
+curtain_trans.register();
+
+var curtain_checkered = VanillaFactory.createDirectionalBlock("curtain_checkered", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+curtain_checkered.setBlockHardness(2.0);
+curtain_checkered.setBlockResistance(1.0);
+curtain_checkered.setPassable(true);
+curtain_checkered.setToolClass("axe");
+curtain_checkered.setFullBlock(false);
+curtain_checkered.setLightOpacity(0);
+curtain_checkered.setBlockSoundType(<soundtype:wood>);
+curtain_checkered.setBlockLayer("CUTOUT_MIPPED");
+curtain_checkered.register();
+
+var curtain_eye = VanillaFactory.createDirectionalBlock("curtain_eye", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+curtain_eye.setBlockHardness(2.0);
+curtain_eye.setBlockResistance(1.0);
+curtain_eye.setPassable(true);
+curtain_eye.setToolClass("axe");
+curtain_eye.setFullBlock(false);
+curtain_eye.setLightOpacity(0);
+curtain_eye.setBlockSoundType(<soundtype:wood>);
+curtain_eye.setBlockLayer("CUTOUT_MIPPED");
+curtain_eye.register();
+
+var curtain_peak = VanillaFactory.createDirectionalBlock("curtain_peak", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+curtain_peak.setBlockHardness(2.0);
+curtain_peak.setBlockResistance(1.0);
+curtain_peak.setPassable(true);
+curtain_peak.setToolClass("axe");
+curtain_peak.setFullBlock(false);
+curtain_peak.setLightOpacity(0);
+curtain_peak.setBlockSoundType(<soundtype:wood>);
+curtain_peak.setBlockLayer("CUTOUT_MIPPED");
+curtain_peak.register();
+
+var curtain_royal = VanillaFactory.createDirectionalBlock("curtain_royal", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+curtain_royal.setBlockHardness(2.0);
+curtain_royal.setBlockResistance(1.0);
+curtain_royal.setPassable(true);
+curtain_royal.setToolClass("axe");
+curtain_royal.setFullBlock(false);
+curtain_royal.setLightOpacity(0);
+curtain_royal.setBlockSoundType(<soundtype:wood>);
+curtain_royal.setBlockLayer("CUTOUT_MIPPED");
+curtain_royal.register();
+
+var curtain_patterned = VanillaFactory.createDirectionalBlock("curtain_patterned", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+curtain_patterned.setBlockHardness(2.0);
+curtain_patterned.setBlockResistance(1.0);
+curtain_patterned.setPassable(true);
+curtain_patterned.setToolClass("axe");
+curtain_patterned.setFullBlock(false);
+curtain_patterned.setLightOpacity(0);
+curtain_patterned.setBlockSoundType(<soundtype:wood>);
+curtain_patterned.setBlockLayer("CUTOUT_MIPPED");
+curtain_patterned.register();
+
+var curtain_beige = VanillaFactory.createDirectionalBlock("curtain_beige", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+curtain_beige.setBlockHardness(2.0);
+curtain_beige.setBlockResistance(1.0);
+curtain_beige.setPassable(true);
+curtain_beige.setToolClass("axe");
+curtain_beige.setFullBlock(false);
+curtain_beige.setLightOpacity(0);
+curtain_beige.setBlockSoundType(<soundtype:wood>);
+curtain_beige.setBlockLayer("CUTOUT_MIPPED");
+curtain_beige.register();
+
+var curtain_cloud = VanillaFactory.createDirectionalBlock("curtain_cloud", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+curtain_cloud.setBlockHardness(2.0);
+curtain_cloud.setBlockResistance(1.0);
+curtain_cloud.setPassable(true);
+curtain_cloud.setToolClass("axe");
+curtain_cloud.setFullBlock(false);
+curtain_cloud.setLightOpacity(0);
+curtain_cloud.setBlockSoundType(<soundtype:wood>);
+curtain_cloud.setBlockLayer("CUTOUT_MIPPED");
+curtain_cloud.register();
 
 // Liquids
 var ender_slag = VanillaFactory.createFluid("ender_slag", Color.fromHex("fffdd0"));

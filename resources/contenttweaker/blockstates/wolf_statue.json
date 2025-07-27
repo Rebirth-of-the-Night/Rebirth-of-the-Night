@@ -1,16 +1,8 @@
 {
-  "forge_marker": 1,
-  "defaults": {
-    "textures": {
-      "texture": "railcraft:blocks/brick_nether",
-      "particle": "railcraft:blocks/brick_nether"
-    },
-    "model": "contenttweaker:wolf_statue",
-    "uvlock": true,
-    "transform": "forge:default-block"
-  },
   "variants": {
-    "normal": [{}],
-    "inventory": [{}]
-  }
+  "facing=north": { "model": "contenttweaker:wolf_statue", "y": 180 },
+  "facing=south": { "model": "contenttweaker:wolf_statue", "y": 0 },
+  "facing=west": { "model": "contenttweaker:wolf_statue", "y": 90 },
+  "facing=east": { "model": "contenttweaker:wolf_statue", "y": 270 }
+}
 }

@@ -1,5 +1,5 @@
 {
-  "parent": "item/generated",
+  "parent": "contenttweaker:item/tankard",
   "textures": {
     "layer0": "contenttweaker:items/tankard_red_wine"
   }

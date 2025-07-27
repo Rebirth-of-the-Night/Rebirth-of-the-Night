@@ -746,6 +746,21 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <quark:pipe>.addTooltip(format.gold("Advanced item pipe. Can move items in multiple directions and take dropped items from an open end."));
 
 //Alcohol
+<contenttweaker:keg_info>.clearTooltip();
+<contenttweaker:keg_info>.addTooltip(format.white("In a keg, brewing one drink will take the"));
+<contenttweaker:keg_info>.addTooltip(format.white("same amount of time as brewing a stack."));
+<contenttweaker:keg_info>.addTooltip(format.white(""));
+<contenttweaker:keg_info>.addTooltip(format.white("When extracting drinks from a keg,"));
+<contenttweaker:keg_info>.addTooltip(format.white("you may choose between a Bottle and a Tankard."));
+<contenttweaker:keg_info>.addTooltip(format.green("-A Bottle will store the drink indefinitely,"));
+<contenttweaker:keg_info>.addTooltip(format.green("and will grant its base effects."));
+<contenttweaker:keg_info>.addTooltip(format.blue("-A Tankard will store the drink for a limited"));
+<contenttweaker:keg_info>.addTooltip(format.blue("amount of time, at a higher duration or potency."));
+
+
+
+
+
 <contenttweaker:tankard_beer>.addTooltip(format.red("Tipsy (4:00) 40%"));
 <contenttweaker:tankard_beer>.addTooltip(format.blue("Strength (1:30)"));
 
@@ -765,3 +780,29 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <contenttweaker:tankard_mythril_energy>.addTooltip(format.red("Tipsy (4:00) 40%"));
 
 <contenttweaker:tankard_chemomile>.addTooltip(format.red("Tipsy (4:00) 40%"));
+
+<contenttweaker:tankard_rum>.addTooltip(format.red("Tipsy (4:00) 40%"));
+
+<contenttweaker:tankard_ognovoda>.addTooltip(format.red("Tipsy (4:00) 40%"));
+
+<contenttweaker:tankard_mead>.addTooltip(format.red("Tipsy (4:00) 40%"));
+
+<contenttweaker:tankard_dragon_daquiri>.addTooltip(format.red("Tipsy (4:00) 40%"));
+
+<contenttweaker:tankard_ironberry_stout>.addTooltip(format.red("Tipsy (4:00) 40%"));
+
+<contenttweaker:tankard_twinned_spirit>.addTooltip(format.red("Tipsy (4:00) 40%"));
+
+<contenttweaker:tankard_billowing_tonic>.addTooltip(format.red("Tipsy (4:00) 40%"));
+
+<contenttweaker:tankard_enchanted_mead>.addTooltip(format.red("Tipsy (4:00) 40%"));
+
+<contenttweaker:tankard_blastem_brandy>.addTooltip(format.red("Tipsy (4:00) 40%"));
+
+<contenttweaker:tankard_rose_tequila>.addTooltip(format.red("Tipsy (4:00) 40%"));
+
+<contenttweaker:tankard_sanguine_remedy>.addTooltip(format.red("Tipsy (4:00) 40%"));
+
+<contenttweaker:tankard_tzarma>.addTooltip(format.red("Tipsy (4:00) 40%"));
+
+<contenttweaker:tankard_melon_chareau>.addTooltip(format.red("Tipsy (4:00) 40%"));

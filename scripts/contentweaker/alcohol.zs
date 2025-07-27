@@ -9,6 +9,9 @@ import crafttweaker.data.IData;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
+var keg_info = VanillaFactory.createItem("keg_info");
+keg_info.register();
+
 var tankard = VanillaFactory.createItem("tankard");
 tankard.register();
 
@@ -99,3 +102,157 @@ tankard_chemomile.onItemFoodEaten = function(stack, world, player) {
     }
 };
 tankard_chemomile.register();
+
+var tankard_rum = VanillaFactory.createItemFood("tankard_rum", 1);
+tankard_rum.setSaturation(1.0);
+tankard_rum.setAlwaysEdible(true);
+tankard_rum.setItemUseAction("DRINK");
+tankard_rum.onItemFoodEaten = function(stack, world, player) {
+    if (!world.isRemote()) {
+        player.give(<item:contenttweaker:tankard>);
+    }
+};
+tankard_rum.register();
+
+var tankard_ognovoda = VanillaFactory.createItemFood("tankard_ognovoda", 1);
+tankard_ognovoda.setSaturation(1.0);
+tankard_ognovoda.setAlwaysEdible(true);
+tankard_ognovoda.setItemUseAction("DRINK");
+tankard_ognovoda.onItemFoodEaten = function(stack, world, player) {
+    if (!world.isRemote()) {
+        player.give(<item:contenttweaker:tankard>);
+    }
+};
+tankard_ognovoda.register();
+
+var tankard_mead = VanillaFactory.createItemFood("tankard_mead", 1);
+tankard_mead.setSaturation(1.0);
+tankard_mead.setAlwaysEdible(true);
+tankard_mead.setItemUseAction("DRINK");
+tankard_mead.onItemFoodEaten = function(stack, world, player) {
+    if (!world.isRemote()) {
+        player.give(<item:contenttweaker:tankard>);
+    }
+};
+tankard_mead.register();
+
+var tankard_dragon_daquiri = VanillaFactory.createItemFood("tankard_dragon_daquiri", 1);
+tankard_dragon_daquiri.setSaturation(1.0);
+tankard_dragon_daquiri.setAlwaysEdible(true);
+tankard_dragon_daquiri.setItemUseAction("DRINK");
+tankard_dragon_daquiri.onItemFoodEaten = function(stack, world, player) {
+    if (!world.isRemote()) {
+        player.give(<item:contenttweaker:tankard>);
+    }
+};
+tankard_dragon_daquiri.register();
+
+var tankard_ironberry_stout = VanillaFactory.createItemFood("tankard_ironberry_stout", 1);
+tankard_ironberry_stout.setSaturation(1.0);
+tankard_ironberry_stout.setAlwaysEdible(true);
+tankard_ironberry_stout.setItemUseAction("DRINK");
+tankard_ironberry_stout.onItemFoodEaten = function(stack, world, player) {
+    if (!world.isRemote()) {
+        player.give(<item:contenttweaker:tankard>);
+    }
+};
+tankard_ironberry_stout.register();
+
+var tankard_twinned_spirit = VanillaFactory.createItemFood("tankard_twinned_spirit", 1);
+tankard_twinned_spirit.setSaturation(1.0);
+tankard_twinned_spirit.setAlwaysEdible(true);
+tankard_twinned_spirit.setItemUseAction("DRINK");
+tankard_twinned_spirit.onItemFoodEaten = function(stack, world, player) {
+    if (!world.isRemote()) {
+        player.give(<item:contenttweaker:tankard>);
+    }
+};
+tankard_twinned_spirit.register();
+
+var tankard_billowing_tonic = VanillaFactory.createItemFood("tankard_billowing_tonic", 1);
+tankard_billowing_tonic.setSaturation(1.0);
+tankard_billowing_tonic.setAlwaysEdible(true);
+tankard_billowing_tonic.setItemUseAction("DRINK");
+tankard_billowing_tonic.onItemFoodEaten = function(stack, world, player) {
+    if (!world.isRemote()) {
+        player.give(<item:contenttweaker:tankard>);
+    }
+};
+tankard_billowing_tonic.register();
+
+var tankard_enchanted_mead = VanillaFactory.createItemFood("tankard_enchanted_mead", 1);
+tankard_enchanted_mead.setSaturation(1.0);
+tankard_enchanted_mead.setAlwaysEdible(true);
+tankard_enchanted_mead.setItemUseAction("DRINK");
+tankard_enchanted_mead.onItemFoodEaten = function(stack, world, player) {
+    if (!world.isRemote()) {
+        player.give(<item:contenttweaker:tankard>);
+    }
+};
+tankard_enchanted_mead.register();
+
+var tankard_blastem_brandy = VanillaFactory.createItemFood("tankard_blastem_brandy", 1);
+tankard_blastem_brandy.setSaturation(1.0);
+tankard_blastem_brandy.setAlwaysEdible(true);
+tankard_blastem_brandy.setItemUseAction("DRINK");
+tankard_blastem_brandy.onItemFoodEaten = function(stack, world, player) {
+    if (!world.isRemote()) {
+        player.give(<item:contenttweaker:tankard>);
+    }
+};
+tankard_blastem_brandy.register();
+
+var tankard_rose_tequila = VanillaFactory.createItemFood("tankard_rose_tequila", 1);
+tankard_rose_tequila.setSaturation(1.0);
+tankard_rose_tequila.setAlwaysEdible(true);
+tankard_rose_tequila.setItemUseAction("DRINK");
+tankard_rose_tequila.onItemFoodEaten = function(stack, world, player) {
+    if (!world.isRemote()) {
+        player.give(<item:contenttweaker:tankard>);
+    }
+};
+tankard_rose_tequila.register();
+
+var tankard_sanguine_remedy = VanillaFactory.createItemFood("tankard_sanguine_remedy", 1);
+tankard_sanguine_remedy.setSaturation(1.0);
+tankard_sanguine_remedy.setAlwaysEdible(true);
+tankard_sanguine_remedy.setItemUseAction("DRINK");
+tankard_sanguine_remedy.onItemFoodEaten = function(stack, world, player) {
+    if (!world.isRemote()) {
+        player.give(<item:contenttweaker:tankard>);
+    }
+};
+tankard_sanguine_remedy.register();
+
+var tankard_tzarma = VanillaFactory.createItemFood("tankard_tzarma", 1);
+tankard_tzarma.setSaturation(1.0);
+tankard_tzarma.setAlwaysEdible(true);
+tankard_tzarma.setItemUseAction("DRINK");
+tankard_tzarma.onItemFoodEaten = function(stack, world, player) {
+    if (!world.isRemote()) {
+        player.give(<item:contenttweaker:tankard>);
+    }
+};
+tankard_tzarma.register();
+
+var tankard_melon_chareau = VanillaFactory.createItemFood("tankard_melon_chareau", 1);
+tankard_melon_chareau.setSaturation(1.0);
+tankard_melon_chareau.setAlwaysEdible(true);
+tankard_melon_chareau.setItemUseAction("DRINK");
+tankard_melon_chareau.onItemFoodEaten = function(stack, world, player) {
+    if (!world.isRemote()) {
+        player.give(<item:contenttweaker:tankard>);
+    }
+};
+tankard_melon_chareau.register();
+
+var tankard_blue_ribbon = VanillaFactory.createItemFood("tankard_blue_ribbon", 1);
+tankard_blue_ribbon.setSaturation(1.0);
+tankard_blue_ribbon.setAlwaysEdible(true);
+tankard_blue_ribbon.setItemUseAction("DRINK");
+tankard_blue_ribbon.onItemFoodEaten = function(stack, world, player) {
+    if (!world.isRemote()) {
+        player.give(<item:contenttweaker:tankard>);
+    }
+};
+tankard_blue_ribbon.register();
