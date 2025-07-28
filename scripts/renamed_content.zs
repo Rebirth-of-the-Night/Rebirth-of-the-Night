@@ -43,6 +43,7 @@ import mods.jei.JEI;
 <rustic:book:*>.addTooltip("How to farm, brew elixirs, and decorate your home.");
 
 // Simple Pipes
+<simplewoodenpipes:pipe>.withTag({BaseBlock: {id: "minecraft:wooden_planks", Count: 1}}).displayName = "Dummy Pipe";
 <simplewoodenpipes:pipe>.withTag({BaseBlock: {id: "simpleores:copper_block", Count: 1}}).displayName = "Copper Fluid Pipe";
 <simplewoodenpipes:pipe>.withTag({BaseBlock: {id: "dungeontactics:steel_block", Count: 1}}).displayName = "Galvanized Steel Fluid Pipe";
 <simplewoodenpipes:pipe>.withTag({BaseBlock: {id: "pyrotech:refractory_brick_block", Count: 1}}).displayName = "Refractory Fluid Pipe";

@@ -6,7 +6,6 @@ import crafttweaker.oredict.IOreDictEntry;
 
 JEI.removeAndHide(<simplewoodenpipes:pump>);
 recipes.remove(<simplewoodenpipes:pipe>.withTag({BaseBlock: {id: "minecraft:wooden_planks", Count: 1}}));
-mods.jei.JEI.hide(<simplewoodenpipes:pipe>.withTag({BaseBlock: {id: "minecraft:wooden_planks", Count: 1}}));
 
 mods.jei.JEI.addItem(<simplewoodenpipes:pipe>.withTag({BaseBlock: {id: "simpleores:copper_block", Count: 1}}));
 recipes.addShaped("copper_pipe",<simplewoodenpipes:pipe>.withTag({BaseBlock: {id: "simpleores:copper_block", Count: 1}})*10,[

@@ -1,5 +1,5 @@
 {
-  "block": "biomesoplenty:grass",
+  "block": "minecraft:grass",
   "iterations": 24,
   "biomes": [
     "biomesoplenty:orchard"

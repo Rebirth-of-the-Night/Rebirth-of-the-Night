@@ -93,6 +93,7 @@ StoneKiln.addRecipe("metamorphic_cobble_to_stone_extra0", <contenttweaker:serpen
 StoneKiln.addRecipe("sand_to_glass", <minecraft:glass>, <ore:sand>, 20*320, true);
 
 StoneKiln.addRecipe("wrought_shard_to_ingot", <contenttweaker:material_part:49>, <contenttweaker:material_part:52>, 20*320, true);
+StoneKiln.addRecipe("zinc_bits_to_ingot", <contenttweaker:material_part:32>, <pyrotech:rock:3>, 20*320, true);
 
 //Unified kiln recipes
 

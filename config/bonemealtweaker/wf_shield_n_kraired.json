@@ -1,0 +1,60 @@
+{
+  "block": "minecraft:grass",
+  "iterations": 36,
+  "biomes": [
+    "biomesoplenty:shield"
+  ],
+  "dimensions": [
+    0
+  ],
+  "spawnBlocks": [
+    {
+      "block": "bblsom:red_crown",
+      "weight": 5
+    },
+    {
+      "block": "minecraft:red_flower[type=poppy]",
+      "weight": 10
+    },
+    {
+      "block": "biomesoplenty:plant_0[variant=bush]",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:tallgrass[type=tall_grass]",
+      "weight": 70
+    },
+    {
+      "block": "bblsom:wildflowers_north_kraired[facing=south,slices=0]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_north_kraired[facing=south,slices=1]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_north_kraired[facing=south,slices=2]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_north_kraired[facing=south,slices=3]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_north_kraired[facing=north,slices=0]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_north_kraired[facing=north,slices=1]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_north_kraired[facing=north,slices=2]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_north_kraired[facing=north,slices=3]",
+      "weight": 10
+    }
+  ]
+}
