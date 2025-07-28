@@ -101,7 +101,7 @@ This useful map couldn't have been made without the contribution of the Crafttwe
 */
 
 //metal
-var ore as string[] = ["Iron", "Copper", "Tin", "Silver", "Gold", "Viridium", "Mythril"];
+var ore as string[] = ["Iron", "Copper", "Tin", "Silver", "Gold", "Viridium", "Mythril", "Zinc"];
 for mat in ore {
 //optional furnace ore recipes removal  ==>  furnace.remove(oreDict["ingot"~mat], oreDict["ore"~mat]);
     StoneKiln.addRecipe("StoneKiln"~mat, oreDict["ingot"~mat].firstItem, oreDict["ore"~mat], 20*250, true);
@@ -112,7 +112,7 @@ for mat in denseOre {
     StoneKiln.addRecipe("StoneKilnDense"~mat, oreDict["ingot"~mat].firstItem*2, oreDict["denseore"~mat], 20*250, true);
 }
 
-var dustMat as string[] = ["Iron", "Copper", "Tin", "Brass", "Silver", "Gold", "Viridium", "Mythril", "SoulforgedSteel", "CrucibleSteel", "Endorium", "Bronze", "Electrum"];
+var dustMat as string[] = ["Iron", "Copper", "Tin", "Brass", "Silver", "Gold", "Viridium", "Mythril", "SoulforgedSteel", "CrucibleSteel", "Endorium", "Bronze", "Electrum", "Zinc"];
 for mat in dustMat {
     StoneKiln.addRecipe("StoneKiln_dust"~mat, oreDict["ingot"~mat].firstItem, oreDict["dust"~mat], 20*320, true);
 }

@@ -42,6 +42,13 @@ import mods.jei.JEI;
 <rustic:book:*>.addTooltip(format.aqua("Guidebook"));
 <rustic:book:*>.addTooltip("How to farm, brew elixirs, and decorate your home.");
 
+// Simple Pipes
+<simplewoodenpipes:pipe>.withTag({BaseBlock: {id: "simpleores:copper_block", Count: 1}}).displayName = "Copper Fluid Pipe";
+<simplewoodenpipes:pipe>.withTag({BaseBlock: {id: "dungeontactics:steel_block", Count: 1}}).displayName = "Galvanized Steel Fluid Pipe";
+<simplewoodenpipes:pipe>.withTag({BaseBlock: {id: "pyrotech:refractory_brick_block", Count: 1}}).displayName = "Refractory Fluid Pipe";
+<simplewoodenpipes:pipe>.withTag({BaseBlock: {id: "contenttweaker:raw_wrought_iron", Count: 1}}).displayName = "Galvanized Wrought Iron Fluid Pipe";
+<simplewoodenpipes:pipe>.withTag({BaseBlock: {id: "betterwithmods:steel_block", Count: 1}}).displayName = "Unnecessarily Expensive and Evil Fluid Pipe";
+
 // removed these, leaving the following for now
 // <golems:info_book:*>.addTooltip(format.aqua("Guidebook"));
 // <golems:info_book:*>.addTooltip("Fantastic golems and how to build them.");

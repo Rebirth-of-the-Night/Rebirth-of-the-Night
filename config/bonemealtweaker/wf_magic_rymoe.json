@@ -1,0 +1,48 @@
+{
+  "block": "biomesoplenty:grass",
+  "iterations": 24,
+  "biomes": [
+    "biomesoplenty:mystic_grove"
+  ],
+  "dimensions": [
+    0
+  ],
+  "spawnBlocks": [
+    {
+      "block": "biomesoplenty:plant_0[variant=cloverpatch]",
+      "weight": 30
+    },
+    {
+      "block": "bblsom:wildflowers_rymoe[facing=south,slices=0]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_rymoe[facing=south,slices=1]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_rymoe[facing=south,slices=2]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_rymoe[facing=south,slices=3]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_rymoe[facing=north,slices=0]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_rymoe[facing=north,slices=1]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_rymoe[facing=north,slices=2]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_rymoe[facing=north,slices=3]",
+      "weight": 10
+    }
+  ]
+}

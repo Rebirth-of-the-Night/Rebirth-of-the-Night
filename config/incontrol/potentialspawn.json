@@ -376,20 +376,6 @@
     ]
   },
 
-
-  // Void Eyes
-  {
-    "dimension": [1],
-    "mobs": [
-      {
-        "mob": "primitivemobs:void_eye",
-        "weight": 2,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      }
-    ]
-  },
-
   // Trollagers
   {
     "dimension": [0,10],

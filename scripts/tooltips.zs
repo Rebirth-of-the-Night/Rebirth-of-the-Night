@@ -196,8 +196,13 @@ for w, weapon in sapphireweps{
 <betterwithmods:unfired_pottery:4>.addTooltip("Can be baked in a pit kiln.");
 <contenttweaker:unfired_mud_brick:*>.addTooltip("Can be baked in a pit kiln.");
 <contenttweaker:unfired_adobe_brick:*>.addTooltip("Can be baked in a pit kiln.");
+<betterwithmods:material:24>.addTooltip("Acts as an extraction upgrade for liquid pipes.");
+<betterwithmods:material:24>.addShiftTooltip('All of this just to move a state of matter.', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 <ore:listAllExplosives>.addTooltip("This feels a little too volatile for high temperatures...");
+
+// Pipes
+<simplewoodenpipes:pipe>.addShiftTooltip('Although just having a faucet into these might be easier... "Oh Altassatla keep, water falling! Oh Anhelare, keep water flowing!"', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 // Nyx
 <nyx:lunar_water_bottle:*>.addTooltip("Removes most negative potion effects");

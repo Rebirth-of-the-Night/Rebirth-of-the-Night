@@ -1057,18 +1057,6 @@
     "result": "deny"
  },
 
-  // Void Eyes
- {
-    "dimension": [1],
-    "mob": "primitivemobs:void_eye",
-    "gamestage": "killedEnderDragon",
-    "maxlight": 5,
-
-    "random": 0.1,
-    
-    "result": "default"
- },
-
 // Blazes
 {
     "dimension": -1,

@@ -399,10 +399,10 @@ recipes.addShaped("blocks/redstone/hibachi", <betterwithmods:hibachi>,
  
 // archimedes screw
 recipes.removeByRecipeName("betterwithmods:items/material/material.screw");
-recipes.addShaped("archimedes_screw", archimedes*3,
-  [[<ore:genericMetal>,<ore:genericMetal>,null],
-  [null,<ore:genericMetal>,<ore:genericMetal>],
-  [<ore:genericMetal>,<ore:genericMetal>,null]]);
+recipes.addShaped("archimedes_screw", archimedes*2,
+  [[<ore:genericMetal>,<pyrotech:material:36>,null],
+  [<ore:genericMetal>,<ore:genericMetal>,<ore:genericMetal>],
+  [null,<pyrotech:material:36>,<ore:genericMetal>]]);
   
 // dynamite
 recipes.removeShapeless(<betterwithmods:dynamite>);
