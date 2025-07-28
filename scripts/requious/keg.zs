@@ -5,8 +5,9 @@ import mods.requious.AssemblyRecipe;
 import crafttweaker.world.IWorld;
 
 var keg = <assembly:keg>;
-var arrowRight = SlotVisual.create(1, 1).addPart("requious:textures/gui/assembly_gauges.png", 0, 8).addDirectional("requious:textures/gui/assembly_gauges.png", 1, 8,mods.requious.GaugeDirection.right(),false);
-keg.setDecorationSlot(0,0, SlotVisual.create(9,10).addPart("contenttweaker:textures/gui/kegui.png",0,0));
+var arrowRight = SlotVisual.create(2, 1).addPart("contenttweaker:textures/gui/kegui.png", 10, 4).addDirectional("contenttweaker:textures/gui/kegui.png", 12, 4,mods.requious.GaugeDirection.right(),false);
+keg.setDecorationSlot(0,0, SlotVisual.create(9,7).addPart("contenttweaker:textures/gui/kegui.png",0,0));
+
 static keginput1 as SlotVisual = SlotVisual.createSimple("contenttweaker:textures/gui/kegui.png",1,1);
 static keginput2 as SlotVisual = SlotVisual.createSimple("contenttweaker:textures/gui/kegui.png",2,1);
 static keginput3 as SlotVisual = SlotVisual.createSimple("contenttweaker:textures/gui/kegui.png",1,2);
@@ -120,12 +121,47 @@ var tankard_ironberry_stout = AssemblyRecipe.create(function(container){
 keg.addRecipe(tankard_ironberry_stout);
 //
 
+//
+var cider = AssemblyRecipe.create(function(container){
+    container.addItemOutput("stock",<contenttweaker:tankard_cider>.withTag({display: {Lore: ["Extract with Bottle or Tankard"]}})*2);
+})
+.requireItem("input", <minecraft:apple>, 1, 64)
+.requireFluid("input_fluid", <liquid:water>*250)
+.requireDuration("input", 60);
+keg.addJEIRecipe(cider);
+keg.addRecipe(cider);
+var tankard_cider = AssemblyRecipe.create(function(container){
+    container.addItemOutput("output",<contenttweaker:tankard_cider>);
+})
+.requireItem("stock", <contenttweaker:tankard_cider>)
+.requireItem("container", <contenttweaker:tankard>);
+keg.addRecipe(tankard_beer);
+//
 
-keg.setJEIItemSlot(0,0,"input",keginput1);
-keg.setJEIItemSlot(1,0,"input",keginput1);
-keg.setJEIItemSlot(0,1,"input",keginput1);
-keg.setJEIItemSlot(1,1,"input",keginput1);
-keg.setJEIItemSlot(0,2,"catalyst",kegcatalyst);
-keg.setJEIFluidSlot(1,2,"input_fluid",keginput1);
-keg.setJEIItemSlot(3,1,"stock",keginput1);
-keg.setJEIDurationSlot(2,1,"input", arrowRight);
+static jeiinput1 as SlotVisual = SlotVisual.createSimple("contenttweaker:textures/gui/kegui.png",3,8);
+static jeiinput2 as SlotVisual = SlotVisual.createSimple("contenttweaker:textures/gui/kegui.png",4,8);
+static jeiinput3 as SlotVisual = SlotVisual.createSimple("contenttweaker:textures/gui/kegui.png",3,9);
+static jeiinput4 as SlotVisual = SlotVisual.createSimple("contenttweaker:textures/gui/kegui.png",4,9);
+static jeicatalyst as SlotVisual = SlotVisual.createSimple("contenttweaker:textures/gui/kegui.png",5,8);
+static jeifluid as SlotVisual = SlotVisual.createSimple("contenttweaker:textures/gui/kegui.png",5,9);
+static jeistock as SlotVisual = SlotVisual.createSimple("contenttweaker:textures/gui/kegui.png",4,11);
+static jeiblank as SlotVisual = SlotVisual.createSimple("contenttweaker:textures/gui/kegui.png",10,10);
+
+var jeiArrowRight = SlotVisual.create(1, 2).addPart("contenttweaker:textures/gui/kegui.png", 10, 0).addDirectional("contenttweaker:textures/gui/kegui.png", 11, 0,mods.requious.GaugeDirection.right(),false);
+var jeiArrowLeft = SlotVisual.create(1, 2).addPart("contenttweaker:textures/gui/kegui.png", 10, 2).addDirectional("contenttweaker:textures/gui/kegui.png", 11, 2,mods.requious.GaugeDirection.left(),false);
+var jeiFluidJank = SlotVisual.create(1, 3).addPart("contenttweaker:textures/gui/kegui.png", 5, 7);
+keg.setJEIDecoration(0,0,"input", SlotVisual.create(5,6).addPart("contenttweaker:textures/gui/kegui.png",2,7));
+keg.setJEIDecoration(4,5,"input",jeiblank);
+
+keg.setJEIItemSlot(1,1,"input",jeiinput1);
+keg.setJEIItemSlot(2,1,"input",jeiinput2);
+keg.setJEIItemSlot(1,2,"input",jeiinput3);
+keg.setJEIItemSlot(2,2,"input",jeiinput4);
+keg.setJEIItemSlot(3,1,"catalyst",jeicatalyst);
+keg.setJEIFluidSlot(3,2,"input_fluid");
+keg.setJEIDecoration(3,0,"input",jeiFluidJank);
+keg.setJEIItemSlot(2,4,"stock",jeistock);
+keg.setJEIDurationSlot(1,3,"input", jeiArrowRight);
+keg.setJEIDurationSlot(3,3,"input", jeiArrowLeft);
+keg.setJEIDurationSlot(1,4,"input", jeiblank);
+keg.setJEIDurationSlot(3,4,"input", jeiblank);
