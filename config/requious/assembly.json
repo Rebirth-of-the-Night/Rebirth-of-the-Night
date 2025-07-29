@@ -180,5 +180,30 @@
       "y2": 0.9,
       "z2": 0.8
     }
+  },
+    {
+    "placeType": "Horizontal",
+    "hasGUI": true,
+    "extraVariants": [],
+    "resourceName": "keg",
+    "model": "requious:keg",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
   }
 ]
