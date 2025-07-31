@@ -1,0 +1,53 @@
+{
+	"populate": 
+	{
+		"lost_cargo": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "contenttweaker:lost_cargo",
+						"properties": {
+							"facing" : "north"
+						}
+					},
+					{
+						"name": "contenttweaker:lost_cargo",
+						"properties": {
+							"facing" : "east"
+						}
+					},
+					{
+						"name": "contenttweaker:lost_cargo",
+						"properties": {
+							"facing" : "south"
+						}
+					},
+					{
+						"name": "contenttweaker:lost_cargo",
+						"properties": {
+							"facing" : "west"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:sand",
+					"biomesoplenty:grass",
+					"contenttweaker:salty_crust"
+				],
+				"cluster-size": 1
+			},
+			"material": [
+					"minecraft:grass",
+					"minecraft:sand",
+					"biomesoplenty:grass",
+					"contenttweaker:salty_crust"
+				],
+			"cluster-count": 1,
+			"chunk-chance": 6,
+			"retrogen": "true",
+		}
+	}
+}

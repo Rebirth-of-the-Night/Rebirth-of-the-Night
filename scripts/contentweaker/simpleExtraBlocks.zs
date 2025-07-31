@@ -154,6 +154,39 @@ codex_junk.setBlockLayer("CUTOUT");
 codex_junk.setToolClass("none");
 codex_junk.register();
 
+// Rundown cargo cart remains
+var lost_cargo = VanillaFactory.createDirectionalBlock("lost_cargo", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+lost_cargo.axisAlignedBB = AxisAlignedBB.create(
+     2.0 / 16.0,
+     0.0 / 16.0,
+     2.0 / 16.0,
+	16.0 / 16.0,
+    9.0 / 16.0,
+    16.0 / 16.0
+	);
+lost_cargo.setCreativeTab(<creativetab:rotn_blocks>);
+lost_cargo.setFullBlock(false);
+lost_cargo.setToolLevel(0);
+lost_cargo.setToolClass("axe");
+lost_cargo.register();
+
+// Ender Scythe Statuette
+var scythe_statuette = VanillaFactory.createDirectionalBlock("scythe_statuette", <blockmaterial:Iron>, "HORIZONTAL", false, true);
+scythe_statuette.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+    15.0 / 16.0,
+    12.0 / 16.0
+	);
+scythe_statuette.setCreativeTab(<creativetab:rotn_blocks>);
+scythe_statuette.setFullBlock(false);
+scythe_statuette.setToolLevel(0);
+scythe_statuette.setBlockLayer("CUTOUT");
+scythe_statuette.setToolClass("none");
+scythe_statuette.register();
+
 var paper_1 = VanillaFactory.createBlock("paper_1", <blockmaterial:Grass>);
 paper_1.axisAlignedBB = AxisAlignedBB.create(
      0.0 / 16.0,

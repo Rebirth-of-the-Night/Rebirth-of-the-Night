@@ -829,6 +829,55 @@ Dropt.list("wonder_geode")
       )
   );
   
+Dropt.list("lost_cargo")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:lost_cargo:*"])
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(100))
+		  .items([<ore:rawOreTin>.firstItem], Dropt.range(6, 18)) // alloy raw ore
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(50))
+		  .items([<contenttweaker:spider_silk>], Dropt.range(6, 18)) // fine silks
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(30))
+		  .items([<ore:rawOreWrought>.firstItem], Dropt.range(4, 6)) // semi steel
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(30))
+		  .items([<pyrotech:material:36>], Dropt.range(8, 20)) // dense redstone
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(5))
+		  .items([<minecraft:painting>.withTag({"jsonpaintings:painting": "Yearn"})]) // art
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(5))
+		  .items([<minecraft:painting>.withTag({"jsonpaintings:painting": "Blessed Passion"})]) // art
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(5))
+		  .items([<minecraft:painting>.withTag({"jsonpaintings:painting": "Yearn"})]) // art
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(5))
+		  .items([<glaretorch:itemglaretorchsmall>]) // lumina
+      )
+  )
+  .add(Dropt.rule() // luxurious dragonbone after Beneath
+      .matchBlocks(["contenttweaker:lost_cargo"])
+      .replaceStrategy("ADD")
+      .matchHarvester(Dropt.harvester()
+        .gameStages("WHITELIST", "ALL", ["enteredBeneath"])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10))
+		  .items([<iceandfire:dragonbone>])
+      )
+  );
+  
 Dropt.list("marmatite")
 
   .add(Dropt.rule()
