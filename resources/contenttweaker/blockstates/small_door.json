@@ -1,15 +1,15 @@
-{
+}
   "forge_marker": 1,
   "defaults": {
-    "textures": {
-      "texture": "contenttweaker:blocks/small_door",
-      "particle": "contenttweaker:blocks/small_door"
-    },
-    "model": "base:storage",
-    "uvlock": true,
-    "transform": "forge:default-block"
+    "textures": {},
+    "model": "contenttweaker:small_door",
+    "uvlock": false
   },
   "variants": {
+    "facing=north": { "model": "contenttweaker:small_door", "y": 180 },
+    "facing=south": { "model": "contenttweaker:small_door", "y": 0 },
+    "facing=west": { "model": "contenttweaker:small_door", "y": 90 },
+    "facing=east": { "model": "contenttweaker:small_door", "y": 270 },
     "normal": [{}],
     "inventory": [{}]
   }

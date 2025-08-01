@@ -822,6 +822,15 @@
     "mob": "mod_lavacow:undertaker",
     "result": "deny"
  },
+ ///////////// TWILIGHT FOREST /////////////
+  // Replaced fauna
+
+ {
+    "mob": "twilightforest:deer",
+    "dimension": 7,
+    "onjoin": true,
+    "result": "deny"
+ },
 
  /////////////// GAME STAGES ///////////////
   // Zotzpyre
@@ -1049,19 +1058,6 @@
     "result": "deny"
  },
 
-  // Void Eyes
- {
-    "dimension": [0,1,10],
-    "mob": "primitivemobs:void_eye",
-    "difficulty": "peaceful",
-    "result": "deny"
- },
- {
-    "dimension": [0,1,10],
-    "mob": "primitivemobs:void_eye",
-    "result": "deny"
- },
-
 // Blazes
 {
     "dimension": -1,
@@ -1148,7 +1144,7 @@
  },
  
 // magma slimes
-{
+ {
     "dimension": -1,
     "mob": "specialmobs:flyinglavaslime",
     "gamestage": "killedWither",
@@ -1165,7 +1161,7 @@
     "result": "deny"
  },
  
-{
+ {
     "dimension": [-1,10],
     "mob": "specialmobs:hardenedlavaslime",
     "gamestage": "killedWither",
@@ -1183,7 +1179,7 @@
  },
 
  
-{
+ {
     "dimension": -1,
     "mob": "specialmobs:volatilelavaslime",
     "gamestage": "killedGhastQueen",
@@ -1201,7 +1197,7 @@
  },
 
 /// ghast
-{
+ {
     "dimension": -1,
     "mob": "specialmobs:kingghast",
     "gamestage": "killedGhastQueen",
@@ -1215,7 +1211,7 @@
     "result": "deny"
  },
  
-{
+ {
     "dimension": -1,
     "mob": "specialmobs:queenghast",
     "gamestage": "killedGhastQueen",
@@ -1229,7 +1225,7 @@
     "result": "deny"
  },
 
-{
+ {
     "dimension": 10,
     "mob": "specialmobs:unholyghast",
     "gamestage": "killedGhastQueen",
@@ -1245,7 +1241,7 @@
 
 
 // return of the primitive mobs
-{
+ {
     "dimension": [0,10],
     "mob": "primitivemobs:festive_creeper",
     "maxlight": 5,
@@ -1318,7 +1314,7 @@
     "mob": "primitivemobs:rocket_creeper",
     "result": "deny"
  },
-{
+ {
     "dimension": [0,10],
     "mob": "specialmobs:jumpingcreeper",
     "gamestage": "killedQuazar",
@@ -1352,7 +1348,7 @@
     "result": "deny"
  },
 
-{
+ {
     "dimension": [0,10],
     "mob": "specialmobs:lightningcreeper",
     "gamestage": "minedMythril",
@@ -1400,7 +1396,7 @@
     "result": "deny"
  },
 
-{
+ {
     "dimension": [0,10],
     "mob": "specialmobs:splittingcreeper",
     "gamestage": "killedGhastQueen",
@@ -1427,12 +1423,12 @@
     
     "result": "default"
  },
-  {
+ {
     "dimension": [0],
     "mob": "specialmobs:windwitch",
     "result": "deny"
  },
-  {
+ {
     "dimension": [0],
     "mob": "specialmobs:wildswitch",
     "gamestage": "killedQuazar",
@@ -1440,13 +1436,13 @@
     
     "result": "default"
  },
-   {
+ {
     "dimension": [0],
     "mob": "specialmobs:wildswitch",
     "result": "deny"
  },
  
-  {
+ {
     "dimension": [0,10],
     "mob": "specialmobs:undeadwitch",
     "gamestage": "enteredBeneath",
@@ -1454,13 +1450,13 @@
     
     "result": "default"
  },
-  {
+ {
     "dimension": [0,10],
     "mob": "specialmobs:undeadwitch",
     "result": "deny"
  },
  
-   {
+ {
     "dimension": [0,10],
     "mob": "specialmobs:shadowswitch",
     "gamestage": "minedMythril",
@@ -1468,7 +1464,7 @@
     
     "result": "default"
  },
-   {
+ {
     "dimension": [0,10],
     "mob": "specialmobs:shadowswitch",
     "result": "deny"
@@ -1515,14 +1511,14 @@
       "perplayer": true
     },
     "result": "deny"
-  },
+ },
     {
     "dimension": [0,10],
     "mob": "minecraft:silverfish",
     "result": "deny"
  },
  
-  {
+ {
     "dimension": [0,10],
     "mob": "specialmobs:flyingsilverfish",
     "gamestage": "killedQuazar",
@@ -1545,7 +1541,7 @@
     "result": "deny"
  },
 
-  {
+ {
     "dimension": [0,10],
     "mob": "specialmobs:blindingsilverfish",
     "gamestage": "enteredBeneath",
@@ -1562,13 +1558,13 @@
     "result": "allow"
  },
 
-    {
+ {
     "dimension": [0,10],
     "mob": "specialmobs:blindingsilverfish",
     "result": "deny"
  },
  
-  {
+ {
     "dimension": [0,10],
     "mob": "specialmobs:poisonsilverfish",
     "gamestage": "enteredBeneath",
@@ -1590,7 +1586,7 @@
     "result": "deny"
  },
  
-   {
+ {
     "dimension": [0,10],
     "mob": "specialmobs:toughsilverfish",
     "gamestage": "killedEnderDragon",
@@ -1605,13 +1601,13 @@
     },
     "result": "allow"
  },
-    {
+ {
     "dimension": [0,10],
     "mob": "specialmobs:toughsilverfish",
     "result": "deny"
  },
 
-   {
+ {
     "dimension": 0,
     "mob": "specialmobs:fishingsilverfish",
 	"biometype": ["OCEAN", "RIVER"],
@@ -1626,7 +1622,7 @@
     },
     "result": "allow"
  },
-    {
+ {
     "dimension": 0,
     "mob": "specialmobs:fishingsilverfish",
     "result": "deny"
@@ -1635,7 +1631,7 @@
 
 
 	////////////////// ZOMBIE SPAWNS //////////////////////////
-{
+ {
     "dimension": [0,10],
     "mob": "specialmobs:hungryzombie",
     "gamestage": "killedHarvester",
@@ -1645,12 +1641,12 @@
         "perplayer": true
     },
     "result": "default"
-},
-{
+ },
+ {
     "dimension": [0,10],
     "mob": "specialmobs:hungryzombie",
     "result": "deny"
-},
+ },
 
 
  {
@@ -1671,7 +1667,7 @@
     "result": "deny"
  },
 
-{
+ {
     "dimension": [0,10],
     "mob": "specialmobs:fishingzombie",
     "random": 0.1,
@@ -1726,7 +1722,7 @@
 
 
  // Skeletons
-{
+ {
     "dimension": [0,10],
     "mob": "specialmobs:sniperskeleton",
     "gamestage": "killedHarvester",
@@ -1763,7 +1759,7 @@
     "result": "deny"
  },
 */
-{
+ {
     "dimension": [0,10],
     "mob": "specialmobs:ninjaskeleton",
     "gamestage": "minedMythril",
@@ -1814,7 +1810,7 @@
     "result": "deny"
  },
 
-{
+ {
     "dimension": [0,10],
     "mob": "specialmobs:spitfireskeleton",
     "gamestage": "killedEnderDragon",
@@ -1848,7 +1844,7 @@
     "result": "deny"
  },
 
-{
+ {
 	"dimension" : [0, 10],
 	"mob": "specialmobs:knightskeleton",
     "gamestage": "enteredBeneath",
@@ -1863,15 +1859,15 @@
     },
 	"result": "allow"
   },
-{
+ {
 	"dimension" : [0, 10],
 	"mob": "specialmobs:knightskeleton",
 	"result": "deny"
-  },
+ },
 
 
 
-{
+ {
 	"dimension" : -1,
 	"mob": "specialmobs:knightpigzombie",
     "gamestage": "killedWither",
@@ -1888,8 +1884,8 @@
         "perplayer": true
     },
 	"result": "allow"
-  },
-{
+ },
+ {
 	"dimension" : -1,
 	"mob": "specialmobs:knightpigzombie",
 	"result": "deny"
@@ -1897,7 +1893,7 @@
 
 
  // Spiders
-{
+ {
     "dimension": [0,10],
     "random": 0.1,
     "mob": "specialmobs:hungryspider",
@@ -1931,9 +1927,9 @@
     "dimension": [0,10],
     "mob": "specialmobs:palespider",
     "result": "deny"
-},
+ },
 
-{
+ {
     "dimension": 0,
     "mob": "specialmobs:desertspider",
     "random": 0.1,
@@ -1944,14 +1940,14 @@
         "perplayer": true
     },
     "result": "default"
-},
-{
+ },
+ {
     "dimension": 0,
     "mob": "specialmobs:desertspider",
     "result": "deny"
-},
+ },
 
-{
+ {
     "dimension": [0,10],
     "random": 0.1,
     "mob": "specialmobs:witchspider",
@@ -1962,12 +1958,12 @@
         "perplayer": true
     },
     "result": "default"
-},
-{
+ },
+ {
     "dimension": [0,10],
     "mob": "specialmobs:witchspider",
     "result": "deny"
-},
+ },
 
  {
     "dimension": 0,
@@ -1986,7 +1982,7 @@
     "result": "deny"
  },
 
-{
+ {
     "dimension": [0,10],
     "random": 0.1,
     "mob": "specialmobs:webspider",
@@ -2021,7 +2017,7 @@
     "result": "deny"
  },
 
-{
+ {
     "dimension": [0,10],
     "random": 0.1,
     "mob": "specialmobs:flyingspider",
@@ -2278,7 +2274,7 @@
     "result": "deny"
  },
 
-  {
+ {
     "dimension": [0,10,1],
     "mob": "specialmobs:mirageenderman",
     "gamestage": "killedEnderDragon",
@@ -2449,7 +2445,7 @@
     "result": "deny"
  },
  
-  {
+ {
     "dimension": 0,
     "mob": "mod_lavacow:boneworm",
 	"biome": ["Mesa", "Mesa Plateau F", "Mesa Plateau", "Desert M", "Mesa (Bryce)", "Mesa Plateau F M", "Mesa Plateau M", "Desert", "DesertHills", "Xeric Shrubland", "Marsh", "Bayou", "Bog", "Dead Swamp", "Quagmire", "Fen", "Ominous Woods", "Dead Forest"],
@@ -2467,7 +2463,7 @@
     "result": "deny"
  },
 
-  {
+ {
     "dimension": -1,
     "mob": "mod_lavacow:boneworm",
 	"biome": ["Phantasmagoric Inferno", "Visceral Heap"],
@@ -2488,7 +2484,7 @@
     "result": "deny"
  },
 
-  {
+ {
     "dimension": 1,
     "mob": "mod_lavacow:ghostray",
     "random": 0.1,
@@ -2523,7 +2519,7 @@
     },
     "result": "allow"
  },
-{
+ {
     "dimension": 0,
     "mob": "mod_lavacow:weta",
     "result": "deny"
@@ -2546,7 +2542,7 @@
     },
     "result": "allow"
  },
-{
+ {
     "dimension": 0,
     "mob": "mod_lavacow:undeadswine",
     "result": "deny"
@@ -2596,7 +2592,7 @@
     "result": "deny"
  },
  
-  {
+ {
     "dimension": [0,10],
     "mob": "mod_lavacow:zombiemushroom",
 	"biome": ["Jungle", "JungleHills", "JungleEdge", "Swampland", "Swampland M", "Jungle M", "JungleEdge M", "Bayou", "Bog", "Dead Swamp", "Lush Swamp", "Rainforest", "Tropical Rainforest", "Tropical Island", "Quagmire", "MushroomIsland", "MushroomIslandShore", "Roofed Forest M", "Fen", "Flower Field", "Mangrove", "Marsh", "Moor", "Wetland", "Oasis", "Flower Island", "The Beneath"],  
@@ -2618,7 +2614,7 @@
     "result": "deny"
  },
  
-  {
+ {
     "dimension": 0,
     "mob": "mod_lavacow:foglet",
 	"biome": ["Taiga", "FrozenRiver", "Ice Plains", "Ice Mountains", "TaigaHills", "Cold Taiga", "Cold Taiga Hills", "Taiga M", "Ice Plains Spikes", "Cold Taiga M", "Mega Spruce Taiga", "Alps", "Boreal Forest", "Cold Desert", "Snowy Coniferous Forest", "Snowy Forest", "Tundra", "SnowyTundra", "Glacier", "AlpsFoothills", "Ominous Woods", "Dead Swamp", "Bayou", "Bog"], 
@@ -2640,7 +2636,7 @@
     "result": "deny"
  },
  
-   {
+ {
     "dimension": 0,
     "mob": "mod_lavacow:ptera",
 	"biome": ["Jungle", "JungleHills", "JungleEdge", "Jungle M", "JungleEdge M", "Lush Swamp", "Tropical Rainforest", "Tropical Island", "Mangrove", "Oasis", "Desert", "DesertHills", "Mesa", "Mesa Plateau F", "Mesa Plateau", "Desert M", "Mesa (Bryce)", "Mesa Plateau F M", "Mesa Plateau M", "Beach", "Ocean", "Deep Ocean", "Stone Beach", "Cold Beach", "Gravel Beach", "White Beach", "Volcanic Island", "Flower Island", "Xeric Shrubland", "Coral Reef", "Kelp Forest"],  
@@ -2685,7 +2681,7 @@
 
 /////// KILLED SUN SPIRIT
 
-{
+ {
     "dimension": 4,
     "mob": "netherex:coolmar_spider",
     "gamestage": "killedSunSpirit",
@@ -2706,7 +2702,7 @@
     "result": "deny"
  },
 
-{
+ {
     "dimension": 4,
     "mob": "netherex:wight",
     "gamestage": "killedSunSpirit",
@@ -2724,7 +2720,7 @@
     "result": "deny"
  },
 
-{
+ {
     "dimension": 4,
     "mob": "netherex:frost",
     "gamestage": "killedSunSpirit",
@@ -2742,7 +2738,7 @@
     "result": "deny"
  },
 
-{
+ {
     "dimension": 4,
     "mob": "specialmobs:joltblaze",
     "gamestage": "killedSunSpirit",
@@ -2923,7 +2919,7 @@
 
 
 ///////////
-{
+ {
     "dimension": 4,
     "mob": "primitivemobs:harpy",
 	"random": 0.5,
@@ -2943,7 +2939,7 @@
     "result": "deny"
  },
 
-{
+ {
     "dimension": 4,
     "mob": "iceandfire:stymphalianbird",
 	"random": 0.2,

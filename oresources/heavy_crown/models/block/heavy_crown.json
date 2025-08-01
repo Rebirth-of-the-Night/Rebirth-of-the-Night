@@ -1,9 +1,9 @@
 {
 	"format_version": "1.9.0",
-	"credit": "Made with Blockbench",
+	"credit": "Made by Foreck with Blockbench",
 	"textures": {
-		"2": "xat:blocks/ender_tiara",
-		"particle": "xat:blocks/ender_tiara"
+		"2": "heavy_crown:blocks/heavy_crown",
+		"particle": "xat:blocks/heavy_crown"
 	},
 	"elements": [
 		{

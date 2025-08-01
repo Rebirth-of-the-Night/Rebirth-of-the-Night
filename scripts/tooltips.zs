@@ -1,4 +1,4 @@
-#reloadable
+#loader crafttweaker reloadable
 
 import crafttweaker.data.IData;
 import crafttweaker.item.IItemStack;
@@ -198,8 +198,13 @@ for w, weapon in sapphireweps{
 <betterwithmods:unfired_pottery:4>.addTooltip("Can be baked in a pit kiln.");
 <contenttweaker:unfired_mud_brick:*>.addTooltip("Can be baked in a pit kiln.");
 <contenttweaker:unfired_adobe_brick:*>.addTooltip("Can be baked in a pit kiln.");
+<betterwithmods:material:24>.addTooltip("Acts as an extraction upgrade for liquid pipes.");
+<betterwithmods:material:24>.addShiftTooltip('All of this just to move a state of matter.', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 <ore:listAllExplosives>.addTooltip("This feels a little too volatile for high temperatures...");
+
+// Pipes
+<simplewoodenpipes:pipe>.addShiftTooltip('Although just having a faucet into these might be easier... "Oh Altassatla keep, water falling! Oh Anhelare, keep water flowing!"', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 // Nyx
 <nyx:lunar_water_bottle:*>.addTooltip("Removes most negative potion effects");
@@ -454,6 +459,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <harvestcraft:coffeeconlecheitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <growthcraft_rice:rice:*>.addTooltip("Staple of civilization; should be cooked first.");
 <growthcraft_rice:rice>.addShiftTooltip("Plant on a Rice Paddy.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<harvestcraft:misopasteitem>.addTooltip("Soothing, but extremely concentrated.");
+<harvestcraft:misopasteitem>.addShiftTooltip("Provides a short health regeneration boost, but the flavor stuns you for a few seconds.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <aether_legacy:healing_stone:*>.addTooltip("Restores max HP lost from dying to the Plague.");
 <betterwithmods:chicken_soup:*>.addTooltip("Has a 15 percent chance to remove plague effect.");
 
@@ -550,6 +557,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <dungeontactics:rocket_pants:*>.addTooltip("Rocket man burning out his fuse.");
 <dungeontactics:bounce_boots:*>.addTooltip("Minimizes fall damage with bounciness!");
 <dungeontactics:lantern_magic:*>.addTooltip("Outputs a magical aura that forces most creatures to steer away from it.");
+<dungeontactics:ducttape>.addShiftTooltip("Single use. Items can be repaired a maximum amount of 5 times with repair kits. Will prevent enchanting unless a true enchanting table is used.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <iceandfire:dragonbone_bow:*>.addTooltip("Only shoots Dragonbone Arrows.");
 <dungeontactics:lantern_magic:*>.addTooltip("Light with a Flint and Steel to activate.");
 <dungeontactics:lantern_magic:*>.addTooltip(format.red("DOES NOT DROP WHEN BROKEN!"));

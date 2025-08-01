@@ -162,6 +162,39 @@ codex_junk.setBlockLayer("CUTOUT");
 codex_junk.setToolClass("none");
 codex_junk.register();
 
+// Rundown cargo cart remains
+var lost_cargo = VanillaFactory.createDirectionalBlock("lost_cargo", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+lost_cargo.axisAlignedBB = AxisAlignedBB.create(
+     2.0 / 16.0,
+     0.0 / 16.0,
+     2.0 / 16.0,
+	16.0 / 16.0,
+    9.0 / 16.0,
+    16.0 / 16.0
+	);
+lost_cargo.setCreativeTab(<creativetab:rotn_blocks>);
+lost_cargo.setFullBlock(false);
+lost_cargo.setToolLevel(0);
+lost_cargo.setToolClass("axe");
+lost_cargo.register();
+
+// Ender Scythe Statuette
+var scythe_statuette = VanillaFactory.createDirectionalBlock("scythe_statuette", <blockmaterial:Iron>, "HORIZONTAL", false, true);
+scythe_statuette.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+    15.0 / 16.0,
+    12.0 / 16.0
+	);
+scythe_statuette.setCreativeTab(<creativetab:rotn_blocks>);
+scythe_statuette.setFullBlock(false);
+scythe_statuette.setToolLevel(0);
+scythe_statuette.setBlockLayer("CUTOUT");
+scythe_statuette.setToolClass("none");
+scythe_statuette.register();
+
 var paper_1 = VanillaFactory.createBlock("paper_1", <blockmaterial:Grass>);
 paper_1.axisAlignedBB = AxisAlignedBB.create(
      0.0 / 16.0,
@@ -727,7 +760,7 @@ raw_mythril.setToolLevel(2);
 raw_mythril.register();
 
 // The Small Door
-var small_door = VanillaFactory.createBlock("small_door", <blockmaterial:Iron>);
+var small_door = VanillaFactory.createDirectionalBlock("small_door", <blockmaterial:Iron>, "HORIZONTAL", false, true);
 small_door.axisAlignedBB = AxisAlignedBB.create(
      2.0 / 16.0,
      0.0 / 16.0,
@@ -742,6 +775,23 @@ small_door.setFullBlock(false);
 small_door.setToolLevel(1);
 small_door.setToolClass("pickaxe");
 small_door.register();
+
+// Arskull
+var arskull = VanillaFactory.createDirectionalBlock("arskull", <blockmaterial:Iron>, "HORIZONTAL", false, true);
+arskull.axisAlignedBB = AxisAlignedBB.create(
+     2.0 / 16.0,
+     0.0 / 16.0,
+     2.0 / 16.0,
+	14.0 / 16.0,
+    16.0 / 16.0,
+    14.0 / 16.0
+	);
+arskull.setCreativeTab(<creativetab:rotn_blocks>);
+arskull.setBlockSoundType(<soundtype:stone>);
+arskull.setFullBlock(false);
+arskull.setToolLevel(1);
+arskull.setToolClass("pickaxe");
+arskull.register();
 
 // Unfired Refractory Crucible
 var crucible = VanillaFactory.createBlock("crucible", <blockmaterial:Iron>);

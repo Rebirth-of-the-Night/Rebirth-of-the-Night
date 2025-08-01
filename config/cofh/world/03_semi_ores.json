@@ -137,17 +137,19 @@
 					}
 				],
 				"surface": [
-					"undergroundbiomes:sedimentary_stone",
-					"undergroundbiomes:metamorphic_stone",
-					"undergroundbiomes:igneous_stone"
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone",
+				"minecraft:packed_ice",
+				"quark:biome_cobblestone"
 				],
 				"material": "air",
-				"cluster-size": 64,
+				"cluster-size": 30
 				"see-sky": false
 				},
-			"cluster-count": 48,
-			"ground-level": 64,
-			"chunk-chance": 8,
+			"cluster-count": {"min": 1, "max": 8},
+			"ground-level": 60,
+			"chunk-chance": 2
 			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",
@@ -155,7 +157,12 @@
 					{
 						"type": "dictionary",
 						"entry": "FROZEN"
+					},
+					{
+						"type": "dictionary",
+						"entry": "SNOWY"
 					}
+					
 				]
 			}
 		}

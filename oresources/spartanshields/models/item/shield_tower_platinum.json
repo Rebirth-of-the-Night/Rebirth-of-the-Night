@@ -1,11 +1,44 @@
 {
-    "parent": "spartanshields:item/shield_tower_platinum_normal",
-    "overrides": [
-        {
-            "predicate": {
-                "blocking": 1
-            },
-            "model": "spartanshields:item/shield_tower_platinum_blocking"
-        }
-    ]
+	"parent": "spartanshields:item/shield_tower_platinum_normal",
+	"overrides": [
+		{"predicate": {"blocking": 1}, "model": "spartanshields:item/shield_tower_platinum_blocking"}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [10.51, 6, -4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [10.51, 6, 12]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -180, 5],
+			"translation": [-10, -2, -10],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -180, 5],
+			"translation": [10.25, -3.75, -10],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"ground": {
+			"translation": [0, 5.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [0, 0, 45],
+			"translation": [0.5, 5.25, -5],
+			"scale": [0.47, 0.47, 0.47]
+		},
+		"head": {
+			"rotation": [-180, 0, -180],
+			"translation": [-8, 10.5, -15]
+		},
+		"fixed": {
+			"rotation": [-180, 0, -135],
+			"translation": [-1, 6.25, -5],
+			"scale": [0.6, 0.6, 0.6]
+		}
+	}
 }

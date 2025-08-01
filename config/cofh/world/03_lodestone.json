@@ -18,7 +18,6 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-
 			"ground-level": 80,
 			"chunk-chance": 2,
 			"retrogen": "true",

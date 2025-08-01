@@ -80,7 +80,7 @@
 	{
         "motive": "Blessed Passion",
         "width": 2,
-        "height": 4,
+        "height": 3,
 		"isCreative": true
     },
 	{
@@ -729,6 +729,12 @@
 		"isCreative": false
     },
 	{
+        "motive": "Galliard Riders",
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
         "motive": "Lunarin View",
         "width": 1,
         "height": 2,
@@ -1245,6 +1251,12 @@
 		"isCreative": false
     },
 	{
+        "motive": "The Founder",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
         "motive": "The Moon Witch",
         "width": 2,
         "height": 3,
@@ -1564,12 +1576,6 @@
     },
 	{
         "motive": "Dev - Providence Daemon",
-        "width": 2,
-        "height": 3,
-		"isCreative": false
-    },
-	{
-        "motive": "Undefinable",
         "width": 2,
         "height": 3,
 		"isCreative": false

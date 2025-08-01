@@ -190,25 +190,24 @@ JEI.removeAndHide(<randomthings:ingredient:13>);
 //vaporizer
 recipes.remove(<randomthings:potionvaporizer>);
 recipes.addShaped("potion_vaporizer", <randomthings:potionvaporizer>, [
-    [<ore:Stone>, <cyclicmagic:fluid_pump>, <ore:Stone>],
+    [<ore:stone>, <cyclicmagic:fluid_pump>, <ore:stone>],
     [<rustic:retort_advanced>, <pyrotech:igniter:1>, <rustic:retort_advanced>], 
     [<dungeontactics:fan_block>, <minecraft:dispenser>, <dungeontactics:fan_block>]
 ]);
 
 // contact blocks
-// contact blocks
 recipes.remove(<randomthings:contactlever>);
 recipes.addShaped(<randomthings:contactlever>, [
-    [<ore:Stone>, <minecraft:iron_bars>, <ore:Stone>],
-    [<ore:Stone>, <ore:lever>, <ore:Stone>], 
-    [<ore:Stone>, <betterwithmods:detector>, <ore:Stone>]
+    [<ore:stone>, <minecraft:iron_bars>, <ore:stone>],
+    [<ore:stone>, <ore:lever>, <ore:stone>], 
+    [<ore:stone>, <betterwithmods:detector>, <ore:stone>]
 ]);
 
 recipes.remove(<randomthings:contactbutton>);
 recipes.addShaped(<randomthings:contactbutton>, [
-    [<ore:Stone>, <minecraft:iron_bars>, <ore:Stone>],
-    [<ore:Stone>, <ore:buttonStone>, <ore:Stone>],
-    [<ore:Stone>, <betterwithmods:detector>, <ore:Stone>]
+    [<ore:stone>, <minecraft:iron_bars>, <ore:stone>],
+    [<ore:stone>, <ore:buttonStone>, <ore:stone>],
+    [<ore:stone>, <betterwithmods:detector>, <ore:stone>]
 ]);
 
 //quartz / dusk lamp

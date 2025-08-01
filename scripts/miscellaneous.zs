@@ -92,6 +92,11 @@ recipes.addShaped("coba_star2", <contenttweaker:coba_star>, [
     [null, <netherex:frost_rod>, null]
 ]);
 
+//Two Masonry Brick to Masonry Brick
+recipes.addShapeless("two_masonry_bricks", <contenttweaker:masonry_brick>*2,[
+    <contenttweaker:masonry_brick_two>
+]);
+
 // well
 recipes.remove(<well:well>);
 recipes.addShaped("water_well", <well:well>,[

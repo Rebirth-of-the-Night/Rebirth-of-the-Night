@@ -40,8 +40,8 @@ recipes.addShaped("hamster_wheel",<animania:block_hamster_wheel>,[
 
 recipes.remove(<animania:carving_knife>);
 recipes.addShapedMirrored("carving_knife",<animania:carving_knife>,[
-	[<ore:genericMetalNugget>,<ore:genericMetal>],
-	[<ore:genericMetalNugget>,<ore:genericMetal>],
+	[<ore:genericMetalNuggets>,<ore:genericMetal>],
+	[<ore:genericMetalNuggets>,<ore:genericMetal>],
 	[null,<ore:stickWood>]
 ]);
 

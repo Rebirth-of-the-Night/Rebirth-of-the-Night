@@ -1,0 +1,32 @@
+{
+  "block": "minecraft:mycelium",
+  "iterations": 14,
+  "biomes": [
+    "minecraft:mushroom_island"
+  ],
+  "dimensions": [
+    0
+  ],
+  "spawnBlocks": [
+    {
+      "block": "minecraft:red_mushroom",
+      "weight": 50
+    },
+    {
+      "block": "rustic:mooncap_mushroom",
+      "weight": 5
+    },
+    {
+      "block": "minecraft:brown_mushroom",
+      "weight": 50
+    },
+    {
+      "block": "contenttweaker:koji_mold",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:red_crown",
+      "weight": 5
+    }
+  ]
+}
