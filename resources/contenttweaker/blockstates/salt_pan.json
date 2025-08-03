@@ -5,7 +5,7 @@
       "all": "contenttweaker:blocks/salt_pan",
       "particle": "contenttweaker:blocks/salt_pan"
     },
-    "model": "contenttweaker:base_block",
+    "model": "contenttweaker:salt_pan",
     "uvlock": true,
     "transform": "forge:default-block"
   },

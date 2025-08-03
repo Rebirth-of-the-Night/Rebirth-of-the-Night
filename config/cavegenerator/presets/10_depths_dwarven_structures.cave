@@ -1,7 +1,7 @@
 {
   enabled: true
   biomes: {
-    names: [ "biometweaker:depths" ]
+    names: [ "biometweaker:abandoned_depths" ]
   }
   structures: [
     {

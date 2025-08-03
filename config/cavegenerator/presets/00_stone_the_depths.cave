@@ -1,6 +1,6 @@
 {
   biomes: {
-    names: [ "biometweaker:depths" ]
+    names: [ "biometweaker:abandoned_depths" ]
   }
   replaceableBlocks: [ "undergroundbiomes:metamorphic_stone", "undergroundbiomes:sedimentary_stone", "minecraft:stone", "minecraft:netherrack", "minecraft:air" ]
   layers: [

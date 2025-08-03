@@ -1,0 +1,18 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made by Foreck with Blockbench",
+	"textures": {
+		"particle": "contenttweaker:blocks/salt_pan",
+		"all": "contenttweaker:blocks/salt_pan"
+	},
+	"elements": [
+		{
+			"from": [0, 0.1, 0],
+			"to": [16, 0.1, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8.1, 8]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#all", "tintindex": 0}
+			}
+		}
+	]
+}

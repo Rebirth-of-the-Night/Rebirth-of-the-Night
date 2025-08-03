@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "all": "contenttweaker:blocks/halite",
-      "particle": "contenttweaker:blocks/halite"
+      "all": "contenttweaker:blocks/halolite",
+      "particle": "contenttweaker:blocks/halolite"
     },
     "model": "contenttweaker:base_block",
     "uvlock": true,
