@@ -166,6 +166,8 @@ lost_cargo.axisAlignedBB = AxisAlignedBB.create(
 	);
 lost_cargo.setCreativeTab(<creativetab:rotn_blocks>);
 lost_cargo.setFullBlock(false);
+lost_cargo.setLightOpacity(0);
+lost_cargo.setBlockLayer("CUTOUT");
 lost_cargo.setToolLevel(0);
 lost_cargo.setToolClass("axe");
 lost_cargo.register();
