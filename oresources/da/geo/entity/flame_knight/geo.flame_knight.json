@@ -117,14 +117,8 @@
 					"parent": "LArm",
 					"pivot": [7.5, 26, 0],
 					"cubes": [
-						{"origin": [5.5, 22, -2], "size": [4, 4, 4], "uv": [62, 41]},
-						{"origin": [5, 17, -2.5], "size": [5, 5, 5], "uv": [15, 48]}
+						{"origin": [5.5, 18, -2], "size": [4, 8, 4], "uv": [35, 52], "mirror": true}
 					]
-				},
-				{
-					"name": "HoldItem",
-					"parent": "LElbowJ",
-					"pivot": [7.5, 19, -2]
 				},
 				{
 					"name": "RArm",
@@ -194,24 +188,6 @@
 						{"origin": [-8, 40.5, -23], "size": [1, 1, 5], "uv": [63, 25]},
 						{"origin": [-8, 41.5, -23], "size": [1, 1, 4], "uv": [26, 0]},
 						{"origin": [-8, 42.5, -23], "size": [1, 1, 3], "uv": [50, 18]}
-					]
-				},
-				{
-					"name": "Flame_Head",
-					"parent": "Torso",
-					"pivot": [0, 34, 0],
-					"cubes": [
-						{"origin": [-2, 38, -2], "size": [4, 4, 4], "uv": [0, 81]},
-						{"origin": [-3, 37, -3], "size": [6, 6, 6], "uv": [0, 89]}
-					]
-				},
-				{
-					"name": "firehead",
-					"parent": "Flame_Head",
-					"pivot": [0, 40, 0],
-					"rotation": [0, 180, 0],
-					"cubes": [
-						{"origin": [-7, 36, 0], "size": [14, 20, 0], "uv": [0, 102]}
 					]
 				}
 			]
