@@ -111,16 +111,16 @@ halite.setToolLevel(0);
 halite.register();
 
 // Halolite /salt-light ore/
-var halite = VanillaFactory.createBlock("halite", <blockmaterial:Rock>);
-halite.setCreativeTab(<creativetab:rotn_blocks>);
-halite.setFullBlock(false);
-halite.setBlockSoundType(<soundtype:glass>);
-halite.setBlockLayer("TRANSLUCENT");
-halite.setLightValue(0.9);
-halite.setTranslucent(true);
-halite.setLightOpacity(0);
-halite.setToolLevel(0);
-halite.register();
+var halolite = VanillaFactory.createBlock("halolite", <blockmaterial:Rock>);
+halolite.setCreativeTab(<creativetab:rotn_blocks>);
+halolite.setFullBlock(false);
+halolite.setBlockSoundType(<soundtype:glass>);
+halolite.setBlockLayer("TRANSLUCENT");
+halolite.setLightValue(0.9);
+halolite.setTranslucent(true);
+halolite.setLightOpacity(0);
+halolite.setToolLevel(0);
+halolite.register();
 
 // Salt pan
 var salt_pan = VanillaFactory.createBlock("salt_pan", <blockmaterial:Grass>);
