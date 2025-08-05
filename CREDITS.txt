@@ -135,6 +135,12 @@ From RoyaltyFreeZone:
 Wroughtnaut
 The Harvester
 
+§r~ ~ ~ §nSound Effects§r ~ ~ ~
+By Universfield:
+Punch 03  https://pixabay.com/sound-effects/punch-03-352040/
+Power punch https://pixabay.com/sound-effects/power-punch-192118/
+Thud https://pixabay.com/sound-effects/thud-291047/
+Blade Piercing Body https://pixabay.com/sound-effects/blade-piercing-body-352462/
 
 §r~ ~ ~ §nTexture Artists§r ~ ~ ~
 
