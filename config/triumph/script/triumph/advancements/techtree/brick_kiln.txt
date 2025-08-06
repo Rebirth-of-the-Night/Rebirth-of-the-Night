@@ -1,0 +1,22 @@
+setIcon(<pyrotech:stone_kiln>)
+setTitle("Pit Kiln")
+setDescription("Craft a clay brick kiln to access bronze, refractory bricks, and bulk processing. Ignite it with a hand drill after adding fuel.")
+
+
+addParent("triumph:advancements/techtree/pit_kiln")
+
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(true)
+
+criteria = addCriteria("Brick Kiln", "minecraft:inventory_changed")
+criteria.addItem("pyrotech:stone_kiln")
+//Automatically unlocked if skipped with further advancements
+criteria = addCriteria("Refractory Kiln", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/techtree/refractory_kiln")
+
+alwaysVisible()
+setPos(-97,-30)

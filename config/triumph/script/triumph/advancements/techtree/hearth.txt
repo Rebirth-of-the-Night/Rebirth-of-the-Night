@@ -1,0 +1,21 @@
+setIcon(<exsartagine:hearth>)
+setTitle("Hearth")
+setDescription("Craft a hearth to cook items on utensils on top of it. It can be expanded once with a hearth extension.")
+
+
+addParent("triumph:advancements/techtree/campfire")
+
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(true)
+
+criteria = addCriteria("Hearth Stove", "minecraft:inventory_changed")
+criteria.addItem("exsartagine:hearth")
+//Automatically unlocked if skipped with further advancements
+criteria = addCriteria("Stove", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/techtree/stove")
+
+setPos(-164,37)

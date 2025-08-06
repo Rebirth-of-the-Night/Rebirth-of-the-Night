@@ -1,0 +1,23 @@
+setIcon(<craftingcraft:portable_crafting_table>)
+setTitle("Crafting Mat")
+setDescription("Craft a portable crafting surface to access wooden planks and a myriad recipes on the fly. Craft with tools lying around and a mat, like woven cotton or wool.")
+
+
+addParent("triumph:advancements/techtree/root")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(true)
+
+criteria = addCriteria("crafting_mat", "minecraft:inventory_changed")
+criteria.addItem("craftingcraft:portable_crafting_table")
+//Automatically unlocked if skipped with further advancements
+criteria = addCriteria("Crafting Table", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/techtree/crafting_table")
+
+hideLines()
+
+alwaysVisible()
+setPos(-224,90)

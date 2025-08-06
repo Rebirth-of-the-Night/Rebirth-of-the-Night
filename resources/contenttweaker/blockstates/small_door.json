@@ -1,7 +1,10 @@
-}
+{
   "forge_marker": 1,
   "defaults": {
-    "textures": {},
+    "textures": {
+        "0": "contenttweaker:blocks/small_door",
+		"particle": "contenttweaker:blocks/small_door"
+    },
     "model": "contenttweaker:small_door",
     "uvlock": false
   },

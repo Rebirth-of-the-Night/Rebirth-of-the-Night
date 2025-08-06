@@ -187,6 +187,8 @@ lost_cargo.axisAlignedBB = AxisAlignedBB.create(
 lost_cargo.setCreativeTab(<creativetab:rotn_blocks>);
 lost_cargo.setFullBlock(false);
 lost_cargo.setToolLevel(0);
+lost_cargo.setLightOpacity(0);
+lost_cargo.setBlockLayer("CUTOUT");
 lost_cargo.setToolClass("axe");
 lost_cargo.register();
 
@@ -785,6 +787,8 @@ small_door.setCreativeTab(<creativetab:rotn_blocks>);
 small_door.setBlockSoundType(<soundtype:stone>);
 small_door.setFullBlock(false);
 small_door.setToolLevel(1);
+small_door.setLightOpacity(0);
+small_door.setBlockLayer("CUTOUT");
 small_door.setToolClass("pickaxe");
 small_door.register();
 

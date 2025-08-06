@@ -1,0 +1,19 @@
+setIcon(<exsartagine:range>)
+setTitle("Stove")
+setDescription("Craft a stove to efficiently cook items on utensils. It can be expanded with up to three extension to create a cooking range.")
+
+
+addParent("triumph:advancements/techtree/hearth")
+
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(true)
+
+criteria = addCriteria("Stove", "minecraft:inventory_changed")
+criteria.addItem("exsartagine:range")
+//Automatically unlocked if skipped with further advancements
+
+setPos(-97,37)

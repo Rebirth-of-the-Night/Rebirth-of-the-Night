@@ -1,0 +1,18 @@
+setIcon(<minecraft:crafting_table>)
+setTitle("Crafting Table")
+setDescription("Craft a crafting table to access wooden planks and a myriad recipes, if you don't want to carry one around with you all the time. Craft with tools lying around and different base blocks.")
+
+
+addParent("triumph:advancements/techtree/crafting_mat")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(true)
+
+criteria = addCriteria("crafting_table", "minecraft:inventory_changed")
+criteria.addItem("ore:workbench")
+
+alwaysVisible()
+setPos(-164,90)

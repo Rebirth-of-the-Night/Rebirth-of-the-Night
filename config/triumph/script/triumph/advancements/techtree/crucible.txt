@@ -1,0 +1,21 @@
+setIcon(<betterwithmods:cooking_pot>)
+setTitle("Refractory Crucible")
+setDescription("Craft a crucible from refractory material to process steel. Can be fueled from up to 3x3 heat sources below. Can process higher tier material with a stoked fire.")
+
+
+addParent("triumph:advancements/techtree/refractory_kiln")
+
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(true)
+setFrameType("GOAL")
+setUncompletedIconColor(217,255,92)
+
+criteria = addCriteria("Refractory Kiln", "minecraft:inventory_changed")
+criteria.addItem("betterwithmods:cooking_pot")
+
+alwaysVisible()
+setPos(31,4)

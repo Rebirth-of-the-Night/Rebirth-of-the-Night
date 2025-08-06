@@ -1,0 +1,25 @@
+setIcon(<pyrotech:kiln_pit>)
+setTitle("Pit Kiln")
+setDescription("Craft a pit kiln to bake your first bricks.")
+
+
+addParent("triumph:advancements/techtree/campfire")
+
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(true)
+
+criteria = addCriteria("Pit Kiln", "minecraft:inventory_changed")
+criteria.addItem("pyrotech:kiln_pit")
+//Automatically unlocked if skipped with further advancements
+criteria = addCriteria("Brick Kiln", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/techtree/brick_kiln")
+
+criteria = addCriteria("Refractory Kiln", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/techtree/refractory_kiln")
+
+alwaysVisible()
+setPos(-164,-30)
