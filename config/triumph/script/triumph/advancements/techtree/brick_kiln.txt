@@ -19,4 +19,4 @@ criteria = addCriteria("Refractory Kiln", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/techtree/refractory_kiln")
 
 alwaysVisible()
-setPos(-97,-30)
+setPos(-138,-30)

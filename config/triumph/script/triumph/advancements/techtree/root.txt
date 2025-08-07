@@ -1,17 +1,26 @@
-
 //This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
 
+//Set icon item
 setIcon(<astikorcarts:wheel>)
+
+//Set title String
 setTitle("Technological Progress")
+
+//Set description. These are legacy and unneeded unless the entire category needs an explanation.
 setDescription("Question of science, science and progress.")
 
-setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+//Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
+setBackground("earthworks:textures/blocks/block_wicker.png")
 
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
 setShowToast(false)
+
+//Set the advancement to not send a chat message when it is achieved.
 setAnnounceToChat(false)
 
-criteria = addCriteria("location", "minecraft:location")
+//Adds a single location criteria. Since this is set as impossible, it will never be unlocked and show up unless granted with commands.
+criteria = addCriteria("impossible", "minecraft:impossible")
 
 setHidden(true)
-setPos(-292,4)
+setPos(-280,32)
 hideLines()

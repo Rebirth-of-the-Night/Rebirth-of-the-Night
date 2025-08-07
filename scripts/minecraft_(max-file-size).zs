@@ -1286,6 +1286,9 @@ stoneWOHolystone.remove(<aether_legacy:holystone>);
 <ore:listAllmilk>.remove(<aether_legacy:skyroot_bucket>);
 <ore:milkBucket>.remove(<aether_legacy:skyroot_bucket>);
 
+<ore:workbench>.addItems([<randomthings:customworkbench:*>,<arcanearchives:radiant_crafting_table>]);
+<ore:denseRedstoneOre>.addItems([<pyrotech:dense_redstone_ore_rocks>,<pyrotech:dense_redstone_ore_small>,<pyrotech:dense_redstone_ore_large>]);
+<ore:cookingKit>.addItems([<contenttweaker:cooking_kit>,<contenttweaker:cooking_kit_quality>,<contenttweaker:cooking_kit_elite>,<contenttweaker:cooking_kit_premium>,<contenttweaker:cooking_kit_master>]);
 
 val defileableGrass = <ore:defileableGrass>;
 defileableGrass.add(

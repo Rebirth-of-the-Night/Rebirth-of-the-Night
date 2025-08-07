@@ -18,4 +18,4 @@ criteria = addCriteria("Refractory Kiln", "minecraft:inventory_changed")
 criteria.addItem("betterwithmods:cooking_pot")
 
 alwaysVisible()
-setPos(31,4)
+setPos(-48,2)

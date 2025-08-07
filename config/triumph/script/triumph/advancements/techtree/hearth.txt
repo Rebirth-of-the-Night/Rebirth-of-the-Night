@@ -14,8 +14,8 @@ setAnnounceToChat(true)
 
 criteria = addCriteria("Hearth Stove", "minecraft:inventory_changed")
 criteria.addItem("exsartagine:hearth")
-//Automatically unlocked if skipped with further advancements
-criteria = addCriteria("Stove", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/techtree/stove")
 
-setPos(-164,37)
+//This function grants the lightedCampfire gamestage to hook to. Also grants campfire advancement retroactively.
+addRewardFunction("triumph:lighted_campfire")
+
+setPos(-183,35)

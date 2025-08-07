@@ -1,0 +1,19 @@
+setIcon(<betterwithmods:saw>)
+setTitle("Saw")
+setDescription("A precise mill-powered steel saw that can get the most out of wood. Produces more planks per log, and enables the creation of mouldings and more wood shapes.")
+
+
+addParent("triumph:advancements/techtree/windmill")
+
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(true)
+
+criteria = addCriteria("Saw", "minecraft:inventory_changed")
+criteria.addItem("betterwithmods:saw")
+
+alwaysVisible()
+setPos(-48,166)

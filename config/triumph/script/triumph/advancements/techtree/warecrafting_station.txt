@@ -1,0 +1,19 @@
+setIcon(<artisanworkstumps:workstump_potter>)
+setTitle("Warecrafting Station")
+setDescription("Craft a warecrafting station to shape earthenware, porcelain, soapstone and more. Use a carver on the recipes to create pots, totems, etc.")
+
+
+addParent("triumph:advancements/techtree/crafting_table")
+
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(true)
+
+criteria = addCriteria("Warecrafting Station", "minecraft:inventory_changed")
+criteria.addItem("artisanworkstumps:workstump_potter")
+
+alwaysVisible()
+setPos(-183,134)

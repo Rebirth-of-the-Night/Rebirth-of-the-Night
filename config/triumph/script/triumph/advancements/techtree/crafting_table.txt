@@ -3,7 +3,7 @@ setTitle("Crafting Table")
 setDescription("Craft a crafting table to access wooden planks and a myriad recipes, if you don't want to carry one around with you all the time. Craft with tools lying around and different base blocks.")
 
 
-addParent("triumph:advancements/techtree/crafting_mat")
+addParent("triumph:advancements/techtree/root")
 
 //Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
 setShowToast(true)
@@ -12,7 +12,12 @@ setShowToast(true)
 setAnnounceToChat(true)
 
 criteria = addCriteria("crafting_table", "minecraft:inventory_changed")
-criteria.addItem("ore:workbench")
+criteria.addItem(<ore:workbench>)
+
+//This function grants the crafting table advancement for the mat advancement (redundant), but more importantly gives the craftingTable gamestage to hook to.
+addRewardFunction("triumph:crafted_crafting_mat")
+
+hideLines()
 
 alwaysVisible()
-setPos(-164,90)
+setPos(-224,166)

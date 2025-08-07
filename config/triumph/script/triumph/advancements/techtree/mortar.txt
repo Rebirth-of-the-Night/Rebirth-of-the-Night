@@ -1,0 +1,19 @@
+setIcon(<advancedmortars:mortar>)
+setTitle("Mortar")
+setDescription("A handicrafts mortar & pestle can be used to manually grind coal into dust for use in steel. Different mortars have different specialized uses.")
+
+
+addParent("triumph:advancements/techtree/millstone")
+
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(true)
+
+criteria = addCriteria("Mortar", "minecraft:inventory_changed")
+criteria.addItem("advancedmortars:mortar")
+
+alwaysVisible()
+setPos(-138,102)

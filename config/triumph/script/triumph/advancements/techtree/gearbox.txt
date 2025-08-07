@@ -1,0 +1,21 @@
+setIcon(<betterwithmods:wooden_gearbox>)
+setTitle("Gearbox & Axles")
+setDescription("Gearboxes can carry energy from windmills and water wheels through up to three axles per gearbox.")
+
+
+addParent("triumph:advancements/techtree/millstone")
+
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(true)
+
+criteria = addCriteria("Gearbox", "minecraft:inventory_changed")
+criteria.addItem("betterwithmods:wooden_gearbox")
+criteria = addCriteria("Axles", "minecraft:inventory_changed")
+criteria.addItem("betterwithmods:wooden_axle")
+
+alwaysVisible()
+setPos(-138,166)

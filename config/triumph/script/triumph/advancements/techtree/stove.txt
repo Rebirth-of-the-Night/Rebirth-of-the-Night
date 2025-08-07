@@ -14,6 +14,10 @@ setAnnounceToChat(true)
 
 criteria = addCriteria("Stove", "minecraft:inventory_changed")
 criteria.addItem("exsartagine:range")
-//Automatically unlocked if skipped with further advancements
 
-setPos(-97,37)
+//This function grants the lightedCampfire gamestage to hook to. Also grants campfire advancement retroactively.
+addRewardFunction("triumph:lighted_campfire")
+//This function grants the hearth advancement retroactively.
+addRewardFunction("triumph:hearth")
+
+setPos(-138,35)

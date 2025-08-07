@@ -16,4 +16,4 @@ criteria = addCriteria("Refractory Kiln", "minecraft:inventory_changed")
 criteria.addItem("pyrotech:brick_kiln")
 
 alwaysVisible()
-setPos(-30,-30)
+setPos(-93,-30)

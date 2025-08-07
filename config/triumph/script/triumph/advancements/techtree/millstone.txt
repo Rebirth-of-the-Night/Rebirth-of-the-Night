@@ -1,0 +1,19 @@
+setIcon(<betterwithmods:single_machine>)
+setTitle("Millstone & Handcrank")
+setDescription("Craft a millstone to grind hemp, coal, and more. Powered manually with a handcrank or mechanically with a windmill or water wheel connected to axles and gearboxes.")
+
+
+addParent("triumph:advancements/techtree/crafting_table")
+
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(true)
+
+criteria = addCriteria("Millstone & Handcrank", "minecraft:inventory_changed")
+criteria.addItem("betterwithmods:single_machine")
+
+alwaysVisible()
+setPos(-183,166)
