@@ -1,0 +1,49 @@
+{
+  # Overgrown Cliff Spires
+  enabled: true
+  biomes: {
+    names: [
+      biomesoplenty:overgrown_cliffs
+    ]
+  }
+  structures: [
+    {
+      name: overgrown_limestone_spire_x28_tree
+      offset: [ 0, 1, 0 ] # Generate ON grass, not IN grass
+      matchers: [
+        undergroundbiomes:metamorphic_overgrown
+        undergroundbiomes:sedimentary_overgrown
+      ]
+      height: [ 60, 120 ]
+      checkSurface: false
+      directions: down
+      chance: 1
+      count: 1
+      airChecks: [
+        [ 0, 1, 0 ]
+        [ 0, 10, 0 ] # Room to poke up
+      ]
+      solidChecks: []
+      debugSpawns: true
+    }
+    {
+      name: overgrown_limestone_spire_x35_tree
+      offset: [ 0, 1, 0 ] # Generate ON grass, not IN grass
+      matchers: [
+        undergroundbiomes:metamorphic_overgrown
+        undergroundbiomes:sedimentary_overgrown
+      ]
+      height: [ 60, 120 ]
+      checkSurface: false
+      directions: down
+      chance: 1
+      count: 1
+      airChecks: [
+        [ 0, 1, 0 ]
+        [ 0, 15, 0 ] # Room to poke up
+      ]
+      solidChecks: []
+      debugSpawns: true
+    }
+  ]
+}

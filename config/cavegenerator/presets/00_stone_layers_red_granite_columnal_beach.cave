@@ -1,0 +1,14 @@
+# a great deal of prominent islands, like Hawaii, Iceland and most tropical archipelagos in the Pacific are product of marine volcanic eruptions, with the extrusive (expelled), very fertile basalt and intrusive (slowly cooled) granite forming the majority of the geography
+{
+  biomes: {
+    names: [
+      biometweaker:warm_columnal_beach
+    ]
+  }
+  layers: [
+    {
+      state: contenttweaker:columnar_jointing_red_granite
+      height: [ 0, 255 ]
+    }
+  ]
+}

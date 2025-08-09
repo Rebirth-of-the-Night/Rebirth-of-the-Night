@@ -70,6 +70,20 @@
 		}
 	},
 	{
+		"__comment" : "Skyland cove jungles",
+		"select": { "name": "biometweaker:anchor_cove" },
+		"apply": {
+			"species": {
+				"random": {
+					"megajungle": 10,
+					"palm": 5,
+					"ironwood": 2
+				}
+			},
+			"chance": 1.0
+		}
+	},
+	{
 		"__comment" : "Mountain base covered in alpine trees",
 		"select": { "name": "biometweaker:mountain_base" },
 		"apply": {
@@ -77,6 +91,20 @@
 				"random": {
 					"pine": 5,
 					"birch": 3
+				}
+			},
+			"chance": 1.0
+		}
+	},
+	{
+		"__comment" : "Cherry blossom mounts with lots of the cherries but also some ancestral birch",
+		"select": { "name": "biometweaker:cherry_blossom_mount" },
+		"apply": {
+			"species": {
+				"random": {
+					"whitcherry": 30,
+					"pinkcherry": 5,
+					"ironwood": 5
 				}
 			},
 			"chance": 1.0
