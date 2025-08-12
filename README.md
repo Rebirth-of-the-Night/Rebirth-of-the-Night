@@ -35,9 +35,9 @@ the [RotN Modpack on CurseForge](https://www.curseforge.com/minecraft/modpacks/r
 
 As of Version 3.0.0 and up, OptiFine and the Soundtrack are automatically included and **do not** need to be installed separately.
 
-Latest: [v3.2.1b Hotfix](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/5255398)
+Latest: [v3.3](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/6750060)
 
-[v3.2.1b Server pack](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/5255415) 
+[v3.3 Server pack](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/6750753) 
 
 ### Version 2.77.5 (legacy)
 
