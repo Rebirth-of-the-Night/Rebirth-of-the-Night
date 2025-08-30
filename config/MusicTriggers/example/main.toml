@@ -275,9 +275,7 @@
 		triggers = [ "time-night", "dimension-overworld" ]
 	[songs.WintersSong]
 		triggers = [ "dimension-overworld", "biome-snowy" ]
-	[songs.Wither]
-		triggers = [ "mob-wither" ]
-	[songs.Wither2]
+	[songs.NothingCanBeExplainedEndEdit]
 		triggers = [ "mob-wither" ]
 	[songs.WoodlandTales]
 		triggers = [ "dimension-overworld" ]
@@ -359,7 +357,7 @@
 		detection_range = "100"
 		identifier = "wither"
 		priority = "500"
-		resource_name = [ "minecraft:wither" ]
+		resource_name = [ "da:voidclysm" ]
 	[[triggers.mob]]
 		detection_range = "300"
 		detection_y_ratio = "100.0"
