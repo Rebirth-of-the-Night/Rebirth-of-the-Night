@@ -111,6 +111,7 @@ TForest6 - The Rake
 
 By Kevin Macleod:
 TForest2
+Exotic Battle
 
 Magic Forest
 Link: https://incompetech.filmmusic.io/song/4012-magic-forest
@@ -130,6 +131,8 @@ Underground1 - "Haunted Woods" by Michael Klier
 TForest 3 - The Forbidden Forest by Alexander Hoff
 TForest 4 - Mystical way of the lone traveler by Alexander Nakarada
 Quazar - Boom Kitty
+Depths 1 & 2 - Reflective District Vol: 2 by One Man Symphony
+Depths 3 - Dark Ambient Atmosphère 2 by Daniel Hourtoulle
 
 From RoyaltyFreeZone:
 Wroughtnaut
@@ -141,6 +144,9 @@ Punch 03  https://pixabay.com/sound-effects/punch-03-352040/
 Power punch https://pixabay.com/sound-effects/power-punch-192118/
 Thud https://pixabay.com/sound-effects/thud-291047/
 Blade Piercing Body https://pixabay.com/sound-effects/blade-piercing-body-352462/
+Falling Game Character https://pixabay.com/sound-effects/falling-game-character-352287/
+
+zerokingfull https://freesound.org/people/zerokingfull/sounds/347410/
 
 §r~ ~ ~ §nTexture Artists§r ~ ~ ~
 

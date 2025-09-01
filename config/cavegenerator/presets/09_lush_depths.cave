@@ -1,0 +1,97 @@
+{
+  imports: common_values.cave::NATURAL_STONE
+  replaceableBlocks: $NATURAL_STONE
+  replaceDecorators: true
+  dimensions: [ 27 ]
+  biomes: {
+    names: [
+      biometweaker:lush_depths
+    ]
+  }
+  caverns: {
+    height: [ 16, 178 ]
+    generators: {
+      frequency: 0.015
+      gain: 0.4
+      type: Cellular
+      returnType: Distance3Div
+      jitter: 0.75
+      perturb: true
+      perturbAmp: 10
+      perturbFreq: 0.025
+      invert: true
+      threshold: -0.4
+      stretch: 0.58
+    }
+  }
+  wallDecorators: [
+    # Moss walls and surfaces.
+    {
+      states: rotn_blocks:cave_moss
+      matchers: [
+        stone
+        undergroundbiomes:sedimentary_stone
+        undergroundbiomes:sedimentary_stone:1
+        undergroundbiomes:sedimentary_stone:2
+        undergroundbiomes:sedimentary_stone:3
+        undergroundbiomes:sedimentary_stone:4
+        undergroundbiomes:sedimentary_stone:5
+        undergroundbiomes:sedimentary_stone:6
+        undergroundbiomes:sedimentary_stone:7
+        undergroundbiomes:metamorphic_stone
+        undergroundbiomes:metamorphic_stone:1
+        undergroundbiomes:metamorphic_stone:2
+        minecraft:stone
+        undergroundbiomes:metamorphic_stone:4
+        undergroundbiomes:metamorphic_stone:5
+        undergroundbiomes:metamorphic_stone:6
+        undergroundbiomes:metamorphic_stone:7
+        undergroundbiomes:igneous_stone
+        undergroundbiomes:igneous_stone:1
+        undergroundbiomes:igneous_stone:2
+        undergroundbiomes:igneous_stone:3
+        undergroundbiomes:igneous_stone:4
+        undergroundbiomes:igneous_stone:5
+        undergroundbiomes:igneous_stone:6
+        undergroundbiomes:igneous_stone:7
+        rotn_blocks:cave_moss
+      ]
+      height: [ 31, 240 ]
+      directions: all
+      placement: EMBED
+      integrity: 0.7
+    }
+    # Void Blossom
+    {
+      states: da:spore_blossom
+      height: [ 11, 55 ]
+      directions: down
+      matchers: rotn_blocks:cave_moss
+      placement: overlay
+      integrity: 0.01
+    }
+  ]
+  stalactites: [
+    # verribynes.
+    {
+      type: stalactite
+      state: da:aza_vines
+      size: medium
+      length: [ 1, 8 ]
+      height: [ 11, 58 ]
+      matchers: rotn_blocks:cave_moss
+      chance: 0.9
+      region: {}
+    }
+    # Rare green magicite in the ceiling (what makes the underground be so populated).
+    {
+      type: stalactite
+      state: quark:crystal_pane:4
+      size: small
+      length: [ 1, 3 ]
+      height: [ 11, 48 ]
+      matchers: rotn_blocks:cave_moss
+      chance: 0.03
+    }
+  ]
+}

@@ -103,7 +103,8 @@
 			"species": {
 				"random": {
 					"whitcherry": 30,
-					"pinkcherry": 5,
+					"pinkcherry": 15,
+					"maple" : 5,
 					"ironwood": 5
 				}
 			},

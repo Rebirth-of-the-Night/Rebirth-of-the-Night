@@ -1,0 +1,14 @@
+{
+  dimensions: [ 27 ]
+  biome: [ "river" ]
+  layers: [
+    {
+      state: foundry:gold
+      height: [ 0, 15 ]
+    }
+    {
+      state: air
+      height: [ 0, 190 ]
+    }
+  ]
+}

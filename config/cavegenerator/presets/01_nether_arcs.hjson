@@ -1,0 +1,70 @@
+{
+  enabled: true
+  biomes: {
+    names: [ "minecraft:hell", "netherex:torrid_wasteland", "netherex:fungi_forest" ]
+    types: []
+  }
+  replaceableBlocks: [ "air", "netherrack", "water", "netherex:fiery_netherrack" ]
+  caveBlocks: [
+    {
+      states: biomesoplenty:flesh
+      height: [ 100, 200 ]
+    }
+  ]
+  tunnels: {
+    chance: 0.03
+    count: 2
+    distance: 900
+    height: [ 100, 200 ]
+    systemChance: 0.1
+    noiseYReduction: false
+    systemDensity: 1
+    originHeight: [ 100, 105 ]
+    checkWater: false
+    resolution: 8
+    hasBranches: false
+    scale: {
+      startVal: 10
+      startValRandFactor: 0.1
+      factor: 1
+      randFactor: 0
+      exponent: 1
+    }
+    stretch: {
+      startVal: 1
+      factor: 1
+      randFactor: 0
+      exponent: 1
+    }
+    pitch: {
+      startVal: 1.58
+      startValRandFactor: 0.1
+    }
+    dPitch: {
+      startVal: -0.15
+      factor: 1
+      randFactor: 0
+      exponent: 1
+    }
+    yaw: {
+      startVal: 0
+      startValRandFactor: 0.5
+    }
+    dYaw: {
+      startVal: 0
+      factor: 1
+      randFactor: 0.05
+      exponent: 1
+    }
+    wallDecorators: [
+      {
+        states: undergroundbiomes:igneous_stone:1
+        integrity: 1
+        height: [ 128, 200 ]
+        directions: up
+        matchers: minecraft:air
+        placement: overlay
+      }
+    ]
+  }
+}

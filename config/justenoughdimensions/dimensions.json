@@ -34,7 +34,7 @@
             "chunkgenerator": "com.shinoow.beneath.common.world.gen.ChunkProviderDeepDank",
             "dimensiontype": {
                 "id": 27,
-                "name": "The Below",
+                "name": "The Depths",
                 "suffix": "_dim27",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderHellJED",
