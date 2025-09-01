@@ -287,11 +287,11 @@
 		triggers = [ "mob-wroughtnaut" ]
 	[songs.demoniachorus]
 		triggers = [ "dimension-beneath" ]
-	[songs.depths1]
+	[songs.Depths1]
 		triggers = [ "dimension-depths" ]
-	[songs.depths2]
+	[songs.Depths2]
 		triggers = [ "dimension-depths" ]
-	[songs.depths3]
+	[songs.Depths3]
 		triggers = [ "dimension-depths" ]
 	[songs.universal]
 		pitch = 1.0
@@ -319,6 +319,10 @@
 		priority = "100"
 		resource_name = [ "10" ]
 	[[triggers.dimension]]
+		identifier = "depths"
+		priority = "100"
+		resource_name = [ "27" ]
+	[[triggers.dimension]]
 		identifier = "twilightforest"
 		priority = "50"
 		resource_name = [ "7" ]
@@ -329,10 +333,6 @@
 		identifier = "end"
 		priority = "100"
 		resource_name = [ "1" ]
-	[[triggers.dimension]]
-		identifier = "depths"
-		priority = "100"
-		resource_name = [ "27" ]
 	[[triggers.height]]
 		identifier = "deep_underground"
 		level = "15"
