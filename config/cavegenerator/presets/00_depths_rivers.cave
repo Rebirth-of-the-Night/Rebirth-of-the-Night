@@ -3,12 +3,12 @@
   biome: [ "river" ]
   layers: [
     {
-      state: foundry:gold
+      state: adpother:dust:2
       height: [ 0, 15 ]
     }
     {
       state: air
-      height: [ 0, 190 ]
+      height: [ 15, 190 ]
     }
   ]
 }

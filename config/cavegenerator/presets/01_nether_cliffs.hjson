@@ -31,11 +31,11 @@
         lacunarity: -1.5 // [Default: -1.5]
         gain: -0.8 // [Default: -0.8]
         perturb: true
-        perturbAmp: 2 // [Default: 2] You can mess around with this
-        perturbFreq: 0.07 // [Default: 0.07] You can mess around with this
+        perturbAmp: 4 // [Default: 2] You can mess around with this
+        perturbFreq: 0.2 // [Default: 0.07] You can mess around with this
         jitterY: -0.7 // You can mess around with this
-        jitterX: -1.7 // You can mess around with this
-        jitterZ: -1.7 // You can mess around with this
+        jitterX: -1.9 // You can mess around with this
+        jitterZ: -1.9 // You can mess around with this
         returnType: NoiseLookup
         cellularLookup: CubicFractal
         distFunc: Natural
