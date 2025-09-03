@@ -1,29 +1,42 @@
 {
-  // Hills preset by TeksturePako
   enabled: true
   replaceableBlocks: [ "air", "netherrack", "water", "netherex:fiery_netherrack" ]
-  blacklistBiomes: false
   biomes: {
     names: [ "minecraft:hell", "netherex:torrid_wasteland", "netherex:fungi_forest" ]
     types: []
   }
-  caverns: [ {
+  layers: [
+    {
+      state: dimstack:bedrock:0
+      height: [ 253, 255 ]
       ceiling: {
+        seed: 1
         dummy: true
         cache: true
         frequency: 0.001
         range: [ 90, 0 ]
       }
+    }
+  ]
+  caverns: [ {
+      ceiling: {
+        seed: 1
+        dummy: true
+        cache: true
+        frequency: 0.05
+        range: [ 90, 0 ]
+      }
       floor: {
+        seed: 1
         dummy: true
         cache: true
         frequency: 0.02
         range: [ -30, 30 ]
       }
-      height: [ 112, 240 ]
+      height: [ 128, 220 ]
       generators: {
         seed: 1
-        threshold: 0.8 // [Default: 0.8]
+        threshold: 0.6 // [Default: 0.8]
         frequency: -0.006 // [Default: -0.006]
         offset: -30 // [Default: -30]
         type: "ValueFractal" // [Default: ValueFractal]
@@ -31,31 +44,21 @@
         lacunarity: -1.5 // [Default: -1.5]
         gain: -0.8 // [Default: -0.8]
         perturb: true
-        perturbAmp: 4 // [Default: 2] You can mess around with this
-        perturbFreq: 0.2 // [Default: 0.07] You can mess around with this
-        jitterY: -0.7 // You can mess around with this
-        jitterX: -1.9 // You can mess around with this
-        jitterZ: -1.9 // You can mess around with this
+        perturbAmp: 2 // [Default: 2] You can mess around with this
+        perturbFreq: 0.07 // [Default: 0.07] You can mess around with this
+        jitterY: 0 // You can mess around with this
+        jitterX: 0 // You can mess around with this
+        jitterZ: 0 // You can mess around with this
         returnType: NoiseLookup
         cellularLookup: CubicFractal
         distFunc: Natural
         invert: false
         interp: "Linear" // [Default: Linear] - Both Hermite and Quintic works good
         fractal: "RigidMulti" // [Default: RigidMulti]
-        stretch: 4 // [Default: 3] - Decrease to make floating island | Increase = more steep
+        stretch: 3 // [Default: 3] - Decrease to make floating island | Increase = more steep
       }
     } ]
   caveBlocks: [
-    { states: "minecraft:netherrack", height: [ 120, 255 ] }
-  ]
-  wallDecorators: [
-    {
-      states: minecraft:netherrack
-      directions: down
-      matchers: netherex:netherrack_path
-      height: [ 0, 221 ]
-      placement: EMBED
-      integrity: 1
-    }
+    { states: "minecraft:netherrack", height: [ 125, 200 ] }
   ]
 }
