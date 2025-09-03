@@ -21,6 +21,12 @@
             "installationPolicy": {
                 "description": "MANDATORY! Downloads JSON Paintings from Modrinth."
             }
+        },
+        {
+            "url": "https://cdn.modrinth.com/data/65qOM4nb/versions/1m3gvzYh/Nether-API-v1.3.0-mc1.12.2.jar",
+            "installationPolicy": {
+                "description": "MANDATORY! Downloads Nether API from Modrinth."
+            }
         }
     ]
 }
