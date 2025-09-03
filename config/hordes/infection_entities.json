@@ -1,0 +1,7 @@
+ [
+		"minecraft:zombie",
+		"minecraft:zombie_villager",
+		"minecraft:husk",
+		"minecraft:zombie_horse",
+		"hordes:zombie_player"
+ ]
