@@ -231,7 +231,19 @@
 		"isCreative": true
     },
 	{
+        "motive": "Might Guide Plight",
+        "width": 5,
+        "height": 3,
+		"isCreative": true
+    },
+	{
         "motive": "Artistic Depiction of Shadits",
+        "width": 5,
+        "height": 4,
+		"isCreative": true
+    },
+	{
+        "motive": "Gifts of Old",
         "width": 5,
         "height": 4,
 		"isCreative": true
@@ -251,12 +263,6 @@
 	{
         "motive": "Emberia's Last Stand",
         "width": 6,
-        "height": 4,
-		"isCreative": true
-    },
-	{
-        "motive": "Gifts of Old",
-        "width": 5,
         "height": 4,
 		"isCreative": true
     },
