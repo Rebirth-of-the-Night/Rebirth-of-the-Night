@@ -1,0 +1,39 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Designed by Paulevs with Cubik Studio - https://cubik.studio",
+	"parent": "block/block",
+	"textures": {
+		"particle": "betternether:blocks/farmland_side",
+		"side": "betternether:blocks/farmland_side",
+		"top": "betternether:blocks/farmland_soil",
+		"bottom": "betternether:blocks/farmland_top"
+	},
+	"elements": [
+		{
+			"name": "Box1",
+			"from": [1, 15, 1],
+			"to": [15, 16, 15],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 1], "texture": "#top", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 1], "texture": "#top", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 1], "texture": "#top", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 1], "texture": "#top", "cullface": "west"},
+				"up": {"uv": [1, 1, 15, 15], "texture": "#top", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Box2",
+			"from": [0, 0, 0],
+			"to": [16, 15.975, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "west"},
+				"up": {"uv": [1, 1, 15, 15], "texture": "#bottom", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down"}
+			}
+		}
+	]
+}

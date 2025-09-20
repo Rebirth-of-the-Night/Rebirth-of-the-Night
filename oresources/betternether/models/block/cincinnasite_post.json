@@ -1,0 +1,49 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Designed by Paulevs with Cubik Studio - https://cubik.studio",
+	"parent": "block/block",
+	"textures": {
+		"2": "betternether:blocks/cincinnasite_pedestal_side",
+		"side": "betternether:blocks/cincinnasite_post_side",
+		"particle": "betternether:blocks/cincinnasite_forged"
+	},
+	"elements": [
+		{
+			"name": "Box1",
+			"from": [4, 0, 4],
+			"to": [12, 2, 12],
+			"faces": {
+				"north": {"uv": [4, 14, 12, 16], "texture": "#side"},
+				"east": {"uv": [4, 14, 12, 16], "texture": "#side"},
+				"south": {"uv": [4, 14, 12, 16], "texture": "#side"},
+				"west": {"uv": [4, 14, 12, 16], "texture": "#side"},
+				"up": {"uv": [1, 9.5, 3, 11.5], "texture": "#2"},
+				"down": {"uv": [1, 9.5, 3, 11.5], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [4, 14, 4],
+			"to": [12, 16, 12],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 2], "texture": "#side"},
+				"east": {"uv": [4, 0, 12, 2], "texture": "#side"},
+				"south": {"uv": [4, 0, 12, 2], "texture": "#side"},
+				"west": {"uv": [4, 0, 12, 2], "texture": "#side"},
+				"up": {"uv": [1, 9.5, 3, 11.5], "texture": "#2", "cullface": "up"},
+				"down": {"uv": [1, 9.5, 3, 11.5], "texture": "#2"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [5, 2, 5],
+			"to": [11, 14, 11],
+			"faces": {
+				"north": {"uv": [5, 2, 11, 14], "texture": "#side"},
+				"east": {"uv": [5, 2, 11, 14], "texture": "#side"},
+				"south": {"uv": [5, 2, 11, 14], "texture": "#side"},
+				"west": {"uv": [5, 2, 11, 14], "texture": "#side"}
+			}
+		}
+	]
+}

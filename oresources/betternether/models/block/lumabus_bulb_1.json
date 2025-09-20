@@ -1,0 +1,77 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Designed by Paulevs with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "betternether:blocks/lumabus_bulb_1",
+		"texture": "betternether:blocks/lumabus_bulb_1",
+		"leaves": "betternether:blocks/lumabus_leaves"
+	},
+	"elements": [
+		{
+			"name": "Box1",
+			"from": [4, 4, 4],
+			"to": [12, 12, 12],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [4, 0, 12, 8], "texture": "#texture"},
+				"east": {"uv": [4, 0, 12, 8], "texture": "#texture"},
+				"south": {"uv": [4, 0, 12, 8], "texture": "#texture"},
+				"west": {"uv": [4, 0, 12, 8], "texture": "#texture"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#leaves"},
+				"down": {"uv": [4, 8, 12, 16], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "PlaneY3",
+			"from": [4, 12, 12],
+			"to": [12, 12.001, 16],
+			"rotation": {"angle": 45, "axis": "x", "origin": [4, 12, 12]},
+			"faces": {
+				"up": {"uv": [4, 12, 12, 16], "texture": "#leaves"},
+				"down": {"uv": [4, 0, 12, 4], "texture": "#leaves"}
+			}
+		},
+		{
+			"name": "PlaneY3",
+			"from": [4, 11.999, 0],
+			"to": [12, 12, 4],
+			"rotation": {"angle": -45, "axis": "x", "origin": [4, 12, 4]},
+			"faces": {
+				"up": {"uv": [4, 0, 12, 4], "texture": "#leaves"},
+				"down": {"uv": [4, 12, 12, 16], "texture": "#leaves"}
+			}
+		},
+		{
+			"name": "PlaneY5",
+			"from": [12, 12, 4],
+			"to": [16, 12.001, 12],
+			"rotation": {"angle": -45, "axis": "z", "origin": [12, 12, 4]},
+			"faces": {
+				"up": {"uv": [12, 4, 16, 12], "texture": "#leaves"},
+				"down": {"uv": [12, 4, 16, 12], "texture": "#leaves"}
+			}
+		},
+		{
+			"name": "PlaneY5",
+			"from": [0, 11.999, 4],
+			"to": [4, 12, 12],
+			"rotation": {"angle": 45, "axis": "z", "origin": [4, 12, 4]},
+			"faces": {
+				"up": {"uv": [12, 4, 16, 12], "rotation": 180, "texture": "#leaves"},
+				"down": {"uv": [12, 4, 16, 12], "rotation": 180, "texture": "#leaves"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [7, 12, 7],
+			"to": [9, 16, 9],
+			"faces": {
+				"north": {"uv": [7, 9, 9, 13], "texture": "#leaves"},
+				"east": {"uv": [7, 9, 9, 13], "texture": "#leaves"},
+				"south": {"uv": [7, 9, 9, 13], "texture": "#leaves"},
+				"west": {"uv": [7, 9, 9, 13], "texture": "#leaves"},
+				"up": {"uv": [7, 7, 9, 9], "texture": "#leaves"}
+			}
+		}
+	]
+}

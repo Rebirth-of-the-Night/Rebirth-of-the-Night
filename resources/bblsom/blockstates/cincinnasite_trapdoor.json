@@ -1,0 +1,27 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "texture": "betternether:blocks/cincinnasite_plate_up"
+        }
+    },
+    "variants": {
+        "inventory": { "model": "minecraft:trapdoor_bottom", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"} },
+        "facing=north,half=bottom,open=false": { "model": "minecraft:trapdoor_bottom", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"} },
+        "facing=south,half=bottom,open=false": { "model": "minecraft:trapdoor_bottom", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"}, "y": 180 },
+        "facing=east,half=bottom,open=false": { "model": "minecraft:trapdoor_bottom", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"}, "y": 90 },
+        "facing=west,half=bottom,open=false": { "model": "minecraft:trapdoor_bottom", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"}, "y": 270 },
+        "facing=north,half=top,open=false": { "model": "minecraft:trapdoor_top", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"} },
+        "facing=south,half=top,open=false": { "model": "minecraft:trapdoor_top", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"}, "y": 180 },
+        "facing=east,half=top,open=false": { "model": "minecraft:trapdoor_top", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"}, "y": 90 },
+        "facing=west,half=top,open=false": { "model": "minecraft:trapdoor_top", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"}, "y": 270 },
+        "facing=north,half=bottom,open=true": { "model": "minecraft:trapdoor_open", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"} },
+        "facing=south,half=bottom,open=true": { "model": "minecraft:trapdoor_open", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"}, "y": 180 },
+        "facing=east,half=bottom,open=true": { "model": "minecraft:trapdoor_open", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"}, "y": 90 },
+        "facing=west,half=bottom,open=true": { "model": "minecraft:trapdoor_open", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"}, "y": 270 },
+        "facing=north,half=top,open=true": { "model": "minecraft:trapdoor_open", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"} },
+        "facing=south,half=top,open=true": { "model": "minecraft:trapdoor_open", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"}, "y": 180 },
+        "facing=east,half=top,open=true": { "model": "minecraft:trapdoor_open", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"}, "y": 90 },
+        "facing=west,half=top,open=true": { "model": "minecraft:trapdoor_open", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"}, "y": 270 }
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "variants": {
+  "facing=north": { "model": "contenttweaker:cincinnasite_statue", "y": 90 },
+  "facing=south": { "model": "contenttweaker:cincinnasite_statue", "y": 270 },
+  "facing=west": { "model": "contenttweaker:cincinnasite_statue", "y": 0 },
+  "facing=east": { "model": "contenttweaker:cincinnasite_statue", "y": 180 }
+}
+}

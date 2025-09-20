@@ -1,0 +1,56 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            
+        },
+        "model": "contenttweaker:cincinnasite_candle_holder.obj",
+        "custom": { "flip-v": true }
+     },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{
+            
+            "transform": {
+                    "firstperson_righthand": {
+                      "translation": [0, 0.025, 0],
+                      "rotation": [ { "y": 45}, {"x": 0}, {"z": 0} ],
+                      "scale": 0.375
+                    },
+                    "firstperson_lefthand": {
+                      "translation": [0, 0.025, 0],
+                      "rotation": [ { "y": 45}, {"x": 0}, {"z": 0} ],
+                      "scale": 0.375
+                    },
+                    "thirdperson_righthand": {
+                      "translation": [0.0, 0.15, 0.0],
+                      "rotation": [ { "y": 0}, {"x": 90}, {"z": 0} ],
+                      "scale": 0.375
+                    },
+                    "thirdperson_lefthand": {
+                      "translation": [0.0, 0.15, 0.0],
+                      "rotation": [ { "y": 0}, {"x": 90}, {"z": 0} ],
+                      "scale": 0.375
+                    },
+                    "gui": {
+                        "translation": [0.02, 0.0, 0],
+                        "rotation": [ { "y": 45}, {"x": 20}, {"z": 20} ],
+                        "scale": 0.65
+                    },
+                    "ground": {
+                        "translation": [0, 0, 0],
+                        "rotation": [ { "y": 0}, {"x": 0}, {"z": 0} ],
+                        "scale": 0.25
+                    }
+                }
+        }],
+        "facing": {
+            "down": {},
+            "up": {},
+            "north": {},
+            "south": {},
+            "west": {},
+            "east": {}
+        }
+    }
+}

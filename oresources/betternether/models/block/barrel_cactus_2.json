@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Designed by Paulevs with Cubik Studio - https://cubik.studio",
+	"parent": "block/block",
+	"textures": {
+		"side": "betternether:blocks/cactus_barrel_side",
+		"top": "betternether:blocks/cactus_barrel_top_2",
+		"particle": "betternether:blocks/cactus_barrel_top"
+	},
+	"elements": [
+		{
+			"name": "Box6",
+			"from": [4, 0, 4],
+			"to": [12, 12, 12],
+			"faces": {
+				"north": {"uv": [4, 4, 12, 16], "texture": "#side"},
+				"east": {"uv": [4, 4, 12, 16], "texture": "#side"},
+				"south": {"uv": [4, 4, 12, 16], "texture": "#side"},
+				"west": {"uv": [4, 4, 12, 16], "texture": "#side"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#top"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#top"}
+			}
+		}
+	]
+}

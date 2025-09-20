@@ -1,0 +1,8 @@
+{
+	"parent": "block/stairs",
+	"textures": {
+        "bottom": "contenttweaker:blocks/cincinnasite_tiles_small",
+        "top": "contenttweaker:blocks/cincinnasite_tiles_small",
+        "side": "contenttweaker:blocks/cincinnasite_tiles_small"
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Designed by Paulevs with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "betternether:blocks/jellyfish_mushroom_sapling",
+		"texture": "betternether:blocks/jellyfish_mushroom_sapling"
+	},
+	"elements": [
+		{
+			"name": "Box1",
+			"from": [7, 0, 7],
+			"to": [9, 4, 9],
+			"faces": {
+				"north": {"uv": [7, 12, 9, 16], "texture": "#texture"},
+				"east": {"uv": [7, 12, 9, 16], "texture": "#texture"},
+				"south": {"uv": [7, 12, 9, 16], "texture": "#texture"},
+				"west": {"uv": [7, 12, 9, 16], "texture": "#texture"},
+				"up": {"uv": [7, 12, 9, 14], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Box2",
+			"from": [6, 2, 6],
+			"to": [10, 5, 10],
+			"faces": {
+				"north": {"uv": [6, 9, 10, 12], "texture": "#texture"},
+				"east": {"uv": [6, 9, 10, 12], "texture": "#texture"},
+				"south": {"uv": [6, 9, 10, 12], "texture": "#texture"},
+				"west": {"uv": [6, 9, 10, 12], "texture": "#texture"},
+				"up": {"uv": [6, 3, 10, 7], "texture": "#texture"},
+				"down": {"uv": [6, 3, 10, 7], "texture": "#texture"}
+			}
+		}
+	]
+}

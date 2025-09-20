@@ -1,0 +1,8 @@
+{
+	"parent": "block/stairs",
+	"textures": {
+        "bottom": "betternether:blocks/cincinnasite_bricks",
+        "top": "betternether:blocks/cincinnasite_bricks",
+        "side": "betternether:blocks/cincinnasite_bricks"
+	}
+}

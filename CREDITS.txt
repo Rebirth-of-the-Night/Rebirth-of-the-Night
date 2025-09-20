@@ -163,6 +163,7 @@ Inventory Food - SoulRacer65#3745
 Bonfire - lilypuree (Decorative Blocks)
 Soul Bonfire - lilypuree (Decorative Blocks)
 Bushier Grass + Flora - Oslypsis https://modrinth.com/resourcepack/os-colorful-grasses
+Reworked Cincinnasite + Better Nether Remodels - Aldahel
 
 
 §r~ ~ ~ §nScreenshots§r ~ ~ ~

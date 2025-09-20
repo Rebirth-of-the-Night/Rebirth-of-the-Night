@@ -1,0 +1,81 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Designed by Paulevs with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "betternether:blocks/giant_mold_top",
+		"texture": "betternether:blocks/giant_mold_top",
+		"fur": "betternether:blocks/giant_mold_fur",
+		"cut": "betternether:blocks/nether_mushroom_stem_top"
+	},
+	"elements": [
+		{
+			"name": "Box1",
+			"from": [2, 2, 2],
+			"to": [14, 14, 14],
+			"faces": {
+				"north": {"uv": [2, 2, 14, 14], "texture": "#texture"},
+				"east": {"uv": [2, 2, 14, 14], "texture": "#texture"},
+				"south": {"uv": [2, 2, 14, 14], "texture": "#texture"},
+				"west": {"uv": [2, 2, 14, 14], "texture": "#texture"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#texture"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "PlaneY2",
+			"from": [-8, -3, -2.5],
+			"to": [24, -2.999, 29.5],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "x", "origin": [-8, -3, -2.5]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#fur"},
+				"down": {"uv": [16, 0, 0, 16], "texture": "#fur"}
+			}
+		},
+		{
+			"name": "PlaneY2",
+			"from": [-8, 19.5, -3.5],
+			"to": [24, 19.501, 28.5],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "x", "origin": [-8, 19.5, -3.5]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#fur"},
+				"down": {"uv": [16, 0, 0, 16], "texture": "#fur"}
+			}
+		},
+		{
+			"name": "PlaneY2",
+			"from": [-3, 19, -8],
+			"to": [29, 19.001, 24],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "z", "origin": [-3, 19, -8]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#fur"},
+				"down": {"uv": [16, 0, 0, 16], "texture": "#fur"}
+			}
+		},
+		{
+			"name": "PlaneX7",
+			"from": [-3.5, -8, -3.5],
+			"to": [-3.499, 24, 28.5],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [-3.5, -8, -3.5]},
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "texture": "#fur"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#fur"}
+			}
+		},
+		{
+			"name": "Box9",
+			"from": [5, 0, 5],
+			"to": [11, 2, 11],
+			"faces": {
+				"north": {"uv": [5, 14, 11, 16], "texture": "#texture"},
+				"east": {"uv": [5, 14, 11, 16], "texture": "#texture"},
+				"south": {"uv": [5, 14, 11, 16], "texture": "#texture"},
+				"west": {"uv": [5, 14, 11, 16], "texture": "#texture"},
+				"down": {"uv": [5, 5, 11, 11], "texture": "#cut", "cullface": "down"}
+			}
+		}
+	]
+}
