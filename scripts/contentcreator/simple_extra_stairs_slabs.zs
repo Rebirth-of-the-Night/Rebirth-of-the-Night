@@ -36,6 +36,10 @@ GenericBlock.createStairs("ferrought_plate_stairs", <blockstate:minecraft:stone_
 // Sandstone
 GenericBlock.createStairs("white_sandstone_brick_stairs", <blockstate:minecraft:stone_stairs>).register();
 GenericBlock.createStairs("red_granite_sandstone_brick_stairs", <blockstate:minecraft:stone_stairs>).register();
+//Cincinnasite
+GenericBlock.createStairs("cincinnasite_stairs", <blockstate:minecraft:stone_stairs>).register();
+GenericBlock.createStairs("cincinnasite_brick_stairs", <blockstate:minecraft:stone_stairs>).register();
+GenericBlock.createStairs("small_cincinnasite_tile_stairs", <blockstate:minecraft:stone_stairs>).register();
 
 ///////////////////////
 //////// Slabs ////////
@@ -76,3 +80,7 @@ GenericBlock.createSlab(iron, "ferrought_plate_slab").register();
 // Sandstone
 GenericBlock.createSlab(rock, "white_sandstone_brick_slab").register();
 GenericBlock.createSlab(rock, "red_granite_sandstone_brick_slab").register();
+// Cincinnasite
+GenericBlock.createSlab(iron, "cincinnasite_slab").register();
+GenericBlock.createSlab(iron, "cincinnasite_brick_slab").register();
+GenericBlock.createSlab(iron, "small_cincinnasite_tile_slab").register();

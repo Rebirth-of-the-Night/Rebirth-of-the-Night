@@ -685,7 +685,7 @@ seasoned_stump.setToolClass("axe");
 seasoned_stump.setCreativeTab(<creativetab:rotn_blocks>);
 seasoned_stump.register();
 
-// cincinnasite chandellier
+// cincinnasite
 var cincinnasite_chandelier = VanillaFactory.createBlock("cincinnasite_chandelier", <blockmaterial:Wood>);
 cincinnasite_chandelier.axisAlignedBB = AxisAlignedBB.create(
 	0.0 / 16.0,
@@ -703,6 +703,63 @@ cincinnasite_chandelier.setBlockLayer("CUTOUT");
 cincinnasite_chandelier.setToolClass("pickaxe");
 cincinnasite_chandelier.setCreativeTab(<creativetab:rotn_blocks>);
 cincinnasite_chandelier.register();
+
+var cincinnasite_candle_holder = VanillaFactory.createBlock("cincinnasite_candle_holder", <blockmaterial:Iron>);
+cincinnasite_candle_holder.axisAlignedBB = AxisAlignedBB.create(
+     2.0 / 16.0,
+     0.0 / 16.0,
+     2.0 / 16.0,
+	14.0 / 16.0,
+    32.0 / 16.0,
+    14.0 / 16.0
+	);
+cincinnasite_candle_holder.setBlockSoundType(<soundtype:metal>);
+cincinnasite_candle_holder.setFullBlock(false);
+cincinnasite_candle_holder.setLightOpacity(0);
+cincinnasite_candle_holder.setLightValue(1);
+cincinnasite_candle_holder.setBlockLayer("CUTOUT");
+cincinnasite_candle_holder.setPassable(false);
+cincinnasite_candle_holder.setToolClass("pickaxe");
+cincinnasite_candle_holder.setToolLevel(2);
+cincinnasite_candle_holder.setCreativeTab(<creativetab:rotn_blocks>);
+cincinnasite_candle_holder.register();
+
+var patterned_cincinnasite = VanillaFactory.createBlock("patterned_cincinnasite", <blockmaterial:Iron>);
+patterned_cincinnasite.setBlockHardness(8);
+patterned_cincinnasite.setToolClass("pickaxe");
+patterned_cincinnasite.setCreativeTab(<creativetab:rotn_blocks>);
+patterned_cincinnasite.register();
+
+var small_cincinnasite_tile = VanillaFactory.createBlock("small_cincinnasite_tile", <blockmaterial:Iron>);
+small_cincinnasite_tile.setBlockHardness(8);
+small_cincinnasite_tile.setToolClass("pickaxe");
+small_cincinnasite_tile.setCreativeTab(<creativetab:rotn_blocks>);
+small_cincinnasite_tile.register();
+
+var cincinnasite_roof_tile = VanillaFactory.createBlock("cincinnasite_roof_tile", <blockmaterial:Iron>);
+cincinnasite_roof_tile.setBlockHardness(8);
+cincinnasite_roof_tile.setToolClass("pickaxe");
+cincinnasite_roof_tile.setCreativeTab(<creativetab:rotn_blocks>);
+cincinnasite_roof_tile.register();
+
+var cincinnasite_statue = VanillaFactory.createDirectionalBlock("cincinnasite_statue", <blockmaterial:Iron>, "HORIZONTAL", false, true);
+cincinnasite_statue.axisAlignedBB = AxisAlignedBB.create(
+     2.0 / 16.0,
+     0.0 / 16.0,
+     2.0 / 16.0,
+	14.0 / 16.0,
+    32.0 / 16.0,
+    14.0 / 16.0
+	);
+cincinnasite_statue.setFullBlock(false);
+cincinnasite_statue.setLightOpacity(0.5);
+cincinnasite_statue.setLightValue(7);
+cincinnasite_statue.setBlockLayer("CUTOUT");
+cincinnasite_statue.setCreativeTab(<creativetab:decorations>);
+cincinnasite_statue.setBlockSoundType(<soundtype:metal>);
+cincinnasite_statue.setToolLevel(2);
+cincinnasite_statue.setCreativeTab(<creativetab:rotn_blocks>);
+cincinnasite_statue.register();
 
 // Raw Ores
 // raw_tin
