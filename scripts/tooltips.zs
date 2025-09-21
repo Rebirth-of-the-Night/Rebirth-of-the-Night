@@ -371,9 +371,14 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <contenttweaker:refracotta:*>.addTooltip("Not as good at keeping heat. Invalid for refractory structure.");
 <contenttweaker:modelingrefractory:*>.addTooltip("Malleable and homogeneous, ready for modeling.");
 <pyrotech:cog_wood>.removeTooltip("Indestructible");
+<pyrotech:cog_wood:*>.addShiftTooltip("Wood provides high friction, a lower failure point, and creates no sparks.");
 <pyrotech:cog_wood:*>.addTooltip("Can power a Mechanical Compactor");
 <pyrotech:cog_bone>.removeTooltip("Indestructible");
 <pyrotech:cog_bone:*>.addTooltip("Can power a Mechanical Compactor");
+<pyrotech:cog_wood:*>.addShiftTooltip("Steel provides medium friction, the highest durability, but can create sparks.");
+<pyrotech:cog_gold>.removeTooltip("Indestructible");
+<pyrotech:cog_gold:*>.addShiftTooltip("Brass provides the lowest friction, a medium failure point, and creates no sparks.");
+<pyrotech:cog_gold:*>.addTooltip("Can power a Mechanical Compactor");
 
 <pyrotech:bucket_stone>.removeTooltip("Uses:");
 <pyrotech:bucket_stone>.removeTooltip("Can hold hot fluids.");

@@ -244,6 +244,7 @@ val creationQuintessenceA = <ore:creationQuintessenceA>;
 creationQuintessenceA.add(
     <pyrotech:cog_wood>,
     <pyrotech:cog_bone>,
+    <pyrotech:cog_gold>,
     <minecraft:blaze_powder>,
     <minecraft:fire_charge>,
     <contenttweaker:heartofthefallen>,

@@ -212,6 +212,7 @@ var moulding_wood = MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
 var siding_wood = MiniBlocks.getMiniBlock("siding", <ore:plankWood>);
 var gear_wood = <pyrotech:cog_wood>;
 var gear_steel = <pyrotech:cog_bone>;
+var gear_brass = <pyrotech:cog_gold>;
 var generic_metal = <ore:genericMetal>;
 var archimedes = <betterwithmods:material:24>;
 var glue = <ore:glue>;

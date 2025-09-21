@@ -1,0 +1,279 @@
+{
+  "version": 2,
+  "location": "rotn:alchemical_processor",
+  "traits": {
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 26,
+      "y": 154,
+      "width": 58,
+      "height": 9,
+      "texture": "multiblocked:textures/progress_bar/fe_bar.png",
+      "fillDirection": 0
+    },
+    "background": "multiblocked:textures/gui/alchemical_processor.png",
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "x": 63,
+        "y": 89,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "x": 47,
+        "y": 89,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "x": 79,
+        "y": 89,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "x": 79,
+        "y": 119,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "x": 63,
+        "y": 119,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "x": 47,
+        "y": 119,
+        "autoIO": false
+      }
+    ],
+    "fluid": [
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "x": 29,
+        "y": 89,
+        "autoIO": true,
+        "tC": 10000,
+        "w": 18,
+        "h": 18,
+        "fillDir": "DOWN_TO_UP"
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "x": 29,
+        "y": 119,
+        "autoIO": true,
+        "tC": 10000,
+        "w": 18,
+        "h": 18,
+        "fillDir": "DOWN_TO_UP"
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 4.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "multiblocked:block/alchemical_processor",
+        "type": "imodel"
+      }
+    },
+    "idle": {
+      "parent": "unformed",
+      "sound": {
+        "sound": "multiblocked:empty",
+        "loop": false,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    },
+    "working": {
+      "parent": "idle",
+      "sound": {
+        "sound": "exsartagine:bubbling",
+        "loop": true,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 1.5
+      }
+    },
+    "suspend": {
+      "parent": "working"
+    },
+    "new_status_1": {}
+  },
+  "recipeMap": "alchemical_processor",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "A",
+        "B",
+        "C",
+        " "
+      ],
+      [
+        "D",
+        "@",
+        "E",
+        "F"
+      ],
+      [
+        "A",
+        "B",
+        "G",
+        " "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "exsartagine:range_extended_lit",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "rotn:alchemical_processor",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "quark:iron_plate",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "aesthetics:iron_brick_stairs",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "exsartagine:range",
+            "meta": 6
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "contenttweaker:brass_plate",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "betterwithmods:wooden_axle",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "aesthetics:iron_brick_stairs",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ]
+    }
+  }
+}

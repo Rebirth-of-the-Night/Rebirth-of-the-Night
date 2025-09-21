@@ -397,6 +397,15 @@ events.onEntityLivingDeathDrops(function(event as crafttweaker.event.EntityLivin
 		event.drops = drops as IEntityItem[];
 	}
 	
+	// Goblins accessory_17 (Brasselet/Brass Bearing)
+	if (event.entityLivingBase.definition.id == "primitivemobs:goblin") {
+		var drops = event.drops as [IEntityItem];
+		if (Math.random() <= 0.1) {
+			drops += <behgameon:accessory_17>.createEntityItem(event.entityLivingBase.world, event.entityLivingBase.position);
+		}
+		event.drops = drops as IEntityItem[];
+	}
+	
 	// Harvester scythe enchantment
 	if (event.entityLivingBase.definition.id == "harvestersnight:harvester") {
 		var drops = event.drops as IEntityItem[];

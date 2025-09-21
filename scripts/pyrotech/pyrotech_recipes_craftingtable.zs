@@ -49,7 +49,7 @@ JEI.removeAndHide(<pyrotech:cog_stone>);
 JEI.removeAndHide(<pyrotech:cog_flint>);
 recipes.remove(<pyrotech:cog_bone>); // SFS gear
 JEI.removeAndHide(<pyrotech:cog_iron>);
-JEI.removeAndHide(<pyrotech:cog_gold>);
+recipes.remove(<pyrotech:cog_gold>); // brass gear
 JEI.removeAndHide(<pyrotech:cog_diamond>);
 JEI.removeAndHide(<pyrotech:cog_obsidian>);
 recipes.remove(<pyrotech:thatch>);
@@ -119,6 +119,9 @@ val timber = <earthworks:item_timber>;
 val fiber = <pyrotech:material:12>;
 val hay_bale = <pyrotech:thatch>;
 val pit_kiln = <pyrotech:kiln_pit>;
+val brass_nugget = <ore:nuggetBrass>;
+val handle = <spartanweaponry:material>;
+val brass_gear = <pyrotech:cog_gold>;
 
 recipes.addShapeless("pyro_matchstick_broken_stick",<pyrotech:matchstick>,
 [<pyrotech:tinder>,<contenttweaker:broken_stick>,<contenttweaker:broken_stick>]);
@@ -133,6 +136,10 @@ recipes.addShaped("dry_to_hay_bale", hay_bale,
 recipes.addShaped("dry_to_pit_kiln", pit_kiln*4,
  [[dry,dry,dry],
   [dry,dry,dry]]);
+recipes.addShaped("brass_gear", brass_gear,
+ [[null,brass_nugget,null],
+  [brass_nugget,null,brass_nugget],
+  [null,brass_nugget,null]]);
 recipes.addShapeless("ash_conversion", <biomesoplenty:ash>*3,
 [<pyrotech:material>]);
 recipes.addShapeless("twineToString", <minecraft:string>,[twine,twine,twine]);

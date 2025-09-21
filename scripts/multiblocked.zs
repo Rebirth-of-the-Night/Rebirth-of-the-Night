@@ -57,10 +57,10 @@ recipes.addShaped((<multiblocked:gale_chamber>), [
     [<aether_legacy:dungeon_block>.reuse(), <ore:blockEnchantedGravitite>, <aether_legacy:dungeon_block>.reuse()], 
     [null, <ore:genericMetalBars>.reuse(), null]
 ]);
-recipes.addShaped((<multiblocked:alchemical_mixer>), [
-    [null, <earthworks:block_slate>.reuse(), null],
-    [<aesthetics:iron_brick_stairs>.reuse(), <betterwithmods:wooden_axle>, <aesthetics:iron_brick_stairs>.reuse()], 
-    [null, <betterwithmods:cooking_pot:1>.reuse(), null]
+recipes.addShapedMirrored((<rotn:alchemical_processor>), [
+    [<ore:ingotSteel>,<ore:ingotBrass>,<ore:ingotSteel>],
+    [<pyrotech:cog_gold>, <pyrotech:cog_bone>, <behgameon:accessory_17>], 
+    [null, <exsartagine:kettle>, null]
 ]);
 recipes.addShaped((<multiblocked:biotic_incubator>), [
     [null, <betterwithmods:saw>.reuse(), null],
@@ -71,11 +71,6 @@ recipes.addShaped((<multiblocked:crystalline_accelerator>), [
     [null, <forge:bucketfilled>.withTag({FluidName: "residual_mythril", Amount: 1000}).reuse(), null],
     [<contenttweaker:magicked_stone>.reuse(), <ore:ingotMythril>, <contenttweaker:magicked_stone>.reuse()], 
     [null, <arcanearchives:raw_quartz_cluster>.reuse(), null]
-]);
-recipes.addShaped((<multiblocked:mechanical_processor>), [
-    [null, <betterwithmods:wooden_gearbox>.reuse(), null],
-    [<aesthetics:iron_brick_stairs>.reuse(), <betterwithmods:wooden_axle>, <aesthetics:iron_brick_stairs>.reuse()], 
-    [null, <betterwithmods:cooking_pot:1>.reuse(), null]
 ]);
 recipes.addShapeless("seed_to_viridium", <contenttweaker:raw_viridium>, [<contenttweaker:viridea_seed>]);
 
