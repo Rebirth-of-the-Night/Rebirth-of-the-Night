@@ -93,7 +93,25 @@
 		"isCreative": true
     },
 	{
-        "motive": "Portraits of Madness - Red",
+        "motive": "giant sigil Soter",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 3,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "red",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 3,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "blue",
 		"textures": {
             "back": "paintings:null"
         },

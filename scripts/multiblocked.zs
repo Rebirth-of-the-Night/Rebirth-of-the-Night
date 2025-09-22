@@ -42,15 +42,15 @@ recipes.addShaped((<multiblocked:pyro_reactor>), [
     [<contenttweaker:brick_minecraft_nether>.reuse(), <multiblockmobs:soul_chassis>, <contenttweaker:brick_minecraft_nether>.reuse()], 
     [null, <biomesoplenty:jar_filled:1>.reuse(), null]
 ]);
-recipes.addShaped((<multiblocked:power_hammer_mk1>), [
-    [null, <minecraft:sticky_piston>, null],
-    [<aesthetics:iron_brick_stairs>, <minecraft:iron_block>, <aesthetics:iron_brick_stairs>], 
-    [null, <pyrotech:anvil_granite>, null]
+recipes.addShaped((<rotn:power_hammer>), [
+    [<ore:gearSteel>, <dungeontactics:steel_block>, <ore:gearSteel>],
+    [<ore:latchRedstone>, <rotn:steel_support>, <ore:latchRedstone>], 
+    [<ore:gearSteel>, null, <ore:gearSteel>]
 ]);
-recipes.addShaped((<multiblocked:power_hammer_mk2>), [
-    [null, <minecraft:sticky_piston>.reuse(), null],
-    [<aesthetics:iron_brick_stairs>.reuse(), <betterwithmods:steel_block>, <aesthetics:iron_brick_stairs>.reuse()], 
-    [null, <pyrotech:anvil_iron_plated>.reuse(), null]
+recipes.addShaped((<rotn:steel_support>*8), [
+    [<ore:ingotSteel>, <ore:ingotSteel>],
+    [<ore:ingotSteel>, <ore:ingotSteel>], 
+    [<ore:ingotSteel>, <ore:ingotSteel>]
 ]);
 recipes.addShaped((<multiblocked:gale_chamber>), [
     [null, <dungeontactics:fan_block>.reuse(), null],

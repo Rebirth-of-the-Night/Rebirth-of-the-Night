@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "location": "rotn:steel_support",
+  "traits": {},
+  "properties": {
+    "rotationState": "Y_AXIS",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 15.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "multiblocked:block/steel_support",
+        "type": "imodel"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    },
+    "claw": {
+      "renderer": {
+        "modelLocation": "multiblocked:block/steel_claw",
+        "type": "imodel"
+      }
+    }
+  },
+  "canShared": true
+}

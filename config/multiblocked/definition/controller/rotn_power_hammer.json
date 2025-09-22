@@ -1,0 +1,236 @@
+{
+  "version": 2,
+  "location": "rotn:power_hammer",
+  "traits": {
+    "background": "multiblocked:textures/gui/power_hammer.png",
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 67,
+      "y": 8,
+      "width": 10,
+      "height": 60,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 3
+    },
+    "fuel_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 23,
+      "y": 4,
+      "width": 16,
+      "height": 16,
+      "texture": "multiblocked:textures/progress_bar/progress_bar_heat_surface.png",
+      "fillDirection": 3
+    },
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "x": 22,
+        "y": 37,
+        "autoIO": false,
+        "valid": [
+          "\"{id:\\\"pyrotech:material\\\",Count:1,Damage:36s}\""
+        ]
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "x": 22,
+        "y": 117,
+        "autoIO": false
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 12.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "multiblocked:block/power_hammer",
+        "type": "imodel"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle",
+      "sound": {
+        "sound": "multiblocked:empty",
+        "loop": false,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "power_hammer",
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "LEFT",
+      "DOWN"
+    ],
+    "pattern": [
+      [
+        " ",
+        " ",
+        "C",
+        "@",
+        "E",
+        " ",
+        " "
+      ],
+      [
+        " ",
+        "C",
+        "A",
+        "F",
+        "A",
+        "E",
+        " "
+      ],
+      [
+        "C",
+        "A",
+        " ",
+        "D",
+        " ",
+        "A",
+        "E"
+      ],
+      [
+        "A",
+        "A",
+        " ",
+        "B",
+        " ",
+        "A",
+        "A"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "quark:iron_plate",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "rotn:power_hammer",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "pyrotech:anvil_granite",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "aesthetics:iron_brick_stairs",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "dungeontactics:steel_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "aesthetics:iron_brick_stairs",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "rotn:steel_support",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ]
+    }
+  }
+}
