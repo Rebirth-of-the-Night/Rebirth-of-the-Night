@@ -1,0 +1,46 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "0": "contenttweaker:blocks/steel_support",
+      "particle": "contenttweaker:blocks/steel_support"
+    },
+    "model": "contenttweaker:steel_support",
+    "uvlock": false,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+	],
+    "facing=down,plane_rot=down": [
+      {}
+    ],
+    "facing=up,plane_rot=down": [
+      {}
+    ],
+    "facing=east,plane_rot=down": [
+      {
+        "x": 180
+      }
+    ],
+    "facing=west,plane_rot=down": [
+      {
+        "x": 180, "y": 180
+      }
+    ],
+    "facing=south,plane_rot=down": [
+      {
+        "x": 180, "y": 90
+      }
+    ],
+    "facing=north,plane_rot=down": [
+      {
+        "x": 180, "y": 270
+      }
+    ]
+  }
+}

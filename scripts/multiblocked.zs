@@ -37,17 +37,12 @@ recipes.addShaped((<multiblocked:dryer>), [
     [<ore:StoneHugeBrick>.reuse(), <quark:chute>, <ore:StoneHugeBrick>.reuse()], 
     [null, <pyrotech:drying_rack:1>.reuse(), null]
 ]);
-recipes.addShaped((<multiblocked:pyro_reactor>), [
-    [null, <biomesoplenty:flesh>.reuse(), null],
-    [<contenttweaker:brick_minecraft_nether>.reuse(), <multiblockmobs:soul_chassis>, <contenttweaker:brick_minecraft_nether>.reuse()], 
-    [null, <biomesoplenty:jar_filled:1>.reuse(), null]
-]);
 recipes.addShaped((<rotn:power_hammer>), [
     [<ore:gearSteel>, <dungeontactics:steel_block>, <ore:gearSteel>],
-    [<ore:latchRedstone>, <rotn:steel_support>, <ore:latchRedstone>], 
+    [<ore:latchRedstone>, <contenttweaker:steel_support>, <ore:latchRedstone>], 
     [<ore:gearSteel>, null, <ore:gearSteel>]
 ]);
-recipes.addShaped((<rotn:steel_support>*8), [
+recipes.addShaped((<contenttweaker:steel_support>*8), [
     [<ore:ingotSteel>, <ore:ingotSteel>],
     [<ore:ingotSteel>, <ore:ingotSteel>], 
     [<ore:ingotSteel>, <ore:ingotSteel>]

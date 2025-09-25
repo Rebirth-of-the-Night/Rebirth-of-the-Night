@@ -199,7 +199,6 @@ var rice = <ore:cropRice>;
 var millstone = <betterwithmods:single_machine>;
 var hellfire = <betterwithmods:material:17>;
 var heating = <betterwithmods:material:27>;
-var crstone = <pyrotech:material:36>;
 var sail = <betterwithmods:material:11>;
 var cloth = <betterwithmods:material:4>;
 var slab_wood = <ore:slabWood>;
@@ -396,14 +395,14 @@ recipes.removeByRecipeName("betterwithmods:blocks/redstone/hibachi");
 recipes.addShaped("blocks/redstone/hibachi", <betterwithmods:hibachi>,
   [[hellfire,hellfire,hellfire],
   [stone,heating,stone],
-  [stone,crstone,stone]]);
+  [stone,dense_redstone,stone]]);
  
 // archimedes screw
 recipes.removeByRecipeName("betterwithmods:items/material/material.screw");
 recipes.addShaped("archimedes_screw", archimedes*2,
-  [[<ore:genericMetal>,<pyrotech:material:36>,null],
+  [[<ore:genericMetal>,dense_redstone,null],
   [<ore:genericMetal>,<ore:genericMetal>,<ore:genericMetal>],
-  [null,<pyrotech:material:36>,<ore:genericMetal>]]);
+  [null,dense_redstone,<ore:genericMetal>]]);
   
 // dynamite
 recipes.removeShapeless(<betterwithmods:dynamite>);

@@ -130,8 +130,7 @@
     },
     "suspend": {
       "parent": "working"
-    },
-    "new_status_1": {}
+    }
   },
   "recipeMap": "alchemical_processor",
   "basePattern": {
@@ -144,11 +143,11 @@
       [
         "A",
         "B",
-        "C",
+        "G",
         " "
       ],
       [
-        "D",
+        "A",
         "@",
         "E",
         "F"
@@ -178,11 +177,15 @@
       "A": {
         "states": [
           {
-            "id": "exsartagine:range_extended_lit",
-            "meta": 2
+            "id": "rotn:brass_vat",
+            "meta": 0
           }
         ],
-        "type": "states"
+        "type": "states",
+        "minCount": 0,
+        "maxCount": 0,
+        "previewCount": 0,
+        "io": "IN"
       },
       "controller": {
         "location": "rotn:alchemical_processor",
@@ -193,24 +196,6 @@
           {
             "id": "quark:iron_plate",
             "meta": 0
-          }
-        ],
-        "type": "states"
-      },
-      "C": {
-        "states": [
-          {
-            "id": "aesthetics:iron_brick_stairs",
-            "meta": 0
-          }
-        ],
-        "type": "states"
-      },
-      "D": {
-        "states": [
-          {
-            "id": "exsartagine:range",
-            "meta": 6
           }
         ],
         "type": "states"
@@ -233,15 +218,6 @@
         ],
         "type": "states"
       },
-      "G": {
-        "states": [
-          {
-            "id": "aesthetics:iron_brick_stairs",
-            "meta": 1
-          }
-        ],
-        "type": "states"
-      },
       "any": {
         "type": "any"
       }
@@ -254,16 +230,10 @@
         "any"
       ],
       "A": [
-        "A"
-      ],
-      "B": [
         "B"
       ],
-      "C": [
-        "C"
-      ],
-      "D": [
-        "D"
+      "B": [
+        "A"
       ],
       "E": [
         "E"
@@ -272,7 +242,7 @@
         "F"
       ],
       "G": [
-        "G"
+        "E"
       ]
     }
   }

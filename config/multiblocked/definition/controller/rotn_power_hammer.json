@@ -6,18 +6,18 @@
     "recipe_progress": {
       "cIO": 2,
       "gIO": 2,
-      "x": 67,
-      "y": 8,
-      "width": 10,
-      "height": 60,
-      "texture": "multiblocked:textures/gui/energy_bar.png",
-      "fillDirection": 3
+      "x": 7,
+      "y": 33,
+      "width": 8,
+      "height": 100,
+      "texture": "multiblocked:textures/progress_bar/progress_bar_blast.png",
+      "fillDirection": 2
     },
     "fuel_progress": {
       "cIO": 2,
       "gIO": 2,
       "x": 23,
-      "y": 4,
+      "y": 7,
       "width": 16,
       "height": 16,
       "texture": "multiblocked:textures/progress_bar/progress_bar_heat_surface.png",
@@ -27,7 +27,7 @@
       {
         "cIO": 2,
         "gIO": 2,
-        "mIO": 2,
+        "mIO": 0,
         "x": 22,
         "y": 37,
         "autoIO": false,
@@ -69,11 +69,11 @@
     "working": {
       "parent": "idle",
       "sound": {
-        "sound": "multiblocked:empty",
-        "loop": false,
-        "delay": 0,
+        "sound": "minecraft:block.anvil.land",
+        "loop": true,
+        "delay": 1,
         "volume": 1.0,
-        "pitch": 1.0
+        "pitch": 0.5
       }
     },
     "suspend": {
@@ -91,29 +91,29 @@
       [
         " ",
         " ",
-        "C",
+        "A",
         "@",
-        "E",
+        "A",
         " ",
         " "
       ],
       [
         " ",
-        "C",
+        "A",
         "A",
         "F",
         "A",
-        "E",
+        "A",
         " "
       ],
       [
-        "C",
+        "A",
         "A",
         " ",
         "D",
         " ",
         "A",
-        "E"
+        "A"
       ],
       [
         "A",
@@ -158,22 +158,16 @@
         "type": "component"
       },
       "B": {
-        "states": [
+        "blocks": [
           {
-            "id": "pyrotech:anvil_granite",
-            "meta": 0
+            "id": "pyrotech:anvil_granite"
           }
         ],
-        "type": "states"
-      },
-      "C": {
-        "states": [
-          {
-            "id": "aesthetics:iron_brick_stairs",
-            "meta": 1
-          }
-        ],
-        "type": "states"
+        "type": "blocks",
+        "minCount": 0,
+        "maxCount": 0,
+        "previewCount": 0,
+        "io": "IN"
       },
       "D": {
         "states": [
@@ -184,23 +178,17 @@
         ],
         "type": "states"
       },
-      "E": {
-        "states": [
-          {
-            "id": "aesthetics:iron_brick_stairs",
-            "meta": 0
-          }
-        ],
-        "type": "states"
-      },
       "F": {
         "states": [
           {
-            "id": "rotn:steel_support",
+            "id": "contenttweaker:steel_support",
             "meta": 0
           }
         ],
-        "type": "states"
+        "type": "states",
+        "minCount": 0,
+        "maxCount": 0,
+        "previewCount": 0
       },
       "any": {
         "type": "any"
@@ -219,14 +207,8 @@
       "B": [
         "B"
       ],
-      "C": [
-        "C"
-      ],
       "D": [
         "D"
-      ],
-      "E": [
-        "E"
       ],
       "F": [
         "F"

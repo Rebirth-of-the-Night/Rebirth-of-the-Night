@@ -2,8 +2,8 @@
 	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "multiblocked:blocks/steel_support",
-		"particle": "multiblocked:blocks/steel_support"
+		"0": "contenttweaker:blocks/steel_support",
+		"particle": "contenttweaker:blocks/steel_support"
 	},
 	"elements": [
 		{

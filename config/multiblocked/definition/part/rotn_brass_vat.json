@@ -1,9 +1,24 @@
 {
   "version": 2,
-  "location": "rotn:steel_support",
-  "traits": {},
+  "location": "rotn:brass_vat",
+  "traits": {
+    "fluid": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "x": 79,
+        "y": 134,
+        "autoIO": false,
+        "tC": 32000,
+        "w": 18,
+        "h": 18,
+        "fillDir": "ALWAYS_FULL"
+      }
+    ]
+  },
   "properties": {
-    "rotationState": "Y_AXIS",
+    "rotationState": "NONE",
     "showInJei": true,
     "isOpaque": false,
     "hasCollision": true,
@@ -16,7 +31,7 @@
   "status": {
     "unformed": {
       "renderer": {
-        "modelLocation": "multiblocked:block/steel_support",
+        "modelLocation": "multiblocked:block/brass_vat",
         "type": "imodel"
       }
     },
@@ -28,12 +43,6 @@
     },
     "suspend": {
       "parent": "working"
-    },
-    "claw": {
-      "renderer": {
-        "modelLocation": "multiblocked:block/steel_claw",
-        "type": "imodel"
-      }
     }
   },
   "canShared": true

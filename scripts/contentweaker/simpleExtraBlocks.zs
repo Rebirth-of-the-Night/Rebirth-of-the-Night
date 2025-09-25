@@ -189,6 +189,25 @@ scythe_statuette.setBlockLayer("CUTOUT");
 scythe_statuette.setToolClass("none");
 scythe_statuette.register();
 
+// Steel Support
+var steel_support = VanillaFactory.createDirectionalBlock("steel_support", <blockmaterial:Iron>, "ALL", true, false);
+steel_support.axisAlignedBB = AxisAlignedBB.create(
+     5.0 / 16.0,
+     0.0 / 16.0,
+     5.0 / 16.0,
+	11.0 / 16.0,
+    16.0 / 16.0,
+    11.0 / 16.0
+	);
+steel_support.setCreativeTab(<creativetab:rotn_blocks>);
+steel_support.setBlockHardness(20.5);
+steel_support.setFullBlock(false);
+steel_support.setLightOpacity(0);
+steel_support.setBlockLayer("CUTOUT");
+steel_support.setToolLevel(0);
+steel_support.setToolClass("pickaxe");
+steel_support.register();
+
 var paper_1 = VanillaFactory.createBlock("paper_1", <blockmaterial:Grass>);
 paper_1.axisAlignedBB = AxisAlignedBB.create(
      0.0 / 16.0,
