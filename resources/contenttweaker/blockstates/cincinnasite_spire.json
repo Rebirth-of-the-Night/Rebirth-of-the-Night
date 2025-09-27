@@ -1,0 +1,30 @@
+{
+  "variants": {
+      "facing=north": {
+      "model": "contenttweaker:cincinnasite_spire",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "contenttweaker:cincinnasite_spire",
+      "x": 90,
+      "y": 90
+    },
+    "facing=south": {
+      "model": "contenttweaker:cincinnasite_spire",
+      "x": 90,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "contenttweaker:cincinnasite_spire",
+      "x": 90,
+      "y": 270
+    },
+    "facing=down": {
+      "model": "contenttweaker:cincinnasite_spire",
+      "x": 180
+    },
+        "facing=up": {
+      "model": "contenttweaker:cincinnasite_spire"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "contenttweaker:block/quartz_lamp_floor",
+  "textures": {
+    "2": "contenttweaker:blocks/quartz_lamp_floor",
+    "particle": "contenttweaker:blocks/quartz_lamp_floor"
+  }
+}

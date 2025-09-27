@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "contenttweaker:quartz_lamp_wall"
+    },
+    "facing=east": {
+      "model": "contenttweaker:quartz_lamp_wall",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "contenttweaker:quartz_lamp_wall",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "contenttweaker:quartz_lamp_wall",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "contenttweaker:quartz_lamp_floor"
+    },
+    "facing=down": {
+      "model": "contenttweaker:quartz_lamp_ceiling"
+    }
+  }
+}

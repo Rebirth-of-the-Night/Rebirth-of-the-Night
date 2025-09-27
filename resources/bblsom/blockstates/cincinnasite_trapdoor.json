@@ -6,22 +6,22 @@
         }
     },
     "variants": {
-        "inventory": { "model": "minecraft:trapdoor_bottom", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"} },
-        "facing=north,half=bottom,open=false": { "model": "minecraft:trapdoor_bottom", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"} },
-        "facing=south,half=bottom,open=false": { "model": "minecraft:trapdoor_bottom", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"}, "y": 180 },
-        "facing=east,half=bottom,open=false": { "model": "minecraft:trapdoor_bottom", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"}, "y": 90 },
-        "facing=west,half=bottom,open=false": { "model": "minecraft:trapdoor_bottom", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"}, "y": 270 },
-        "facing=north,half=top,open=false": { "model": "minecraft:trapdoor_top", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"} },
-        "facing=south,half=top,open=false": { "model": "minecraft:trapdoor_top", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"}, "y": 180 },
-        "facing=east,half=top,open=false": { "model": "minecraft:trapdoor_top", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"}, "y": 90 },
-        "facing=west,half=top,open=false": { "model": "minecraft:trapdoor_top", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"}, "y": 270 },
-        "facing=north,half=bottom,open=true": { "model": "minecraft:trapdoor_open", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"} },
-        "facing=south,half=bottom,open=true": { "model": "minecraft:trapdoor_open", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"}, "y": 180 },
-        "facing=east,half=bottom,open=true": { "model": "minecraft:trapdoor_open", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"}, "y": 90 },
-        "facing=west,half=bottom,open=true": { "model": "minecraft:trapdoor_open", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"}, "y": 270 },
-        "facing=north,half=top,open=true": { "model": "minecraft:trapdoor_open", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"} },
-        "facing=south,half=top,open=true": { "model": "minecraft:trapdoor_open", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"}, "y": 180 },
-        "facing=east,half=top,open=true": { "model": "minecraft:trapdoor_open", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"}, "y": 90 },
-        "facing=west,half=top,open=true": { "model": "minecraft:trapdoor_open", "textures": {"texture": "betternether:blocks/cincinnasite_plate_up"}, "y": 270 }
+        "inventory": { "model": "minecraft:trapdoor_bottom" },
+        "facing=north,half=bottom,open=false": { "model": "wooden_trapdoor_bottom" },
+        "facing=south,half=bottom,open=false": { "model": "wooden_trapdoor_bottom" },
+        "facing=east,half=bottom,open=false": { "model": "wooden_trapdoor_bottom" },
+        "facing=west,half=bottom,open=false": { "model": "wooden_trapdoor_bottom" },
+        "facing=north,half=top,open=false": { "model": "wooden_trapdoor_top" },
+        "facing=south,half=top,open=false": { "model": "wooden_trapdoor_top" },
+        "facing=east,half=top,open=false": { "model": "wooden_trapdoor_top" },
+        "facing=west,half=top,open=false": { "model": "wooden_trapdoor_top" },
+        "facing=north,half=bottom,open=true": { "model": "wooden_trapdoor_open" },
+        "facing=south,half=bottom,open=true": { "model": "wooden_trapdoor_open", "y": 180 },
+        "facing=east,half=bottom,open=true": { "model": "wooden_trapdoor_open", "y": 90 },
+        "facing=west,half=bottom,open=true": { "model": "wooden_trapdoor_open", "y": 270 },
+        "facing=north,half=top,open=true": { "model": "wooden_trapdoor_open" },
+        "facing=south,half=top,open=true": { "model": "wooden_trapdoor_open", "y": 180 },
+        "facing=east,half=top,open=true": { "model": "wooden_trapdoor_open", "y": 90 },
+        "facing=west,half=top,open=true": { "model": "wooden_trapdoor_open", "y": 270 }
     }
-}
+}  

@@ -1,0 +1,328 @@
+{
+	"block_pools": [
+		{
+			"name": "Quartz Lamp On",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:quartz_lamp",
+                "meta": "0"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:quartz_lamp_on",
+                    "meta": "0"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Quartz Lamp Off",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:quartz_lamp_on",
+                "meta": "0"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:quartz_lamp",
+                    "meta": "0"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Quartz Lamp On",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:quartz_lamp",
+                "meta": "1"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:quartz_lamp_on",
+                    "meta": "1"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Quartz Lamp Off",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:quartz_lamp_on",
+                "meta": "1"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:quartz_lamp",
+                    "meta": "1"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Quartz Lamp On",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:quartz_lamp",
+                "meta": "2"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:quartz_lamp_on",
+                    "meta": "2"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Quartz Lamp Off",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:quartz_lamp_on",
+                "meta": "2"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:quartz_lamp",
+                    "meta": "2"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Quartz Lamp On",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:quartz_lamp",
+                "meta": "3"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:quartz_lamp_on",
+                    "meta": "3"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Quartz Lamp Off",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:quartz_lamp_on",
+                "meta": "3"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:quartz_lamp",
+                    "meta": "3"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Quartz Lamp On",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:quartz_lamp",
+                "meta": "4"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:quartz_lamp_on",
+                    "meta": "4"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Quartz Lamp Off",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:quartz_lamp_on",
+                "meta": "4"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:quartz_lamp",
+                    "meta": "4"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Quartz Lamp On",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:quartz_lamp",
+                "meta": "5"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:quartz_lamp_on",
+                    "meta": "5"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Quartz Lamp Off",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:quartz_lamp_on",
+                "meta": "5"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:quartz_lamp",
+                    "meta": "5"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		}
+	]
+}

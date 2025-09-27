@@ -1,0 +1,484 @@
+{
+	"block_pools": [
+		{
+			"name": "Raktan Sconce Down",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:raktan_sconce",
+                "meta": "0"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:flipped_raktan_sconce",
+                    "meta": "0"
+                },
+				{
+					"type": "require_empty_hand"
+				},
+                {
+                    "type": "require_sneak"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Raktan Sconce Up",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:flipped_raktan_sconce",
+                "meta": "0"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:raktan_sconce",
+                    "meta": "0"
+                },
+				{
+					"type": "require_empty_hand"
+				},
+                {
+                    "type": "require_sneak"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Raktan Sconce Down",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:raktan_sconce",
+                "meta": "1"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:flipped_raktan_sconce",
+                    "meta": "1"
+                },
+				{
+					"type": "require_empty_hand"
+				},
+                {
+                    "type": "require_sneak"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Raktan Sconce Up",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:flipped_raktan_sconce",
+                "meta": "1"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:raktan_sconce",
+                    "meta": "1"
+                },
+				{
+					"type": "require_empty_hand"
+				},
+                {
+                    "type": "require_sneak"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Raktan Sconce Down",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:raktan_sconce",
+                "meta": "2"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:flipped_raktan_sconce",
+                    "meta": "2"
+                },
+				{
+					"type": "require_empty_hand"
+				},
+                {
+                    "type": "require_sneak"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Raktan Sconce Up",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:flipped_raktan_sconce",
+                "meta": "2"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:raktan_sconce",
+                    "meta": "2"
+                },
+				{
+					"type": "require_empty_hand"
+				},
+                {
+                    "type": "require_sneak"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Raktan Sconce Down",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:raktan_sconce",
+                "meta": "3"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:flipped_raktan_sconce",
+                    "meta": "3"
+                },
+				{
+					"type": "require_empty_hand"
+				},
+                {
+                    "type": "require_sneak"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Raktan Sconce Up",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:flipped_raktan_sconce",
+                "meta": "3"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:raktan_sconce",
+                    "meta": "3"
+                },
+				{
+					"type": "require_empty_hand"
+				},
+                {
+                    "type": "require_sneak"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Raktan Sconce Down",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:raktan_sconce",
+                "meta": "0"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:flipped_raktan_sconce",
+                    "meta": "0"
+                },
+				{
+					"type": "require_item",
+                    "name": "contenttweaker:raktan_sconce"
+				},
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Raktan Sconce Up",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:flipped_raktan_sconce",
+                "meta": "0"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:raktan_sconce",
+                    "meta": "0"
+                },
+				{
+					"type": "require_item",
+                    "name": "contenttweaker:raktan_sconce"
+				},
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Raktan Sconce Down",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:raktan_sconce",
+                "meta": "1"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:flipped_raktan_sconce",
+                    "meta": "1"
+                },
+				{
+					"type": "require_item",
+                    "name": "contenttweaker:raktan_sconce"
+				},
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Raktan Sconce Up",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:flipped_raktan_sconce",
+                "meta": "1"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:raktan_sconce",
+                    "meta": "1"
+                },
+				{
+					"type": "require_item",
+                    "name": "contenttweaker:raktan_sconce"
+				},
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Raktan Sconce Down",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:raktan_sconce",
+                "meta": "2"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:flipped_raktan_sconce",
+                    "meta": "2"
+                },
+				{
+					"type": "require_item",
+                    "name": "contenttweaker:raktan_sconce"
+				},
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Raktan Sconce Up",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:flipped_raktan_sconce",
+                "meta": "2"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:raktan_sconce",
+                    "meta": "2"
+                },
+				{
+					"type": "require_item",
+                    "name": "contenttweaker:raktan_sconce"
+				},
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Raktan Sconce Down",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:raktan_sconce",
+                "meta": "3"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:flipped_raktan_sconce",
+                    "meta": "3"
+                },
+				{
+					"type": "require_item",
+                    "name": "contenttweaker:raktan_sconce"
+				},
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Raktan Sconce Up",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:flipped_raktan_sconce",
+                "meta": "3"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:raktan_sconce",
+                    "meta": "3"
+                },
+				{
+					"type": "require_item",
+                    "name": "contenttweaker:raktan_sconce"
+				},
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		}
+	]
+}

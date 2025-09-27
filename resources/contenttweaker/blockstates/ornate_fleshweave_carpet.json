@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "0": "contenttweaker:blocks/ornate_fleshweave",
+      "particle": "contenttweaker:blocks/ornate_fleshweave"
+    },
+    "model": "contenttweaker:ornate_fleshweave_carpet",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

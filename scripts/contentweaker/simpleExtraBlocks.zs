@@ -7,6 +7,8 @@ import mods.contenttweaker.BlockMaterial;
 import mods.contenttweaker.Block;
 import mods.contenttweaker.AxisAlignedBB;
 import mods.contenttweaker.Color;
+import mods.zenutils.cotx.DirectionalBlock;
+import mods.zenutils.cotx.IPlacementFacingFunction;
 
 /*Recipes for Extra Blocks are handled in the minecraft.zs script
 /////////////////////////////////////////////////////////////////
@@ -620,7 +622,7 @@ crystal_matrix_core.setFullBlock(false);
 crystal_matrix_core.setBlockHardness(8);
 crystal_matrix_core.setLightOpacity(0);
 crystal_matrix_core.setLightValue(1.0);
-crystal_matrix_core.setBlockLayer("TRANSLUCENT");
+crystal_matrix_core.setBlockLayer("CUTOUT");
 crystal_matrix_core.setToolClass("pickaxe");
 crystal_matrix_core.setCreativeTab(<creativetab:buildingBlocks>);
 crystal_matrix_core.register();
@@ -760,6 +762,362 @@ cincinnasite_statue.setBlockSoundType(<soundtype:metal>);
 cincinnasite_statue.setToolLevel(2);
 cincinnasite_statue.setCreativeTab(<creativetab:rotn_blocks>);
 cincinnasite_statue.register();
+
+//Cincinnasite Sconce
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//
+var cincinnasite_sconce = VanillaFactory.createDirectionalBlock("cincinnasite_sconce", <blockmaterial:Iron>, "HORIZONTAL", false, false);
+cincinnasite_sconce.placementFacingFunction = IPlacementFacingFunction.side();
+cincinnasite_sconce.setBlockHardness(2.0);
+cincinnasite_sconce.setBlockResistance(1.0);
+cincinnasite_sconce.axisAlignedBB = AxisAlignedBB.create(
+     6.0 / 16.0,
+     0.0 / 16.0,
+     16.0 / 16.0,
+	10.0 / 16.0,
+    16.0 / 16.0,
+    6.0 / 16.0
+	);
+cincinnasite_sconce.setToolClass("pickaxe");
+cincinnasite_sconce.setFullBlock(false);
+cincinnasite_sconce.setLightOpacity(0);
+cincinnasite_sconce.setLightValue(0);
+cincinnasite_sconce.setBlockSoundType(<soundtype:metal>);
+cincinnasite_sconce.setBlockLayer("CUTOUT_MIPPED");
+cincinnasite_sconce.register();
+
+var flipped_cincinnasite_sconce = VanillaFactory.createDirectionalBlock("flipped_cincinnasite_sconce", <blockmaterial:Iron>, "HORIZONTAL", false, false);
+flipped_cincinnasite_sconce.placementFacingFunction = IPlacementFacingFunction.side();
+flipped_cincinnasite_sconce.setBlockHardness(2.0);
+flipped_cincinnasite_sconce.setBlockResistance(1.0);
+flipped_cincinnasite_sconce.axisAlignedBB = AxisAlignedBB.create(
+     6.0 / 16.0,
+     0.0 / 16.0,
+     16.0 / 16.0,
+	10.0 / 16.0,
+    16.0 / 16.0,
+    6.0 / 16.0
+	);
+flipped_cincinnasite_sconce.setToolClass("pickaxe");
+flipped_cincinnasite_sconce.setFullBlock(false);
+flipped_cincinnasite_sconce.setLightOpacity(0);
+flipped_cincinnasite_sconce.setLightValue(0);
+flipped_cincinnasite_sconce.setBlockSoundType(<soundtype:metal>);
+flipped_cincinnasite_sconce.setBlockLayer("CUTOUT_MIPPED");
+flipped_cincinnasite_sconce.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+    drops.add(<item:contenttweaker:cincinnasite_sconce>);
+    return;
+});
+flipped_cincinnasite_sconce.register();
+
+var cincinnasite_sconce_arch = VanillaFactory.createDirectionalBlock("cincinnasite_sconce_arch", <blockmaterial:Iron>, "HORIZONTAL", false, false);
+cincinnasite_sconce_arch.placementFacingFunction = IPlacementFacingFunction.side();
+cincinnasite_sconce_arch.setBlockHardness(2.0);
+cincinnasite_sconce_arch.setBlockResistance(1.0);
+cincinnasite_sconce_arch.axisAlignedBB = AxisAlignedBB.create(
+     6.0 / 16.0,
+     0.0 / 16.0,
+     16.0 / 16.0,
+	10.0 / 16.0,
+    16.0 / 16.0,
+    0.0 / 16.0
+	);
+cincinnasite_sconce_arch.setToolClass("pickaxe");
+cincinnasite_sconce_arch.setFullBlock(false);
+cincinnasite_sconce_arch.setLightOpacity(0);
+cincinnasite_sconce_arch.setLightValue(0);
+cincinnasite_sconce_arch.setBlockSoundType(<soundtype:metal>);
+cincinnasite_sconce_arch.setBlockLayer("CUTOUT_MIPPED");
+cincinnasite_sconce_arch.register();
+
+var flipped_cincinnasite_sconce_arch = VanillaFactory.createDirectionalBlock("flipped_cincinnasite_sconce_arch", <blockmaterial:Iron>, "HORIZONTAL", false, false);
+flipped_cincinnasite_sconce_arch.placementFacingFunction = IPlacementFacingFunction.side();
+flipped_cincinnasite_sconce_arch.setBlockHardness(2.0);
+flipped_cincinnasite_sconce_arch.setBlockResistance(1.0);
+flipped_cincinnasite_sconce_arch.axisAlignedBB = AxisAlignedBB.create(
+     6.0 / 16.0,
+     0.0 / 16.0,
+     16.0 / 16.0,
+	10.0 / 16.0,
+    16.0 / 16.0,
+    0.0 / 16.0
+	);
+flipped_cincinnasite_sconce_arch.setToolClass("pickaxe");
+flipped_cincinnasite_sconce_arch.setFullBlock(false);
+flipped_cincinnasite_sconce_arch.setLightOpacity(0);
+flipped_cincinnasite_sconce_arch.setLightValue(0);
+flipped_cincinnasite_sconce_arch.setBlockSoundType(<soundtype:metal>);
+flipped_cincinnasite_sconce_arch.setBlockLayer("CUTOUT_MIPPED");
+flipped_cincinnasite_sconce_arch.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+    drops.add(<item:contenttweaker:cincinnasite_sconce_arch>);
+    return;
+});
+flipped_cincinnasite_sconce_arch.register();
+
+//Cincinnasite Spire
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//
+
+var cincinnasite_spire = VanillaFactory.createDirectionalBlock("cincinnasite_spire", <blockmaterial:Iron>, "ALL", false, false);
+cincinnasite_spire.placementFacingFunction = IPlacementFacingFunction.side();
+cincinnasite_spire.setBlockHardness(2.0);
+cincinnasite_spire.setBlockResistance(1.0);
+cincinnasite_spire.axisAlignedBB = AxisAlignedBB.create(
+     5.0 / 16.0,
+     5.0 / 16.0,
+     16.0 / 16.0,
+	11.0 / 16.0,
+    11.0 / 16.0,
+    1.0 / 16.0
+	);
+cincinnasite_spire.setToolClass("pickaxe");
+cincinnasite_spire.setFullBlock(false);
+cincinnasite_spire.setLightOpacity(0);
+cincinnasite_spire.setLightValue(0);
+cincinnasite_spire.setBlockSoundType(<soundtype:metal>);
+cincinnasite_spire.setBlockLayer("CUTOUT_MIPPED");
+cincinnasite_spire.register();
+
+var cincinnasite_spire_tall = VanillaFactory.createDirectionalBlock("cincinnasite_spire_tall", <blockmaterial:Iron>, "ALL", false, false);
+cincinnasite_spire_tall.placementFacingFunction = IPlacementFacingFunction.side();
+cincinnasite_spire_tall.setBlockHardness(2.0);
+cincinnasite_spire_tall.setBlockResistance(1.0);
+cincinnasite_spire_tall.axisAlignedBB = AxisAlignedBB.create(
+     5.0 / 16.0,
+     5.0 / 16.0,
+     16.0 / 16.0,
+	11.0 / 16.0,
+    11.0 / 16.0,
+    1.0 / 16.0
+	);
+cincinnasite_spire_tall.setToolClass("pickaxe");
+cincinnasite_spire_tall.setFullBlock(false);
+cincinnasite_spire_tall.setLightOpacity(0);
+cincinnasite_spire_tall.setLightValue(0);
+cincinnasite_spire_tall.setBlockSoundType(<soundtype:metal>);
+cincinnasite_spire_tall.setBlockLayer("CUTOUT_MIPPED");
+cincinnasite_spire_tall.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+    drops.add(<item:contenttweaker:cincinnasite_spire>);
+    drops.add(<item:contenttweaker:cincinnasite_spire>);
+    return;
+});
+cincinnasite_spire_tall.register();
+
+//Quartz Lamp
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//
+var quartz_lamp = VanillaFactory.createDirectionalBlock("quartz_lamp", <blockmaterial:Iron>, "ALL", false, false);
+quartz_lamp.placementFacingFunction = IPlacementFacingFunction.side();
+quartz_lamp.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     4.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+    12.0 / 16.0,
+    12.0 / 16.0
+	);
+quartz_lamp.setFullBlock(false);
+quartz_lamp.setLightOpacity(0.0);
+quartz_lamp.setBlockLayer("TRANSLUCENT");
+quartz_lamp.setCreativeTab(<creativetab:decorations>);
+quartz_lamp.setBlockSoundType(<soundtype:metal>);
+quartz_lamp.setToolLevel(2);
+quartz_lamp.register();
+
+var quartz_lamp_on = VanillaFactory.createDirectionalBlock("quartz_lamp_on", <blockmaterial:Iron>, "ALL", false, false);
+quartz_lamp_on.placementFacingFunction = IPlacementFacingFunction.side();
+quartz_lamp_on.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     4.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+    12.0 / 16.0,
+    12.0 / 16.0
+	);
+quartz_lamp_on.setFullBlock(false);
+quartz_lamp_on.setLightOpacity(0.0);
+quartz_lamp_on.setLightValue(1.0);
+quartz_lamp_on.setBlockLayer("TRANSLUCENT");
+quartz_lamp_on.setCreativeTab(<creativetab:decorations>);
+quartz_lamp_on.setBlockSoundType(<soundtype:metal>);
+quartz_lamp_on.setToolLevel(2);
+quartz_lamp_on.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+    drops.add(<item:contenttweaker:quartz_lamp>);
+    return;
+});
+quartz_lamp_on.register();
+
+//Raktan
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//
+
+var polished_raktan = VanillaFactory.createBlock("polished_raktan", <blockmaterial:Rock>);
+polished_raktan.setBlockHardness(8);
+polished_raktan.setToolClass("pickaxe");
+polished_raktan.setCreativeTab(<creativetab:decorations>);
+polished_raktan.register();
+
+var smooth_raktan = VanillaFactory.createBlock("smooth_raktan", <blockmaterial:Rock>);
+smooth_raktan.setBlockHardness(8);
+smooth_raktan.setToolClass("pickaxe");
+smooth_raktan.setCreativeTab(<creativetab:decorations>);
+smooth_raktan.register();
+
+var brick_raktan = VanillaFactory.createBlock("brick_raktan", <blockmaterial:Rock>);
+brick_raktan.setToolLevel(1);
+brick_raktan.setBlockHardness(45);
+brick_raktan.setBlockResistance(33.0);
+brick_raktan.setToolClass("pickaxe");
+brick_raktan.setCreativeTab(<creativetab:decorations>);
+brick_raktan.register();
+
+//Raktan Sconce
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//
+var raktan_sconce = VanillaFactory.createDirectionalBlock("raktan_sconce", <blockmaterial:Rock>, "HORIZONTAL", false, false);
+raktan_sconce.placementFacingFunction = IPlacementFacingFunction.side();
+raktan_sconce.setBlockHardness(2.0);
+raktan_sconce.setBlockResistance(1.0);
+raktan_sconce.axisAlignedBB = AxisAlignedBB.create(
+     6.0 / 16.0,
+     0.0 / 16.0,
+     16.0 / 16.0,
+	10.0 / 16.0,
+    16.0 / 16.0,
+    6.0 / 16.0
+	);
+raktan_sconce.setToolClass("pickaxe");
+raktan_sconce.setFullBlock(false);
+raktan_sconce.setLightOpacity(0);
+raktan_sconce.setLightValue(0);
+raktan_sconce.setBlockSoundType(<soundtype:stone>);
+raktan_sconce.setBlockLayer("CUTOUT_MIPPED");
+raktan_sconce.register();
+
+var flipped_raktan_sconce = VanillaFactory.createDirectionalBlock("flipped_raktan_sconce", <blockmaterial:Rock>, "HORIZONTAL", false, false);
+flipped_raktan_sconce.placementFacingFunction = IPlacementFacingFunction.side();
+flipped_raktan_sconce.setBlockHardness(2.0);
+flipped_raktan_sconce.setBlockResistance(1.0);
+flipped_raktan_sconce.axisAlignedBB = AxisAlignedBB.create(
+     6.0 / 16.0,
+     0.0 / 16.0,
+     16.0 / 16.0,
+	10.0 / 16.0,
+    16.0 / 16.0,
+    6.0 / 16.0
+	);
+flipped_raktan_sconce.setToolClass("pickaxe");
+flipped_raktan_sconce.setFullBlock(false);
+flipped_raktan_sconce.setLightOpacity(0);
+flipped_raktan_sconce.setLightValue(0);
+flipped_raktan_sconce.setBlockSoundType(<soundtype:stone>);
+flipped_raktan_sconce.setBlockLayer("CUTOUT_MIPPED");
+flipped_raktan_sconce.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+    drops.add(<item:contenttweaker:raktan_sconce>);
+    return;
+});
+flipped_raktan_sconce.register();
+
+//Raktan Lantern
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//
+var raktan_lantern = VanillaFactory.createBlock("raktan_lantern", <blockmaterial:Rock>);
+raktan_lantern.setBlockHardness(8);
+raktan_lantern.setToolClass("pickaxe");
+raktan_lantern.setCreativeTab(<creativetab:decorations>);
+raktan_lantern.register();
+
+var raktan_lantern_on = VanillaFactory.createBlock("raktan_lantern_on", <blockmaterial:Rock>);
+raktan_lantern_on.setBlockHardness(8);
+raktan_lantern_on.setLightValue(1.0);
+raktan_lantern_on.setToolClass("pickaxe");
+raktan_lantern_on.setCreativeTab(<creativetab:decorations>);
+raktan_lantern_on.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+    drops.add(<item:contenttweaker:raktan_lantern>);
+    return;
+});
+raktan_lantern_on.register();
+
+//Velvet
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//
+
+var fleshweave = VanillaFactory.createBlock("fleshweave", <blockmaterial:Cloth>);
+fleshweave.setBlockHardness(8);
+fleshweave.setCreativeTab(<creativetab:decorations>);
+fleshweave.setBlockSoundType(<soundtype:cloth>);
+fleshweave.register();
+
+var fleshweave_carpet = VanillaFactory.createBlock("fleshweave_carpet", <blockmaterial:Cloth>);
+fleshweave_carpet.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+    1.0 / 16.0,
+    16.0 / 16.0
+	);
+fleshweave_carpet.setBlockHardness(8);
+fleshweave_carpet.setFullBlock(false);
+fleshweave_carpet.setLightOpacity(0);
+fleshweave_carpet.setCreativeTab(<creativetab:decorations>);
+fleshweave_carpet.setBlockSoundType(<soundtype:cloth>);
+fleshweave_carpet.register();
+
+var gilded_fleshweave = VanillaFactory.createBlock("gilded_fleshweave", <blockmaterial:Cloth>);
+gilded_fleshweave.setBlockHardness(8);
+gilded_fleshweave.setCreativeTab(<creativetab:decorations>);
+gilded_fleshweave.setBlockSoundType(<soundtype:cloth>);
+gilded_fleshweave.register();
+
+var gilded_fleshweave_carpet = VanillaFactory.createBlock("gilded_fleshweave_carpet", <blockmaterial:Cloth>);
+gilded_fleshweave_carpet.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+    1.0 / 16.0,
+    16.0 / 16.0
+	);
+gilded_fleshweave_carpet.setBlockHardness(8);
+gilded_fleshweave_carpet.setFullBlock(false);
+gilded_fleshweave_carpet.setLightOpacity(0);
+gilded_fleshweave_carpet.setCreativeTab(<creativetab:decorations>);
+gilded_fleshweave_carpet.setBlockSoundType(<soundtype:cloth>);
+gilded_fleshweave_carpet.register();
+
+var ornate_fleshweave = VanillaFactory.createBlock("ornate_fleshweave", <blockmaterial:Cloth>);
+ornate_fleshweave.setBlockHardness(8);
+ornate_fleshweave.setCreativeTab(<creativetab:decorations>);
+ornate_fleshweave.setBlockSoundType(<soundtype:cloth>);
+ornate_fleshweave.register();
+
+var ornate_fleshweave_carpet = VanillaFactory.createBlock("ornate_fleshweave_carpet", <blockmaterial:Cloth>);
+ornate_fleshweave_carpet.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+    1.0 / 16.0,
+    16.0 / 16.0
+	);
+ornate_fleshweave_carpet.setBlockHardness(8);
+ornate_fleshweave_carpet.setFullBlock(false);
+ornate_fleshweave_carpet.setLightOpacity(0);
+ornate_fleshweave_carpet.setCreativeTab(<creativetab:decorations>);
+ornate_fleshweave_carpet.setBlockSoundType(<soundtype:cloth>);
+ornate_fleshweave_carpet.register();
+
+//
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//
+
 
 // Raw Ores
 // raw_tin

@@ -1,0 +1,9 @@
+{
+  "parent": "contenttweaker:block/flipped_sconce",
+  "textures": {
+    "all": "contenttweaker:blocks/cincinnasite_sconce",
+    "particle": "contenttweaker:blocks/cincinnasite_sconce",
+    "1": "contenttweaker:blocks/cincinnasite_sconce"
+  },
+  "render_type": "cutout_mipped"
+}

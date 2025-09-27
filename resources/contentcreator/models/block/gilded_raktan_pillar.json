@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "contenttweaker:blocks/gilded_raktan_pillar_top",
+    "up": "contenttweaker:blocks/gilded_raktan_pillar_top",
+    "north": "contenttweaker:blocks/gilded_raktan_pillar_side_flipped",
+    "east": "contenttweaker:blocks/gilded_raktan_pillar_side_flipped",
+    "south": "contenttweaker:blocks/gilded_raktan_pillar_side",
+    "west": "contenttweaker:blocks/gilded_raktan_pillar_side",
+    "particle": "contenttweaker:blocks/gilded_raktan_pillar_top"
+  },
+  "render_type": "solid"
+}

@@ -164,6 +164,7 @@ Bonfire - lilypuree (Decorative Blocks)
 Soul Bonfire - lilypuree (Decorative Blocks)
 Bushier Grass + Flora - Oslypsis https://modrinth.com/resourcepack/os-colorful-grasses
 Reworked Cincinnasite + Better Nether Remodels - Aldahel
+Many Abyssal Decor Backports - STARRYSOCK https://www.curseforge.com/minecraft/mc-mods/abyssal-decor
 
 
 §r~ ~ ~ §nScreenshots§r ~ ~ ~

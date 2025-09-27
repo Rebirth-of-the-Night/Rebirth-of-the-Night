@@ -1,0 +1,184 @@
+{
+	"block_pools": [
+		{
+			"name": "Raktan Lantern On",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:raktan_lantern",
+                "meta": "0"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~ ~ ~ ~ ~ contenttweaker:raktan_lantern_on 0 replace contenttweaker:raktan_lantern"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~1 ~ ~ ~1 ~ contenttweaker:raktan_lantern_on 0 replace contenttweaker:raktan_lantern"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~2 ~ ~ ~2 ~ contenttweaker:raktan_lantern_on 0 replace contenttweaker:raktan_lantern"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~3 ~ ~ ~3 ~ contenttweaker:raktan_lantern_on 0 replace contenttweaker:raktan_lantern"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~4 ~ ~ ~4 ~ contenttweaker:raktan_lantern_on 0 replace contenttweaker:raktan_lantern"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~5 ~ ~ ~5 ~ contenttweaker:raktan_lantern_on 0 replace contenttweaker:raktan_lantern"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~6 ~ ~ ~6 ~ contenttweaker:raktan_lantern_on 0 replace contenttweaker:raktan_lantern"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~7 ~ ~ ~7 ~ contenttweaker:raktan_lantern_on 0 replace contenttweaker:raktan_lantern"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~8 ~ ~ ~8 ~ contenttweaker:raktan_lantern_on 0 replace contenttweaker:raktan_lantern"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~-1 ~ ~ ~-1 ~ contenttweaker:raktan_lantern_on 0 replace contenttweaker:raktan_lantern"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~-2 ~ ~ ~-2 ~ contenttweaker:raktan_lantern_on 0 replace contenttweaker:raktan_lantern"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~-3 ~ ~ ~-3 ~ contenttweaker:raktan_lantern_on 0 replace contenttweaker:raktan_lantern"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~-4 ~ ~ ~-4 ~ contenttweaker:raktan_lantern_on 0 replace contenttweaker:raktan_lantern"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~-5 ~ ~ ~-5 ~ contenttweaker:raktan_lantern_on 0 replace contenttweaker:raktan_lantern"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~-6 ~ ~ ~-6 ~ contenttweaker:raktan_lantern_on 0 replace contenttweaker:raktan_lantern"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~-7 ~ ~ ~-7 ~ contenttweaker:raktan_lantern_on 0 replace contenttweaker:raktan_lantern"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~-8 ~ ~ ~-8 ~ contenttweaker:raktan_lantern_on 0 replace contenttweaker:raktan_lantern"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Raktan Lantern Off",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:raktan_lantern_on",
+                "meta": "0"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~ ~ ~ ~ ~ contenttweaker:raktan_lantern 0 replace contenttweaker:raktan_lantern_on"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~1 ~ ~ ~1 ~ contenttweaker:raktan_lantern 0 replace contenttweaker:raktan_lantern_on"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~2 ~ ~ ~2 ~ contenttweaker:raktan_lantern 0 replace contenttweaker:raktan_lantern_on"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~3 ~ ~ ~3 ~ contenttweaker:raktan_lantern 0 replace contenttweaker:raktan_lantern_on"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~4 ~ ~ ~4 ~ contenttweaker:raktan_lantern 0 replace contenttweaker:raktan_lantern_on"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~5 ~ ~ ~5 ~ contenttweaker:raktan_lantern 0 replace contenttweaker:raktan_lantern_on"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~6 ~ ~ ~6 ~ contenttweaker:raktan_lantern 0 replace contenttweaker:raktan_lantern_on"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~7 ~ ~ ~7 ~ contenttweaker:raktan_lantern 0 replace contenttweaker:raktan_lantern_on"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~8 ~ ~ ~8 ~ contenttweaker:raktan_lantern 0 replace contenttweaker:raktan_lantern_on"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~-1 ~ ~ ~-1 ~ contenttweaker:raktan_lantern 0 replace contenttweaker:raktan_lantern_on"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~-2 ~ ~ ~-2 ~ contenttweaker:raktan_lantern 0 replace contenttweaker:raktan_lantern_on"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~-3 ~ ~ ~-3 ~ contenttweaker:raktan_lantern 0 replace contenttweaker:raktan_lantern_on"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~-4 ~ ~ ~-4 ~ contenttweaker:raktan_lantern 0 replace contenttweaker:raktan_lantern_on"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~-5 ~ ~ ~-5 ~ contenttweaker:raktan_lantern 0 replace contenttweaker:raktan_lantern_on"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~-6 ~ ~ ~-6 ~ contenttweaker:raktan_lantern 0 replace contenttweaker:raktan_lantern_on"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~-7 ~ ~ ~-7 ~ contenttweaker:raktan_lantern 0 replace contenttweaker:raktan_lantern_on"
+                },
+                {
+                    "type": "use_command",
+                    "name": "fill ~ ~-8 ~ ~ ~-8 ~ contenttweaker:raktan_lantern 0 replace contenttweaker:raktan_lantern_on"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		}
+    ]
+}

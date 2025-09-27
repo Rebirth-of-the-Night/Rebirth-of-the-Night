@@ -3,7 +3,7 @@
 	"textures": {
 		"1": "betternether:blocks/stalagnate_bark_side",
 		"3": "betternether:blocks/cincinnasite_pillar_small",
-		"4": "betternether:blocks/cincinnasite_pillar_middle",
+		"4": "betternether:blocks/cincinnasite_forged",
 		"6": "betternether:blocks/cincinnasite_post_side",
 		"particle": "betternether:blocks/cincinnasite_pillar_small"
 	},

@@ -40,6 +40,11 @@ GenericBlock.createStairs("red_granite_sandstone_brick_stairs", <blockstate:mine
 GenericBlock.createStairs("cincinnasite_stairs", <blockstate:minecraft:stone_stairs>).register();
 GenericBlock.createStairs("cincinnasite_brick_stairs", <blockstate:minecraft:stone_stairs>).register();
 GenericBlock.createStairs("small_cincinnasite_tile_stairs", <blockstate:minecraft:stone_stairs>).register();
+//Raktan
+GenericBlock.createStairs("polished_raktan_stairs", <blockstate:minecraft:stone_stairs>).register();
+GenericBlock.createStairs("smooth_raktan_stairs", <blockstate:minecraft:stone_stairs>).register();
+GenericBlock.createStairs("raktan_brick_stairs", <blockstate:minecraft:stone_stairs>).register();
+
 
 ///////////////////////
 //////// Slabs ////////
@@ -84,3 +89,7 @@ GenericBlock.createSlab(rock, "red_granite_sandstone_brick_slab").register();
 GenericBlock.createSlab(iron, "cincinnasite_slab").register();
 GenericBlock.createSlab(iron, "cincinnasite_brick_slab").register();
 GenericBlock.createSlab(iron, "small_cincinnasite_tile_slab").register();
+//Raktan
+GenericBlock.createSlab(rock, "polished_raktan_slab").register();
+GenericBlock.createSlab(rock, "smooth_raktan_slab").register();
+GenericBlock.createSlab(rock, "raktan_brick_slab").register();

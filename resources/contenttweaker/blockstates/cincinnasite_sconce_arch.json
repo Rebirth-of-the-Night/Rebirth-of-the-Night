@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "contenttweaker:cincinnasite_sconce_arch"
+    },
+    "facing=east": {
+      "model": "contenttweaker:cincinnasite_sconce_arch",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "contenttweaker:cincinnasite_sconce_arch",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "contenttweaker:cincinnasite_sconce_arch",
+      "y": 270
+    }
+  }
+}

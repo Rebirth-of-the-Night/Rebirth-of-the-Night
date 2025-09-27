@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "contenttweaker:raktan_sconce"
+    },
+    "facing=east": {
+      "model": "contenttweaker:raktan_sconce",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "contenttweaker:raktan_sconce",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "contenttweaker:raktan_sconce",
+      "y": 270
+    }
+  }
+}

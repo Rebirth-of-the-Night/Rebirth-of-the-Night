@@ -1,0 +1,8 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"side": "contenttweaker:blocks/raktan_pillar_side",
+		"end": "contenttweaker:blocks/raktan_pillar_top",
+		"particle": "contenttweaker:blocks/raktan_pillar_top"
+	}
+}

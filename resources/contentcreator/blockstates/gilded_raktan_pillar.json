@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"axis=y":	{ "model": "contentcreator:gilded_raktan_pillar" },
+		"axis=z":	{ "model": "contentcreator:gilded_raktan_pillar", "x": 90 },
+		"axis=x":	{ "model": "contentcreator:gilded_raktan_pillar", "x": 90, "y": 90 }
+	}
+}

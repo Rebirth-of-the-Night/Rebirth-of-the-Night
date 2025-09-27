@@ -1,0 +1,214 @@
+{
+	"block_pools": [
+		{
+			"name": "Cincinnasite Spire",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:cincinnasite_spire",
+                "meta": "0"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+				{
+					"type": "require_item",
+					"name": "contenttweaker:cincinnasite_spire"
+				},
+				{
+					"type": "consume_item",
+					"amount": "1"
+				},
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:cincinnasite_spire_tall",
+                    "meta": "0"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Cincinnasite Spire",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:cincinnasite_spire",
+                "meta": "1"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+				{
+					"type": "require_item",
+					"name": "contenttweaker:cincinnasite_spire"
+				},
+				{
+					"type": "consume_item",
+					"amount": "1"
+				},
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:cincinnasite_spire_tall",
+                    "meta": "1"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Cincinnasite Spire",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:cincinnasite_spire",
+                "meta": "2"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+				{
+					"type": "require_item",
+					"name": "contenttweaker:cincinnasite_spire"
+				},
+				{
+					"type": "consume_item",
+					"amount": "1"
+				},
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:cincinnasite_spire_tall",
+                    "meta": "2"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Cincinnasite Spire",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:cincinnasite_spire",
+                "meta": "3"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+				{
+					"type": "require_item",
+					"name": "contenttweaker:cincinnasite_spire"
+				},
+				{
+					"type": "consume_item",
+					"amount": "1"
+				},
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:cincinnasite_spire_tall",
+                    "meta": "3"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Cincinnasite Spire",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:cincinnasite_spire",
+                "meta": "4"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+				{
+					"type": "require_item",
+					"name": "contenttweaker:cincinnasite_spire"
+				},
+				{
+					"type": "consume_item",
+					"amount": "1"
+				},
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:cincinnasite_spire_tall",
+                    "meta": "4"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "Cincinnasite Spire",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:cincinnasite_spire",
+                "meta": "5"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+				{
+					"type": "require_item",
+					"name": "contenttweaker:cincinnasite_spire"
+				},
+				{
+					"type": "consume_item",
+					"amount": "1"
+				},
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:cincinnasite_spire_tall",
+                    "meta": "5"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.iron_trapdoor.open"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		}	
+	]
+}

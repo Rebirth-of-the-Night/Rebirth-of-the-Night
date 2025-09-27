@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"axis=y":	{ "model": "contentcreator:rough_raktan" },
+		"axis=z":	{ "model": "contentcreator:rough_raktan", "x": 90 },
+		"axis=x":	{ "model": "contentcreator:rough_raktan", "x": 90, "y": 90 }
+	}
+}
