@@ -11,6 +11,7 @@ config/splash.properties
 
 config/BiomeTweaker/output/
 config/netherex/biomes/
+config/Special_AI.cfg
 logs/
 
 saves/
@@ -117,7 +118,6 @@ _ModpackUploader/secrets.ps1
 config/mod-director/file-director_requisites.bundle.json
 ears-debug.log
 /fancymenu_data/
-config/mod-director/file-director_requisites.bundle.json
 config/relauncher.json
 /vintagefix/transformerCache
 /config/normalasm
