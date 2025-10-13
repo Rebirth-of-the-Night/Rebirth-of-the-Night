@@ -731,14 +731,14 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 // BUGS
 #<aether_legacy:enchanted_blueberry:*>.addTooltip(format.red("DO NOT FEED TO HYPPOGRYPHS; CURRENTLY BUGGED AND UNTAMABLE."));
 <iceandfire:dragon_horn:*>.addTooltip(format.red("DO NOT USE ON YOUR DRAGONS, IT WILL DELETE THEM!"));
-
-// MACHINES
+/*
+// MACHINES 
 <rotn:alchemical_processor>.addTooltip(format.gold("Stove and Axle must both be on for the device to work!"));
 <rotn:power_hammer>.addTooltip(format.gold("Input items should be fed directly into the anvil. Output will be stored within the hammer controller."));
 <multiblocked:gale_chamber>.addTooltip(format.gold("Right click with two brass blocks to feed the internals and assemble the machine!"));
 <multiblocked:biotic_incubator>.addTooltip(format.gold("Right click with two brass blocks to feed the internals and assemble the machine!"));
 <multiblocked:multiblock_builder>.addTooltip(format.gold("Right click on a controller to build the multiblock machine automatically. Does NOT replace existing blocks, make sure there is enough space!"));
-<multiblocked:multiblock_builder>.removeTooltip("auto build");
+<multiblocked:multiblock_builder>.removeTooltip("auto build");*/
 
 // PIPES
 <inspirations:pipe>.addTooltip(format.gold("Basic item pipe. Can only move items in one direction similar to a hopper."));

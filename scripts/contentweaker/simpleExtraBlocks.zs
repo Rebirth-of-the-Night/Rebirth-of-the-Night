@@ -190,7 +190,7 @@ scythe_statuette.setToolClass("none");
 scythe_statuette.register();
 
 // Steel Support
-var steel_support = VanillaFactory.createDirectionalBlock("steel_support", <blockmaterial:Iron>, "ALL", true, false);
+var steel_support = VanillaFactory.createBlock("steel_support", <blockmaterial:Iron>);
 steel_support.axisAlignedBB = AxisAlignedBB.create(
      5.0 / 16.0,
      0.0 / 16.0,

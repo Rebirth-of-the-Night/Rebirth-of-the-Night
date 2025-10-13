@@ -5,12 +5,12 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
-JEI.removeAndHide(<multiblocked:blueprint_table>);
+/*JEI.removeAndHide(<multiblocked:blueprint_table>);
 JEI.removeAndHide(<multiblocked:blueprint_table_part>);
 JEI.removeAndHide(<multiblocked:blueprint>);
 JEI.removeAndHide(<multiblocked:controller_tester>);
 JEI.removeAndHide(<multiblocked:part_tester>);
-recipes.removeByMod("multiblocked");
+recipes.removeByMod("multiblocked");*/
 val brassIngot = <ore:ingotBrass>;
 
 // pump mechanic recipes
@@ -25,7 +25,7 @@ recipes.addShaped(<pollutantpump:pipe>*4, [
     [<ore:genericMetal>, null, <ore:genericMetal>], 
     [null, <ore:genericMetal>, null]
 ]);
-
+/*
 // multiblock controller recipes + assembler
 recipes.addShaped((<multiblocked:multiblock_builder>), [
     [<minecraft:paper>, brassIngot, <minecraft:paper>],
@@ -41,11 +41,6 @@ recipes.addShaped((<rotn:power_hammer>), [
     [<ore:gearSteel>, <dungeontactics:steel_block>, <ore:gearSteel>],
     [<ore:latchRedstone>, <contenttweaker:steel_support>, <ore:latchRedstone>], 
     [<ore:gearSteel>, null, <ore:gearSteel>]
-]);
-recipes.addShaped((<contenttweaker:steel_support>*8), [
-    [<ore:ingotSteel>, <ore:ingotSteel>],
-    [<ore:ingotSteel>, <ore:ingotSteel>], 
-    [<ore:ingotSteel>, <ore:ingotSteel>]
 ]);
 recipes.addShaped((<multiblocked:gale_chamber>), [
     [null, <dungeontactics:fan_block>.reuse(), null],
@@ -66,6 +61,13 @@ recipes.addShaped((<multiblocked:crystalline_accelerator>), [
     [null, <forge:bucketfilled>.withTag({FluidName: "residual_mythril", Amount: 1000}).reuse(), null],
     [<contenttweaker:magicked_stone>.reuse(), <ore:ingotMythril>, <contenttweaker:magicked_stone>.reuse()], 
     [null, <arcanearchives:raw_quartz_cluster>.reuse(), null]
+]);
+*/
+
+recipes.addShaped((<contenttweaker:steel_support>*8), [
+    [<ore:ingotSteel>, <ore:ingotSteel>],
+    [<ore:ingotSteel>, <ore:ingotSteel>], 
+    [<ore:ingotSteel>, <ore:ingotSteel>]
 ]);
 recipes.addShapeless("seed_to_viridium", <contenttweaker:raw_viridium>, [<contenttweaker:viridea_seed>]);
 

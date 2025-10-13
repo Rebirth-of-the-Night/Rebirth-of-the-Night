@@ -1,79 +1,63 @@
-#loader multiblocked
-
-import mods.multiblocked.MBDRegistry;
-import mods.multiblocked.definition.ControllerDefinition;
-import mods.multiblocked.definition.ComponentDefinition;
-import mods.multiblocked.recipe.RecipeMap;
-import mods.multiblocked.functions.ISetupRecipe;
-import mods.multiblocked.recipe.RecipeLogic;
-import mods.multiblocked.recipe.Recipe;
-
+import mods.modularmachinery.RecipeBuilder;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI;
 
-var definition as ComponentDefinition = MBDRegistry.getDefinition("rotn:power_hammer");
-var pwrhmrm = definition as ControllerDefinition;
-val newRP = RecipeMap("power_hammer") as RecipeMap;
-# Recipe.register(newRP);
-RecipeMap.register(newRP);
-pwrhmrm.recipeMap = newRP;
-
 // Recipes are divided in three separate maps one for specific item inputs, and one for ore dictionary inputs, with a separate extra one for glass.
 // Fuel is dense redstone, defined on the recipe map within the multiblocked config folder.
 
 val PowerHammerRecipeNames = [
-    "1break_clay_brick", 
-    "1break_coade_brick", 
-    "1break_masonry_brick", 
-    "1break_nether_brick", 
-    "1break_fiery_nether_brick", 
-    "1break_mud_brick", 
-    "1white_stone_recycling", 
-    "1prismarine_to_prismshard", 
-    "1prism_brick_to_prismshard_to", 
-    "1flintblock_to_flint", 
-    "1purpur_to_popped_chorus", 
-    "1halite_to_salt", 
-    "1dense_quartz", 
-    "1ambrosium_to_magic_dust", 
-    "1lignite_to_coal_dust", 
-    "1lignite_cobble_to_coal_dust", 
-    "1lormyte_crystal", 
-    "1obsidian_dust", 
-    "1obsidian_shard", 
-    "1cobblestone_to_rocks", 
-    "1entropy_cobblestone", 
-    "1cracked_astral_block", 
-    "1zinc_bits_to_dust", 
-    "1gold_raw_to_dust", 
-    "1meteor_shard_to_dust", 
-    "1charcoal_pile_to_charcoal",  
-    "1crab_murder", 
-    "1wither_skull_to_dust", 
-    "1smash_heart_1", 
-    "1smash_heart_2", 
-    "1smash_heart_3", 
-    "1smash_heart_4", 
-    "1sfs_plating", 
-    "1refractorylump_fossil", 
-    "1refractorylump_quartz", 
-    "1refractorylump_radiantquartz",
-    "1refractorylump_chalk",
-    "1refractorylump_quartzite", 
-    "1refractorylump_marble", 
-    "1refractorylump_dolomite", 
-    "1refractorylump_limestone", 
-    "1refractorylump_chalk_cobble", 
-    "1refractorylump_quartzite_cobble", 
-    "1refractorylump_marble_cobble", 
-    "1refractorylump_dolomite_cobble", 
-    "1refractorylump_limestone_cobble", 
-    "1blaze_lantern_to_powder", 
-    "1dwarven_measures", 
-    "1glass_shards"
+    "A_break_clay_brick", 
+    "A_break_coade_brick", 
+    "A_break_masonry_brick", 
+    "A_break_nether_brick", 
+    "A_break_fiery_nether_brick", 
+    "A_break_mud_brick", 
+    "A_white_stone_recycling", 
+    "A_prismarine_to_prismshard", 
+    "A_prism_brick_to_prismshard_to", 
+    "A_flintblock_to_flint", 
+    "A_purpur_to_popped_chorus", 
+    "A_halite_to_salt", 
+    "A_dense_quartz", 
+    "A_ambrosium_to_magic_dust", 
+    "A_lignite_to_coal_dust", 
+    "A_lignite_cobble_to_coal_dust", 
+    "A_lormyte_crystal", 
+    "A_obsidian_dust", 
+    "A_obsidian_shard", 
+    "A_cobblestone_to_rocks", 
+    "A_entropy_cobblestone", 
+    "A_cracked_astral_block", 
+    "A_zinc_bits_to_dust", 
+    "A_gold_raw_to_dust", 
+    "A_meteor_shard_to_dust", 
+    "A_charcoal_pile_to_charcoal",  
+    "A_crab_murder", 
+    "A_wither_skull_to_dust", 
+    "A_smash_heart_1", 
+    "A_smash_heart_2", 
+    "A_smash_heart_3", 
+    "A_smash_heart_4", 
+    "A_sfs_plating", 
+    "A_refractorylump_fossil", 
+    "A_refractorylump_quartz", 
+    "A_refractorylump_radiantquartz",
+    "A_refractorylump_chalk",
+    "A_refractorylump_quartzite", 
+    "A_refractorylump_marble", 
+    "A_refractorylump_dolomite", 
+    "A_refractorylump_limestone", 
+    "A_refractorylump_chalk_cobble", 
+    "A_refractorylump_quartzite_cobble", 
+    "A_refractorylump_marble_cobble", 
+    "A_refractorylump_dolomite_cobble", 
+    "A_refractorylump_limestone_cobble", 
+    "A_blaze_lantern_to_powder", 
+    "A_dwarven_measures", 
+    "A_glass_shards"
 ] as string[];
 
 val PowerHammerItemOutputs = [
@@ -233,46 +217,46 @@ val PowerHammerNumModifier = [
 ] as int[];
 
 val PowerHammerRecipeNames1 = [
-    "1raw_endorium", 
-    "1copper_to_dust", 
-    "1copper_ore_to_dust", 
-    "1copper_raw_to_dust", 
-    "1tin_to_dust", 
-    "1tin_ore_to_dust", 
-    "1tin_raw_to_dust", 
-    "1iron_to_dust", 
-    "1iron_ore_to_dust", 
-    "1iron_raw_to_dust", 
-    "1bronze_to_dust", 
-    "1brass_to_dust", 
-    "1gold_to_dust", 
-    "1gold_ore_to_dust", 
-    "1silver_to_dust", 
-    "1silver_ore_to_dust", 
-    "1silver_raw_to_dust", 
-    "1gravitite_to_dust", 
-    "1gravitite_ore_to_dust", 
-    "1gravitite_raw_to_dust", 
-    "1electrum_to_dust", 
-    "1steel_to_dust", 
-    "1viridium_to_dust", 
-    "1viridium_ore_to_dust", 
-    "1viridium_raw_to_dust", 
-    "1mythril_to_dust", 
-    "1mythril_ore_to_dust", 
-    "1mythril_raw_to_dust", 
-    "1sfs_to_dust", 
-    "1endorium_to_dust", 
-    "1ambrosium_to_dust", 
-    "1ambrosium_ore_to_dust", 
-    "1log_to_pulp", 
-    "1kenaf_to_pulp",
-    "1refractorylump_ruby", 
-    "1refractorylump_sapphire",
-    "1rune_to_vis"
+    "A_raw_endorium", 
+    "A_copper_to_dust", 
+    "A_copper_ore_to_dust", 
+    "A_copper_raw_to_dust", 
+    "A_tin_to_dust", 
+    "A_tin_ore_to_dust", 
+    "A_tin_raw_to_dust", 
+    "A_iron_to_dust", 
+    "A_iron_ore_to_dust", 
+    "A_iron_raw_to_dust", 
+    "A_bronze_to_dust", 
+    "A_brass_to_dust", 
+    "A_gold_to_dust", 
+    "A_gold_ore_to_dust", 
+    "A_silver_to_dust", 
+    "A_silver_ore_to_dust", 
+    "A_silver_raw_to_dust", 
+    "A_gravitite_to_dust", 
+    "A_gravitite_ore_to_dust", 
+    "A_gravitite_raw_to_dust", 
+    "A_electrum_to_dust", 
+    "A_steel_to_dust", 
+    "A_viridium_to_dust", 
+    "A_viridium_ore_to_dust", 
+    "A_viridium_raw_to_dust", 
+    "A_mythril_to_dust", 
+    "A_mythril_ore_to_dust", 
+    "A_mythril_raw_to_dust", 
+    "A_sfs_to_dust", 
+    "A_endorium_to_dust",
+    "A_ambrosium_to_dust", 
+    "A_ambrosium_ore_to_dust", 
+    "A_log_to_pulp", 
+    "A_kenaf_to_pulp",
+    "A_refractorylump_ruby", 
+    "A_refractorylump_sapphire",
+    "A_rune_to_vis"
 ] as string[];
 
-val PowerHammerItemOutputs1 = [
+val PowerHammerItemOutputsA = [
     <endreborn:item_raw_endorium>, 
     <contenttweaker:material_part:20>, 
     <contenttweaker:material_part:20>, 
@@ -312,7 +296,7 @@ val PowerHammerItemOutputs1 = [
     <contenttweaker:vis_speck>
 ]  as IItemStack[];
 
-val PowerHammerItemInputs1 = [
+val PowerHammerItemInputsA = [
     <ore:enderpearl>,
     <ore:ingotCopper>, 
     <ore:oreCopper>, 
@@ -352,7 +336,7 @@ val PowerHammerItemInputs1 = [
     <ore:runeNoRainbow>
 ] as IOreDictEntry[];
 
-val PowerHammerNumModifier1 = [
+val PowerHammerNumModifierA = [
     16,
     8, 
     4, 
@@ -393,30 +377,31 @@ val PowerHammerNumModifier1 = [
 ] as int[];
 
 for i, input in PowerHammerItemInputs {
-    newRP.start()
-    .duration(PowerHammerNumModifier[i] * 20)
-    .inputItems(PowerHammerItemInputs[i])
-    .outputItems(PowerHammerItemOutputs[i])
-    .buildAndRegister();
+    var powerhammerrecipe1 = RecipeBuilder.newBuilder(PowerHammerRecipeNames[i], "powerhammer", PowerHammerNumModifier[i]*10);
+    powerhammerrecipe1.addItemInput(PowerHammerItemInputs[i]);
+    powerhammerrecipe1.addItemInput(<pyrotech:material:36>*(PowerHammerNumModifier[i]*10));
+    powerhammerrecipe1.addItemOutput(PowerHammerItemOutputs[i]);
+    powerhammerrecipe1.build();
 }
 
-for i, input in PowerHammerItemInputs1 {
-    newRP.start()
-    .duration(PowerHammerNumModifier1[i] * 20)
-    .inputItems(PowerHammerItemInputs1[i])
-    .outputItems(PowerHammerItemOutputs1[i])
-    .buildAndRegister();
+for i, input in PowerHammerItemInputsA {
+    var powerhammerrecipe3 = RecipeBuilder.newBuilder(PowerHammerRecipeNames1[i], "powerhammer", PowerHammerNumModifierA[i]*10);
+    powerhammerrecipe3.addItemInput(PowerHammerItemInputsA[i]);
+    powerhammerrecipe3.addItemInput(<pyrotech:material:36>*(PowerHammerNumModifierA[i]*10));
+    powerhammerrecipe3.addItemOutput(PowerHammerItemOutputsA[i]);
+    powerhammerrecipe3.build();
 }
 
 for i in 0 to 16 {
-    newRP.start()
-    .duration(20)
-    .inputItems(<minecraft:stained_glass>.definition.makeStack(i))
-    .outputItems(<quark:glass_shards>.definition.makeStack(i+1) * 4)
-    .buildAndRegister();
+	var powerhammerrecipe2 = RecipeBuilder.newBuilder("stained_shards_"~i, "powerhammer", 10);
+    powerhammerrecipe2.addItemInput(<minecraft:stained_glass>.definition.makeStack(i));
+    powerhammerrecipe2.addItemInput(<pyrotech:material:36>*10);
+    powerhammerrecipe2.addItemOutput(<quark:glass_shards>.definition.makeStack(i+1)*4);
+    powerhammerrecipe2.build();
 }
 
-    newRP.start()
-    .duration(12000)
-    .inputItems(<pyrotech:material:36>)
-    .buildAndRegister(true);
+var electrumPlate = RecipeBuilder.newBuilder("electrum_plate", "powerhammer", 320);
+    electrumPlate.addItemInput(<ore:ingotElectrum>);
+    electrumPlate.addItemInput(<pyrotech:material:36>);
+    electrumPlate.addItemOutput(<contenttweaker:material_part:13>);
+    electrumPlate.build();

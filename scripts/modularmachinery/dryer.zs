@@ -1,4 +1,4 @@
-#loader multiblocked
+/*#loader multiblocked
 
 import mods.multiblocked.MBDRegistry;
 import mods.multiblocked.definition.ControllerDefinition;
@@ -50,3 +50,4 @@ newRP.start()
     .inputItems(<biomesoplenty:mudball>)
     .outputItems(<betterwithmods:dirt_pile>)
     .buildAndRegister();
+*/
