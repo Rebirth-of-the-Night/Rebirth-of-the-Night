@@ -5,18 +5,18 @@ import mods.requious.AssemblyRecipe;
 import crafttweaker.world.IWorld;
 
 var alch_proc = <assembly:alchemical_processor>;
-var arrowRight = SlotVisual.create(2, 1).addPart("requious:textures/gui/alchemical_processor.png", 10, 4).addDirectional("requious:textures/gui/alchemical_processor.png", 12, 4,mods.requious.GaugeDirection.right(),false);
+var arrowRight = SlotVisual.create(2, 1).addPart("requious:textures/gui/alchemical_processor.png", 10, 10).addDirectional("requious:textures/gui/alchemical_processor.png", 12, 4,mods.requious.GaugeDirection.right(),false);
 alch_proc.setDecorationSlot(0,0, SlotVisual.create(9,7).addPart("requious:textures/gui/alchemical_processor.png",0,0));
 
 static alch_procinput1 as SlotVisual = SlotVisual.createSimple("requious:textures/gui/alchemical_processor.png",2,2);
 static alch_procinput2 as SlotVisual = SlotVisual.createSimple("requious:textures/gui/alchemical_processor.png",3,2);
 static alch_procinput3 as SlotVisual = SlotVisual.createSimple("requious:textures/gui/alchemical_processor.png",4,2);
 static alch_procfluid as SlotVisual = SlotVisual.createSimple("requious:textures/gui/alchemical_processor.png",1,2);
-static alch_proccontainer as SlotVisual = SlotVisual.createSimple("requious:textures/gui/alchemical_processor.png",5,3);
 static alch_proccontaineroutput as SlotVisual = SlotVisual.createSimple("requious:textures/gui/alchemical_processor.png",6,4);
-static alch_procoutput1 as SlotVisual = SlotVisual.createSimple("requious:textures/gui/alchemical_processor.png",7,3);
-static alch_procoutput2 as SlotVisual = SlotVisual.createSimple("requious:textures/gui/alchemical_processor.png",7,3);
-static alch_procblank as SlotVisual = SlotVisual.createSimple("requious:textures/gui/alchemical_processor.png",10,10);
+static alch_procoutput1 as SlotVisual = SlotVisual.createSimple("requious:textures/gui/alchemical_processor.png",6,2);
+static alch_procoutput2 as SlotVisual = SlotVisual.createSimple("requious:textures/gui/alchemical_processor.png",6,3);
+static alch_procoutput3 as SlotVisual = SlotVisual.createSimple("requious:textures/gui/alchemical_processor.png",6,4);
+static alch_procblank as SlotVisual = SlotVisual.createSimple("requious:textures/gui/alchemical_processor.png",0,12);
 
 alch_proc.setTextSlot(3,0).setVisual(mods.requious.SlotVisual.create(0,0)).setRenderText("Alchemical Processor");
 
@@ -56,14 +56,10 @@ alch_proc.setItemSlot(6, 3, ComponentFace.down(), 256)
        .setAccess(false, true)
        .setBackground(alch_procoutput2)
        .setGroup("output");
-alch_proc.setItemSlot(5, 3, ComponentFace.front(), 256)
-       .setAccess(true, false)
-       .setBackground(alch_proccontainer)
-       .setGroup("container");
 alch_proc.setItemSlot(6, 4, ComponentFace.down(), 256)
        .setAccess(false, true)
-       .setBackground(alch_proccontaineroutput)
-       .setGroup("container_output");
+       .setBackground(alch_procoutput3)
+       .setGroup("output");
 	   
 alch_proc.setItemSlot(8, 0, ComponentFace.down(), 1)
        .setAccess(false, false)
@@ -105,11 +101,17 @@ alch_proc.addRecipe(info_c);
 //
 //
 //
-var test_recipe = AssemblyRecipe.create(function(container){container.addItemOutput("stock",<betterwithmods:bamboo_chime:5>.withTag({display: {Lore: ["Extract with Bottle or bottle"]}}));
-container.addItemOutput("container_output",<minecraft:glass_bottle>);})
+var test_recipe = AssemblyRecipe.create(function(container){
+container.addItemOutput("output",<betterwithmods:bamboo_chime:5>.withTag({display: {Lore: ["Extract with Bottle or bottle"]}}));
+container.addItemOutput("output",<minecraft:glass_bottle>);
+})
 .requireItem("input", <harvestcraft:jellyfishrawitem>)
-.requireItem("input", <minecraft:beef>)
-.requireItem("input", <minecraft:mutton>)
+//.requireItem("input", <minecraft:mutton>)
+//.requireWorldCondition("world", function(container){
+//    var vertical_powered_axle = 5;
+//    var state = container.world.getBlockState(container.pos.getOffset(crafttweaker.world.IFacing.up(),1));
+//    return (state.block.definition.id == "betterwithmods:wooden_axle") && (state.meta == vertical_powered_axle);
+//}, 200)
 .requireDuration("input", 60);
 alch_proc.addJEIRecipe(test_recipe);
 alch_proc.addRecipe(test_recipe);
