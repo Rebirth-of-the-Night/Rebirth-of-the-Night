@@ -218,6 +218,10 @@ var waterBottle2 = <liquid:water>*500;
 var waterBucket = <liquid:water>*1000;
 var acid250 = <liquid:endacid>*250;
 var rennetBottle = <liquid:fluid_rennet>*250;
+var aceticAppleCider = <liquid:fluid_booze_apple_cider_fermented>*250;
+var aceticPurpleWine = <liquid:fluid_booze_purple_wine>*250;
+var aceticRedWine = <liquid:fluid_booze_red_wine>*250;
+var aceticGreenWine = <liquid:fluid_booze_green_wine>*250;
 var waterBottleItem = <minecraft:potion>.withTag({Potion: "minecraft:water"}).giveBack(<minecraft:glass_bottle>);
 var milkBottle = <animania:milk_bottle>.giveBack(<minecraft:glass_bottle>);
 val coconutMilk = <harvestcraft:coconutmilkitem>;
@@ -1565,6 +1569,10 @@ recipes.removeByRecipeName("harvestcraft:peanutbuttercookiesitem");
 ExSartagine.addKettleRecipe([nutButter,batter,sugar,sugar],null,null,[<harvestcraft:peanutbuttercookiesitem>*2],80);
 //Vinegar
 recipes.removeByRecipeName("harvestcraft:vinegaritem");
+ExSartagine.addKettleRecipe([<ore:yeastBrewers>],null,aceticAppleCider,[<harvestcraft:vinegaritem>],80);
+ExSartagine.addKettleRecipe([<ore:yeastBrewers>],null,aceticPurpleWine,[<harvestcraft:vinegaritem>],80);
+ExSartagine.addKettleRecipe([<ore:yeastBrewers>],null,aceticRedWine,[<harvestcraft:vinegaritem>],80);
+ExSartagine.addKettleRecipe([<ore:yeastBrewers>],null,aceticGreenWine,[<harvestcraft:vinegaritem>],80);
 //Made in soaking pot using juice; pyrotech_recipes_other.zs
 //Jelly
 recipes.removeByRecipeName("harvestcraft:grapejellyitem");
@@ -3679,6 +3687,8 @@ RecipeBuilder.get("chef")
   .create();
 //Tripe Musguette [KEEPER]
 Mortar.addRecipe(["stone"], <betterwithmods:raw_egg>, 8, [<contenttweaker:moss_patch>,<growthcraft_milk:stomach>]);
+//Dairy Free Cheese Slice
+ExSartagine.addKettleRecipe([<harvestcraft:cashewbutteritem>,coconutMilk,salt,vinegar,<contenttweaker:koji_mold>],cookKitKettle,waterBottle,[<contenttweaker:dairy_free_cheese_slice>],4800);
 
 //hiding of various items not needed
 val hiddenFoods as IItemStack[] = [

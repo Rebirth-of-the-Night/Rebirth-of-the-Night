@@ -1508,6 +1508,9 @@ for item in mushroom.items{
     }
 }
 
+val cheese = <ore:foodCheese>;
+cheese.add(<contenttweaker:dairy_free_cheese_slice>);
+
 val brewerYeast = <ore:yeastBrewers>;
 brewerYeast.add(<exsartagine:yeast>);
 
