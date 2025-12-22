@@ -12,15 +12,18 @@
             },
             {
                 "function": "hordes:set_spawn_duration",
-                "value": 6000
+                "value": 6000,
+                "conditions": []
             },
             {
                 "function": "hordes:set_spawn_interval",
                 "value": 1500,
+                "conditions": []
             },
             {
                 "function": "hordes:set_spawn_amount",
                 "value": 25,
+                "conditions": []
             }
         ],
         "conditions": [

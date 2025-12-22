@@ -4,7 +4,7 @@
         "value": [
             {
                 "function": "hordes:set_entity_nbt",
-                "value": "{CustomName:\"Starving Vindicator\",Health:14,Attributes:[{Name:\"generic.maxHealth\",Base:15f}]}",
+                "value": "{CustomName:\"Starving Vindicator\",Health:15,Attributes:[{Name:\"generic.maxHealth\",Base:15f}]}",
                 "conditions": [
                     {
                         "name": "hordes:entity_type",
@@ -14,7 +14,7 @@
             },
             {
                 "function": "hordes:set_entity_nbt",
-                "value": "{CustomName:\"Starving Hunter\",Health:14,Attributes:[{Name:\"generic.maxHealth\",Base:15f}]}",
+                "value": "{CustomName:\"Starving Hunter\",Health:15,Attributes:[{Name:\"generic.maxHealth\",Base:15f}]}",
                 "conditions": [
                     {
                         "name": "hordes:entity_type",
@@ -24,7 +24,7 @@
             },
             {
                 "function": "hordes:set_entity_nbt",
-                "value": "{CustomName:\"Starving Witch\",Health:18,Attributes:[{Name:\"generic.maxHealth\",Base:15f}]}",
+                "value": "{CustomName:\"Starving Witch\",Health:18,Attributes:[{Name:\"generic.maxHealth\",Base:18f}]}",
                 "conditions": [
                     {
                         "name": "hordes:entity_type",
@@ -34,7 +34,7 @@
             },
             {
                 "function": "hordes:set_entity_nbt",
-                "value": "{CustomName:\"Starving Evoker\",Health:18,Attributes:[{Name:\"generic.maxHealth\",Base:15f}]}",
+                "value": "{CustomName:\"Starving Evoker\",Health:18,Attributes:[{Name:\"generic.maxHealth\",Base:18f}]}",
                 "conditions": [
                     {
                         "name": "hordes:entity_type",
@@ -44,7 +44,7 @@
             },
             {
                 "function": "hordes:set_entity_nbt",
-                "value": "{CustomName:\"Starving Chillager\",Health:18,Attributes:[{Name:\"generic.maxHealth\",Base:15f}]}",
+                "value": "{CustomName:\"Starving Chillager\",Health:18,Attributes:[{Name:\"generic.maxHealth\",Base:18f}]}",
                 "conditions": [
                     {
                         "name": "hordes:entity_type",
@@ -54,7 +54,7 @@
             },
             {
                 "function": "hordes:set_entity_nbt",
-                "value": "{CustomName:\"Starving Illusioner\",Health:18,Attributes:[{Name:\"generic.maxHealth\",Base:15f}]}",
+                "value": "{CustomName:\"Starving Illusioner\",Health:18,Attributes:[{Name:\"generic.maxHealth\",Base:18f}]}",
                 "conditions": [
                     {
                         "name": "hordes:entity_type",
