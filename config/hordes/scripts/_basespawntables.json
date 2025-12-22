@@ -57,7 +57,7 @@
                 "conditions": [
                     {
                         "name": "hordes:random",
-                        "value": 0.75
+                        "value": 0.65
                     }
                 ]
             }

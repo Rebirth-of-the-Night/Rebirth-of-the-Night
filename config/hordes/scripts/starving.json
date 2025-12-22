@@ -4,7 +4,7 @@
         "value": [
             {
                 "function": "hordes:set_entity_nbt",
-                "value": "{CustomName:\"Starving Vindicator\",Health:15,Attributes:[{Name:\"generic.maxHealth\",Base:15f}]}",
+                "value": "{CustomName:\"Starving Vindicator\",Health:14,Attributes:[{Name:\"generic.maxHealth\",Base:14f}]}",
                 "conditions": [
                     {
                         "name": "hordes:entity_type",
@@ -14,7 +14,7 @@
             },
             {
                 "function": "hordes:set_entity_nbt",
-                "value": "{CustomName:\"Starving Hunter\",Health:15,Attributes:[{Name:\"generic.maxHealth\",Base:15f}]}",
+                "value": "{CustomName:\"Starving Hunter\",Health:14,Attributes:[{Name:\"generic.maxHealth\",Base:14f}]}",
                 "conditions": [
                     {
                         "name": "hordes:entity_type",
