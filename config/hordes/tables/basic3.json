@@ -1,0 +1,7 @@
+[
+    minecraft:zombie{ArmorItems:[{},{},{},{id:"dungeontactics:studded_helmet",Count:1}],ArmorDropChances:[0f,0f,0f,0f],}-33-0-0
+    minecraft:zombie{CustomName:"Excavator",ActiveEffects:[{Id:1,Duration:999999,ShowParticles:0b}],HandItems:[{id:"endreborn:tool_pickaxe_wolframium",Count:1}],HandDropChances:[0.00f,0.0f],ArmorItems:[{},{},{},{id:"dungeontactics:studded_helmet",Count:1}],ArmorDropChances:[0f,0f,0f,0f],Attributes:[{Name:"generic.maxHealth",Base:25f}]}-20-0-0
+    minecraft:husk{Health:15,ActiveEffects:[{Id:1,Duration:999999,Amplifier:2,ShowParticles:0b}],Attributes:[{Name:"generic.maxHealth",Base:15f}]}-33-0-0
+    ancientbeasts:giant_zombie{Health:60,Attributes:[{Name:"generic.maxHealth",Base:80f}]}-2-0-0
+    quark:dweller-12-0-0
+]

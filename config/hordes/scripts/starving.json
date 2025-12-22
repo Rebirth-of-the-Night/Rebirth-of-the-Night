@@ -1,0 +1,76 @@
+[
+    {
+        "function": "hordes:multiple",
+        "value": [
+            {
+                "function": "hordes:set_entity_nbt",
+                "value": "{CustomName:\"Starving Vindicator\",Health:14,Attributes:[{Name:\"generic.maxHealth\",Base:15f}]}",
+                "conditions": [
+                    {
+                        "name": "hordes:entity_type",
+                        "value": "minecraft:vindication_illager"
+                    }
+                ]
+            },
+            {
+                "function": "hordes:set_entity_nbt",
+                "value": "{CustomName:\"Starving Hunter\",Health:14,Attributes:[{Name:\"generic.maxHealth\",Base:15f}]}",
+                "conditions": [
+                    {
+                        "name": "hordes:entity_type",
+                        "value": "hunterillager:hunter_illager"
+                    }
+                ]
+            },
+            {
+                "function": "hordes:set_entity_nbt",
+                "value": "{CustomName:\"Starving Witch\",Health:18,Attributes:[{Name:\"generic.maxHealth\",Base:15f}]}",
+                "conditions": [
+                    {
+                        "name": "hordes:entity_type",
+                        "value": "minecraft:witch"
+                    }
+                ]
+            },
+            {
+                "function": "hordes:set_entity_nbt",
+                "value": "{CustomName:\"Starving Evoker\",Health:18,Attributes:[{Name:\"generic.maxHealth\",Base:15f}]}",
+                "conditions": [
+                    {
+                        "name": "hordes:entity_type",
+                        "value": "minecraft:evocation_illager"
+                    }
+                ]
+            },
+            {
+                "function": "hordes:set_entity_nbt",
+                "value": "{CustomName:\"Starving Chillager\",Health:18,Attributes:[{Name:\"generic.maxHealth\",Base:15f}]}",
+                "conditions": [
+                    {
+                        "name": "hordes:entity_type",
+                        "value": "iceologer:iceologer"
+                    }
+                ]
+            },
+            {
+                "function": "hordes:set_entity_nbt",
+                "value": "{CustomName:\"Starving Illusioner\",Health:18,Attributes:[{Name:\"generic.maxHealth\",Base:15f}]}",
+                "conditions": [
+                    {
+                        "name": "hordes:entity_type",
+                        "value": "minecraft:illusion_illager"
+                    }
+                ]
+            }
+        ],
+        "conditions": [
+            {
+                "name": "hordes:not",
+                "value": {
+                    "name": "gamestages:gamestage",
+                    "value": "killedharvester"
+                }
+            }
+        ]
+    }
+]
