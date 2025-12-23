@@ -1,3 +1,7 @@
 [
-    "minecraft:wolf-100-0-0"
+    "betteranimalsplus:boar-27-0-0",
+    "betteranimalsplus:blackbear-27-0-0",
+    "betteranimalsplus:feralwolf-27-0-0",
+    "primitivemobs:goblin{HandItems:[{id:\"minecraft:iron_pickaxe\",Count:1}],HandDropChances:[0.00f,0.0f]}-15-0-0",
+    "iceandfire:stymphalianbird-4-0-0"
 ]
