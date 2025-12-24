@@ -51,6 +51,11 @@ val abyss_pizza_item = VanillaFactory.createItemFood("abyss_pizza", 32);
 abyss_pizza_item.setSaturation(36.0);
 abyss_pizza_item.register();
 
+val dairy_free_cheese_slice = VanillaFactory.createItemFood("dairy_free_cheese_slice", 3);
+dairy_free_cheese_slice.setSaturation(2.5);
+dairy_free_cheese_slice.setCreativeTab(<creativetab:harvestCraft>);
+dairy_free_cheese_slice.register();
+
 //BLOCKS
 //Yeast flour
 var yeast_flour = VanillaFactory.createBlock("yeast_flour", <blockmaterial:Cloth>);

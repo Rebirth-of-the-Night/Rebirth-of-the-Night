@@ -40,13 +40,10 @@
           "level": "0"
         }
       },
-      "amountPerChunk": 0,
-      "enable": false,
+      "amountPerChunk": 2,
+      "enable": true,
       "grassBorderWith": {
-        "block": "minecraft:grass",
-        "properties": {
-          "snowy": "false"
-        }
+        "block": "biomesoplenty:flesh"
       }
     },
     "eyebulbs": {

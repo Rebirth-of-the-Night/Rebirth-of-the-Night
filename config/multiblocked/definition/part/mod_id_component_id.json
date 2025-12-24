@@ -1,8 +1,0 @@
-{
-  "canShared": true,
-  "location": "mod_id:component_id",
-  "traits": {},
-  "allowRotate": true,
-  "showInJei": true,
-  "isOpaqueCube": true
-}

@@ -1,0 +1,7 @@
+{
+    "parent": "modularmachinery:block/blockmodel_overlay_all",
+    "textures": {
+        "bg_all": "modularmachinery:blocks/reinforced_case",
+        "ov_all": "modularmachinery:blocks/reinforced_case_output"
+    }
+}

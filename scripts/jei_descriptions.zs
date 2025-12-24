@@ -347,6 +347,7 @@ JEI.addDescription(<mod_lavacow:parasite_item>, "These parasites feed off victim
 JEI.addDescription(<mod_lavacow:parasite_item:1>, "These parasites feed off mummies in deserts, which decay much slower thanks to ancient rituals.");
 JEI.addDescription(<mod_lavacow:parasite_item:2>, "These parasites feed off rotting matter in the same manner as fungi, but still latch onto anything alive.");
 JEI.addDescription(<exsartagine:yeast>, "This kind of yeast can be obtained by placing down flour on a surface, right-clicking it with a water bottle and waiting until it changes appearance. Breaking the changed block will yield this item.");
+JEI.addDescription(<contenttweaker:dairy_free_cheese_slice>, "Cheese produced without the use of milk, dairy products, or witchcraft. May be difficult to produce in batches without prior preparation.");
 
 /* Mobs and Drops */
 val dung = <betterwithmods:material:5>;

@@ -1,11 +1,13 @@
 tile.dryer.name=Hell Dryer
 tile.interaction.name=Direct Interaction
 tile.growth_ferment.name=Fermentation
-tile.redstolyzer.name=Redstolyzer
+tile.splosher.name=Vis Splosher
 tile.night_jar.name=Night-jar
+tile.alchemical_processor.name=Alchemical Processor
 
 requious.jei.recipe.dryer=Hell Dryer
-requious.jei.recipe.redstolyzer.name=Redstolyzer
+requious.jei.recipe.splosher=Splosher
 requious.jei.recipe.night_jar=Night-jar
 requious.jei.recipe.interaction=Direct Interaction
 requious.jei.recipe.growth_ferment=Fermentation
+requious.jei.recipe.alchemical_processor=Alchemical Processing

@@ -253,12 +253,6 @@ SoakingPot.addRecipe("easy_durable_twine", <pyrotech:material:26>*3, <liquid:woo
 SoakingPot.addRecipe("rotten_flesh_dissolve", <quark:tallow>, <liquid:methanol>*1, <ore:meatRotten>, true, 5 * 60 * 20);
 SoakingPot.addRecipe("mossy_stone_bricks", <minecraft:stonebrick:1>, <liquid:water>*500, <contenttweaker:brick_minecraft_stone>, 7 * 60 * 20);
 SoakingPot.addRecipe("yute_fiber", <betterwithmods:material:3>*5, <liquid:water>*500, <pyrotech:material:2>, 5 * 60 * 20);
-SoakingPot.addRecipe("carmin_vinegar", <harvestcraft:vinegaritem>, <liquid:wildberryjuice>*100, <mod_lavacow:intestine>, true, 2 * 60 * 20);
-SoakingPot.addRecipe("carmin_vinegar_fast", <harvestcraft:vinegaritem>, <liquid:wildberryjuice>*100, <ore:agedMold>, true, 30 * 20);
-SoakingPot.addRecipe("grape_vinegar", <harvestcraft:vinegaritem>, <liquid:grapejuice>*100, <mod_lavacow:intestine>, true, 2 * 60 * 20);
-SoakingPot.addRecipe("grape_vinegar_fast", <harvestcraft:vinegaritem>, <liquid:grapejuice>*100, <ore:agedMold>, true, 30 * 20);
-SoakingPot.addRecipe("apple_vinegar", <harvestcraft:vinegaritem>, <liquid:applejuice>*100, <mod_lavacow:intestine>, true, 2 * 60 * 20);
-SoakingPot.addRecipe("apple_vinegar_fast", <harvestcraft:vinegaritem>, <liquid:applejuice>*100, <ore:agedMold>, true, 30 * 20);
 SoakingPot.addRecipe("tarred_tar_hay", <pyrotech:wood_tar_block>, <liquid:wood_tar>*250, <minecraft:hay_block>, 5 * 60 * 20);
 SoakingPot.addRecipe("refractory_limerock", <pyrotech:material:8>, <liquid:water>*200, <pyrotech:rock:8>, 8 * 60 * 20);
 SoakingPot.addRecipe("refractory_coke", <pyrotech:material:8>*4, <liquid:wood_tar>*50, <pyrotech:material:32>, 6 * 60 * 20);
