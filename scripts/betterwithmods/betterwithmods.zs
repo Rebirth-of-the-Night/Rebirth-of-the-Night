@@ -470,9 +470,6 @@ recipes.addShaped("cake_batter",<betterwithmods:raw_pastry:0>,[
 recipes.remove(<betterwithmods:raw_pastry:1>);
 recipes.addShapeless("oven_ready_pumpkin_pie",<betterwithmods:raw_pastry:1>,[<minecraft:pumpkin>,<ore:listAllsugar>,<ore:listAllegg>,<ore:foodFlour>]);
 
-recipes.remove(<betterwithmods:raw_pastry:1>);
-recipes.addShapeless("oven_ready_pumpkin_pie",<betterwithmods:raw_pastry:1>,[<minecraft:pumpkin>,<ore:listAllsugar>,<ore:listAllegg>,<ore:foodFlour>]);
-
 recipes.addShaped("bamboo_chime", <betterwithmods:bamboo_chime:0>, [
     [null,<minecraft:string>,null],
     [<minecraft:string>,<ore:barkWood>,<minecraft:string>],

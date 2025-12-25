@@ -1,0 +1,6 @@
+{
+    "parent": "block/tinted_cross_vanilla",
+    "textures": {
+        "cross": "biomesoplenty:blocks/koru"
+    }
+}

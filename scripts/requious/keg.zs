@@ -276,9 +276,9 @@ var tankard_ironberry_stout = AssemblyRecipe.create(function(container){containe
 .requireItem("container", <contenttweaker:tankard>);
 keg.addRecipe(tankard_ironberry_stout);
 //
+// Edited out until Rustic's newest update is pushed and vanta implemented
 //
-//
-var twinned_spirit = AssemblyRecipe.create(function(container){container.addItemOutput("stock",<contenttweaker:tankard_twinned_spirit>.withTag({display: {Lore: ["Extract with Bottle or Tankard"]}}));})
+/*var twinned_spirit = AssemblyRecipe.create(function(container){container.addItemOutput("stock",<contenttweaker:tankard_twinned_spirit>.withTag({display: {Lore: ["Extract with Bottle or Tankard"]}}));})
 .requireItem("catalyst", <ore:yeastEthereal>)
 .requireItem("input", <betternether:black_apple>)
 .requireItem("input", <aether_legacy:white_apple>)
@@ -292,7 +292,7 @@ keg.addRecipe(twinned_spirit);
 var tankard_twinned_spirit = AssemblyRecipe.create(function(container){container.addItemOutput("output",<contenttweaker:tankard_twinned_spirit>);})
 .requireItem("stock", <contenttweaker:tankard_twinned_spirit>)
 .requireItem("container", <contenttweaker:tankard>);
-keg.addRecipe(tankard_twinned_spirit);
+keg.addRecipe(tankard_twinned_spirit);*/
 //
 //
 //

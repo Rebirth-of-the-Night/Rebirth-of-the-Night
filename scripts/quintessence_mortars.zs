@@ -48,7 +48,6 @@ waterQuintessence.add(
     <minecraft:packed_ice>,
     <mod_lavacow:shattered_ice>,
     <aether_legacy:icestone>,
-    <futuremc:blue_ice>,
     <iceandfire:dragon_ice>,
     <iceandfire:dragon_ice_spikes>,
     <iceandfire:ice_dragon_flesh>,
@@ -611,7 +610,6 @@ balanceYangQuintessenceA.add(
     <minecraft:packed_ice>,
     <aether_legacy:icestone>,
     <biomesoplenty:hard_ice>,
-    <futuremc:blue_ice>,
     <iceandfire:dragon_ice>,
     <netherex:frost_rod>,
     <quark:biome_cobblestone:1>

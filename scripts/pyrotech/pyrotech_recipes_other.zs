@@ -117,6 +117,7 @@ CompactingBin.addRecipe("clay_compacting", <minecraft:clay>, <minecraft:clay_bal
 CompactingBin.addRecipe("mud_compacting", <biomesoplenty:mud>, <biomesoplenty:mudball>, 4, true);
 CompactingBin.addRecipe("compactrottenflesh", <charm:rotten_flesh_block>, <minecraft:rotten_flesh>, 9, true);
 CompactingBin.addRecipe("compactflesh", <biomesoplenty:flesh>, <biomesoplenty:fleshchunk>, 4, true);
+CompactingBin.addRecipe("clay_from_mud", <minecraft:clay>, <biomesoplenty:mud>, 6, true);
 
 //Composting Recipes
 CompostBin.addRecipe(<pyrotech:mulch>, <betterwithmods:material:2>, 12);

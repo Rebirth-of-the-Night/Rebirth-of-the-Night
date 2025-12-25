@@ -51,7 +51,6 @@ JEI.removeAndHide(<randomthings:pitcherplant>);
 JEI.removeAndHide(<randomthings:quartzglass>);
 JEI.removeAndHide(<randomthings:entitydetector>);
 JEI.removeAndHide(<randomthings:voxelprojector>);
-JEI.removeAndHide(<randomthings:sakanade>);
 JEI.removeAndHide(<randomthings:rainshield>);
 JEI.removeAndHide(<randomthings:blockbreaker>);
 JEI.removeAndHide(<randomthings:superlubricentice>);

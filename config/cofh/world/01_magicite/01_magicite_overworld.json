@@ -13,7 +13,7 @@
                 "block": [
                     {
                         "name": "quark:crystal",
-                        "properties": {"crystal_white"}
+                        "properties": {"variant" : "crystal_white"}
                     }
                 ],
                 "cluster-size": 50,
@@ -82,7 +82,7 @@
                 "block": [
                     {
                         "name": "quark:crystal",
-                        "properties": {"crystal_red"}
+                        "properties": {"variant" : "crystal_red"}
                     }
                 ],
                 "cluster-size": 50,
@@ -148,7 +148,7 @@
                 "block": [
                     {
                         "name": "quark:crystal",
-                        "properties": {"crystal_orange"}
+                        "properties": {"variant" : "crystal_orange"}
                     }
                 ],
                 "cluster-size": 50,
@@ -219,7 +219,7 @@
                 "block": [
                     {
                         "name": "quark:crystal",
-                        "properties": {"crystal_yellow"}
+                        "properties": {"variant" : "crystal_yellow"}
                     }
                 ],
                 "cluster-size": 50,
@@ -296,7 +296,7 @@
                 "block": [
                     {
                         "name": "quark:crystal",
-                        "properties": {"crystal_green"}
+                        "properties": {"variant" : "crystal_green"}
                     }
                 ],
                 "cluster-size": 50,
@@ -370,7 +370,7 @@
                 "block": [
                     {
                         "name": "quark:crystal",
-                        "properties": {"crystal_blue"}
+                        "properties": {"variant" : "crystal_blue"}
                     }
                 ],
                 "cluster-size": 50,
@@ -445,7 +445,7 @@
                 "block": [
                     {
                         "name": "quark:crystal",
-                        "properties": {"crystal_indigo"}
+                        "properties": {"variant" : "crystal_indigo"}
                     }
                 ],
                 "cluster-size": 50,
@@ -520,7 +520,7 @@
                 "block": [
                     {
                         "name": "quark:crystal",
-                        "properties": {"crystal_violet"}
+                        "properties": {"variant" : "crystal_violet"}
                     }
                 ],
                 "cluster-size": 50,
@@ -593,7 +593,7 @@
                 "block": [
                     {
                         "name": "quark:crystal",
-                        "properties": {"crystal_black"}
+                        "properties": {"variant" : "crystal_black"}
                     }
                 ],
                 "cluster-size": 50,

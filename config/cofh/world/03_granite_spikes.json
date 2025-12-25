@@ -1,0 +1,34 @@
+{
+	"populate": 
+	{
+		"red_granite_beach_spikes": {
+			"distribution": "surface",
+			"generator": {
+				"type": "stalagmite",
+				"block": "contenttweaker:columnar_jointing_red_granite",
+				"material": [
+					"contenttweaker:columnar_jointing_red_granite",
+					"air"
+				],
+				"min-height": 1,
+				"height-variance": 5,
+				"size-variance": 4,
+				"smooth": true,
+				"fat": false,
+				"alt-sinc": true
+			},
+			"material": [
+					"contenttweaker:columnar_jointing_red_granite",
+					"air"
+				],
+			"cluster-count": 2,
+			"cluster-size": 1,
+			"chunk-chance": 2,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": "biometweaker:warm_columnal_beach"
+			}
+		}
+	}
+}

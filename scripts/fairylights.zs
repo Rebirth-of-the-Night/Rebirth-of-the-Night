@@ -119,7 +119,7 @@ for i in 0 to 240{
         recipes.addShaped(<fairylights:light>.definition.makeStack(i),[
             [null,iron,null],
             [pane,dyeArray[i % 16],pane],
-            [null,<minecraft:water_bucket>|<minecraft:ice>|<minecraft:packed_ice>|<biomesoplenty:hard_ice:0>|<futuremc:blue_ice>|<iceandfire:dragon_ice>,null]
+            [null,<minecraft:water_bucket>|<minecraft:ice>|<minecraft:packed_ice>|<biomesoplenty:hard_ice:0>|<iceandfire:dragon_ice>,null]
         ]);
     }
     if(i / 16 >= 14){ //meteor light

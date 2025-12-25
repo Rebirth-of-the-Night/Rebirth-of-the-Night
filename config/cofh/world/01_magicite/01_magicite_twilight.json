@@ -9,7 +9,7 @@
                     "block": 
                             {
                             "name": "quark:crystal",
-                            "properties": {"crystal_white"}
+                            "properties": {"variant" : "crystal_white"}
                             },
                     "material": "minecraft:stone",
                     "cluster-size": 6           
@@ -26,16 +26,16 @@
                 ]
             }            
             },
-            "tf_red_magicite": {
+            "tf_indigo_magicite": {
                 "distribution": "uniform",
                 "generator": {
                         "block": 
                                 {
                                 "name": "quark:crystal",
-                                "properties": 1
+                                "properties": {"variant" : "crystal_indigo"}
                                 },
                         "material": "minecraft:stone",
-                        "cluster-size": {"crystal_indigo"}      
+                        "cluster-size": 6
                 },
                 "cluster-count": 4,
                 "min-height": 0,
@@ -55,7 +55,7 @@
                         "block": 
                                 {
                                 "name": "quark:crystal",
-                                "properties": {"crystal_violet"}
+                                "properties": {"variant" : "crystal_violet"}
                                 },
                         "material": "minecraft:stone",
                         "cluster-size": 6           
@@ -78,7 +78,7 @@
                         "block": 
                                 {
                                 "name": "quark:crystal",
-                                "properties": {"crystal_blue"}
+                                "properties": {"variant" : "crystal_blue"}
                                 },
                         "material": "minecraft:stone",
                         "cluster-size": 6           
@@ -101,7 +101,7 @@
                         "block": 
                                 {
                                 "name": "quark:crystal",
-                                "properties": {"crystal_black"}
+                                "properties": {"variant" : "crystal_black"}
                                 },
                         "material": "minecraft:stone",
                         "cluster-size": 6           
