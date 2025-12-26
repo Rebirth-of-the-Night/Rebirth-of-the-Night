@@ -1,8 +1,9 @@
 [
-    "minecraft:spider-22-0-0",
-    "minecraft:cave_spider-21-0-0",
-    "specialmobs:hungryspider-21-0-0",
-    "iceandfire:myrmex_worker-21-0-0",
-    "iceandfire:myrmex_soldier-8-0-0",
-    "iceandfire:myrmex_royal-7-0-0"
+    "minecraft:spider-20-0-0",
+    "minecraft:cave_spider-20-0-0",
+    "specialmobs:hungryspider-20-0-0",
+    "mod_lavacow:weta-15-0-0",
+    "iceandfire:myrmex_worker-13-0-0",
+    "iceandfire:myrmex_soldier-6-0-0",
+    "iceandfire:myrmex_royal-6-0-0"
 ]
