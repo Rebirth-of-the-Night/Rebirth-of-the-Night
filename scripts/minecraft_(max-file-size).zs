@@ -1488,6 +1488,9 @@ for item in mushroom.items{
 val cheese = <ore:foodCheese>;
 cheese.add(<contenttweaker:dairy_free_cheese_slice>);
 
+val washer = <ore:washer>;
+washer.add(<betterwithmods:material:50>);
+
 val brewerYeast = <ore:yeastBrewers>;
 brewerYeast.add(<exsartagine:yeast>);
 

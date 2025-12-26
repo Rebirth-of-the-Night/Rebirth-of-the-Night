@@ -267,7 +267,7 @@ recipes.remove(<pyrotech:soaking_pot>);
 recipes.addShaped("soaking_pot", <pyrotech:soaking_pot>,
  [[rock,null,rock],
   [<ore:twine>,rock,<ore:twine>],
-  [<ore:plankWood>,twine,<ore:plankWood>]]);
+  [<ore:plankWood>,<minecraft:clay_ball>,<ore:plankWood>]]);
 recipes.addShaped("pyro_crude_axe", <pyrotech:crude_axe>,
  [[rock|<minecraft:flint>,stick],
   [stick,null]]);  
