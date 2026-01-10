@@ -1,0 +1,328 @@
+{
+	"block_pools": [
+		{
+			"name": "Greatbrick Red Granite",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:greatbrick_red_granite",
+                "meta": "1"
+			},
+            "clicktype": "place",
+			"properties": [
+                {
+                    "type": "require_block",
+                    "name": "contenttweaker:greatbrick_red_granite",
+                    "sides": "down"
+                },
+                {
+                    "type": "require_sneak",
+                    "sneak": "false"
+                },
+                {
+                    "type": "modify_required",
+                    "name": "contenttweaker:greatbrick_red_granite_connected",
+                    "meta": "1",
+                    "sides": "down"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:greatbrick_red_granite_connected",
+                    "meta": "0"
+                }
+			]
+		},
+        {
+			"name": "Greatbrick Red Granite",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:greatbrick_red_granite_connected",
+                "meta": "1"
+			},
+            "clicktype": "break",
+			"properties": [
+                {
+                    "type": "require_block",
+                    "name": "contenttweaker:greatbrick_red_granite_connected",
+                    "meta": "0",
+                    "sides": "up"
+                },
+                {
+                    "type": "modify_required",
+                    "name": "contenttweaker:greatbrick_red_granite",
+                    "meta": "0",
+                    "sides": "up"
+                }
+			]
+		},
+        {
+			"name": "Greatbrick Red Granite",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:greatbrick_red_granite",
+                "meta": "0"
+			},
+            "clicktype": "place",
+			"properties": [
+                {
+                    "type": "require_block",
+                    "name": "contenttweaker:greatbrick_red_granite",
+                    "sides": "up"
+                },
+                {
+                    "type": "require_sneak",
+                    "sneak": "false"
+                },
+                {
+                    "type": "modify_required",
+                    "name": "contenttweaker:greatbrick_red_granite_connected",
+                    "meta": "0",
+                    "sides": "up"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:greatbrick_red_granite_connected",
+                    "meta": "1"
+                }
+			]
+		},
+        {
+			"name": "Greatbrick Red Granite",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:greatbrick_red_granite_connected",
+                "meta": "0"
+			},
+            "clicktype": "break",
+			"properties": [
+                {
+                    "type": "require_block",
+                    "name": "contenttweaker:greatbrick_red_granite_connected",
+                    "meta": "1",
+                    "sides": "down"
+                },
+                {
+                    "type": "modify_required",
+                    "name": "contenttweaker:greatbrick_red_granite",
+                    "meta": "1",
+                    "sides": "down"
+                }
+			]
+		},
+        {
+			"name": "Greatbrick Red Granite",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:greatbrick_red_granite",
+                "meta": "2"
+			},
+            "clicktype": "place",
+			"properties": [
+                {
+                    "type": "require_block",
+                    "name": "contenttweaker:greatbrick_red_granite",
+                    "sides": "south"
+                },
+                {
+                    "type": "require_sneak",
+                    "sneak": "false"
+                },
+                {
+                    "type": "modify_required",
+                    "name": "contenttweaker:greatbrick_red_granite_connected",
+                    "meta": "2",
+                    "sides": "south"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:greatbrick_red_granite_connected",
+                    "meta": "3"
+                }
+			]
+		},
+        {
+			"name": "Greatbrick Red Granite",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:greatbrick_red_granite_connected",
+                "meta": "2"
+			},
+            "clicktype": "break",
+			"properties": [
+                {
+                    "type": "require_block",
+                    "name": "contenttweaker:greatbrick_red_granite_connected",
+                    "meta": "3",
+                    "sides": "north"
+                },
+                {
+                    "type": "modify_required",
+                    "name": "contenttweaker:greatbrick_red_granite",
+                    "meta": "3",
+                    "sides": "north"
+                }
+			]
+		},
+        {
+			"name": "Greatbrick Red Granite",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:greatbrick_red_granite",
+                "meta": "5"
+			},
+            "clicktype": "place",
+			"properties": [
+                {
+                    "type": "require_block",
+                    "name": "contenttweaker:greatbrick_red_granite",
+                    "sides": "west"
+                },
+                {
+                    "type": "require_sneak",
+                    "sneak": "false"
+                },
+                {
+                    "type": "modify_required",
+                    "name": "contenttweaker:greatbrick_red_granite_connected",
+                    "meta": "5",
+                    "sides": "west"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:greatbrick_red_granite_connected",
+                    "meta": "4"
+                }
+			]
+		},
+        {
+			"name": "Greatbrick Red Granite",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:greatbrick_red_granite_connected",
+                "meta": "5"
+			},
+            "clicktype": "break",
+			"properties": [
+                {
+                    "type": "require_block",
+                    "name": "contenttweaker:greatbrick_red_granite_connected",
+                    "meta": "4",
+                    "sides": "east"
+                },
+                {
+                    "type": "modify_required",
+                    "name": "contenttweaker:greatbrick_red_granite",
+                    "meta": "4",
+                    "sides": "east"
+                }
+			]
+		},
+        {
+			"name": "Greatbrick Red Granite",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:greatbrick_red_granite",
+                "meta": "3"
+			},
+            "clicktype": "place",
+			"properties": [
+                {
+                    "type": "require_block",
+                    "name": "contenttweaker:greatbrick_red_granite",
+                    "sides": "north"
+                },
+                {
+                    "type": "require_sneak",
+                    "sneak": "false"
+                },
+                {
+                    "type": "modify_required",
+                    "name": "contenttweaker:greatbrick_red_granite_connected",
+                    "meta": "3",
+                    "sides": "north"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:greatbrick_red_granite_connected",
+                    "meta": "2"
+                }
+			]
+		},
+        {
+			"name": "Greatbrick Red Granite",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:greatbrick_red_granite_connected",
+                "meta": "3"
+			},
+            "clicktype": "break",
+			"properties": [
+                {
+                    "type": "require_block",
+                    "name": "contenttweaker:greatbrick_red_granite_connected",
+                    "meta": "2",
+                    "sides": "south"
+                },
+                {
+                    "type": "modify_required",
+                    "name": "contenttweaker:greatbrick_red_granite",
+                    "meta": "2",
+                    "sides": "south"
+                }
+			]
+		},
+        {
+			"name": "Greatbrick Red Granite",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:greatbrick_red_granite",
+                "meta": "4"
+			},
+            "clicktype": "place",
+			"properties": [
+                {
+                    "type": "require_block",
+                    "name": "contenttweaker:greatbrick_red_granite",
+                    "sides": "east"
+                },
+                {
+                    "type": "require_sneak",
+                    "sneak": "false"
+                },
+                {
+                    "type": "modify_required",
+                    "name": "contenttweaker:greatbrick_red_granite_connected",
+                    "meta": "4",
+                    "sides": "east"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:greatbrick_red_granite_connected",
+                    "meta": "5"
+                }
+			]
+		},
+        {
+			"name": "Greatbrick Red Granite",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:greatbrick_red_granite_connected",
+                "meta": "4"
+			},
+            "clicktype": "break",
+			"properties": [
+                {
+                    "type": "require_block",
+                    "name": "contenttweaker:greatbrick_red_granite_connected",
+                    "meta": "5",
+                    "sides": "west"
+                },
+                {
+                    "type": "modify_required",
+                    "name": "contenttweaker:greatbrick_red_granite",
+                    "meta": "5",
+                    "sides": "west"
+                }
+			]
+		}
+    ]
+}

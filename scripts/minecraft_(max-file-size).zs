@@ -2594,3 +2594,12 @@ JEI.removeAndHide(<contenttweaker:clover_4_block>);
 
 recipes.addShapeless("dragon_scale_convert1", <endreborn:dragon_scales>, [<quark:enderdragon_scale>]);
 recipes.addShapeless("dragon_scale_convert2", <quark:enderdragon_scale>, [<endreborn:dragon_scales>]);
+
+// CoT Alt State Hiding
+JEI.removeAndHide(<contenttweaker:raktan_lantern_on>);
+JEI.removeAndHide(<contenttweaker:flipped_cincinnasite_sconce>);
+JEI.removeAndHide(<contenttweaker:flipped_cincinnasite_sconce_arch>);
+JEI.removeAndHide(<contenttweaker:cincinnasite_spire_tall>);
+JEI.removeAndHide(<contenttweaker:flipped_raktan_sconce>);
+JEI.removeAndHide(<contenttweaker:quartz_lamp_on>);
+JEI.removeAndHide(<contenttweaker:greatbrick_red_granite_connected>);

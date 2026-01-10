@@ -1,0 +1,22 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "particle": "contenttweaker:blocks/greatbrick_red_granite",
+    "half": "contenttweaker:blocks/greatbrick_red_granite",
+    "bottom": "contenttweaker:blocks/greatbrick_red_granite_bottom"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "north"},
+        "east": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "east"},
+        "south": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "south"},
+        "west": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "west"},
+        "up": {"uv": [0, 0, 16, 16], "texture": "#half", "cullface": "up"},
+        "down": {"uv": [0, 0, 16, 16], "texture": "#half", "cullface": "down"}
+      }
+    }
+  ]
+}

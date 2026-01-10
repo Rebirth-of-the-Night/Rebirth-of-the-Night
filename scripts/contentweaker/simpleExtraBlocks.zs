@@ -2640,13 +2640,28 @@ greatbrick_gneiss.setBlockResistance(20.0);
 greatbrick_gneiss.setToolLevel(1);
 greatbrick_gneiss.register();
 
-var greatbrick_red_granite = VanillaFactory.createBlock("greatbrick_red_granite", <blockmaterial:Rock>);
+//GB Red Granite
+var greatbrick_red_granite = VanillaFactory.createDirectionalBlock("greatbrick_red_granite", <blockmaterial:Rock>, "ALL", false, false);
+greatbrick_red_granite.placementFacingFunction = IPlacementFacingFunction.side();
 greatbrick_red_granite.setCreativeTab(<creativetab:rotn_blocks>);
 greatbrick_red_granite.setBlockSoundType(<soundtype:stone>);
 greatbrick_red_granite.setBlockHardness(48.0);
 greatbrick_red_granite.setBlockResistance(20.0);
 greatbrick_red_granite.setToolLevel(1);
 greatbrick_red_granite.register();
+
+var greatbrick_red_granite_connected = VanillaFactory.createDirectionalBlock("greatbrick_red_granite_connected", <blockmaterial:Rock>, "ALL", false, false);
+greatbrick_red_granite_connected.placementFacingFunction = IPlacementFacingFunction.side();
+greatbrick_red_granite_connected.setBlockSoundType(<soundtype:stone>);
+greatbrick_red_granite_connected.setBlockHardness(48.0);
+greatbrick_red_granite_connected.setBlockResistance(20.0);
+greatbrick_red_granite_connected.setToolLevel(1);
+greatbrick_red_granite_connected.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+    drops.add(<item:contenttweaker:greatbrick_red_granite>);
+    return;
+});
+greatbrick_red_granite_connected.register();
 
 var greatbrick_bleakseal = VanillaFactory.createBlock("greatbrick_bleakseal", <blockmaterial:Rock>);
 greatbrick_bleakseal.setCreativeTab(<creativetab:rotn_blocks>);

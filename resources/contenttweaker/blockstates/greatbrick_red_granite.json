@@ -2,15 +2,47 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "all": "contenttweaker:blocks/greatbrick_red_granite",
+      "texture": "contenttweaker:blocks/greatbrick_red_granite",
       "particle": "contenttweaker:blocks/greatbrick_red_granite"
     },
-    "model": "contenttweaker:base_block",
+    "model": "base:storage",
     "uvlock": true,
     "transform": "forge:default-block"
   },
   "variants": {
-    "normal": [{}],
-    "inventory": [{}]
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ],
+    "facing=up": [
+      {
+
+      }
+    ],
+    "facing=down": [
+      {
+
+      }
+    ],
+    "facing=north": [
+      {}
+    ],
+    "facing=south": [
+      {
+
+      }
+    ],
+    "facing=west": [
+      {
+
+      }
+    ],
+    "facing=east": [
+      {
+
+      }
+    ]
   }
 }

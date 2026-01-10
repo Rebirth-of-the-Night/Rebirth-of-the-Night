@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=down":  { "model": "contenttweaker:greatbrick_red_granite_top"},
+    "facing=up":    { "model": "contenttweaker:greatbrick_red_granite_bottom"},
+    "facing=north": { "model": "contenttweaker:greatbrick_red_granite_north"},
+    "facing=south": { "model": "contenttweaker:greatbrick_red_granite_south"},
+    "facing=west":  { "model": "contenttweaker:greatbrick_red_granite_west"},
+    "facing=east":  { "model": "contenttweaker:greatbrick_red_granite_east"}
+  }
+}
