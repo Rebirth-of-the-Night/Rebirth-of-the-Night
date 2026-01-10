@@ -96,24 +96,6 @@
     }
   },
   {
-    "resourceName": "alchemical_processor",
-    "model": "requious:alchemical_processor",
-    "placeType": "Horizontal",
-    "hasGUI": true,
-    "colorA": {
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "colorB": {
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    }
-  },
-  {
     "resourceName": "splosher",
     "model": "requious:assembly_laser",
     "placeType": "Any",
