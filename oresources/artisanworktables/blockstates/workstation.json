@@ -94,7 +94,6 @@
         }
       },
       "chef": {
-		"model": "artisanworktables:cheff_workstation",
         "textures": {
           "side": "artisanworktables:blocks/chef_side",
           "top": "artisanworktables:blocks/chef_top",
