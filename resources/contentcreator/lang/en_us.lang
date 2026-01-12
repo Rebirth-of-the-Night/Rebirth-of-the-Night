@@ -47,6 +47,9 @@ tile.contentcreator.red_granite_sandstone_brick_stairs.name= Red Granite Sandsto
 tile.contentcreator.cincinnasite_stairs.name=Cincinnasite Stairs
 tile.contentcreator.small_cincinnasite_tile_stairs.name=Small Cincinnasite Tile Stairs
 tile.contentcreator.cincinnasite_brick_stairs.name=Cincinnasite Brick Stairs
+tile.contentcreator.polished_raktan_stairs.name=Polished Raktan Stairs
+tile.contentcreator.smooth_raktan_stairs.name=Smooth Raktan Stairs
+tile.contentcreator.raktan_brick_stairs.name=Raktan Brick Stairs
 
 // CoT Slabs
 
@@ -58,9 +61,18 @@ tile.contentcreator.ferrought_plate_slab.name=Plate Ferrought Slab
 tile.contentcreator.cincinnasite_slab.name=Cincinnasite Slab
 tile.contentcreator.small_cincinnasite_tile_slab.name=Small Cincinnasite Tile Slab
 tile.contentcreator.cincinnasite_brick_slab.name=Cincinnasite Brick Slab
+tile.contentcreator.polished_raktan_slab.name=Polished Raktan Slab
+tile.contentcreator.smooth_raktan_slab.name=Smooth Raktan Slab
+tile.contentcreator.raktan_brick_slab.name=Raktan Brick Slab
 
 tile.contentcreator.white_sandstone_brick_slab.name= White Sandstone Brick Slab
 tile.contentcreator.red_granite_sandstone_brick_slab.name= Red Granite Sandstone Brick Slab
+
+//Rotatable Blocks
+
+tile.contentcreator.rough_raktan.name=Rough Raktan
+tile.contentcreator.raktan_pillar.name=Raktan Pillar
+tile.contentcreator.gilded_raktan_pillar.name=Gilded Raktan Pillar
 
 // Log Piles
 

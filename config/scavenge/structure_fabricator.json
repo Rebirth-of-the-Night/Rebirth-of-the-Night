@@ -1,0 +1,277 @@
+{
+    "block_pools": [
+		{
+			"name": "Structure Fabricator",
+			"type": {
+				"type": "block",
+				"name": "endreborn:block_endorium"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "has_block_structure",
+                    "blocks": [
+                        {
+                            "name": "contenttweaker:blendrein_block",
+                            "positions": [
+                                {
+                                "x": "0",
+                                "y": "-1",
+                                "z": "0"
+                                },
+                                {
+                                "x": "1",
+                                "y": "-1",
+                                "z": "0"
+                                },
+                                {
+                                "x": "-1",
+                                "y": "-1",
+                                "z": "0"
+                                },
+                                {
+                                "x": "0",
+                                "y": "-1",
+                                "z": "1"
+                                },
+                                {
+                                "x": "0",
+                                "y": "-1",
+                                "z": "-1"
+                                }
+                            ]
+                    },
+                    {
+                            "name": "contenttweaker:blendrein_chiseled",
+                            "positions": [
+                                {
+                                "x": "1",
+                                "y": "-1",
+                                "z": "1"
+                                },
+                                {
+                                "x": "-1",
+                                "y": "-1",
+                                "z": "-1"
+                                },
+                                {
+                                "x": "-1",
+                                "y": "-1",
+                                "z": "1"
+                                },
+                                {
+                                "x": "1",
+                                "y": "-1",
+                                "z": "-1"
+                                }
+                            ]
+                    },
+                    {
+                            "name": "contenttweaker:blendrein_reinforced",
+                            "positions": [
+                                {
+                                "x": "-2",
+                                "y": "-1",
+                                "z": "-1"
+                                },
+                                {
+                                "x": "-1",
+                                "y": "-1",
+                                "z": "-2"
+                                },
+                                {
+                                "x": "1",
+                                "y": "-1",
+                                "z": "-2"
+                                },
+                                {
+                                "x": "2",
+                                "y": "-1",
+                                "z": "-1"
+                                },
+                                {
+                                "x": "1",
+                                "y": "-1",
+                                "z": "2"
+                                },
+                                {
+                                "x": "2",
+                                "y": "-1",
+                                "z": "1"
+                                },
+                                {
+                                "x": "-1",
+                                "y": "-1",
+                                "z": "2"
+                                },
+                                {
+                                "x": "-2",
+                                "y": "-1",
+                                "z": "1"
+                                }
+                            ]
+                    },
+                    {
+                            "name": "contentcreator:blendrein_slab",
+                            "positions": [
+                                {
+                                "x": "-2",
+                                "y": "-1",
+                                "z": "-2"
+                                },
+                                {
+                                "x": "2",
+                                "y": "-1",
+                                "z": "-2"
+                                },
+                                {
+                                "x": "2",
+                                "y": "-1",
+                                "z": "2"
+                                },
+                                {
+                                "x": "-2",
+                                "y": "-1",
+                                "z": "2"
+                                }
+                            ]
+                    },
+                    {
+                            "name": "contentcreator:blendrein_stairs",
+                            "positions": [
+                                {
+                                "x": "-2",
+                                "y": "-1",
+                                "z": "0"
+                                },
+                                {
+                                "x": "2",
+                                "y": "-1",
+                                "z": "0"
+                                },
+                                {
+                                "x": "0",
+                                "y": "-1",
+                                "z": "2"
+                                },
+                                {
+                                "x": "0",
+                                "y": "-1",
+                                "z": "-2"
+                                }
+                            ]
+                    }
+                ]
+                },
+                {
+                    "type": "require_item",
+                    "name": "villagenames:codex"
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {
+                        "type": "require_side",
+                        "sides": "north"
+                    },
+                    "effects": [
+                        {
+                        "type": "consume_block",
+                        "name": "cyclicmagic:builder_block",
+                        "meta": "0"
+                        },
+                        {
+                        "type": "swing_hand"
+                        },
+                        {
+                            "type": "play_sound",
+                            "name": "arcaneworld:general_woosh",
+                            "category": "block"
+                        },
+                        {
+                            "type": "use_command",
+                            "name": "particle portal ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                        }
+                ]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {
+                        "type": "require_side",
+                        "sides": "east"
+                    },
+                    "effects": [
+                        {
+                        "type": "consume_block",
+                        "name": "cyclicmagic:builder_block",
+                        "meta": "1"
+                        },
+                        {
+                        "type": "swing_hand"
+                        },
+                        {
+                            "type": "play_sound",
+                            "name": "arcaneworld:general_woosh",
+                            "category": "block"
+                        },
+                        {
+                            "type": "use_command",
+                            "name": "particle portal ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                        }
+                ]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {
+                        "type": "require_side",
+                        "sides": "south"
+                    },
+                    "effects": [
+                        {
+                        "type": "consume_block",
+                        "name": "cyclicmagic:builder_block",
+                        "meta": "2"
+                        },
+                        {
+                        "type": "swing_hand"
+                        },
+                        {
+                            "type": "play_sound",
+                            "name": "arcaneworld:general_woosh",
+                            "category": "block"
+                        },
+                        {
+                            "type": "use_command",
+                            "name": "particle portal ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                        }
+                ]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {
+                        "type": "require_side",
+                        "sides": "west"
+                    },
+                    "effects": [
+                        {
+                        "type": "consume_block",
+                        "name": "cyclicmagic:builder_block",
+                        "meta": "3"
+                        },
+                        {
+                        "type": "swing_hand"
+                        },
+                        {
+                            "type": "play_sound",
+                            "name": "arcaneworld:general_woosh",
+                            "category": "block"
+                        },
+                        {
+                            "type": "use_command",
+                            "name": "particle portal ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                        }
+                ]
+                }
+			]
+		}
+    ]
+}

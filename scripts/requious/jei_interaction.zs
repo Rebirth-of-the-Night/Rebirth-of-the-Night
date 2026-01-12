@@ -52,7 +52,7 @@ interaction.addJEIRecipe(xpBlock);
 
 var soulSand = AssemblyRecipe.create(function(container) {
     container.addItemOutput("interaction_output",<minecraft:soul_sand>);
-}).requireItem("interaction_input",<minecraft:sand>).requireItem("catalyst1",<contenttweaker:soul_rune>);
+}).requireItem("interaction_input",<ore:sand>).requireItem("catalyst1",<contenttweaker:soul_rune>);
 interaction.addJEIRecipe(soulSand);
 
 var thatch = AssemblyRecipe.create(function(container) {

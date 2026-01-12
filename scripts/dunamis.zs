@@ -500,6 +500,20 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .create();
 
+RecipeBuilder.get("mage")
+  .setName("harmony_staff")
+  .setShaped([
+    [null, null, <contenttweaker:creation_rune>],
+    [null, <contenttweaker:wand_base_arcane>, null],
+    [<contenttweaker:disint_rune>, null, null]])
+  .addOutput(<contenttweaker:harmony_staff>)
+  .addTool(<contenttweaker:energy_rune>, 1)
+  .addTool(<contenttweaker:balance_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+
 // OreDicts
 
 val mundaneRune = <ore:mundaneRune>;

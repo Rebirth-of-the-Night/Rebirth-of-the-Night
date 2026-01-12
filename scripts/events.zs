@@ -1,6 +1,4 @@
 
-#loader crafttweaker reloadable
-
 import crafttweaker.block.IBlock;
 import crafttweaker.block.IBlockState;
 

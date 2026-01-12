@@ -1,0 +1,812 @@
+{
+	"block_pools": [
+		{
+			"name": "Ever Fertile Soil Crop",
+			"type": {
+				"type": "block_list",
+				"blocks": [
+                    {"name": "minecraft:wheat"},
+                    {"name": "minecraft:pumpkin_stem"},
+                    {"name": "minecraft:melon_stem"},
+                    {"name": "minecraft:beetroots"},
+                    {"name": "minecraft:carrots"},
+                    {"name": "minecraft:potatoes"},
+                    {"name": "betterwithmods:hemp"},
+                    {"name": "growthcraft_grapes:native_grape_vine0"},
+                    {"name": "harvestcraft:pamblackberrycrop"},
+                    {"name": "harvestcraft:pamblueberrycrop"},
+                    {"name": "harvestcraft:pamcandleberrycrop"},
+                    {"name": "harvestcraft:pamraspberrycrop"},
+                    {"name": "harvestcraft:pamstrawberrycrop"},
+                    {"name": "harvestcraft:pamcactusfruitcrop"},
+                    {"name": "harvestcraft:pamasparaguscrop"},
+                    {"name": "harvestcraft:pambarleycrop"},
+                    {"name": "harvestcraft:pamoatscrop"},
+                    {"name": "harvestcraft:pamryecrop"},
+                    {"name": "harvestcraft:pamcorncrop"},
+                    {"name": "harvestcraft:pambambooshootcrop"},
+                    {"name": "harvestcraft:pamcantaloupecrop"},
+                    {"name": "harvestcraft:pamcucumbercrop"},
+                    {"name": "harvestcraft:pamwintersquashcrop"},
+                    {"name": "harvestcraft:pamzucchinicrop"},
+                    {"name": "harvestcraft:pambeetcrop"},
+                    {"name": "harvestcraft:pamonioncrop"},
+                    {"name": "harvestcraft:pamparsnipcrop"},
+                    {"name": "harvestcraft:pampeanutcrop"},
+                    {"name": "harvestcraft:pamradishcrop"},
+                    {"name": "harvestcraft:pamrutabagacrop"},
+                    {"name": "harvestcraft:pamsweetpotatocrop"},
+                    {"name": "harvestcraft:pamturnipcrop"},
+                    {"name": "harvestcraft:pamrhubarbcrop"},
+                    {"name": "harvestcraft:pamcelerycrop"},
+                    {"name": "harvestcraft:pamgarliccrop"},
+                    {"name": "harvestcraft:pamgingercrop"},
+                    {"name": "harvestcraft:pamspiceleafcrop"},
+                    {"name": "harvestcraft:pamtealeafcrop"},
+                    {"name": "harvestcraft:pamcoffeebeancrop"},
+                    {"name": "harvestcraft:pammustardseedscrop"},
+                    {"name": "harvestcraft:pambroccolicrop"},
+                    {"name": "harvestcraft:pamcauliflowercrop"},
+                    {"name": "harvestcraft:pamleekcrop"},
+                    {"name": "harvestcraft:pamlettucecrop"},
+                    {"name": "harvestcraft:pamscallioncrop"},
+                    {"name": "harvestcraft:pamartichokecrop"},
+                    {"name": "harvestcraft:pambrusselsproutcrop"},
+                    {"name": "harvestcraft:pamcabbagecrop"},
+                    {"name": "harvestcraft:pamspinachcrop"},
+                    {"name": "harvestcraft:pamwhitemushroomcrop"},
+                    {"name": "harvestcraft:pambeancrop"},
+                    {"name": "harvestcraft:pamsoybeancrop"},
+                    {"name": "harvestcraft:pambellpeppercrop"},
+                    {"name": "harvestcraft:pamchilipeppercrop"},
+                    {"name": "harvestcraft:pameggplantcrop"},
+                    {"name": "harvestcraft:pamokracrop"},
+                    {"name": "harvestcraft:pampeascrop"},
+                    {"name": "harvestcraft:pamtomatocrop"},
+                    {"name": "harvestcraft:pamcottoncrop"},
+                    {"name": "harvestcraft:pampineapplecrop"},
+                    {"name": "harvestcraft:pamgrapecrop"},
+                    {"name": "harvestcraft:pamkiwicrop"},
+                    {"name": "harvestcraft:pamcranberrycrop"},
+                    {"name": "harvestcraft:pamricecrop"},
+                    {"name": "harvestcraft:pamseaweedcrop"},
+                    {"name": "harvestcraft:pamcurryleafcrop"},
+                    {"name": "harvestcraft:pamsesameseedscrop"},
+                    {"name": "harvestcraft:pamwaterchestnutcrop"},
+                    {"name": "harvestcraft:pamgigapicklecrop"},
+                    {"name": "harvestcraft:pamkalecrop"},
+                    {"name": "harvestcraft:pamagavecrop"},
+                    {"name": "harvestcraft:pamamaranthcrop"},
+                    {"name": "harvestcraft:pamarrowrootcrop"},
+                    {"name": "harvestcraft:pamcassavacrop"},
+                    {"name": "harvestcraft:pamchickpeacrop"},
+                    {"name": "harvestcraft:pamelderberrycrop"},
+                    {"name": "harvestcraft:pamflaxcrop"},
+                    {"name": "harvestcraft:pamgreengrapecrop"},
+                    {"name": "harvestcraft:pamhuckleberrycrop"},
+                    {"name": "harvestcraft:pamjicamacrop"},
+                    {"name": "harvestcraft:pamjutecrop"},
+                    {"name": "harvestcraft:pamkenafcrop"},
+                    {"name": "harvestcraft:pamkohlrabicrop"},
+                    {"name": "harvestcraft:pamlentilcrop"},
+                    {"name": "harvestcraft:pammilletcrop"},
+                    {"name": "harvestcraft:pammulberrycrop"},
+                    {"name": "harvestcraft:pamquinoacrop"},
+                    {"name": "harvestcraft:pamsisalcrop"},
+                    {"name": "harvestcraft:pamtarocrop"},
+                    {"name": "harvestcraft:pamtomatillocrop"},
+                    {"name": "harvestcraft:pamjuniperberrycrop"}
+                ]
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "primitivemobs:wonder_sap"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "array_condition",
+                    "conditions": [
+                    {
+                    "type": "require_block",
+                    "name": "minecraft:farmland",
+                    "sides": "down"
+                    },
+                    {
+                    "type": "require_block",
+                    "name": "biomesoplenty:farmland_0",
+                    "meta": "0",
+                    "sides": "down"
+                    },
+                    {
+                    "type": "require_block",
+                    "name": "biomesoplenty:farmland_0",
+                    "meta": "1",
+                    "sides": "down"
+                    },
+                    {
+                    "type": "require_block",
+                    "name": "biomesoplenty:farmland_0",
+                    "meta": "14",
+                    "sides": "down"
+                    },
+                    {
+                    "type": "require_block",
+                    "name": "biomesoplenty:farmland_0",
+                    "meta": "15",
+                    "sides": "down"
+                    },
+                    {
+                    "type": "require_block",
+                    "name": "biomesoplenty:farmland_1",
+                    "meta": "0",
+                    "sides": "down"
+                    },
+                    {
+                    "type": "require_block",
+                    "name": "biomesoplenty:farmland_1",
+                    "meta": "14",
+                    "sides": "down"
+                    }
+                
+                ],
+                    "and": "false"
+                },
+                {
+                    "type": "modify_required",
+                    "name": "rustic:fertile_soil",
+                    "sides": "down"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:composter_ready",
+                    "category": "block"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle happyVillager ~ ~-1 ~ 0.3 0.5 0.3 1 50"
+                }
+            ]
+        },
+        {
+			"name": "Ever Fertile Soil",
+			"type": {
+				"type": "ore",
+				"name": "farmland"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "primitivemobs:wonder_sap"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "rustic:fertile_soil"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:composter_ready",
+                    "category": "block"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle happyVillager ~ ~ ~ 0.3 0.5 0.3 1 50"
+                }
+            ]
+        },
+        {
+			"name": "Mulch Crop",
+			"type": {
+				"type": "block_list",
+				"blocks": [
+                    {"name": "minecraft:wheat"},
+                    {"name": "minecraft:pumpkin_stem"},
+                    {"name": "minecraft:melon_stem"},
+                    {"name": "minecraft:beetroots"},
+                    {"name": "minecraft:carrots"},
+                    {"name": "minecraft:potatoes"},
+                    {"name": "betterwithmods:hemp"},
+                    {"name": "growthcraft_grapes:native_grape_vine0"},
+                    {"name": "harvestcraft:pamblackberrycrop"},
+                    {"name": "harvestcraft:pamblueberrycrop"},
+                    {"name": "harvestcraft:pamcandleberrycrop"},
+                    {"name": "harvestcraft:pamraspberrycrop"},
+                    {"name": "harvestcraft:pamstrawberrycrop"},
+                    {"name": "harvestcraft:pamcactusfruitcrop"},
+                    {"name": "harvestcraft:pamasparaguscrop"},
+                    {"name": "harvestcraft:pambarleycrop"},
+                    {"name": "harvestcraft:pamoatscrop"},
+                    {"name": "harvestcraft:pamryecrop"},
+                    {"name": "harvestcraft:pamcorncrop"},
+                    {"name": "harvestcraft:pambambooshootcrop"},
+                    {"name": "harvestcraft:pamcantaloupecrop"},
+                    {"name": "harvestcraft:pamcucumbercrop"},
+                    {"name": "harvestcraft:pamwintersquashcrop"},
+                    {"name": "harvestcraft:pamzucchinicrop"},
+                    {"name": "harvestcraft:pambeetcrop"},
+                    {"name": "harvestcraft:pamonioncrop"},
+                    {"name": "harvestcraft:pamparsnipcrop"},
+                    {"name": "harvestcraft:pampeanutcrop"},
+                    {"name": "harvestcraft:pamradishcrop"},
+                    {"name": "harvestcraft:pamrutabagacrop"},
+                    {"name": "harvestcraft:pamsweetpotatocrop"},
+                    {"name": "harvestcraft:pamturnipcrop"},
+                    {"name": "harvestcraft:pamrhubarbcrop"},
+                    {"name": "harvestcraft:pamcelerycrop"},
+                    {"name": "harvestcraft:pamgarliccrop"},
+                    {"name": "harvestcraft:pamgingercrop"},
+                    {"name": "harvestcraft:pamspiceleafcrop"},
+                    {"name": "harvestcraft:pamtealeafcrop"},
+                    {"name": "harvestcraft:pamcoffeebeancrop"},
+                    {"name": "harvestcraft:pammustardseedscrop"},
+                    {"name": "harvestcraft:pambroccolicrop"},
+                    {"name": "harvestcraft:pamcauliflowercrop"},
+                    {"name": "harvestcraft:pamleekcrop"},
+                    {"name": "harvestcraft:pamlettucecrop"},
+                    {"name": "harvestcraft:pamscallioncrop"},
+                    {"name": "harvestcraft:pamartichokecrop"},
+                    {"name": "harvestcraft:pambrusselsproutcrop"},
+                    {"name": "harvestcraft:pamcabbagecrop"},
+                    {"name": "harvestcraft:pamspinachcrop"},
+                    {"name": "harvestcraft:pamwhitemushroomcrop"},
+                    {"name": "harvestcraft:pambeancrop"},
+                    {"name": "harvestcraft:pamsoybeancrop"},
+                    {"name": "harvestcraft:pambellpeppercrop"},
+                    {"name": "harvestcraft:pamchilipeppercrop"},
+                    {"name": "harvestcraft:pameggplantcrop"},
+                    {"name": "harvestcraft:pamokracrop"},
+                    {"name": "harvestcraft:pampeascrop"},
+                    {"name": "harvestcraft:pamtomatocrop"},
+                    {"name": "harvestcraft:pamcottoncrop"},
+                    {"name": "harvestcraft:pampineapplecrop"},
+                    {"name": "harvestcraft:pamgrapecrop"},
+                    {"name": "harvestcraft:pamkiwicrop"},
+                    {"name": "harvestcraft:pamcranberrycrop"},
+                    {"name": "harvestcraft:pamricecrop"},
+                    {"name": "harvestcraft:pamseaweedcrop"},
+                    {"name": "harvestcraft:pamcurryleafcrop"},
+                    {"name": "harvestcraft:pamsesameseedscrop"},
+                    {"name": "harvestcraft:pamwaterchestnutcrop"},
+                    {"name": "harvestcraft:pamgigapicklecrop"},
+                    {"name": "harvestcraft:pamkalecrop"},
+                    {"name": "harvestcraft:pamagavecrop"},
+                    {"name": "harvestcraft:pamamaranthcrop"},
+                    {"name": "harvestcraft:pamarrowrootcrop"},
+                    {"name": "harvestcraft:pamcassavacrop"},
+                    {"name": "harvestcraft:pamchickpeacrop"},
+                    {"name": "harvestcraft:pamelderberrycrop"},
+                    {"name": "harvestcraft:pamflaxcrop"},
+                    {"name": "harvestcraft:pamgreengrapecrop"},
+                    {"name": "harvestcraft:pamhuckleberrycrop"},
+                    {"name": "harvestcraft:pamjicamacrop"},
+                    {"name": "harvestcraft:pamjutecrop"},
+                    {"name": "harvestcraft:pamkenafcrop"},
+                    {"name": "harvestcraft:pamkohlrabicrop"},
+                    {"name": "harvestcraft:pamlentilcrop"},
+                    {"name": "harvestcraft:pammilletcrop"},
+                    {"name": "harvestcraft:pammulberrycrop"},
+                    {"name": "harvestcraft:pamquinoacrop"},
+                    {"name": "harvestcraft:pamsisalcrop"},
+                    {"name": "harvestcraft:pamtarocrop"},
+                    {"name": "harvestcraft:pamtomatillocrop"},
+                    {"name": "harvestcraft:pamjuniperberrycrop"}
+                ]
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "pyrotech:mulch"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "array_condition",
+                    "conditions": [
+                    {
+                    "type": "require_block",
+                    "name": "minecraft:farmland",
+                    "sides": "down"
+                    },
+                    {
+                    "type": "require_block",
+                    "name": "biomesoplenty:farmland_0",
+                    "meta": "0",
+                    "sides": "down"
+                    },
+                    {
+                    "type": "require_block",
+                    "name": "biomesoplenty:farmland_0",
+                    "meta": "1",
+                    "sides": "down"
+                    },
+                    {
+                    "type": "require_block",
+                    "name": "biomesoplenty:farmland_0",
+                    "meta": "14",
+                    "sides": "down"
+                    },
+                    {
+                    "type": "require_block",
+                    "name": "biomesoplenty:farmland_0",
+                    "meta": "15",
+                    "sides": "down"
+                    },
+                    {
+                    "type": "require_block",
+                    "name": "biomesoplenty:farmland_1",
+                    "meta": "0",
+                    "sides": "down"
+                    },
+                    {
+                    "type": "require_block",
+                    "name": "biomesoplenty:farmland_1",
+                    "meta": "14",
+                    "sides": "down"
+                    }
+                
+                ],
+                    "and": "false"
+                },
+                {
+                    "type": "modify_required",
+                    "name": "pyrotech:farmland_mulched",
+                    "sides": "down"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:composter_ready",
+                    "category": "block"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle happyVillager ~ ~-1 ~ 0.3 0.5 0.3 1 50"
+                }
+            ]
+        },
+        {
+			"name": "Mulch",
+			"type": {
+				"type": "ore",
+				"name": "farmland"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "pyrotech:mulch"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "pyrotech:farmland_mulched"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:composter_ready",
+                    "category": "block"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle happyVillager ~ ~ ~ 0.3 0.5 0.3 1 50"
+                }
+            ]
+        },
+        {
+			"name": "Rice Paddy",
+			"type": {
+				"type": "ore",
+				"name": "farmland"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item_list",
+                    "items": [
+                        {"name": "betterwithmods:dirt_pile"},
+                        {"name": "contenttweaker:silty_dirt_pile"},
+                        {"name": "contenttweaker:loamy_dirt_pile"},
+                        {"name": "contenttweaker:sandy_dirt_pile"},
+                        {"name": "contenttweaker:aether_dirt_pile"}
+                    ]
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "growthcraft_rice:ricepaddy"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:composter_ready",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Dirt Defilement",
+			"type": {
+				"type": "ore",
+				"name": "dirt"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:defiled_dirt_pile" 
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "defiledlands:dirt_defiled"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:composter_ready",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Grass Defilement",
+			"type": {
+				"type": "ore",
+				"name": "defileableGrass"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:defiled_dirt_pile" 
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "defiledlands:grass_defiled"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:composter_ready",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Hoe Soil",
+			"type": {
+                "type": "block_list",
+	            "blocks": [
+		        {
+			        "name": "minecraft:dirt"
+		        },
+		        {
+			        "name": "minecraft:grass"
+		        },
+		        {
+			        "name": "biomesoplenty:grass",
+                    "meta": "7"
+                }
+            ]
+        },
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item_list",
+                    "items": [
+                        {"name": "minecraft:stone_hoe"},
+                        {"name": "minecraft:iron_hoe"},
+                        {"name": "minecraft:diamond_hoe"},
+                        {"name": "minecraft:golden_hoe"},
+                        {"name": "atop:amethyst_hoe"},
+                        {"name": "atop:mud_hoe"},
+                        {"name": "atop:peridot_hoe"},
+                        {"name": "atop:ruby_hoe"},
+                        {"name": "atop:sapphire_hoe"},
+                        {"name": "betterwithmods:steel_hoe"},
+                        {"name": "dungeontactics:steel_hoe"},
+                        {"name": "mod_lavacow:weta_hoe"},
+                        {"name": "iceandfire:silver_hoe"},
+                        {"name": "iceandfire:dragonbone_hoe"},
+                        {"name": "iceandfire:myrmex_desert_hoe"},
+                        {"name": "iceandfire:myrmex_jungle_hoe"},
+                        {"name": "iceandfire:dragonsteel_fire_hoe"},
+                        {"name": "iceandfire:dragonsteel_ice_hoe"},
+                        {"name": "iceandfire:dragonsteel_lightning_hoe"},
+                        {"name": "nyx:meteor_hoe"},
+                        {"name": "iceandfire:copper_hoe"},
+                        {"name": "randomthings:spectrehoe"},
+                        {"name": "simpleores:mythril_hoe"},
+                        {"name": "simpleores:adamantium_hoe"},
+                        {"name": "simpleores:onyx_hoe"},
+                        {"name": "twilightforest:ironwood_hoe"},
+                        {"name": "twilightforest:steeleaf_hoe"},
+                        {"name": "contenttweaker:mythril_mattock"}
+                    ]
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "false",
+                    "amount": "1"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "minecraft:farmland"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:item.hoe.till",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Hoe Soil Loamy",
+			"type": {
+                "type": "block_list",
+	            "blocks": [
+		        {
+			        "name": "biomesoplenty:dirt"
+		        },
+		        {
+			        "name": "biomesoplenty:grass",
+                    "meta": "2"
+                }
+            ]
+        },
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item_list",
+                    "items": [
+                        {"name": "minecraft:stone_hoe"},
+                        {"name": "minecraft:iron_hoe"},
+                        {"name": "minecraft:diamond_hoe"},
+                        {"name": "minecraft:golden_hoe"},
+                        {"name": "atop:amethyst_hoe"},
+                        {"name": "atop:mud_hoe"},
+                        {"name": "atop:peridot_hoe"},
+                        {"name": "atop:ruby_hoe"},
+                        {"name": "atop:sapphire_hoe"},
+                        {"name": "betterwithmods:steel_hoe"},
+                        {"name": "dungeontactics:steel_hoe"},
+                        {"name": "mod_lavacow:weta_hoe"},
+                        {"name": "iceandfire:silver_hoe"},
+                        {"name": "iceandfire:dragonbone_hoe"},
+                        {"name": "iceandfire:myrmex_desert_hoe"},
+                        {"name": "iceandfire:myrmex_jungle_hoe"},
+                        {"name": "iceandfire:dragonsteel_fire_hoe"},
+                        {"name": "iceandfire:dragonsteel_ice_hoe"},
+                        {"name": "iceandfire:dragonsteel_lightning_hoe"},
+                        {"name": "nyx:meteor_hoe"},
+                        {"name": "iceandfire:copper_hoe"},
+                        {"name": "randomthings:spectrehoe"},
+                        {"name": "simpleores:mythril_hoe"},
+                        {"name": "simpleores:adamantium_hoe"},
+                        {"name": "simpleores:onyx_hoe"},
+                        {"name": "twilightforest:ironwood_hoe"},
+                        {"name": "twilightforest:steeleaf_hoe"},
+                        {"name": "contenttweaker:mythril_mattock"}
+                    ]
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "false",
+                    "amount": "1"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "biomesoplenty:farmland_0"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:item.hoe.till",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Hoe Soil Sandy",
+			"type": {
+                "type": "block_list",
+	            "blocks": [
+		        {
+			        "name": "biomesoplenty:dirt",
+                    "meta": "1"
+		        },
+		        {
+			        "name": "biomesoplenty:grass",
+                    "meta": "3"
+                }
+            ]
+        },
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item_list",
+                    "items": [
+                        {"name": "minecraft:stone_hoe"},
+                        {"name": "minecraft:iron_hoe"},
+                        {"name": "minecraft:diamond_hoe"},
+                        {"name": "minecraft:golden_hoe"},
+                        {"name": "atop:amethyst_hoe"},
+                        {"name": "atop:mud_hoe"},
+                        {"name": "atop:peridot_hoe"},
+                        {"name": "atop:ruby_hoe"},
+                        {"name": "atop:sapphire_hoe"},
+                        {"name": "betterwithmods:steel_hoe"},
+                        {"name": "dungeontactics:steel_hoe"},
+                        {"name": "mod_lavacow:weta_hoe"},
+                        {"name": "iceandfire:silver_hoe"},
+                        {"name": "iceandfire:dragonbone_hoe"},
+                        {"name": "iceandfire:myrmex_desert_hoe"},
+                        {"name": "iceandfire:myrmex_jungle_hoe"},
+                        {"name": "iceandfire:dragonsteel_fire_hoe"},
+                        {"name": "iceandfire:dragonsteel_ice_hoe"},
+                        {"name": "iceandfire:dragonsteel_lightning_hoe"},
+                        {"name": "nyx:meteor_hoe"},
+                        {"name": "iceandfire:copper_hoe"},
+                        {"name": "randomthings:spectrehoe"},
+                        {"name": "simpleores:mythril_hoe"},
+                        {"name": "simpleores:adamantium_hoe"},
+                        {"name": "simpleores:onyx_hoe"},
+                        {"name": "twilightforest:ironwood_hoe"},
+                        {"name": "twilightforest:steeleaf_hoe"},
+                        {"name": "contenttweaker:mythril_mattock"}
+                    ]
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "false",
+                    "amount": "1"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "biomesoplenty:farmland_0",
+                    "meta": "1"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:item.hoe.till",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Hoe Soil Silty",
+			"type": {
+                "type": "block_list",
+	            "blocks": [
+		        {
+			        "name": "biomesoplenty:dirt",
+                    "meta": "2"
+		        },
+		        {
+			        "name": "biomesoplenty:grass",
+                    "meta": "4"
+                }
+            ]
+        },
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item_list",
+                    "items": [
+                        {"name": "minecraft:stone_hoe"},
+                        {"name": "minecraft:iron_hoe"},
+                        {"name": "minecraft:diamond_hoe"},
+                        {"name": "minecraft:golden_hoe"},
+                        {"name": "atop:amethyst_hoe"},
+                        {"name": "atop:mud_hoe"},
+                        {"name": "atop:peridot_hoe"},
+                        {"name": "atop:ruby_hoe"},
+                        {"name": "atop:sapphire_hoe"},
+                        {"name": "betterwithmods:steel_hoe"},
+                        {"name": "dungeontactics:steel_hoe"},
+                        {"name": "mod_lavacow:weta_hoe"},
+                        {"name": "iceandfire:silver_hoe"},
+                        {"name": "iceandfire:dragonbone_hoe"},
+                        {"name": "iceandfire:myrmex_desert_hoe"},
+                        {"name": "iceandfire:myrmex_jungle_hoe"},
+                        {"name": "iceandfire:dragonsteel_fire_hoe"},
+                        {"name": "iceandfire:dragonsteel_ice_hoe"},
+                        {"name": "iceandfire:dragonsteel_lightning_hoe"},
+                        {"name": "nyx:meteor_hoe"},
+                        {"name": "iceandfire:copper_hoe"},
+                        {"name": "randomthings:spectrehoe"},
+                        {"name": "simpleores:mythril_hoe"},
+                        {"name": "simpleores:adamantium_hoe"},
+                        {"name": "simpleores:onyx_hoe"},
+                        {"name": "twilightforest:ironwood_hoe"},
+                        {"name": "twilightforest:steeleaf_hoe"},
+                        {"name": "contenttweaker:mythril_mattock"}
+                    ]
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "false",
+                    "amount": "1"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "biomesoplenty:farmland_1"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:item.hoe.till",
+                    "category": "block"
+                }
+            ]
+        }
+    ]
+}
