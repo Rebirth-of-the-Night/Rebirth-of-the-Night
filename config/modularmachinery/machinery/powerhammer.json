@@ -1,7 +1,7 @@
 {
     "registryname": "powerhammer",
     "localizedname": "Power Hammer",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "modifiers": [
         {
             "elements": "betterwithmods:steel_block@0",
@@ -15,52 +15,39 @@
                 "operation": 1,
                 "multiplier": 0.5
             }
-        },
-        {
-            "elements": "pyrotech:anvil_iron_plated",
-            "x": 0,
-            "y": -3,
-            "z": 0,
-            "description": "Replace the stone anvil with a SFS anvil\nto consume half as much unstable spiritfire!",
-            "modifier": {
-                "io": "input",
-                "target": "fluid",
-                "operation": 1,
-                "multiplier": 0.5
-            }
         }
     ],
     "parts": [
         {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:powerhammer_controller@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "aesthetics:iron_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "aesthetics:iron_brick_stairs@1"
+            ]
+        },
+        {
             "x": 2,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "aesthetics:iron_brick_stairs"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockinputbus"
-            ]
-        },
-        {
-            "x": 1,
             "y": -2,
             "z": 0,
             "elements": [
-                "aesthetics:iron_brick_stairs"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "pyrotech:anvil_granite"
+                "quark:iron_plate@0"
             ]
         },
         {
@@ -68,31 +55,39 @@
             "y": -2,
             "z": 0,
             "elements": [
-                "minecraft:iron_block"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockoutputbus"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "aesthetics:iron_brick_stairs"
+                "dungeontactics:steel_block@0"
             ]
         },
         {
             "x": -2,
-            "y": -3,
+            "y": -2,
             "z": 0,
             "elements": [
-                "aesthetics:iron_brick_stairs"
+                "quark:iron_plate@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "aesthetics:iron_brick_stairs@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "aesthetics:iron_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate@0"
             ]
         },
         {
@@ -100,15 +95,72 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "minecraft:sticky_piston"
+                "contenttweaker:steel_support@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "aesthetics:iron_brick_stairs@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockinputbus@2"
             ]
         },
         {
             "x": 0,
-            "y": -4,
+            "y": -3,
             "z": 0,
             "elements": [
-                "modularmachinery:blockfluidinputhatch"
+                "pyrotech:anvil_granite@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockoutputbus@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "aesthetics:iron_brick_stairs@0"
             ]
         }
-    ]}
+    ]
+}

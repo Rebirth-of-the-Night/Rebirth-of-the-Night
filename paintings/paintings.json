@@ -84,6 +84,12 @@
 		"isCreative": true
     },
 	{
+        "motive": "Magekiller",
+        "width": 2,
+        "height": 3,
+		"isCreative": true
+    },
+	{
         "motive": "giant sigil Order",
 		"textures": {
             "back": "paintings:null"
@@ -93,7 +99,25 @@
 		"isCreative": true
     },
 	{
-        "motive": "Portraits of Madness - Red",
+        "motive": "giant sigil Soter",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 3,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "red",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 3,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "blue",
 		"textures": {
             "back": "paintings:null"
         },
@@ -105,6 +129,12 @@
         "motive": "Requisitioner",
         "width": 3,
         "height": 4,
+		"isCreative": true
+    },
+	{
+        "motive": "Thornesveil",
+        "width": 3,
+        "height": 8,
 		"isCreative": true
     },
 	{
@@ -247,6 +277,12 @@
     },
 	{
         "motive": "Wroughtclad",
+        "width": 7,
+        "height": 4,
+		"isCreative": true
+    },
+	{
+        "motive": "Mundi - Sja'zara",
         "width": 7,
         "height": 4,
 		"isCreative": true
@@ -1227,6 +1263,12 @@
 		"isCreative": false
     },
 	{
+        "motive": "The Beast of Allegada",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
         "motive": "The Ruler in Motion",
         "width": 2,
         "height": 3,
@@ -1240,6 +1282,18 @@
     },
 	{
         "motive": "The Val-Kaine Treason",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "The Magekiller Author",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "The Exiled",
         "width": 2,
         "height": 3,
 		"isCreative": false
@@ -1442,6 +1496,12 @@
         "height": 4,
 		"isCreative": true
     },
+    {
+        "motive": "After Dark",
+        "width": 3,
+        "height": 4,
+		"isCreative": false
+    },
 	{
         "motive": "Mona Lisa",
         "width": 3,
@@ -1498,6 +1558,12 @@
     },
 	{
         "motive": "The Way of the Crown",
+        "width": 6,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Flight in Shadow",
         "width": 6,
         "height": 3,
 		"isCreative": false

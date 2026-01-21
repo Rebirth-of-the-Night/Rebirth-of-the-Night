@@ -201,9 +201,6 @@ for w, weapon in sapphireweps{
 
 <ore:listAllExplosives>.addTooltip("This feels a little too volatile for high temperatures...");
 
-// Pipes
-<simplewoodenpipes:pipe>.addShiftTooltip('Although just having a faucet into these might be easier... "Oh Altassatla keep, water falling! Oh Anhelare, keep water flowing!"', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-
 // Nyx
 <nyx:lunar_water_bottle:*>.addTooltip("Removes most negative potion effects");
 <nyx:scythe:*>.addTooltip("Destroys crops and plants in a 9x9x9 area");
@@ -371,9 +368,14 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <contenttweaker:refracotta:*>.addTooltip("Not as good at keeping heat. Invalid for refractory structure.");
 <contenttweaker:modelingrefractory:*>.addTooltip("Malleable and homogeneous, ready for modeling.");
 <pyrotech:cog_wood>.removeTooltip("Indestructible");
+<pyrotech:cog_wood:*>.addShiftTooltip("Wood provides high friction, a lower failure point, and creates no sparks.");
 <pyrotech:cog_wood:*>.addTooltip("Can power a Mechanical Compactor");
 <pyrotech:cog_bone>.removeTooltip("Indestructible");
 <pyrotech:cog_bone:*>.addTooltip("Can power a Mechanical Compactor");
+<pyrotech:cog_wood:*>.addShiftTooltip("Steel provides medium friction, the highest durability, but can create sparks.");
+<pyrotech:cog_gold>.removeTooltip("Indestructible");
+<pyrotech:cog_gold:*>.addShiftTooltip("Brass provides the lowest friction, a medium failure point, and creates no sparks.");
+<pyrotech:cog_gold:*>.addTooltip("Can power a Mechanical Compactor");
 
 <pyrotech:bucket_stone>.removeTooltip("Uses:");
 <pyrotech:bucket_stone>.removeTooltip("Can hold hot fluids.");
@@ -587,6 +589,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 
 <contenttweaker:ancient_cache:*>.addTooltip(format.darkRed("What, at long last, can be freed once more?"));
 
+<aesthetics:iron_brick_stairs:*>.addTooltip("When used in machines, can be oriented in any position.");
+
 // Bombs
 <dungeontactics:bomb_frag:*>.addTooltip("Explodes in an area");
 <dungeontactics:bomb_frag>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
@@ -727,14 +731,16 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 // BUGS
 #<aether_legacy:enchanted_blueberry:*>.addTooltip(format.red("DO NOT FEED TO HYPPOGRYPHS; CURRENTLY BUGGED AND UNTAMABLE."));
 <iceandfire:dragon_horn:*>.addTooltip(format.red("DO NOT USE ON YOUR DRAGONS, IT WILL DELETE THEM!"));
-
-// MACHINES
-<multiblocked:gale_chamber>.addTooltip(format.gold("Right click with two brass blocks to construct!"));
-<multiblocked:biotic_incubator>.addTooltip(format.gold("Right click with two brass blocks to construct!"));
-<multiblocked:pyro_reactor>.addTooltip(format.gold("Right click with two brass blocks to construct!"));
-<multiblocked:multiblock_builder>.addTooltip(format.gold("Right click on a controller to build the multiblock machine automatically!"));
-<multiblocked:multiblock_builder>.removeTooltip("auto build");
+/*
+// MACHINES 
+<rotn:alchemical_processor>.addTooltip(format.gold("Stove and Axle must both be on for the device to work!"));
+<rotn:power_hammer>.addTooltip(format.gold("Input items should be fed directly into the anvil. Output will be stored within the hammer controller."));
+<multiblocked:gale_chamber>.addTooltip(format.gold("Right click with two brass blocks to feed the internals and assemble the machine!"));
+<multiblocked:biotic_incubator>.addTooltip(format.gold("Right click with two brass blocks to feed the internals and assemble the machine!"));
+<multiblocked:multiblock_builder>.addTooltip(format.gold("Right click on a controller to build the multiblock machine automatically. Does NOT replace existing blocks, make sure there is enough space!"));
+<multiblocked:multiblock_builder>.removeTooltip("auto build");*/
 
 // PIPES
 <inspirations:pipe>.addTooltip(format.gold("Basic item pipe. Can only move items in one direction similar to a hopper."));
 <quark:pipe>.addTooltip(format.gold("Advanced item pipe. Can move items in multiple directions and take dropped items from an open end."));
+<simplewoodenpipes:pipe>.addShiftTooltip('Although just having a faucet into these might be easier... "Oh Altassatla keep, water falling! Oh Anhelare, keep water flowing!"', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));

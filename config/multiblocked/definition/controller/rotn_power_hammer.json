@@ -1,0 +1,218 @@
+{
+  "version": 2,
+  "location": "rotn:power_hammer",
+  "traits": {
+    "background": "multiblocked:textures/gui/power_hammer.png",
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 7,
+      "y": 33,
+      "width": 8,
+      "height": 100,
+      "texture": "multiblocked:textures/progress_bar/progress_bar_blast.png",
+      "fillDirection": 2
+    },
+    "fuel_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 23,
+      "y": 7,
+      "width": 16,
+      "height": 16,
+      "texture": "multiblocked:textures/progress_bar/progress_bar_heat_surface.png",
+      "fillDirection": 3
+    },
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 0,
+        "x": 22,
+        "y": 37,
+        "autoIO": false,
+        "valid": [
+          "\"{id:\\\"pyrotech:material\\\",Count:1,Damage:36s}\""
+        ]
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "x": 22,
+        "y": 117,
+        "autoIO": false
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 12.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "multiblocked:block/power_hammer",
+        "type": "imodel"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle",
+      "sound": {
+        "sound": "minecraft:block.anvil.land",
+        "loop": true,
+        "delay": 1,
+        "volume": 1.0,
+        "pitch": 0.5
+      }
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "power_hammer",
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "LEFT",
+      "DOWN"
+    ],
+    "pattern": [
+      [
+        " ",
+        " ",
+        "A",
+        "@",
+        "A",
+        " ",
+        " "
+      ],
+      [
+        " ",
+        "A",
+        "A",
+        "F",
+        "A",
+        "A",
+        " "
+      ],
+      [
+        "A",
+        "A",
+        " ",
+        "D",
+        " ",
+        "A",
+        "A"
+      ],
+      [
+        "A",
+        "A",
+        " ",
+        "B",
+        " ",
+        "A",
+        "A"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "quark:iron_plate",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "rotn:power_hammer",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "pyrotech:anvil_granite"
+          }
+        ],
+        "type": "blocks",
+        "minCount": 0,
+        "maxCount": 0,
+        "previewCount": 0,
+        "io": "IN"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "dungeontactics:steel_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "contenttweaker:steel_support",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "minCount": 0,
+        "maxCount": 0,
+        "previewCount": 0
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "D": [
+        "D"
+      ],
+      "F": [
+        "F"
+      ]
+    }
+  }
+}

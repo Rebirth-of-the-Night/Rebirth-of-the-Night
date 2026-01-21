@@ -1313,6 +1313,7 @@ stoneWOHolystone.remove(<aether_legacy:holystone>);
 <ore:listAllmilk>.remove(<aether_legacy:skyroot_bucket>);
 <ore:milkBucket>.remove(<aether_legacy:skyroot_bucket>);
 
+<ore:workbench>.addItems([<randomthings:customworkbench:*>,<arcanearchives:radiant_crafting_table>]);
 
 val defileableGrass = <ore:defileableGrass>;
 defileableGrass.add(
@@ -1507,6 +1508,9 @@ for item in mushroom.items{
     }
 }
 
+val cheese = <ore:foodCheese>;
+cheese.add(<contenttweaker:dairy_free_cheese_slice>);
+
 val brewerYeast = <ore:yeastBrewers>;
 brewerYeast.add(<exsartagine:yeast>);
 
@@ -1686,7 +1690,7 @@ val anyAsh = <ore:dustAsh>;
 anyAsh.add(<biomesoplenty:ash>);
 
 val componentWheel = <ore:componentWheel>;
-componentWheel.addItems([<astikorcarts:wheel>,<pyrotech:cog_wood>,<pyrotech:cog_bone>]);
+componentWheel.addItems([<astikorcarts:wheel>,<pyrotech:cog_wood>,<pyrotech:cog_bone>,<pyrotech:cog_gold>,<behgameon:accessory_17>]);
 
 val scaleChestplate = <ore:scaleChestplate>;
 scaleChestplate.addItems([<iceandfire:armor_red_chestplate>,<iceandfire:armor_green_chestplate>,<iceandfire:armor_bronze_chestplate>,<iceandfire:armor_gray_chestplate>]);

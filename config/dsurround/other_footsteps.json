@@ -2,7 +2,7 @@
 	"footsteps": {
 		"stygian:endobsidian": "obsidian",
 		"stygian:endmagma": "stone,fire",
-		"stygian:endgrass": "grass,stone",
+		"stygian:endgrass": "futuremc:nylium_step,grass",
 		"stygian:endtallgrass+foliage": "straw",
 		"stygian:endglow+foliage": "straw",
 		"earthworks:block_slate_green": "brickstone,stone",
@@ -10,8 +10,9 @@
 		"earthworks:block_slate": "brickstone,stone",
 		"defiledlands:gravel_defiled": "gravel",
 		"minecraft:ladder": "ladder",
-		"minecraft:chorus_plant": "wood",
-		"minecraft:chorus_flower": "wood",
+		"minecraft:chorus_plant": "minecraft:block.chorus_flower.grow,futuremc:coral_step",
+		"minecraft:chorus_flower": "futuremc:coral_dig",
+		"minecraft:end_stone": "bedrock,minecraft:block.chorus_flower.death",
 		"charm:rotten_flesh_block": "organic",
 		"futuremc:campfire": "fire,stone",
 		"dimstack:bedrock": "obsidian,bedrock",
@@ -263,5 +264,7 @@
 		"aesthetics:copper_door": "hardmetal",
 		"mod_lavacow:glowshroom_block_cap": "asmc:block.wart_block.break",
 		"mod_lavacow:glowshroom_block_stem": "asmc:block.wart_block.break"
+
+
 	}
 }

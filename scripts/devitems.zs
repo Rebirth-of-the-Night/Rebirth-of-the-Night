@@ -222,8 +222,8 @@ JEI.addDescription(<contenttweaker:clockwork_heart>,"Provides some enhancements,
 mods.betterwithmods.Anvil.addShapedFixed(<contenttweaker:clockwork_heart>, 
 [
    [<scalinghealth:crystalshard>, <contenttweaker:material_part:45>, <contenttweaker:material_part:45>, <scalinghealth:crystalshard>],
-   [<contenttweaker:material_part:45>, <pyrotech:cog_bone>, <contenttweaker:wrought_animation_core>, <contenttweaker:material_part:45>],
-   [<contenttweaker:material_part:45>, <pyrotech:cog_bone>, <pyrotech:cog_bone>, <contenttweaker:material_part:45>],
+   [<contenttweaker:material_part:45>, <pyrotech:cog_gold>, <contenttweaker:wrought_animation_core>, <contenttweaker:material_part:45>],
+   [<contenttweaker:material_part:45>, <pyrotech:cog_gold>, <pyrotech:cog_gold>, <contenttweaker:material_part:45>],
    [<contenttweaker:material_part:45>, <contenttweaker:material_part:45>, <scalinghealth:crystalshard>, <contenttweaker:material_part:45>]
 ]);
 

@@ -18,12 +18,14 @@ recipes.addShaped("Steel Anvil", <betterwithmods:steel_anvil>,[
 ]);
 
 <ore:gearSteel>.add(<pyrotech:cog_bone>);
+<ore:gearBrass>.add(<pyrotech:cog_gold>);
 
 var leatherBelt = <betterwithmods:material:9>;
 var cSteelNugget = <ore:nuggetSteel>;
 var cSteelIngot = <ore:ingotSteel>;
 var redstoneLatch = <ore:latchRedstone>;
 var steelGear = <pyrotech:cog_bone>;
+var brassGear = <pyrotech:cog_gold>;
 var sfsNugget = <ore:nuggetSoulforgedSteel>;
 var sfsIngot = <ore:ingotSoulforgedSteel>;
 var vnugg = <ore:nuggetViridium>.firstItem;

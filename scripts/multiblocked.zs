@@ -5,12 +5,12 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
-JEI.removeAndHide(<multiblocked:blueprint_table>);
+/*JEI.removeAndHide(<multiblocked:blueprint_table>);
 JEI.removeAndHide(<multiblocked:blueprint_table_part>);
 JEI.removeAndHide(<multiblocked:blueprint>);
 JEI.removeAndHide(<multiblocked:controller_tester>);
 JEI.removeAndHide(<multiblocked:part_tester>);
-recipes.removeByMod("multiblocked");
+recipes.removeByMod("multiblocked");*/
 val brassIngot = <ore:ingotBrass>;
 
 // pump mechanic recipes
@@ -25,7 +25,7 @@ recipes.addShaped(<pollutantpump:pipe>*4, [
     [<ore:genericMetal>, null, <ore:genericMetal>], 
     [null, <ore:genericMetal>, null]
 ]);
-
+/*
 // multiblock controller recipes + assembler
 recipes.addShaped((<multiblocked:multiblock_builder>), [
     [<minecraft:paper>, brassIngot, <minecraft:paper>],
@@ -37,30 +37,20 @@ recipes.addShaped((<multiblocked:dryer>), [
     [<ore:StoneHugeBrick>.reuse(), <quark:chute>, <ore:StoneHugeBrick>.reuse()], 
     [null, <pyrotech:drying_rack:1>.reuse(), null]
 ]);
-recipes.addShaped((<multiblocked:pyro_reactor>), [
-    [null, <biomesoplenty:flesh>.reuse(), null],
-    [<contenttweaker:brick_minecraft_nether>.reuse(), <multiblockmobs:soul_chassis>, <contenttweaker:brick_minecraft_nether>.reuse()], 
-    [null, <biomesoplenty:jar_filled:1>.reuse(), null]
-]);
-recipes.addShaped((<multiblocked:power_hammer_mk1>), [
-    [null, <minecraft:sticky_piston>, null],
-    [<aesthetics:iron_brick_stairs>, <minecraft:iron_block>, <aesthetics:iron_brick_stairs>], 
-    [null, <pyrotech:anvil_granite>, null]
-]);
-recipes.addShaped((<multiblocked:power_hammer_mk2>), [
-    [null, <minecraft:sticky_piston>.reuse(), null],
-    [<aesthetics:iron_brick_stairs>.reuse(), <betterwithmods:steel_block>, <aesthetics:iron_brick_stairs>.reuse()], 
-    [null, <pyrotech:anvil_iron_plated>.reuse(), null]
+recipes.addShaped((<rotn:power_hammer>), [
+    [<ore:gearSteel>, <dungeontactics:steel_block>, <ore:gearSteel>],
+    [<ore:latchRedstone>, <contenttweaker:steel_support>, <ore:latchRedstone>], 
+    [<ore:gearSteel>, null, <ore:gearSteel>]
 ]);
 recipes.addShaped((<multiblocked:gale_chamber>), [
     [null, <dungeontactics:fan_block>.reuse(), null],
     [<aether_legacy:dungeon_block>.reuse(), <ore:blockEnchantedGravitite>, <aether_legacy:dungeon_block>.reuse()], 
     [null, <ore:genericMetalBars>.reuse(), null]
 ]);
-recipes.addShaped((<multiblocked:alchemical_mixer>), [
-    [null, <earthworks:block_slate>.reuse(), null],
-    [<aesthetics:iron_brick_stairs>.reuse(), <betterwithmods:wooden_axle>, <aesthetics:iron_brick_stairs>.reuse()], 
-    [null, <betterwithmods:cooking_pot:1>.reuse(), null]
+recipes.addShapedMirrored((<rotn:alchemical_processor>), [
+    [<ore:ingotSteel>,<ore:ingotBrass>,<ore:ingotSteel>],
+    [<pyrotech:cog_gold>, <pyrotech:cog_bone>, <behgameon:accessory_17>], 
+    [null, <exsartagine:kettle>, null]
 ]);
 recipes.addShaped((<multiblocked:biotic_incubator>), [
     [null, <betterwithmods:saw>.reuse(), null],
@@ -72,10 +62,12 @@ recipes.addShaped((<multiblocked:crystalline_accelerator>), [
     [<contenttweaker:magicked_stone>.reuse(), <ore:ingotMythril>, <contenttweaker:magicked_stone>.reuse()], 
     [null, <arcanearchives:raw_quartz_cluster>.reuse(), null]
 ]);
-recipes.addShaped((<multiblocked:mechanical_processor>), [
-    [null, <betterwithmods:wooden_gearbox>.reuse(), null],
-    [<aesthetics:iron_brick_stairs>.reuse(), <betterwithmods:wooden_axle>, <aesthetics:iron_brick_stairs>.reuse()], 
-    [null, <betterwithmods:cooking_pot:1>.reuse(), null]
+*/
+
+recipes.addShaped((<contenttweaker:steel_support>*8), [
+    [<ore:ingotSteel>, <ore:ingotSteel>],
+    [<ore:ingotSteel>, <ore:ingotSteel>], 
+    [<ore:ingotSteel>, <ore:ingotSteel>]
 ]);
 recipes.addShapeless("seed_to_viridium", <contenttweaker:raw_viridium>, [<contenttweaker:viridea_seed>]);
 

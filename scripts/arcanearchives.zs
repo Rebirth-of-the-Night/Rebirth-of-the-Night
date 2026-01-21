@@ -158,6 +158,8 @@ GCT.addRecipe("magicinfused_wood1", <biomesoplenty:log_1:5>*16, [<arcanearchives
 
 GCT.addRecipe("magicinfused_wood2", <biomesoplenty:log_1:5>*64, [<arcanearchives:radiant_dust>*2, <contenttweaker:magic_blend>*2, <ore:mundaneWood>*64]);
 
+GCT.addRecipe("brass_bearing", <behgameon:accessory_17>*1, [<contenttweaker:material_part:46>*9, <contenttweaker:material_part:45>]);
+
 //Radiant Chests
 recipes.remove(<arcanearchives:radiant_chest>);
 
