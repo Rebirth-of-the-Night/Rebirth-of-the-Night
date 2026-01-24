@@ -1,0 +1,86 @@
+[
+  {
+    "function": "hordes:set_spawntable",
+    "value": [
+      "hordes:basic1"
+    ],
+    "conditions": [
+      {
+        "name": "gamestages:gamestage",
+        "value": "basic1"
+      }
+    ]
+  },
+  {
+    "function": "hordes:set_spawntable",
+    "value": [
+      "hordes:basic2"
+    ],
+    "conditions": [
+      {
+        "name": "gamestages:gamestage",
+        "value": "basic2"
+      }
+    ]
+  },
+  {
+    "function": "hordes:set_spawntable",
+    "value": [
+      "hordes:basic3"
+    ],
+    "conditions": [
+      {
+        "name": "gamestages:gamestage",
+        "value": "basic3"
+      }
+    ]
+  },
+  {
+    "function": "hordes:set_spawntable",
+    "value": [
+      "hordes:harvester1"
+    ],
+    "conditions": [
+      {
+        "name": "gamestages:gamestage",
+        "value": "harvester1"
+      }
+    ]
+  },
+  {
+    "function": "hordes:set_spawntable",
+    "value": [
+      "hordes:harvester2"
+    ],
+    "conditions": [
+      {
+        "name": "gamestages:gamestage",
+        "value": "harvester2"
+      }
+    ]
+  },
+  {
+    "function": "hordes:set_spawntable",
+    "value": [
+      "hordes:nether1"
+    ],
+    "conditions": [
+      {
+        "name": "gamestages:gamestage",
+        "value": "nether1"
+      }
+    ]
+  },
+  {
+    "function": "hordes:set_spawntable",
+    "value": [
+      "hordes:nether2"
+    ],
+    "conditions": [
+      {
+        "name": "gamestages:gamestage",
+        "value": "nether2"
+      }
+    ]
+  }
+]
