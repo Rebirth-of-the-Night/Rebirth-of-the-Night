@@ -1,7 +1,7 @@
 [
-    "netherex:brute{Health:120,Attributes:[{Name:\"generic.maxHealth\",Base:120f}]}-8-0-0"
-    "minecraft:blaze-23-0-0"
-    "minecraft:wither_skeleton{HandItems:[{id:\"minecraft:iron_pickaxe\",Count:1}],HandDropChances:[0.00f,0.0f]}-23-0-0"
-    "minecraft:wither_skeleton{HandItems:[{id:\"minecraft:bow\",Count:1}],HandDropChances:[0.00f,0.0f]}-23-0-0"
+    "netherex:brute{Health:120,Attributes:[{Name:\"generic.maxHealth\",Base:120f}]}-8-0-0",
+    "minecraft:blaze-23-0-0",
+    "minecraft:wither_skeleton{HandItems:[{id:\"minecraft:iron_pickaxe\",Count:1}],HandDropChances:[0.00f,0.0f]}-23-0-0",
+    "minecraft:wither_skeleton{HandItems:[{id:\"minecraft:bow\",Count:1}],HandDropChances:[0.00f,0.0f]}-23-0-0",
     "minecraft:wither_skeleton{Health:35,Attributes:[{Name:\"generic.maxHealth\",Base:35f}],HandItems:[{id:\"minecraft:stone_sword\",Count:1}],HandDropChances:[0.00f,0.0f]}-23-0-0"
 ]
