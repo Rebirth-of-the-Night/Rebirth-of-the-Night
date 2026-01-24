@@ -1,0 +1,1441 @@
+{
+    	"block_pools": [
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minecraft:brick"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_clay_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "biomesoplenty:mud_brick"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_mud_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minecraft:netherbrick"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_nether_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "pyrotech:material",
+                    "meta": "5"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_refractory_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "ceramics:unfired_clay",
+                    "meta": "5"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_porcelain_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "netherex:fiery_netherbrick"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_fiery_nether_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_end"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_end_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_white"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_white_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_dreadstone"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_dreadstone_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_black_basalt"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_basalt_nether_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_brimstone"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_brimstone_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_permafrost"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_permafrost_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_sandstone"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_sandstone_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_red_sandstone"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_red_sandstone_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_soul_sandstone"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_soulsandstone_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_holystone"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_holystone_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_quartzite"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_quartzite_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_red_granite"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_red_granite_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_black_granite"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_black_granite_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_rhyolite"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_rhyolite_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_andesite"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_andesite_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_gabbro"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_gabbro_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_basalt"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_basalt_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_komatiite"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_komatiite_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_dacite"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_dacite_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_gneiss"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_gneiss_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_eclogite"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_eclogite_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_marble"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_marble_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_blue_schist"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_blueschist_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_green_schist"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_greenschist_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_soapstone"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_soapstone_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_migmatite"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_migmatite_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_limestone"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_limestone_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_chalk"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_chalk_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_shale"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_shale_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_siltstone"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_siltstone_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_lignite"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_lignite_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_dolomite"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_dolomite_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_greywacke"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_greywacke_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_chert"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_chert_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Loose Bricks",
+			"type": {
+			    "type": "block",
+                "name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:brick_serpentinite"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "4"
+                },
+                {
+                    "type": "add_hunger",
+                    "exhaustion": "true",
+                    "amount": "2"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:loose_big_serpentinite_bricks"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        }	
+        ]
+}
