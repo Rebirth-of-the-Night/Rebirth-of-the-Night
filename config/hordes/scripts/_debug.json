@@ -82,5 +82,77 @@
         "value": "nether2"
       }
     ]
+  },
+  {
+    "function": "hordes:set_spawntable",
+    "value": [
+      "hordes:aether1"
+    ],
+    "conditions": [
+      {
+        "name": "gamestages:gamestage",
+        "value": "aether1"
+      }
+    ]
+  },
+  {
+    "function": "hordes:set_spawntable",
+    "value": [
+      "hordes:aether2"
+    ],
+    "conditions": [
+      {
+        "name": "gamestages:gamestage",
+        "value": "aether2"
+      }
+    ]
+  },
+  {
+    "function": "hordes:set_spawntable",
+    "value": [
+      "hordes:beneath1"
+    ],
+    "conditions": [
+      {
+        "name": "gamestages:gamestage",
+        "value": "beneath1"
+      }
+    ]
+  },
+  {
+    "function": "hordes:set_spawntable",
+    "value": [
+      "hordes:beneath2"
+    ],
+    "conditions": [
+      {
+        "name": "gamestages:gamestage",
+        "value": "beneath2"
+      }
+    ]
+  },
+  {
+    "function": "hordes:set_spawntable",
+    "value": [
+      "hordes:beneath3"
+    ],
+    "conditions": [
+      {
+        "name": "gamestages:gamestage",
+        "value": "beneath3"
+      }
+    ]
+  },
+  {
+    "function": "hordes:set_spawntable",
+    "value": [
+      "hordes:end1"
+    ],
+    "conditions": [
+      {
+        "name": "gamestages:gamestage",
+        "value": "end1"
+      }
+    ]
   }
 ]
