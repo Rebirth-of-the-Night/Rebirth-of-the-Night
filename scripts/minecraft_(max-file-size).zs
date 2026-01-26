@@ -850,7 +850,7 @@ recipes.addShaped("tincompass", <minecraft:compass>,[
 
 recipes.addShaped("seasonclock", <sereneseasons:season_clock>, [
     [<ore:genericMetalNuggets>],
-    [<ore:listAllSeed>],
+    [<ore:listAllseed>],
     [<minecraft:paper>]
 ]);
 
@@ -1366,7 +1366,7 @@ brown.remove(<betterwithmods:material:5>);
 
 <ore:blockCharcoal>.add(<pyrotech:charcoal_block>);
 
-<ore:listAllSeed>.addItems([<betterwithmods:hemp>,<rustic:ironwoodseed>, <dynamictreesbop:palmseed>]);
+<ore:listAllseed>.addItems([<betterwithmods:hemp>,<rustic:ironwoodseed>, <dynamictreesbop:palmseed>]);
 <ore:bookshelf>.addItems([<aether_legacy:skyroot_bookshelf>,<inspirations:bookshelf:*>]);
 <ore:bookshelf>.remove([<inspirations:bookshelf>]);
 
