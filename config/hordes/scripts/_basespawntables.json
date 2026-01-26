@@ -241,8 +241,8 @@
             {
                 "function": "hordes:set_spawntable",
                 "value": [
-                    "hordes:beneath1",
-                    "hordes:beneath2"
+                    "hordes:beneath1"
+
                 ],
                 "conditions": [
                     {
@@ -296,8 +296,8 @@
             {
                 "function": "hordes:set_spawntable",
                 "value": [
-                    "hordes:beneath1",
-                    "hordes:beneath2"
+                    "hordes:beneath1"
+
                 ],
                 "conditions": [
                     {
@@ -353,8 +353,8 @@
             {
                 "function": "hordes:set_spawntable",
                 "value": [
-                    "hordes:beneath1",
-                    "hordes:beneath2"
+                    "hordes:beneath1"
+
                 ],
                 "conditions": [
                     {
@@ -405,9 +405,9 @@
             {
                 "function": "hordes:set_spawntable",
                 "value": [
-                    "hordes:beneath1",
-                    "hordes:beneath2",
-                    "hordes:beneath3"
+                    "hordes:beneath1"
+
+                    "hordes:beneath2"
                 ],
                 "conditions": [
                     {
@@ -461,9 +461,9 @@
             {
                 "function": "hordes:set_spawntable",
                 "value": [
-                    "hordes:beneath1",
-                    "hordes:beneath2",
-                    "hordes:beneath3"
+                    "hordes:beneath1"
+
+                    "hordes:beneath2"
                 ],
                 "conditions": [
                     {
@@ -519,9 +519,9 @@
             {
                 "function": "hordes:set_spawntable",
                 "value": [
-                    "hordes:beneath1",
-                    "hordes:beneath2",
-                    "hordes:beneath3"
+                    "hordes:beneath1"
+
+                    "hordes:beneath2"
                 ],
                 "conditions": [
                     {
@@ -566,9 +566,9 @@
                     "hordes:harvester2",
                     "hordes:aether1",
                     "hordes:aether2",
-                    "hordes:beneath1",
-                    "hordes:beneath2",
-                    "hordes:beneath3"
+                    "hordes:beneath1"
+
+                    "hordes:beneath2"
                 ],
                 "conditions": []
             },
@@ -592,7 +592,7 @@
             },
             {
                 "name": "gamestages:gamestage",
-                "value": "killedenderdragon"
+                "value": "enteredend"
             },
             {
                 "name": "hordes:not",
@@ -623,9 +623,9 @@
                     "hordes:harvester2",
                     "hordes:nether1",
                     "hordes:nether2",
-                    "hordes:beneath1",
-                    "hordes:beneath2",
-                    "hordes:beneath3"
+                    "hordes:beneath1"
+
+                    "hordes:beneath2"
                 ],
                 "conditions": []
             },
@@ -649,7 +649,7 @@
             },
             {
                 "name": "gamestages:gamestage",
-                "value": "killedenderdragon"
+                "value": "enteredend"
             },
             {
                 "name": "hordes:not",
@@ -682,9 +682,9 @@
                     "hordes:nether2",
                     "hordes:aether1",
                     "hordes:aether2",
-                    "hordes:beneath1",
-                    "hordes:beneath2",
-                    "hordes:beneath3"
+                    "hordes:beneath1"
+
+                    "hordes:beneath2"
                 ],
                 "conditions": []
             },
@@ -712,7 +712,7 @@
             },
             {
                 "name": "gamestages:gamestage",
-                "value": "killedenderdragon"
+                "value": "enteredend"
             },
             {
                 "name": "hordes:not",
@@ -733,9 +733,9 @@
             "hordes:harvester2",
             "hordes:nether1",
             "hordes:nether2",
-            "hordes:beneath1",
+            "hordes:beneath1"
+
             "hordes:beneath2",
-            "hordes:beneath3",
             "hordes:end1"
         ],
         "conditions": [
@@ -766,9 +766,9 @@
             "hordes:harvester2",
             "hordes:aether1",
             "hordes:aether2",
-            "hordes:beneath1",
+            "hordes:beneath1"
+
             "hordes:beneath2",
-            "hordes:beneath3",
             "hordes:end1"
         ],
         "conditions": [
@@ -801,9 +801,9 @@
             "hordes:nether2",
             "hordes:aether1",
             "hordes:aether2",
-            "hordes:beneath1",
+            "hordes:beneath1"
+
             "hordes:beneath2",
-            "hordes:beneath3",
             "hordes:end1"
         ],
         "conditions": [
