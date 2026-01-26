@@ -512,6 +512,7 @@ for ore, result in moddedBlastFurnaceRecipes {
 
 BlastFurnace.removeRecipe(<rustic:dust_tiny_iron>);
 BlastFurnace.removeRecipeForInput(<biomesoplenty:gem_ore:5>);
+BlastFurnace.removeRecipeForInput(<netherex:amethyst_ore>);
 
 // Brick resistance
 <contenttweaker:brick_red_granite>.asBlock().definition.resistance = <undergroundbiomes:igneous_brick:0>.asBlock().definition.resistance;
