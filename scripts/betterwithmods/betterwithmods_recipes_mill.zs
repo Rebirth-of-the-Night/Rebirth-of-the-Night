@@ -30,13 +30,6 @@ Mill.remove([<betterwithaddons:brick_stained:13>]);
 Mill.remove([<betterwithaddons:brick_stained:14>]);
 Mill.remove([<betterwithaddons:brick_stained:15>]);
 
-// Dread Slate Processing
-Mill.builder()
-.buildRecipe([<contenttweaker:raw_dread_slate>], [<adpother:dreadmist>])
-.setPriority(8)
-.setGrindType("minecraft:entity.lightning.thunder")
-.build();
-
 // Extra ground netherrack
 Mill.builder()
 .buildRecipe([<minecraft:netherrack>], [<betterwithmods:material:15>*4])

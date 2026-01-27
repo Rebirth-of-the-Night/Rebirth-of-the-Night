@@ -445,6 +445,8 @@ ExSartagine.addKettleRecipe([<rustic:ginseng>,<biomesoplenty:flower_1>], <minecr
 //Concentrated Bioflow
 ExSartagine.addKettleRecipe([<contenttweaker:raw_viridium>],null,null,<liquid:concentrated_bioflow>*250,[null],200);
 
+//Dread Cold
+ExSartagine.addKettleRecipe([<contenttweaker:raw_dread_slate>],null,null,<liquid:dread_cold>*250,[null],200);
 
 // Remove vanilla pastry recipes
 recipes.removeByRecipeName("harvestcraft:minecraft_pumpkinpie");
