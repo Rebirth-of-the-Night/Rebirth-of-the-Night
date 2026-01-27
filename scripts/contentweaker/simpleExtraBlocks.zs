@@ -2139,6 +2139,7 @@ slime_nesting.setSlipperiness(0.89f);
 slime_nesting.setLightOpacity(0);
 slime_nesting.setCreativeTab(<creativetab:rotn_blocks>);
 slime_nesting.setToolClass("shovel");
+slime_nesting.setToolLevel(0);
 slime_nesting.setBlockHardness(22.0);
 slime_nesting.axisAlignedBB = AxisAlignedBB.create(
      0.0 / 16.0,
