@@ -6,12 +6,12 @@ import crafttweaker.block.IBlock;
 import crafttweaker.block.IMaterial;
 import mods.jei.JEI;
 
-Kiln.registerBlock(<contenttweaker:brick_minecraft_clay>);
-Kiln.registerBlock(<contenttweaker:brick_minecraft_nether>);
-Kiln.registerBlock(<contenttweaker:brick_pyrotech_refractory>);
-Kiln.registerBlock(<contenttweaker:brick_ceramics_porcelain>);
+Kiln.registerBlock(<contenttweaker:bwm_kiln_bricks>);
 
 Kiln.removeAll();
+
+recipes.addShaped(<contenttweaker:bwm_kiln_bricks>*4, [[<pyrotech:material:4>, <contenttweaker:brick_minecraft_clay>, <pyrotech:material:4>],[<contenttweaker:brick_minecraft_clay>, <pyrotech:material:4>, <contenttweaker:brick_minecraft_clay>], [<pyrotech:material:4>, <contenttweaker:brick_minecraft_clay>, <pyrotech:material:4>]]);
+
 
 var kilnFood as IItemStack[][IIngredient] = {
 	<minecraft:fence> : [<minecraft:stick>,<minecraft:stick>],		//Fence Destroyer
