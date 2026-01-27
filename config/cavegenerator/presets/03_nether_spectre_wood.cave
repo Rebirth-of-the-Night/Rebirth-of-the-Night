@@ -1,0 +1,83 @@
+{
+  enabled: true
+  biomes: {
+    names: [ "biomesoplenty:phantasmagoric_inferno" ]
+    IDs: []
+    types: []
+  }
+  structures: [
+    {
+      name: spectre_pillar_x3
+      matchers: [ "biomesoplenty:ash_block" ]
+      directions: down
+      chance: 1
+      count: 5
+      offset: [ 0, 0, 0 ]
+      airChecks: [
+        [ 0, 1, 0 ]
+        [ 0, 2, 0 ]
+        [ 0, 3, 0 ]
+        [ 0, 4, 0 ]
+      ]
+      solidChecks: [ 0, -1, 0 ]
+      height: [ 34, 110 ]
+      debugSpawns: false
+    }
+    {
+      name: spectre_pillar_x5
+      matchers: [ "biomesoplenty:ash_block" ]
+      directions: down
+      chance: 0.8
+      count: 3
+      offset: [ 0, 0, 0 ]
+      airChecks: [
+        [ 0, 5, 0 ]
+        [ 0, 6, 0 ]
+        [ 0, 7, 0 ]
+        [ 0, 8, 0 ]
+      ]
+      solidChecks: [
+        [ -1, 0, -1 ]
+        [ -1, 0, 1 ]
+        [ 1, 0, -1 ]
+        [ -1, 0, -1 ]
+      ]
+      height: [ 34, 110 ]
+      debugSpawns: false
+    }
+    {
+      name: spectre_pillar_x9
+      matchers: [ "biomesoplenty:ash_block" ]
+      directions: down
+      chance: 0.6
+      count: 2
+      offset: [ 0, 0, 0 ]
+      airChecks: [
+        [ 0, 5, 0 ]
+        [ 0, 6, 0 ]
+        [ 0, 7, 0 ]
+        [ 0, 8, 0 ]
+      ]
+      solidChecks: [
+        [ -1, 0, -1 ]
+        [ -1, 0, 1 ]
+        [ 1, 0, -1 ]
+        [ -1, 0, -1 ]
+      ]
+      height: [ 34, 110 ]
+      debugSpawns: false
+    }
+  ]
+  stalactites: [
+    # Rare indigo magicite in the ceiling (spirits gather around. An aftermath?).
+    {
+      type: stalactite
+      state: quark:crystal_pane:6
+      size: small
+      length: [ 1, 2 ]
+      height: [ 34, 120 ]
+      matchers: [ "biomesoplenty:ash_block", "minecraft:netherrack" ]
+      chance: 0.04
+    }
+  ]
+}
