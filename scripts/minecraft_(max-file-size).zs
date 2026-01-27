@@ -1813,7 +1813,7 @@ for brickItemPrimitive, brickBlockPrimitive in primitiveBrickBlockMap{
 // Generic Bricks
 val stoneBrickBlockMap = {
     <minecraft:brick> : 						[<contenttweaker:brick_minecraft_clay>,<contenttweaker:loose_clay_bricks>],
-    <contenttweaker:brick_end> : 				[<minecraft:end_bricks>,<contenttweaker:loose_big_end_bricks>],
+    <contenttweaker:brick_end> : 				[<contenttweaker:brick_minecraft_end>,<contenttweaker:loose_big_end_bricks>],
     <contenttweaker:brick_white> : 			[<contenttweaker:brick_betterwithaddons_whitebrick>,<contenttweaker:loose_big_white_bricks>],
     <contenttweaker:brick_dreadstone> : 		[<iceandfire:dread_stone_bricks>,<contenttweaker:loose_big_dreadstone_bricks>],
     <contenttweaker:brick_black_basalt> : 	[<netherex:basalt_brick>,<contenttweaker:loose_basalt_nether_bricks>],
@@ -2455,18 +2455,13 @@ recipes.addShaped("end_brick_wall", <futuremc:end_stone_brick_wall>*6,[
     [<contenttweaker:brick_minecraft_end>, <contenttweaker:brick_minecraft_end>, <contenttweaker:brick_minecraft_end>]
 ]);
 recipes.addShapeless("end_brick_stair_block", <contenttweaker:brick_minecraft_end>*3, [<endreborn:e_end_bricks_stairs>, <endreborn:e_end_bricks_stairs>, <endreborn:e_end_bricks_stairs>, <endreborn:e_end_bricks_stairs>]);
-recipes.addShapeless("end_brick_slab_block", <contenttweaker:brick_minecraft_end>, [<ceramics:clay_slab>, <ceramics:clay_slab>]);
+recipes.addShapeless("end_brick_slab_block", <contenttweaker:brick_minecraft_end>, [<quark:end_bricks_slab>, <quark:end_bricks_slab>]);
 recipes.addShapedMirrored("end_brick_stairs", <endreborn:e_end_bricks_stairs>*8,[
     [<contenttweaker:brick_minecraft_end>, null, null],
     [<contenttweaker:brick_minecraft_end>, <contenttweaker:brick_minecraft_end>, null],
     [<contenttweaker:brick_minecraft_end>, <contenttweaker:brick_minecraft_end>, <contenttweaker:brick_minecraft_end>]
 ]);
-recipes.addShapedMirrored("end_brick_stairs_b", <endreborn:e_end_bricks_stairs>*4,[
-    [<ceramics:clay_slab>, null, null],
-    [<ceramics:clay_slab>, <ceramics:clay_slab>, null],
-    [<ceramics:clay_slab>, <ceramics:clay_slab>, <ceramics:clay_slab>]
-]);
-recipes.addShaped("end_brick_brick_slab", <ceramics:clay_slab>*6,[
+recipes.addShaped("end_brick_brick_slab", <quark:end_bricks_slab>*6,[
     [<contenttweaker:brick_minecraft_end>, <contenttweaker:brick_minecraft_end>, <contenttweaker:brick_minecraft_end>]
 ]);
 // white brick is disperse on other scripts due to lack of blocks in its family
