@@ -1078,9 +1078,7 @@ LootTable.removeGlobalItem("minecraft:wooden_shovel");
 recipes.remove(<dungeontactics:sharp_stick>);
 JEI.removeAndHide(<minecraft:wooden_sword>);
 recipes.addShaped("sharp_stick", <dungeontactics:sharp_stick>,[
-    [<ore:stickMat>],
-    [<ore:stickMat>],
-    [<ore:stickWood>]
+    [<ore:stickWood>,<ore:smallKnife>.reuse()]
 ]);
 
 var woodenStairMat = <stygian:endplanks>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>|<betterwithaddons:planks_sakura>|<betterwithaddons:planks_mulberry>;
@@ -1406,7 +1404,7 @@ val hammerTool = <ore:hammerTool>;
 hammerTool.addItems([<aether_legacy:notch_hammer:*>,<pyrotech:stone_hammer:*>,<pyrotech:iron_hammer:*>,<pyrotech:diamond_hammer:*>,<pyrotech:obsidian_hammer:*>]);
 
 val shears = <ore:shears>;
-shears.addItems([<minecraft:shears>, <ceramics:clay_shears>, <cyclicmagic:shears_obsidian>, <simpleores:mythril_shears>, <simpleores:adamantium_shears>, <simpleores:onyx_shears>]);
+shears.addItems([<minecraft:shears:*>, <ceramics:clay_shears:*>, <cyclicmagic:shears_obsidian:*>, <simpleores:mythril_shears:*>, <simpleores:adamantium_shears:*>, <simpleores:onyx_shears:*>]);
 
 val anvilAny = <ore:anvilAny>;
 anvilAny.addItems([<minecraft:anvil>,<betterwithmods:steel_anvil>,<pyrotech:anvil_granite>]);
@@ -1432,10 +1430,10 @@ genericMetal.addAll(<ore:ingotSteel>);
 genericMetal.addAll(<ore:ingotWroughtIron>);
 
 val wolfCape = <ore:wolfCape>;
-wolfCape.addItems([<betteranimalsplus:wolf_cape_classic>,<betteranimalsplus:wolf_cape_timber>,<betteranimalsplus:wolf_cape_black>,<betteranimalsplus:wolf_cape_arctic>,<betteranimalsplus:wolf_cape_red>,<betteranimalsplus:wolf_cape_brown>]);
+wolfCape.addItems([<betteranimalsplus:wolf_cape_classic:*>,<betteranimalsplus:wolf_cape_timber:*>,<betteranimalsplus:wolf_cape_black:*>,<betteranimalsplus:wolf_cape_arctic:*>,<betteranimalsplus:wolf_cape_red:*>,<betteranimalsplus:wolf_cape_brown:*>]);
 
 val bearCape = <ore:bearCape>;
-bearCape.addItems([<betteranimalsplus:bear_cape_brown>,<betteranimalsplus:bear_cape_black>,<betteranimalsplus:bear_cape_kermode>]);
+bearCape.addItems([<betteranimalsplus:bear_cape_brown:*>,<betteranimalsplus:bear_cape_black:*>,<betteranimalsplus:bear_cape_kermode:*>]);
 
 val fang = <ore:fang>;
 fang.addItems([<mod_lavacow:sharptooth>,<mowziesmobs:naga_fang>,<iceandfire:sea_serpent_fang>,<netherex:coolmar_spider_fang>]);
@@ -1661,7 +1659,7 @@ val water = <ore:listAllwater>;
 water.addItems([<pyrotech:bucket_wood>.withTag({fluids: {FluidName: "water", Amount: 1000}}),<pyrotech:bucket_clay>.withTag({fluids: {FluidName: "water", Amount: 1000}}),<pyrotech:bucket_stone>.withTag({fluids: {FluidName: "water", Amount: 1000}}),<aether_legacy:skyroot_bucket:1>]);
 
 val small_knife = <ore:smallKnife>;
-small_knife.addItems([<animania:carving_knife>,<spartanweaponry:dagger_iron>,<spartanweaponry:dagger_bronze>,<spartanweaponry:dagger_gold>,<spartanweaponry:dagger_silver>,<spartanweaponry:dagger_diamond>,<spartancompat:dagger_holystone>,<spartancompat:dagger_zanite>,<spartancompat:dagger_gravitite>,<spartancompat:dagger_adamantium>,<spartanfire:dagger_dragonbone>,<spartanfire:dagger_fire_dragonbone>,<spartanfire:dagger_ice_dragonbone>,<spartanfire:dagger_jungle>,<spartanfire:dagger_desert>,<spartanfire:dagger_jungle_venom>,<spartanfire:dagger_desert_venom>,<spartanfire:dagger_ice_dragonsteel>,<spartanfire:dagger_fire_dragonsteel>,<mod_lavacow:famine>,<iceandfire:stymphalian_bird_dagger>]);
+small_knife.addItems([<animania:carving_knife:*>,<spartanweaponry:dagger_iron:*>,<spartanweaponry:dagger_bronze:*>,<spartanweaponry:dagger_gold:*>,<spartanweaponry:dagger_silver:*>,<spartanweaponry:dagger_diamond:*>,<spartancompat:dagger_holystone:*>,<spartancompat:dagger_zanite:*>,<spartancompat:dagger_gravitite:*>,<spartancompat:dagger_adamantium:*>,<spartanfire:dagger_dragonbone:*>,<spartanfire:dagger_fire_dragonbone:*>,<spartanfire:dagger_ice_dragonbone:*>,<spartanfire:dagger_jungle:*>,<spartanfire:dagger_desert:*>,<spartanfire:dagger_jungle_venom:*>,<spartanfire:dagger_desert_venom:*>,<spartanfire:dagger_ice_dragonsteel:*>,<spartanfire:dagger_fire_dragonsteel:*>,<mod_lavacow:famine:*>,<iceandfire:stymphalian_bird_dagger:*>]);
 
 val nitrogen = <ore:mulchNitrogen>;
 nitrogen.addAll(<ore:listAllmeat>);
@@ -1693,84 +1691,84 @@ val componentWheel = <ore:componentWheel>;
 componentWheel.addItems([<astikorcarts:wheel>,<pyrotech:cog_wood>,<pyrotech:cog_bone>,<pyrotech:cog_gold>,<behgameon:accessory_17>]);
 
 val scaleChestplate = <ore:scaleChestplate>;
-scaleChestplate.addItems([<iceandfire:armor_red_chestplate>,<iceandfire:armor_green_chestplate>,<iceandfire:armor_bronze_chestplate>,<iceandfire:armor_gray_chestplate>]);
+scaleChestplate.addItems([<iceandfire:armor_red_chestplate:*>,<iceandfire:armor_green_chestplate:*>,<iceandfire:armor_bronze_chestplate:*>,<iceandfire:armor_gray_chestplate:*>]);
 
 val scaleHelmet = <ore:scaleHelmet>;
-scaleHelmet.addItems([<iceandfire:armor_red_helmet>,<iceandfire:armor_green_helmet>,<iceandfire:armor_bronze_helmet>,<iceandfire:armor_gray_helmet>]);
+scaleHelmet.addItems([<iceandfire:armor_red_helmet:*>,<iceandfire:armor_green_helmet:*>,<iceandfire:armor_bronze_helmet:*>,<iceandfire:armor_gray_helmet:*>]);
 
 val scaleLeggings = <ore:scaleLeggings>;
-scaleLeggings.addItems([<iceandfire:armor_red_leggings>,<iceandfire:armor_green_leggings>,<iceandfire:armor_bronze_leggings>,<iceandfire:armor_gray_leggings>]);
+scaleLeggings.addItems([<iceandfire:armor_red_leggings:*>,<iceandfire:armor_green_leggings:*>,<iceandfire:armor_bronze_leggings:*>,<iceandfire:armor_gray_leggings:*>]);
 
 val scaleBoots = <ore:scaleBoots>;
-scaleBoots.addItems([<iceandfire:armor_red_boots>,<iceandfire:armor_green_boots>,<iceandfire:armor_bronze_boots>,<iceandfire:armor_gray_boots>]);
+scaleBoots.addItems([<iceandfire:armor_red_boots:*>,<iceandfire:armor_green_boots:*>,<iceandfire:armor_bronze_boots:*>,<iceandfire:armor_gray_boots:*>]);
 
 val scaleLightChestplate = <ore:scaleLightChestplate>;
-scaleLightChestplate.addItems([<iceandfire:armor_blue_chestplate>,<iceandfire:armor_white_chestplate>,<iceandfire:armor_sapphire_chestplate>,<iceandfire:armor_silver_chestplate>]);
+scaleLightChestplate.addItems([<iceandfire:armor_blue_chestplate:*>,<iceandfire:armor_white_chestplate:*>,<iceandfire:armor_sapphire_chestplate:*>,<iceandfire:armor_silver_chestplate:*>]);
 
 val scaleLightHelmet = <ore:scaleLightHelmet>;
-scaleLightHelmet.addItems([<iceandfire:armor_blue_helmet>,<iceandfire:armor_white_helmet>,<iceandfire:armor_sapphire_helmet>,<iceandfire:armor_silver_helmet>]);
+scaleLightHelmet.addItems([<iceandfire:armor_blue_helmet:*>,<iceandfire:armor_white_helmet:*>,<iceandfire:armor_sapphire_helmet:*>,<iceandfire:armor_silver_helmet:*>]);
 
 val scaleLightLeggings = <ore:scaleLightLeggings>;
-scaleLightLeggings.addItems([<iceandfire:armor_blue_leggings>,<iceandfire:armor_white_leggings>,<iceandfire:armor_sapphire_leggings>,<iceandfire:armor_silver_leggings>]);
+scaleLightLeggings.addItems([<iceandfire:armor_blue_leggings:*>,<iceandfire:armor_white_leggings:*>,<iceandfire:armor_sapphire_leggings:*>,<iceandfire:armor_silver_leggings:*>]);
 
 val scaleLightBoots = <ore:scaleLightBoots>;
-scaleLightBoots.addItems([<iceandfire:armor_blue_boots>,<iceandfire:armor_white_boots>,<iceandfire:armor_sapphire_boots>,<iceandfire:armor_silver_boots>]);
+scaleLightBoots.addItems([<iceandfire:armor_blue_boots:*>,<iceandfire:armor_white_boots:*>,<iceandfire:armor_sapphire_boots:*>,<iceandfire:armor_silver_boots:*>]);
 
 
 
 val trollChestplate = <ore:trollChestplate>;
-trollChestplate.addItems([<iceandfire:mountain_troll_leather_chestplate>,<iceandfire:forest_troll_leather_chestplate>,<iceandfire:frost_troll_leather_chestplate>]);
+trollChestplate.addItems([<iceandfire:mountain_troll_leather_chestplate:*>,<iceandfire:forest_troll_leather_chestplate:*>,<iceandfire:frost_troll_leather_chestplate:*>]);
 
 val trollHelmet = <ore:trollHelmet>;
-trollHelmet.addItems([<iceandfire:mountain_troll_leather_helmet>,<iceandfire:forest_troll_leather_helmet>,<iceandfire:frost_troll_leather_helmet>]);
+trollHelmet.addItems([<iceandfire:mountain_troll_leather_helmet:*>,<iceandfire:forest_troll_leather_helmet:*>,<iceandfire:frost_troll_leather_helmet:*>]);
 
 val trollLeggings = <ore:trollLeggings>;
-trollLeggings.addItems([<iceandfire:mountain_troll_leather_leggings>,<iceandfire:forest_troll_leather_leggings>,<iceandfire:frost_troll_leather_leggings>]);
+trollLeggings.addItems([<iceandfire:mountain_troll_leather_leggings:*>,<iceandfire:forest_troll_leather_leggings:*>,<iceandfire:frost_troll_leather_leggings:*>]);
 
 val trollBoots = <ore:trollBoots>;
-trollBoots.addItems([<iceandfire:mountain_troll_leather_boots>,<iceandfire:forest_troll_leather_boots>,<iceandfire:frost_troll_leather_boots>]);
+trollBoots.addItems([<iceandfire:mountain_troll_leather_boots:*>,<iceandfire:forest_troll_leather_boots:*>,<iceandfire:frost_troll_leather_boots:*>]);
 
 
 val deathWormChestplate = <ore:deathWormChestplate>;
-deathWormChestplate.addItems([<iceandfire:deathworm_yellow_chestplate>,<iceandfire:deathworm_white_chestplate>,<iceandfire:deathworm_red_chestplate>]);
+deathWormChestplate.addItems([<iceandfire:deathworm_yellow_chestplate:*>,<iceandfire:deathworm_white_chestplate:*>,<iceandfire:deathworm_red_chestplate:*>]);
 
 val deathWormHelmet = <ore:deathWormHelmet>;
-deathWormHelmet.addItems([<iceandfire:deathworm_yellow_helmet>,<iceandfire:deathworm_white_helmet>,<iceandfire:deathworm_red_helmet>]);
+deathWormHelmet.addItems([<iceandfire:deathworm_yellow_helmet:*>,<iceandfire:deathworm_white_helmet:*>,<iceandfire:deathworm_red_helmet:*>]);
 
 val deathWormLeggings = <ore:deathWormLeggings>;
-deathWormLeggings.addItems([<iceandfire:deathworm_yellow_leggings>,<iceandfire:deathworm_white_leggings>,<iceandfire:deathworm_red_leggings>]);
+deathWormLeggings.addItems([<iceandfire:deathworm_yellow_leggings:*>,<iceandfire:deathworm_white_leggings:*>,<iceandfire:deathworm_red_leggings:*>]);
 
 val deathWormBoots = <ore:deathWormBoots>;
-deathWormBoots.addItems([<iceandfire:deathworm_yellow_boots>,<iceandfire:deathworm_white_boots>,<iceandfire:deathworm_red_boots>]);
+deathWormBoots.addItems([<iceandfire:deathworm_yellow_boots:*>,<iceandfire:deathworm_white_boots:*>,<iceandfire:deathworm_red_boots:*>]);
 
 
 val tideChestplate = <ore:tideChestplate>;
-tideChestplate.addItems([<iceandfire:tide_blue_chestplate>,<iceandfire:tide_bronze_chestplate>,<iceandfire:tide_green_chestplate>,<iceandfire:tide_red_chestplate>,<iceandfire:tide_purple_chestplate>,<iceandfire:tide_teal_chestplate>]);
+tideChestplate.addItems([<iceandfire:tide_blue_chestplate:*>,<iceandfire:tide_bronze_chestplate:*>,<iceandfire:tide_green_chestplate:*>,<iceandfire:tide_red_chestplate:*>,<iceandfire:tide_purple_chestplate:*>,<iceandfire:tide_teal_chestplate:*>]);
 
 val tideHelmet = <ore:tideHelmet>;
-tideHelmet.addItems([<iceandfire:tide_blue_helmet>,<iceandfire:tide_bronze_helmet>,<iceandfire:tide_green_helmet>,<iceandfire:tide_red_helmet>,<iceandfire:tide_purple_helmet>,<iceandfire:tide_teal_helmet>]);
+tideHelmet.addItems([<iceandfire:tide_blue_helmet:*>,<iceandfire:tide_bronze_helmet:*>,<iceandfire:tide_green_helmet:*>,<iceandfire:tide_red_helmet:*>,<iceandfire:tide_purple_helmet:*>,<iceandfire:tide_teal_helmet:*>]);
 
 val tideLeggings = <ore:tideLeggings>;
-tideLeggings.addItems([<iceandfire:tide_blue_leggings>,<iceandfire:tide_bronze_leggings>,<iceandfire:tide_green_leggings>,<iceandfire:tide_red_leggings>,<iceandfire:tide_purple_leggings>,<iceandfire:tide_teal_leggings>]);
+tideLeggings.addItems([<iceandfire:tide_blue_leggings:*>,<iceandfire:tide_bronze_leggings:*>,<iceandfire:tide_green_leggings:*>,<iceandfire:tide_red_leggings:*>,<iceandfire:tide_purple_leggings:*>,<iceandfire:tide_teal_leggings:*>]);
 
 val tideBoots = <ore:tideBoots>;
-tideBoots.addItems([<iceandfire:tide_blue_boots>,<iceandfire:tide_bronze_boots>,<iceandfire:tide_green_boots>,<iceandfire:tide_red_boots>,<iceandfire:tide_purple_boots>,<iceandfire:tide_teal_boots>]);
+tideBoots.addItems([<iceandfire:tide_blue_boots:*>,<iceandfire:tide_bronze_boots:*>,<iceandfire:tide_green_boots:*>,<iceandfire:tide_red_boots:*>,<iceandfire:tide_purple_boots:*>,<iceandfire:tide_teal_boots:*>]);
 
 
 val myrmexChestplate = <ore:myrmexChestplate>;
-myrmexChestplate.addItems([<iceandfire:myrmex_jungle_chestplate>,<iceandfire:myrmex_desert_chestplate>]);
+myrmexChestplate.addItems([<iceandfire:myrmex_jungle_chestplate:*>,<iceandfire:myrmex_desert_chestplate:*>]);
 
 val myrmexHelmet = <ore:myrmexHelmet>;
-myrmexHelmet.addItems([<iceandfire:myrmex_jungle_helmet>,<iceandfire:myrmex_desert_helmet>]);
+myrmexHelmet.addItems([<iceandfire:myrmex_jungle_helmet:*>,<iceandfire:myrmex_desert_helmet:*>]);
 
 val myrmexLeggings = <ore:myrmexLeggings>;
-myrmexLeggings.addItems([<iceandfire:myrmex_jungle_leggings>,<iceandfire:myrmex_desert_leggings>]);
+myrmexLeggings.addItems([<iceandfire:myrmex_jungle_leggings:*>,<iceandfire:myrmex_desert_leggings:*>]);
 
 val myrmexBoots = <ore:myrmexBoots>;
-myrmexBoots.addItems([<iceandfire:myrmex_jungle_boots>,<iceandfire:myrmex_desert_boots>]);
+myrmexBoots.addItems([<iceandfire:myrmex_jungle_boots:*>,<iceandfire:myrmex_desert_boots:*>]);
 
 val runes = <ore:runeItem>;
-runes.addItems([<contenttweaker:fae_rune>,<contenttweaker:chaos_rune>,<contenttweaker:mind_rune>,<contenttweaker:balance_rune>,<contenttweaker:water_rune>,<contenttweaker:creation_rune>,<contenttweaker:holding_rune>,<contenttweaker:order_rune>,<contenttweaker:nature_rune>,<contenttweaker:plague_rune>,<contenttweaker:illusion_rune>,<contenttweaker:trans_rune>,<contenttweaker:air_rune>,<contenttweaker:knowledge_rune>,<contenttweaker:disint_rune>,<contenttweaker:draconic_rune>,<contenttweaker:blank_rune>,<contenttweaker:strength_rune>,<contenttweaker:aether_rune>,<contenttweaker:luna_rune>,<contenttweaker:poison_rune>,<contenttweaker:energy_rune>,<contenttweaker:sol_rune>,<contenttweaker:nether_rune>,<contenttweaker:life_rune>,<contenttweaker:time_rune>,<contenttweaker:fire_rune>,<contenttweaker:soul_rune>,<contenttweaker:death_rune>,<contenttweaker:earth_rune>,<contenttweaker:arcane_rune>,<endreborn:item_end_rune>,<quark:rune>]
+runes.addItems([<contenttweaker:fae_rune:*>,<contenttweaker:chaos_rune:*>,<contenttweaker:mind_rune:*>,<contenttweaker:balance_rune:*>,<contenttweaker:water_rune:*>,<contenttweaker:creation_rune:*>,<contenttweaker:holding_rune:*>,<contenttweaker:order_rune:*>,<contenttweaker:nature_rune:*>,<contenttweaker:plague_rune:*>,<contenttweaker:illusion_rune:*>,<contenttweaker:trans_rune:*>,<contenttweaker:air_rune:*>,<contenttweaker:knowledge_rune:*>,<contenttweaker:disint_rune:*>,<contenttweaker:draconic_rune:*>,<contenttweaker:blank_rune:*>,<contenttweaker:strength_rune:*>,<contenttweaker:aether_rune:*>,<contenttweaker:luna_rune:*>,<contenttweaker:poison_rune:*>,<contenttweaker:energy_rune:*>,<contenttweaker:sol_rune:*>,<contenttweaker:nether_rune:*>,<contenttweaker:life_rune:*>,<contenttweaker:time_rune:*>,<contenttweaker:fire_rune:*>,<contenttweaker:soul_rune:*>,<contenttweaker:death_rune:*>,<contenttweaker:earth_rune:*>,<contenttweaker:arcane_rune:*>,<endreborn:item_end_rune:*>,<quark:rune:*>]
 );
 
 val runenorain = <ore:runeNoRainbow>;
@@ -1814,44 +1812,44 @@ for brickItemPrimitive, brickBlockPrimitive in primitiveBrickBlockMap{
 
 // Generic Bricks
 val stoneBrickBlockMap = {
-    <minecraft:brick> : [<contenttweaker:brick_minecraft_clay>,<contenttweaker:loose_clay_bricks>],
-    <contenttweaker:brick_end> : [<minecraft:end_bricks>,<contenttweaker:loose_big_end_bricks>],
-    <contenttweaker:brick_white> : [<contenttweaker:brick_betterwithaddons_whitebrick>,<contenttweaker:loose_big_white_bricks>],
-    <contenttweaker:brick_dreadstone> : [<iceandfire:dread_stone_bricks>,<contenttweaker:loose_big_dreadstone_bricks>],
-    <contenttweaker:brick_black_basalt> : [<netherex:basalt_brick>,<contenttweaker:loose_basalt_nether_bricks>],
-    <contenttweaker:brick_brimstone> : [<contenttweaker:brick_quark_brimstone>,<contenttweaker:loose_big_brimstone_bricks>],
-    <contenttweaker:brick_permafrost> : [<contenttweaker:brick_quark_permafrost>,<contenttweaker:loose_big_permafrost_bricks>],
-    <contenttweaker:brick_sandstone> : [<contenttweaker:brick_quark_sandstone>,<contenttweaker:loose_sandstone_bricks>],
-    <contenttweaker:brick_red_sandstone> : [<contenttweaker:brick_quark_red_sandstone>,<contenttweaker:loose_red_sandstone_bricks>],
-    <contenttweaker:brick_soul_sandstone> : [<contenttweaker:brick_quark_soul_sandstone>,<contenttweaker:loose_soulsandstone_bricks>],
-    <contenttweaker:brick_holystone> : [<contenttweaker:brick_aether_legacy_holystone>,<contenttweaker:loose_holystone_bricks>],
-    <contenttweaker:brick_coade> : [<contenttweaker:brick_minecraft_stone>,<contenttweaker:loose_big_coade_bricks>],
-    <contenttweaker:brick_red_granite> : [<undergroundbiomes:igneous_brick>,<contenttweaker:loose_big_red_granite_bricks>],
-    <contenttweaker:brick_black_granite> : [<undergroundbiomes:igneous_brick:1>,<contenttweaker:loose_big_black_granite_bricks>],
-    <contenttweaker:brick_rhyolite> : [<undergroundbiomes:igneous_brick:2>,<contenttweaker:loose_big_rhyolite_bricks>],
-    <contenttweaker:brick_andesite> : [<undergroundbiomes:igneous_brick:3>,<contenttweaker:loose_big_andesite_bricks>],
-    <contenttweaker:brick_gabbro> : [<undergroundbiomes:igneous_brick:4>,<contenttweaker:loose_big_gabbro_bricks>],
-    <contenttweaker:brick_basalt> : [<undergroundbiomes:igneous_brick:5>,<contenttweaker:loose_big_basalt_bricks>],
-    <contenttweaker:brick_komatiite> : [<undergroundbiomes:igneous_brick:6>,<contenttweaker:loose_big_komatiite_bricks>],
-    <contenttweaker:brick_dacite> : [<undergroundbiomes:igneous_brick:7>,<contenttweaker:loose_big_dacite_bricks>],
-    <contenttweaker:brick_gneiss> : [<undergroundbiomes:metamorphic_brick>,<contenttweaker:loose_big_gneiss_bricks>],
-    <contenttweaker:brick_eclogite> : [<undergroundbiomes:metamorphic_brick:1>,<contenttweaker:loose_big_eclogite_bricks>],
-    <contenttweaker:brick_marble> : [<undergroundbiomes:metamorphic_brick:2>,<contenttweaker:loose_big_marble_bricks>],
-    <contenttweaker:brick_quartzite> : [<undergroundbiomes:metamorphic_brick:3>,<contenttweaker:loose_big_quartzite_bricks>],
-    <contenttweaker:brick_blue_schist> : [<undergroundbiomes:metamorphic_brick:4>,<contenttweaker:loose_big_blueschist_bricks>],
-    <contenttweaker:brick_green_schist> : [<undergroundbiomes:metamorphic_brick:5>,<contenttweaker:loose_big_greenschist_bricks>],
-    <contenttweaker:brick_soapstone> : [<undergroundbiomes:metamorphic_brick:6>,<contenttweaker:loose_big_soapstone_bricks>],
-    <contenttweaker:brick_migmatite> : [<undergroundbiomes:metamorphic_brick:7>,<contenttweaker:loose_big_migmatite_bricks>],
-    <contenttweaker:brick_limestone> : [<contenttweaker:big_limestone_bricks>,<contenttweaker:loose_big_limestone_bricks>],
-    <contenttweaker:brick_chalk> : [<contenttweaker:big_chalk_bricks>,<contenttweaker:loose_big_chalk_bricks>],
-    <contenttweaker:brick_shale> : [<contenttweaker:big_shale_bricks>,<contenttweaker:loose_big_shale_bricks>],
-    <contenttweaker:brick_siltstone> : [<contenttweaker:big_siltstone_bricks>,<contenttweaker:loose_big_siltstone_bricks>],
-    <contenttweaker:brick_lignite> : [<contenttweaker:big_lignite_bricks>,<contenttweaker:loose_big_lignite_bricks>],
-    <contenttweaker:brick_dolomite> : [<contenttweaker:big_dolomite_bricks>,<contenttweaker:loose_big_dolomite_bricks>],
-    <contenttweaker:brick_greywacke> : [<contenttweaker:big_greywacke_bricks>,<contenttweaker:loose_big_greywacke_bricks>],
-    <contenttweaker:brick_chert> : [<contenttweaker:big_chert_bricks>,<contenttweaker:loose_big_chert_bricks>],
-    <contenttweaker:masonry_brick> : [<contenttweaker:brick_pyrotech_masonry>,<contenttweaker:loose_stone_bricks>],
-	<contenttweaker:brick_serpentinite> : [<contenttweaker:big_serpentinite_bricks>,<contenttweaker:loose_big_serpentinite_bricks>]
+    <minecraft:brick> : 						[<contenttweaker:brick_minecraft_clay>,<contenttweaker:loose_clay_bricks>],
+    <contenttweaker:brick_end> : 				[<minecraft:end_bricks>,<contenttweaker:loose_big_end_bricks>],
+    <contenttweaker:brick_white> : 			[<contenttweaker:brick_betterwithaddons_whitebrick>,<contenttweaker:loose_big_white_bricks>],
+    <contenttweaker:brick_dreadstone> : 		[<iceandfire:dread_stone_bricks>,<contenttweaker:loose_big_dreadstone_bricks>],
+    <contenttweaker:brick_black_basalt> : 	[<netherex:basalt_brick>,<contenttweaker:loose_basalt_nether_bricks>],
+    <contenttweaker:brick_brimstone> : 		[<contenttweaker:brick_quark_brimstone>,<contenttweaker:loose_big_brimstone_bricks>],
+    <contenttweaker:brick_permafrost> : 		[<contenttweaker:brick_quark_permafrost>,<contenttweaker:loose_big_permafrost_bricks>],
+    <contenttweaker:brick_sandstone> : 		[<contenttweaker:brick_quark_sandstone>,<contenttweaker:loose_sandstone_bricks>],
+    <contenttweaker:brick_red_sandstone> : 	[<contenttweaker:brick_quark_red_sandstone>,<contenttweaker:loose_red_sandstone_bricks>],
+    <contenttweaker:brick_soul_sandstone> :	[<contenttweaker:brick_quark_soul_sandstone>,<contenttweaker:loose_soulsandstone_bricks>],
+    <contenttweaker:brick_holystone> : 		[<contenttweaker:brick_aether_legacy_holystone>,<contenttweaker:loose_holystone_bricks>],
+    <contenttweaker:brick_coade> : 			[<contenttweaker:brick_minecraft_stone>,<contenttweaker:loose_big_coade_bricks>],
+    <contenttweaker:brick_red_granite> : 	[<undergroundbiomes:igneous_brick>,<contenttweaker:loose_big_red_granite_bricks>],
+    <contenttweaker:brick_black_granite> : 	[<undergroundbiomes:igneous_brick:1>,<contenttweaker:loose_big_black_granite_bricks>],
+    <contenttweaker:brick_rhyolite> : 		[<undergroundbiomes:igneous_brick:2>,<contenttweaker:loose_big_rhyolite_bricks>],
+    <contenttweaker:brick_andesite> : 		[<undergroundbiomes:igneous_brick:3>,<contenttweaker:loose_big_andesite_bricks>],
+    <contenttweaker:brick_gabbro> : 			[<undergroundbiomes:igneous_brick:4>,<contenttweaker:loose_big_gabbro_bricks>],
+    <contenttweaker:brick_basalt> : 			[<undergroundbiomes:igneous_brick:5>,<contenttweaker:loose_big_basalt_bricks>],
+    <contenttweaker:brick_komatiite> : 		[<undergroundbiomes:igneous_brick:6>,<contenttweaker:loose_big_komatiite_bricks>],
+    <contenttweaker:brick_dacite> : 			[<undergroundbiomes:igneous_brick:7>,<contenttweaker:loose_big_dacite_bricks>],
+    <contenttweaker:brick_gneiss> : 			[<undergroundbiomes:metamorphic_brick>,<contenttweaker:loose_big_gneiss_bricks>],
+    <contenttweaker:brick_eclogite> : 		[<undergroundbiomes:metamorphic_brick:1>,<contenttweaker:loose_big_eclogite_bricks>],
+    <contenttweaker:brick_marble> : 			[<undergroundbiomes:metamorphic_brick:2>,<contenttweaker:loose_big_marble_bricks>],
+    <contenttweaker:brick_quartzite> : 		[<undergroundbiomes:metamorphic_brick:3>,<contenttweaker:loose_big_quartzite_bricks>],
+    <contenttweaker:brick_blue_schist> : 	[<undergroundbiomes:metamorphic_brick:4>,<contenttweaker:loose_big_blueschist_bricks>],
+    <contenttweaker:brick_green_schist> : 	[<undergroundbiomes:metamorphic_brick:5>,<contenttweaker:loose_big_greenschist_bricks>],
+    <contenttweaker:brick_soapstone> : 		[<undergroundbiomes:metamorphic_brick:6>,<contenttweaker:loose_big_soapstone_bricks>],
+    <contenttweaker:brick_migmatite> : 		[<undergroundbiomes:metamorphic_brick:7>,<contenttweaker:loose_big_migmatite_bricks>],
+    <contenttweaker:brick_limestone> : 		[<contenttweaker:big_limestone_bricks>,<contenttweaker:loose_big_limestone_bricks>],
+    <contenttweaker:brick_chalk> : 			[<contenttweaker:big_chalk_bricks>,<contenttweaker:loose_big_chalk_bricks>],
+    <contenttweaker:brick_shale> : 			[<contenttweaker:big_shale_bricks>,<contenttweaker:loose_big_shale_bricks>],
+    <contenttweaker:brick_siltstone> : 		[<contenttweaker:big_siltstone_bricks>,<contenttweaker:loose_big_siltstone_bricks>],
+    <contenttweaker:brick_lignite> : 		[<contenttweaker:big_lignite_bricks>,<contenttweaker:loose_big_lignite_bricks>],
+    <contenttweaker:brick_dolomite> : 		[<contenttweaker:big_dolomite_bricks>,<contenttweaker:loose_big_dolomite_bricks>],
+    <contenttweaker:brick_greywacke> : 		[<contenttweaker:big_greywacke_bricks>,<contenttweaker:loose_big_greywacke_bricks>],
+    <contenttweaker:brick_chert> : 			[<contenttweaker:big_chert_bricks>,<contenttweaker:loose_big_chert_bricks>],
+    <contenttweaker:masonry_brick> : 		[<contenttweaker:brick_pyrotech_masonry>,<contenttweaker:loose_stone_bricks>],
+	<contenttweaker:brick_serpentinite> : 	[<contenttweaker:big_serpentinite_bricks>,<contenttweaker:loose_big_serpentinite_bricks>]
 //    <contenttweaker:brick_blue_slate> : [<contenttweaker:loose_big_blue_slate_bricks>,],
 //    <contenttweaker:brick_purple_slate> : [<contenttweaker:loose_big_purple_slate_bricks>,],
 //    <contenttweaker:brick_green_slate> : [<contenttweaker:loose_big_green_slate_bricks>,]
