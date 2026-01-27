@@ -39,6 +39,7 @@ JEI.removeAndHide(<quark:red_nether_brick_stairs>);
 JEI.removeAndHide(<quark:nether_brick_fence_gate>);
 JEI.removeAndHide(<quark:smoker>);
 JEI.removeAndHide(<quark:polished_stone>);
+JEI.removeAndHide(<quark:world_stone_carved>);
 
 removeRecipeNameArray(
 	concatString([["quark:iron_"], ["button", "ladder", "plate_1"]]));

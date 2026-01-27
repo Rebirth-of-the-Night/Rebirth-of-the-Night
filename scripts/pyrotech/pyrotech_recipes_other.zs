@@ -114,6 +114,7 @@ CompactingBin.addRecipe("compactrottenflesh", <charm:rotten_flesh_block>, <minec
 CompactingBin.addRecipe("compactflesh", <biomesoplenty:flesh>, <biomesoplenty:fleshchunk>, 4, true);
 
 //Composting Recipes
+/*
 CompostBin.addRecipe(<pyrotech:mulch>, <betterwithmods:material:2>, 12);
 CompostBin.addRecipe(<pyrotech:mulch>, <betterwithmods:hemp>, 12);
 CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:blackberryseeditem>, 12);
@@ -200,6 +201,7 @@ CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:sisalseeditem>, 12);
 CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:taroseeditem>, 12);
 CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:tomatilloseeditem>, 12);
 CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:juniperberryseeditem>, 12);
+*/
 
 CrudeDryingRack.removeRecipes(<pyrotech:material:2>);
 CrudeDryingRack.removeRecipes(<pyrotech:material:13>);

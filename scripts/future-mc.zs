@@ -426,7 +426,6 @@ var ores as IItemStack[string] = {
 	"simpleores_copper_ore" : <simpleores:copper_ingot>,
 	"redstone_ore" : <minecraft:redstone>,
 	"biomesoplenty_peridot_ore" : <biomesoplenty:gem:2>,
-	"biomesoplenty_malachite_ore" : <biomesoplenty:gem:5>,
 	"coal_ore" : <minecraft:coal>,
 	"emerald_ore" : <minecraft:emerald>,
 	"diamond_ore" : <minecraft:diamond>,
@@ -512,6 +511,8 @@ for ore, result in moddedBlastFurnaceRecipes {
 }
 
 BlastFurnace.removeRecipe(<rustic:dust_tiny_iron>);
+BlastFurnace.removeRecipeForInput(<biomesoplenty:gem_ore:5>);
+BlastFurnace.removeRecipeForInput(<netherex:amethyst_ore>);
 
 // Brick resistance
 <contenttweaker:brick_red_granite>.asBlock().definition.resistance = <undergroundbiomes:igneous_brick:0>.asBlock().definition.resistance;
