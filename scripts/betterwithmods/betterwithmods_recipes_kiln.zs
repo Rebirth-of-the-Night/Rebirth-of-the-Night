@@ -6,10 +6,7 @@ import crafttweaker.block.IBlock;
 import crafttweaker.block.IMaterial;
 import mods.jei.JEI;
 
-Kiln.registerBlock(<contenttweaker:brick_minecraft_clay>);
-Kiln.registerBlock(<contenttweaker:brick_minecraft_nether>);
-Kiln.registerBlock(<contenttweaker:brick_pyrotech_refractory>);
-Kiln.registerBlock(<contenttweaker:brick_ceramics_porcelain>);
+Kiln.registerBlock(<ceramics:clay_hard:1>);
 
 Kiln.removeAll();
 
