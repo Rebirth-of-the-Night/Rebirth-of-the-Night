@@ -193,6 +193,8 @@ for w, weapon in sapphireweps{
 <contenttweaker:mythril_masonpick:*>.addTooltip("Can instantly remove resistant blocks for 20 durability.");
 <contenttweaker:sfs_masonpick:*>.addTooltip("Can instantly remove resistant blocks for 20 durability.");
 <contenttweaker:steel_crowbar:*>.addTooltip("Can instantly remove resistant blocks for 20 durability.");
+<contenttweaker:harmony_staff:*>.addTooltip("The power of creation and destruction, within the palm of your hand.");
+<contenttweaker:sowing_scepter:*>.addTooltip("Fertilizes soil within a 3x3 area.");
 <betterwithmods:unfired_pottery:4>.addTooltip("Can be baked in a pit kiln.");
 <contenttweaker:unfired_mud_brick:*>.addTooltip("Can be baked in a pit kiln.");
 <contenttweaker:unfired_adobe_brick:*>.addTooltip("Can be baked in a pit kiln.");

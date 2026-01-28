@@ -205,7 +205,7 @@ clover4.setToolClass("none");
 clover4.register();
 
 var petal_blue_big_flower = VanillaFactory.createBlock("petal_blue_big_flower", <blockmaterial:Leaves>);
-petal_blue_big_flower.setBlockHardness(15.5);
+petal_blue_big_flower.setBlockHardness(3.0);
 petal_blue_big_flower.setBlockResistance(6.0);
 petal_blue_big_flower.setReplaceable(false);
 petal_blue_big_flower.setLightValue(0.1);

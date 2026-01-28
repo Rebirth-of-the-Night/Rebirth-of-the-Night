@@ -277,6 +277,8 @@ JEI.addDescription(expertly_crafted_arrow_head, "This arrow head is of an exquis
 JEI.addDescription(<pyrotech:compost_bin>,"Composting is simple; fill up the composter with food you don't need, pour in a bit of water, and let time take care of the rest.");
 
 JEI.addDescription(<dungeontactics:engineers_wrench_iron>,"Used to rotate blocks, such as pistons or fans, and to reset triggered traps. Good for picking up redstone stuff and rails. Sneak & use on a trap plate to hide it.");
+JEI.addDescription(<contenttweaker:harmony_staff>,"Manipulates the entropy of specific blocks, such as stone. Right click to channel creation, sneak right click to channel disintegration.");
+JEI.addDescription(<contenttweaker:sowing_scepter>,"Channels nature magic to fertilize farmland. Converts up to a 3x3 of farmland into rich soil.");
 JEI.removeAndHide(<base:wrench>);
 JEI.addDescription(<contenttweaker:peat>,"A mass of partially decomposed vegetal matter found in swamps, bogs and the like. It's a good fuel, but it can be improved further.");
 JEI.addDescription(<contenttweaker:mossy_peat>,"Peat overtaken by cave moss. This sponge-like mass will absorb coalbed methane like no other. It also has extreme spring potential, jump at your own risk.");

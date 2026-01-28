@@ -1,0 +1,851 @@
+{
+    	"block_pools": [
+            {
+			"name": "Botanic Glass Rune",
+			"type": {
+				"type": "block",
+				"name": "quark:framed_glass"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:nature_rune"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "sereneseasons:greenhouse_glass"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle happyVillager ~ ~ ~ 0.3 0.5 0.3 1 50"
+                }
+            ]
+        },
+        {
+			"name": "Botanic Glass Artificial Nature",
+			"type": {
+				"type": "block",
+				"name": "quark:framed_glass"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:artificial_nature"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "sereneseasons:greenhouse_glass"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle happyVillager ~ ~ ~ 0.3 0.5 0.3 1 50"
+                }
+            ]
+        },
+        {
+			"name": "Soul Sand Rune",
+			"type": {
+				"type": "ore",
+				"name": "sand"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:soul_rune"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "minecraft:soul_sand"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:soul_soil_place",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block",
+                    "pitch": "0.6",
+                    "volume": "0.5"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 1 50"
+                }
+            ]
+        },
+        {
+			"name": "Thatch",
+			"type": {
+				"type": "block",
+				"name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minecraft:wheat"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "quark:thatch"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:roots_break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Turf",
+			"type": {
+				"type": "block",
+				"name": "futuremc:scaffolding"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minecraft:tallgrass",
+                    "meta": "1"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "quark:turf"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:roots_break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Lava Bricks",
+			"type": {
+			    "type": "block_list",
+                "blocks":
+                [
+                    {
+                        "name": "pyrotech:refractory_brick_block"
+                    },
+                    {
+                        "name": "contenttweaker:brick_pyrotech_refractory"
+                    }
+                ]
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minecraft:magma_cream"
+                },
+                {
+                    "type": "require_item",
+                    "name": "artisanworktables:artisans_carver_gold",
+                    "offhand": "true"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "ceramics:clay_hard",
+                    "meta": "5"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:block.lava.extinguish",
+                    "category": "block",
+                    "volume": "0.2",
+                    "pitch": "1.6"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+			"name": "Silver From Dirt",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:rocky_dirt"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "artisanworktables:artisans_lens_gold"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "minecraft:dirt"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:roots_break",
+                    "category": "block"
+                },
+                {
+                    "type": "drop_items"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "cloud",
+                    "amount": "8",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.05"
+                }
+
+            ],
+            "drops": [
+                { 
+                    "name": "iceandfire:silver_nugget",
+                    "amount": "1",
+                    "chance": 20
+                }
+            ]
+        },
+        {
+			"name": "Codex From Dirt",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:rocky_dirt"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "cyclicmagic:tool_spelunker"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "minecraft:dirt"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:roots_break",
+                    "category": "block"
+                },
+                {
+                    "type": "drop_items"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "cloud",
+                    "amount": "8",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.05"
+                }
+
+            ],
+            "drops": [
+                { 
+                    "name": "villagenames:codex",
+                    "amount": "1",
+                    "chance": 33
+                }
+            ]
+        },
+        {
+			"name": "Mysterious Vessel 1",
+			"type": {
+				"type": "block",
+				"name": "betterwithmods:cooking_pot",
+                "meta": "2"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "iceandfire:venerable_stump"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "globalxp:xp_block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 1 50"
+                }
+            ]
+        },
+        {
+			"name": "Mysterious Vessel 2",
+			"type": {
+				"type": "block",
+				"name": "iceandfire:venerable_stump"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "betterwithmods:cooking_pot",
+                    "meta": "2"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "globalxp:xp_block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 1 50"
+                }
+            ]
+        },
+        {
+			"name": "Masonry Brick Two",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:masonry_brick"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:masonry_brick"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:masonry_brick_two"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:block.stone.place",
+                    "category": "block"
+                }
+            ]
+        },
+        {
+                "name": "Arcane Focus",
+                "type": {
+                    "type": "block",
+                    "name": "dimstack:bedrock"
+                },
+                "clicktype": "rightclick",
+                "properties": [
+                    {
+                        "type": "require_item_list",
+                        "items": [
+                        {"name": "contenttweaker:arcane_focus", "meta": "1"},
+                        {"name": "contenttweaker:arcane_focus", "meta": "2"},
+                        {"name": "contenttweaker:arcane_focus", "meta": "3"},
+                        {"name": "contenttweaker:arcane_focus", "meta": "4"},
+                        {"name": "contenttweaker:arcane_focus", "meta": "5"},
+                        {"name": "contenttweaker:arcane_focus", "meta": "6"},
+                        {"name": "contenttweaker:arcane_focus", "meta": "7"},
+                        {"name": "contenttweaker:arcane_focus", "meta": "8"},
+                        {"name": "contenttweaker:arcane_focus", "meta": "9"},
+                        {"name": "contenttweaker:arcane_focus", "meta": "10"},
+                        {"name": "contenttweaker:arcane_focus", "meta": "11"},
+                        {"name": "contenttweaker:arcane_focus", "meta": "12"},
+                        {"name": "contenttweaker:arcane_focus", "meta": "13"},
+                        {"name": "contenttweaker:arcane_focus", "meta": "14"},
+                        {"name": "contenttweaker:arcane_focus", "meta": "15"},
+                        {"name": "contenttweaker:arcane_focus", "meta": "16"}
+                        ]
+                    },
+                    {
+                        "type": "damage_item",
+                        "amount": "-1"
+                    },
+                    {
+                        "type": "swing_hand"
+                    },
+                    {
+                        "type": "consume_block",
+                        "name": "minecraft:air"
+                    },
+                    {
+                        "type": "play_sound",
+                        "name": "arcaneworld:ritual_item",
+                        "category": "block"
+                    },
+                    {
+                        "type": "play_sound",
+                        "name": "arcaneworld:ritual_start",
+                        "category": "block",
+                        "volume": "0.6",
+                        "pitch": "0.8"
+                    },
+                    {
+                        "type": "play_sound",
+                        "name": "minecraft:ambient.cave",
+                        "category": "block",
+                        "volume": "0.2",
+                        "pitch": "0.8"
+                    },
+                    {
+                    "type": "use_command",
+                    "name": "particle witchMagic ~ ~ ~ 0.3 0.5 0.3 1 50"
+                    }
+                ]
+            },
+            {
+                "name": "Magic Bomb",
+                "type": {
+                    "type": "block",
+                    "name": "dimstack:bedrock"
+                },
+                "clicktype": "rightclick",
+                "properties": [
+                    {
+                        "type": "require_item",
+                        "name": "contenttweaker:magic_bomb"
+                    },
+                    {
+                        "type": "consume_item",
+                        "amount": "1"
+                    },
+                    {
+                        "type": "swing_hand"
+                    },
+                    {
+                    "type": "has_block_structure",
+                    "blocks": [
+                            {
+                                "name": "dimstack:bedrock",
+                                "positions":[
+                                    {
+                                    "x": "0",
+                                    "y": "0",
+                                    "z": "0"
+                                    },
+                                    {
+                                    "x": "1",
+                                    "y": "0",
+                                    "z": "0"
+                                    },
+                                    {
+                                    "x": "0",
+                                    "y": "0",
+                                    "z": "1"
+                                    },
+                                    {
+                                    "x": "-1",
+                                    "y": "0",
+                                    "z": "0"
+                                    },
+                                    {
+                                    "x": "0",
+                                    "y": "0",
+                                    "z": "-1"
+                                    },
+                                    {
+                                    "x": "1",
+                                    "y": "0",
+                                    "z": "1"
+                                    },
+                                    {
+                                    "x": "-1",
+                                    "y": "0",
+                                    "z": "-1"
+                                    },
+                                    {
+                                    "x": "1",
+                                    "y": "0",
+                                    "z": "-1"
+                                    },
+                                    {
+                                    "x": "-1",
+                                    "y": "0",
+                                    "z": "1"
+                                    },
+                                    {
+                                    "x": "2",
+                                    "y": "0",
+                                    "z": "-2"
+                                    },
+                                    {
+                                    "x": "2",
+                                    "y": "0",
+                                    "z": "-1"
+                                    },
+                                    {
+                                    "x": "2",
+                                    "y": "0",
+                                    "z": "0"
+                                    },
+                                    {
+                                    "x": "2",
+                                    "y": "0",
+                                    "z": "1"
+                                    },
+                                    {
+                                    "x": "2",
+                                    "y": "0",
+                                    "z": "2"
+                                    },
+                                    {
+                                    "x": "1",
+                                    "y": "0",
+                                    "z": "2"
+                                    },
+                                    {
+                                    "x": "0",
+                                    "y": "0",
+                                    "z": "2"
+                                    },
+                                    {
+                                    "x": "-1",
+                                    "y": "0",
+                                    "z": "2"
+                                    },
+                                    {
+                                    "x": "-2",
+                                    "y": "0",
+                                    "z": "2"
+                                    },
+                                    {
+                                    "x": "-2",
+                                    "y": "0",
+                                    "z": "1"
+                                    },
+                                    {
+                                    "x": "-2",
+                                    "y": "0",
+                                    "z": "0"
+                                    },
+                                    {
+                                    "x": "-2",
+                                    "y": "0",
+                                    "z": "-1"
+                                    },
+                                    {
+                                    "x": "-2",
+                                    "y": "0",
+                                    "z": "-2"
+                                    },
+                                    {
+                                    "x": "-1",
+                                    "y": "0",
+                                    "z": "-2"
+                                    },
+                                    {
+                                    "x": "0",
+                                    "y": "0",
+                                    "z": "-2"
+                                    },
+                                    {
+                                    "x": "1",
+                                    "y": "0",
+                                    "z": "-2"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {"type": "place_block_structure",
+                    "blocks": [
+                            {
+                                "name": "minecraft:air",
+                                "positions":[
+                                    {
+                                    "x": "0",
+                                    "y": "0",
+                                    "z": "0"
+                                    },
+                                    {
+                                    "x": "1",
+                                    "y": "0",
+                                    "z": "0"
+                                    },
+                                    {
+                                    "x": "0",
+                                    "y": "0",
+                                    "z": "1"
+                                    },
+                                    {
+                                    "x": "-1",
+                                    "y": "0",
+                                    "z": "0"
+                                    },
+                                    {
+                                    "x": "0",
+                                    "y": "0",
+                                    "z": "-1"
+                                    },
+                                    {
+                                    "x": "1",
+                                    "y": "0",
+                                    "z": "1"
+                                    },
+                                    {
+                                    "x": "-1",
+                                    "y": "0",
+                                    "z": "-1"
+                                    },
+                                    {
+                                    "x": "1",
+                                    "y": "0",
+                                    "z": "-1"
+                                    },
+                                    {
+                                    "x": "-1",
+                                    "y": "0",
+                                    "z": "1"
+                                    },
+                                    {
+                                    "x": "2",
+                                    "y": "0",
+                                    "z": "-2"
+                                    },
+                                    {
+                                    "x": "2",
+                                    "y": "0",
+                                    "z": "-1"
+                                    },
+                                    {
+                                    "x": "2",
+                                    "y": "0",
+                                    "z": "0"
+                                    },
+                                    {
+                                    "x": "2",
+                                    "y": "0",
+                                    "z": "1"
+                                    },
+                                    {
+                                    "x": "2",
+                                    "y": "0",
+                                    "z": "2"
+                                    },
+                                    {
+                                    "x": "1",
+                                    "y": "0",
+                                    "z": "2"
+                                    },
+                                    {
+                                    "x": "0",
+                                    "y": "0",
+                                    "z": "2"
+                                    },
+                                    {
+                                    "x": "-1",
+                                    "y": "0",
+                                    "z": "2"
+                                    },
+                                    {
+                                    "x": "-2",
+                                    "y": "0",
+                                    "z": "2"
+                                    },
+                                    {
+                                    "x": "-2",
+                                    "y": "0",
+                                    "z": "1"
+                                    },
+                                    {
+                                    "x": "-2",
+                                    "y": "0",
+                                    "z": "0"
+                                    },
+                                    {
+                                    "x": "-2",
+                                    "y": "0",
+                                    "z": "-1"
+                                    },
+                                    {
+                                    "x": "-2",
+                                    "y": "0",
+                                    "z": "-2"
+                                    },
+                                    {
+                                    "x": "-1",
+                                    "y": "0",
+                                    "z": "-2"
+                                    },
+                                    {
+                                    "x": "0",
+                                    "y": "0",
+                                    "z": "-2"
+                                    },
+                                    {
+                                    "x": "1",
+                                    "y": "0",
+                                    "z": "-2"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "play_sound",
+                        "name": "arcaneworld:ritual_item",
+                        "category": "block"
+                    },
+                    {
+                        "type": "play_sound",
+                        "name": "arcaneworld:ritual_start",
+                        "category": "block",
+                        "volume": "0.6",
+                        "pitch": "0.8"
+                    },
+                    {
+                        "type": "play_sound",
+                        "name": "minecraft:ambient.cave",
+                        "category": "block",
+                        "volume": "0.2",
+                        "pitch": "0.8"
+                    },
+                    {
+                        "type": "play_sound",
+                        "name": "minecraft:entity.generic.explode",
+                        "category": "block",
+                        "volume": "1.4",
+                        "pitch": "0.6"
+                    },
+                    {
+                    "type": "use_command",
+                    "name": "particle witchMagic ~ ~ ~ 0.7 1 0.6 1 200"
+                    },
+                    {
+                    "type": "use_command",
+                    "name": "particle cloud ~ ~ ~ 0.7 1 0.6 0.5 400"
+                    },
+                    {
+                    "type": "use_command",
+                    "name": "effect @a[r=15] nausea 7 25"
+                    },
+                    {
+                    "type": "use_command",
+                    "name": "effect @a[r=15] blindness 7"
+                    }
+                ]
+            },
+            {
+			"name": "Masonry Brick Two",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:masonry_brick"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:masonry_brick"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:masonry_brick_two"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:block.stone.place",
+                    "category": "block"
+                }
+                ]
+            }
+        ]
+    }
+   

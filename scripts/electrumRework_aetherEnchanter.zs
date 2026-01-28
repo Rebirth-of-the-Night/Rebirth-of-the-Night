@@ -58,6 +58,8 @@ Enchanter.registerEnchanterFuel(<dungeontactics:ducttape:*>,3000);
 //Misc.
 Enchanter.registerEnchantment(<harvestersnight:harvester_scythe>, 8800);
 Enchanter.registerEnchantment(<dungeontactics:lithen_scythe>, 8800);
+Enchanter.registerEnchantment(<contenttweaker:sowing_scepter>, 8800);
+Enchanter.registerEnchantment(<contenttweaker:harmony_staff>, 8800);
 
 //Aether
 Enchanter.registerEnchantment(<aether_legacy:valkyrie_pickaxe>, 8800);

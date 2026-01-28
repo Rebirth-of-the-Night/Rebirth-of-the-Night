@@ -192,6 +192,11 @@ tile.contenttweaker.wither_bone_4.name=Four Standing Wither Bones
 tile.contenttweaker.cincinnasite_chandelier.name=Cincinnasite Chandelier
 tile.contenttweaker.coade_stone_polished.name=Polished Coade Stone
 tile.contenttweaker.wolf_statue.name=Wolf Statue
+tile.contenttweaker.dread_cold_bud_small.name=Small Dread Crystal Bud
+tile.contenttweaker.dread_cold_bud_medium.name=Medium Dread Crystal Bud
+tile.contenttweaker.dread_cold_bud_large.name=Large Dread Crystal Bud
+tile.contenttweaker.dread_cold_cluster.name=Dread Crystal Cluster
+tile.contenttweaker.dread_cold_geode.name=Dread Crystal Geode
 tile.contenttweaker.concrete_gray_brick.name=Ancient Gray Concrete Brick
 tile.contenttweaker.concrete_gray_chiseled.name=Ancient Chiseled Gray Concrete Brick
 tile.contenttweaker.lost_cargo.name=Lost Cargo Cart
@@ -319,6 +324,8 @@ item.contenttweaker.mythril_masonpick.name=Mythril Mason Pick
 item.contenttweaker.mythril_mattock.name=Mythril Mattock
 item.contenttweaker.sfs_masonpick.name=Soulforged Steel Mason Pick
 item.contenttweaker.steel_crowbar.name=Steel Crowbar
+item.contenttweaker.harmony_staff.name=Staff Of Harmony
+item.contenttweaker.sowing_scepter.name=Scepter Of Sowing
 
 #------------------------------------------------------------------------------
 # Bricks
@@ -408,7 +415,6 @@ tile.contenttweaker.big_lignite_bricks.name=Lignite Bricks
 tile.contenttweaker.big_serpentinite_bricks.name=Serpentinite Bricks
 tile.contenttweaker.brick_red_granite_sandstone.name=Red Granite Sandstone Bricks
 tile.contenttweaker.brick_white_sandstone.name=White Sandstone Bricks
-tile.contenttweaker.bwm_kiln_bricks.name=Structural Kiln Bricks
 
 item.contenttweaker.brick_coade.name=Coade Brick   
 item.contenttweaker.brick_red_granite.name=Red Granite Brick   
@@ -449,7 +455,6 @@ item.contenttweaker.brick_soul_sandstone.name=Soul Sandstone Brick
 item.contenttweaker.brick_black_basalt.name=Nether Basalt Brick   
 item.contenttweaker.brick_end.name=End Stone Brick   
 item.contenttweaker.brick_white.name=White Brick
-
 
 #------------------------------------------------------------------------------
 # Temporary Bricks

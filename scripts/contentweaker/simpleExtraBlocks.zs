@@ -7,6 +7,9 @@ import mods.contenttweaker.BlockMaterial;
 import mods.contenttweaker.Block;
 import mods.contenttweaker.AxisAlignedBB;
 import mods.contenttweaker.Color;
+import mods.contenttweaker.World;
+import mods.zenutils.cotx.DirectionalBlock;
+import mods.zenutils.cotx.IPlacementFacingFunction;
 
 /*Recipes for Extra Blocks are handled in the minecraft.zs script
 /////////////////////////////////////////////////////////////////
@@ -435,7 +438,7 @@ dolomite_straws.setToolLevel(0);
 dolomite_straws.register();
 
 // Wolf Statue
-var wolf_statue = VanillaFactory.createBlock("wolf_statue", <blockmaterial:Rock>);
+var wolf_statue = VanillaFactory.createDirectionalBlock("wolf_statue", <blockmaterial:Rock>, "HORIZONTAL", false, true);
 wolf_statue.axisAlignedBB = AxisAlignedBB.create(
      2.0 / 16.0,
      0.0 / 16.0,
@@ -446,10 +449,125 @@ wolf_statue.axisAlignedBB = AxisAlignedBB.create(
 	);
 wolf_statue.setFullBlock(false);
 wolf_statue.setLightOpacity(0.5);
-wolf_statue.setCreativeTab(<creativetab:decorations>);
+wolf_statue.setCreativeTab(<creativetab:rotn_blocks>);
 wolf_statue.setBlockSoundType(<soundtype:stone>);
 wolf_statue.setToolLevel(0);
 wolf_statue.register();
+
+// Dread Cold Crystals
+var dread_cold_bud_small = VanillaFactory.createDirectionalBlock("dread_cold_bud_small", <blockmaterial:Packed_Ice>, "ALL", false, false);
+dread_cold_bud_small.placementFacingFunction = IPlacementFacingFunction.side();
+dread_cold_bud_small.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     4.0 / 16.0,
+     16.0 / 16.0,
+	12.0 / 16.0,
+    12.0 / 16.0,
+    12.0 / 16.0
+	);
+dread_cold_bud_small.setFullBlock(false);
+dread_cold_bud_small.setLightOpacity(0.5);
+dread_cold_bud_small.setCreativeTab(<creativetab:rotn_blocks>);
+dread_cold_bud_small.setBlockSoundType(<soundtype:glass>);
+dread_cold_bud_small.setBlockLayer("CUTOUT");
+dread_cold_bud_small.setToolLevel(0);
+dread_cold_bud_small.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+    return;
+});
+dread_cold_bud_small.register();
+
+var dread_cold_bud_medium = VanillaFactory.createDirectionalBlock("dread_cold_bud_medium", <blockmaterial:Packed_Ice>, "ALL", false, false);
+dread_cold_bud_medium.placementFacingFunction = IPlacementFacingFunction.side();
+dread_cold_bud_medium.axisAlignedBB = AxisAlignedBB.create(
+     3.0 / 16.0,
+     3.0 / 16.0,
+     16.0 / 16.0,
+	13.0 / 16.0,
+    13.0 / 16.0,
+    8.0 / 16.0
+	);
+dread_cold_bud_medium.setFullBlock(false);
+dread_cold_bud_medium.setLightOpacity(0.5);
+dread_cold_bud_medium.setCreativeTab(<creativetab:rotn_blocks>);
+dread_cold_bud_medium.setBlockSoundType(<soundtype:glass>);
+dread_cold_bud_medium.setBlockLayer("CUTOUT");
+dread_cold_bud_medium.setToolLevel(0);
+dread_cold_bud_medium.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+    return;
+});
+dread_cold_bud_medium.register();
+
+var dread_cold_bud_large = VanillaFactory.createDirectionalBlock("dread_cold_bud_large", <blockmaterial:Packed_Ice>, "ALL", false, false);
+dread_cold_bud_large.placementFacingFunction = IPlacementFacingFunction.side();
+dread_cold_bud_large.axisAlignedBB = AxisAlignedBB.create(
+     2.0 / 16.0,
+     2.0 / 16.0,
+     16.0 / 16.0,
+	14.0 / 16.0,
+    14.0 / 16.0,
+    5.0 / 16.0
+	);
+dread_cold_bud_large.setFullBlock(false);
+dread_cold_bud_large.setLightOpacity(0.5);
+dread_cold_bud_large.setCreativeTab(<creativetab:rotn_blocks>);
+dread_cold_bud_large.setBlockSoundType(<soundtype:glass>);
+dread_cold_bud_large.setBlockLayer("CUTOUT");
+dread_cold_bud_large.setToolLevel(0);
+dread_cold_bud_large.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+    return;
+});
+dread_cold_bud_large.register();
+
+var dread_cold_cluster = VanillaFactory.createDirectionalBlock("dread_cold_cluster", <blockmaterial:Packed_Ice>, "ALL", false, false);
+dread_cold_cluster.placementFacingFunction = IPlacementFacingFunction.side();
+dread_cold_cluster.axisAlignedBB = AxisAlignedBB.create(
+     2.0 / 16.0,
+     2.0 / 16.0,
+     16.0 / 16.0,
+	14.0 / 16.0,
+    14.0 / 16.0,
+    3.0 / 16.0
+	);
+dread_cold_cluster.setFullBlock(false);
+dread_cold_cluster.setLightOpacity(0.5);
+dread_cold_cluster.setCreativeTab(<creativetab:rotn_blocks>);
+dread_cold_cluster.setBlockSoundType(<soundtype:glass>);
+dread_cold_cluster.setBlockLayer("CUTOUT");
+dread_cold_cluster.setToolLevel(0);
+dread_cold_cluster.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+    drops.add(<item:contenttweaker:raw_dread_slate>);
+    return;
+});
+dread_cold_cluster.register();
+
+var dread_cold_geode = VanillaFactory.createBlock("dread_cold_geode", <blockmaterial:Rock>);
+dread_cold_geode.setBlockHardness(18);
+dread_cold_geode.setToolClass("pickaxe");
+dread_cold_bud_large.setBlockSoundType(<soundtype:stone>);
+dread_cold_geode.setCreativeTab(<creativetab:rotn_blocks>);
+dread_cold_geode.onRandomTick = function(world, blockPos, blockState) {
+    if(world.getBlockState(blockPos.getOffset('up', 1)) == <block:minecraft:air>)
+	{
+	    world.setBlockState(<block:contenttweaker:dread_cold_bud_small:1>, blockPos.getOffset('up', 1));
+	} else
+    if(world.getBlockState(blockPos.getOffset('up', 1)) == <block:contenttweaker:dread_cold_bud_small:1>)
+	{
+	    world.setBlockState(<block:contenttweaker:dread_cold_bud_medium:1>, blockPos.getOffset('up', 1));
+	} else
+    if(world.getBlockState(blockPos.getOffset('up', 1)) == <block:contenttweaker:dread_cold_bud_medium:1>)
+	{
+	    world.setBlockState(<block:contenttweaker:dread_cold_bud_large:1>, blockPos.getOffset('up', 1));
+	} else
+    if(world.getBlockState(blockPos.getOffset('up', 1)) == <block:contenttweaker:dread_cold_bud_large:1>)
+	{
+	    world.setBlockState(<block:contenttweaker:dread_cold_cluster:1>, blockPos.getOffset('up', 1));
+	}
+};
+dread_cold_geode.register();
 
 // block_electrum
 var block_electrum = VanillaFactory.createBlock("block_electrum", <blockmaterial:Iron>);
