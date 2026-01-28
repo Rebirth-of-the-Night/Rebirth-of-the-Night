@@ -250,6 +250,27 @@ JEI.removeAndHide(<spartanweaponry:katana_electrum>);
 JEI.removeAndHide(<spartanweaponry:staff_electrum>);
 JEI.removeAndHide(<contenttweaker:ancient_cache>);
 
+// Invar (Heavenly)
+JEI.removeAndHide(<spartanweaponry:dagger_invar>);
+JEI.removeAndHide(<spartanweaponry:longsword_invar>);
+JEI.removeAndHide(<spartanweaponry:katana_invar>);
+JEI.removeAndHide(<spartanweaponry:saber_invar>);
+JEI.removeAndHide(<spartanweaponry:rapier_invar>);
+JEI.removeAndHide(<spartanweaponry:greatsword_invar>);
+JEI.removeAndHide(<spartanweaponry:hammer_invar>);
+JEI.removeAndHide(<spartanweaponry:warhammer_invar>);
+JEI.removeAndHide(<spartanweaponry:spear_invar>);
+JEI.removeAndHide(<spartanweaponry:lance_invar>);
+JEI.removeAndHide(<spartanweaponry:longbow_invar>);
+JEI.removeAndHide(<spartanweaponry:throwing_knife_invar>);
+JEI.removeAndHide(<spartanweaponry:throwing_axe_invar>);
+JEI.removeAndHide(<spartanweaponry:javelin_invar>);
+JEI.removeAndHide(<spartanweaponry:boomerang_invar>);
+JEI.removeAndHide(<spartanweaponry:battleaxe_invar>);
+JEI.removeAndHide(<spartanweaponry:mace_invar>);
+JEI.removeAndHide(<spartanweaponry:glaive_invar>);
+JEI.removeAndHide(<spartanweaponry:staff_invar>);
+
 // JEI.removeAndHide(<spartancompat:handle_skyroot>); skyroot_replacement.zs
 // JEI.removeAndHide(<spartancompat:pole_skyroot>);
 // JEI.removeAndHide(<spartancompat:crossbow_skyroot>);
