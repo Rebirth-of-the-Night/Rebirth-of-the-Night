@@ -408,6 +408,7 @@ tile.contenttweaker.big_lignite_bricks.name=Lignite Bricks
 tile.contenttweaker.big_serpentinite_bricks.name=Serpentinite Bricks
 tile.contenttweaker.brick_red_granite_sandstone.name=Red Granite Sandstone Bricks
 tile.contenttweaker.brick_white_sandstone.name=White Sandstone Bricks
+tile.contenttweaker.bwm_kiln_bricks.name=Structural Kiln Bricks
 
 item.contenttweaker.brick_coade.name=Coade Brick   
 item.contenttweaker.brick_red_granite.name=Red Granite Brick   
@@ -448,6 +449,7 @@ item.contenttweaker.brick_soul_sandstone.name=Soul Sandstone Brick
 item.contenttweaker.brick_black_basalt.name=Nether Basalt Brick   
 item.contenttweaker.brick_end.name=End Stone Brick   
 item.contenttweaker.brick_white.name=White Brick
+
 
 #------------------------------------------------------------------------------
 # Temporary Bricks
@@ -733,8 +735,7 @@ fluid.concentrated_bioflow=Concentrated Bioflow
 # Energy Items/Tiles
 #------------------------------------------------------------------------------
 
-item.contenttweaker.condensed_dread_cold.name=Condensed Dread Cold
-item.contenttweaker.raw_dread_slate.name=Dread Slate Figurine
+item.contenttweaker.raw_dread_slate.name=Dread Slate Chunk
 item.contenttweaker.condensed_vilemist.name=Condensed Vilemist
 item.contenttweaker.viridea_biomatter.name=Viridea Biomatter
 item.contenttweaker.viridea_seed.name=Viridea Seed
