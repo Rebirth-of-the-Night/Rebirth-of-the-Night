@@ -567,6 +567,10 @@ dread_cold_geode.onRandomTick = function(world, blockPos, blockState) {
 	    world.setBlockState(<block:contenttweaker:dread_cold_cluster:1>, blockPos.getOffset('up', 1));
 	}
 };
+dread_cold_geode.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+    return;
+});
 dread_cold_geode.register();
 
 // block_electrum
