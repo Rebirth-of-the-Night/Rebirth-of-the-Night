@@ -63,7 +63,7 @@ Enchanter.registerEnchantment(<dungeontactics:lithen_scythe>, 8800);
 Enchanter.registerEnchantment(<aether_legacy:valkyrie_pickaxe>, 8800);
 Enchanter.registerEnchantment(<aether_legacy:valkyrie_axe>, 8800);
 Enchanter.registerEnchantment(<aether_legacy:valkyrie_shovel>, 8800);
-Enchanter.registerEnchantment(<aether_legacy:valkyrie_lance>, 8800);
+Enchanter.registerEnchantment(<spartanweaponry:pike_invar>, 8800);
 
 Enchanter.registerEnchantment(<aether_legacy:valkyrie_helmet>, 8800);
 Enchanter.registerEnchantment(<aether_legacy:valkyrie_chestplate>, 8800);

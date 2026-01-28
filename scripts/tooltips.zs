@@ -669,7 +669,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <twilightforest:giant_sword:*>.addTooltip(format.darkRed("+18 Attack Damage"));
 <twilightforest:giant_sword:*>.addTooltip(format.green("- Knockback IV"));
 
-<aether_legacy:valkyrie_lance:*>.addTooltip(format.darkRed("+4 Attack Damage"));
+<spartanweaponry:pike_invar:*>.addTooltip(format.darkRed("+4 Attack Damage"));
 
 <aether_legacy:holy_sword:*>.addTooltip(format.green("- Arcanic Conversion III"));
 
@@ -730,6 +730,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 
 // BUGS
 #<aether_legacy:enchanted_blueberry:*>.addTooltip(format.red("DO NOT FEED TO HYPPOGRYPHS; CURRENTLY BUGGED AND UNTAMABLE."));
+<aether_legacy:valkyrie_lance>.addTooltip(format.red("BROKEN ITEM. Throw into water to fix"));
 <iceandfire:dragon_horn:*>.addTooltip(format.red("DO NOT USE ON YOUR DRAGONS, IT WILL DELETE THEM!"));
 /*
 // MACHINES 
