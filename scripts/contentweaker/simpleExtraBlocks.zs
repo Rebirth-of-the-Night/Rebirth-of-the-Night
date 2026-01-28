@@ -2525,14 +2525,6 @@ dry_block_rock.setBlockHardness(25);
 dry_block_rock.setBlockResistance(15.0);
 dry_block_rock.register();
 
-//BWM Kiln Block Replacement - recipe in bwm kiln script
-var bwm_kiln_bricks = VanillaFactory.createBlock("bwm_kiln_bricks", <blockmaterial:Rock>);
-bwm_kiln_bricks.setCreativeTab(<creativetab:rotn_blocks>);
-bwm_kiln_bricks.setBlockSoundType(<soundtype:stone>);
-bwm_kiln_bricks.setToolLevel(1);
-bwm_kiln_bricks.setBlockHardness(10);
-bwm_kiln_bricks.register();
-
 // Dhvarā blocks
 var dhvara_knot = VanillaFactory.createBlock("dhvara_knot", <blockmaterial:Iron>);
 dhvara_knot.setCreativeTab(<creativetab:rotn_blocks>);
