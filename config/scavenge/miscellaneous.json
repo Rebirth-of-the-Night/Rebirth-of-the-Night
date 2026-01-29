@@ -320,6 +320,54 @@
             ]
         },
         {
+			"name": "Pineapple",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:egg_block"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "aether_legacy:valkyrie_lance"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "minecraft:air"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:ambient.cave",
+                    "pitch": "0.6",
+                    "category": "block"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "mobSpell",
+                    "amount": "100",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.05"
+                }
+
+            ],
+            "drops": [
+                { 
+                    "name": "atop:amber_sword",
+                    "amount": "1",
+                    "chance": 100
+                }
+            ]
+        },
+        {
 			"name": "Mysterious Vessel 1",
 			"type": {
 				"type": "block",
