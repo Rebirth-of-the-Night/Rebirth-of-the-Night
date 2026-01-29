@@ -479,6 +479,10 @@
                         "pitch": "0.8"
                     },
                     {
+                        "type": "use_command",
+                        "name": "advancement grant @s only triumph:advancements/progression/transitionwarning break_barrier"
+                    },
+                    {
                     "type": "use_command",
                     "name": "particle witchMagic ~ ~ ~ 0.3 0.5 0.3 1 50"
                     }
@@ -797,6 +801,10 @@
                         "category": "block",
                         "volume": "1.4",
                         "pitch": "0.6"
+                    },
+                    {
+                        "type": "use_command",
+                        "name": "advancement grant @s only triumph:advancements/progression/transitionwarning break_barrier"
                     },
                     {
                     "type": "use_command",

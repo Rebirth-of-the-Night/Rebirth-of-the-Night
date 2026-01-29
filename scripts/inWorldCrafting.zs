@@ -24,3 +24,4 @@ FluidToItem.transform(<betterwithmods:cooking_pot:2>, <liquid:blood>, [<contentt
 FluidToItem.transform(<contenttweaker:unattuned_focus>, <liquid:lunar_water>, [<contenttweaker:arcane_focus>], false);
 // broken lance to functional one for legacy inventories
 FluidToItem.transform(<spartanweaponry:pike_invar>, <liquid:water>, [<aether_legacy:valkyrie_lance:*>], false);
+FluidToItem.transform(<atop:amber_sword>, <liquid:lunar_water>, [<aether_legacy:valkyrie_lance:*>], false);
