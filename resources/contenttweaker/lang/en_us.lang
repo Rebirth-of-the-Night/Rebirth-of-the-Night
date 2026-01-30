@@ -192,6 +192,11 @@ tile.contenttweaker.wither_bone_4.name=Four Standing Wither Bones
 tile.contenttweaker.cincinnasite_chandelier.name=Cincinnasite Chandelier
 tile.contenttweaker.coade_stone_polished.name=Polished Coade Stone
 tile.contenttweaker.wolf_statue.name=Wolf Statue
+tile.contenttweaker.dread_cold_bud_small.name=Small Dread Crystal Bud
+tile.contenttweaker.dread_cold_bud_medium.name=Medium Dread Crystal Bud
+tile.contenttweaker.dread_cold_bud_large.name=Large Dread Crystal Bud
+tile.contenttweaker.dread_cold_cluster.name=Dread Crystal Cluster
+tile.contenttweaker.dread_cold_geode.name=Dread Crystal Geode
 tile.contenttweaker.concrete_gray_brick.name=Ancient Gray Concrete Brick
 tile.contenttweaker.concrete_gray_chiseled.name=Ancient Chiseled Gray Concrete Brick
 tile.contenttweaker.lost_cargo.name=Lost Cargo Cart
@@ -319,6 +324,8 @@ item.contenttweaker.mythril_masonpick.name=Mythril Mason Pick
 item.contenttweaker.mythril_mattock.name=Mythril Mattock
 item.contenttweaker.sfs_masonpick.name=Soulforged Steel Mason Pick
 item.contenttweaker.steel_crowbar.name=Steel Crowbar
+item.contenttweaker.harmony_staff.name=Staff Of Harmony
+item.contenttweaker.sowing_scepter.name=Scepter Of Sowing
 
 #------------------------------------------------------------------------------
 # Bricks
@@ -733,8 +740,7 @@ fluid.concentrated_bioflow=Concentrated Bioflow
 # Energy Items/Tiles
 #------------------------------------------------------------------------------
 
-item.contenttweaker.condensed_dread_cold.name=Condensed Dread Cold
-item.contenttweaker.raw_dread_slate.name=Dread Slate Figurine
+item.contenttweaker.raw_dread_slate.name=Dread Slate Chunk
 item.contenttweaker.condensed_vilemist.name=Condensed Vilemist
 item.contenttweaker.viridea_biomatter.name=Viridea Biomatter
 item.contenttweaker.viridea_seed.name=Viridea Seed

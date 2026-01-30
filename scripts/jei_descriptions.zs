@@ -59,6 +59,7 @@ JEI.addItem(<biomesoplenty:grass_path:2>);
 /* Tools, Weapons, and Armor */
 val handle = <spartanweaponry:material>;
 val pole = <spartanweaponry:material:1>;
+val valk_pike = <spartanweaponry:pike_invar:*>;
 
 JEI.addDescription(handle,"Provides a good grip for more advanced weapons.");
 JEI.addDescription(pole,"A long stick that provides good grip.");
@@ -120,6 +121,8 @@ JEI.addDescription(<dungeontactics:engineer_dungarees>, "Working outfit; will pr
 JEI.addDescription(<defiledlands:the_ravager>, "Fashioned out of a Black Heart, this weapon has an incredibly fast rate of fire, able to deal much damage at the expense of rather expensive ammunition.");
 JEI.addDescription(<defiledlands:pellet_umbrium>, "A pellet made of heavy Soul Forged Steel, able to withstand the energy expelled by a Black Heart and made lighter with a soft core of gravitite.");
 
+JEI.addDescription(valk_pike,"This already long weapon based on the work of the Val-Mitter has an exquisitely crafted core with blessings that can extend attacks of the wearer even further than physicaly possible. Albeit it pales in comparison to the weapons carried by the queen warriors of the Val-Kaisis.");
+JEI.addDescription(<aether_legacy:holy_sword>,"This exquisitely crafted ceremonial weapon is used during Valk rites of passage, award, and funerary rituals. It exemplifies values of life and death. Prolonged use and care have provided it with inherent arcane properties.");
 
 /* Ores and Ingots */
 val crudeSteelIngot = <dungeontactics:steel_ingot>;
@@ -274,6 +277,8 @@ JEI.addDescription(expertly_crafted_arrow_head, "This arrow head is of an exquis
 JEI.addDescription(<pyrotech:compost_bin>,"Composting is simple; fill up the composter with food you don't need, pour in a bit of water, and let time take care of the rest.");
 
 JEI.addDescription(<dungeontactics:engineers_wrench_iron>,"Used to rotate blocks, such as pistons or fans, and to reset triggered traps. Good for picking up redstone stuff and rails. Sneak & use on a trap plate to hide it.");
+JEI.addDescription(<contenttweaker:harmony_staff>,"Manipulates the entropy of specific blocks, such as stone. Right click to channel creation, sneak right click to channel disintegration.");
+JEI.addDescription(<contenttweaker:sowing_scepter>,"Channels nature magic to fertilize farmland. Converts up to a 3x3 of farmland into rich soil.");
 JEI.removeAndHide(<base:wrench>);
 JEI.addDescription(<contenttweaker:peat>,"A mass of partially decomposed vegetal matter found in swamps, bogs and the like. It's a good fuel, but it can be improved further.");
 JEI.addDescription(<contenttweaker:mossy_peat>,"Peat overtaken by cave moss. This sponge-like mass will absorb coalbed methane like no other. It also has extreme spring potential, jump at your own risk.");

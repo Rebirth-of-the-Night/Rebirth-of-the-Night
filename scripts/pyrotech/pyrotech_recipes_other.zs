@@ -333,3 +333,11 @@ Burn.createBuilder("iron_sand", <minecraft:iron_nugget>*4, "betterwithaddons:iro
     .setRequiresRefractoryBlocks(true)
     .setFluidLevelAffectsFailureChance(false)
     .register();
+
+Burn.createBuilder("spiritfire", <pyrotech:material>, "randomthings:spectrelog")
+    .setBurnStages(1)
+    .setTotalBurnTimeTicks(6 * 60 * 20)
+    .setFluidProduced(<liquid:unstable_spiritfire> * 250)
+    .setRequiresRefractoryBlocks(true)
+    .setFluidLevelAffectsFailureChance(false)
+    .register();

@@ -1,0 +1,1012 @@
+{
+    "block_pools": [
+            {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "biomesoplenty:planks_0",
+                "meta": "11"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:hellbark_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "minecraft:planks",
+                "meta": "0"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:oak_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "biomesoplenty:planks_0",
+                "meta": "2"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:umbran_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "minecraft:planks",
+                "meta": "4"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:acacia_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "iceandfire:dreadwood_planks",
+                "meta": "1"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:dreadwood_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "rustic:planks",
+                "meta": "1"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:ironwood_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "minecraft:planks",
+                "meta": "3"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:jungle_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "stygian:endplanks",
+                "meta": "0"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:wyrmwood_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "betternether:stalagnate_planks",
+                "meta": "0"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:stalagnate_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "biomesoplenty:planks_0",
+                "meta": "0"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:sacred_oak_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "biomesoplenty:planks_0",
+                "meta": "1"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:cherry_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "minecraft:planks",
+                "meta": "1"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:spruce_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "rustic:planks",
+                "meta": "0"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:olive_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "biomesoplenty:planks_0",
+                "meta": "7"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:palm_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "biomesoplenty:planks_0",
+                "meta": "14"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:ebony_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "defiledlands:tenebra_planks",
+                "meta": "0"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:tenebra_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "biomesoplenty:planks_0",
+                "meta": "10"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:pine_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "biomesoplenty:planks_0",
+                "meta": "6"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:mangrove_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "minecraft:planks",
+                "meta": "5"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:dark_oak_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "minecraft:planks",
+                "meta": "2"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:birch_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "biomesoplenty:planks_0",
+                "meta": "5"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:magic_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "biomesoplenty:planks_0",
+                "meta": "3"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:fir_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "biomesoplenty:planks_0",
+                "meta": "15"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:eucalyptus_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "biomesoplenty:planks_0",
+                "meta": "12"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:jacaranda_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "biomesoplenty:planks_0",
+                "meta": "13"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:mahogany_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "biomesoplenty:planks_0",
+                "meta": "8"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:redwood_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "biomesoplenty:planks_0",
+                "meta": "9"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:willow_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        },
+        {
+			"name": "Nailed Planks",
+			"type": {
+				"type": "block",
+				"name": "aether_legacy:skyroot_plank",
+                "meta": "0"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "minetraps:nails"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:skywood_boards"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:iron_golem_repair",
+                    "pitch": "1.8",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                }
+            ]
+        }
+    ]
+}

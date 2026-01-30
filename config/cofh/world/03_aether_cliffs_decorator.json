@@ -1,26 +1,6 @@
 {
 	"populate": 
 	{
-		"blue_fire": {
-            "distribution": "surface",
-			"generator": {
-				"type": "decoration",
-				"block": "netherex:blue_fire",
-				"surface": "netherex:frostburn_ice",
-				"cluster-size": 3
-				},
-			"material": [
-					{
-					"name": "netherex:frostburn_ice"
-					}
-				],
-			"cluster-count": 5,
-			"chunk-chance": 1,
-			"biome": {
-				"restriction": "whitelist",
-				"value": "biometweaker:aether_cliffs"
-			}
-		},
 		"ice_spikes": {
             "distribution": "surface",
 			"generator": {
@@ -35,6 +15,97 @@
 					}
 				],
 			"cluster-count": 20,
+			"chunk-chance": 1,
+			"biome": {
+				"restriction": "whitelist",
+				"value": "biometweaker:aether_cliffs"
+			}
+		},
+		"geode_slate_spikes": {
+			"distribution": "surface",
+			"generator": [
+				{
+					"weight": 20,
+					"type": "stalagmite",
+					"block": [
+						{
+							"name": "earthworks:block_slate",
+							"weight": 50
+						},
+						{
+							"name": "netherex:frostburn_ice",
+							"weight": 30
+						},
+						{
+							"name": "contenttweaker:dread_cold_geode",
+							"weight": 6
+						}
+					],
+					"material": [
+						"earthworks:block_slate",
+						"netherex:frostburn_ice"
+					],
+					"gen-body": "minecraft:air",
+					"smooth": true,
+					"fat": false,
+					"min-height": 10,
+					"height-variance": 6,
+					"height-mod": 3,
+					"gen-size": 0,
+					"size-variance": 2
+				},
+				{
+					"weight": 50,
+					"type": "stalagmite",
+					"block": [
+						{
+							"name": "earthworks:block_slate",
+							"weight": 50
+						},
+						{
+							"name": "netherex:frostburn_ice",
+							"weight": 30
+						},
+					],
+					"material": [
+						"earthworks:block_slate",
+						"netherex:frostburn_ice"
+					],
+					"gen-body": "minecraft:air",
+					"smooth": false,
+					"fat": true,
+					"min-height": 10,
+					"height-variance": 6,
+					"height-mod": 3,
+					"gen-size": 0,
+					"size-variance": 2
+				}
+			],
+			"material": [
+						"earthworks:block_slate",
+						"netherex:frostburn_ice"
+					],
+			"cluster-count": 3,
+			"chunk-chance": 2,
+			"biome": {
+				"restriction": "whitelist",
+				"value": "biometweaker:aether_cliffs"
+			}
+		},
+		"blue_fire": {
+            "distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": "netherex:blue_fire",
+				"surface": "netherex:frostburn_ice",
+				"cluster-size": 3
+				},
+			"material": [
+					{
+					"name": "netherex:frostburn_ice"
+					}
+				],
+			"cluster-count": 5,
 			"chunk-chance": 1,
 			"biome": {
 				"restriction": "whitelist",

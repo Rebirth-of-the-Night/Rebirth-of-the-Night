@@ -1,0 +1,2295 @@
+{
+    "block_pools": [
+            {
+			"name": "Creation Igneous",
+			"type": {
+				"type": "block",
+				"name": "minecraft:cobblestone"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "minecraft:stone"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+            {
+			"name": "Creation Igneous",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:igneous_cobble",
+                "meta": "0"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:igneous_stone",
+                    "meta": "0"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+        {
+			"name": "Creation Igneous",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:igneous_cobble",
+                "meta": "1"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:igneous_stone",
+                    "meta": "1"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+        {
+			"name": "Creation Igneous",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:igneous_cobble",
+                "meta": "2"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:igneous_stone",
+                    "meta": "2"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+        {
+			"name": "Creation Igneous",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:igneous_cobble",
+                "meta": "3"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:igneous_stone",
+                    "meta": "3"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+        {
+			"name": "Creation Igneous",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:igneous_cobble",
+                "meta": "4"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:igneous_stone",
+                    "meta": "4"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+        {
+			"name": "Creation Igneous",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:igneous_cobble",
+                "meta": "5"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:igneous_stone",
+                    "meta": "5"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+        {
+			"name": "Creation Igneous",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:igneous_cobble",
+                "meta": "6"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:igneous_stone",
+                    "meta": "6"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+        {
+			"name": "Creation Igneous",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:igneous_cobble",
+                "meta": "7"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:igneous_stone",
+                    "meta": "7"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+        {
+			"name": "Creation Metamorphic",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:metamorphic_cobble",
+                "meta": "0"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:metamorphic_stone",
+                    "meta": "0"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+        {
+			"name": "Creation Metamorphic",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:metamorphic_cobble",
+                "meta": "1"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:metamorphic_stone",
+                    "meta": "1"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+        {
+			"name": "Creation Metamorphic",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:metamorphic_cobble",
+                "meta": "2"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:metamorphic_stone",
+                    "meta": "2"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+        {
+			"name": "Creation Metamorphic",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:metamorphic_cobble",
+                "meta": "3"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:metamorphic_stone",
+                    "meta": "3"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+        {
+			"name": "Creation Metamorphic",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:metamorphic_cobble",
+                "meta": "4"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:metamorphic_stone",
+                    "meta": "4"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+        {
+			"name": "Creation Metamorphic",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:metamorphic_cobble",
+                "meta": "5"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:metamorphic_stone",
+                    "meta": "5"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+        {
+			"name": "Creation Metamorphic",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:metamorphic_cobble",
+                "meta": "6"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:metamorphic_stone",
+                    "meta": "6"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+        {
+			"name": "Creation Metamorphic",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:metamorphic_cobble",
+                "meta": "7"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:metamorphic_stone",
+                    "meta": "7"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+        {
+			"name": "Creation Metamorphic",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:serpentinite_cobblestone"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:serpentinite"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+        {
+			"name": "Creation Sedimentary",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:limestone_cobble"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:sedimentary_stone",
+                    "meta": "0"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+        {
+			"name": "Creation Sedimentary",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:chalk_cobble"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:sedimentary_stone",
+                    "meta": "1"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+        {
+			"name": "Creation Sedimentary",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:shale_cobble"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:sedimentary_stone",
+                    "meta": "2"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+        {
+			"name": "Creation Sedimentary",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:siltstone_cobble"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:sedimentary_stone",
+                    "meta": "3"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+        {
+			"name": "Creation Sedimentary",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:lignite_cobble"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:sedimentary_stone",
+                    "meta": "4"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+        {
+			"name": "Creation Sedimentary",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:dolomite_cobble"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:sedimentary_stone",
+                    "meta": "5"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+        {
+			"name": "Creation Sedimentary",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:greywacke_cobble"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:sedimentary_stone",
+                    "meta": "6"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+        {
+			"name": "Creation Sedimentary",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:chert_cobble"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:sedimentary_stone",
+                    "meta": "7"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle enchantmenttable ~ ~ ~ 0.01 0.01 0.01 0.7 50"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Igneous",
+			"type": {
+				"type": "block",
+				"name": "minecraft:stone"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "minecraft:cobblestone"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Igneous",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:igneous_stone",
+                    "meta": "0"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:igneous_cobble",
+                "meta": "0"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Igneous",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:igneous_stone",
+                    "meta": "1"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:igneous_cobble",
+                "meta": "1"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Igneous",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:igneous_stone",
+                    "meta": "2"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:igneous_cobble",
+                "meta": "2"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Igneous",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:igneous_stone",
+                    "meta": "3"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:igneous_cobble",
+                "meta": "3"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Igneous",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:igneous_stone",
+                    "meta": "4"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:igneous_cobble",
+                "meta": "4"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Igneous",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:igneous_stone",
+                    "meta": "5"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:igneous_cobble",
+                "meta": "5"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Igneous",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:igneous_stone",
+                    "meta": "6"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:igneous_cobble",
+                "meta": "6"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Igneous",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:igneous_stone",
+                    "meta": "7"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:igneous_cobble",
+                "meta": "7"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Metamorphic",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:metamorphic_stone",
+                    "meta": "0"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:metamorphic_cobble",
+                "meta": "0"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Metamorphic",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:metamorphic_stone",
+                    "meta": "1"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:metamorphic_cobble",
+                "meta": "1"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Metamorphic",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:metamorphic_stone",
+                    "meta": "2"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:metamorphic_cobble",
+                "meta": "2"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Metamorphic",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:metamorphic_stone",
+                    "meta": "3"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:metamorphic_cobble",
+                "meta": "3"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Metamorphic",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:metamorphic_stone",
+                    "meta": "4"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:metamorphic_cobble",
+                "meta": "4"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Metamorphic",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:metamorphic_stone",
+                    "meta": "5"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:metamorphic_cobble",
+                "meta": "5"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Metamorphic",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:metamorphic_stone",
+                    "meta": "6"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:metamorphic_cobble",
+                "meta": "6"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Metamorphic",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:metamorphic_stone",
+                    "meta": "7"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "undergroundbiomes:metamorphic_cobble",
+                "meta": "7"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Metamorphic",
+			"type": {
+				"type": "block",
+        "name": "contenttweaker:serpentinite"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:serpentinite_cobblestone"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Sedimentary",
+			"type": {
+				"type": "block",
+        "name": "undergroundbiomes:sedimentary_stone",
+        "meta": "0"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:limestone_cobble"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Sedimentary",
+			"type": {
+				"type": "block",
+        "name": "undergroundbiomes:sedimentary_stone",
+        "meta": "1"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:chalk_cobble"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Sedimentary",
+			"type": {
+				"type": "block",
+        "name": "undergroundbiomes:sedimentary_stone",
+        "meta": "2"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:shale_cobble"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Sedimentary",
+			"type": {
+				"type": "block",
+        "name": "undergroundbiomes:sedimentary_stone",
+        "meta": "3"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:siltstone_cobble"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Sedimentary",
+			"type": {
+				"type": "block",
+        "name": "undergroundbiomes:sedimentary_stone",
+        "meta": "4"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+				            "name": "contenttweaker:lignite_cobble"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Sedimentary",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:sedimentary_stone",
+        "meta": "5"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:dolomite_cobble"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Sedimentary",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:sedimentary_stone",
+        "meta": "6"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:greywacke_cobble"
+                    
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        },
+        {
+			"name": "Disintegration Sedimentary",
+			"type": {
+				"type": "block",
+				"name": "undergroundbiomes:sedimentary_stone",
+        "meta": "7"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harmony_staff"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "1"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:chert_cobble"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_break",
+                    "category": "block"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "futuremc:ancient_debris_break",
+                    "category": "block"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "smoke",
+                    "amount": "50",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.07"
+                }
+            ]
+        }
+    ]
+}

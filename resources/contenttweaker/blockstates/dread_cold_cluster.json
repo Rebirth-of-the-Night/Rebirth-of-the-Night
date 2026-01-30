@@ -1,0 +1,30 @@
+{
+  "variants": {
+      "facing=north": {
+      "model": "contenttweaker:dread_cold_cluster",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "contenttweaker:dread_cold_cluster",
+      "x": 90,
+      "y": 90
+    },
+    "facing=south": {
+      "model": "contenttweaker:dread_cold_cluster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "contenttweaker:dread_cold_cluster",
+      "x": 90,
+      "y": 270
+    },
+    "facing=down": {
+      "model": "contenttweaker:dread_cold_cluster",
+      "x": 180
+    },
+        "facing=up": {
+      "model": "contenttweaker:dread_cold_cluster"
+    }
+  }
+}

@@ -22,3 +22,5 @@ FluidToItem.transform(<contenttweaker:fiery_sludge>, <liquid:blood>, [<contenttw
 FluidToItem.transform(<betterwithmods:cooking_pot:2>, <liquid:blood>, [<contenttweaker:crucible_of_souls>], false);
 // Cleanse Focus
 FluidToItem.transform(<contenttweaker:unattuned_focus>, <liquid:lunar_water>, [<contenttweaker:arcane_focus>], false);
+// broken lance to functional one for legacy inventories
+FluidToItem.transform(<spartanweaponry:pike_invar>, <liquid:water>, [<aether_legacy:valkyrie_lance:*>], false);
