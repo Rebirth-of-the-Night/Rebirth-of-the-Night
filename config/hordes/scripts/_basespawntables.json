@@ -405,7 +405,7 @@
             {
                 "function": "hordes:set_spawntable",
                 "value": [
-                    "hordes:beneath1"
+                    "hordes:beneath1",
 
                     "hordes:beneath2"
                 ],
@@ -461,7 +461,7 @@
             {
                 "function": "hordes:set_spawntable",
                 "value": [
-                    "hordes:beneath1"
+                    "hordes:beneath1",
 
                     "hordes:beneath2"
                 ],
@@ -519,7 +519,7 @@
             {
                 "function": "hordes:set_spawntable",
                 "value": [
-                    "hordes:beneath1"
+                    "hordes:beneath1",
 
                     "hordes:beneath2"
                 ],
@@ -566,7 +566,7 @@
                     "hordes:harvester2",
                     "hordes:aether1",
                     "hordes:aether2",
-                    "hordes:beneath1"
+                    "hordes:beneath1",
 
                     "hordes:beneath2"
                 ],
@@ -623,7 +623,7 @@
                     "hordes:harvester2",
                     "hordes:nether1",
                     "hordes:nether2",
-                    "hordes:beneath1"
+                    "hordes:beneath1",
 
                     "hordes:beneath2"
                 ],
@@ -682,7 +682,7 @@
                     "hordes:nether2",
                     "hordes:aether1",
                     "hordes:aether2",
-                    "hordes:beneath1"
+                    "hordes:beneath1",
 
                     "hordes:beneath2"
                 ],
@@ -733,7 +733,7 @@
             "hordes:harvester2",
             "hordes:nether1",
             "hordes:nether2",
-            "hordes:beneath1"
+            "hordes:beneath1",
 
             "hordes:beneath2",
             "hordes:end1"
@@ -766,7 +766,7 @@
             "hordes:harvester2",
             "hordes:aether1",
             "hordes:aether2",
-            "hordes:beneath1"
+            "hordes:beneath1",
 
             "hordes:beneath2",
             "hordes:end1"
@@ -801,7 +801,7 @@
             "hordes:nether2",
             "hordes:aether1",
             "hordes:aether2",
-            "hordes:beneath1"
+            "hordes:beneath1",
 
             "hordes:beneath2",
             "hordes:end1"

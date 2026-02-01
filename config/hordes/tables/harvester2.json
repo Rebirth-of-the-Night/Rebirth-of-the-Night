@@ -3,7 +3,7 @@
     "minecraft:cave_spider-20-0-0",
     "specialmobs:hungryspider-20-0-0",
     "mod_lavacow:weta-15-0-0",
-    "iceandfire:myrmex_worker-13-0-0",
-    "iceandfire:myrmex_soldier-6-0-0",
-    "iceandfire:myrmex_royal-6-0-0"
+    "iceandfire:myrmex_worker{GrowthStage:3}-13-0-0",
+    "iceandfire:myrmex_soldier{GrowthStage:3}-6-0-0",
+    "iceandfire:myrmex_royal{GrowthStage:3}-6-0-0"
 ]
