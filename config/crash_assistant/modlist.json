@@ -25,6 +25,11 @@
     "curseForgeHash": 2621803774,
     "modrinthHash": "3fdfffe4fd446461ea9c3cb044484588997b9dbc"
   },
+  "!mod-director-launchwrapper-1.9.1.jar": {
+    "jarName": "!mod-director-launchwrapper-1.9.1.jar",
+    "curseForgeHash": 2239322327,
+    "modrinthHash": "13d7c102ae616f8fa74b4ce5f2d8cc26fc397026"
+  },
   "!Red-Core-MC-1.8-1.12-0.6.jar": {
     "jarName": "!Red-Core-MC-1.8-1.12-0.6.jar",
     "modId": "redcore",
@@ -1581,8 +1586,8 @@
     "curseForgeHash": 2810798110,
     "modrinthHash": "a1e5d5c197dae3e92637cafb8cd996185191165b"
   },
-  "Mapmaker\u0027s+Gadgets-1.2_for_1.12.x.jar": {
-    "jarName": "Mapmaker\u0027s+Gadgets-1.2_for_1.12.x.jar",
+  "Mapmaker\u0027s Gadgets-1.2_for_1.12.x.jar": {
+    "jarName": "Mapmaker\u0027s Gadgets-1.2_for_1.12.x.jar",
     "modId": "mapgadgets",
     "version": "1.2_for_1.12.x",
     "curseForgeHash": 2514560616,
