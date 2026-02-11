@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"axis=y":	{ "model": "contentcreator:bloodwood_log_pile" },
+		"axis=z":	{ "model": "contentcreator:bloodwood_log_pile", "x": 90 },
+		"axis=x":	{ "model": "contentcreator:bloodwood_log_pile", "x": 90, "y": 90 }
+	}
+}

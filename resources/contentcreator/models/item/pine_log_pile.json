@@ -1,0 +1,8 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"side": "biomesoplenty:blocks/pine_log",
+		"end": "contentcreator:blocks/pine_log_pile",
+		"particle": "biomesoplenty:blocks/pine_log"
+	}
+}

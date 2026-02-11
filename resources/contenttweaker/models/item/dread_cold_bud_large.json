@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:blocks/dread_cold_bud_large"
+  },
+  "render_type": "translucent"
+}

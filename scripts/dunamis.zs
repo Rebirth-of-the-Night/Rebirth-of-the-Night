@@ -21,6 +21,13 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
+  
+// Radiant Amphora
+RecipeBuilder.get("mage")
+ .setShapeless([<arcanearchives:radiant_dust>, <betterwithmods:urn:9>, <ore:nuggetElectrum>.firstItem])
+ .addOutput(<arcanearchives:radiant_amphora>)
+ .setExtraOutputOne(<randomthings:ingredient:2>, 0.2)
+ .create();
 
 // Scepters
 #bases
@@ -489,6 +496,31 @@ RecipeBuilder.get("mage")
     [<contenttweaker:blank_rune>]])
   .setSecondaryIngredients([<contenttweaker:end_quintessence>*8])
   .addOutput(<endreborn:item_end_rune>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setName("sowing_scepter")
+  .setShaped([
+    [null, <contenttweaker:viridea_seed>, <contenttweaker:giant_blue_flower_petal>],
+    [<contenttweaker:material_part:10>, <ore:arcaneWood>, <contenttweaker:viridea_seed>],
+    [<contenttweaker:scepter_base_arcane>, <contenttweaker:material_part:10>, null]])
+  .setSecondaryIngredients([<primitivemobs:wonder_sap> * 64])
+  .addTool(<contenttweaker:life_rune>, 1)
+  .addTool(<contenttweaker:nature_rune>, 1)
+  .addOutput(<contenttweaker:sowing_scepter>)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setName("harmony_staff")
+  .setShaped([
+    [null, null, <contenttweaker:creation_rune>],
+    [null, <contenttweaker:wand_base_arcane>, null],
+    [<contenttweaker:disint_rune>, null, null]])
+  .addOutput(<contenttweaker:harmony_staff>)
+  .addTool(<contenttweaker:energy_rune>, 1)
+  .addTool(<contenttweaker:balance_rune>, 1)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();

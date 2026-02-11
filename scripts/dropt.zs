@@ -91,15 +91,21 @@ Dropt.list("codex_junk")
           .items([<villagenames:codex>])
       )
   );
-  
-Dropt.list("halite")
 
-  .add(Dropt.rule()
+Dropt.list("halite")
+.add(Dropt.rule()
       .matchBlocks(["contenttweaker:halite"])
+      .replaceStrategy("REPLACE_ALL_IF_SELECTED")
       .addDrop(Dropt.drop()
-          .items([<animania:salt>], Dropt.range(1, 3))
+          .selector(Dropt.weight(1), "REQUIRED")
+          .items([<contenttweaker:halite>])
       )
-  );
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(30), "EXCLUDED", 0)
+          .items([<animania:salt>],Dropt.range(1,3))
+      )
+);
+
 
 Dropt.list("bop_honey_block")
 
@@ -581,7 +587,7 @@ Dropt.list("plants_basic_dry")
 
   .add(Dropt.rule()
       .matchBiomes(["minecraft:desert","minecraft:desert_hills","minecraft:mutated_desert","minecraft:savanna","minecraft:savanna_rock","minecraft:mesa","minecraft:mesa_rock","minecraft:mesa_clear_rock","biomesoplenty:steppe"])
-      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:0","biomesoplenty:plant_1:1","biomesoplenty:plant_1:7","biomesoplenty:plant_1:11","biomesoplenty:double_plant:0","biomesoplenty:double_plant:1","biomesoplenty:ivy","biomesoplenty:willow_vine"])
+      .matchBlocks(["biomesoplenty:plant_0:0","biomesoplenty:plant_0:1","biomesoplenty:plant_0:2","biomesoplenty:plant_0:3","biomesoplenty:plant_0:4","biomesoplenty:plant_0:5","biomesoplenty:plant_0:6","biomesoplenty:plant_0:7","biomesoplenty:plant_0:8","biomesoplenty:plant_0:9","biomesoplenty:plant_1:0","biomesoplenty:plant_1:1","biomesoplenty:plant_1:7","biomesoplenty:plant_1:11","biomesoplenty:double_plant:0","biomesoplenty:double_plant:1","biomesoplenty:ivy","biomesoplenty:willow_vine"])
       .replaceStrategy("ADD")
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(180)) // drops nothing if selected
@@ -600,7 +606,7 @@ Dropt.list("plants_basic_dead")
 
   .add(Dropt.rule()
       .matchBiomes(["biomesoplenty:wasteland","biomesoplenty:xeric_shrubland"])
-      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:0","biomesoplenty:plant_1:1","biomesoplenty:plant_1:2","biomesoplenty:plant_1:7","biomesoplenty:plant_1:11","biomesoplenty:double_plant:0","biomesoplenty:double_plant:1","biomesoplenty:ivy","biomesoplenty:willow_vine"])
+      .matchBlocks(["biomesoplenty:plant_0:0","biomesoplenty:plant_0:1","biomesoplenty:plant_0:2","biomesoplenty:plant_0:3","biomesoplenty:plant_0:4","biomesoplenty:plant_0:5","biomesoplenty:plant_0:6","biomesoplenty:plant_0:7","biomesoplenty:plant_0:8","biomesoplenty:plant_0:9","biomesoplenty:plant_1:0","biomesoplenty:plant_1:1","biomesoplenty:plant_1:2","biomesoplenty:plant_1:7","biomesoplenty:plant_1:11","biomesoplenty:double_plant:0","biomesoplenty:double_plant:1","biomesoplenty:ivy","biomesoplenty:willow_vine"])
       .replaceStrategy("ADD")
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(4200)) // drops nothing if selected
@@ -614,7 +620,7 @@ Dropt.list("plants_basic_dead")
 Dropt.list("tall_grass_base_drops")
 
   .add(Dropt.rule()
-      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:0","biomesoplenty:plant_1:1","biomesoplenty:plant_1:2","biomesoplenty:plant_1:3","biomesoplenty:plant_1:7","biomesoplenty:plant_1:11","minecraft:tallgrass:1","minecraft:tallgrass:2","aether_legacy:aether_grass","aether_legacy:enchanted_aether_grass"])
+      .matchBlocks(["biomesoplenty:plant_0:0","biomesoplenty:plant_0:1","biomesoplenty:plant_0:2","biomesoplenty:plant_0:3","biomesoplenty:plant_0:4","biomesoplenty:plant_0:5","biomesoplenty:plant_0:6","biomesoplenty:plant_0:7","biomesoplenty:plant_0:8","biomesoplenty:plant_0:9","biomesoplenty:plant_1:0","biomesoplenty:plant_1:1","biomesoplenty:plant_1:2","biomesoplenty:plant_1:7","biomesoplenty:plant_1:11","minecraft:tallgrass:1","minecraft:tallgrass:2","aether_legacy:aether_grass","aether_legacy:enchanted_aether_grass"])
       .matchHarvester(Dropt.harvester()
           .type("PLAYER")
 	  )
@@ -660,6 +666,50 @@ Dropt.list("double_tall_grass_base_drops")
           .selector(Dropt.weight(8)) // Strange flower
           .items([<dungeontactics:flower_ailment>])
 	  )
+  );
+
+Dropt.list("wild_flax_base_drops")
+
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:double_plant:0"])
+      .replaceStrategy("ADD")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(500)) // drops nothing if selected
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1000)) // plant fiber
+          .items([<pyrotech:material:12>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(2000)) // flax
+          .items([<harvestcraft:flaxitem>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(500))
+          .items([<pyrotech:tinder>]) // dried plant fiber
+      )
+  );
+
+Dropt.list("wild_rice_base_drops")
+
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:plant_1:3"])
+      .replaceStrategy("ADD")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(500)) // drops nothing if selected
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1000)) // plant fiber
+          .items([<pyrotech:material:12>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(2000)) // rice
+          .items([<growthcraft_rice:rice>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(500))
+          .items([<pyrotech:tinder>]) // dried plant fiber
+      )
   );
 
 Dropt.list("slaked_lime")
@@ -750,10 +800,6 @@ Dropt.list("wonder_geode")
 		  .items([<ore:nuggetCopper>.firstItem])
       )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(5))
-		  .items([<dungeontactics:diamond_nugget>])
-      )
-	  .addDrop(Dropt.drop()
           .selector(Dropt.weight(60))
 		  .items([<iceandfire:silver_nugget>])
       )
@@ -773,6 +819,63 @@ Dropt.list("wonder_geode")
           .selector(Dropt.weight(20))
 		  .items([<contenttweaker:vis_speck>])
       )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(6))
+		  .items([<dungeontactics:diamond_nugget>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(20))
+		  .items([<biomesoplenty:gem:5>]) // benelyte
+      )
+  );
+  
+Dropt.list("lost_cargo")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:lost_cargo:*"])
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(100))
+		  .items([<ore:rawOreTin>.firstItem], Dropt.range(6, 18)) // alloy raw ore
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(50))
+		  .items([<contenttweaker:spider_silk>], Dropt.range(6, 18)) // fine silks
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(30))
+		  .items([<ore:rawOreWrought>.firstItem], Dropt.range(4, 6)) // semi steel
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(30))
+		  .items([<pyrotech:material:36>], Dropt.range(8, 20)) // dense redstone
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(5))
+		  .items([<minecraft:painting>.withTag({"jsonpaintings:painting": "Yearn"})]) // art
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(5))
+		  .items([<minecraft:painting>.withTag({"jsonpaintings:painting": "Blessed Passion"})]) // art
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(5))
+		  .items([<minecraft:painting>.withTag({"jsonpaintings:painting": "Yearn"})]) // art
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(5))
+		  .items([<glaretorch:itemglaretorchsmall>]) // lumina
+      )
+  )
+  .add(Dropt.rule() // luxurious dragonbone after Beneath
+      .matchBlocks(["contenttweaker:lost_cargo"])
+      .replaceStrategy("ADD")
+      .matchHarvester(Dropt.harvester()
+        .gameStages("WHITELIST", "ALL", ["enteredBeneath"])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10))
+		  .items([<iceandfire:dragonbone>])
+      )
   );
   
 Dropt.list("marmatite")
@@ -781,11 +884,11 @@ Dropt.list("marmatite")
       .matchBlocks(["contenttweaker:marmatite"])
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(100))
-		  .items([<contenttweaker:material_part:36>], Dropt.range(1, 2)) // zinc dust
+		  .items([<contenttweaker:material_part:36>], Dropt.range(2, 4)) // zinc dust
       )
 	  .addDrop(Dropt.drop()
           .selector(Dropt.weight(60))
-		  .items([<contenttweaker:material_part:28>,<contenttweaker:material_part:36>], Dropt.range(1)) // iron and zinc dust
+		  .items([<contenttweaker:material_part:28>,<contenttweaker:material_part:36>], Dropt.range(2)) // iron and zinc dust
       )
   );
 
@@ -821,8 +924,15 @@ Dropt.list("lodestone")
   .add(Dropt.rule()
       .matchBlocks(["dungeontactics:mithril_block"])
   	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(1))
-       	   .items([<minecraft:stonebrick:3>])
+	    .force()
+       	.items([<minecraft:stonebrick:3>]) // always drop chiseled coade brick
+	  )
+      .addDrop(Dropt.drop()
+        .selector(Dropt.weight(1)) // drop nothing else 50% of time  
+      )
+      .addDrop(Dropt.drop()
+        .selector(Dropt.weight(1))
+        .items([<biomesoplenty:terrestrial_artifact>]) // drops terrestrial artifact 50%
       )
   ); 
 
@@ -1017,3 +1127,24 @@ Dropt.list("futuremc_to_quark_redsandstone")
        	   .items([<quark:sandstone_new:2>])
       )
   ); 
+
+
+Dropt.list("well")
+  .add(Dropt.rule()
+      .matchBlocks(["well:well:*", "well:white_well:*","well:orange_well:*","well:magenta_well:*","well:light_blue_well:*","well:yellow_well:*","well:lime_well:*","well:pink_well:*","well:gray_well:*","well:silver_well:*","well:cyan_well:*","well:purple_well:*","well:blue_well:*","well:brown_well:*","well:green_well:*","well:red_well:*","well:black_well:*"])
+      .addDrop(Dropt.drop()
+        .force()
+        .items([<minecraft:brick>], Dropt.range(2)) // always drop a couple bricks
+      )
+      .addDrop(Dropt.drop()
+        .selector(Dropt.weight(34)) // drop nothing else 33% of time  
+      )
+      .addDrop(Dropt.drop()
+        .selector(Dropt.weight(33))
+        .items([<contenttweaker:masonry_brick>], Dropt.range(2)) // drop 2 masonry brick 33% of the time
+      )
+      .addDrop(Dropt.drop()
+        .selector(Dropt.weight(33))
+        .items([<pyrotech:bucket_stone>]) // drop bucket 33% of the time
+      )
+  );

@@ -1,0 +1,56 @@
+{
+  "block": "biomesoplenty:grass",
+  "iterations": 36,
+  "biomes": [
+    "biomesoplenty:outback"
+  ],
+  "dimensions": [
+    0
+  ],
+  "spawnBlocks": [
+    {
+      "block": "minecraft:tallgrass[type=tall_grass]",
+      "weight": 60
+    },
+    {
+      "block": "minecraft:deadbush",
+      "weight": 30
+    },
+    {
+      "block": "bblsom:wildflowers_hailakand[facing=south,slices=0]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_hailakand[facing=south,slices=1]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_hailakand[facing=south,slices=2]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_hailakand[facing=south,slices=3]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_hailakand[facing=north,slices=0]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_hailakand[facing=north,slices=1]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_hailakand[facing=north,slices=2]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_hailakand[facing=north,slices=3]",
+      "weight": 10
+    },
+    {
+      "block": "rustic:aloe_vera[age=0]",
+      "weight": 5
+    }
+  ]
+}

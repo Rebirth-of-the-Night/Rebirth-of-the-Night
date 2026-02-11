@@ -3,49 +3,61 @@
 		"quark:world_stone_bricks[variant=stone_andesite_bricks]": "sandstone",
 		"quark:world_stone_bricks[variant=stone_granite_bricks]": "sandstone",
 		"quark:world_stone_bricks[variant=stone_diorite_bricks]": "sandstone",
+
 		"quark:stone_andesite_bricks_slab": "sandstone",
 		"quark:stone_granite_bricks_slab": "sandstone",
 		"quark:stone_diorite_bricks_slab": "sandstone",
+
 		"quark:stone_andesite_bricks_stairs": "sandstone",
 		"quark:stone_granite_bricks_stairs": "sandstone",
 		"quark:stone_diorite_bricks_stairs": "sandstone",
+
 		"quark:stone_andesite_bricks_wall+bigger": "sandstone",
 		"quark:stone_granite_bricks_wall+bigger": "sandstone",
 		"quark:stone_diorite_bricks_wall+bigger": "sandstone",
+
 		"earthworks:block_rammed_earth": "sandstone",
 		"earthworks:slab_rammed_earth": "sandstone",
 		"earthworks:stair_rammed_earth": "sandstone",
 		"earthworks:wall_rammed_earth+bigger": "sandstone",
+
 		"quark:polished_netherrack": "brickstone",
 		"quark:polished_netherrack_bricks_stairs": "brickstone",
 		"quark:polished_netherrack_bricks_slab": "brickstone",
 		"quark:polished_netherrack_bricks_wall+bigger": "brickstone",
+
 		"quark:magma_bricks": "brickstone,fire",
 		"quark:magma_bricks_stairs": "brickstone,fire",
 		"quark:magma_bricks_slab": "brickstone,fire",
-		"quark:iron_ladder": "hardmetal",
+
 		"quark:stonebrick_mossy_stairs": "brickstone",
 		"quark:stonebrick_mossy_slab": "brickstone",
 		"futuremc:mossy_stone_brick_wall+bigger": "brickstone",
 		"quark:crystal": "ore",
 		"quark:crystal_pane": "ore",
+
 		"quark:thatch": "straw",
 		"quark:thatch_slab": "straw",
 		"quark:thatch_slab_double": "straw",
 		"quark:thatch_stairs": "straw",
+
 		"quark:reed_block": "bluntwood",
 		"quark:reed_block_slab": "bluntwood",
 		"quark:reed_block_slab_double": "bluntwood",
 		"quark:reed_block_stairs": "bluntwood",
 		"quark:reed_block_wall+bigger": "bluntwood",
+
 		"quark:midori_block": "brickstone",
 		"quark:midori_block_slab": "brickstone",
 		"quark:midori_block_slab_double": "brickstone",
 		"quark:midori_block_stairs": "brickstone",
 		"quark:midori_block_wall+bigger": "brickstone",
 		"quark:midori_pillar": "brickstone",
+
 		"quark:sturdy_stone": "stoneutility",
 		"quark:monster_box": "metalbar",
+		"quark:grate": "metalbar",
+		"quark:iron_ladder": "hardmetal",
 
 		"contenttweaker:loose_big_brimstone_bricks": "brickstone,fire",
 		"quark:biome_brick[variant=fire_stone_brick]": "brickstone,fire",
@@ -91,9 +103,18 @@
 		"quark:sandy_bricks_wall+bigger": "sandstone",
 		"quark:sandy_bricks_slab_double": "sandstone",
 
+		"quark:glowshroom_block": "asmc:block.wart_block.break",
+
 		"quark:iron_rod": "metalbar",
 		"quark:chute": "sqeakywood",
 
+		"quark:iron_plate": "futuremc:netherite_block_step",
+		"quark:iron_plate_stairs": "futuremc:netherite_block_step",
+		"quark:iron_plate_slab": "futuremc:netherite_block_step",
+		"quark:iron_plate_slab_double": "futuremc:netherite_block_step",
+
+		"quark:netherrack_speleothem": "asmc:block.netherrack.step",
+		"quark:smoker": "asmc:block.netherrack.step,fire",
 
 		"quark:bark_oak_stairs": "log",
 		"quark:bark_spruce_stairs": "log",

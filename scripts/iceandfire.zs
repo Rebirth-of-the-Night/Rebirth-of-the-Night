@@ -47,6 +47,32 @@ recipes.addShaped("tide_trident",<iceandfire:tide_trident>,[
 recipes.removeByRecipeName("iceandfire:summoning_crystal_fire");
 recipes.addShapeless("fire_dragon_summoning_crystal",<iceandfire:summoning_crystal_fire>,[<iceandfire:fire_dragon_blood>,<minecraft:ender_pearl>,<minecraft:diamond>,<biomesoplenty:gem:1>]);
 
+recipes.removeByRecipeName("iceandfire:dragon_ice_spikes");
+recipes.addShaped("icicles",<iceandfire:dragon_ice_spikes>,[
+    [null,null,null],
+    [<minecraft:ice>,null,<minecraft:ice>],
+    [<minecraft:ice>,null,<minecraft:ice>]
+]);
+
+recipes.removeByRecipeName("iceandfire:deathworm_gauntlet_white");
+recipes.addShaped("deathworm_gauntlet_white",<iceandfire:deathworm_gauntlet_white>,[
+    [null,<iceandfire:deathworm_tounge>,null],
+    [<iceandfire:deathworm_chitin:1>,<ore:slimeball>,<iceandfire:deathworm_chitin:1>],
+    [<iceandfire:deathworm_chitin:1>,<iceandfire:deathworm_chitin:1>,<iceandfire:deathworm_chitin:1>]
+]);
+recipes.removeByRecipeName("iceandfire:deathworm_gauntlet_yellow");
+recipes.addShaped("deathworm_gauntlet_yellow",<iceandfire:deathworm_gauntlet_yellow>,[
+    [null,<iceandfire:deathworm_tounge>,null],
+    [<iceandfire:deathworm_chitin>,<ore:slimeball>,<iceandfire:deathworm_chitin>],
+    [<iceandfire:deathworm_chitin>,<iceandfire:deathworm_chitin>,<iceandfire:deathworm_chitin>]
+]);
+recipes.removeByRecipeName("iceandfire:deathworm_gauntlet_red");
+recipes.addShaped("deathworm_gauntlet_red",<iceandfire:deathworm_gauntlet_red>,[
+    [null,<iceandfire:deathworm_tounge>,null],
+    [<iceandfire:deathworm_chitin:2>,<ore:slimeball>,<iceandfire:deathworm_chitin:2>],
+    [<iceandfire:deathworm_chitin:2>,<iceandfire:deathworm_chitin:2>,<iceandfire:deathworm_chitin:2>]
+]);
+
 // Pixie Wand
 recipes.remove(<iceandfire:pixie_wand>);
 
@@ -101,6 +127,13 @@ recipes.addShaped("jungle_myrmex_swarm",<iceandfire:myrmex_jungle_swarm>*6,[
     [<iceandfire:myrmex_jungle_resin>,<iceandfire:myrmex_jungle_resin>,<iceandfire:myrmex_jungle_resin>],
     [<iceandfire:myrmex_jungle_resin>,<iceandfire:myrmex_jungle_egg:4>,<iceandfire:myrmex_jungle_resin>],
     [<iceandfire:myrmex_jungle_resin>,<ore:stickWood>,<iceandfire:myrmex_jungle_resin>]
+]);
+
+recipes.remove(<iceandfire:blindfold>);
+recipes.addShaped("inf_blindfold",<iceandfire:blindfold>,[
+    [null,null,null],
+    [<ore:twine>,<betterwithmods:material:4>|<mod_lavacow:curseweave_cloth>,<ore:twine>],
+    [null,null,null]
 ]);
 
 // Dread Lich Staff

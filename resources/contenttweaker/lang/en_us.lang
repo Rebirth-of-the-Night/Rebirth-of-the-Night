@@ -31,6 +31,7 @@ tile.contenttweaker.cherry_boards.name=Cherry Nailed Boards
 tile.contenttweaker.cherry_lacquered.name=Cherry Lacquered Boards
 tile.contenttweaker.clover_3_block.name=Huge Three Leaf Clover
 tile.contenttweaker.clover_4_block.name=Huge Four Leaf Clover
+tile.contenttweaker.coba_star.name=Coba Star
 tile.contenttweaker.cobblestone_path_andesite.name=Cobbled Andesite Path
 tile.contenttweaker.cobblestone_path_basalt.name=Cobbled Basalt Path
 tile.contenttweaker.cobblestone_path_black_granite.name=Cobbled Black Granite Path
@@ -58,8 +59,11 @@ tile.contenttweaker.ebony_lacquered.name=Ebony Lacquered Boards
 tile.contenttweaker.egg_block.name=L'Egg
 tile.contenttweaker.electrum_plate.name=Aetherial Electrum Plate
 tile.contenttweaker.elevator.name=Disassembled Ender Elevator
+tile.contenttweaker.emblem_stone_red.name=Red Emblem-Stone
 tile.contenttweaker.eucalyptus_boards.name=Eucalyptus Nailed Boards
 tile.contenttweaker.eucalyptus_lacquered.name=Eucalyptus Lacquered Boards
+tile.contenttweaker.fancy_limestone.name=Small Limestone Bricks
+tile.contenttweaker.fancy_soapstone.name=Carved Soapstone
 tile.contenttweaker.ferrought_corrugated.name=Corrugated Ferrought Block
 tile.contenttweaker.ferrought_hammered.name=Hammered Ferrought Block
 tile.contenttweaker.ferrought_plate.name=Ferrought Plate
@@ -94,6 +98,8 @@ tile.contenttweaker.mangrove_lacquered.name=Mangrove Lacquered Boards
 tile.contenttweaker.marmatite.name=Marmatite
 tile.contenttweaker.modelingrefractory.name=Modeling Refractory Material
 tile.contenttweaker.mossy_peat.name=Mossy Peat
+tile.contenttweaker.mystic_cincinnasite_lamp.name=Mystic Cincinnasite Lamp
+tile.contenttweaker.Ferrought_cincinnasite_lamp.name=Ferrought Cincinnasite Lamp
 tile.contenttweaker.n_copper_sandstone.name=Sandstone Native Copper
 tile.contenttweaker.n_copper_sandstone_red.name=Red Sandstone Native Copper
 tile.contenttweaker.nether_flower.name=Crossroads Radiata
@@ -140,12 +146,14 @@ tile.contenttweaker.scaffolding.name=Decaying Scaffolding
 tile.contenttweaker.seasoned_stump.name=Seasoned Stump
 tile.contenttweaker.skywood_boards.name=Skyroot Nailed Boards
 tile.contenttweaker.skywood_lacquered.name=Skyroot Lacquered Boards
+tile.contenttweaker.slime_nesting.name=Slime Nesting
 tile.contenttweaker.soul_bonfire.name=Soul Bonfire
 tile.contenttweaker.spruce_boards.name=Spruce Nailed Boards
 tile.contenttweaker.spruce_lacquered.name=Spruce Lacquered Boards
 tile.contenttweaker.stalagnate_boards.name=Stalagnate Nailed Boards
 tile.contenttweaker.stalagnate_lacquered.name=Stalagnate Lacquered Boards
 tile.contenttweaker.star_block.name=Block of Stars
+tile.contenttweaker.steel_support.name=Steel Support
 tile.contenttweaker.sunstone_block.name=Block of Sunstone
 tile.contenttweaker.tapestry_cyan.name=Cyan Tapestry
 tile.contenttweaker.tapestry_green.name=Green Tapestry
@@ -157,6 +165,7 @@ tile.contenttweaker.tapestry_black.name=Black Tapestry
 tile.contenttweaker.tapestry_blue.name=Blue Tapestry
 tile.contenttweaker.tenebra_boards.name=Tenebra Nailed Boards
 tile.contenttweaker.tenebra_lacquered.name=Tenebra Lacquered Boards
+tile.contenttweaker.tiled_diagonal.name=Diagonal Tiles
 tile.contenttweaker.tin_plate.name=Tin Plate
 tile.contenttweaker.umbran_boards.name=Umbran Nailed Boards
 tile.contenttweaker.umbran_lacquered.name=Umbran Lacquered Boards
@@ -183,8 +192,15 @@ tile.contenttweaker.wither_bone_4.name=Four Standing Wither Bones
 tile.contenttweaker.cincinnasite_chandelier.name=Cincinnasite Chandelier
 tile.contenttweaker.coade_stone_polished.name=Polished Coade Stone
 tile.contenttweaker.wolf_statue.name=Wolf Statue
+tile.contenttweaker.dread_cold_bud_small.name=Small Dread Crystal Bud
+tile.contenttweaker.dread_cold_bud_medium.name=Medium Dread Crystal Bud
+tile.contenttweaker.dread_cold_bud_large.name=Large Dread Crystal Bud
+tile.contenttweaker.dread_cold_cluster.name=Dread Crystal Cluster
+tile.contenttweaker.dread_cold_geode.name=Dread Crystal Geode
 tile.contenttweaker.concrete_gray_brick.name=Ancient Gray Concrete Brick
 tile.contenttweaker.concrete_gray_chiseled.name=Ancient Chiseled Gray Concrete Brick
+tile.contenttweaker.lost_cargo.name=Lost Cargo Cart
+tile.contenttweaker.scythe_statuette.name=Scythe Statuette
 
 #------------------------------------------------------------------------------
 # Unorganized items A-Z
@@ -306,8 +322,10 @@ item.contenttweaker.zanite_ingot.name=Zanite Ingot
 
 item.contenttweaker.mythril_masonpick.name=Mythril Mason Pick
 item.contenttweaker.mythril_mattock.name=Mythril Mattock
-item.contenttweaker.sfs_masonpick.name=Soul Forged Steel Mason Pick
+item.contenttweaker.sfs_masonpick.name=Soulforged Steel Mason Pick
 item.contenttweaker.steel_crowbar.name=Steel Crowbar
+item.contenttweaker.harmony_staff.name=Staff Of Harmony
+item.contenttweaker.sowing_scepter.name=Scepter Of Sowing
 
 #------------------------------------------------------------------------------
 # Bricks
@@ -380,6 +398,8 @@ tile.contenttweaker.loose_red_sandstone_bricks.name=Loose Red Sandstone Bricks
 tile.contenttweaker.loose_refractory_bricks.name=Loose Refractory Bricks
 tile.contenttweaker.loose_sandstone_bricks.name=Loose Sandstone Bricks
 tile.contenttweaker.loose_soulsandstone_bricks.name=Loose Soul Sandstone Bricks
+tile.contenttweaker.loose_red_granite_sandstone_bricks.name=Loose Red Granite Sandstone Bricks
+tile.contenttweaker.loose_white_sandstone_bricks.name=Loose White Sandstone Bricks
 tile.contenttweaker.loose_stone_bricks.name=Loose Masonry Bricks
 tile.contenttweaker.masonry_brick.name=Masonry Brick
 tile.contenttweaker.masonry_brick_two.name=Two Masonry Bricks!
@@ -393,6 +413,8 @@ tile.contenttweaker.big_chert_bricks.name=Chert Bricks
 tile.contenttweaker.big_dolomite_bricks.name=Dolomite Bricks
 tile.contenttweaker.big_lignite_bricks.name=Lignite Bricks
 tile.contenttweaker.big_serpentinite_bricks.name=Serpentinite Bricks
+tile.contenttweaker.brick_red_granite_sandstone.name=Red Granite Sandstone Bricks
+tile.contenttweaker.brick_white_sandstone.name=White Sandstone Bricks
 
 item.contenttweaker.brick_coade.name=Coade Brick   
 item.contenttweaker.brick_red_granite.name=Red Granite Brick   
@@ -597,6 +619,7 @@ item.contenttweaker.scapula.name=Scapula
 item.contenttweaker.xp_tome_mundane.name=Experience Scroll
 item.contenttweaker.xp_tome_arcane.name=Experience Codex
 
+item.contenttweaker.artificial_nature.name=Vial of Artificial Nature
 #------------------------------------------------------------------------------
 # Food
 #------------------------------------------------------------------------------
@@ -617,6 +640,7 @@ item.contenttweaker.raw_fries.name=Raw Fries
 item.contenttweaker.sheep_intestines.name=Sheep Intestines
 item.contenttweaker.sprinkles.name=Sprinkles
 item.contenttweaker.wiener.name=Wiener
+item.contenttweaker.dairy_free_cheese_slice.name=Dairy Free Cheese Wedge
 tile.contenttweaker.abyss_pizza_block.name=Raw Abyss Pizza
 tile.contenttweaker.chicken_pizza_block.name=Raw Chicken Pizza
 tile.contenttweaker.plain_pizza_block.name=Raw Plain Pizza
@@ -716,8 +740,7 @@ fluid.concentrated_bioflow=Concentrated Bioflow
 # Energy Items/Tiles
 #------------------------------------------------------------------------------
 
-item.contenttweaker.condensed_dread_cold.name=Condensed Dread Cold
-item.contenttweaker.raw_dread_slate.name=Dread Slate Figurine
+item.contenttweaker.raw_dread_slate.name=Dread Slate Chunk
 item.contenttweaker.condensed_vilemist.name=Condensed Vilemist
 item.contenttweaker.viridea_biomatter.name=Viridea Biomatter
 item.contenttweaker.viridea_seed.name=Viridea Seed
@@ -728,9 +751,11 @@ tile.contenttweaker.viridea.name=Viridea
 #------------------------------------------------------------------------------
 
 item.contenttweaker.stream_crown.name=Soul of Blue Fire
+item.contenttweaker.clockwork_heart.name=Imperfect Brass Heart
+item.contenttweaker.doll_heart.name=Perfect Heart
 
 #------------------------------------------------------------------------------
-# Unfired Items
+# Unfired Items and Pottery
 #------------------------------------------------------------------------------
 
 tile.contenttweaker.crucible.name=Unfired Crucible
@@ -749,3 +774,5 @@ tile.contenttweaker.unfired_mud_brick.name=Unfired Mud Brick
 tile.contenttweaker.unfired_fiery_brick.name=Unfired Fiery Brick
 tile.contenttweaker.unfired_refractory_brick.name=Unfired Refractory Brick
 tile.contenttweaker.unfired_porcelain_brick.name=Unfired Porcelain Brick
+
+tile.contenttweaker.crucible_of_souls.name=Crucible of Souls

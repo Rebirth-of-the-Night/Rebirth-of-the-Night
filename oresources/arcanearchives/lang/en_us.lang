@@ -91,7 +91,7 @@ tile.quartz_sliver.name=Sliver of Light
 tile.raw_quartz_cluster.name=Raw Quartz Cluster
 
 tile.radiant_crafting_table.name=Radiant Crafting Table
-tile.radiant_chest.name=Radiant Chest
+tile.radiant_chest.name=Radiant Storage Matrix
 tile.radiant_furnace.name=Radiant Furnace
 tile.radiant_lantern.name=Radiant Lantern
 tile.radiant_resonator.name=Radiant Resonator
@@ -189,16 +189,16 @@ arcanearchives.tooltip.brazier.visualizer.hide=Click to hide the range visualize
 arcanearchives.tooltip.brazier.radius.decrease=Decrease Brazier range by 10.
 arcanearchives.tooltip.brazier.radius.increase=Increase Brazier range by 10.
 arcanearchives.tooltip.devouringcharm.flip=Flip the Devouring Charm over.
-arcanearchives.tooltip.manifest.inanotherdim=This chest is located in %s.
-arcanearchives.tooltip.manifest.chestsneak=[Hold shift to view chest locations.]
+arcanearchives.tooltip.manifest.inanotherdim=This matrix is located in %s.
+arcanearchives.tooltip.manifest.chestsneak=[Hold shift to view matrix locations.]
 arcanearchives.tooltip.manifest.entry=%s at (%d,%d,%d) contains %d.
-arcanearchives.tooltip.manifest.andmore=%d radiant chests weren't listed.
-arcanearchives.tooltip.manifest.clicktoshow=Click to draw a line to chests containing this item. Open chest to remove, or click "%s".
+arcanearchives.tooltip.manifest.andmore=%d radiant storage matrixes weren't listed.
+arcanearchives.tooltip.manifest.clicktoshow=Click to draw a line to matrixes containing this item. Open matrixes to remove, or click "%s".
 arcanearchives.tooltip.manifest.outofrange=[More than your configured max distance of %s blocks away.]
 arcanearchives.tooltip.radiantchest.routingmode.any1=Braziers of Hoarding can insert
-arcanearchives.tooltip.radiantchest.routingmode.any2=any item into this Radiant Chest.
+arcanearchives.tooltip.radiantchest.routingmode.any2=any item into thisRadiant Storage Matrix.
 arcanearchives.tooltip.radiantchest.routingmode.nonewitems1=Braziers of Hoarding can only insert items
-arcanearchives.tooltip.radiantchest.routingmode.nonewitems2=that this Radiant Chest already contains.
+arcanearchives.tooltip.radiantchest.routingmode.nonewitems2=that this Radiant Storage Matrix already contains.
 
 arcanearchives.tooltip.tank.fluid=Fluid: %s
 arcanearchives.tooltip.tank.amount=Amount: %s/%smb
@@ -208,7 +208,7 @@ arcanearchives.tooltip.trove.items=Item: %s
 arcanearchives.tooltip.trove.contains=Contains: %d/%d
 arcanearchives.tooltip.trove.voiding=Voids excess items.
 
-arcanearchives.tooltip.device.brazier=Items tossed in are sent to Radiant Storage. Troves are filled first, then Chests.
+arcanearchives.tooltip.device.brazier=Items tossed in are sent to Radiant Storage. Troves are filled first, then Matrixes.
 arcanearchives.tooltip.device.celestial_lotus_engine=Generates infinite Immanence. Creative only.
 arcanearchives.tooltip.device.radiant_chest=Storage. Used to contain items. Multiplies maximum stack size of stored items by 4.
 arcanearchives.tooltip.device.radiant_tank=Storage. Used to contain fluids.
@@ -220,7 +220,7 @@ arcanearchives.tooltip.device.gemcutters_table=Crafting station. Used to shape R
 arcanearchives.tooltip.device.lectern_manifest=Used to view items stored in Radiant storage. Identical function to a Manifest.
 arcanearchives.tooltip.device.monitoring_crystal=Adds attached inventory to radiant storage for viewing with a Manifest.
 
-arcanearchives.tooltip.item.raw_quartz=A crafting ingredient. Can also be used to upgrade chests and crafting tables into their Radiant versions.
+arcanearchives.tooltip.item.raw_quartz=A crafting ingredient. Can also be used to upgrade crafting tables into their Radiant versions.
 arcanearchives.tooltip.item.shaped_quartz=A crafting ingredient.
 arcanearchives.tooltip.item.containment_field=A crafting ingredient. Can also be used as a second tier upgrade for Radiant Tanks.
 arcanearchives.tooltip.item.devouring_charm=Voids items and fluids. Can also be used as an optional upgrade to add voiding to Radiant Tanks and Radiant Troves.
@@ -312,8 +312,8 @@ arcanearchives.data.tooltip.empty=Empty.
 
 arcanearchives.data.scepter.missing_te=Error: missing tile entity.
 
-arcanearchives.data.scepter.radiant_chest.unnamed=Unnamed Radiant Chest.
-arcanearchives.data.scepter.radiant_chest.name=Radiant Chest named: %s.
+arcanearchives.data.scepter.radiant_chest.unnamed=Unnamed Radiant Storage Matrix.
+arcanearchives.data.scepter.radiant_chest.name=Radiant Storage Matrix named: %s.
 arcanearchives.data.scepter.radiant_chest.slots=Has %d slots free.
 
 arcanearchives.data.scepter.radiant_crafting.contains=Radiant Crafting table contains: %s.
@@ -435,8 +435,8 @@ arcanearchives.config.server_side_settings.limit.tooltip=Limit of resonators per
 arcanearchives.config.server_side_settings.limit=Resonator Limit
 arcanearchives.config.server_side_settings.time=Resonator Time
 arcanearchives.config.server_side_settings.time.tooltip=Number of ticks it takes to create raw quartz [default 6000]
-arcanearchives.config.server_side_settings.multiplier=Radiant Chest Slot Multiplier
-arcanearchives.config.server_side_settings.multiplier.tooltip=The multiplier applied to Radiant Chest slots [default 4]
+arcanearchives.config.server_side_settings.multiplier=Radiant Storage Matrix Slot Multiplier
+arcanearchives.config.server_side_settings.multiplier.tooltip=The multiplier applied to Radiant Storage Matrix slots [default 4]
 
 arcanearchives.config.non_mod_tracking=Non-mod container tracking
 arcanearchives.config.non_mod_tracking.tooltip=Settings relating to non-mod (i.e., vanilla or other mod) storage and the display of coloured slot backgrounds for tracked items
@@ -453,7 +453,7 @@ arcanearchives.config.manifest.grid=Disable Manifest Grid
 arcanearchives.config.manifest.grid.tooltip=Disable overlay of grid on Manifest items list [default true]
 
 arcanearchives.config.manifest.distance=Max distance for items
-arcanearchives.config.manifest.distance.tooltip=Maximum distance in blocks before it is considered out of range when track chests from for the Manifest, relevant to your current position [default 100]
+arcanearchives.config.manifest.distance.tooltip=Maximum distance in blocks before it is considered out of range when track matrixes from for the Manifest, relevant to your current position [default 100]
 
 arcanearchives.config.manifest.jei=Synchronise JEI with Search Bar
 arcanearchives.config.manifest.jei.tooltip=Synchronise the currently searched item into the JEI search box. The previous JEI search term will be restored upon closing. [Requires JEI installed, default false]

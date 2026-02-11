@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north,slices=0":  { "model": "bblsom:wildflowers_wanlonggu_1" },
+    "facing=east,slices=0":  { "model": "bblsom:wildflowers_wanlonggu_1", "y": 90 },
+    "facing=south,slices=0": { "model": "bblsom:wildflowers_wanlonggu_1", "y": 180 },
+    "facing=west,slices=0": { "model": "bblsom:wildflowers_wanlonggu_1", "y": 270 },
+    "facing=north,slices=1":  { "model": "bblsom:wildflowers_wanlonggu_2" },
+    "facing=east,slices=1":  { "model": "bblsom:wildflowers_wanlonggu_2", "y": 90 },
+    "facing=south,slices=1": { "model": "bblsom:wildflowers_wanlonggu_2", "y": 180 },
+    "facing=west,slices=1": { "model": "bblsom:wildflowers_wanlonggu_2", "y": 270 },
+    "facing=north,slices=2":  { "model": "bblsom:wildflowers_wanlonggu_3" },
+    "facing=east,slices=2":  { "model": "bblsom:wildflowers_wanlonggu_3", "y": 90 },
+    "facing=south,slices=2": { "model": "bblsom:wildflowers_wanlonggu_3", "y": 180 },
+    "facing=west,slices=2": { "model": "bblsom:wildflowers_wanlonggu_3", "y": 270 },
+    "facing=north,slices=3":  { "model": "bblsom:wildflowers_wanlonggu_4" },
+    "facing=east,slices=3":  { "model": "bblsom:wildflowers_wanlonggu_4", "y": 90 },
+    "facing=south,slices=3": { "model": "bblsom:wildflowers_wanlonggu_4", "y": 180 },
+    "facing=west,slices=3": { "model": "bblsom:wildflowers_wanlonggu_4", "y": 270 }
+  }
+}

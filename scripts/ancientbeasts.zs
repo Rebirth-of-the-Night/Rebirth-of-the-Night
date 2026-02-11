@@ -1,4 +1,8 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 
 JEI.removeAndHide(<ancientbeasts:scale_hood>);
 JEI.removeAndHide(<ancientbeasts:logo>);
@@ -30,3 +34,8 @@ JEI.removeAndHide(<ancientbeasts:tribe_staff>);
 JEI.removeAndHide(<ancientbeasts:wisp_torch>);
 JEI.removeAndHide(<ancientbeasts:mysterious_dust>);
 JEI.removeAndHide(<ancientbeasts:wisp_bottle>);
+
+recipes.addShapeless("stick_block_to_sticks",<minecraft:stick>*9,[<ancientbeasts:stick_wall>]);
+
+
+

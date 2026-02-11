@@ -18,33 +18,29 @@ recipes.addShaped("Steel Anvil", <betterwithmods:steel_anvil>,[
 ]);
 
 <ore:gearSteel>.add(<pyrotech:cog_bone>);
+<ore:gearBrass>.add(<pyrotech:cog_gold>);
 
 var leatherBelt = <betterwithmods:material:9>;
 var cSteelNugget = <ore:nuggetSteel>;
 var cSteelIngot = <ore:ingotSteel>;
 var redstoneLatch = <ore:latchRedstone>;
 var steelGear = <pyrotech:cog_bone>;
+var brassGear = <pyrotech:cog_gold>;
 var sfsNugget = <ore:nuggetSoulforgedSteel>;
 var sfsIngot = <ore:ingotSoulforgedSteel>;
+var vnugg = <ore:nuggetViridium>.firstItem;
+var tannedstrap = <betterwithmods:material:8>;
+var glue = <ore:glue>;
+var tanned = <ore:hideTanned>;
+var durafiber = <ore:durableFiber>;
+var feralratclaw = <rats:feral_rat_claw>;
 
 Anvil.removeShaped(<betterwithaddons:wrought_bars>);
 Anvil.removeShaped(<betterwithaddons:steel_masonpick>); // replaced with content tweaker items for removal of building blocks (craftable only at foundry)
 
 Anvil.removeShaped(<betterwithmods:steel_axle>);
-Anvil.addShaped(<betterwithmods:steel_axle>, [
-   [null, null, cSteelNugget, steelGear],
-   [null, cSteelNugget, leatherBelt, cSteelNugget],
-   [cSteelNugget, leatherBelt, cSteelNugget, null],
-   [steelGear, cSteelNugget, null, null]
-]);
-
 Anvil.removeShaped(<betterwithmods:steel_gearbox>);
-Anvil.addShaped(<betterwithmods:steel_gearbox>, [
-   [cSteelIngot, cSteelIngot, steelGear, cSteelIngot],
-   [steelGear, steelGear, redstoneLatch, cSteelIngot],
-   [cSteelIngot, redstoneLatch, steelGear, steelGear],
-   [cSteelIngot, steelGear, cSteelIngot, cSteelIngot]
-]);
+
 
 Anvil.removeShaped(<betterwithmods:material:48>);
 Anvil.addShaped(steelGear * 2, 
@@ -57,6 +53,7 @@ Anvil.addShaped(steelGear * 2,
 
 recipes.removeByRecipeName("betterwithmods:blocks/mech/fix_steel_gearbox");
 
+
 // Heart of diamond
 Anvil.addShaped(<quark:diamond_heart>, 
 [
@@ -68,15 +65,17 @@ Anvil.addShaped(<quark:diamond_heart>,
 
 // Pipes
 val paneGlass = <ore:paneGlass>;
+val denseRedstone = <pyrotech:material:36>;
+val genericMetal = <ore:genericMetal>;
 paneGlass.addItems([<betternether:quartz_glass_pane>, <betternether:quartz_glass_framed_pane>,<netherex:soul_glass_pane>,<quark:framed_glass_pane>]);
 
 for item in paneGlass.items{
-   Anvil.addShaped(<quark:pipe> * 12, 
+   Anvil.addShaped(<quark:pipe> * 24, 
    [
-      [null, <ore:ingotIron>, <ore:ingotIron>, null],
-      [<ore:ingotCopper>, item, item, <ore:ingotCopper>],
-      [<ore:ingotCopper>, item, item, <ore:ingotCopper>],
-      [null, <ore:ingotIron>, <ore:ingotIron>, null]
+      [genericMetal, genericMetal, genericMetal, genericMetal],
+      [denseRedstone, item, item, genericMetal],
+      [denseRedstone, item, item, genericMetal],
+      [genericMetal, genericMetal, genericMetal, genericMetal]
    ]);
 }
 
@@ -158,4 +157,22 @@ Anvil.addShaped(<contenttweaker:steel_crowbar>,
    [<contenttweaker:material_part:49>, <dungeontactics:steel_ingot>, <contenttweaker:material_part:49>, null],
    [<dungeontactics:steel_ingot>, <contenttweaker:material_part:49>, <dungeontactics:steel_ingot>, <contenttweaker:material_part:49>],
    [null, null, <contenttweaker:material_part:49>, <dungeontactics:steel_ingot>]
+]);
+
+Anvil.removeShaped(<betterwithmods:block_dispenser>);
+mods.betterwithmods.Anvil.addShapedFixed(<betterwithmods:block_dispenser>, 
+[
+   [<ore:blockMossy>, <ore:blockMossy>, <ore:blockMossy>, <ore:blockMossy>],
+   [<ore:blockMossy>, <betterwithmods:urn:8>, <betterwithmods:urn:8>, <ore:blockMossy>],
+   [<ore:stone>, <minecraft:redstone_torch>, <minecraft:redstone_torch>, <ore:stone>],
+   [<ore:stone>, <minecraft:redstone>, <minecraft:redstone>, <ore:stone>]
+]);
+
+// Climbing Gloves
+Anvil.addShaped(<cyclicmagic:glove_climb>,
+[
+   [vnugg, vnugg, feralratclaw, feralratclaw],
+   [vnugg, feralratclaw, tanned, tanned],
+   [feralratclaw, tanned, glue, tannedstrap],
+   [feralratclaw, tanned, tannedstrap, durafiber]
 ]);

@@ -165,6 +165,7 @@ for w, weapon in sapphireweps{
 <iceandfire:pixie_dust:*>.addTooltip("What would happen if I had a taste...?");
 <contenttweaker:xp_tome_mundane>.addTooltip("Grants 500 XP on use.");
 <contenttweaker:xp_tome_arcane>.addTooltip("Grants 5 LEVELS on use.");
+<rats:feral_rat_claw>.addTooltip("Dropped from unnaturally large rodents.");
 
 // Arcane Archives
 <arcanearchives:raw_quartz:*>.addTooltip("Right-click on any chest to convert it to a Radiant Chest.");
@@ -177,7 +178,8 @@ for w, weapon in sapphireweps{
 <betterwithmods:material:12>.addTooltip("Just a crafting material.");
 <betterwithmods:material:12>.addShiftTooltip('Can be eaten, but if it had a label, it would read "DO NOT EAT."', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <betterwithmods:hibachi:*>.addTooltip("Powered by redstone");
-<betterwithaddons:ancestry_bottle:*>.addTooltip("Spirits found throughout the world can be bottled up or manually crafted");
+<betterwithaddons:ancestry_bottle:*>.addTooltip("Obtained by bottling spirits from slaying undead monsters.");
+<betterwithaddons:ancestry_bottle:*>.addTooltip("Can also be crafted.");
 <betterwithmods:material:29>.addTooltip(format.red("Extremely volatile."));
 <betterwithmods:material:29>.addTooltip(format.red("Taking damage while transporting this will result in irreparable loss of life... and everything on you."));
 <betterwithaddons:slat:*>.addTooltip("Perfect for being covered with tatami mats!");
@@ -188,12 +190,17 @@ for w, weapon in sapphireweps{
 <betterwithaddons:ancestry_infuser>.addShiftTooltip("Soulsand containing spirits must be placed below this block in a dark area. Soulsand and infuser must be floating and away from any block", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <betterwithmods:steel_gearbox:*>.addTooltip("Won't break from weather!");
 <betterwithmods:steel_axle:*>.addTooltip("Won't break from weather! Can also go up to 5 blocks, instead of the usual 3.");
-<contenttweaker:mythril_masonpick:*>.addTooltip("Can instantly remove resistant blocks for 30 durability.");
-<contenttweaker:sfs_masonpick:*>.addTooltip("Can instantly remove resistant blocks for 40 durability.");
-<contenttweaker:steel_crowbar:*>.addTooltip("Can instantly remove resistant blocks for 60 durability.");
+<contenttweaker:mythril_masonpick:*>.addTooltip("Can instantly remove resistant blocks for 20 durability.");
+<contenttweaker:sfs_masonpick:*>.addTooltip("Can instantly remove resistant blocks for 20 durability.");
+<contenttweaker:steel_crowbar:*>.addTooltip("Can instantly remove resistant blocks for 20 durability.");
+<contenttweaker:harmony_staff:*>.addTooltip("The power of creation and destruction, within the palm of your hand.");
+<contenttweaker:harmony_staff:*>.addShiftTooltip('Right click to mend cobblestone into stone; SHIFT + right click to crack stone into cobblestone.', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<contenttweaker:sowing_scepter:*>.addTooltip("Fertilizes soil within a 3x3 area.");
 <betterwithmods:unfired_pottery:4>.addTooltip("Can be baked in a pit kiln.");
 <contenttweaker:unfired_mud_brick:*>.addTooltip("Can be baked in a pit kiln.");
 <contenttweaker:unfired_adobe_brick:*>.addTooltip("Can be baked in a pit kiln.");
+<betterwithmods:material:24>.addTooltip("Acts as an extraction upgrade for liquid pipes.");
+<betterwithmods:material:24>.addShiftTooltip('All of this just to move a state of matter.', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 <ore:listAllExplosives>.addTooltip("This feels a little too volatile for high temperatures...");
 
@@ -255,8 +262,13 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <dungeontactics:bag_record:*>.addTooltip("Contains a music disc carefully wrapped for safe transport.");
 <dungeontactics:trickortreat_bag:*>.addTooltip("The boundary of the spirit world grows thin. Take this opportunity to gorge yourself on sweets.");
 <dungeontactics:solstice_gift:*>.addTooltip("Was this gift really meant for you? Well... finders' keepers!");
+
 <sereneseasons:greenhouse_glass:*>.addTooltip("Lets crops grow out of their normal growing seasons. If the glass is placed more than 7 blocks above a crop, the crop won't gain this benefit.");
 <netherex:ghast_meat_cooked:*>.addTooltip("Slimy, yet satisfying!");
+<betterwithmods:raw_egg>.addTooltip("An effective medicine and stomach filler. That is what you tell yourself in order to tolerate the taste.");
+<betterwithmods:raw_egg>.addShiftTooltip("Granny's remedy, directly from Causeperse (whose, you don't know). Heals for a few seconds but causes an upset stomach and leaves you vulnerable.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<harvestcraft:slimegummiesitem>.addTooltip("For years you have underestimated the power of slimes. With your intellect and these super cells, you are untouchable.");
+<rustic:elixir>.withTag({display:{LocName:"Metabolic Whey"},ElixirEffects:[{Effect: "minecraft:regeneration", Duration: 160, Amplifier: 2},{Effect: "minecraft:hunger", Duration: 160, Amplifier: 29},{Effect: "minecraft:nausea", Duration: 160, Amplifier: 0}]}).addTooltip("Tastes awful, but it will accelerate the natural healing of the body threefold and make you very hungry.");
 
 // Charm
 //<charm:totem_of_returning:*>.addTooltip("§5Right-click a block while holding the totem to bind yourself to that point. Right click again to return to that point.");
@@ -359,9 +371,14 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <contenttweaker:refracotta:*>.addTooltip("Not as good at keeping heat. Invalid for refractory structure.");
 <contenttweaker:modelingrefractory:*>.addTooltip("Malleable and homogeneous, ready for modeling.");
 <pyrotech:cog_wood>.removeTooltip("Indestructible");
+<pyrotech:cog_wood:*>.addShiftTooltip("Wood provides high friction, a lower failure point, and creates no sparks.");
 <pyrotech:cog_wood:*>.addTooltip("Can power a Mechanical Compactor");
 <pyrotech:cog_bone>.removeTooltip("Indestructible");
 <pyrotech:cog_bone:*>.addTooltip("Can power a Mechanical Compactor");
+<pyrotech:cog_wood:*>.addShiftTooltip("Steel provides medium friction, the highest durability, but can create sparks.");
+<pyrotech:cog_gold>.removeTooltip("Indestructible");
+<pyrotech:cog_gold:*>.addShiftTooltip("Brass provides the lowest friction, a medium failure point, and creates no sparks.");
+<pyrotech:cog_gold:*>.addTooltip("Can power a Mechanical Compactor");
 
 <pyrotech:bucket_stone>.removeTooltip("Uses:");
 <pyrotech:bucket_stone>.removeTooltip("Can hold hot fluids.");
@@ -423,13 +440,12 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <rustic:bee:*>.addTooltip("Place inside an apiary to produce honeycomb.");
 
 // Weapons
+<atop:amber_sword:*>.addTooltip("A fruit with an unstable relationship to reality. Its past existence is a mere memory... or is it?");
 
 // Doors
 <malisisdoors:jail_door>.addShiftTooltip("slidin into ur DMs");
 
-// Particular Eatables (Wildly Eat)
-<contenttweaker:sprinkles:*>.addTooltip("Zero nutritional value, but it gets you going.");
-<contenttweaker:sprinkles>.addShiftTooltip("Can be consumed for a short speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+// Eatables, Edibles
 <harvestcraft:teaitem:*>.addTooltip("Calming, but it gets you going.");
 <harvestcraft:teaitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <harvestcraft:raspberryicedteaitem:*>.addTooltip("Sweet, refreshing, and it gets you going.");
@@ -442,6 +458,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <harvestcraft:coffeeconlecheitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <growthcraft_rice:rice:*>.addTooltip("Staple of civilization; should be cooked first.");
 <growthcraft_rice:rice>.addShiftTooltip("Plant on a Rice Paddy.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<aether_legacy:healing_stone:*>.addTooltip("Restores max HP lost from dying to the Plague.");
+<betterwithmods:chicken_soup:*>.addTooltip("Has a 15 percent chance to remove plague effect.");
 
 <dungeontactics:toast:*>.addTooltip("Why did you make this?");
 <contenttweaker:baguettebrick>.addShiftTooltip("'this shit look like ancient debris with poop smeared on it' -elite meats");
@@ -452,7 +470,6 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <ore:plankWood>.addShiftTooltip("Can only be crafted in a crafting table, saw, or by chopping logs with an axe", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <wards:enchanted_paper:*>.addTooltip("Used to power Wards.");
 <aether_legacy:notch_hammer:*>.addTooltip("From the #1 princess in the world.");
-<aether_legacy:healing_stone:*>.addTooltip("Restores max HP lost from dying to the Plague.");
 <mowziesmobs:wrought_axe:*>.removeTooltip("Never breaks");
 <mowziesmobs:wrought_axe:*>.addTooltip("Only damaged by dying");
 <minecraft:enchanting_table:*>.addTooltip("Only usable at night.");
@@ -512,10 +529,14 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <exsartagine:pot>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:kettle>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:range:*>.addTooltip("Efficiently heats cooking appliances for fuel.");
-<exsartagine:range>.addShiftTooltip("Supports up to three Stove Extensions to on either side, offering four total surfaces on which to place woks, pots and kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<exsartagine:hearth:*>.addTooltip("Handily heats cooking appliances for fuel.");
-<exsartagine:hearth>.addShiftTooltip("Supports one Hearth Extension to its side, offering two total surfaces on which to place woks, pots and kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:range:*>.addShiftTooltip("Supports up to three total Stove Extensions on either side, offering four surfaces on which to place woks, pots and bake kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:hearth:*>.addTooltip("Heats cooking appliances for fuel. Requires ignition");
+<exsartagine:hearth:*>.addShiftTooltip("Supports one Hearth Extension to its side, offering two total surfaces on which to place woks, pots and bake kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:range_extended>.addTooltip("An extension for the Stove. Up to three can be added to either side of a Stove. Can only be placed next to Stoves.");
+<exsartagine:hearth_extended>.addTooltip("An extension for the Hearth. Only one can be added to the side of a Hearth. Can only be placed next to Hearths.");
 
+<biomesoplenty:terrestrial_artifact>.addTooltip("Has a chance to be dropped from Mysterious Lodestone.");
+<dungeontactics:mithril_block>.addTooltip("Found in frozen and arctic biomes.");
 
 <advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Pushes:") + "" + format.yellow(" Living entities."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Chute Compat.:") + format.green(" YES."));
@@ -530,11 +551,13 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <dungeontactics:rocket_pants:*>.addTooltip("Rocket man burning out his fuse.");
 <dungeontactics:bounce_boots:*>.addTooltip("Minimizes fall damage with bounciness!");
 <dungeontactics:lantern_magic:*>.addTooltip("Outputs a magical aura that forces most creatures to steer away from it.");
+<dungeontactics:ducttape>.addShiftTooltip("Single use. Items can be repaired a maximum amount of 5 times with repair kits. Will prevent enchanting unless a true enchanting table is used.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <iceandfire:dragonbone_bow:*>.addTooltip("Only shoots Dragonbone Arrows.");
 <dungeontactics:lantern_magic:*>.addTooltip("Light with a Flint and Steel to activate.");
 <dungeontactics:lantern_magic:*>.addTooltip(format.red("DOES NOT DROP WHEN BROKEN!"));
 <extraalchemy:potion_ring:*>.addTooltip("Consumes 5 or 8 xp every 30 seconds while active, depending on potion strength.");
-<dungeontactics:magic_pouch:*>.addTooltip("Right-click to open.");
+<dungeontactics:magic_pouch:*>.addTooltip("Shift right-click to take out one wand powder.");
+<dungeontactics:magic_pouch:*>.addTooltip("Right-click to stuff all wand powder in inventory into pouch.");
 <pyrotech:material:12>.addTooltip("Used for dried fiber.");
 <pyrotech:material:12>.addShiftTooltip("Obtained from breaking grass or as a byproduct of fibrous plants", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <pyrotech:refractory_door>.addShiftTooltip("Needs to be facing the inside of the structure.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
@@ -568,6 +591,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <iceandfire:sapphire_gem>.addTooltip("This sapphire seems too polished to use in many recipes.");
 
 <contenttweaker:ancient_cache:*>.addTooltip(format.darkRed("What, at long last, can be freed once more?"));
+
+<aesthetics:iron_brick_stairs:*>.addTooltip("When used in machines, can be oriented in any position.");
 
 // Bombs
 <dungeontactics:bomb_frag:*>.addTooltip("Explodes in an area");
@@ -614,7 +639,6 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <rustic:chili_pepper>.addTooltip(format.yellow("Summer"));
 
 // Wands
-
 <dungeontactics:magic_scroll>.removeTooltip("^Restoration( \\d+)?");
 <dungeontactics:magic_scroll>.removeTooltip("^Satiating( \\d+)?");
 <dungeontactics:magic_scroll>.removeTooltip("^Forging( \\d+)?");
@@ -636,8 +660,10 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <dungeontactics:magic_scroll>.removeTooltip("^Hold LSHIFT to see enchantments description");
 
 // Satchel
-
 <deadmanssatchel:deadmanssatchel>.removeTooltip("^Owner( \\d+)?");
+
+// Bundles
+<bundles:bundle:*>.addTooltip("Shift-right click to dump contents into inventory.");
 
 // Scepters
 <defiledlands:tears_flame>.removeTooltip("Shoots fireballs");
@@ -646,7 +672,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <twilightforest:giant_sword:*>.addTooltip(format.darkRed("+18 Attack Damage"));
 <twilightforest:giant_sword:*>.addTooltip(format.green("- Knockback IV"));
 
-<aether_legacy:valkyrie_lance:*>.addTooltip(format.darkRed("+4 Attack Damage"));
+<spartanweaponry:pike_invar:*>.addTooltip(format.darkRed("+4 Attack Damage"));
 
 <aether_legacy:holy_sword:*>.addTooltip(format.green("- Arcanic Conversion III"));
 
@@ -656,10 +682,10 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <aether_legacy:pig_slayer:*>.addTooltip(format.green("- Stealthy Strike I"));
 
 <demonic_scythe:demonic_scythe:*>.addTooltip("You feel your lifeforce corrupt as you hold this horrible weapon. Right click to perform a special AOE attack!");
-<demonic_scythe:demonic_scythe:*>.addTooltip(format.red("RIGHT CLICK CURRENTLY BUGGED"));
+# <demonic_scythe:demonic_scythe:*>.addTooltip(format.red("RIGHT CLICK CURRENTLY BUGGED"));
 <demonic_scythe:demonic_scythe:*>.addTooltip(format.darkPurple("Epic Weapon"));
 <demonic_scythe:awakened_demonic_scythe:*>.addTooltip("You feel your lifeforce corrupt as you hold this dreadful weapon. Right click to perform a special AOE attack which heals you!");
-<demonic_scythe:awakened_demonic_scythe:*>.addTooltip(format.red("RIGHT CLICK CURRENTLY BUGGED"));
+# <demonic_scythe:awakened_demonic_scythe:*>.addTooltip(format.red("RIGHT CLICK CURRENTLY BUGGED"));
 <demonic_scythe:awakened_demonic_scythe:*>.addTooltip(format.gold("Legendary Weapon"));
 
 // Longbows
@@ -686,14 +712,39 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <spartanfire:longbow_fire_dragonsteel:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.4"));
 <spartanweaponry:longbow_electrum:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.6"));
 <simpleores:mythril_bow:*>.addTooltip(format.darkAqua("Ammo Type: ") + format.gray("Arrows"));
-<simpleores:mythril_bow:*>.addTooltip(format.darkAqua("Draw Time: ") + format.gray("1s"));
+<simpleores:mythril_bow:*>.addTooltip(format.darkAqua("Draw Time: ") + format.gray("2s"));
 <simpleores:mythril_bow:*>.addTooltip(format.darkAqua("Arrow Speed: ") + format.gray("x1"));
-<simpleores:mythril_bow:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.1"));
+<simpleores:mythril_bow:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.7"));
 <nyx:meteor_bow:*>.addTooltip(format.darkAqua("Ammo Type: ") + format.gray("Arrows"));
-<nyx:meteor_bow:*>.addTooltip(format.darkAqua("Draw Time: ") + format.gray("1.5s"));
+<nyx:meteor_bow:*>.addTooltip(format.darkAqua("Draw Time: ") + format.gray("1s"));
 <nyx:meteor_bow:*>.addTooltip(format.darkAqua("Arrow Speed: ") + format.gray("x1.3"));
-<nyx:meteor_bow:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.5"));
+<nyx:meteor_bow:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.3"));
+<betterwithaddons:greatbow:*>.addTooltip(format.darkAqua("Ammo Type: ") + format.gray("Great Arrows"));
+<betterwithaddons:greatbow:*>.addTooltip(format.darkAqua("Draw Time: ") + format.gray("4s"));
+<betterwithaddons:greatbow:*>.addTooltip(format.darkAqua("Arrow Speed: ") + format.gray("x1.7"));
+<betterwithaddons:greatbow:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x2.5"));
+
+// Astikorcarts
+<astikorcarts:cargocart>.addTooltip("Can be ridden by one person.");
+<astikorcarts:cargocart>.addTooltip("Has a double chest worth of storage space; shift right-click to open.");
+<astikorcarts:mobcart>.addTooltip("Used to transport up to two animals; can also be ridden by players.");
+<astikorcarts:plowcart>.addTooltip("Plows the ground under it when pulled by a horse.");
+<astikorcarts:plowcart>.addTooltip("Right-click to lower its beams to ground level.");
 
 // BUGS
 #<aether_legacy:enchanted_blueberry:*>.addTooltip(format.red("DO NOT FEED TO HYPPOGRYPHS; CURRENTLY BUGGED AND UNTAMABLE."));
+<aether_legacy:valkyrie_lance>.addTooltip(format.red("BROKEN ITEM. Throw into water to fix"));
 <iceandfire:dragon_horn:*>.addTooltip(format.red("DO NOT USE ON YOUR DRAGONS, IT WILL DELETE THEM!"));
+/*
+// MACHINES 
+<rotn:alchemical_processor>.addTooltip(format.gold("Stove and Axle must both be on for the device to work!"));
+<rotn:power_hammer>.addTooltip(format.gold("Input items should be fed directly into the anvil. Output will be stored within the hammer controller."));
+<multiblocked:gale_chamber>.addTooltip(format.gold("Right click with two brass blocks to feed the internals and assemble the machine!"));
+<multiblocked:biotic_incubator>.addTooltip(format.gold("Right click with two brass blocks to feed the internals and assemble the machine!"));
+<multiblocked:multiblock_builder>.addTooltip(format.gold("Right click on a controller to build the multiblock machine automatically. Does NOT replace existing blocks, make sure there is enough space!"));
+<multiblocked:multiblock_builder>.removeTooltip("auto build");*/
+
+// PIPES
+<inspirations:pipe>.addTooltip(format.gold("Basic item pipe. Can only move items in one direction similar to a hopper."));
+<quark:pipe>.addTooltip(format.gold("Advanced item pipe. Can move items in multiple directions and take dropped items from an open end."));
+<simplewoodenpipes:pipe>.addShiftTooltip('Although just having a faucet into these might be easier... "Oh Altassatla keep, water falling! Oh Anhelare, keep water flowing!"', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));

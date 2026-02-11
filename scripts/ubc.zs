@@ -122,7 +122,7 @@ recipes.addShapeless("siltstone_button",<undergroundbiomes:sedimentary_stone_but
 // Bricks map
 val stonebrickDecoMap = {
     <contenttweaker:big_limestone_bricks> : [<contentcreator:limestone_brick_slab>,<contentcreator:limestone_brick_stairs>],
-    <contenttweaker:big_chalk_bricks> : [<contentcreator:chalk_brick_slab>,<contentcreator:chalk_brick_slab>],
+    <contenttweaker:big_chalk_bricks> : [<contentcreator:chalk_brick_slab>,<contentcreator:chalk_brick_stairs>],
 	<contenttweaker:big_shale_bricks> : [<contentcreator:shale_brick_slab>,<contentcreator:shale_brick_stairs>],
 	<contenttweaker:big_siltstone_bricks> : [<contentcreator:siltstone_brick_slab>,<contentcreator:siltstone_brick_stairs>],
 	<contenttweaker:big_dolomite_bricks> : [<contentcreator:dolomite_brick_slab>, <contentcreator:dolomite_brick_stairs>],
@@ -156,12 +156,13 @@ for fullBrick, brickDeco in stonebrickDecoMap{ // brickDeco[0] is for slabs, bri
 // Cobbles map
 val stonecobbleDecoMap = {
     <contenttweaker:limestone_cobble> : [<contentcreator:limestone_cobblestone_slab>,<contentcreator:limestone_cobblestone_stairs>],
-    <contenttweaker:chalk_cobble> : [<contentcreator:chalk_cobblestone_slab>,<contentcreator:chalk_cobblestone_slab>],
+    <contenttweaker:chalk_cobble> : [<contentcreator:chalk_cobblestone_slab>,<contentcreator:chalk_cobblestone_stairs>],
 	<contenttweaker:shale_cobble> : [<contentcreator:shale_cobblestone_slab>,<contentcreator:shale_cobblestone_stairs>],
 	<contenttweaker:siltstone_cobble> : [<contentcreator:siltstone_cobblestone_slab>,<contentcreator:siltstone_cobblestone_stairs>],
 	<contenttweaker:dolomite_cobble> : [<contentcreator:dolomite_cobblestone_slab>, <contentcreator:dolomite_cobblestone_stairs>],
 	<contenttweaker:greywacke_cobble> : [<contentcreator:greywacke_cobblestone_slab>,<contentcreator:greywacke_cobblestone_stairs>],
-    <contenttweaker:chert_cobble> : [<contentcreator:chert_cobblestone_slab>,<contentcreator:chert_cobblestone_stairs>]
+    <contenttweaker:chert_cobble> : [<contentcreator:chert_cobblestone_slab>,<contentcreator:chert_cobblestone_stairs>],
+    <contenttweaker:coade_stone_polished> : [<contentcreator:coade_stone_polished_slab>,<contentcreator:coade_stone_polished_stairs>]
 } as IItemStack[][IItemStack];
 
 for fullCobble, cobbleDeco in stonecobbleDecoMap{ // cobbleDeco[0] is for slabs, cobbleDeco[1] is for stairs
@@ -186,3 +187,11 @@ for fullCobble, cobbleDeco in stonecobbleDecoMap{ // cobbleDeco[0] is for slabs,
 		[cobbleDeco[0],cobbleDeco[0]
 	]);
 }
+
+// Polished coade recipes are a placeholder until vanilla stone becomes quartzite.
+recipes.addShaped("coade_ornate_polished_slab",<contentcreator:coade_stone_ornate_slab>*3, [
+  [<contentcreator:coade_stone_polished_slab>,<contentcreator:coade_stone_polished_slab>,<contentcreator:coade_stone_polished_slab>]
+]);
+recipes.addShaped("coade_polished_ornate_slab",<contentcreator:coade_stone_polished_slab>*3, [
+  [<contentcreator:coade_stone_ornate_slab>,<contentcreator:coade_stone_ornate_slab>,<contentcreator:coade_stone_ornate_slab>]
+]);

@@ -18,6 +18,10 @@ import mods.jei.JEI;
 <behgameon:accessory_49>.displayName = "§bAmulet of Divinity";
 <behgameon:accessory_49>.addTooltip(format.darkPurple("Fade in Light, return to Glory. Gone blazing, born anew, estrelvir."));
 
+// Continues to drop as loot (move to Depths once added). Recipe on gemcutter.
+<behgameon:accessory_17>.displayName = "§bBrass Bearing";
+<behgameon:accessory_17>.addTooltip(format.darkPurple("Greatly increases the critical efficacy of daggers."));
+<behgameon:accessory_17>.addTooltip(format.darkPurple("Perhaps the increased balance of the bearer has to do with the loose pieces within?"));
 
 /////////////////////////////////////////////////////
 
@@ -667,7 +671,7 @@ RecipeBuilder.get("mage")
    
 // Gluttony Pendant
 
-recipes.remove(<bountifulbaubles:amuletsingluttony>);
+/*recipes.remove(<bountifulbaubles:amuletsingluttony>);
 
 RecipeBuilder.get("mage")
   .setShaped([
@@ -679,6 +683,7 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
+*/
 
 // Ender Dragon Scale
 

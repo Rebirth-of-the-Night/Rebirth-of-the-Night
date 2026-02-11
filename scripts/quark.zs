@@ -39,6 +39,7 @@ JEI.removeAndHide(<quark:red_nether_brick_stairs>);
 JEI.removeAndHide(<quark:nether_brick_fence_gate>);
 JEI.removeAndHide(<quark:smoker>);
 JEI.removeAndHide(<quark:polished_stone>);
+JEI.removeAndHide(<quark:world_stone_carved>);
 
 removeRecipeNameArray(
 	concatString([["quark:iron_"], ["button", "ladder", "plate_1"]]));
@@ -69,6 +70,12 @@ recipes.addShaped("paper_wall",<quark:paper_wall>,[
 	[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],
 	[<minecraft:paper>,<minecraft:paper>,<minecraft:paper>],
 	[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]
+]);
+
+recipes.remove(<quark:grate>);
+recipes.addShaped("generic_metal_grate",<quark:grate>,[
+	[<ore:genericMetalBars>,<ore:genericMetalBars>],
+	[<ore:genericMetalBars>,<ore:genericMetalBars>]
 ]);
 
 //Immersive plating
@@ -126,6 +133,7 @@ recipes.addShaped("iDidItImACTUALLYFiberNow", <quark:rope>*6,[
 ]);
 
 recipes.addShapeless("tome_to_enchanted_paper", <wards:enchanted_paper>*9,[<quark:ancient_tome:*>]);
+recipes.addShapeless("petal_soulcompass", <quark:soul_compass>,[<biomesoplenty:terrestrial_artifact> ,<minecraft:compass>]);
 
 recipes.remove(<quark:bark:*>);
 val logs as IItemStack[] = [<minecraft:log:0>, <minecraft:log:1>, <minecraft:log:2>, <minecraft:log:3>, <minecraft:log2:0>, <minecraft:log2:1>] as IItemStack[];

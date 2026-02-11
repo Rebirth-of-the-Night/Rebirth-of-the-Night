@@ -30,7 +30,6 @@ JEI.removeAndHide(<cyclicmagic:plate_push_slow_corner>);
 JEI.removeAndHide(<cyclicmagic:plate_push_slow_angle>);
 JEI.removeAndHide(<cyclicmagic:target>);
 JEI.removeAndHide(<cyclicmagic:horse_upgrade_type>);
-JEI.removeAndHide(<cyclicmagic:horse_upgrade_health>);
 JEI.removeAndHide(<cyclicmagic:tool_mount>);
 JEI.removeAndHide(<cyclicmagic:plate_push>);//add back
 JEI.removeAndHide(<cyclicmagic:plate_push_corner>);//add back
@@ -183,12 +182,6 @@ recipes.addShaped("cyclic_large_button", <cyclicmagic:button_large>, [
     [masonry_brick, white_metal_nugget, masonry_brick]
 ]);
 
-recipes.addShaped("climbing_gloves", <cyclicmagic:glove_climb>, [
-	[vnugg, vnugg, tanned],
-    [vnugg, glue, tanned],
-    [tanned, tanned, duracloth]
-]);
-
 recipes.addShaped("immersive_carbon_paper", carpaper*6, [
 	[paper, paper, paper],
     [wax, carbond, wax],
@@ -201,9 +194,8 @@ recipes.addShaped("immersive_prospector", <cyclicmagic:tool_spelunker>, [
 ]);
 
 recipes.addShaped("obsidian_shears", obsi_shear,[
-	[null, obsi_shard, null],
-    [obsi_shard, null, obsi_shard],
-    [null, obsi_shard, null]
+	[null, obsi_shard],
+    [obsi_shard, null]
 ]);
 
 recipes.addShaped("powered_conveyor", st_conveyor*12,[
@@ -232,7 +224,7 @@ recipes.addShapeless("ramp_conveyor_2_straight", st_conveyor*2, [<cyclicmagic:pl
 //]);
 
 //Spelunker potions with prospecting kit in rustic.zs
-
+/*
 Anvil.addShaped(pipepump, 
 [
 	[reframat, pipe, reframat, null],
@@ -240,12 +232,12 @@ Anvil.addShaped(pipepump,
 	[reframat, pipe, reframat, null],
 	[null, null, null, null]
 ]);
-
+*/
 // Pipes
 val paneGlass = <ore:paneGlass>;
 paneGlass.addItems([<betternether:quartz_glass_pane>, <betternether:quartz_glass_framed_pane>,<netherex:soul_glass_pane>,<quark:framed_glass_pane>]);
 
-for item in paneGlass.items{
+/*for item in paneGlass.items{
 Anvil.addShaped(pipeliquid * 12, 
 [
 	[null, reframat, reframat, null],
@@ -255,7 +247,7 @@ Anvil.addShaped(pipeliquid * 12,
 ]);
 }
 
-/* //Requires RF
+//Requires RF
 Anvil.addShaped(<cyclicmagic:fluid_drain>,[
 	[steel, screwpump , steel],
     [refratank, screwpump, pipepump],
@@ -263,10 +255,14 @@ Anvil.addShaped(<cyclicmagic:fluid_drain>,[
 ]);
 */
 
-recipes.addShaped("Codex anchor", gps,[
-	[<minecraft:ender_pearl>],
-    [codex],
-    [<contenttweaker:order_quintessence>]
+recipes.addShaped("codex_anchor", gps,[
+	[<minecraft:ender_pearl>, codex],
+    [<contenttweaker:order_quintessence>, null],
+    [null, <ore:stickWood>]
+]);
+recipes.addShaped("codex_anchor_ow_style", gps,[
+	[<biomesoplenty:terrestrial_artifact>, codex],
+    [null, <ore:stickWood>]
 ]);
 
 RecipeBuilder.get("mage")

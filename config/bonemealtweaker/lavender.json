@@ -1,0 +1,20 @@
+{
+  "block": "biomesoplenty:grass",
+  "iterations": 200,
+  "biomes": [
+    "biomesoplenty:lavender_fields"
+  ],
+  "dimensions": [
+    0
+  ],
+  "spawnBlocks": [
+    {
+      "block": "biomesoplenty:flower_1[variant=lavender]",
+      "weight": 5
+    },
+    {
+      "block": "minecraft:tallgrass[type=tall_grass]",
+      "weight": 2
+    }
+  ]
+}

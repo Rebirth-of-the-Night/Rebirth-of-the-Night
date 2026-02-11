@@ -1,0 +1,31 @@
+Hi!
+This folder is used to store data used by The Impossible Library and other mods that might use it as a dependency. It might also contain some debug files such classes generated via ASM.
+
+
+----------------------------------------------------------------------------------------------------
+
+
+For mod developers:
+	If you registered any global data through The Impossible Library, this is where that gets stored! If your modid is here, everything is working as intended.
+
+	If you generated a class via ASM that isn't working, you can find a copy of it within the 'asm_debug' 	subdirectory to help with the debugging process.
+
+
+----------------------------------------------------------------------------------------------------
+
+
+For modpack creators:
+	This is where mods that utilize the global data system implemented by The Impossible Library have their data stored!
+
+	If you want to quickly reset a specific mod's data, you can try removing the .dat file corresponding to its modid here.
+
+	This folder does not need to be exported when packaging a modpack unless the globally saved data for some mod that depends on The Impossible Library is vital to the experience of the pack
+
+
+----------------------------------------------------------------------------------------------------
+
+
+For players:
+	You probably don't have to worry about this folder, but if you can tell that a specific mod is breaking and there looks to be a .dat file with its modid, you can try removing it.
+	There are no guaruntees whether this will do anything as it depends entirely on the mod.
+	Remember to report issues!

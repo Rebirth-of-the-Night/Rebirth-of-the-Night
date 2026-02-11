@@ -30,13 +30,6 @@ Mill.remove([<betterwithaddons:brick_stained:13>]);
 Mill.remove([<betterwithaddons:brick_stained:14>]);
 Mill.remove([<betterwithaddons:brick_stained:15>]);
 
-// Dread Slate Processing
-Mill.builder()
-.buildRecipe([<contenttweaker:raw_dread_slate>], [<adpother:dreadmist>])
-.setPriority(8)
-.setGrindType("minecraft:entity.lightning.thunder")
-.build();
-
 // Extra ground netherrack
 Mill.builder()
 .buildRecipe([<minecraft:netherrack>], [<betterwithmods:material:15>*4])
@@ -110,6 +103,13 @@ Mill.builder()
 // Rotten Flesh Refinement
 Mill.builder()
 .buildRecipe([<minecraft:rotten_flesh>], [<contenttweaker:monster_hide>*2])
+.setPriority(3)
+.setGrindType("fairylights:cord.stretch")
+.build();
+
+// Plagued Hide Refinement
+Mill.builder()
+.buildRecipe([<mod_lavacow:pigboarhide>], [<contenttweaker:monster_hide>*6])
 .setPriority(3)
 .setGrindType("fairylights:cord.stretch")
 .build();

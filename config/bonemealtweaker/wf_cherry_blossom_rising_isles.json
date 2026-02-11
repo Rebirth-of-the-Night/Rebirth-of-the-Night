@@ -1,0 +1,52 @@
+{
+  "block": "biomesoplenty:grass",
+  "iterations": 24,
+  "biomes": [
+    "biomesoplenty:cherry_blossom_grove"
+  ],
+  "dimensions": [
+    0
+  ],
+  "spawnBlocks": [
+    {
+      "block": "minecraft:tallgrass[type=tall_grass]",
+      "weight": 20
+    },
+    {
+      "block": "biomesoplenty:flower_0[variant=pink_daffodil]",
+      "weight": 15
+    },
+    {
+      "block": "bblsom:wildflowers_rising_isles[facing=south,slices=0]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_rising_isles[facing=south,slices=1]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_rising_isles[facing=south,slices=2]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_rising_isles[facing=south,slices=3]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_rising_isles[facing=north,slices=0]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_rising_isles[facing=north,slices=1]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_rising_isles[facing=north,slices=2]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_rising_isles[facing=north,slices=3]",
+      "weight": 10
+    }
+  ]
+}

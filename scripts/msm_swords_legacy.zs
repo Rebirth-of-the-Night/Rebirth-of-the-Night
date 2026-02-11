@@ -62,28 +62,6 @@ recipes.addShaped("Draconic Blade", <pyrotech:redstone_sword>.withTag({}),[
 
 
 /////////////////////        Heavens Halberd        /////////////////////
-JEI.removeAndHide(<spartanweaponry:dagger_invar>);
-JEI.removeAndHide(<spartanweaponry:longsword_invar>);
-JEI.removeAndHide(<spartanweaponry:katana_invar>);
-JEI.removeAndHide(<spartanweaponry:saber_invar>);
-JEI.removeAndHide(<spartanweaponry:rapier_invar>);
-JEI.removeAndHide(<spartanweaponry:greatsword_invar>);
-JEI.removeAndHide(<spartanweaponry:hammer_invar>);
-JEI.removeAndHide(<spartanweaponry:warhammer_invar>);
-JEI.removeAndHide(<spartanweaponry:spear_invar>);
-JEI.removeAndHide(<spartanweaponry:pike_invar>);
-JEI.removeAndHide(<spartanweaponry:lance_invar>);
-JEI.removeAndHide(<spartanweaponry:longbow_invar>);
-JEI.removeAndHide(<spartanweaponry:throwing_knife_invar>);
-JEI.removeAndHide(<spartanweaponry:throwing_axe_invar>);
-JEI.removeAndHide(<spartanweaponry:javelin_invar>);
-JEI.removeAndHide(<spartanweaponry:boomerang_invar>);
-JEI.removeAndHide(<spartanweaponry:battleaxe_invar>);
-JEI.removeAndHide(<spartanweaponry:mace_invar>);
-JEI.removeAndHide(<spartanweaponry:glaive_invar>);
-JEI.removeAndHide(<spartanweaponry:staff_invar>);
-
-
 
 var sange = <dungeontactics:mithril_sword>;
 var talisman = <behgameon:accessory_4>;
@@ -228,7 +206,7 @@ mods.betterwithmods.Anvil.addShaped(<contenttweaker:heartofthefallen>,
 ]);
 
 
-val enchantments5 as IEnchantmentDefinition[] = [<enchantment:livingenchantment:enchantment.living>, <enchantment:msmlegacy:absorb>, <enchantment:msmlegacy:decay>, <enchantment:msmlegacy:vitality>, <enchantment:msmlegacy:consuming_shadows>];
+val enchantments5 as IEnchantmentDefinition[] = [<enchantment:livingenchantment:enchantment.living>, <enchantment:msmlegacy:absorb>, <enchantment:msmlegacy:decay>, <enchantment:mod_lavacow:lifesteal>, <enchantment:msmlegacy:consuming_shadows>];
 var enchantmentMap5 as IData = {};
 
 

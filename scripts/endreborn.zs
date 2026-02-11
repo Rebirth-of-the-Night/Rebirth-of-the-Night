@@ -22,6 +22,7 @@ JEI.removeAndHide(<endreborn:broken_ender_flower>);
 JEI.removeAndHide(<endreborn:ingot_infused>);
 JEI.removeAndHide(<patchouli:guide_book>.withTag({"patchouli:book": "endreborn:book"}));
 recipes.removeByRecipeName("endreborn:book");
+recipes.removeByRecipeName("endreborn:items/dragon_scales");
 
 <endreborn:sword_shard>.addTooltip("Rare drop from End Guards");
 

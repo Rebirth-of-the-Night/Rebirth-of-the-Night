@@ -127,6 +127,8 @@ recipes.remove(<spartanweaponry:boomerang_stone>);
 recipes.remove(<spartanweaponry:mace_stone>);
 recipes.remove(<spartanweaponry:staff_stone>);
 
+recipes.removeByRecipeName("spartanshields:shield_vanilla_stone");
+recipes.removeByRecipeName("spartanshields:shield_tower_stone");
 recipes.remove(<spartanshields:shield_basic_lead>);
 recipes.remove(<spartanshields:shield_basic_diamond>);
 JEI.removeAndHide(<spartanshields:shield_tower_diamond>);
@@ -153,8 +155,15 @@ recipes.addShaped("high_grade_arrow",<spartanweaponry:arrow_diamond>*4,[
     [<ore:feather>]
 ]);
 
-recipes.remove(<spartanweaponry:bolt_diamond>);
+// Let iron bolt use any nugget
+recipes.remove(<spartanweaponry:bolt>);
+recipes.addShapedMirrored("iron_bolt", <spartanweaponry:bolt> * 4, [
+    [null, null, <ore:ingotIron>],
+    [null, <ore:genericMetalNuggets>, null], 
+    [<ore:feather>, null, null]
+]);
 
+recipes.remove(<spartanweaponry:bolt_diamond>);
 recipes.addShapedMirrored("high_grade_bolt", <spartanweaponry:bolt_diamond> * 4, [
     [null, null, <ore:ingotableGem>],
     [null, <ore:genericMetalNuggets>, null], 
@@ -192,7 +201,27 @@ recipes.addShaped("gem_forged_shield", <spartanshields:shield_basic_diamond>,
 ]);
 mods.vanillaanvilrepair.addRepairEntry(<spartanshields:shield_basic_diamond>, qualityGem);
 
+//Stone Shield/Tower Shield
+val rock = <ore:rock>;
+val shieldWood = <spartanshields:shield_basic_wood>;
+val shieldTowerWood = <spartanshields:shield_tower_wood>;
+recipes.addShaped("stone_shield", <spartanshields:shield_basic_stone>,
+[
+    [null, rock, null],
+    [rock, shieldWood, rock],
+    [null, rock, null]
+]);
 
+recipes.addShaped("stone_tower_shield", <spartanshields:shield_tower_stone>,
+[
+    [null, rock, null],
+    [rock, shieldTowerWood, rock],
+    [null, rock, null]
+]);
+
+// Studded club uses nails instead of iron ingot
+recipes.remove(<spartanweaponry:club_studded>);
+recipes.addShapeless("studded_club",<spartanweaponry:club_studded>,[<spartanweaponry:club_wood>,<minetraps:nails>]);
 
 
 
@@ -220,6 +249,27 @@ JEI.removeAndHide(<spartanweaponry:hammer_electrum>);
 JEI.removeAndHide(<spartanweaponry:katana_electrum>);
 JEI.removeAndHide(<spartanweaponry:staff_electrum>);
 JEI.removeAndHide(<contenttweaker:ancient_cache>);
+
+// Invar (Heavenly)
+JEI.removeAndHide(<spartanweaponry:dagger_invar>);
+JEI.removeAndHide(<spartanweaponry:longsword_invar>);
+JEI.removeAndHide(<spartanweaponry:katana_invar>);
+JEI.removeAndHide(<spartanweaponry:saber_invar>);
+JEI.removeAndHide(<spartanweaponry:rapier_invar>);
+JEI.removeAndHide(<spartanweaponry:greatsword_invar>);
+JEI.removeAndHide(<spartanweaponry:hammer_invar>);
+JEI.removeAndHide(<spartanweaponry:warhammer_invar>);
+JEI.removeAndHide(<spartanweaponry:spear_invar>);
+JEI.removeAndHide(<spartanweaponry:lance_invar>);
+JEI.removeAndHide(<spartanweaponry:longbow_invar>);
+JEI.removeAndHide(<spartanweaponry:throwing_knife_invar>);
+JEI.removeAndHide(<spartanweaponry:throwing_axe_invar>);
+JEI.removeAndHide(<spartanweaponry:javelin_invar>);
+JEI.removeAndHide(<spartanweaponry:boomerang_invar>);
+JEI.removeAndHide(<spartanweaponry:battleaxe_invar>);
+JEI.removeAndHide(<spartanweaponry:mace_invar>);
+JEI.removeAndHide(<spartanweaponry:glaive_invar>);
+JEI.removeAndHide(<spartanweaponry:staff_invar>);
 
 // JEI.removeAndHide(<spartancompat:handle_skyroot>); skyroot_replacement.zs
 // JEI.removeAndHide(<spartancompat:pole_skyroot>);

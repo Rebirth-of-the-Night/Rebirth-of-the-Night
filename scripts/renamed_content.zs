@@ -1,3 +1,5 @@
+#reloadable
+
 import crafttweaker.game.IGame;
 import crafttweaker.data.IData;
 import crafttweaker.item.IItemStack;
@@ -6,7 +8,7 @@ import mods.jei.JEI;
 // Progression and CoT
 <contenttweaker:slayers_tattered_journal:*>.addTooltip("A peculiar old journal... I've copied it into my guidebook.");
 
-<multiblockmobs:soul_chassis:*>.addTooltip("Used for summoning bosses");
+<multiblockmobs:soul_chassis:*>.addTooltip(format.red("The Harvester can only be summoned during the night!"));
 
 // Biomes o Plenty
 <biomesoplenty:hive>.displayName = "Giant Hive Block";
@@ -14,6 +16,7 @@ import mods.jei.JEI;
 <biomesoplenty:hive:2>.displayName = "Giant Infested Honeycomb Block";
 <biomesoplenty:hive:3>.displayName = "Giant Filled Honeycomb Block";
 <biomesoplenty:bamboo:0>.displayName = "Bamboo Stick";
+<biomesoplenty:blue_fire>.displayName = "Cursed Fire";
 
 // Better With Mods
 <betterwithmods:axle_generator>.displayName = "Horizontal Windmill";
@@ -38,6 +41,14 @@ import mods.jei.JEI;
 
 <rustic:book:*>.addTooltip(format.aqua("Guidebook"));
 <rustic:book:*>.addTooltip("How to farm, brew elixirs, and decorate your home.");
+
+// Simple Pipes
+<simplewoodenpipes:pipe>.withTag({BaseBlock: {id: "minecraft:wooden_planks", Count: 1}}).displayName = "Dummy Pipe";
+<simplewoodenpipes:pipe>.withTag({BaseBlock: {id: "simpleores:copper_block", Count: 1}}).displayName = "Copper Fluid Pipe";
+<simplewoodenpipes:pipe>.withTag({BaseBlock: {id: "dungeontactics:steel_block", Count: 1}}).displayName = "Galvanized Steel Fluid Pipe";
+<simplewoodenpipes:pipe>.withTag({BaseBlock: {id: "pyrotech:refractory_brick_block", Count: 1}}).displayName = "Refractory Fluid Pipe";
+<simplewoodenpipes:pipe>.withTag({BaseBlock: {id: "contenttweaker:raw_wrought_iron", Count: 1}}).displayName = "Galvanized Wrought Iron Fluid Pipe";
+<simplewoodenpipes:pipe>.withTag({BaseBlock: {id: "betterwithmods:steel_block", Count: 1}}).displayName = "Unnecessarily Expensive and Evil Fluid Pipe";
 
 // removed these, leaving the following for now
 // <golems:info_book:*>.addTooltip(format.aqua("Guidebook"));
@@ -247,6 +258,8 @@ for potion in potionMap{
 <simpleores:adamantium_helmet:*>.addTooltip(format.darkGreen("Rare Armor"));
 <simpleores:adamantium_boots:*>.addTooltip(format.darkGreen("Rare Armor"));
 <simpleores:adamantium_ingot:*>.addTooltip(format.darkGreen("Rare Material"));
+<biomesoplenty:gem:5>.addTooltip(format.darkGreen("Rare Material"));
+<biomesoplenty:gem:5>.addTooltip("An elusive gem valued by mages, arcanists, and artisans of the occult.");
 
 <naturescompass:naturescompass>.displayName = "§aBiome Compass";
 

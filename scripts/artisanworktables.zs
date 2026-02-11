@@ -9,6 +9,7 @@ JEI.removeAndHide(<artisanworkstumps:log_basin>);
 JEI.removeAndHide(<artisanworkstumps:stone_basin>);
 JEI.removeAndHide(<artisanworktables:artisans_lens_stone>);
 JEI.removeAndHide(<artisanworktables:artisans_quill_stone>);
+JEI.removeAndHide(<artisanworktables:worktable>);
 
 recipes.remove(<artisanworktables:artisans_lens_stone>);
 recipes.remove(<artisanworktables:artisans_lens_gold>);
@@ -24,7 +25,7 @@ recipes.addShaped("artisans_carver_gold", <artisanworktables:artisans_carver_sto
     [<ore:stickWood>,null]
 ]);
 recipes.remove(<artisanworktables:artisans_carver_gold>);
-recipes.addShaped("artisans_carver_gold", <artisanworktables:artisans_carver_gold>, [
+recipes.addShaped("artisans_carver_gold2", <artisanworktables:artisans_carver_gold>, [
     [null,<ore:genericMetalNuggets>],
     [<ore:stickWood>,null]
 ]);
@@ -47,7 +48,7 @@ var disabledStumps as string[] = [
 ] as string[];
 
 var enabledTableMetas as int[] = [
-    5
+    
 ] as int[];
 
 var enabledStationMetas as int[] = [
@@ -72,12 +73,14 @@ for i in 0 .. 15 {
 // Recipe for Tier 2 Mage workstation
 recipes.addShaped("mage_workstation", <artisanworktables:workstation:7>, [
     [<minecraft:dye:4>, <minecraft:carpet:11>, <minecraft:dye:4>],
-    [<contenttweaker:vis_speck>, <minecraft:crafting_table> | <artisanworktables:worktable:5>, <contenttweaker:vis_speck>], 
+    [<contenttweaker:vis_speck>, <minecraft:crafting_table>, <contenttweaker:vis_speck>], 
     [<ore:stoneSlab>, <ore:stone>, <ore:stoneSlab>]
 ]);
 
 // Recipe for Tier 1 "Basic" worktable as a stylistic upgrade to vanilla
-recipes.addShapeless("free_upgrade", <artisanworktables:worktable:5>, [<minecraft:crafting_table>]);
+// disabled due to a lot of annoying crafting bugs 
+
+// recipes.addShapeless("free_upgrade", <artisanworktables:worktable:5>, [<minecraft:crafting_table>]);
 
 // Quill (One quill fits all! Using 'gold' since it has the lowest durability)
 recipes.remove(<artisanworktables:artisans_quill_stone>);

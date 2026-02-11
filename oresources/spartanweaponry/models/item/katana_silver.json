@@ -1,9 +1,7 @@
 {
-    "parent":"spartanweaponry:item/katana_wood",
+    "parent":"item/handheld",
     "textures": {
-        "layer0":"spartanweaponry:items/custom/katana_layer_0",
-        "layer1":"spartanweaponry:items/custom/katana_layer_1",
-        "layer2":"spartanweaponry:items/custom/katana_layer_2"
+        "layer0":"spartanweaponry:items/katana_silver"
     },
     "display": {
         "thirdperson_righthand": {

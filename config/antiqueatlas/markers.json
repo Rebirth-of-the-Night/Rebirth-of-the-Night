@@ -19,6 +19,13 @@
       "centerX": "[Default: 0.5] The point in the image that should be at the location of the marker (0-1)",
       "centerY": "[Default: 0.5] The point in the image that should be at the location of the marker (0-1)"
     },
+    "antiqueatlas:bandit_rib": {
+      "textures": [
+        "antiqueatlas:textures/gui/markers/bandit_rib.png"
+      ],
+      "isTile": true,
+      "isTechnical": false
+    },
     "antiqueatlas:bed": {},
     "antiqueatlas:diamond": {},
     "antiqueatlas:end_city": {},
@@ -30,6 +37,13 @@
     "antiqueatlas:red_x_small": {},
     "antiqueatlas:scroll": {},
     "antiqueatlas:skull": {},
+    "antiqueatlas:spinebud": {
+      "textures": [
+        "antiqueatlas:textures/gui/markers/spinebud.png"
+      ],
+      "isTile": true,
+      "isTechnical": false
+    },
     "antiqueatlas:sword": {},
     "antiqueatlas:tomb": {},
     "antiqueatlas:tower": {},

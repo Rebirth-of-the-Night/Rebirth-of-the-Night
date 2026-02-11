@@ -54,7 +54,7 @@ StoneKiln.addRecipe("bwm_cobble_to_stone", <minecraft:stone:0>, <minecraft:cobbl
 //PitKiln.addRecipe("bwmcobble_to_stone3", <minecraft:stone:5>, <betterwithmods:cobblestone:2>, 20*320, true);
 PitKiln.addRecipe("mudbrick_to_clay", <minecraft:clay_ball>, <biomesoplenty:mud_brick>, 20*360, true);
 StoneKiln.addRecipe("charge_to_burnt_goo", <betterslimes:black_slime>, <minecraft:fire_charge>, 20*320, true);
-PitKiln.addRecipe("charcoal_pile", <contenttweaker:charcoal_pile>, <pyrotech:log_pile>, 20*210, true);
+PitKiln.addRecipe("charcoal_pile", <contenttweaker:charcoal_pile>, <ore:mundaneLogPile>, 20*210, true);
 PitKiln.addRecipe("charcoal_flakes", <pyrotech:material:15>, <pyrotech:rock:7>, 20*210, 0.25, [<biomesoplenty:ash>*2], true);
 PitKiln.addRecipe("bwm_flint_block", <betterwithmods:aesthetic:5>, <ore:gravel>, 20*210, true);
 PitKiln.addRecipe("whitecobble_to_stone", <betterwithmods:aesthetic:6>, <betterwithmods:aesthetic:7>, 20*280, true);
@@ -92,6 +92,9 @@ StoneKiln.addRecipe("metamorphic_cobble_to_stone_extra0", <contenttweaker:serpen
 
 StoneKiln.addRecipe("sand_to_glass", <minecraft:glass>, <ore:sand>, 20*320, true);
 
+StoneKiln.addRecipe("wrought_shard_to_ingot", <contenttweaker:material_part:49>, <contenttweaker:material_part:52>, 20*320, true);
+StoneKiln.addRecipe("zinc_bits_to_ingot", <contenttweaker:material_part:32>, <pyrotech:rock:3>, 20*320, true);
+
 //Unified kiln recipes
 
 /*
@@ -99,13 +102,18 @@ This useful map couldn't have been made without the contribution of the Crafttwe
 */
 
 //metal
-var stringMat as string[] = ["Iron", "Copper", "Tin", "Silver", "Gold", "Viridium", "Mythril"];
-for mat in stringMat {
+var ore as string[] = ["Iron", "Copper", "Tin", "Silver", "Gold", "Viridium", "Mythril", "Zinc"];
+for mat in ore {
 //optional furnace ore recipes removal  ==>  furnace.remove(oreDict["ingot"~mat], oreDict["ore"~mat]);
     StoneKiln.addRecipe("StoneKiln"~mat, oreDict["ingot"~mat].firstItem, oreDict["ore"~mat], 20*250, true);
 }
 
-var dustMat as string[] = ["Iron", "Copper", "Tin", "Brass", "Silver", "Gold", "Viridium", "Mythril", "SoulforgedSteel", "CrucibleSteel", "Endorium", "Bronze", "Electrum"];
+var denseOre as string[] = ["Iron", "Copper", "Tin", "Silver", "Gold", "Viridium", "Mythril"];
+for mat in denseOre {
+    StoneKiln.addRecipe("StoneKilnDense"~mat, oreDict["ingot"~mat].firstItem*2, oreDict["denseore"~mat], 20*250, true);
+}
+
+var dustMat as string[] = ["Iron", "Copper", "Tin", "Brass", "Silver", "Gold", "Viridium", "Mythril", "SoulforgedSteel", "CrucibleSteel", "Endorium", "Bronze", "Electrum", "Zinc"];
 for mat in dustMat {
     StoneKiln.addRecipe("StoneKiln_dust"~mat, oreDict["ingot"~mat].firstItem, oreDict["dust"~mat], 20*320, true);
 }
@@ -116,8 +124,17 @@ for mat in rawOre {
 }
 
 //gem
-var stringMat1 as string[] = ["Coal", "Redstone", "Lapis", "Diamond", "Ruby", "Sapphire", "Peridot", "Emerald", "Quartz", "Amethyst", "EnderBiotite", "Onyx", "Ambrosium", "Zanite"];
-for mat1 in stringMat1 {
-//optional furnace ore recipes removal  ==>  furnace.remove(oreDict["gem"~mat1], oreDict["ore"~mat1]);
+var gemOre as string[] = ["Coal", "Redstone", "Lapis", "Diamond", "Ruby", "Sapphire", "Peridot", "Emerald", "Quartz", "Onyx", "Zanite"];
+for mat1 in gemOre {
     StoneKiln.addRecipe("StoneKiln"~mat1, oreDict["gem"~mat1].firstItem, oreDict["ore"~mat1], 20*270, true);
 }
+
+var denseGemOre as string[] = ["Coal", "Redstone", "Lapis", "Diamond", "Ruby", "Sapphire", "Peridot", "Emerald", "Onyx"];
+for mat1 in denseGemOre {
+    StoneKiln.addRecipe("StoneKilnDense"~mat1, oreDict["gem"~mat1].firstItem*2, oreDict["denseore"~mat1], 20*270, true);
+}
+
+
+StoneKiln.addRecipe("StoneKilnExorite", <rotn_blocks:exorite_crystal>, <ore:oreAmethyst>, 20*270, true);
+StoneKiln.addRecipe("StoneKilnDenseExorite", <rotn_blocks:exorite_crystal>*2, <ore:denseoreAmethyst>, 20*270, true);
+StoneKiln.addRecipe("StoneKilnBiotite", <quark:biotite>, <quark:biotite_ore>, 20*270, true);

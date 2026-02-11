@@ -10,6 +10,7 @@ import mods.pyrotech.DryingRack;
 import mods.pyrotech.Campfire;
 import mods.pyrotech.SoakingPot;
 import mods.pyrotech.Burn;
+import mods.pyrotech.CompostBin;
 
 JEI.removeAndHide(<pyrotech:crate>);
 JEI.removeAndHide(<pyrotech:material:16>);
@@ -109,6 +110,98 @@ CompactingBin.addRecipe("wax_block", <harvestcraft:pressedwax>, <rustic:beeswax>
 CompactingBin.addRecipe("bonemeal_antidupe", <minecraft:bone_block>, <minecraft:dye:15>, 9, true);
 CompactingBin.addRecipe("clay_compacting", <minecraft:clay>, <minecraft:clay_ball>, 4, true);
 CompactingBin.addRecipe("mud_compacting", <biomesoplenty:mud>, <biomesoplenty:mudball>, 4, true);
+CompactingBin.addRecipe("compactrottenflesh", <charm:rotten_flesh_block>, <minecraft:rotten_flesh>, 9, true);
+CompactingBin.addRecipe("compactflesh", <biomesoplenty:flesh>, <biomesoplenty:fleshchunk>, 4, true);
+
+//Composting Recipes
+/*
+CompostBin.addRecipe(<pyrotech:mulch>, <betterwithmods:material:2>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <betterwithmods:hemp>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:blackberryseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:blueberryseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:candleberryseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:raspberryseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:strawberryseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:cactusfruitseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:asparagusseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:barleyseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:oatsseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:ryeseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:cornseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:bambooshootseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:cantaloupeseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:cucumberseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:wintersquashseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:zucchiniseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:beetseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:onionseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:parsnipseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:peanutseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:radishseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:rutabagaseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:sweetpotatoseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:turnipseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:rhubarbseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:celeryseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:garlicseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:gingerseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:spiceleafseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:teaseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:coffeeseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:mustardseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:broccoliseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:cauliflowerseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:leekseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:lettuceseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:scallionseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:artichokeseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:brusselsproutseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:cabbageseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:spinachseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:whitemushroomseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:beanseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:soybeanseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:bellpepperseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:chilipepperseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:eggplantseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:okraseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:peasseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:tomatoseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:cottonseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:pineappleseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:grapeseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:kiwiseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:cranberryseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:riceseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:seaweedseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:curryleafseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:sesameseedsitem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:sesameseedsseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:waterchestnutseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:gigapickleseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:kaleseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:agaveseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:amaranthseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:arrowrootseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:cassavaseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:chickpeaseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:elderberryseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:flaxseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:greengrapeseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:huckleberryseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:jicamaseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:juteseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:kenafseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:kohlrabiseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:lentilseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:milletseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:mulberryseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:quinoaseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:sisalseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:taroseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:tomatilloseeditem>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:juniperberryseeditem>, 12);
+*/
 
 CrudeDryingRack.removeRecipes(<pyrotech:material:2>);
 CrudeDryingRack.removeRecipes(<pyrotech:material:13>);
@@ -142,12 +235,6 @@ SoakingPot.addRecipe("easy_durable_twine", <pyrotech:material:26>*3, <liquid:woo
 SoakingPot.addRecipe("rotten_flesh_dissolve", <quark:tallow>, <liquid:methanol>*1, <ore:meatRotten>, true, 5 * 60 * 20);
 SoakingPot.addRecipe("mossy_stone_bricks", <minecraft:stonebrick:1>, <liquid:water>*500, <contenttweaker:brick_minecraft_stone>, 7 * 60 * 20);
 SoakingPot.addRecipe("yute_fiber", <betterwithmods:material:3>*5, <liquid:water>*500, <pyrotech:material:2>, 5 * 60 * 20);
-SoakingPot.addRecipe("carmin_vinegar", <harvestcraft:vinegaritem>, <liquid:wildberryjuice>*100, <mod_lavacow:intestine>, true, 2 * 60 * 20);
-SoakingPot.addRecipe("carmin_vinegar_fast", <harvestcraft:vinegaritem>, <liquid:wildberryjuice>*100, <ore:agedMold>, true, 30 * 20);
-SoakingPot.addRecipe("grape_vinegar", <harvestcraft:vinegaritem>, <liquid:grapejuice>*100, <mod_lavacow:intestine>, true, 2 * 60 * 20);
-SoakingPot.addRecipe("grape_vinegar_fast", <harvestcraft:vinegaritem>, <liquid:grapejuice>*100, <ore:agedMold>, true, 30 * 20);
-SoakingPot.addRecipe("apple_vinegar", <harvestcraft:vinegaritem>, <liquid:applejuice>*100, <mod_lavacow:intestine>, true, 2 * 60 * 20);
-SoakingPot.addRecipe("apple_vinegar_fast", <harvestcraft:vinegaritem>, <liquid:applejuice>*100, <ore:agedMold>, true, 30 * 20);
 SoakingPot.addRecipe("tarred_tar_hay", <pyrotech:wood_tar_block>, <liquid:wood_tar>*250, <minecraft:hay_block>, 5 * 60 * 20);
 SoakingPot.addRecipe("refractory_limerock", <pyrotech:material:8>, <liquid:water>*200, <pyrotech:rock:8>, 8 * 60 * 20);
 SoakingPot.addRecipe("refractory_coke", <pyrotech:material:8>*4, <liquid:wood_tar>*50, <pyrotech:material:32>, 6 * 60 * 20);
@@ -234,5 +321,23 @@ Burn.createBuilder("distilled_enderslag", <betterwithmods:material:39>, "endrebo
     .addFailureItem(<betterwithmods:material:39>) // enderslag
     .addFailureItem(<betterwithmods:material:39>*2) // enderslag
     .setRequiresRefractoryBlocks(false)
+    .setFluidLevelAffectsFailureChance(false)
+    .register();
+
+Burn.createBuilder("iron_sand", <minecraft:iron_nugget>*4, "betterwithaddons:iron_sand")
+    .setBurnStages(1)
+    .setTotalBurnTimeTicks(8 * 60 * 20)
+	.setFailureChance(0.2)
+    .addFailureItem(<minecraft:iron_nugget>*1)
+    .addFailureItem(<minecraft:iron_nugget>*2)
+    .setRequiresRefractoryBlocks(true)
+    .setFluidLevelAffectsFailureChance(false)
+    .register();
+
+Burn.createBuilder("spiritfire", <pyrotech:material>, "randomthings:spectrelog")
+    .setBurnStages(1)
+    .setTotalBurnTimeTicks(6 * 60 * 20)
+    .setFluidProduced(<liquid:unstable_spiritfire> * 250)
+    .setRequiresRefractoryBlocks(true)
     .setFluidLevelAffectsFailureChance(false)
     .register();

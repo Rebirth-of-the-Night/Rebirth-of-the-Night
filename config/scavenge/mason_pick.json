@@ -1,0 +1,48 @@
+{
+	"block_pools": [
+		{
+			"name": "Crowbar",
+			"type": {
+				"type": "ore",
+				"name": "masonPickBreakable"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "require_item_list",
+                    "items": [
+                        {"name": "contenttweaker:steel_crowbar"},
+                        {"name": "contenttweaker:mythril_masonpick"},
+                        {"name": "contenttweaker:sfs_masonpick"}
+                    ]
+                },
+                {
+                    "type": "damage_item",
+                    "amount": "20"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "minecraft:air",
+                    "dropBlock": "true"
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "asmc:block.nether_bricks.break",
+                    "category": "block"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "cloud",
+                    "amount": "8",
+                    "xOffset": "0.1",
+                    "yOffset": "0.1",
+                    "zOffset": "0.1",
+                    "speed": "0.05"
+                }
+            ]
+        }
+    ]
+}

@@ -20,6 +20,16 @@ var ricePaddy = AssemblyRecipe.create(function(container) {
 }).requireItem("input",<ore:farmland>).requireItem("catalyst1",<ore:pileDirt>);
 interaction.addJEIRecipe(ricePaddy);
 
+var fertileSoil = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<rustic:fertile_soil>);
+}).requireItem("input",<ore:farmland>).requireItem("catalyst1",<primitivemobs:wonder_sap>);
+interaction.addJEIRecipe(fertileSoil);
+
+var sowingSoil = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<rustic:fertile_soil>);
+}).requireItem("input",<ore:farmland>).requireItem("catalyst1",<contenttweaker:sowing_scepter>);
+interaction.addJEIRecipe(sowingSoil);
+
 var defiledDirt = AssemblyRecipe.create(function(container) {
     container.addItemOutput("output",<defiledlands:dirt_defiled>);
 }).requireItem("input",<ore:dirt>).requireItem("catalyst1",<contenttweaker:defiled_dirt_pile>);
@@ -34,6 +44,11 @@ var botanicGlass = AssemblyRecipe.create(function(container) {
     container.addItemOutput("output",<sereneseasons:greenhouse_glass>);
 }).requireItem("input",<quark:framed_glass>).requireItem("catalyst1",<contenttweaker:nature_rune>);
 interaction.addJEIRecipe(botanicGlass);
+
+var botanicGlassEarly = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<sereneseasons:greenhouse_glass>);
+}).requireItem("input",<quark:framed_glass>).requireItem("catalyst1",<contenttweaker:artificial_nature>);
+interaction.addJEIRecipe(botanicGlassEarly);
 
 var xpBlock = AssemblyRecipe.create(function(container) {
     container.addItemOutput("output",<globalxp:xp_block>);

@@ -11,7 +11,7 @@
     "roman_numerals": true,
     "enchantment_table_level_cap": 10,
     "anvil_level_cap": 10,
-    "merchant_deals_level_cap": 10,
+    "merchant_deals_level_cap": 1,
     "dungeon_loot_level_cap": 10,
     "creative_tab_level_cap": 10
   },

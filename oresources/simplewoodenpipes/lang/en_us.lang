@@ -1,0 +1,29 @@
+itemGroup.simplewoodenpipes=Simpler Wooden Pipes
+
+tile.simplewoodenpipes.pipe.name=Fluid Pipe
+tile.simplewoodenpipes.pump.name=Fluid Pump
+
+tile.simplewoodenpipes.pipe_wood.oak.name=Oak Plank Fluid Pipe
+tile.simplewoodenpipes.pipe_wood.spruce.name=Spruce Plank Fluid Pipe
+tile.simplewoodenpipes.pipe_wood.birch.name=Birch Plank Fluid Pipe
+tile.simplewoodenpipes.pipe_wood.jungle.name=Jungle Plank Fluid Pipe
+tile.simplewoodenpipes.pipe_wood.acacia.name=Acacia Plank Fluid Pipe
+tile.simplewoodenpipes.pipe_wood.big_oak.name=Dark Oak Plank Fluid Pipe
+
+tile.simplewoodenpipes.pipe_stone.stone.name=Stone Fluid Pipe
+tile.simplewoodenpipes.pipe_stone.granite.name=Granite Fluid Pipe
+tile.simplewoodenpipes.pipe_stone.granitesmooth.name=Smooth Granite Fluid Pipe
+tile.simplewoodenpipes.pipe_stone.diorite.name=Diorite Fluid Pipe
+tile.simplewoodenpipes.pipe_stone.dioritesmooth.name=Smooth Diorite Fluid Pipe
+tile.simplewoodenpipes.pipe_stone.andesite.name=Andesite Fluid Pipe
+tile.simplewoodenpipes.pipe_stone.andesitesmooth.name=Smooth Andesite Fluid Pipe
+
+simplewoodenpipes.tooltip.pipe.low_temp_only=Not suitable for Fluids with high temperature!
+simplewoodenpipes.tooltip.pipe.add_upgrade=Right click with %s to enable Fluid Extraction
+
+# Various Mod Integration
+tile.simplewoodenpipes.pipe_pyrotech.refractory_brick_block.name=Refractory Fluid Pipe
+tile.simplewoodenpipes.pipe_copper_block.name=Copper Fluid Pipe
+tile.simplewoodenpipes.pipe_dungeontactics:steel_block.name=Galvanized Steel Fluid Pipe
+tile.simplewoodenpipes.pipe_bwm:steel_block.name=Unnecessarily Expensive and Evil Fluid Pipe
+tile.simplewoodenpipes.pipe_contenttweaker.raw_wrought_iron.name=Galvanized Wrought Iron Fluid Pipe

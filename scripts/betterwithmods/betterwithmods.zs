@@ -38,7 +38,17 @@ recipes.removeByRecipeName("betterwithmods:items/material/material.padding");
 recipes.addShapeless("betterwithmods_items/material/material_padding_feather", <betterwithmods:material:41>, [<ore:feather>,<betterwithmods:material:4>]);
 recipes.addShapeless("betterwithmods_items/material/material_padding_wool", <betterwithmods:material:41>, [<ore:woolBlock>,<betterwithmods:material:4>]);
 
-JEI.removeAndHide(<betterwithmods:bark:*>);
+JEI.removeAndHide(<betterwithmods:steel_axle>);
+JEI.removeAndHide(<betterwithmods:steel_gearbox>);
+JEI.removeAndHide(<betterwithmods:steel_broken_gearbox>);
+
+
+JEI.removeAndHide(<betterwithmods:bark>);
+JEI.removeAndHide(<betterwithmods:bark:1>);
+JEI.removeAndHide(<betterwithmods:bark:2>);
+JEI.removeAndHide(<betterwithmods:bark:3>);
+JEI.removeAndHide(<betterwithmods:bark:4>);
+JEI.removeAndHide(<betterwithmods:bark:5>);
 JEI.removeAndHide(<betterwithmods:nether_growth>);
 JEI.removeAndHide(<betterwithmods:steel_saw>);
 JEI.removeAndHide(<betterwithmods:material:52>);
@@ -165,6 +175,10 @@ recipes.addShaped("fat_candle", <betterwithmods:candle>*2, [
 	[<ore:burnable_fat>]
 ]);
 
+recipes.addShapeless("clay_brick_revert",<minecraft:clay_ball>,[<betterwithmods:unfired_pottery:4>]);
+
+recipes.addShapeless("nether_brick_revert",<betterwithmods:material:35>,[<betterwithmods:unfired_pottery:5>]);
+
 recipes.remove(<simple_paraglider:paraglider>);
 recipes.addShaped("paraglider", <simple_paraglider:paraglider>, [
     [<betterwithmods:material:11>,<contenttweaker:raw_gravitite>,<betterwithmods:material:11>],
@@ -185,7 +199,6 @@ var rice = <ore:cropRice>;
 var millstone = <betterwithmods:single_machine>;
 var hellfire = <betterwithmods:material:17>;
 var heating = <betterwithmods:material:27>;
-var crstone = <pyrotech:material:36>;
 var sail = <betterwithmods:material:11>;
 var cloth = <betterwithmods:material:4>;
 var slab_wood = <ore:slabWood>;
@@ -198,6 +211,7 @@ var moulding_wood = MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
 var siding_wood = MiniBlocks.getMiniBlock("siding", <ore:plankWood>);
 var gear_wood = <pyrotech:cog_wood>;
 var gear_steel = <pyrotech:cog_bone>;
+var gear_brass = <pyrotech:cog_gold>;
 var generic_metal = <ore:genericMetal>;
 var archimedes = <betterwithmods:material:24>;
 var glue = <ore:glue>;
@@ -291,7 +305,6 @@ recipes.addShaped("gearbox_wood_siding", <betterwithmods:wooden_gearbox>, [
 	[siding_wood, gear_wood, siding_wood]
 ]);
 recipes.addShapeless("gearbox_wood_repair", <betterwithmods:wooden_gearbox>, [<betterwithmods:wooden_broken_gearbox>, gear_wood, gear_wood]);
-recipes.addShapeless("gearbox_steel_repair", <betterwithmods:steel_gearbox>, [<betterwithmods:steel_broken_gearbox>, gear_steel, gear_steel]);
 // mechanical booster rail
 recipes.remove(<betterwithmods:booster>);
 recipes.addShaped("mech_booster_rail_4", <betterwithmods:booster>*4, [
@@ -382,14 +395,14 @@ recipes.removeByRecipeName("betterwithmods:blocks/redstone/hibachi");
 recipes.addShaped("blocks/redstone/hibachi", <betterwithmods:hibachi>,
   [[hellfire,hellfire,hellfire],
   [stone,heating,stone],
-  [stone,crstone,stone]]);
+  [stone,dense_redstone,stone]]);
  
 // archimedes screw
 recipes.removeByRecipeName("betterwithmods:items/material/material.screw");
-recipes.addShaped("archimedes_screw", archimedes*3,
-  [[<ore:genericMetal>,<ore:genericMetal>,null],
-  [null,<ore:genericMetal>,<ore:genericMetal>],
-  [<ore:genericMetal>,<ore:genericMetal>,null]]);
+recipes.addShaped("archimedes_screw", archimedes*2,
+  [[<ore:genericMetal>,dense_redstone,null],
+  [<ore:genericMetal>,<ore:genericMetal>,<ore:genericMetal>],
+  [null,dense_redstone,<ore:genericMetal>]]);
   
 // dynamite
 recipes.removeShapeless(<betterwithmods:dynamite>);
@@ -527,6 +540,7 @@ recipes.removeShapeless(<betterwithmods:candle:*>,[<quark:candle:*>]);
 
 Cauldron.remove([<minecraft:mushroom_stew>]);
 Cauldron.remove([<minecraft:rabbit_stew>]);
+Cauldron.remove([<betterwithmods:chicken_soup>]);
 Cauldron.addUnstoked([<minecraft:cooked_rabbit>|<animania:cooked_prime_rabbit>,<ore:cookedCarrot>,<ore:cookedPotato>,<ore:foodFlour>,<ore:listAllmushroom>*3,<minecraft:bowl>*5],[<minecraft:rabbit_stew>*5]);
 
 Cauldron.addUnstoked([<quark:crab_leg>],[<quark:cooked_crab_leg>]);
@@ -534,11 +548,6 @@ Cauldron.addUnstoked([<primitivemobs:dodo>],[<primitivemobs:cooked_dodo>]);
 Cauldron.addUnstoked([<betteranimalsplus:turkey_raw>],[<betteranimalsplus:turkey_cooked>]);
 
 Cauldron.addStoked([<betterwithaddons:material:1>*8,<betterwithaddons:material:3>*2,<ore:dung>*8,<betterwithmods:urn:8>,<dynamictreesttf:darkwoodseed>],[<betterwithaddons:thorn_rose>,<betterwithmods:urn>]);
-
-// horse Upgrades
-Cauldron.addUnstoked([<biomesoplenty:berries>*32,<primitivemobs:camouflage_dye>],[<cyclicmagic:horse_upgrade_variant>]);
-Cauldron.addUnstoked([<biomesoplenty:berries>*6,<ore:slimeball>*4],[<cyclicmagic:horse_upgrade_jump>]);
-Cauldron.addUnstoked([<biomesoplenty:berries>*4,<ore:listAllsugar>*4],[<cyclicmagic:horse_upgrade_speed>]);
 
 JEI.removeAndHide(<betterwithmods:material:13>); // tallow
 Cauldron.remove([<betterwithmods:material:13>]);
@@ -590,7 +599,6 @@ recipes.remove(<betterwithmods:material:45>); // diamond ingot
 recipes.addShapeless("Hemp Fibers", <betterwithmods:material:3>*3,[<betterwithmods:material:2>,<betterwithmods:material:2>]);
 recipes.addShapeless("Hemp Seeds", <betterwithmods:hemp>,[<ore:cropHemp>]);
 
-JEI.removeAndHide(<betterwithmods:chicken_soup>);
 JEI.removeAndHide(<betterwithmods:cobblestone:0>);
 JEI.removeAndHide(<betterwithmods:cobblestone:1>);
 JEI.removeAndHide(<betterwithmods:cobblestone:2>);
@@ -721,6 +729,7 @@ var pulleyBlocks as IBlockState[] = [
     <blockstate:betterwithaddons:lattice:down=false,east=false,north=false,south=false,up=false,west=true>,
     <blockstate:betterwithaddons:lattice:down=false,east=false,north=false,south=false,up=false,west=false>,
     <blockstate:quark:sturdy_stone>,
+    <blockstate:contenttweaker:emblem_stone_red>,
     <blockstate:minecraft:bookshelf>,
     <blockstate:aether_legacy:skyroot_bookshelf>,
     <blockstate:quark:custom_bookshelf:variant=bookshelf_spruce>,

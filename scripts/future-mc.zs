@@ -268,6 +268,11 @@ Stonecutter.addOutputs(<minecraft:quartz_block>,
 							<quark:quartz_wall>,
 							<netherex:quartz_wall>);
 
+// Fancy stone variants
+Stonecutter.addOutputs(<contenttweaker:big_limestone_bricks>, // Limestone
+							<contenttweaker:fancy_limestone>);
+Stonecutter.addOutputs(<undergroundbiomes:metamorphic_brick:6>, // Soapstone
+							<contenttweaker:fancy_soapstone>);
 // Unifying vanilla recipes
 
 Stonecutter.addOutputs(<contenttweaker:brick_minecraft_clay>,
@@ -282,13 +287,13 @@ Stonecutter.removeOutputs(<minecraft:brick_block>,
 							<ceramics:clay_wall>);
 
 Stonecutter.addOutputs(<contenttweaker:brick_minecraft_stone>,
-							<quark:stone_stairs>,
-							<quark:stone_wall>,
+							<minecraft:stone_brick_stairs>,
+							<futuremc:stone_brick_wall>,
 							<minecraft:stone_slab:5>*2);
 
 Stonecutter.removeOutputs(<minecraft:stonebrick>,
-							<quark:stone_stairs>,
-							<quark:stone_wall>,
+							<minecraft:stone_brick_stairs>,
+							<futuremc:stone_brick_wall>,
 							<minecraft:stone_slab:5>*2);
 
 Stonecutter.addOutputs(<contenttweaker:brick_minecraft_nether>,
@@ -341,7 +346,7 @@ var bricks as IItemStack[][] = [
 	[ <contenttweaker:brick_red_sandstone>	,	<contenttweaker:brick_quark_red_sandstone>			,	<contenttweaker:loose_red_sandstone_bricks> 		,	<minecraft:red_sandstone>					,	<pyrotech:rock:10> ],
 	[ <contenttweaker:brick_soul_sandstone>	,	<contenttweaker:brick_quark_soul_sandstone>			,	<contenttweaker:loose_soulsandstone_bricks> 		,	<quark:soul_sandstone>						,	null ],
 	[ <contenttweaker:brick_holystone>		,	<contenttweaker:brick_aether_legacy_holystone>		,	<contenttweaker:loose_holystone_bricks> 			,	<aether_legacy:holystone>					,	null ],
-	[ <contenttweaker:brick_quartzite>		,	<contenttweaker:brick_minecraft_stone> 				,	<contenttweaker:loose_big_quartzite_bricks> 		,	<minecraft:stone>							,	<pyrotech:rock> ],
+	[ <contenttweaker:brick_quartzite>		,	<contenttweaker:brick_minecraft_stone> 				,	<contenttweaker:loose_big_coade_bricks>      		,	<minecraft:stone>							,	<pyrotech:rock> ],
 	[ <contenttweaker:brick_red_granite>	,	<undergroundbiomes:igneous_brick>					,	<contenttweaker:loose_big_red_granite_bricks>		,	<undergroundbiomes:igneous_stone>			,	<pyrotech_compat:rock_igneous> ],
 	[ <contenttweaker:brick_black_granite>	,	<undergroundbiomes:igneous_brick:1>					,	<contenttweaker:loose_big_black_granite_bricks> 	,	<undergroundbiomes:igneous_stone:1> 		,	<pyrotech_compat:rock_igneous:1> ], 
 	[ <contenttweaker:brick_rhyolite>		,	<undergroundbiomes:igneous_brick:2>					,	<contenttweaker:loose_big_rhyolite_bricks>			,	<undergroundbiomes:igneous_stone:2> 		,	<pyrotech_compat:rock_igneous:2> ], 
@@ -365,7 +370,8 @@ var bricks as IItemStack[][] = [
 	[ <contenttweaker:brick_dolomite>		,	<contenttweaker:big_dolomite_bricks>				,	<contenttweaker:loose_big_dolomite_bricks>			,	<undergroundbiomes:sedimentary_stone:5> 	,	<pyrotech_compat:rock_sedimentary:3> ],
 	[ <contenttweaker:brick_greywacke>		,	<contenttweaker:big_greywacke_bricks>				,	<contenttweaker:loose_big_greywacke_bricks> 		,	<undergroundbiomes:sedimentary_stone:6> 	,	<pyrotech_compat:rock_sedimentary:4> ],
 	[ <contenttweaker:brick_chert>			,	<contenttweaker:big_chert_bricks>					,	<contenttweaker:loose_big_chert_bricks> 			,	<undergroundbiomes:sedimentary_stone:7> 	,	<pyrotech_compat:rock_sedimentary:5> ],
-	[ <contenttweaker:brick_serpentinite>	,	<contenttweaker:big_serpentinite_bricks>			,	<contenttweaker:loose_big_serpentinite_bricks>		,	<contenttweaker:serpentinite>				,	<pyrotech_compat:rock_sedimentary_sand:11>]
+	[ <contenttweaker:brick_serpentinite>	,	<contenttweaker:big_serpentinite_bricks>			,	<contenttweaker:loose_big_serpentinite_bricks>		,	<contenttweaker:serpentinite>				,	<pyrotech_compat:rock_sedimentary_sand:11>],
+    [ <contenttweaker:brick_quartzite>      ,   <undergroundbiomes:metamorphic_brick:3>             ,   <contenttweaker:loose_big_quartzite_bricks>         ,   <undergroundbiomes:metamorphic_stone:3>     ,   <pyrotech_compat:rock_metamorphic:3>]
 ] as IItemStack[][];
 
 // Dropt list
@@ -505,6 +511,8 @@ for ore, result in moddedBlastFurnaceRecipes {
 }
 
 BlastFurnace.removeRecipe(<rustic:dust_tiny_iron>);
+BlastFurnace.removeRecipeForInput(<biomesoplenty:gem_ore:5>);
+BlastFurnace.removeRecipeForInput(<netherex:amethyst_ore>);
 
 // Brick resistance
 <contenttweaker:brick_red_granite>.asBlock().definition.resistance = <undergroundbiomes:igneous_brick:0>.asBlock().definition.resistance;

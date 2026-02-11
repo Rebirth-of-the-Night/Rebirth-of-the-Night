@@ -1,0 +1,8 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"side": "twilightforest:blocks/canopy_side",
+		"end": "contentcreator:blocks/canopy_log_pile",
+		"particle": "twilightforest:blocks/canopy_side"
+	}
+}

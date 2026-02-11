@@ -1,0 +1,19 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+        "0": "contenttweaker:blocks/lost_cargo",
+		"particle": "minecraft:blocks/planks_spruce"
+    },
+    "model": "contenttweaker:lost_cargo",
+    "uvlock": false
+  },
+  "variants": {
+    "facing=north": { "model": "contenttweaker:lost_cargo", "y": 180 },
+    "facing=south": { "model": "contenttweaker:lost_cargo", "y": 0 },
+    "facing=west": { "model": "contenttweaker:lost_cargo", "y": 90 },
+    "facing=east": { "model": "contenttweaker:lost_cargo", "y": 270 },
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

@@ -1,0 +1,8 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"side": "defiledlands:blocks/log_tenebra_side",
+		"end": "contentcreator:blocks/tenebra_log_pile",
+		"particle": "biomesoplenty:blocks/log_tenebra_side"
+	}
+}

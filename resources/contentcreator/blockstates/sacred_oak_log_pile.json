@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"axis=y":	{ "model": "contentcreator:sacred_oak_log_pile" },
+		"axis=z":	{ "model": "contentcreator:sacred_oak_log_pile", "x": 90 },
+		"axis=x":	{ "model": "contentcreator:sacred_oak_log_pile", "x": 90, "y": 90 }
+	}
+}

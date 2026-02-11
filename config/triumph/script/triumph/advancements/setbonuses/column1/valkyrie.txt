@@ -17,7 +17,7 @@ criteria = addCriteria("Valkyrie Boots", "minecraft:inventory_changed")
 criteria.addItem("aether_legacy:valkyrie_boots")
 
 criteria = addCriteria("Valkyrie Lance", "minecraft:inventory_changed")
-criteria.addItem("aether_legacy:valkyrie_lance")
+criteria.addItem("spartanweaponry:pike_invar")
 
 hideLines()
 alwaysVisible()

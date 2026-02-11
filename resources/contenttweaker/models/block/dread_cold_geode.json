@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "earthworks:blocks/block_slate",
+        "down": "earthworks:blocks/block_slate",
+        "up": "contenttweaker:blocks/dread_cold_geode",
+        "north": "earthworks:blocks/block_slate",
+        "east": "earthworks:blocks/block_slate",
+        "south": "earthworks:blocks/block_slate",
+        "west": "earthworks:blocks/block_slate"
+    }
+}

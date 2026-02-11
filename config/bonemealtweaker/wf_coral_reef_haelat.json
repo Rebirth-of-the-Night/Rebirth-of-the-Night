@@ -1,0 +1,52 @@
+{
+  "block": "biomesoplenty:grass",
+  "iterations": 25,
+  "biomes": [
+    "biomesoplenty:coral_reef"
+  ],
+  "dimensions": [
+    0
+  ],
+  "spawnBlocks": [
+    {
+      "block": "biomesoplenty:plant_0[variant=shortgrass]",
+      "weight": 40
+    },
+	{
+      "block": "bblsom:wildflowers_atashum[facing=south,slices=0]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_atashum[facing=south,slices=1]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_atashum[facing=south,slices=2]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_atashum[facing=south,slices=3]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_atashum[facing=north,slices=0]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_atashum[facing=north,slices=1]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_atashum[facing=north,slices=2]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_atashum[facing=north,slices=3]",
+      "weight": 10
+    },
+    {
+      "block": "rustic:ginseng[age=0]",
+      "weight": 5
+    }
+  ]
+}

@@ -7,6 +7,9 @@ import mods.contenttweaker.BlockMaterial;
 import mods.contenttweaker.Block;
 import mods.contenttweaker.AxisAlignedBB;
 import mods.contenttweaker.Color;
+import mods.contenttweaker.World;
+import mods.zenutils.cotx.DirectionalBlock;
+import mods.zenutils.cotx.IPlacementFacingFunction;
 
 /*Recipes for Extra Blocks are handled in the minecraft.zs script
 /////////////////////////////////////////////////////////////////
@@ -153,6 +156,60 @@ codex_junk.setLightOpacity(0);
 codex_junk.setBlockLayer("CUTOUT");
 codex_junk.setToolClass("none");
 codex_junk.register();
+
+// Rundown cargo cart remains
+var lost_cargo = VanillaFactory.createDirectionalBlock("lost_cargo", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+lost_cargo.axisAlignedBB = AxisAlignedBB.create(
+     2.0 / 16.0,
+     0.0 / 16.0,
+     2.0 / 16.0,
+	16.0 / 16.0,
+    9.0 / 16.0,
+    16.0 / 16.0
+	);
+lost_cargo.setCreativeTab(<creativetab:rotn_blocks>);
+lost_cargo.setFullBlock(false);
+lost_cargo.setLightOpacity(0);
+lost_cargo.setBlockLayer("CUTOUT");
+lost_cargo.setToolLevel(0);
+lost_cargo.setToolClass("axe");
+lost_cargo.register();
+
+// Ender Scythe Statuette
+var scythe_statuette = VanillaFactory.createDirectionalBlock("scythe_statuette", <blockmaterial:Iron>, "HORIZONTAL", false, true);
+scythe_statuette.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+    15.0 / 16.0,
+    12.0 / 16.0
+	);
+scythe_statuette.setCreativeTab(<creativetab:rotn_blocks>);
+scythe_statuette.setFullBlock(false);
+scythe_statuette.setToolLevel(0);
+scythe_statuette.setBlockLayer("CUTOUT");
+scythe_statuette.setToolClass("none");
+scythe_statuette.register();
+
+// Steel Support
+var steel_support = VanillaFactory.createBlock("steel_support", <blockmaterial:Iron>);
+steel_support.axisAlignedBB = AxisAlignedBB.create(
+     5.0 / 16.0,
+     0.0 / 16.0,
+     5.0 / 16.0,
+	11.0 / 16.0,
+    16.0 / 16.0,
+    11.0 / 16.0
+	);
+steel_support.setCreativeTab(<creativetab:rotn_blocks>);
+steel_support.setBlockHardness(20.5);
+steel_support.setFullBlock(false);
+steel_support.setLightOpacity(0);
+steel_support.setBlockLayer("CUTOUT");
+steel_support.setToolLevel(0);
+steel_support.setToolClass("pickaxe");
+steel_support.register();
 
 var paper_1 = VanillaFactory.createBlock("paper_1", <blockmaterial:Grass>);
 paper_1.axisAlignedBB = AxisAlignedBB.create(
@@ -381,7 +438,7 @@ dolomite_straws.setToolLevel(0);
 dolomite_straws.register();
 
 // Wolf Statue
-var wolf_statue = VanillaFactory.createBlock("wolf_statue", <blockmaterial:Rock>);
+var wolf_statue = VanillaFactory.createDirectionalBlock("wolf_statue", <blockmaterial:Rock>, "HORIZONTAL", false, true);
 wolf_statue.axisAlignedBB = AxisAlignedBB.create(
      2.0 / 16.0,
      0.0 / 16.0,
@@ -392,10 +449,129 @@ wolf_statue.axisAlignedBB = AxisAlignedBB.create(
 	);
 wolf_statue.setFullBlock(false);
 wolf_statue.setLightOpacity(0.5);
-wolf_statue.setCreativeTab(<creativetab:decorations>);
+wolf_statue.setCreativeTab(<creativetab:rotn_blocks>);
 wolf_statue.setBlockSoundType(<soundtype:stone>);
 wolf_statue.setToolLevel(0);
 wolf_statue.register();
+
+// Dread Cold Crystals
+var dread_cold_bud_small = VanillaFactory.createDirectionalBlock("dread_cold_bud_small", <blockmaterial:Packed_Ice>, "ALL", false, false);
+dread_cold_bud_small.placementFacingFunction = IPlacementFacingFunction.side();
+dread_cold_bud_small.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     4.0 / 16.0,
+     16.0 / 16.0,
+	12.0 / 16.0,
+    12.0 / 16.0,
+    12.0 / 16.0
+	);
+dread_cold_bud_small.setFullBlock(false);
+dread_cold_bud_small.setLightOpacity(0.5);
+dread_cold_bud_small.setCreativeTab(<creativetab:rotn_blocks>);
+dread_cold_bud_small.setBlockSoundType(<soundtype:glass>);
+dread_cold_bud_small.setBlockLayer("CUTOUT");
+dread_cold_bud_small.setToolLevel(0);
+dread_cold_bud_small.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+    return;
+});
+dread_cold_bud_small.register();
+
+var dread_cold_bud_medium = VanillaFactory.createDirectionalBlock("dread_cold_bud_medium", <blockmaterial:Packed_Ice>, "ALL", false, false);
+dread_cold_bud_medium.placementFacingFunction = IPlacementFacingFunction.side();
+dread_cold_bud_medium.axisAlignedBB = AxisAlignedBB.create(
+     3.0 / 16.0,
+     3.0 / 16.0,
+     16.0 / 16.0,
+	13.0 / 16.0,
+    13.0 / 16.0,
+    8.0 / 16.0
+	);
+dread_cold_bud_medium.setFullBlock(false);
+dread_cold_bud_medium.setLightOpacity(0.5);
+dread_cold_bud_medium.setCreativeTab(<creativetab:rotn_blocks>);
+dread_cold_bud_medium.setBlockSoundType(<soundtype:glass>);
+dread_cold_bud_medium.setBlockLayer("CUTOUT");
+dread_cold_bud_medium.setToolLevel(0);
+dread_cold_bud_medium.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+    return;
+});
+dread_cold_bud_medium.register();
+
+var dread_cold_bud_large = VanillaFactory.createDirectionalBlock("dread_cold_bud_large", <blockmaterial:Packed_Ice>, "ALL", false, false);
+dread_cold_bud_large.placementFacingFunction = IPlacementFacingFunction.side();
+dread_cold_bud_large.axisAlignedBB = AxisAlignedBB.create(
+     2.0 / 16.0,
+     2.0 / 16.0,
+     16.0 / 16.0,
+	14.0 / 16.0,
+    14.0 / 16.0,
+    5.0 / 16.0
+	);
+dread_cold_bud_large.setFullBlock(false);
+dread_cold_bud_large.setLightOpacity(0.5);
+dread_cold_bud_large.setCreativeTab(<creativetab:rotn_blocks>);
+dread_cold_bud_large.setBlockSoundType(<soundtype:glass>);
+dread_cold_bud_large.setBlockLayer("CUTOUT");
+dread_cold_bud_large.setToolLevel(0);
+dread_cold_bud_large.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+    return;
+});
+dread_cold_bud_large.register();
+
+var dread_cold_cluster = VanillaFactory.createDirectionalBlock("dread_cold_cluster", <blockmaterial:Packed_Ice>, "ALL", false, false);
+dread_cold_cluster.placementFacingFunction = IPlacementFacingFunction.side();
+dread_cold_cluster.axisAlignedBB = AxisAlignedBB.create(
+     2.0 / 16.0,
+     2.0 / 16.0,
+     16.0 / 16.0,
+	14.0 / 16.0,
+    14.0 / 16.0,
+    3.0 / 16.0
+	);
+dread_cold_cluster.setFullBlock(false);
+dread_cold_cluster.setLightOpacity(0.5);
+dread_cold_cluster.setCreativeTab(<creativetab:rotn_blocks>);
+dread_cold_cluster.setBlockSoundType(<soundtype:glass>);
+dread_cold_cluster.setBlockLayer("CUTOUT");
+dread_cold_cluster.setToolLevel(0);
+dread_cold_cluster.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+    drops.add(<item:contenttweaker:raw_dread_slate>);
+    return;
+});
+dread_cold_cluster.register();
+
+var dread_cold_geode = VanillaFactory.createBlock("dread_cold_geode", <blockmaterial:Rock>);
+dread_cold_geode.setBlockHardness(18);
+dread_cold_geode.setToolClass("pickaxe");
+dread_cold_bud_large.setBlockSoundType(<soundtype:stone>);
+dread_cold_geode.setCreativeTab(<creativetab:rotn_blocks>);
+dread_cold_geode.onRandomTick = function(world, blockPos, blockState) {
+    if(world.getBlockState(blockPos.getOffset('up', 1)) == <block:minecraft:air>)
+	{
+	    world.setBlockState(<block:contenttweaker:dread_cold_bud_small:1>, blockPos.getOffset('up', 1));
+	} else
+    if(world.getBlockState(blockPos.getOffset('up', 1)) == <block:contenttweaker:dread_cold_bud_small:1>)
+	{
+	    world.setBlockState(<block:contenttweaker:dread_cold_bud_medium:1>, blockPos.getOffset('up', 1));
+	} else
+    if(world.getBlockState(blockPos.getOffset('up', 1)) == <block:contenttweaker:dread_cold_bud_medium:1>)
+	{
+	    world.setBlockState(<block:contenttweaker:dread_cold_bud_large:1>, blockPos.getOffset('up', 1));
+	} else
+    if(world.getBlockState(blockPos.getOffset('up', 1)) == <block:contenttweaker:dread_cold_bud_large:1>)
+	{
+	    world.setBlockState(<block:contenttweaker:dread_cold_cluster:1>, blockPos.getOffset('up', 1));
+	}
+};
+dread_cold_geode.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+    return;
+});
+dread_cold_geode.register();
 
 // block_electrum
 var block_electrum = VanillaFactory.createBlock("block_electrum", <blockmaterial:Iron>);
@@ -495,7 +671,7 @@ bonfire.setBlockSoundType(<soundtype:sand>);
 bonfire.setFullBlock(false);
 bonfire.setBlockHardness(0);
 bonfire.setLightOpacity(0);
-bonfire.setLightValue(15);
+bonfire.setLightValue(1);
 bonfire.setBlockLayer("TRANSLUCENT");
 bonfire.setPassable(true);
 bonfire.setCreativeTab(<creativetab:rotn_blocks>);
@@ -515,7 +691,7 @@ soul_bonfire.setBlockSoundType(<soundtype:sand>);
 soul_bonfire.setFullBlock(false);
 soul_bonfire.setBlockHardness(0);
 soul_bonfire.setLightOpacity(0);
-soul_bonfire.setLightValue(15);
+soul_bonfire.setLightValue(1);
 soul_bonfire.setBlockLayer("TRANSLUCENT");
 soul_bonfire.setPassable(true);
 soul_bonfire.setCreativeTab(<creativetab:rotn_blocks>);
@@ -655,6 +831,16 @@ crucible.setFullBlock(false);
 crucible.setToolLevel(0);
 crucible.setToolClass("shovel");
 crucible.register();
+
+// Crucible of souls
+var crucible_of_souls = VanillaFactory.createBlock("crucible_of_souls", <blockmaterial:Iron>);
+crucible_of_souls.setCreativeTab(<creativetab:rotn_blocks>);
+crucible_of_souls.setBlockSoundType(<soundtype:stone>);
+crucible_of_souls.setFullBlock(false);
+crucible_of_souls.setLightOpacity(0);
+crucible_of_souls.setToolLevel(0);
+crucible_of_souls.setToolClass("pickaxe");
+crucible_of_souls.register();
 
 // Unfired Rustic Vase
 var pot_unfired = VanillaFactory.createBlock("pot_unfired", <blockmaterial:Clay>);
@@ -1097,7 +1283,7 @@ star_block.setLightValue(1.0);
 star_block.setBlockSoundType(<soundtype:stone>);
 star_block.setBlockHardness(10);
 star_block.setBlockMaterial(<blockmaterial:glass>);
-witheredblock.setToolLevel(1);
+star_block.setToolLevel(1);
 star_block.register();
 
 var unfiredrefractory = VanillaFactory.createBlock("unfiredrefractory", <blockmaterial:Ground>);
@@ -1688,6 +1874,20 @@ loose_red_sandstone_bricks.setGravity(true);
 loose_red_sandstone_bricks.setToolLevel(1);
 loose_red_sandstone_bricks.setBlockLayer("CUTOUT_MIPPED");
 loose_red_sandstone_bricks.register();
+//White Sandstone
+var loose_white_sandstone_bricks = VanillaFactory.createBlock("loose_white_sandstone_bricks", <blockmaterial:Rock>);
+loose_white_sandstone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_white_sandstone_bricks.setGravity(true);
+loose_white_sandstone_bricks.setToolLevel(1);
+loose_white_sandstone_bricks.setBlockLayer("CUTOUT_MIPPED");
+loose_white_sandstone_bricks.register();
+//Red Granite Sandstone
+var loose_red_granite_sandstone_bricks = VanillaFactory.createBlock("loose_red_granite_sandstone_bricks", <blockmaterial:Rock>);
+loose_red_granite_sandstone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_red_granite_sandstone_bricks.setGravity(true);
+loose_red_granite_sandstone_bricks.setToolLevel(1);
+loose_red_granite_sandstone_bricks.setBlockLayer("CUTOUT_MIPPED");
+loose_red_granite_sandstone_bricks.register();
 // Soulsandstone
 var loose_soulsandstone_bricks = VanillaFactory.createBlock("loose_soulsandstone_bricks", <blockmaterial:Rock>);
 loose_soulsandstone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
@@ -2051,6 +2251,28 @@ tapestry_white.setBlockHardness(0.8);
 tapestry_white.setBlockResistance(0.8);
 tapestry_white.register();
 
+var slime_nesting = VanillaFactory.createBlock("slime_nesting", <blockmaterial:Ground>);
+slime_nesting.setBlockSoundType(<soundtype:stone>);
+slime_nesting.setLightValue(0.1);
+slime_nesting.setBlockLayer("TRANSLUCENT");
+slime_nesting.setTranslucent(true);
+slime_nesting.setFullBlock(false);
+slime_nesting.setSlipperiness(0.89f);
+slime_nesting.setLightOpacity(0);
+slime_nesting.setCreativeTab(<creativetab:rotn_blocks>);
+slime_nesting.setToolClass("shovel");
+slime_nesting.setToolLevel(0);
+slime_nesting.setBlockHardness(22.0);
+slime_nesting.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+    1.0 / 16.0,
+    16.0 / 16.0
+	);
+slime_nesting.register();
+
 var egg_block = VanillaFactory.createBlock("egg_block", <blockmaterial:Dragon_Egg>);
 egg_block.setCreativeTab(<creativetab:decorations>);
 egg_block.setBlockSoundType(<soundtype:stone>);
@@ -2070,9 +2292,36 @@ foundation_micomi.setBlockResistance(20.0);
 foundation_micomi.setToolLevel(0);
 foundation_micomi.register();
 
+var coba_star = VanillaFactory.createBlock("coba_star", <blockmaterial:Fire>);
+coba_star.setBlockSoundType(<soundtype:cloth>);
+coba_star.setLightValue(0.9);
+coba_star.setBlockLayer("CUTOUT");
+coba_star.setPassable(true);
+coba_star.setFullBlock(false);
+coba_star.setCreativeTab(<creativetab:rotn_blocks>);
+coba_star.register();
+
+var mystic_cincinnasite_lamp = VanillaFactory.createBlock("mystic_cincinnasite_lamp", <blockmaterial:Glass>);
+mystic_cincinnasite_lamp.setCreativeTab(<creativetab:rotn_blocks>);
+mystic_cincinnasite_lamp.setLightValue(1.0);
+mystic_cincinnasite_lamp.setBlockSoundType(<soundtype:stone>);
+mystic_cincinnasite_lamp.setBlockHardness(18);
+mystic_cincinnasite_lamp.setBlockMaterial(<blockmaterial:glass>);
+mystic_cincinnasite_lamp.setToolLevel(1);
+mystic_cincinnasite_lamp.register();
+
+var ferrought_cincinnasite_lamp = VanillaFactory.createBlock("ferrought_cincinnasite_lamp", <blockmaterial:Glass>);
+ferrought_cincinnasite_lamp.setCreativeTab(<creativetab:rotn_blocks>);
+ferrought_cincinnasite_lamp.setLightValue(1.0);
+ferrought_cincinnasite_lamp.setBlockSoundType(<soundtype:stone>);
+ferrought_cincinnasite_lamp.setBlockHardness(38);
+ferrought_cincinnasite_lamp.setBlockMaterial(<blockmaterial:glass>);
+ferrought_cincinnasite_lamp.setToolLevel(2);
+ferrought_cincinnasite_lamp.register();
+
 var fire_block = VanillaFactory.createBlock("fire_block", <blockmaterial:Fire>);
 fire_block.setBlockSoundType(<soundtype:cloth>);
-fire_block.setLightValue(15);
+fire_block.setLightValue(1.0);
 fire_block.setBlockLayer("CUTOUT");
 fire_block.setPassable(true);
 fire_block.setCreativeTab(<creativetab:decorations>);
@@ -2405,6 +2654,13 @@ dhvara_knot.setToolLevel(2);
 dhvara_knot.setBlockHardness(25);
 dhvara_knot.register();
 
+// Emberium blocks
+var emblem_stone_red = VanillaFactory.createBlock("emblem_stone_red", <blockmaterial:Iron>);
+emblem_stone_red.setCreativeTab(<creativetab:rotn_blocks>);
+emblem_stone_red.setToolLevel(2);
+emblem_stone_red.setBlockHardness(25);
+emblem_stone_red.register();
+
 // Sunstone
 var sunstone_block = VanillaFactory.createBlock("sunstone_block", <blockmaterial:Iron>);
 sunstone_block.setCreativeTab(<creativetab:rotn_blocks>);
@@ -2454,6 +2710,27 @@ blendrein_reinforced.setCreativeTab(<creativetab:rotn_blocks>);
 blendrein_reinforced.setToolLevel(3);
 blendrein_reinforced.setBlockHardness(300.0);
 blendrein_reinforced.register();
+
+// Diagonal Tiles
+var tiled_diagonal = VanillaFactory.createBlock("tiled_diagonal", <blockmaterial:Rock>);
+tiled_diagonal.setCreativeTab(<creativetab:rotn_blocks>);
+tiled_diagonal.setBlockSoundType(<soundtype:stone>);
+tiled_diagonal.setBlockHardness(25.0);
+tiled_diagonal.setBlockResistance(14.0);
+tiled_diagonal.setToolLevel(2);
+tiled_diagonal.register();
+
+// Special/Ornate Stone Variants
+var fancy_limestone = VanillaFactory.createBlock("fancy_limestone", <blockmaterial:Rock>);
+fancy_limestone.setCreativeTab(<creativetab:rotn_blocks>);
+fancy_limestone.setToolLevel(1);
+fancy_limestone.setBlockHardness(18);
+fancy_limestone.register();
+var fancy_soapstone = VanillaFactory.createBlock("fancy_soapstone", <blockmaterial:Rock>);
+fancy_soapstone.setCreativeTab(<creativetab:rotn_blocks>);
+fancy_soapstone.setToolLevel(1);
+fancy_soapstone.setBlockHardness(16);
+fancy_soapstone.register();
 
 // Extra coade
 var coade_stone_polished = VanillaFactory.createBlock("coade_stone_polished", <blockmaterial:Rock>);

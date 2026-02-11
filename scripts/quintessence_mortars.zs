@@ -244,6 +244,7 @@ val creationQuintessenceA = <ore:creationQuintessenceA>;
 creationQuintessenceA.add(
     <pyrotech:cog_wood>,
     <pyrotech:cog_bone>,
+    <pyrotech:cog_gold>,
     <minecraft:blaze_powder>,
     <minecraft:fire_charge>,
     <contenttweaker:heartofthefallen>,
@@ -389,7 +390,8 @@ transformationQuintessenceA.add(
     <dungeontactics:steel_sword>,
     <defiledlands:defilement_powder>,
     <nyx:unrefined_crystal>,
-    <defiledlands:scuronotte>
+    <defiledlands:scuronotte>,
+    <biomesoplenty:terrestrial_artifact>
 );
 
 // Transformation B - Things that transform themselves

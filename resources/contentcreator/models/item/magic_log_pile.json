@@ -1,0 +1,8 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"side": "biomesoplenty:blocks/magic_log",
+		"end": "contentcreator:blocks/magic_log_pile",
+		"particle": "biomesoplenty:blocks/magic_log"
+	}
+}

@@ -85,7 +85,6 @@ JEI.removeAndHide(<rats:rat_nugget>);
 JEI.removeAndHide(<rats:rat_nugget_ore>);
 /*JEI.removeAndHide(<rats:ratlantean_flame>);*/
 JEI.removeAndHide(<rats:cheese_cannonball>);
-JEI.removeAndHide(<rats:feral_rat_claw>);
 JEI.removeAndHide(<rats:centipede>);
 JEI.removeAndHide(<rats:garbage_pile>);
 JEI.removeAndHide(<rats:cauldron_cheese>);
@@ -138,7 +137,6 @@ LootTable.removeGlobalItem("rats:music_disc_living_mice");
 <entity:rats:feral_ratlantean>.removeDrop(<rats:rat_toga>);
 
 // addPlayerOnlyDrop(weightedItem, min, max);
-
 
 JEI.addDescription(<rats:plague_leech>,"A disgusting critter typically found on plagued-infested beasts. Some species are hardy enough to survive in the guts of living creatures.");
 
@@ -211,9 +209,7 @@ recipes.addShaped("rats_warrior_upgrade",<rats:rat_upgrade_warrior>,[
 ]);
 
 // Plague Doctorate 
-
 recipes.remove(<rats:plague_doctorate>);
-
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_shard>],
@@ -225,6 +221,78 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
+
+// Rat Sack
+recipes.remove(<rats:rat_sack>);
+recipes.addShaped("rats_sack",<rats:rat_sack>,[
+    [null,<ore:twine>,null],
+    [<ore:leather>,<rats:cheese>,<ore:leather>],
+    [<ore:leather>,<ore:leather>,<ore:leather>]
+]);
+
+// Rat Cage
+recipes.remove(<rats:rat_cage>);
+recipes.addShaped("rats_cage",<rats:rat_cage>,[
+    [<ore:genericMetalBars>,<ore:genericMetalBars>,<ore:genericMetalBars>],
+    [<ore:genericMetalBars>,null,<ore:genericMetalBars>],
+    [<ore:genericMetal>,<animania:block_straw>,<ore:genericMetal>]
+]);
+
+// Barrel of Fish
+recipes.remove(<rats:fish_barrel>);
+recipes.addShaped("rats_fish_barrel",<rats:fish_barrel>,[
+    [<ore:fish>,<ore:fish>,<ore:fish>],
+    [<ore:fish>,<ore:fish>,<ore:fish>],
+    [<ore:fish>,<futuremc:barrel>,<ore:fish>]
+]);
+
+// Mini Dragon Wing
+recipes.remove(<rats:dragon_wing>);
+recipes.addShaped("rats_dragon_wing",<rats:dragon_wing>,[
+    [<iceandfire:dragonbone>,<rats:feral_rat_claw>,<iceandfire:dragonbone>],
+    [<ore:fireDragonScale>,<ore:fireDragonScale>,<iceandfire:dragonbone>],
+    [<ore:fireDragonScale>,<ore:fireDragonScale>,<ore:fireDragonScale>]
+]);
+
+// Rat Flute
+recipes.remove(<rats:rat_flute>);
+recipes.addShaped("rats_flute",<rats:rat_flute>,[
+    [null,null,<ore:genericMetalNuggets>],
+    [null,<ore:genericMetalNuggets>,<earthworks:item_timber>],
+    [<ore:genericMetalNuggets>,<earthworks:item_timber>,null]
+]);
+
+// Rat Capture Net
+recipes.remove(<rats:rat_capture_net>);
+recipes.addShaped("rats_capture_net",<rats:rat_capture_net>,[
+    [<ore:genericMetalNuggets>,<ore:durableFiber>,<ore:genericMetalNuggets>],
+    [<ore:durableFiber>,<rats:rat_sack>.withTag({}),<ore:durableFiber>],
+    [<ore:genericMetalNuggets>,<ore:durableFiber>,<ore:genericMetalNuggets>]
+]);
+
+// Rat Water Bottle
+recipes.remove(<rats:rat_water_bottle>);
+recipes.addShaped("rats_water_bottle",<rats:rat_water_bottle>,[
+    [null,<minecraft:potion>.withTag({Potion: "minecraft:water"})],
+    [null,<ore:genericMetalNuggets>]
+]);
+
+// Cheese Staff
+recipes.remove(<rats:cheese_stick>);
+recipes.addShaped("rats_cheese_staff",<rats:cheese_stick>,[
+    [null,<rats:cheese>],
+    [<ore:stickWood>,null]
+]);
+
+// Rat Seed Bowl
+recipes.remove(<rats:rat_seed_bowl>);
+recipes.addShaped("rats_seed_bowl",<rats:rat_seed_bowl>,[
+    [<ore:listAllseed>,<ore:listAllseed>,<ore:listAllseed>],
+    [null,<contenttweaker:bowl>|<minecraft:bowl>,null],
+]);
+
+// Feral Rat Claw
+recipes.addShapeless("feral_rat_claw", <minecraft:dye:15>, [<rats:feral_rat_claw>]);
 
 // cheese workaround until official fix
 val orecheese = <ore:foodCheese>;

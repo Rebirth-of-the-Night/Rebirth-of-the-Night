@@ -30,7 +30,19 @@
 		"isCreative": true
     },
 	{
+        "motive": "sigil Thymos-Eros",
+        "width": 1,
+        "height": 1,
+		"isCreative": true
+    },
+	{
         "motive": "sigil Soter",
+        "width": 1,
+        "height": 1,
+		"isCreative": true
+    },
+	{
+        "motive": "sigil Yaruk",
         "width": 1,
         "height": 1,
 		"isCreative": true
@@ -66,13 +78,97 @@
 		"isCreative": true
     },
 	{
-        "motive": "Undefinable",
+        "motive": "Blessed Passion",
         "width": 2,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "Magekiller",
+        "width": 2,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "giant sigil Order",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 3,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "giant sigil Soter",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 3,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "red",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 3,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "blue",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 3,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "Requisitioner",
+        "width": 3,
         "height": 4,
 		"isCreative": true
     },
 	{
+        "motive": "Thornesveil",
+        "width": 3,
+        "height": 8,
+		"isCreative": true
+    },
+	{
         "motive": "Yearn",
+        "width": 4,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "Leave",
+        "width": 4,
+        "height": 3,
+		"isCreative": true
+	},
+	{
+        "motive": "Arrive",
+        "width": 4,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "Grow",
+        "width": 4,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "Bronze",
+        "width": 4,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "Wracked",
         "width": 4,
         "height": 3,
 		"isCreative": true
@@ -90,7 +186,34 @@
 		"isCreative": true
     },
 	{
+        "motive": "Dream Sequence - Frostfall",
+        "width": 4,
+        "height": 4,
+		"isCreative": true
+    },
+	{
+        "motive": "Dream Sequence - Beyond These Prison Walls",
+        "width": 4,
+        "height": 4,
+		"isCreative": true
+    },
+	{
+        "motive": "enormous sigil Soter",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 4,
+        "height": 4,
+		"isCreative": false
+    },
+	{
         "motive": "Cause for Strife",
+        "width": 4,
+        "height": 4,
+		"isCreative": true
+    },
+	{
+        "motive": "Legacy of the Depths",
         "width": 4,
         "height": 4,
 		"isCreative": true
@@ -129,6 +252,12 @@
 		"isCreative": true
     },
 	{
+        "motive": "Artistic Depiction of Shadits",
+        "width": 5,
+        "height": 4,
+		"isCreative": true
+    },
+	{
         "motive": "The World",
         "width": 5,
         "height": 8,
@@ -141,9 +270,45 @@
 		"isCreative": true
     },
 	{
+        "motive": "Emberia's Last Stand",
+        "width": 6,
+        "height": 4,
+		"isCreative": true
+    },
+	{
         "motive": "Wroughtclad",
         "width": 7,
         "height": 4,
+		"isCreative": true
+    },
+	{
+        "motive": "Mundi - Sja'zara",
+        "width": 7,
+        "height": 4,
+		"isCreative": true
+    },
+	{
+        "motive": "Time",
+        "width": 7,
+        "height": 4,
+		"isCreative": true
+    },
+	{
+        "motive": "Umberia - Capital of Magic",
+        "width": 7,
+        "height": 5,
+		"isCreative": true
+    },
+	{
+        "motive": "The Nine Warriors",
+        "width": 7,
+        "height": 5,
+		"isCreative": true
+    },
+	{
+        "motive": "Crimson Crown",
+        "width": 7,
+        "height": 9,
 		"isCreative": true
     },
 	{
@@ -165,7 +330,133 @@
 		"isCreative": false
     },
 	{
+        "motive": "Spike 1",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Brothers in Faith",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "small Quazar",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
         "motive": "Small nod",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Small blink",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Small badass",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Small box",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Silhouette",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Small moon",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Small red moon",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Small bronze moon",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Small star moon",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Small harvest moon",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Approximately One Apple",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Shiny",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Bliss 1",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+    {
+        "motive": "Still Nature 1",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+    {
+        "motive": "Oath of the Orders",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "O-yoroi",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Hibiscus",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Is it a Window",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Cold Hunger",
         "width": 1,
         "height": 1,
 		"isCreative": false
@@ -320,6 +611,18 @@
         "height": 1,
 		"isCreative": false
     },
+    {
+        "motive": "Creek by The Forest",
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+    {
+        "motive": "brazier",
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
 	{
         "motive": "The Titans Small",
         "width": 2,
@@ -351,8 +654,50 @@
 		"isCreative": false
     },
 	{
-        "motive": "Sunset",
+        "motive": "Sunset 1",
         "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Sunset 2",
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Nap Deep in Allegada",
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Lake View",
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Winged Guardian",
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Below the Crust",
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Dance for Me",
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Cursed Forest",
+        "width": 5,
         "height": 1,
 		"isCreative": false
     },
@@ -361,6 +706,36 @@
 		"textures": {
             "back": "paintings:null"
         },
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "The Lawgiver Author",
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "The Veiled Author",
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Subterfuge",
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Purified",
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Web",
         "width": 1,
         "height": 2,
 		"isCreative": false
@@ -385,6 +760,12 @@
     },
 	{
         "motive": "Hemp at the Lake",
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Galliard Riders",
         "width": 1,
         "height": 2,
 		"isCreative": false
@@ -420,6 +801,12 @@
 		"isCreative": false
     },
 	{
+        "motive": "Blight Dreams",
+        "width": 3,
+        "height": 1,
+		"isCreative": false
+    },
+	{
         "motive": "Baby sea serpent trophy",
         "width": 3,
         "height": 1,
@@ -446,6 +833,12 @@
         "height": 1,
 		"isCreative": false
     },
+    {
+        "motive": "The Crowned City of Shadits",
+        "width": 3,
+        "height": 1,
+		"isCreative": false
+    },
 	{
         "motive": "Ender of Worlds",
         "width": 1,
@@ -454,6 +847,12 @@
     },
 	{
         "motive": "Sunset Vista",
+        "width": 4,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "A Lily for Mortarid",
         "width": 4,
         "height": 1,
 		"isCreative": false
@@ -495,6 +894,30 @@
 		"isCreative": false
     },
 	{
+        "motive": "Circle Thinking",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "One",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Kale",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "F.K. library - Lunarin of the Overworld",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
         "motive": "I Was Regent",
         "width": 2,
         "height": 2,
@@ -519,33 +942,153 @@
 		"isCreative": false
     },
 	{
+        "motive": "Big badass",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
         "motive": "With Soul",
         "width": 2,
         "height": 2,
 		"isCreative": false
     },
 	{
-        "motive": "Banner Drake",
+        "motive": "Green Surface",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "A Mortarid settlement",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Grand Barrier Densatio",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "A Mortarid monastery",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Wanderer of the Sunset",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Velunith in the Sky",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Banner - Drachenritter Family",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 1,
         "height": 3,
 		"isCreative": false
     },
 	{
-        "motive": "banner Lion",
+        "motive": "Banner - House Kamal Ito",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 1,
         "height": 3,
 		"isCreative": false
     },
 	{
-        "motive": "banner Gryph",
+        "motive": "Banner - Umbertoi Dynasty",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 1,
         "height": 3,
 		"isCreative": false
     },
 	{
-        "motive": "banner Witha",
+        "motive": "Banner - Vorfurt Nation",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 1,
         "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Banner - Raisencrest Family",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 1,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "banner - lanara's companions",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 1,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Banner - The Order of the Last Flame",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 1,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Banner - Wither",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 1,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "It who remains",
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Instigation Is a Storm",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "The Immense",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Trinity of Light",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Lily of the living soul",
+        "width": 3,
+        "height": 2,
 		"isCreative": false
     },
 	{
@@ -561,6 +1104,12 @@
 		"isCreative": true
     },
 	{
+        "motive": "poster - dominion",
+        "width": 1,
+        "height": 3,
+		"isCreative": false
+    },
+	{
         "motive": "ornate tapestry - red",
         "width": 1,
         "height": 2,
@@ -573,7 +1122,19 @@
 		"isCreative": false
     },
 	{
+        "motive": "ornate tapestry - green",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
         "motive": "ornate tapestry - orange",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "picture - idyllic 1",
         "width": 3,
         "height": 2,
 		"isCreative": false
@@ -630,6 +1191,18 @@
 		"isCreative": false
     },
 	{
+        "motive": "The Fossor's Lure",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Lost in the Spines",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
         "motive": "Ungoliant",
         "width": 3,
         "height": 2,
@@ -643,6 +1216,18 @@
     },
 	{
         "motive": "impending",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Times of the Biboat",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Morning Breeze",
         "width": 3,
         "height": 2,
 		"isCreative": false
@@ -679,6 +1264,60 @@
     },
 	{
         "motive": "Retired Hero",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "The Beast of Allegada",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "The Ruler in Motion",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "The Rebuilder of Emberium",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "The Val-Kaine Treason",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "The Magekiller Author",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "The Exiled",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "The Vanguard of the Crag",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "The Founder",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "The Moon Witch",
         "width": 2,
         "height": 3,
 		"isCreative": false
@@ -768,6 +1407,12 @@
 		"isCreative": false
     },
 	{
+        "motive": "Early On",
+        "width": 4,
+        "height": 2,
+		"isCreative": false
+    },
+	{
         "motive": "Saturn Devouring His Son",
         "width": 2,
         "height": 4,
@@ -792,7 +1437,19 @@
 		"isCreative": false
     },
 	{
-        "motive": "Sky map of Rim",
+        "motive": "Emberian peninsula",
+        "width": 4,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Fjords of Stormsight",
+        "width": 4,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Streets of the Aki-Shadits",
         "width": 4,
         "height": 3,
 		"isCreative": false
@@ -827,8 +1484,26 @@
         "height": 3,
 		"isCreative": false
     },
+    {
+        "motive": "The Exalted Ember",
+        "width": 2,
+        "height": 5,
+		"isCreative": false
+    },
 	{
         "motive": "Turin Turambar",
+        "width": 3,
+        "height": 4,
+		"isCreative": false
+    },
+    {
+        "motive": "Hail to the New King",
+        "width": 3,
+        "height": 4,
+		"isCreative": true
+    },
+    {
+        "motive": "After Dark",
         "width": 3,
         "height": 4,
 		"isCreative": false
@@ -846,19 +1521,61 @@
 		"isCreative": false
     },
 	{
+        "motive": "Dream Sequence - Home",
+        "width": 4,
+        "height": 4,
+		"isCreative": false
+    },
+	{
+        "motive": "Dream Sequence - Near the Bottom",
+        "width": 4,
+        "height": 4,
+		"isCreative": false
+    },
+	{
+        "motive": "Dream Sequence - Fog Pause",
+        "width": 4,
+        "height": 4,
+		"isCreative": false
+    },
+	{
+        "motive": "Dream Sequence - Between Realms",
+        "width": 4,
+        "height": 4,
+		"isCreative": false
+    },
+	{
         "motive": "Beneath",
         "width": 5,
         "height": 3,
 		"isCreative": false
     },
 	{
-        "motive": "Windmill",
+        "motive": "Cradle",
+        "width": 5,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "Mortarid Countryside",
         "width": 6,
-        "height": 4,
+        "height": 3,
 		"isCreative": false
     },
 	{
-        "motive": "Crusaders",
+        "motive": "The Way of the Crown",
+        "width": 6,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Flight in Shadow",
+        "width": 6,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Windmill",
         "width": 6,
         "height": 4,
 		"isCreative": false

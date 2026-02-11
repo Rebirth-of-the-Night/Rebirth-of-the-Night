@@ -1,0 +1,52 @@
+{
+  "block": "minecraft:grass",
+  "iterations": 24,
+  "biomes": [
+    "biomesoplenty:orchard"
+  ],
+  "dimensions": [
+    0
+  ],
+  "spawnBlocks": [
+    {
+      "block": "biomesoplenty:plant_0[variant=bush]",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:tallgrass[type=tall_grass]",
+      "weight": 40
+    },
+    {
+      "block": "bblsom:wildflowers_west_kraired[facing=south,slices=0]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_west_kraired[facing=south,slices=1]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_west_kraired[facing=south,slices=2]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_west_kraired[facing=south,slices=3]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_west_kraired[facing=north,slices=0]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_west_kraired[facing=north,slices=1]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_west_kraired[facing=north,slices=2]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_west_kraired[facing=north,slices=3]",
+      "weight": 10
+    }
+  ]
+}

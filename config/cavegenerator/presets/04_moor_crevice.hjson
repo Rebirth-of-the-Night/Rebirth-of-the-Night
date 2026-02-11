@@ -1,0 +1,94 @@
+{
+  imports: [
+    common_values.cave::NATURAL_STONE
+  ]
+  variables: {
+    COMMON_CEILING: {
+      seed: 1
+      dummy: true
+      cache: true
+      frequency: 0.06
+      range: [ 1, 1 ]
+    }
+    COMMON_FLOOR: {
+      seed: 1
+      dummy: true
+      cache: true
+      frequency: 0.02
+      range: [ -30, 30 ]
+    }
+  }
+  enabled: true
+  biomes: {
+    names: [
+      biomesoplenty:moor
+    ]
+  }
+  replaceDecorators: true
+  replaceableBlocks: $NATURAL_STONE
+  caverns: {
+    ###########################################
+    # Hot Spring
+    ###########################################
+    height: [
+      80
+      100
+    ]
+    ###################
+    ceiling: $COMMON_CEILING
+    floor: $COMMON_FLOOR
+    generators: {
+      seed: 1
+      frequency: 0.0105 // [Default: 0.0505] - A lower number means bigger scale
+      offset: 0
+      lacunarity: 0.5
+      octaves: 1
+      gain: 0.094 // [Default: 0.094] Doesn't really mater
+      perturb: true
+      perturbAmp: 4
+      perturbFreq: 0.12
+      type: Cellular
+      jitterX: 0.45
+      jitterY: 1.25
+      jitterZ: 0.25
+      cellularLookup: Perlin
+      returnType: Distance3Div
+      distFunc: Manhattan
+      invert: true
+      interp: Quintic
+      fractal: FBM
+      threshold: -0.03 // [Default: -0.12] [Can be: -1.0 to 0.0] A higher number means smaller caverns
+      stretch: 2.36
+    }
+  }
+  caveBlocks: [
+    { states: "minecraft:water", height: [ 60, 110 ] }
+    { states: "biomesoplenty:mud", height: [ 50, 110 ] }
+  ]
+  wallDecorators: [
+    {
+      states: biomesoplenty:mud
+      directions: all
+      matchers: $NATURAL_STONE
+      height: [ 20, 200 ]
+      placement: EMBED
+      integrity: 1
+    }
+    {
+      states: biomesoplenty:mud
+      directions: side
+      matchers: air
+      height: [ 20, 200 ]
+      placement: EMBED
+      integrity: 1
+    }
+    {
+      states: biomesoplenty:mud
+      directions: side
+      matchers: air
+      height: [ 20, 200 ]
+      placement: OVERLAY
+      integrity: 1
+    }
+  ]
+}

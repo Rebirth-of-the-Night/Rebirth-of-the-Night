@@ -1,0 +1,8 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"side": "biomesoplenty:blocks/eucalyptus_log",
+		"end": "contentcreator:blocks/eucalyptus_log_pile",
+		"particle": "biomesoplenty:blocks/eucalyptus_log"
+	}
+}

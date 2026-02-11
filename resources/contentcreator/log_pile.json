@@ -1,0 +1,8 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"side": "twilight_forest:blocks/cherry_log",
+		"end": "contentcreator:blocks/cherry_log_pile",
+		"particle": "twilight_forest:blocks/cherry_log"
+	}
+}

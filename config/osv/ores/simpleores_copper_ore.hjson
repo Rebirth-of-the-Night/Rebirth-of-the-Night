@@ -44,7 +44,7 @@ gen: [
   {
 	height: [ 20, 150 ]
     size: 8
-    count: 12
+    count: 16
 	blacklistBiomes: true
 	biomes: {
 		names: [

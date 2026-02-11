@@ -49,7 +49,7 @@ JEI.removeAndHide(<pyrotech:cog_stone>);
 JEI.removeAndHide(<pyrotech:cog_flint>);
 recipes.remove(<pyrotech:cog_bone>); // SFS gear
 JEI.removeAndHide(<pyrotech:cog_iron>);
-JEI.removeAndHide(<pyrotech:cog_gold>);
+recipes.remove(<pyrotech:cog_gold>); // brass gear
 JEI.removeAndHide(<pyrotech:cog_diamond>);
 JEI.removeAndHide(<pyrotech:cog_obsidian>);
 recipes.remove(<pyrotech:thatch>);
@@ -119,6 +119,9 @@ val timber = <earthworks:item_timber>;
 val fiber = <pyrotech:material:12>;
 val hay_bale = <pyrotech:thatch>;
 val pit_kiln = <pyrotech:kiln_pit>;
+val brass_nugget = <ore:nuggetBrass>;
+val handle = <spartanweaponry:material>;
+val brass_gear = <pyrotech:cog_gold>;
 
 recipes.addShapeless("pyro_matchstick_broken_stick",<pyrotech:matchstick>,
 [<pyrotech:tinder>,<contenttweaker:broken_stick>,<contenttweaker:broken_stick>]);
@@ -133,6 +136,10 @@ recipes.addShaped("dry_to_hay_bale", hay_bale,
 recipes.addShaped("dry_to_pit_kiln", pit_kiln*4,
  [[dry,dry,dry],
   [dry,dry,dry]]);
+recipes.addShaped("brass_gear", brass_gear,
+ [[null,brass_nugget,null],
+  [brass_nugget,null,brass_nugget],
+  [null,brass_nugget,null]]);
 recipes.addShapeless("ash_conversion", <biomesoplenty:ash>*3,
 [<pyrotech:material>]);
 recipes.addShapeless("twineToString", <minecraft:string>,[twine,twine,twine]);
@@ -150,10 +157,6 @@ recipes.addShaped("pyro_refractory_brick_kiln", <pyrotech:brick_kiln>,
  [[refractoryBrick,null,refractoryBrick],
   [refractoryMaterial,refractoryBrick,refractoryMaterial],
   [refractoryBrick,null,refractoryBrick]]);
-recipes.addShaped("pyro_log_pile", <pyrotech:log_pile>,
- [[<ore:logWood>,<ore:logWood>,<ore:logWood>],
-  [<ore:logWood>,<ore:logWood>,<ore:logWood>],
-  [<ore:logWood>,<ore:logWood>,<ore:logWood>]]);
 recipes.addShaped("composting_bin", <pyrotech:compost_bin>,
  [[<earthworks:item_timber>,null,<earthworks:item_timber>],
   [<earthworks:item_timber>,null,<earthworks:item_timber>],
@@ -218,6 +221,7 @@ recipes.addShaped("pyro_refractory_faucet", <pyrotech:faucet_brick>*2,
   [refractoryMaterial,refractoryBrick,refractoryMaterial]]);
 recipes.addShapeless("pyro_refracotrymaterial_slag", refractoryMaterial*2, [<pyrotech:material:8>,<pyrotech:material:8>,<pyrotech:material:8>,<minecraft:clay_ball>]);
 recipes.addShapeless("pyro_unfiredlime_lime", <contenttweaker:unfired_refractory_brick>,[refractoryMaterial]);
+recipes.addShapeless("pyro_unfiredlime_revert",refractoryMaterial,[<contenttweaker:unfired_refractory_brick>]);
 furnace.remove(<minecraft:stonebrick:2>);
 furnace.addRecipe(<contenttweaker:brick_minecraft_stone>, <minecraft:stonebrick:2>, 0.0);
 furnace.addRecipe(<minecraft:stonebrick:2>, <contenttweaker:brick_minecraft_stone>, 0.0);

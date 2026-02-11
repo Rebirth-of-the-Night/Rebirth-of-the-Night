@@ -88,6 +88,7 @@ recipes.removeByRecipeName("dungeontactics:misc/books/dungeonpedia_volume_8");
 recipes.removeByRecipeName("dungeontactics:tools/grinder_block");
 recipes.removeByRecipeName("dungeontactics:traps/trap_port");
 recipes.removeByRecipeName("dungeontactics:traps/trap_ambush");
+recipes.removeByRecipeName("dungeontactics:misc/materials/mithril_block");
 
 JEI.removeAndHide(<dungeontactics:fire_starter>);
 recipes.addShapeless("flint_and_steel_relic",<minecraft:flint_and_steel>,[<contenttweaker:steel_artifact>,<minecraft:flint>]);
@@ -154,7 +155,13 @@ LootTable.removeGlobalItem("dungeontactics:wither_web");
 //recipes.remove(<dungeontactics:magic_scroll>);
 JEI.removeAndHide(<dungeontactics:magic_scroll>);
 
-<ore:buttonStone>.addItems([<minecraft:stone_button>,<undergroundbiomes:igneous_stone_button:*>,<undergroundbiomes:metamorphic_stone_button:*>,<undergroundbiomes:sedimentary_stone_button:*>]);
+recipes.removeByRecipeName("dungeontactics:tools/magic_pouch");
+recipes.addShaped("wand_powder_pouch",<dungeontactics:magic_pouch:639>,[
+    [null,<ore:twine>,null],
+    [null,<dungeontactics:magic_powder>,null],
+    [null,<ore:leather>,null]
+]);
+
 recipes.remove(<dungeontactics:rocket_pants>);
 recipes.addShaped("rocket_pants",<dungeontactics:rocket_pants>,[
     [<minecraft:redstone>,<ore:buttonStone>,<minecraft:redstone>],

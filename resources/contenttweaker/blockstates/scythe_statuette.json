@@ -1,0 +1,19 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+        "0": "contenttweaker:blocks/scythe_statuette",
+		"particle": "contenttweaker:blocks/scythe_statuette"
+    },
+    "model": "contenttweaker:scythe_statuette",
+    "uvlock": false
+  },
+  "variants": {
+    "facing=north": { "model": "contenttweaker:scythe_statuette", "y": 180 },
+    "facing=south": { "model": "contenttweaker:scythe_statuette", "y": 0 },
+    "facing=west": { "model": "contenttweaker:scythe_statuette", "y": 90 },
+    "facing=east": { "model": "contenttweaker:scythe_statuette", "y": 270 },
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

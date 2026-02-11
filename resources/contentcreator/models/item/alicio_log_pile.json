@@ -1,0 +1,8 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"side": "betterwithaddons:blocks/log_luretree",
+		"end": "contentcreator:blocks/alicio_log_pile",
+		"particle": "betterwithaddons:blocks/cherry_log"
+	}
+}

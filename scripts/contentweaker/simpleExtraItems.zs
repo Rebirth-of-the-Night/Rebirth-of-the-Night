@@ -115,6 +115,16 @@ sfs_masonpick.toolLevel = 4;
 //sfs_masonpick.itemDestroySpeed = 18;
 sfs_masonpick.register();
 
+var harmony_staff = VanillaFactory.createItem("harmony_staff");
+harmony_staff.maxStackSize = 1;
+harmony_staff.maxDamage = 1024;
+harmony_staff.register();
+
+var sowing_scepter = VanillaFactory.createItem("sowing_scepter");
+sowing_scepter.maxStackSize = 1;
+sowing_scepter.maxDamage = 1024;
+sowing_scepter.register();
+
 // misc.
 val four_gems = VanillaFactory.createItem("four_gems");
 four_gems.register();
