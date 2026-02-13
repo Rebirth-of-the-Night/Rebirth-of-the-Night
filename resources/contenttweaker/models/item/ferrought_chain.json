@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:blocks/ferrought_chain"
+  },
+  "render_type": "translucent"
+}

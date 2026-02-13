@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "contenttweaker:fleshweave_barrier_ribbon"
+    },
+    "facing=east": {
+      "model": "contenttweaker:fleshweave_barrier_ribbon",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "contenttweaker:fleshweave_barrier_ribbon",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "contenttweaker:fleshweave_barrier_ribbon",
+      "y": 270
+    }
+  }
+}

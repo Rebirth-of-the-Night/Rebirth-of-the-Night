@@ -1,0 +1,134 @@
+{
+	"block_pools": [
+		{
+			"name": "Fleshweave Barrier Connect",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:fleshweave_barrier_base"
+			},
+            "clicktype": "place",
+			"properties": [
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "minecraft:air", "positions":[{"x": "1", "y": "1", "z": "0" }]}, {"name": "contenttweaker:fleshweave_barrier_top", "positions":[{"x": "2", "y": "1", "z": "0" }]}]},
+                    "effects": [{"type": "place_block_structure", "blocks": [{"name": "contenttweaker:fleshweave_barrier_ribbon", "meta": "1", "positions":[{"x": "1", "y": "1", "z": "0" }]}]}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "minecraft:air", "positions":[{"x": "0", "y": "1", "z": "1" }]}, {"name": "contenttweaker:fleshweave_barrier_top", "positions":[{"x": "0", "y": "1", "z": "2" }]}]},
+                    "effects": [{"type": "place_block_structure", "blocks": [{"name": "contenttweaker:fleshweave_barrier_ribbon", "meta": "2", "positions":[{"x": "0", "y": "1", "z": "1" }]}]}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "minecraft:air", "positions":[{"x": "-1", "y": "1", "z": "0" }]}, {"name": "contenttweaker:fleshweave_barrier_top", "positions":[{"x": "-2", "y": "1", "z": "0" }]}]},
+                    "effects": [{"type": "place_block_structure", "blocks": [{"name": "contenttweaker:fleshweave_barrier_ribbon", "meta": "3", "positions":[{"x": "-1", "y": "1", "z": "0" }]}]}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "minecraft:air", "positions":[{"x": "0", "y": "1", "z": "-1" }]}, {"name": "contenttweaker:fleshweave_barrier_top", "positions":[{"x": "0", "y": "1", "z": "-2" }]}]},
+                    "effects": [{"type": "place_block_structure", "blocks": [{"name": "contenttweaker:fleshweave_barrier_ribbon", "meta": "0", "positions":[{"x": "0", "y": "1", "z": "-1" }]}]}]
+                }
+            ]
+        },
+        {
+			"name": "Fleshweave Barrier Base Disconnect",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:fleshweave_barrier_base"
+			},
+            "clicktype": "break",
+			"properties": [
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "contenttweaker:fleshweave_barrier_ribbon", "meta": "3", "positions":[{"x": "1", "y": "1", "z": "0" }]}]},
+                    "effects": [{"type": "place_block_structure", "blocks": [{"name": "minecraft:air", "positions":[{"x": "1", "y": "1", "z": "0" }]}]}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "contenttweaker:fleshweave_barrier_ribbon", "meta": "1", "positions":[{"x": "1", "y": "1", "z": "0" }]}]},
+                    "effects": [{"type": "place_block_structure", "blocks": [{"name": "minecraft:air", "positions":[{"x": "1", "y": "1", "z": "0" }]}]}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "contenttweaker:fleshweave_barrier_ribbon", "meta": "0", "positions":[{"x": "0", "y": "1", "z": "1" }]}]},
+                    "effects": [{"type": "place_block_structure", "blocks": [{"name": "minecraft:air", "positions":[{"x": "0", "y": "1", "z": "1" }]}]}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "contenttweaker:fleshweave_barrier_ribbon", "meta": "2", "positions":[{"x": "0", "y": "1", "z": "1" }]}]},
+                    "effects": [{"type": "place_block_structure", "blocks": [{"name": "minecraft:air", "positions":[{"x": "0", "y": "1", "z": "1" }]}]}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "contenttweaker:fleshweave_barrier_ribbon", "meta": "1", "positions":[{"x": "-1", "y": "1", "z": "0" }]}]},
+                    "effects": [{"type": "place_block_structure", "blocks": [{"name": "minecraft:air", "positions":[{"x": "-1", "y": "1", "z": "0" }]}]}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "contenttweaker:fleshweave_barrier_ribbon", "meta": "3", "positions":[{"x": "-1", "y": "1", "z": "0" }]}]},
+                    "effects": [{"type": "place_block_structure", "blocks": [{"name": "minecraft:air", "positions":[{"x": "-1", "y": "1", "z": "0" }]}]}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "contenttweaker:fleshweave_barrier_ribbon", "meta": "2", "positions":[{"x": "0", "y": "1", "z": "-1" }]}]},
+                    "effects": [{"type": "place_block_structure", "blocks": [{"name": "minecraft:air", "positions":[{"x": "0", "y": "1", "z": "-1" }]}]}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "contenttweaker:fleshweave_barrier_ribbon", "meta": "0", "positions":[{"x": "0", "y": "1", "z": "-1" }]}]},
+                    "effects": [{"type": "place_block_structure", "blocks": [{"name": "minecraft:air", "positions":[{"x": "0", "y": "1", "z": "-1" }]}]}]
+                }
+            ]
+        },
+        {
+			"name": "Fleshweave Barrier Top Disconnect",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:fleshweave_barrier_top"
+			},
+            "clicktype": "break",
+			"properties": [
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "contenttweaker:fleshweave_barrier_ribbon", "meta": "3", "positions":[{"x": "1", "y": "0", "z": "0" }]}]},
+                    "effects": [{"type": "place_block_structure", "blocks": [{"name": "minecraft:air", "positions":[{"x": "1", "y": "0", "z": "0" }]}]}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "contenttweaker:fleshweave_barrier_ribbon", "meta": "1", "positions":[{"x": "1", "y": "0", "z": "0" }]}]},
+                    "effects": [{"type": "place_block_structure", "blocks": [{"name": "minecraft:air", "positions":[{"x": "1", "y": "0", "z": "0" }]}]}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "contenttweaker:fleshweave_barrier_ribbon", "meta": "0", "positions":[{"x": "0", "y": "0", "z": "1" }]}]},
+                    "effects": [{"type": "place_block_structure", "blocks": [{"name": "minecraft:air", "positions":[{"x": "0", "y": "0", "z": "1" }]}]}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "contenttweaker:fleshweave_barrier_ribbon", "meta": "2", "positions":[{"x": "0", "y": "0", "z": "1" }]}]},
+                    "effects": [{"type": "place_block_structure", "blocks": [{"name": "minecraft:air", "positions":[{"x": "0", "y": "0", "z": "1" }]}]}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "contenttweaker:fleshweave_barrier_ribbon", "meta": "1", "positions":[{"x": "-1", "y": "0", "z": "0" }]}]},
+                    "effects": [{"type": "place_block_structure", "blocks": [{"name": "minecraft:air", "positions":[{"x": "-1", "y": "0", "z": "0" }]}]}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "contenttweaker:fleshweave_barrier_ribbon", "meta": "3", "positions":[{"x": "-1", "y": "0", "z": "0" }]}]},
+                    "effects": [{"type": "place_block_structure", "blocks": [{"name": "minecraft:air", "positions":[{"x": "-1", "y": "0", "z": "0" }]}]}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "contenttweaker:fleshweave_barrier_ribbon", "meta": "2", "positions":[{"x": "0", "y": "0", "z": "-1" }]}]},
+                    "effects": [{"type": "place_block_structure", "blocks": [{"name": "minecraft:air", "positions":[{"x": "0", "y": "0", "z": "-1" }]}]}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "contenttweaker:fleshweave_barrier_ribbon", "meta": "0", "positions":[{"x": "0", "y": "0", "z": "-1" }]}]},
+                    "effects": [{"type": "place_block_structure", "blocks": [{"name": "minecraft:air", "positions":[{"x": "0", "y": "0", "z": "-1" }]}]}]
+                }
+            ]
+        }
+    ]
+}

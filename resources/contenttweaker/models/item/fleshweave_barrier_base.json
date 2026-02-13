@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/fleshweave_barrier_item"
+  },
+  "render_type": "translucent"
+}

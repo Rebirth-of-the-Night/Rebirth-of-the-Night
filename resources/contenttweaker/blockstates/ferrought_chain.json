@@ -1,0 +1,28 @@
+{
+  "variants": {
+      "facing=north": {
+      "model": "contenttweaker:ferrought_chain",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "contenttweaker:ferrought_chain",
+      "x": 90,
+      "y": 90
+    },
+    "facing=south": {
+      "model": "contenttweaker:ferrought_chain",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "contenttweaker:ferrought_chain",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "contenttweaker:ferrought_chain"
+    },
+        "facing=up": {
+      "model": "contenttweaker:ferrought_chain"
+    }
+  }
+}

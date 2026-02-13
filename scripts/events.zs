@@ -906,3 +906,18 @@ events.onPlayerRightClickItem(function(event as crafttweaker.event.PlayerRightCl
         }
     }
 });
+
+//Block Placement Definitions
+events.onBlockPlace(function(event as crafttweaker.event.BlockPlaceEvent) {
+    var blockToReplace = crafttweaker.util.Position3f.create(event.position.x, event.position.y + 1, event.position.z).asBlockPos();
+    if (event.block.definition.id.matches("contenttweaker:fleshweave_barrier_base")){
+			if (!event.world.getBlock(blockToReplace).definition.id.matches("minecraft:air")){
+				event.cancel();
+}}});
+
+events.onBlockPlace(function(event as crafttweaker.event.BlockPlaceEvent) {
+    var blockToReplace = crafttweaker.util.Position3f.create(event.position.x, event.position.y + 1, event.position.z).asBlockPos();
+    if (event.block.definition.id.matches("contenttweaker:steel_barrier_base")){
+			if (!event.world.getBlock(blockToReplace).definition.id.matches("minecraft:air")){
+				event.cancel();
+}}});
