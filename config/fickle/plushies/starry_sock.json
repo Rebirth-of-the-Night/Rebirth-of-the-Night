@@ -1,0 +1,22 @@
+{
+    "id": "starry_sock",
+    "displayName": "Starry Sock",
+    "tooltip": "A cute and squishy companion (Courtesy of Starry Sock).",
+    
+    "modelPath": "file:plushies/starry_sock/plushie_starry_sock",
+    "texturePath": "file:plushies/starry_sock/plushie_starry_sock_base.png",
+    "squishTexturePath": "file:plushies/starry_sock/plushie_starry_sock_base.png",
+    
+    "scale": 1.0,
+    "offsetX": 0.5,
+    "offsetY": 0.0,
+    "offsetZ": 0.5,
+    
+    "animated": true,
+    "squishDuration": 6,
+    "squishAmount": 0.35,
+    "squishStyle": "bounce",
+    
+    "material": "cloth",
+    "squishSound": "minecraft:entity.wolf.whine"
+}

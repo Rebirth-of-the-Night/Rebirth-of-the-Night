@@ -1,0 +1,42 @@
+// ==========================================
+// FICKLE PLUSHIE DEFINITION TEMPLATE
+// ==========================================
+// To create a new plushie:
+// 1. Copy this file and rename it (e.g., my_plushie.json)
+// 2. Remove the .disabled extension
+// 3. Customize the values below
+// 4. Use /fickle reload to load your plushie in-game
+//
+// MODEL PATHS:
+//   - "modid:path/to/model" for mod resources (OBJ format)
+//   - "file:plushies/folder/model.obj" for external files
+//
+// TEXTURE PATHS:
+//   - "modid:textures/path/texture.png" for mod resources
+//   - "file:plushies/folder/texture.png" for external files
+//
+// MATERIALS: cloth, wool, wood, metal, rock, glass, sand, snow, ice, sponge, clay
+// SQUISH STYLES: bounce, jiggle, squash, wobble
+// ==========================================
+
+{
+    "id": "my_plushie",
+    "displayName": "My Custom Plushie",
+    "tooltip": "A custom plushie description",
+    
+    "modelPath": "file:plushies/my_plushie/model.obj",
+    "texturePath": "file:plushies/my_plushie/texture.png",
+    "squishTexturePath": "file:plushies/my_plushie/texture_squish.png",
+    
+    "scale": 1.0,
+    "offsetX": 0.5,
+    "offsetY": 0.0,
+    "offsetZ": 0.5,
+    
+    "animated": true,
+    "squishDuration": 10,
+    "squishAmount": 0.3,
+    "squishStyle": "bounce",
+    
+    "material": "cloth"
+}
