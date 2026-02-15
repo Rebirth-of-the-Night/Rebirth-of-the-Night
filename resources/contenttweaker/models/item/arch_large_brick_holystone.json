@@ -1,0 +1,7 @@
+{
+  "parent": "contenttweaker:item/arch_large_brick_red_granite",
+  "textures": {
+    "particle": "aether_legacy:blocks/holystone_brick",
+    "0": "aether_legacy:blocks/holystone_brick"
+  }
+}

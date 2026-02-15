@@ -1,0 +1,7 @@
+{
+  "parent": "contenttweaker:block/arches/arch_brick_red_granite_flipped",
+  "textures": {
+    "particle": "undergroundbiomes:blocks/black_granite_brick",
+    "0": "undergroundbiomes:blocks/black_granite_brick"
+  }
+}

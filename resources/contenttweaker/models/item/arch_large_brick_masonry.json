@@ -1,0 +1,7 @@
+{
+  "parent": "contenttweaker:item/arch_large_brick_red_granite",
+  "textures": {
+    "particle": "pyrotech:blocks/masonry_brick",
+    "0": "pyrotech:blocks/masonry_brick"
+  }
+}

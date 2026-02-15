@@ -547,6 +547,83 @@ tile.contenttweaker.rammed_earth_silty_dirt.name=Silty Rammed Earth
 tile.contenttweaker.rammed_earth_vanilla_dirt.name=Rammed Earth
 
 #------------------------------------------------------------------------------
+# Arches
+#------------------------------------------------------------------------------
+
+tile.contenttweaker.arch_brick_red_granite.name=Red Granite Brick Arch
+tile.contenttweaker.arch_large_brick_red_granite.name=Large Red Granite Brick Arch
+tile.contenttweaker.arch_brick_black_granite.name=Black Granite Brick Arch
+tile.contenttweaker.arch_large_brick_black_granite.name=Large Black Granite Brick Arch
+tile.contenttweaker.arch_brick_rhyolite.name=Rhyolite Brick Arch
+tile.contenttweaker.arch_large_brick_rhyolite.name=Large Rhyolite Brick Arch
+tile.contenttweaker.arch_brick_andesite.name=Andesite Brick Arch
+tile.contenttweaker.arch_large_brick_andesite.name=Large Andesite Brick Arch
+tile.contenttweaker.arch_brick_gabbro.name=Gabbro Brick Arch
+tile.contenttweaker.arch_large_brick_gabbro.name=Large Gabbro Brick Arch
+tile.contenttweaker.arch_brick_basalt.name=Basalt Brick Arch
+tile.contenttweaker.arch_large_brick_basalt.name=Large Basalt Brick Arch
+tile.contenttweaker.arch_brick_komatiite.name=Komatiite Brick Arch
+tile.contenttweaker.arch_large_brick_komatiite.name=Large Komatiite Brick Arch
+tile.contenttweaker.arch_brick_dacite.name=Dacite Brick Arch
+tile.contenttweaker.arch_large_brick_dacite.name=Large Dacite Brick Arch
+tile.contenttweaker.arch_brick_gneiss.name=Gneiss Brick Arch
+tile.contenttweaker.arch_large_brick_gneiss.name=Large Gneiss Brick Arch
+tile.contenttweaker.arch_brick_eclogite.name=Eclogite Brick Arch
+tile.contenttweaker.arch_large_brick_eclogite.name=Large Eclogite Brick Arch
+tile.contenttweaker.arch_brick_marble.name=Marble Brick Arch
+tile.contenttweaker.arch_large_brick_marble.name=Large Marble Brick Arch
+tile.contenttweaker.arch_brick_quartzite.name=Quartzite Brick Arch
+tile.contenttweaker.arch_large_brick_quartzite.name=Large Quartzite Brick Arch
+tile.contenttweaker.arch_brick_blue_schist.name=Blue Schist Brick Arch
+tile.contenttweaker.arch_large_brick_blue_schist.name=Large Blue Schist Brick Arch
+tile.contenttweaker.arch_brick_green_schist.name=Green Schist Brick Arch
+tile.contenttweaker.arch_large_brick_green_schist.name=Large Green Schist Brick Arch
+tile.contenttweaker.arch_brick_soapstone.name=Soapstone Brick Arch
+tile.contenttweaker.arch_large_brick_soapstone.name=Large Soapstone Brick Arch
+tile.contenttweaker.arch_brick_migmatite.name=Migmatite Brick Arch
+tile.contenttweaker.arch_large_brick_migmatite.name=Large Migmatite Brick Arch
+tile.contenttweaker.arch_brick_serpentinite.name=Serpentinite Brick Arch
+tile.contenttweaker.arch_large_brick_serpentinite.name=Large Serpentinite Brick Arch
+tile.contenttweaker.arch_brick_limestone.name=Limestone Brick Arch
+tile.contenttweaker.arch_large_brick_limestone.name=Large Limestone Brick Arch
+tile.contenttweaker.arch_brick_chalk.name=Chalk Brick Arch
+tile.contenttweaker.arch_large_brick_chalk.name=Large Chalk Brick Arch
+tile.contenttweaker.arch_brick_shale.name=Shale Brick Arch
+tile.contenttweaker.arch_large_brick_shale.name=Large Shale Brick Arch
+tile.contenttweaker.arch_brick_siltstone.name=Siltstone Brick Arch
+tile.contenttweaker.arch_large_brick_siltstone.name=Large Siltstone Brick Arch
+tile.contenttweaker.arch_brick_lignite.name=Lignite Brick Arch
+tile.contenttweaker.arch_large_brick_lignite.name=Large Lignite Brick Arch
+tile.contenttweaker.arch_brick_dolomite.name=Dolomite Brick Arch
+tile.contenttweaker.arch_large_brick_dolomite.name=Large Dolomite Brick Arch
+tile.contenttweaker.arch_brick_greywacke.name=Greywacke Brick Arch
+tile.contenttweaker.arch_large_brick_greywacke.name=Large Greywacke Brick Arch
+tile.contenttweaker.arch_brick_chert.name=Chert Brick Arch
+tile.contenttweaker.arch_large_brick_chert.name=Large Chert Brick Arch
+tile.contenttweaker.arch_brick_sandstone.name=Sandstone Brick Arch
+tile.contenttweaker.arch_large_brick_sandstone.name=Large Sandstone Brick Arch
+tile.contenttweaker.arch_brick_red_sandstone.name=Red Sandstone Brick Arch
+tile.contenttweaker.arch_large_brick_red_sandstone.name=Large Red Sandstone Brick Arch
+tile.contenttweaker.arch_brick_white_sandstone.name=White Sandstone Brick Arch
+tile.contenttweaker.arch_large_brick_white_sandstone.name=Large White Sandstone Brick Arch
+tile.contenttweaker.arch_brick_red_granite_sandstone.name=Red Granite Sandstone Brick Arch
+tile.contenttweaker.arch_large_brick_red_granite_sandstone.name=Large Red Granite Sandstone Brick Arch
+tile.contenttweaker.arch_brick_soul_sandstone.name=Soul Sandstone Brick Arch
+tile.contenttweaker.arch_large_brick_soul_sandstone.name=Large Soul Sandstone Brick Arch
+tile.contenttweaker.arch_brick_bleakseal.name=Bleakseal Brick Arch
+tile.contenttweaker.arch_large_brick_bleakseal.name=Large Bleakseal Brick Arch
+tile.contenttweaker.arch_brick_clay.name=Clay Brick Arch
+tile.contenttweaker.arch_large_brick_clay.name=Large Clay Brick Arch
+tile.contenttweaker.arch_brick_masonry.name=Masonry Brick Arch
+tile.contenttweaker.arch_large_brick_masonry.name=Large Masonry Brick Arch
+tile.contenttweaker.arch_brick_mud.name=Mud Brick Arch
+tile.contenttweaker.arch_large_brick_mud.name=Large Mud Brick Arch
+tile.contenttweaker.arch_brick_holystone.name=Holystone Brick Arch
+tile.contenttweaker.arch_large_brick_holystone.name=Large Holystone Brick Arch
+tile.contenttweaker.arch_brick_raktan.name=Raktan Brick Arch
+tile.contenttweaker.arch_large_brick_raktan.name=Large Raktan Brick Arch
+
+#------------------------------------------------------------------------------
 # Dunamis
 #------------------------------------------------------------------------------
 
