@@ -1,0 +1,23 @@
+{
+  "name": "ferrought",
+  "displayName": "Hecatomb",
+  "craftingMaterial": "ingotFerrought",
+  "breakarea": {
+    "height": 3,
+    "width": 3
+  },
+  "color": {
+    "red": 235,
+    "green": 152,
+    "blue": 134
+  },
+  "tier": 0,
+  "harvestLevel": 4,
+  "durability": 7500,
+  "efficiency": 11,
+  "damage": 17.0,
+  "attackspeed": -3.4,
+  "enchantability": 14,
+  "enchantable": true,
+  "repairable": true
+}

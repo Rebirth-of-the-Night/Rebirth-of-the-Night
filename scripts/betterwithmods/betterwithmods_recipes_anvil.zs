@@ -98,6 +98,25 @@ Anvil.addShaped(<demonic_scythe:demonic_scythe>,
    [<ore:ingotSteel>, <aether_legacy:dungeon_block:4>,null, null]
 ]);
 
+// Cataclysm
+recipes.remove(<nyx:meteor_hammer>);
+Anvil.addShaped(<nyx:meteor_hammer>,
+[
+   [<nyx:meteor_block>, <nyx:meteor_block>, null, null],
+   [<nyx:meteor_block>, <nyx:meteor_block>, <minecraft:blaze_rod>, <minecraft:blaze_rod>],
+   [<nyx:meteor_block>, <nyx:meteor_block>, <minecraft:blaze_rod>, <minecraft:blaze_rod>],
+   [<nyx:meteor_block>, <nyx:meteor_block>, null, null]
+]);
+
+// Hecatomb
+Anvil.addShaped(<stripmining:hammer_ferrought>,
+[
+   [<contenttweaker:raw_ferrought_block>, <contenttweaker:raw_ferrought_block>, null, null],
+   [<contenttweaker:raw_ferrought_block>, <contenttweaker:wrought_animation_core>, <simpleores:mythril_rod>, <simpleores:mythril_rod>],
+   [<contenttweaker:raw_ferrought_block>, <contenttweaker:wrought_animation_core>, <simpleores:mythril_rod>, <simpleores:mythril_rod>],
+   [<contenttweaker:raw_ferrought_block>, <contenttweaker:raw_ferrought_block>, null, null]
+]);
+
 // Broadhead
 Anvil.removeShaped(<betterwithmods:material:43>);
 Anvil.addShaped(<betterwithmods:material:43>,

@@ -74,15 +74,6 @@ recipes.addShaped("astral_block", <nyx:star_block> * 4, [
 
 furnace.remove(<nyx:cracked_star_block>);
 
-recipes.remove(<nyx:meteor_hammer>);
-Anvil.addShaped(<nyx:meteor_hammer>,
-[
-   [<nyx:meteor_block>, <nyx:meteor_block>, null, null],
-   [<nyx:meteor_block>, <nyx:meteor_block>, <minecraft:blaze_rod>, <minecraft:blaze_rod>],
-   [<nyx:meteor_block>, <nyx:meteor_block>, <minecraft:blaze_rod>, <minecraft:blaze_rod>],
-   [<nyx:meteor_block>, <nyx:meteor_block>, null, null]
-]);
-
 recipes.remove(<nyx:scythe>);
 Anvil.addShaped(<nyx:scythe>,
 [

@@ -82,6 +82,8 @@ ArcaneWorld.createRitualCreateItem("black_heart", "Heart Defilement", <defiledla
 ArcaneWorld.createRitualCreateItem("demon_eye", "Eye Possesion", <netherex:wither_dust>, [<minecraft:ender_pearl>,<contenttweaker:shard_of_night>]).build();
 ArcaneWorld.createRitualCreateItem("arcane_focus", "Arcanic Intent", <contenttweaker:arcane_focus>.withDamage(16), [<contenttweaker:unattuned_focus>,<contenttweaker:arcane_rune>,<contenttweaker:vis_shard>]).build();
 ArcaneWorld.createRitualCreateItem("demonic_scythe_awakened", "Awakened Demonic Scythe", <demonic_scythe:awakened_demonic_scythe>, [<demonic_scythe:demonic_scythe>, <contenttweaker:nether_rune>, <contenttweaker:strength_rune>, <contenttweaker:death_rune>, <contenttweaker:disint_rune>]).build();
+ArcaneWorld.createRitualCreateItem("ferrought_block_below", "Adhah Greater Melting", <contenttweaker:raw_ferrought_block>, [<arcaneworld:molten_core>,<contenttweaker:ferrought_flesh_deposit>*9,<contenttweaker:fire_rune>.anyDamage().transformDamage()]).build();
+ArcaneWorld.createRitualCreateItem("ferrought_block_above", "Upari Greater Melting", <contenttweaker:raw_ferrought_block>, [<contenttweaker:volatile_powder>,<contenttweaker:ferrought_flesh_deposit>*9,<contenttweaker:nether_rune>.anyDamage().transformDamage()]).build();
 
 // Command execution
 // ArcaneWorld.createRitualCommand(String name, String displayName, String[] commands, IIngredient... inputs);
