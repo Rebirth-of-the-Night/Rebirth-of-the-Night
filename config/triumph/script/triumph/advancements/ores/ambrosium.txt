@@ -1,11 +1,11 @@
-setIcon(<aether_legacy:ambrosium_shard>)
-setTitle("Ambrosia")
-setDescription("Mine ambrosium ore, a luminous and soft gem that can be alloyed with gold and silver for aetherial electrum")
+setIcon(<aether_legacy:golden_amber>)
+setTitle("Eléktor")
+setDescription("Obtain Beaming Amber from ore in the aether or produce it through refractory burning from golden oak sap, an unexploited gem that can be alloyed with gold and silver for aetherial electrum")
 
 addParent("triumph:advancements/ores/root")
 
-criteria = addCriteria("Ambrosium", "triumph:player_harvest_block")
-criteria.setBlock(<ore:oreAmbrosium>)
+criteria = addCriteria("Ambrosium", "minecraft:inventory_changed")
+criteria.addItem(<ore:oreAmbrosium>)
 
 alwaysVisible()
 setPos(-409,-129)

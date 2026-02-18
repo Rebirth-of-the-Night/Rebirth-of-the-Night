@@ -57,7 +57,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
-  .setShapeless([<bountifulbaubles:amuletcross>])
+  .setShapeless([<behgameon:accessory_32>])
   .addOutput(<contenttweaker:vis_speck>)
   .addTool(<contenttweaker:disint_rune>, 1)
   .setExtraOutputOne(<contenttweaker:vis_speck>, 0.1)

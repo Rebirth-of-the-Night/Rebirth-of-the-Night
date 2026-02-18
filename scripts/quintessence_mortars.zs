@@ -7,7 +7,7 @@ import crafttweaker.item.IItemStack;
 
 // Magic Blend
 val blendPowder = <ore:blendPowder>;
-blendPowder.add(<minecraft:glowstone_dust>, <arcanearchives:radiant_dust>, <aether_legacy:ambrosium_shard>);
+blendPowder.add(<minecraft:glowstone_dust>, <arcanearchives:radiant_dust>, <contenttweaker:material_part:58>);
 
 Mortar.addRecipe(["wood"], <contenttweaker:magic_blend> * 8, 8, <contenttweaker:magic_blend> * 4, 0.50, [<ore:blendPowder>, <ore:mushroomAny>, <contenttweaker:vis_speck>, <ore:anyQuintessence>]);
 
@@ -796,7 +796,7 @@ aetherQuintessenceA.add(
     <aether_legacy:aether_dirt>,
     <aether_legacy:holystone>,
     <aether_legacy:mossy_holystone>,
-    <aether_legacy:ambrosium_shard>,
+    <contenttweaker:material_part:58>,
     <aether_legacy:zanite_gemstone>,
     <ore:ingotGravitite>.firstItem,
     <aether_legacy:aercloud:*>

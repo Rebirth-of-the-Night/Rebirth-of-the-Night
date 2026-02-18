@@ -16,6 +16,10 @@ addRepairEntry(zaniteItems, <contenttweaker:zanite_ingot>);
 var gravititeItems = <aether_legacy:gravitite_helmet> | <aether_legacy:gravitite_chestplate> | <aether_legacy:gravitite_leggings> | <aether_legacy:gravitite_boots> | <aether_legacy:gravitite_sword> | <atop:amber_pickaxe> |  <atop:amber_shovel> | <atop:amber_axe> | <spartancompat:battleaxe_gravitite> | <spartancompat:boomerang_gravitite> | <spartancompat:dagger_gravitite> | <spartancompat:glaive_gravitite> | <spartancompat:greatsword_gravitite> | <spartancompat:halberd_gravitite> | <spartancompat:hammer_gravitite> | <spartancompat:javelin_gravitite> | <spartancompat:katana_gravitite> | <spartancompat:lance_gravitite> | <spartancompat:longbow_gravitite> | <spartancompat:longsword_gravitite> | <spartancompat:mace_gravitite> | <spartancompat:pike_gravitite> | <spartancompat:rapier_gravitite> | <spartancompat:saber_gravitite> | <spartancompat:spear_gravitite> | <spartancompat:staff_gravitite> | <spartancompat:throwing_axe_gravitite> | <spartancompat:throwing_knife_gravitite> | <spartancompat:warhammer_gravitite>;
 addRepairEntry(gravititeItems, <contenttweaker:material_part:40>);
 
+var sand = <ore:sand>;
+var resin = <aether_legacy:golden_amber>;
+var shard = <aether_legacy:ambrosium_shard>;
+var quicks = <aether_legacy:quicksoil>;
 
 JEI.removeAndHide(<aether_legacy:locked_dungeon_block>);
 JEI.removeAndHide(<aether_legacy:locked_dungeon_block:1>);
@@ -90,9 +94,9 @@ LootTable.removeGlobalItem("aether_legacy:golden_feather");
 recipes.remove(<aether_legacy:aetherium_core>);
 RecipeBuilder.get("mage")
   .setShaped([
-    [<contenttweaker:vis_sliver>, <aether_legacy:golden_amber>, <contenttweaker:vis_sliver>],
-    [<aether_legacy:golden_amber>, <aether_legacy:zanite_gemstone>, <aether_legacy:golden_amber>],
-    [<contenttweaker:vis_sliver>, <aether_legacy:golden_amber>, <contenttweaker:vis_sliver>]])
+    [<contenttweaker:vis_sliver>, shard, <contenttweaker:vis_sliver>],
+    [shard, <aether_legacy:zanite_gemstone>, shard],
+    [<contenttweaker:vis_sliver>, shard, <contenttweaker:vis_sliver>]])
   .addTool(<contenttweaker:sol_rune>, 1)
   .addTool(<contenttweaker:air_rune>, 1)
   .setMinimumTier(1)
@@ -156,6 +160,8 @@ LootTable.removeGlobalItem("aether_legacy:obsidian_gloves");
 LootTable.removeGlobalItem("aether_legacy:valkyrie_gloves");
 LootTable.removeGlobalItem("aether_legacy:cloud_staff");
 
+LootTable.removeGlobalItem("<aether_legacy:ambrosium_torch>");
+
 JEI.removeAndHide(<aether_legacy:red_cape>);
 JEI.removeAndHide(<aether_legacy:blue_cape>);
 JEI.removeAndHide(<aether_legacy:yellow_cape>);
@@ -180,7 +186,7 @@ LootTable.removeGlobalItem("aether_legacy:regeneration_stone");
 LootTable.removeGlobalItem("aether_legacy:iron_bubble");
 LootTable.removeGlobalItem("aether_legacy:repulsion_shield");
 
-//Fix trapdoor recipes
+// Fix trapdoor recipes
 val skyplank = <aether_legacy:skyroot_plank>;
 recipes.remove(<aether_legacy:skyroot_trapdoor>);
 recipes.addShaped("aether_legacy_skyroot_trapdoor", <aether_legacy:skyroot_trapdoor>*6,
@@ -188,15 +194,18 @@ recipes.addShaped("aether_legacy_skyroot_trapdoor", <aether_legacy:skyroot_trapd
     [skyplank,skyplank,skyplank],
     [skyplank,skyplank,skyplank]]);
 
-var sand = <ore:sand>;
-var shard = <aether_legacy:ambrosium_shard>;
-var quicks = <aether_legacy:quicksoil>;
-
 recipes.addShaped("quicksoil", quicks*8,[
     [sand, sand, sand],
     [sand, shard, sand],
     [sand, sand, sand]
 ]);
+
+recipes.remove(<aether_legacy:dart:0>);
+recipes.addShaped("aether_dart", <aether_legacy:dart:0>*4,[
+    [<dungeontactics:sharp_stick>],
+    [<ore:feather>]
+]);
+
 
 recipes.remove(<aether_legacy:holystone_button>);
 recipes.addShapeless("holystone_button",<aether_legacy:holystone_button>,[<pyrotech_compat:rock_sedimentary_sand:15>]);
@@ -325,6 +334,13 @@ recipes.addShaped("golden_parachute", <aether_legacy:golden_parachute>,[
     [goldcloud, <ore:slimeball>, goldcloud],
     [goldcloud, goldcloud, goldcloud]
 ]);
+
+recipes.addShaped("beaming_amber_to_block", <bblsom:block_beaming_resin>,[
+    [resin,resin,resin],
+    [resin,resin,resin],
+    [resin,resin,resin]
+]);
+recipes.addShapeless("block_to_beaming_amber", resin*9, [<bblsom:block_beaming_resin>]);
 
 recipes.remove(<aether_legacy:holystone_pressure_plate>);
 recipes.addShaped("aether_legacy_holystone_pressure_plate", <aether_legacy:holystone_pressure_plate>, [

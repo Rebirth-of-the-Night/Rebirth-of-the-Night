@@ -489,10 +489,6 @@ Dropt.list("bee_nest")
           .selector(Dropt.weight(1)) // spoils of war 2
        	   .items([<betteranimalsplus:bearhead_1>])
       )
-	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(10)) // sweetest prize
-       	   .items([<aether_legacy:ambrosium_shard>])
-      )
   );   
 
   
@@ -897,14 +893,22 @@ Dropt.list("ardicite")
   .add(Dropt.rule()
       .matchBlocks(["contenttweaker:ardicite"])
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(9)) // drops nothing if selected
-      )
-  	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(2)) // ground netherrack
-       	   .items([<betterwithmods:material:15>])
+          .selector(Dropt.weight(40)) // drops nothing if selected
       )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(3)) // ground fiery netherrack
+          .selector(Dropt.weight(30)) // molten core
+       	   .items([<arcaneworld:molten_core>], Dropt.range(1, 2))
+      )
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(60)) // ground netherrack
+       	   .items([<betterwithmods:material:15>], Dropt.range(4))
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(60)) // ground fiery netherrack
+       	   .items([<contenttweaker:ground_fiery_netherrack>], Dropt.range(4))
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1)) // phosphophyllite
        	   .items([<contenttweaker:ground_fiery_netherrack>])
       )
   );

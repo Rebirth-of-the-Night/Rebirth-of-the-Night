@@ -580,6 +580,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <vials:vial_288>.addShiftTooltip("Pick those annoying drops of 1 mb liquid off your machines and into a tank.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <minecraft:chest>.addShiftTooltip("An old looking chest. It's been varnished to withstand the passage of time.");
 <contenttweaker:ground_fiery_netherrack:*>.addTooltip("Turns into sludge if it touches water.");
+<betterwithmods:material:15>.addTooltip(format.red("It might be smart to study this in the guide before throwing a bunch of them into the evil sand."));
+<betterwithmods:material:15>.addTooltip(format.gray("More information on the Filtered Hopper entry in the guidebook."));
 <betterwithmods:material:15>.addTooltip("Turns into sludge if it touches water.");
 <iceandfire:venerable_stump:*>.addTooltip("Can be used on a mysterious vessel.");
 <betterwithmods:cooking_pot:2>.addTooltip("Can be used on a venerable stump.");

@@ -1,5 +1,4 @@
 import loottweaker.LootTweaker;
-import loottweaker.vanilla.loot.LootTables;
 import loottweaker.vanilla.loot.Functions;
 import crafttweaker.data.IData;
 import crafttweaker.item.WeightedItemStack;
@@ -234,7 +233,7 @@ val filchStealItems as IItemStack[] = [
     <arcanearchives:radiant_key>,
     <arcanearchives:quartz_sliver>,
     <arcanearchives:monitoring_crystal>,
-    <bountifulbaubles:amuletcross>,
+	<behgameon:accessory_32>,
     <mod_lavacow:canebeef>,
     <minecraft:experience_bottle>
 ] as IItemStack[];

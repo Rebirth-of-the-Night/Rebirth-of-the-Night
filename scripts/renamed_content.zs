@@ -181,7 +181,7 @@ for potion in potionMap{
 <bountifulbaubles:amuletsingluttony:*>.addTooltip(format.aqua("Arcane"));
 <bountifulbaubles:amuletsinpride:*>.addTooltip(format.aqua("Arcane"));
 <bountifulbaubles:amuletsinwrath:*>.addTooltip(format.aqua("Arcane"));
-<bountifulbaubles:amuletcross:*>.addTooltip(format.aqua("Arcane"));
+<behgameon:accessory_32:*>.addTooltip(format.aqua("Arcane"));
 <artifacts:snorkel:*>.addTooltip(format.aqua("Arcane"));
 <artifacts:shock_pendant:*>.addTooltip(format.aqua("Arcane"));
 <artifacts:flame_pendant:*>.addTooltip(format.aqua("Arcane"));

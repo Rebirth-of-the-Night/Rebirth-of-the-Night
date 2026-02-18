@@ -213,7 +213,7 @@ RecipeBuilder.get("mage")
 // halo necklace
 RecipeBuilder.get("mage")
   .setShaped([
-    [<contenttweaker:vis_shard>, <bountifulbaubles:amuletcross>, <contenttweaker:vis_shard>],
+    [<contenttweaker:vis_shard>, <behgameon:accessory_32>, <contenttweaker:vis_shard>],
     [<ore:ingotElectrum>.firstItem, <contenttweaker:holy_zanite>, <ore:ingotElectrum>.firstItem],
     [<mod_lavacow:scythe_claw>, <contenttweaker:fortified_ruby>, <mod_lavacow:scythe_claw>]])
   .addTool(<contenttweaker:strength_rune>, 1)

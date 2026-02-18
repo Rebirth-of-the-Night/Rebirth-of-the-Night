@@ -24,7 +24,7 @@ for i in ltArray {
 
 // Removing magic scrolls from known sources
 var scrollSrc = [
-	"minecraft:chests/stronghold_crossing", 
+/*	"minecraft:chests/stronghold_crossing", //Disabled. Redundant thanks to Copypaste's copied table, according to Loot Tweaker*/
 	"minecraft:entities/witch", 
 	"minecraft:entities/evocation_illager"
 ] as string[];

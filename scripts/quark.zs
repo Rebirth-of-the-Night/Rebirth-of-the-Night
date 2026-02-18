@@ -153,7 +153,7 @@ val crystalMats as IIngredient[][] = [
 	[<contenttweaker:phosphophyllite>, <ore:gemDiamond>],
 	[<scalinghealth:crystalshard>, <ore:gemRuby>],
 	[<minecraft:blaze_powder>, <iceandfire:myrmex_desert_resin>],
-	[<minecraft:glowstone_dust>, <aether_legacy:ambrosium_shard>],
+	[<minecraft:glowstone_dust>, <contenttweaker:material_part:58>],
 	[<iceandfire:myrmex_jungle_resin>, <ore:gemPeridot>, <ore:gemEmerald>],
 	[<minecraft:dye:4>, <ore:gemSapphire>],
 	[<endreborn:item_advanced_ender_pearl>, <aether_legacy:zanite_gemstone>],

@@ -306,6 +306,25 @@ Burn.createBuilder("lignite_coke", <pyrotech:material:1>, "contenttweaker:lignit
     .setRequiresRefractoryBlocks(true)
     .setFluidLevelAffectsFailureChance(true)
     .register();
+Burn.createBuilder("beaming_crystallization", <aether_legacy:ambrosium_shard>*4, "bblsom:block_beaming_resin")
+    .setBurnStages(1)
+    .setTotalBurnTimeTicks(8 * 60 * 20)
+    .setFluidProduced(<liquid:gold> * 77)
+	.setFailureChance(0.66)
+    .addFailureItem(<aether_legacy:ambrosium_shard>) // big pile of ash
+    .addFailureItem(<pyrotech:material>*2) // big pile of ash
+    .setRequiresRefractoryBlocks(false)
+    .setFluidLevelAffectsFailureChance(true)
+    .register();
+Burn.createBuilder("iron_sand", <minecraft:iron_nugget>*4, "betterwithaddons:iron_sand")
+    .setBurnStages(1)
+    .setTotalBurnTimeTicks(8 * 60 * 20)
+	.setFailureChance(0.2)
+    .addFailureItem(<minecraft:iron_nugget>*1)
+    .addFailureItem(<minecraft:iron_nugget>*2)
+    .setRequiresRefractoryBlocks(true)
+    .setFluidLevelAffectsFailureChance(false)
+    .register();
 Burn.createBuilder("molten_spirit_vanilla", <contenttweaker:masonry_brick>, "simpleores:mythril_ore")
     .setBurnStages(1)
     .setTotalBurnTimeTicks(6 * 60 * 20)
@@ -321,16 +340,6 @@ Burn.createBuilder("distilled_enderslag", <betterwithmods:material:39>, "endrebo
     .addFailureItem(<betterwithmods:material:39>) // enderslag
     .addFailureItem(<betterwithmods:material:39>*2) // enderslag
     .setRequiresRefractoryBlocks(false)
-    .setFluidLevelAffectsFailureChance(false)
-    .register();
-
-Burn.createBuilder("iron_sand", <minecraft:iron_nugget>*4, "betterwithaddons:iron_sand")
-    .setBurnStages(1)
-    .setTotalBurnTimeTicks(8 * 60 * 20)
-	.setFailureChance(0.2)
-    .addFailureItem(<minecraft:iron_nugget>*1)
-    .addFailureItem(<minecraft:iron_nugget>*2)
-    .setRequiresRefractoryBlocks(true)
     .setFluidLevelAffectsFailureChance(false)
     .register();
 

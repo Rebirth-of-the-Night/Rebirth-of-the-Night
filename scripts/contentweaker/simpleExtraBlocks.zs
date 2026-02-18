@@ -265,6 +265,13 @@ paper_3.setBlockLayer("CUTOUT");
 paper_3.setToolClass("none");
 paper_3.register();
 
+var ferrought = VanillaFactory.createBlock("ferrought_flesh_deposit", <blockmaterial:Iron>);
+ferrought.setBlockHardness(35.0);
+ferrought.setBlockResistance(2.0);
+ferrought.setToolClass("pickaxe");
+ferrought.setToolLevel(4);
+ferrought.register();
+
 var bowl = VanillaFactory.createBlock("bowl", <blockmaterial:Wood>);
 bowl.axisAlignedBB = AxisAlignedBB.create(
      4.0 / 16.0,
@@ -1275,6 +1282,7 @@ ardicite.setLightValue(0.8);
 ardicite.setBlockSoundType(<soundtype:stone>);
 ardicite.setBlockHardness(20);
 ardicite.setBlockMaterial(<blockmaterial:fire>);
+ardicite.setToolLevel(2);
 ardicite.register();
 
 var star_block = VanillaFactory.createBlock("star_block", <blockmaterial:Glass>);

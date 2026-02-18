@@ -1557,6 +1557,12 @@
 		"isCreative": true
     },
 	{
+        "motive": "The Opera House",
+        "width": 5,
+        "height": 4,
+		"isCreative": false
+    },
+	{
         "motive": "Mortarid Countryside",
         "width": 6,
         "height": 3,

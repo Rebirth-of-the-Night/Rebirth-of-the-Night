@@ -236,7 +236,7 @@ mods.betterwithmods.Anvil.addShaped(<dungeontactics:silver_sword>.withTag(({"Qua
 /////////////////////        True Lights Edge        /////////////////////
 
 var shapedquartz = <arcanearchives:shaped_quartz>;
-var cross = <bountifulbaubles:amuletcross>;
+var heartnecklace = <behgameon:accessory_32>;
 var pride = <bountifulbaubles:amuletsinpride>;
 var victorymedal = <aether_legacy:victory_medal>;
 var totemascending = <totemexpansion:totem_falling>;
@@ -246,7 +246,7 @@ mods.betterwithmods.Anvil.addShaped(<behgameon:accessory_49>,
 [
    [shapedquartz, shapedquartz, shapedquartz, shapedquartz],
    [shapedquartz, victorymedal, pride, shapedquartz],
-   [shapedquartz, cross, totemascending, shapedquartz],
+   [shapedquartz, heartnecklace, totemascending, shapedquartz],
    [shapedquartz, shapedquartz, shapedquartz, shapedquartz]
 ]);
 

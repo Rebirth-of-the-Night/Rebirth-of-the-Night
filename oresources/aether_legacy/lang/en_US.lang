@@ -124,3 +124,12 @@ item.cloud_staff.name=§bCloud Scepter
 item.blue_berry.name=Blue Berry
 tile.berry_bush_stem.name=Blue Berry Bush Stem
 tile.berry_bush.name=Blue Berry Bush
+
+item.gummy_swet_blue.name=Precipitated Ambrosia
+item.gummy_swet_golden.name=Crustified Ambrosia
+item.healing_stone.name=Emancipated Ambrosia
+
+item.ambrosium_shard.name=Beaming Amber
+item.golden_amber.name=Beaming Resin
+
+tile.ambrosium_ore.name=Beaming Amber Ore

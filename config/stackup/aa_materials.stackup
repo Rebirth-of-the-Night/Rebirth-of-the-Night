@@ -18,6 +18,7 @@ id="quark:biotite" -> 256
 id="simpleores:onyx_gem" -> 256
 id="aether_legacy:zanite_gemstone" -> 256
 id="aether_legacy:ambrosium_shard" -> 256
+id="aether_legacy:golden_amber" -> 256
 id~="*:*_nugget" -> 256
 id="endreborn:item_raw_endorium" -> 256
 # raw ores
