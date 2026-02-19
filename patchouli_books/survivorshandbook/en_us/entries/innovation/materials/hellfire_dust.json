@@ -11,7 +11,7 @@
         },
         {
             "type": "text",
-            "text": "It can be used to make nether sludge, concentrated hellfire, $(l:innovation/materials/nether_coal)nether coal$(), and blasting oil when combined with other items in a $(l:innovation/burn/cauldron)cooking cauldron$(), to name a few uses.$(br2)Concentrated hellfire is used to make a $(l:innovation/burn/hibachi)hibachi$(), useful for stoking a cauldron or crucible.$(br2)Note: Do NOT heat with a stoked flame."
+            "text": "It can be used to make nether sludge, concentrated hellfire, $(l:innovation/materials/nether_coal)nether coal$(), and blasting oil when combined with other items in a $(l:innovation/burn/cauldron)cooking cauldron$(), to name a few uses.$(br2)Concentrated hellfire is used to make a $(l:innovation/burn/stoked_flame)hibachi$(), useful for stoking a cauldron or crucible.$(br2)Note: Do NOT heat with a stoked flame."
         },
         {
 			"type": "relations",

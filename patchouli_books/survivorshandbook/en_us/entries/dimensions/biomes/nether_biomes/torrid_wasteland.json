@@ -5,7 +5,7 @@
     "pages": [
     {
         "type": "text",
-        "text": "This place is so full of fantastical creatures that I can't help but be in awe of it.$(br)The world has many floating islands to explore, but I need to take care not to fall off.$(br)I've heard rumors that the Aether is quite dangerous in the darkness, and there are many foes and challenges waiting in temples high above the world."
+        "text": "Perhaps the most fitting appearance that the ignorant perceive $(l:dimensions/biomes/nether_biomes/hell)'hell'$() as. This is certainly a blazing inferno.$(br2)I've spotted the same minerals as hell, however, except for the presence of far more lava and even some basalt chutes poking from the lava seas."
       }
     ]
   }

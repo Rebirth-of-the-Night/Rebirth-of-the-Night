@@ -5,7 +5,22 @@
     "pages": [
     {
         "type": "text",
-        "text": "This place is so full of fantastical creatures that I can't help but be in awe of it.$(br)The world has many floating islands to explore, but I need to take care not to fall off.$(br)I've heard rumors that the Aether is quite dangerous in the darkness, and there are many foes and challenges waiting in temples high above the world."
-      }
-    ]
-  }
+        "text": "That is what I've heard it refered to as; the open caverns of the Nether.$(br)This place is no hell. There's no endless void or demons tormenting the souls of mortals. Just a vast expanse of red full of life and history. In times past, this place must have been denser, more lush. And the more I explore, the more it seems netherrack is just an extension of the pulsating"
+    },
+	{
+        "type": "text",
+        "text": "flesh found in the visceral heaps and the fiery rocks of the torrid wastelands. It is all interconnected.$(br)Netherrack caverns dotted with magma pockets form the majority of the landscape as far as the eye can see. Common fungi seem to find the climate appropriate, and ever burning fires clench to the rock unbothered, I suspect for months or even years."
+    },
+	{
+        "type": "text",
+        "text": "A unique variety of quartz is native to this 'hell,' and its denser crystals could have their own applications in pottery.$(br)The cincinnasite that is so ubiquitous in this place's architecture is as abundant in the rock as it is in the ruins and shrines all around."
+    },
+	{
+		"type": "relations",
+		"entries": [
+			"innovation/materials/nether_quartz",
+			"innovation/materials/cincinnasite"
+		]
+	}
+  ]
+}

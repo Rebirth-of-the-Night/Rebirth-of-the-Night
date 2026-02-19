@@ -2389,7 +2389,7 @@ recipes.remove(<quark:charred_nether_bricks>);
 recipes.remove(<netherchest:nether_chest>);
 recipes.addShaped("cincinnasite_forge", <betternether:cincinnasite_forge>,[
     [<contenttweaker:brick_minecraft_nether>, <betternether:cincinnasite_forged>, <contenttweaker:brick_minecraft_nether>],
-    [<betternether:cincinnasite_forged>, <minecraft:fire_charge>, <betternether:cincinnasite_forged>],
+    [<betternether:cincinnasite_forged>, <betterwithmods:material:17>, <betternether:cincinnasite_forged>],
     [<contenttweaker:brick_minecraft_nether>, <betternether:cincinnasite_forged>, <contenttweaker:brick_minecraft_nether>]
 ]);
 recipes.addShaped("cincinnasite_bricks", <betternether:cincinnasite_bricks>*4,[
