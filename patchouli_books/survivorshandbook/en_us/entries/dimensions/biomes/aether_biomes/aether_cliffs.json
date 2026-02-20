@@ -3,9 +3,34 @@
     "icon": "netherex:frostburn_ice",
     "category": "dimensions_aether_biomes",
     "pages": [
-    {
+	{
         "type": "text",
-        "text": "This place is so full of fantastical creatures that I can't help but be in awe of it.$(br)The world has many floating islands to explore, but I need to take care not to fall off.$(br)I've heard rumors that the Aether is quite dangerous in the darkness, and there are many foes and challenges waiting in temples high above the world."
-      }
-    ]
-  }
+        "text": "Jagged and cold lands, extremely so. And not just natural, there's flames here that cause immediate frostbite. Shouldn't blue fire be hotter? Well, it's not the first time I see fire behaving weirdly, but there is something else here...$(br)Regardless, there are some notable elements about; icestone, icicles, blue slate, and dread geodes"
+    },
+    {
+      "type": "spotlight",
+      "item": "aether_legacy:icestone",
+      "text": "This crystal is particularly cold to the touch, albeit not painfully so, and it doesn't seem to melt either. It could help me create ice."
+    },
+    {
+      "type": "spotlight",
+      "item": "iceandfire:dragon_ice_spikes",
+      "text": "These spikes are painful and extremely annoying to walk on. They don't melt either, they could work as cheap traps."
+    },
+    {
+      "type": "spotlight",
+      "item": "earthworks:block_slate",
+      "text": "Slate is not that uncommon. In fact, this is the only place where I've seen this hue of it. More fascinating is what seems to be coming out of it in some places:"
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:dread_cold_geode",
+      "text": "These fragile geodes appear to grow outwards through a cold fissure. The crystals are noteworthy."
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:dread_cold_cluster",
+      "text": "They shatter leaving behind a sprout of $(thing)dread slate shard$() teeming with energy. It feels both dangerous and soothing. Do I dare indulging in alchemical processes with it?"
+    }
+  ]
+}

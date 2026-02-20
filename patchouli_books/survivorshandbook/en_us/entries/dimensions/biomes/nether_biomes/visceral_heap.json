@@ -1,8 +1,8 @@
 {
-    "name": "Visceral Heap",
-    "icon": "biomesoplenty:flesh",
-    "category": "dimensions_nether_biomes",
-    "pages": [
+  "name": "Visceral Heap",
+  "icon": "biomesoplenty:flesh",
+  "category": "dimensions_nether_biomes",
+  "pages": [
     {
       "type": "text",
       "text": "I could quite literally smell this place from afar. Up to now, the things I have encountered in this hellish land have been horrifying, dangerous, mysterious and ancient, but this place is downright putrid.$(br2)The landscape here is made out of flesh, faintly moving and pulsing, and worst of all, warm. Large hunks of bone stick out of the meaty"
@@ -33,5 +33,5 @@
       "title": "Scabs",
       "text": "The residents of the Nether seem like they could care less about where they step; the scabbing and scarring here are proof of that. As gross as this place may be, that's gotta hurt."
     }
-    ]
-  }
+  ]
+}
