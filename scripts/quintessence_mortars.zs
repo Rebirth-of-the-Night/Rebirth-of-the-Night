@@ -225,7 +225,6 @@ mindQuintessenceB.add(
     <minecraft:written_book>,
     <aether_legacy:lore_book>,
     <animania:animania_manual>,
-    <patchouli:guide_book>,
     <dungeontactics:dungeonpedia_volume_8>,
     <dungeontactics:dungeonpedia_volume_7>,
     <dungeontactics:dungeonpedia_volume_6>,

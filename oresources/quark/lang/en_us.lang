@@ -506,6 +506,7 @@ tile.quark:polished_netherrack_bricks_slab.name=Netherwrought Stone Slab
 tile.quark:polished_netherrack_bricks_stairs.name=Netherwrought Stone Stairs
 tile.quark:polished_netherrack_bricks_wall.name=Netherwrought Stone Wall
 tile.quark:duskbound_block.name=Duskbound Block
+tile.oak_chest.name=Varnished Chest
 tile.quark:duskbound_block_slab.name=Duskbound Slab
 tile.quark:duskbound_block_stairs.name=Duskbound Stairs
 tile.quark:duskbound_block_wall.name=Duskbound Wall

@@ -9,8 +9,38 @@
 			"entries": [
 				{
 					"type": "item",
-					"weight": 5,
+					"weight": 4,
+					"quality": 2,
 					"name": "behgameon:accessory_32"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"quality": 10,
+					"name": "contenttweaker:xp_tome_mundane",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 4,
+								"max": 12
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 4,
+					"name": "contenttweaker:xp_tome_mundane",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
 				},
 				{
 					"type": "item",
@@ -26,7 +56,7 @@
 							"function": "set_count",
 							"count": {
 								"min": 1,
-								"max": 3
+								"max": 2
 							}
 						}
 					]

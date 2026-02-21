@@ -640,6 +640,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <rustic:tomato>.addTooltip(format.yellow("Summer"));
 <rustic:chili_pepper>.addTooltip("Fertile Seasons:");
 <rustic:chili_pepper>.addTooltip(format.yellow("Summer"));
+<betternether:nether_reed>.addTooltip("Can only be grown on lava-adjacent natural or mycelial netherrack.");
 
 // Wands
 <dungeontactics:magic_scroll>.removeTooltip("^Restoration( \\d+)?");

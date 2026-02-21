@@ -4,23 +4,48 @@
       "name": "main",
       "entries": [
         {
-          "entryName": "minecraft:diamond",
+          "entryName": "biomesoplenty:ruby",
+		  "name": "biomesoplenty:gem",
           "weight": 5,
-          "quality": 0,
+          "quality": 5,
           "type": "item",
           "functions": [
             {
+              "function": "minecraft:set_data",
+              "data": 1.0
+            },
+            {
+              "function": "minecraft:set_count",
               "count": {
                 "min": 1.0,
                 "max": 3.0
-              },
-              "function": "minecraft:set_count"
+              }
             }
-          ],
-          "name": "minecraft:diamond"
+          ]
+        },
+        {
+          "entryName": "jsonpaintings:mouth_of_knowledge",
+		  "name": "minecraft:painting",
+          "weight": 5,
+          "quality": 5,
+          "type": "item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"jsonpaintings:painting\": \"In the Mouth of Knowledge\"}"
+            }
+          ]
+        },
+        {
+          "entryName": "behgameon:ring_53",
+          "name": "behgameon:ring_53",
+          "weight": 5,
+          "quality": 15,
+          "type": "item"
         },
         {
           "entryName": "minecraft:iron_ingot",
+          "name": "minecraft:iron_ingot",
           "weight": 15,
           "quality": 0,
           "type": "item",
@@ -32,11 +57,11 @@
               },
               "function": "minecraft:set_count"
             }
-          ],
-          "name": "minecraft:iron_ingot"
+          ]
         },
         {
           "entryName": "minecraft:gold_ingot",
+          "name": "minecraft:gold_ingot",
           "weight": 15,
           "quality": 0,
           "type": "item",
@@ -48,11 +73,11 @@
               },
               "function": "minecraft:set_count"
             }
-          ],
-          "name": "minecraft:gold_ingot"
+          ]
         },
         {
           "entryName": "minecraft:emerald",
+          "name": "minecraft:emerald",
           "weight": 15,
           "quality": 0,
           "type": "item",
@@ -64,11 +89,11 @@
               },
               "function": "minecraft:set_count"
             }
-          ],
-          "name": "minecraft:emerald"
+          ]
         },
         {
           "entryName": "minecraft:bone",
+          "name": "minecraft:bone",
           "weight": 25,
           "quality": 0,
           "type": "item",
@@ -80,90 +105,78 @@
               },
               "function": "minecraft:set_count"
             }
-          ],
-          "name": "minecraft:bone"
+          ]
         },
         {
-          "entryName": "minecraft:spider_eye",
-          "weight": 25,
-          "quality": 0,
+          "entryName": "arcanearchives:quartz_sliver",
+          "name": "arcanearchives:quartz_sliver",
+          "weight": 15,
+          "quality": 2,
           "type": "item",
           "functions": [
             {
               "count": {
                 "min": 1.0,
-                "max": 3.0
+                "max": 6.0
               },
               "function": "minecraft:set_count"
             }
-          ],
-          "name": "minecraft:spider_eye"
+          ]
         },
         {
           "entryName": "minecraft:rotten_flesh",
+          "name": "minecraft:rotten_flesh",
           "weight": 25,
           "quality": 0,
           "type": "item",
           "functions": [
             {
+              "function": "minecraft:set_count",
               "count": {
                 "min": 3.0,
                 "max": 7.0
-              },
-              "function": "minecraft:set_count"
+              }
             }
-          ],
-          "name": "minecraft:rotten_flesh"
+          ]
         },
         {
-          "entryName": "minecraft:saddle",
+          "entryName": "lifescroll:spawnscroll",
+          "name": "lifescroll:spawnscroll",
           "weight": 20,
           "quality": 0,
-          "type": "item",
-          "name": "minecraft:saddle"
+          "type": "item"
         },
         {
           "entryName": "minecraft:iron_horse_armor",
+          "name": "minecraft:iron_horse_armor",
           "weight": 15,
           "quality": 0,
-          "type": "item",
-          "name": "minecraft:iron_horse_armor"
+          "type": "item"
         },
         {
           "entryName": "minecraft:golden_horse_armor",
+          "name": "minecraft:golden_horse_armor",
           "weight": 10,
           "quality": 0,
-          "type": "item",
-          "name": "minecraft:golden_horse_armor"
+          "type": "item"
         },
         {
           "entryName": "minecraft:diamond_horse_armor",
+          "name": "minecraft:diamond_horse_armor",
           "weight": 5,
           "quality": 0,
-          "type": "item",
-          "name": "minecraft:diamond_horse_armor"
-        },
-        {
-          "entryName": "minecraft:book",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
-          "name": "minecraft:book"
+          "type": "item"
         },
         {
           "entryName": "minecraft:golden_apple",
+          "name": "minecraft:golden_apple",
           "weight": 20,
           "quality": 0,
-          "type": "item",
-          "name": "minecraft:golden_apple"
+          "type": "item"
         },
         {
           "entryName": "minecraft:golden_apple#0",
+          "name": "minecraft:golden_apple",
           "weight": 2,
           "quality": 0,
           "type": "item",
@@ -172,8 +185,7 @@
               "data": 1.0,
               "function": "minecraft:set_data"
             }
-          ],
-          "name": "minecraft:golden_apple"
+          ]
         },
         {
           "entryName": "empty",
@@ -183,6 +195,7 @@
         },
         {
           "entryName": "quark:treasure_map",
+          "name": "minecraft:filled_map",
           "weight": 10,
           "quality": 2,
           "type": "item",
@@ -190,11 +203,11 @@
             {
               "function": "quark:set_treasure"
             }
-          ],
-          "name": "minecraft:filled_map"
+          ]
         },
         {
           "entryName": "quark:rune",
+          "name": "quark:rune",
           "weight": 15,
           "quality": 0,
           "type": "item",
@@ -206,136 +219,7 @@
               },
               "function": "minecraft:set_data"
             }
-          ],
-          "name": "quark:rune"
-        },
-        {
-          "entryName": "DT:HighStriker",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.0,
-                "max": 0.25
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "dungeontactics:high_striker"
-        },
-        {
-          "entryName": "DT:GnomeStick",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.0,
-                "max": 0.25
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "dungeontactics:gnome_stick"
-        },
-        {
-          "entryName": "DT:Wackerjab",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.0,
-                "max": 0.25
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "dungeontactics:wackerjab"
-        },
-        {
-          "entryName": "DT:Taser",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.0,
-                "max": 0.25
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "dungeontactics:taser"
-        },
-        {
-          "entryName": "DT:Claws",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.0,
-                "max": 0.25
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "dungeontactics:claws"
-        },
-        {
-          "entryName": "DT:LithenScythe",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.0,
-                "max": 0.25
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "dungeontactics:lithen_scythe"
-        },
-        {
-          "entryName": "DT:CoinCannon",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.0,
-                "max": 0.25
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "dungeontactics:coin_cannon"
-        },
-        {
-          "entryName": "DT:HotPotatoe",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.0,
-                "max": 0.25
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "dungeontactics:hot_potatoe"
+          ]
         }
       ],
       "rolls": {
@@ -344,10 +228,11 @@
       }
     },
     {
-      "name": "pool1",
+      "name": "trash",
       "entries": [
         {
           "entryName": "minecraft:bone",
+          "name": "minecraft:bone",
           "weight": 10,
           "quality": 0,
           "type": "item",
@@ -359,11 +244,11 @@
               },
               "function": "minecraft:set_count"
             }
-          ],
-          "name": "minecraft:bone"
+          ]
         },
         {
           "entryName": "minecraft:gunpowder",
+          "name": "minecraft:gunpowder",
           "weight": 10,
           "quality": 0,
           "type": "item",
@@ -375,11 +260,11 @@
               },
               "function": "minecraft:set_count"
             }
-          ],
-          "name": "minecraft:gunpowder"
+          ]
         },
         {
           "entryName": "minecraft:rotten_flesh",
+          "name": "minecraft:rotten_flesh",
           "weight": 10,
           "quality": 0,
           "type": "item",
@@ -391,11 +276,11 @@
               },
               "function": "minecraft:set_count"
             }
-          ],
-          "name": "minecraft:rotten_flesh"
+          ]
         },
         {
           "entryName": "minecraft:string",
+          "name": "minecraft:string",
           "weight": 10,
           "quality": 0,
           "type": "item",
@@ -407,11 +292,11 @@
               },
               "function": "minecraft:set_count"
             }
-          ],
-          "name": "minecraft:string"
+          ]
         },
         {
           "entryName": "minecraft:sand",
+          "name": "minecraft:sand",
           "weight": 10,
           "quality": 0,
           "type": "item",
@@ -423,49 +308,20 @@
               },
               "function": "minecraft:set_count"
             }
-          ],
-          "name": "minecraft:sand"
+          ]
         }
       ],
       "rolls": 4.0
-    },
-    {
-      "name": "endreborn_inject_pool",
-      "entries": [
-        {
-          "entryName": "endreborn_inject_entry",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "endreborn:inject/chests/desert_pyramid"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "desertPyramid",
-      "entries": [
-        {
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "name": "ambience:ocarina"
-        }
-      ],
-      "rolls": {
-        "min": 1.0,
-        "max": 3.0
-      }
     },
     {
       "name": "manuscript",
       "entries": [
         {
           "entryName": "iceandfire:manuscript",
+          "name": "iceandfire:manuscript",
           "weight": 20,
           "quality": 5,
-          "type": "item",
-          "name": "iceandfire:manuscript"
+          "type": "item"
         }
       ],
       "rolls": {
@@ -484,10 +340,10 @@
       "entries": [
         {
           "entryName": "behgameon_inject_entry",
+          "name": "behgameon:inject/desert_pyramid",
           "weight": 1,
           "quality": 0,
-          "type": "loot_table",
-          "name": "behgameon:inject/desert_pyramid"
+          "type": "loot_table"
         }
       ],
       "rolls": 1.0

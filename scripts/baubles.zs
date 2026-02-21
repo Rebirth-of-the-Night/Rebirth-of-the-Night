@@ -26,6 +26,9 @@ import mods.jei.JEI;
 <behgameon:accessory_32>.addTooltip(format.darkPurple("Slightly increases life and heart resilience. A blessing of Asaiosa."));
 <behgameon:accessory_32>.addTooltip(format.darkPurple("Effect can be strengthened by holding a Staff of Harmony."));
 
+<behgameon:ring_53>.addTooltip(format.darkPurple("Greatly decreases weight penalty, allowing to dodge with heavier armor."));
+<behgameon:ring_53>.addTooltip(format.darkPurple("Enchanted with the winds of the Mah'Y'yr desert on which Shushela dances."));
+
 /////////////////////////////////////////////////////
 
 
