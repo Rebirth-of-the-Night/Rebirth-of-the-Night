@@ -1,11 +1,20 @@
 {
-    "name": "Aether Highlands",
-    "icon": "aether_legacy:aether_grass",
-    "category": "dimensions_aether_biomes",
-    "pages": [
+  "name": "Aether Highlands",
+  "icon": "aether_legacy:aether_grass",
+  "category": "dimensions_aether_biomes",
+  "pages": [
     {
         "type": "text",
-        "text": "This place is so full of fantastical creatures that I can't help but be in awe of it.$(br)The world has many floating islands to explore, but I need to take care not to fall off.$(br)I've heard rumors that the Aether is quite dangerous in the darkness, and there are many foes and challenges waiting in temples high above the world."
-      }
-    ]
-  }
+        "text": "These hills are full of life. Several winged creatures, friendly and hostile, roam around. Large birds known as $(thing)moa$() are of note; perhaps if I find an egg I can tame one. "
+    },
+    {
+        "type": "text",
+        "text": "There is a variety of lush vegetation as well, $(thing)cloudsbluff$() and $(thing)koji mold$() are everywhere, as are unique flowers (some alive and quite nasty) and $(thing)skyroot trees$(). The berries are a good source of food while on the move.$(br)The exposed stone shows traces of zanite and crystalized beaming amber."
+    },
+    {
+      "type": "spotlight",
+      "item": "aether_legacy:ambrosium_shard",
+      "text": "A shiny gem which is a fundamental component of $(l:innovation/metallurgy/electrum)aetherial electrum$() and other useful things.$(br)From what I can gather, this is some sort of fossilized  resin from those golden trees, and I truly mean the 'gold' part. Perhaps there are some processing opportunities in here."
+    }
+  ]
+}
