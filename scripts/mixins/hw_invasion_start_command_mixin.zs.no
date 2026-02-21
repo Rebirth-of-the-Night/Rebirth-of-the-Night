@@ -2,14 +2,29 @@
 #modloaded hw_inv
 
 import native.net.minecraft.entity.player.EntityPlayer;
+import native.net.minecraft.world.IWorld;
 import mixin.CallbackInfo;
 
 #mixin {targets: "com.corosus.inv.InvasionManager"}
-zenClass MixinInvasionStart {
+zenClass MixinInvasionManager {
     #mixin Static
     #mixin Inject
     #{
-    #    method: "invasionStart",
+    #    method: "isInvasionTonight",
+    #    at: {
+    #        value: "HEAD"
+    #    },
+    #    cancellable: true
+    #}
+    function cancelInvasionEvent(world as World, player as EntityPlayer, cir as){
+
+    }
+
+
+    #mixin Static
+    #mixin Inject
+    #{
+    #    method: "invasionStopReset",
     #    at: {
     #        value: "HEAD"
     #    },
