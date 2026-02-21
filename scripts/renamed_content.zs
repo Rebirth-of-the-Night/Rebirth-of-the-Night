@@ -108,9 +108,6 @@ import mods.jei.JEI;
 <cyclicmagic:tool_prospector>.displayName = "Ore Prospector Rod";
 <cyclicmagic:tool_spelunker>.displayName = "Prospecting Set";
 
-// Mowzies Mobs
-<mowziesmobs:naga_fang>.displayName = "Skydrake Fang";
-
 // BOP
 <biomesoplenty:biome_essence>.displayName = "Light Essence";
 <biomesoplenty:biome_block>.displayName = "Light Essence Ore";

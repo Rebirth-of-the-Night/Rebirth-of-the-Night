@@ -22,21 +22,15 @@ JEI.removeAndHide(<extraalchemy:potion_ring>.withTag({Potion: "extraalchemy:magn
 
 JEI.removeAndHide(<extraalchemy:potion_ring>.withTag({Potion: "extraalchemy:magnetism_strong"}));
 
-recipes.remove(<extraalchemy:empty_ring>);
+JEI.removeAndHide(<extraalchemy:empty_ring>);
+
+JEI.removeAndHide(<extraalchemy:vial_break>);
+JEI.removeAndHide(<extraalchemy:empty_ring>);
+JEI.removeAndHide(<extraalchemy:modified_potion>);
+
 
 recipes.removeByRecipeName("extraalchemy:minecraft_strong_regeneration");
 recipes.removeByRecipeName("extraalchemy:minecraft_regeneration");
 
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:harming"}), <minecraft:speckled_melon>);
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:harming"}), <minecraft:gunpowder>);
-
-//Empty Potion Ring
-RecipeBuilder.get("mage")
-  .setShaped([
-    [<contenttweaker:vis_speck>],
-    [<minecraft:glass_bottle>],
-    [<ore:inertRing>]])
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .addOutput(<extraalchemy:empty_ring>)
-  .create();

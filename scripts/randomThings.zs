@@ -158,7 +158,7 @@ JEI.removeAndHide(<randomthings:waterwalkingboots>);
 JEI.removeAndHide(<randomthings:obsidianwaterwalkingboots>);
 LootTable.removeGlobalItem("randomthings:lavacharm");
 LootTable.removeGlobalItem("randomthings:waterwalkingboots");
-
+JEI.removeAndHide(<randomthings:potionvaporizer>);
 
 
 JEI.removeAndHide(<randomthings:customworkbench:*>);
@@ -186,14 +186,6 @@ JEI.removeAndHide(<randomthings:ingredient:13>);
 
 
 //// new recipes
-
-//vaporizer
-recipes.remove(<randomthings:potionvaporizer>);
-recipes.addShaped("potion_vaporizer", <randomthings:potionvaporizer>, [
-    [<ore:stone>, <cyclicmagic:fluid_pump>, <ore:stone>],
-    [<rustic:retort_advanced>, <pyrotech:igniter:1>, <rustic:retort_advanced>], 
-    [<dungeontactics:fan_block>, <minecraft:dispenser>, <dungeontactics:fan_block>]
-]);
 
 // contact blocks
 recipes.remove(<randomthings:contactlever>);

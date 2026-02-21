@@ -472,6 +472,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <aether_legacy:notch_hammer:*>.addTooltip("From the #1 princess in the world.");
 <mowziesmobs:wrought_axe:*>.removeTooltip("Never breaks");
 <mowziesmobs:wrought_axe:*>.addTooltip("Only damaged by dying");
+<mowziesmobs:naga_fang>.removeTooltip("Used to brew Potion of Poison Resistance or craft a Naga Fang Dagger");
 <minecraft:enchanting_table:*>.addTooltip("Only usable at night.");
 <minecraft:enchanting_table:*>.addTooltip("Untapped power lies within this table...");
 <eplus:advanced_table:*>.addTooltip("Requires placing an Enchanting Table Upgrade on a regular Enchanting Table.");
@@ -734,7 +735,6 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <astikorcarts:plowcart>.addTooltip("Right-click to lower its beams to ground level.");
 
 // BUGS
-#<aether_legacy:enchanted_blueberry:*>.addTooltip(format.red("DO NOT FEED TO HYPPOGRYPHS; CURRENTLY BUGGED AND UNTAMABLE."));
 <aether_legacy:valkyrie_lance>.addTooltip(format.red("BROKEN ITEM. Throw into water to fix"));
 <iceandfire:dragon_horn:*>.addTooltip(format.red("DO NOT USE ON YOUR DRAGONS, IT WILL DELETE THEM!"));
 /*
