@@ -2,6 +2,7 @@
   "name": "Aether Highlands",
   "icon": "aether_legacy:aether_grass",
   "category": "dimensions_aether_biomes",
+  "advancement": "triumph:advancements/progression/aether/enterAether",
   "pages": [
     {
         "type": "text",

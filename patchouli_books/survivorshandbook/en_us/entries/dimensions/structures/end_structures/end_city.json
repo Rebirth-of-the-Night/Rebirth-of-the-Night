@@ -2,6 +2,7 @@
     "name": "End City",
     "icon": "minecraft:end_bricks",
     "category": "dimensions_end_structures",
+    "advancement": "triumph:advancements/progression/end/placeholder",
     "pages": [
     {
         "type": "text",

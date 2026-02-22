@@ -2,6 +2,7 @@
     "name": "Ruined Portal",
     "icon": "minecraft:obsidian",
     "category": "dimensions_beneath_structures",
+    "advancement": "triumph:advancements/progression/beneath/placeholder",
     "pages": [
     {
         "type": "text",

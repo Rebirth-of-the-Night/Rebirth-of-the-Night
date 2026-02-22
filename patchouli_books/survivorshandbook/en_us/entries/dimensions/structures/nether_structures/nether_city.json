@@ -2,6 +2,7 @@
     "name": "Nether City",
     "icon": "betternether:cincinnasite_forged",
     "category": "dimensions_nether_structures",
+    "advancement": "triumph:advancements/progression/nether/enterNether",
     "pages": [
     {
         "type": "text",

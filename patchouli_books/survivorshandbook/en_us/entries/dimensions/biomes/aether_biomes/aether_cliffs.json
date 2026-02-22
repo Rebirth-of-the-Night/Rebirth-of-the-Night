@@ -2,6 +2,7 @@
     "name": "Aether Cliffs",
     "icon": "netherex:frostburn_ice",
     "category": "dimensions_aether_biomes",
+    "advancement": "triumph:advancements/progression/aether/enterAether",
     "pages": [
 	{
         "type": "text",

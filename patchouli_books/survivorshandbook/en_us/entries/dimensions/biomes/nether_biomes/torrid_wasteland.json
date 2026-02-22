@@ -2,6 +2,7 @@
     "name": "Torrid Wasteland",
     "icon": "netherex:fiery_netherrack",
     "category": "dimensions_nether_biomes",
+    "advancement": "triumph:advancements/progression/nether/enterNether",
     "pages": [
     {
         "type": "text",

@@ -2,6 +2,7 @@
     "name": "Hell",
     "icon": "minecraft:netherrack",
     "category": "dimensions_nether_biomes",
+    "advancement": "triumph:advancements/progression/nether/enterNether",
     "pages": [
     {
         "type": "text",

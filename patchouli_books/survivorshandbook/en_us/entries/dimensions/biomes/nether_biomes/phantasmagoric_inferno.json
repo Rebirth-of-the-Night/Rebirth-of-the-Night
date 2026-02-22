@@ -2,6 +2,7 @@
   "name": "Phantasmagoric Inferno",
   "icon": "biomesoplenty:ash_block",
   "category": "dimensions_nether_biomes",
+  "advancement": "triumph:advancements/progression/nether/enterNether",
   "pages": [
     {
       "type": "text",

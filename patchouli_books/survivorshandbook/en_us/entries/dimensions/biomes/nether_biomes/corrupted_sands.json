@@ -2,6 +2,7 @@
     "name": "Corrupted Sands",
     "icon": "minecraft:soul_sand",
     "category": "dimensions_nether_biomes",
+    "advancement": "triumph:advancements/progression/nether/enterNether",
     "pages": [
     {
         "type": "text",

@@ -2,6 +2,7 @@
     "name": "Placeholder",
     "icon": "contenttweaker:info",
     "category": "dimensions_twilight_forest_biomes",
+    "advancement": "triumph:advancements/progression/twilight/placeholder",
     "pages": [
     {
         "type": "text",
