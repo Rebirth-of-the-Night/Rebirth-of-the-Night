@@ -2,7 +2,7 @@
   "name": "Mounts/Rides",
   "icon": "minecraft:saddle",
   "category": "exploration",
-  "advancement": "triumph:advancements/WIP",
+  "advancement": "triumph:advancements/placeholder",
   "pages": [
   {
       "type": "text",
