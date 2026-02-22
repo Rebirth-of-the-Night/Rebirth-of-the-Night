@@ -591,7 +591,7 @@ RecipeBuilder.get("mage")
 
 RecipeBuilder.get("mage")
   .setShaped([
-    [<contenttweaker:vis_sliver>, <cyclicmagic:fluid_pipe>, <contenttweaker:vis_sliver>],
+    [<contenttweaker:vis_sliver>, <simplewoodenpipes:pipe> | <simplewoodenpipes:pipe>.withTag({BaseBlock: {id: "dungeontactics:steel_block", Count: 1}}), <contenttweaker:vis_sliver>],
     [<contenttweaker:magicked_lens>, <betterwithmods:material:3>, <contenttweaker:magicked_lens>],
     [<contenttweaker:vis_sliver>, <contenttweaker:waterlogged_sapphire>, <contenttweaker:vis_sliver>]])
   .addTool(<contenttweaker:water_rune>, 1)
