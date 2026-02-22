@@ -661,7 +661,7 @@
     "mob": "minecraft:enderman",
     "maxlight": 7,
 
-    "random": 0.05,
+    "random": 0.075,
     
     "result": "default"
  },
@@ -671,7 +671,7 @@
     "mob": "minecraft:zombie",
     "maxlight": 7,
 
-    "random": 0.05,
+    "random": 0.075,
     
     "result": "default"
  },
@@ -681,7 +681,7 @@
     "mob": "minecraft:creeper",
     "maxlight": 7,
 
-    "random": 0.05,
+    "random": 0.075,
     
     "result": "default"
  },
@@ -691,7 +691,7 @@
     "mob": "minecraft:skeleton",
     "maxlight": 7,
 
-    "random": 0.05,
+    "random": 0.075,
     
     "result": "default"
  },
@@ -701,7 +701,7 @@
     "mob": "minecraft:spider",
     "maxlight": 7,
 
-    "random": 0.05,
+    "random": 0.075,
     
     "result": "default"
  },
