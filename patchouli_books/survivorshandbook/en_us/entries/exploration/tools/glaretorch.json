@@ -2,6 +2,7 @@
     "name": "Glaretorch",
     "icon": "glaretorch:itemglaretorchlarge2",
     "category": "exploration_tools",
+    "advancement": "triumph:advancements/progression/nether/enternether",
     "pages": [
         {
             "type": "crafting",

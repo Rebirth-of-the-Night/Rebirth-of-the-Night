@@ -2,6 +2,7 @@
     "name": "Parachute",
     "icon": "aether_legacy:golden_parachute",
     "category": "exploration_tools",
+    "read_by_default": "true",
     "pages": [
         {
             "type": "spotlight",
