@@ -1,0 +1,6 @@
+{
+    "variants": {
+		"inventory": [{"model": "items/fern" }],
+        "normal": { "model": "fern" }
+    }
+}
