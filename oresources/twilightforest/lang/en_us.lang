@@ -630,6 +630,7 @@ entity.twilightforest.rising_zombie.name=Zombie
 entity.twilightforest.apocalypse_cube.name=Apocalypse Cube [NYI]
 entity.twilightforest.adherent.name=Adherent [NYI]
 entity.twilightforest.castle_guardian.name=Castle Guardian [NYI]
+entity.twilightforest.roving_cube.name=Voidic Lifeform
 
 twilightforest.effect.frosted=Frosted
 

@@ -1,0 +1,18 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made by Foreck with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "mapgadgets:blocks/tiny_spawner"
+	},
+	"elements": [
+		{
+			"from": [7.5, 0, 7.5],
+			"to": [8.5, 0, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"up": {"uv": [4, 4, 12, 12], "texture": "#particle"}
+			}
+		}
+	]
+}
