@@ -1,0 +1,7 @@
+{
+    "name": "Machinery",
+    "description": "Many types of machines can be used for processing various materials through grinding, pressing, splitting, etc.",
+    "icon": "betterwithmods:single_machine:0",
+    "sortnum": 2,
+    "parent": "innovation"
+}
