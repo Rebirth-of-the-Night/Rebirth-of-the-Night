@@ -2,7 +2,7 @@
   "name": "Stones & Strata",
   "icon": "minecraft:stone",
   "category": "environment",
-  "read_by_default": "false",
+  "read_by_default": "true",
   "pages": [
     {
       "type": "text",

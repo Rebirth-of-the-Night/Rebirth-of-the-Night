@@ -3,6 +3,7 @@
   "name": "Magicite",
   "icon": "quark:crystal:7",
   "category": "magic_leyoftheland",
+  "advancement": "triumph:advancements/placeholder",
   "read_by_default": "true",
   "pages": [
     {

@@ -2,6 +2,7 @@
   "name": "Placeholder",
   "icon": "contenttweaker:info",
   "category": "magic_sygaldry",
+  "advancement": "triumph:advancements/placeholder",
   "pages": [
     {
       "type": "text",

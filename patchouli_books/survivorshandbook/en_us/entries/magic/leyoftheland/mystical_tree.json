@@ -3,6 +3,7 @@
   "name": "Mystical Trees",
   "icon": "twilightforest:twilight_sapling:6",
   "category": "magic_leyoftheland",
+  "advancement": "triumph:advancements/placeholder",
   "read_by_default": "true",
   "pages": [
     {

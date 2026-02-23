@@ -2,7 +2,7 @@
     "name": "Bronze",
     "icon": "contenttweaker:material_part:0",
     "category": "innovation_metallurgy",
-    "advancement": "triumph:advancements/ores/copper",
+    "read_by_default": "true",
     "pages": [
         {
             "type": "spotlight",
