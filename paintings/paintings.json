@@ -222,7 +222,7 @@
         "motive": "Wanderer Above The Sea of Fog",
         "width": 4,
         "height": 6,
-		"isCreative": true
+		"isCreative": false
     },
 	{
         "motive": "Justice",
@@ -252,7 +252,25 @@
 		"isCreative": true
     },
 	{
+        "motive": "Might Guide Plight",
+        "width": 5,
+        "height": 3,
+		"isCreative": true
+    },
+	{
         "motive": "Artistic Depiction of Shadits",
+        "width": 5,
+        "height": 4,
+		"isCreative": false
+    },
+	{
+        "motive": "Gifts of Old",
+        "width": 5,
+        "height": 4,
+		"isCreative": true
+    },
+	{
+        "motive": "The Duel",
         "width": 5,
         "height": 4,
 		"isCreative": true
@@ -273,7 +291,7 @@
         "motive": "Emberia's Last Stand",
         "width": 6,
         "height": 4,
-		"isCreative": true
+		"isCreative": false
     },
 	{
         "motive": "Wroughtclad",
@@ -297,7 +315,7 @@
         "motive": "Umberia - Capital of Magic",
         "width": 7,
         "height": 5,
-		"isCreative": true
+		"isCreative": false
     },
 	{
         "motive": "The Nine Warriors",
@@ -966,7 +984,7 @@
 		"isCreative": false
     },
 	{
-        "motive": "Grand Barrier Densatio",
+        "motive": "Densatio of the Barrier",
         "width": 2,
         "height": 2,
 		"isCreative": false
@@ -1569,6 +1587,12 @@
 		"isCreative": false
     },
 	{
+        "motive": "After Hours",
+        "width": 5,
+        "height": 4,
+		"isCreative": false
+    },
+	{
         "motive": "Mortarid Countryside",
         "width": 6,
         "height": 3,
@@ -1602,7 +1626,13 @@
         "motive": "A Place for Retribution",
         "width": 8,
         "height": 4,
-		"isCreative": true
+		"isCreative": false
+    },
+	{
+        "motive": "Supporter - DoctorNutmeg",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
     },
 	{
         "motive": "Supporter - Blu Toon - a",
@@ -1620,7 +1650,7 @@
         "motive": "Supporter - Akkiruk",
         "width": 2,
         "height": 3,
-		"isCreative": false
+		"isCreative": true
     },
 	{
         "motive": "Supporter - Kate",
