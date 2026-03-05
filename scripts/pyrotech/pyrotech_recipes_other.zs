@@ -262,7 +262,6 @@ val vessel_ingot_bronze = <rotntweaker:smelting_vessel>.withTag({storedItems: [{
 //Primitive metal
 Campfire.addRecipe("vessel_bronze", vessel_ingot_bronze, vessel_source_bronze);
 
-Campfire.addRecipe("roasted_egg_a", <pyrotech:egg_roasted>, <minecraft:egg>);
 Campfire.addRecipe("traditional_marshmallow", <pyrotech:marshmallow_roasted>.withTag({}), <pyrotech:marshmallow>);
 Campfire.addRecipe("burned_marshmallow", <pyrotech:marshmallow_burned>, <pyrotech:marshmallow_roasted>.withTag({}));
 Campfire.addRecipe("roasted_egg_a", <pyrotech:egg_roasted>, <minecraft:egg>);
