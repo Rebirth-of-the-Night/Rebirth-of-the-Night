@@ -255,6 +255,14 @@ Campfire.blacklistSmeltingRecipes([<minecraft:rotten_flesh>]);
 Campfire.blacklistSmeltingRecipes([<netherex:ghast_meat_cooked>]);
 Campfire.blacklistSmeltingRecipes([<pyrotech:book>]);
 
+//vessel inputs/ouputs
+val vessel_source_bronze = <rotntweaker:smelting_vessel>.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 1, Damage: 21}, {id: "contenttweaker:material_part", Count: 3, Damage: 20}]});
+val vessel_ingot_bronze = <rotntweaker:smelting_vessel>.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 4, Damage: 0}]});
+
+//Primitive metal
+Campfire.addRecipe("vessel_bronze", vessel_ingot_bronze, vessel_source_bronze);
+
+Campfire.addRecipe("roasted_egg_a", <pyrotech:egg_roasted>, <minecraft:egg>);
 Campfire.addRecipe("traditional_marshmallow", <pyrotech:marshmallow_roasted>.withTag({}), <pyrotech:marshmallow>);
 Campfire.addRecipe("burned_marshmallow", <pyrotech:marshmallow_burned>, <pyrotech:marshmallow_roasted>.withTag({}));
 Campfire.addRecipe("roasted_egg_a", <pyrotech:egg_roasted>, <minecraft:egg>);

@@ -23,6 +23,10 @@ furnace.remove(<ceramics:clay_barrel:1>);
 furnace.remove(<ceramics:porcelain_barrel>);
 furnace.remove(<ceramics:porcelain_barrel_extension>);
 
+//vessel inputs/ouputs
+val vessel_source_bronze = <rotntweaker:smelting_vessel>.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 1, Damage: 21}, {id: "contenttweaker:material_part", Count: 3, Damage: 20}]});
+val vessel_ingot_bronze = <rotntweaker:smelting_vessel>.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 4, Damage: 0}]});
+
 //primary recipes
 //Template: BrickKiln.addRecipe("", ,100);
 PitKiln.addRecipe("bwm_pottery_a", <betterwithmods:cooking_pot>, <contenttweaker:crucible>, 20*210, true);
@@ -48,6 +52,8 @@ PitKiln.addRecipe("bwm¨_adobebrick", <earthworks:item_adobe>, <contenttweaker:u
 PitKiln.addRecipe("bwm_mudbrick", <biomesoplenty:mud_brick>, <contenttweaker:unfired_mud_brick>, 20*320, true);
 StoneKiln.addRecipe("bwm_refractorybrick", <pyrotech:material:5>, <contenttweaker:unfired_refractory_brick>, 20*320, true);
 StoneKiln.addRecipe("bwm_porcelainbrick", <ceramics:unfired_clay:5>, <contenttweaker:unfired_porcelain_brick>, 20*320, true);
+//Primitive metal
+PitKiln.addRecipe("vessel_bronze", vessel_ingot_bronze, vessel_source_bronze, 20*40, true);
 StoneKiln.addRecipe("bwm_cobble_to_stone", <minecraft:stone:0>, <minecraft:cobblestone:0>, 20*320, true);
 //PitKiln.addRecipe("bwmcobble_to_stone1", <minecraft:stone:1>, <betterwithmods:cobblestone:0>,20*320, true);
 //PitKiln.addRecipe("bwmcobble_to_stone2", <minecraft:stone:3>, <betterwithmods:cobblestone:1>, 20*320, true);
