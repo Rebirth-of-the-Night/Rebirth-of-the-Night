@@ -3785,5 +3785,7 @@ ExSartagine.addKettleRecipe([<growthcraft_cellar:yeast:1>],<growthcraft_hops:hop
 
 // magic powder
 ExSartagine.addKettleRecipe([<contenttweaker:magic_blend>], null, <liquid:lunar_water>*250, null, [<dungeontactics:magic_powder>], 1000);//liquid
+// bandage
+ExSartagine.addKettleRecipe([<ore:durableFiber>,<ore:durableFiber>,<ore:durableFiber>,<ore:durableFiber>,<ore:durableFiber>,<ore:durableFiber>], null, <liquid:water>*100, null, [<contenttweaker:bandage>], 1000);//liquid
 // methanol
 ExSartagine.addKettleRecipe([<pyrotech:rock:7>], waterBucket,<liquid:methanol>*1000, [null], 1000);//liquid

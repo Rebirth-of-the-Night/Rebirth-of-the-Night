@@ -68,6 +68,12 @@ rats.plague.1.desc=Health regeneration completely nullified.
 rats.plague.2.desc=Slow, painful symptoms set in. Was it this painful to them?
 rats.plague.3.desc=Lethal damage until death. Upon respawn, max health is reduced by 2 hearts until a healing stone is consumed. What does it mean to respawn?
 
+defiledlands.effect.vulnerability.0.desc=Increases all incoming damage by 20%%.
+defiledlands.effect.vulnerability.1.desc=Increases all incoming damage by 40%%.
+defiledlands.effect.vulnerability.2.desc=Increases all incoming damage by 60%%.
+defiledlands.effect.vulnerability.3.desc=Increases all incoming damage by 80%%.
+defiledlands.effect.vulnerability.4.desc=Increases all incoming damage by 100%%.
+
 bettercombat.effect.precision.0.desc=Increases critical hit chance by 10%%.
 bettercombat.effect.precision.1.desc=Increases critical hit chance by 20%%.
 bettercombat.effect.precision.2.desc=Increases critical hit chance by 30%%.

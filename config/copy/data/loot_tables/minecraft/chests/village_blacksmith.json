@@ -21,6 +21,13 @@
                     "weight": 3
                 },
                 {
+                  "entryName": "contenttweaker:suturing_kit",
+                  "weight": 5,
+                  "quality": 0,
+                  "type": "item",
+                  "name": "contenttweaker:suturing_kit"
+                },
+                {
                     "type": "item",
                     "name": "minecraft:iron_ingot",
                     "functions": [

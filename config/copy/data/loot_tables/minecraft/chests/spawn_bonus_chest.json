@@ -11,6 +11,13 @@
           "name": "minecraft:stone_axe"
         },
         {
+          "entryName": "contenttweaker:suturing_kit",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "contenttweaker:suturing_kit"
+        },
+        {
           "entryName": "biomesoplenty:pear",
           "weight": 4,
           "quality": 2,

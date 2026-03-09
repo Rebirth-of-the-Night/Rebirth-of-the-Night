@@ -38,6 +38,13 @@
           "name": "minecraft:iron_pickaxe"
         },
         {
+          "entryName": "contenttweaker:suturing_kit",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "contenttweaker:suturing_kit"
+        },
+        {
           "entryName": "empty",
           "weight": 5,
           "quality": 0,

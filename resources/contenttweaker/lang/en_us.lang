@@ -621,6 +621,15 @@ item.contenttweaker.xp_tome_mundane.name=Experience Scroll
 item.contenttweaker.xp_tome_arcane.name=Experience Codex
 
 item.contenttweaker.artificial_nature.name=Vial of Artificial Nature
+
+#------------------------------------------------------------------------------
+# Healing
+#------------------------------------------------------------------------------
+
+item.contenttweaker.bandage.name=Bandage
+item.contenttweaker.bandage_salve.name=Bandage With Salve
+item.contenttweaker.suturing_kit.name=Suturing Kit
+
 #------------------------------------------------------------------------------
 # Food
 #------------------------------------------------------------------------------

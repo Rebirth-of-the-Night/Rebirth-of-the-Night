@@ -30,6 +30,62 @@ var aetherdirtpile = VanillaFactory.createItem("aether_dirt_pile");
 aetherdirtpile.maxStackSize = 256;
 aetherdirtpile.register();
 
+var bandage = VanillaFactory.createItemFood("bandage", 0);
+bandage.saturation = 0.0;
+bandage.itemUseAction = "BOW";
+bandage.alwaysEdible = true;
+bandage.onItemFoodEaten = function(stack, world, player) {if (!world.isRemote()) {
+    player.heal(6);
+    var x as int = player.x as int;
+    var y as int = player.y as int;
+    var z as int = player.z as int;
+    var playername = player.name as string;
+    player.executeCommand("playsound minecraft:entity.llama.swag master @a ~ ~ ~");
+    server.commandManager.executeCommand(server, "execute "~playername~" "~x~" "~y~" "~z~" title @p actionbar \"+3 Hearts\" ");
+    server.commandManager.executeCommand(server, "particle heart ~ ~2.25 ~ 0 0 0 0 0 force @a");
+    server.commandManager.executeCommand(server, "effect @p potioncore:vulnerable 10 1");
+	player.setCooldown(stack, 180);
+}}; 
+bandage.register();
+
+var bandage_salve = VanillaFactory.createItemFood("bandage_salve", 0);
+bandage_salve.saturation = 0.0;
+bandage_salve.itemUseAction = "BOW";
+bandage_salve.alwaysEdible = true;
+bandage_salve.onItemFoodEaten = function(stack, world, player) {if (!world.isRemote()) {
+    player.heal(6);
+    var x as int = player.x as int;
+    var y as int = player.y as int;
+    var z as int = player.z as int;
+    var playername = player.name as string;
+    player.executeCommand("playsound minecraft:entity.llama.swag master @a ~ ~ ~");
+    server.commandManager.executeCommand(server, "execute "~playername~" "~x~" "~y~" "~z~" title @p actionbar \"+3 Hearts\" ");
+    server.commandManager.executeCommand(server, "particle heart ~ ~2.25 ~ 0 0 0 0 0 force @a");
+	server.commandManager.executeCommand(server, "effect @p minecraft:regeneration 8");
+    server.commandManager.executeCommand(server, "effect @p potioncore:vulnerable 10 1");
+	player.setCooldown(stack, 180);
+}}; 
+bandage_salve.register();
+
+var suturing_kit = VanillaFactory.createItemFood("suturing_kit", 0);
+suturing_kit.saturation = 0.0;
+suturing_kit.itemUseAction = "BOW";
+suturing_kit.alwaysEdible = true;
+suturing_kit.onItemFoodEaten = function(stack, world, player) {if (!world.isRemote()) {
+    player.heal(30);
+    var x as int = player.x as int;
+    var y as int = player.y as int;
+    var z as int = player.z as int;
+    var playername = player.name as string;
+    player.executeCommand("playsound minecraft:entity.llama.swag master @a ~ ~ ~");
+    server.commandManager.executeCommand(server, "execute "~playername~" "~x~" "~y~" "~z~" title @p actionbar \"+6 Hearts\" ");
+    server.commandManager.executeCommand(server, "particle heart ~ ~2.25 ~ 0 0 0 0 0 force @a");
+	server.commandManager.executeCommand(server, "effect @p minecraft:regeneration 21");
+    server.commandManager.executeCommand(server, "effect @p potioncore:vulnerable 30 2");
+	player.setCooldown(stack, 450);
+}}; 
+suturing_kit.register();
+
 // ancient cache
 var ancientcache = VanillaFactory.createItem("ancient_cache");
 

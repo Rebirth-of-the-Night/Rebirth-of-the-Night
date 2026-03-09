@@ -186,7 +186,7 @@ recipes.addShaped("rats_replanter_upgrade",<rats:rat_upgrade_replanter>,[
 
 recipes.addShaped("rats_juryrigged_upgrade",<rats:rat_upgrade_jury_rigged>,[
     [<simpleores:mythril_block>,<ore:glue>,<contenttweaker:block_electrum>],
-    [<rats:rat_upgrade_basic>,<scalinghealth:healingitem>,<rats:rat_upgrade_basic>],
+    [<rats:rat_upgrade_basic>,<contenttweaker:bandage>,<rats:rat_upgrade_basic>],
     [<betterwithmods:steel_block:0>,<ore:glue>,<betterwithmods:aesthetic:3>]
 ]);
 
