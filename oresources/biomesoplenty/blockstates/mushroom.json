@@ -1,0 +1,15 @@
+{
+    "variants": {
+        "variant=toadstool": { "model": "biomesoplenty:toadstool" },
+        "variant=portobello": { "model": "biomesoplenty:portobello" },
+        "variant=blue_milk_cap": { "model": "biomesoplenty:blue_milk_cap" },
+        "variant=glowshroom": [
+			{ "model": "biomesoplenty:glowshroom"},
+			{ "model": "biomesoplenty:glowshroom", "y": 90 },
+			{ "model": "biomesoplenty:glowshroom", "y": 180 },
+			{ "model": "biomesoplenty:glowshroom", "y": 270 }
+		],
+        "variant=flat_mushroom": { "model": "biomesoplenty:flat_mushroom" },
+        "variant=shadow_shroom": { "model": "biomesoplenty:shadow_shroom" }
+    }
+}
