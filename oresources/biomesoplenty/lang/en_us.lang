@@ -24,6 +24,8 @@ entity.wasp.name=Helwasp
 
 tile.honey_block.name=Honey Residue
 
+tile.mushroom.glowshroom.name=Wisp Veil
+
 tile.gem_block.amethyst_block.name=Block of Exorite
 tile.gem_ore.amethyst_ore.name=Exorite Ore
 tile.gem_block.malachite_block.name=Block of Benelyte
@@ -53,3 +55,5 @@ tile.log_3.mahogany_log.name=Mahogany Log
 tile.log_3.ebony_log.name=Ebony Log
 tile.log_3.eucalyptus_log.name=Eucalyptus Log
 tile.log_4.dead_log.name=Dead Log
+
+tile.crystal.name=Fossilized Glowstone

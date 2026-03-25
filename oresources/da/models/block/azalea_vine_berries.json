@@ -1,0 +1,6 @@
+{
+  "parent": "block/tinted_cross_inverted",
+  "textures": {
+    "cross": "da:blocks/azalea_vine_berries"
+  }
+}

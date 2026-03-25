@@ -1,0 +1,36 @@
+entity.flame_knight.name=The Herald
+entity.nether_pyre.name=Ancient Obelisk of the Schism
+entity.imperial_halberd.name=Val-Kaine Halberd
+entity.imperial_sword.name=Val-Kaine Sword
+entity.dark_assassin.name=Jwalamaska Assassin
+entity.shadow_hand.name=Cult's Hand
+entity.high_king_drake.name=Valk Queen
+entity.high_king.name=Valk Queen of the Val-Kaisis
+entity.dark_sorcerer.name=Erde Necromancer
+entity.dark_royal.name=Crypt Guard
+
+entity.aoe_tile.name=Strife Flame
+entity.flame_projectile.name=Strife Flame
+entity.light_ring_projectile.name=Gravitas
+
+entity.voidclysm.name=The Wither
+entity.voidclysm_bolt.name=Wither Bolt
+entity.void_bomb.name=Wither Bomb
+entity.voidclysm_spike.name=Wither Spike
+entity.void_projectile.name=Wither Tracking Magic
+entity.void_hole.name=Wither Void
+
+item.Strife_flame.name=Flame of Strife
+item.Strife_sword.name=Greatsword of Retribution
+item.projectile_flame.name=Strife Flame
+item.flame_helmet.name=Emberium Hero Helmet
+item.flame_chestplate.name=Emberium Hero Chestplate
+item.flame_leggings.name=Emberium Hero Leggings
+item.flame_boots.name=Emberium Hero Boots
+item.flame_metal_scrap.name=Emberium Hero Scrap
+
+tile.aza_vines.name=Verrybine
+tile.aza_vines_berries.name=Verrybine With Berries
+
+da.desc.flame_of_Strife=Unseals the Obelisk of the Schism.
+death.attack.da:maelstrom=%1$s succumbed became a sacrifice for the Flower God of Vorfurt.

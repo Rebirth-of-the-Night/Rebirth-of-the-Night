@@ -202,7 +202,7 @@
 			"distribution": "cave",
 			"generator": {
 				"type": "stalactite",
-				"block": "rotn_blocks:verribyne_0",
+				"block": "da:aza_vines",
 				"material": [
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",

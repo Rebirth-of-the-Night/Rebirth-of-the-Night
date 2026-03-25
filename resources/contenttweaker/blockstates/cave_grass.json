@@ -10,7 +10,10 @@
     "transform": "forge:default-block"
   },
   "variants": {
-    "normal": [{}],
+    "normal": [
+	  { "model": "contenttweaker:cave_grass0"},
+	  { "model": "contenttweaker:cave_grass1"}
+	],
     "inventory": [{
       "model": "contenttweaker:items/cave_grass",
       "textures": {

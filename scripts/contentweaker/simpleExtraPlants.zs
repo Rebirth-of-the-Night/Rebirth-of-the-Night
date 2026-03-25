@@ -87,14 +87,14 @@ cave_rafflesia.register();
 
 var cave_grass = VanillaFactory.createBlock("cave_grass", <blockmaterial:Grass>);
 cave_grass.axisAlignedBB = AxisAlignedBB.create(
-     4.0 / 16.0,
+     2.0 / 16.0,
      0.0 / 16.0,
-     4.0 / 16.0,
-	12.0 / 16.0,
-    10.0 / 16.0,
-    12.0 / 16.0
+     2.0 / 16.0,
+	14.0 / 16.0,
+    15.0 / 16.0,
+    14.0 / 16.0
 	);
-cave_grass.setBlockHardness(0.0);
+cave_grass.setBlockHardness(2.0);
 cave_grass.setBlockResistance(2.0);
 cave_grass.setFullBlock(false);
 cave_grass.setPassable(true);
@@ -107,14 +107,14 @@ cave_grass.register();
 
 var cave_bramble = VanillaFactory.createBlock("cave_bramble", <blockmaterial:Grass>);
 cave_bramble.axisAlignedBB = AxisAlignedBB.create(
-     5.0 / 16.0,
+     3.0 / 16.0,
      0.0 / 16.0,
-     5.0 / 16.0,
-	11.0 / 16.0,
-    2.0 / 16.0,
-    11.0 / 16.0
+     3.0 / 16.0,
+	13.0 / 16.0,
+    5.0 / 16.0,
+    13.0 / 16.0
 	);
-cave_bramble.setBlockHardness(0.0);
+cave_bramble.setBlockHardness(5.0);
 cave_bramble.setBlockResistance(2.0);
 cave_bramble.setFullBlock(false);
 cave_bramble.setPassable(true);

@@ -2,8 +2,8 @@
 	"format_version": "1.9.0",
 	"credit": "Made by Foreck with Blockbench",
 	"textures": {
-		"0": "biomesoplenty:blocks/glowshroom_block",
-		"particle": "biomesoplenty:blocks/glowshroom_block"
+		"0": "biomesoplenty:blocks/glowshroom_block1",
+		"particle": "biomesoplenty:blocks/glowshroom_block1"
 	},
 	"elements": [
 		{

@@ -93,7 +93,7 @@
     # verribynes.
     {
       type: stalactite
-      state: rotn_blocks:verribyne_0
+      state: da:aza_vines
       size: medium
       length: [ 1, 8 ]
       height: [ 11, 58 ]
