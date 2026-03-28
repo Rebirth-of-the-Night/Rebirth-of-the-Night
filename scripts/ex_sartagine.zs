@@ -3763,7 +3763,7 @@ for item in hiddenFoods {
 
 //Cook Top
 ExSartagine.addCooktopRecipe(patty, <harvestcraft:hamburgeritem>, 100);
-ExSartagine.addCooktopRecipe(patty, <dungeontactics:toast>, 500);
+ExSartagine.addCooktopRecipe(bread, <dungeontactics:toast>, 500);
 
 //Cutting Board
 ExSartagine.addCuttingBoardRecipe(potato, cuttingImplement, <contenttweaker:raw_fries>, 1);
@@ -3791,13 +3791,13 @@ ExSartagine.addCuttingBoardRecipe(<animania:sheep_cheese_wheel>, cuttingImplemen
 //ExSartagine.addCuttingBoardRecipe(<contenttweaker:dairy_free_cheese_wheel>, cookKit, <contenttweaker:dairy_free_cheese_slice>*8, 16);
 
 //Cutting recycling/harvesting (can only use knives or appropriate tools)
-//ExSartagine.addCuttingBoardRecipe(<minecraft:leather_helmet>, cuttingImplement, <betterwithmods:material:31>*4, 4);
+ExSartagine.addCuttingBoardRecipe(<minecraft:leather_helmet>, cuttingImplement, <betterwithmods:material:31>*4, 4);
 ExSartagine.addCuttingBoardRecipe(<minecraft:leather_helmet:*>, cuttingImplement, <betterwithmods:material:31>*2, 4);
-//ExSartagine.addCuttingBoardRecipe(<minecraft:leather_chestplate>, cuttingImplement, <betterwithmods:material:31>*7, 4);
+ExSartagine.addCuttingBoardRecipe(<minecraft:leather_chestplate>, cuttingImplement, <betterwithmods:material:31>*7, 4);
 ExSartagine.addCuttingBoardRecipe(<minecraft:leather_chestplate:*>, cuttingImplement, <betterwithmods:material:31>*4, 4);
-//ExSartagine.addCuttingBoardRecipe(<minecraft:leather_leggings>, cuttingImplement, <betterwithmods:material:31>*6, 4);
+ExSartagine.addCuttingBoardRecipe(<minecraft:leather_leggings>, cuttingImplement, <betterwithmods:material:31>*6, 4);
 ExSartagine.addCuttingBoardRecipe(<minecraft:leather_leggings:*>, cuttingImplement, <betterwithmods:material:31>*3, 4);
-//ExSartagine.addCuttingBoardRecipe(<minecraft:leather_boots>, cuttingImplement, <betterwithmods:material:31>*3, 4);
+ExSartagine.addCuttingBoardRecipe(<minecraft:leather_boots>, cuttingImplement, <betterwithmods:material:31>*3, 4);
 ExSartagine.addCuttingBoardRecipe(<minecraft:leather_boots:*>, cuttingImplement, <betterwithmods:material:31>*2, 4);
 
 //smelter

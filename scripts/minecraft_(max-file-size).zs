@@ -1662,8 +1662,8 @@ water.addItems([<pyrotech:bucket_wood>.withTag({fluids: {FluidName: "water", Amo
 val smallKnife = <ore:smallKnife>;
 smallKnife.addItems([<animania:carving_knife:*>,<spartanweaponry:dagger_iron:*>,<spartanweaponry:dagger_bronze:*>,<spartanweaponry:dagger_gold:*>,<spartanweaponry:dagger_silver:*>,<spartanweaponry:dagger_diamond:*>,<spartancompat:dagger_holystone:*>,<spartancompat:dagger_zanite:*>,<spartancompat:dagger_gravitite:*>,<spartancompat:dagger_adamantium:*>,<spartanfire:dagger_dragonbone:*>,<spartanfire:dagger_fire_dragonbone:*>,<spartanfire:dagger_ice_dragonbone:*>,<spartanfire:dagger_jungle:*>,<spartanfire:dagger_desert:*>,<spartanfire:dagger_jungle_venom:*>,<spartanfire:dagger_desert_venom:*>,<spartanfire:dagger_ice_dragonsteel:*>,<spartanfire:dagger_fire_dragonsteel:*>,<mod_lavacow:famine:*>,<iceandfire:stymphalian_bird_dagger:*>]);
 
-val cuttingImplement = <cuttingImplement>;
-cuttingImplement.addItems([<contenttweaker:cooking_kit>,<contenttweaker:cooking_kit_quality>,<contenttweaker:cooking_kit_elite>,<contenttweaker:cooking_kit_premium>,<contenttweaker:cooking_kit_master>])
+val cuttingImplement = <ore:cuttingImplement>;
+cuttingImplement.addItems([<contenttweaker:cooking_kit>,<contenttweaker:cooking_kit_quality>,<contenttweaker:cooking_kit_elite>,<contenttweaker:cooking_kit_premium>,<contenttweaker:cooking_kit_master>]);
 cuttingImplement.addAll(<ore:smallKnife>);
 
 val nitrogen = <ore:mulchNitrogen>;
