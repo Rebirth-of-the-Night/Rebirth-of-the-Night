@@ -661,6 +661,9 @@ HeatRegistry.addHeatSource([
     <blockstate:contenttweaker:fire_block>
 ], <contenttweaker:fire_block>, 1);
 
+HeatRegistry.addHeatSource(<blockstate:exalembico:heater:heat=3>, 2);
+HeatRegistry.addHeatSource(<blockstate:exalembico:heater:heat=4>, 2);
+
 // Pulley blocks
 // PulleyManager.addPulleyBlock(blockState);
 var pulleyBlocks as IBlockState[] = [

@@ -28,6 +28,8 @@ item.flame_chestplate.name=Emberium Hero Chestplate
 item.flame_leggings.name=Emberium Hero Leggings
 item.flame_boots.name=Emberium Hero Boots
 item.flame_metal_scrap.name=Emberium Hero Scrap
+item.knight_shard.name=Garsen Shard
+item.knight_ingot.name=Garsen Ingot
 
 tile.aza_vines.name=Verrybine
 tile.aza_vines_berries.name=Verrybine With Berries

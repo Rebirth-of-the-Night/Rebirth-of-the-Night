@@ -468,12 +468,6 @@ ExSartagine.addKettleRecipe([<quark:arrow_ender>,<minecraft:glass_bottle>],null,
 //Lavender Porridge
 ExSartagine.addKettleRecipe([<rustic:ginseng>,<biomesoplenty:flower_1>], <minecraft:bowl>, waterBottle2, [<betterwithmods:chicken_soup>], 300);
 
-//Concentrated Bioflow
-ExSartagine.addKettleRecipe([<contenttweaker:raw_viridium>],null,null,<liquid:concentrated_bioflow>*250,[null],200);
-
-//Dread Cold
-ExSartagine.addKettleRecipe([<contenttweaker:raw_dread_slate>],null,null,<liquid:dread_cold>*250,[null],200);
-
 //Remove vanilla pastry recipes
 recipes.removeByRecipeName("harvestcraft:minecraft_pumpkinpie");
 recipes.removeByRecipeName("harvestcraft:minecraft_cookie");

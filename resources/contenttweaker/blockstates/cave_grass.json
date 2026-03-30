@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/cave_grass",
-      "particle": "contenttweaker:blocks/cave_grass"
+      "texture": "contenttweaker:blocks/cave_grass0",
+      "particle": "contenttweaker:blocks/cave_grass0"
     },
     "model": "contenttweaker:cave_grass",
     "uvlock": true,

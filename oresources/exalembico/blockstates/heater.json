@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "exalembico:heater0"
+  },
+  "variants": {
+    "heat": {
+      "0": {"model": "exalembico:heater0"},
+      "1": {"model": "exalembico:heater1"},
+      "2": {"model": "exalembico:heater2"},
+      "3": {"model": "exalembico:heater3"},
+      "4": {"model": "exalembico:heater4"},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {},
+      "9": {},
+      "10": {},
+      "11": {},
+      "12": {},
+      "13": {},
+      "14": {},
+      "15": {}
+    }
+  }
+}
