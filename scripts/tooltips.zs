@@ -592,6 +592,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <contenttweaker:steel_artifact:*>.addTooltip("Can be used to craft flint & steel");
 <contenttweaker:steel_artifact>.addShiftTooltip('Relic of the olden days. Rarely drops from "older" undead.', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <vials:vial_288>.addShiftTooltip("Pick those annoying drops of 1 mb liquid off your machines and into a tank.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<vials:vial_432>.addShiftTooltip("This bottle was designated for scooping measures of 250 mb.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<vials:vial_576>.addShiftTooltip("Two measuring bottles used together to hold 250 mb of liquid.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <minecraft:chest>.addShiftTooltip("An old looking chest. It's been varnished to withstand the passage of time.");
 <contenttweaker:ground_fiery_netherrack:*>.addTooltip("Turns into sludge if it touches water.");
 <betterwithmods:material:15>.addTooltip(format.red("It might be smart to study this in the guide before throwing a bunch of them into the evil sand."));

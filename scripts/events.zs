@@ -320,7 +320,8 @@ events.onEntityLivingDeath(function(event as crafttweaker.event.EntityLivingDeat
 			"quark:wraith" : 1,
 			"twilightforest:wraith" : 1,
 			"mod_lavacow:banshee" : 1,
-			"mod_lavacow:avaton" : 1
+			"mod_lavacow:avaton" : 1,
+			"da:reanimate" : 1
 		} as int[string];
 
 		// Strong spirit spawning

@@ -2678,6 +2678,25 @@
     "result": "deny"
  },
 
+// Dungeon Additions [Generic]
+  {
+    "dimension": 0,
+    "mob": "da:reanimate",
+	"biome": "Arid Desert",
+	"maxlight": 6,
+	"seesky": true,
+	"speedmultiply": 3.80,
+	"maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+  },
+  {
+    "dimension": 0,
+    "mob": "da:reanimate",
+    "result": "deny"
+  },
 /////// KILLED SUN SPIRIT
 
 {
@@ -3026,7 +3045,6 @@
 	"result": "default",
 	"nbt": {"DeathLootTable": "rotn:bap_badger"}
 	},
-
 
 ///////Beast Slayer
    {

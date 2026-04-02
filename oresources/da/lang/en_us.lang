@@ -13,6 +13,17 @@ entity.aoe_tile.name=Strife Flame
 entity.flame_projectile.name=Strife Flame
 entity.light_ring_projectile.name=Gravitas
 
+entity.reanimate.name=Húng Order Revenant
+entity.apathyr.name=The Apathyr
+entity.apathyr_ghost.name=Ghost Apathyr
+entity.ultra_attack.name=Apathyr Crystal Domain
+entity.crystal_wave.name=Gaelon Crystal Wave
+entity.apathyr_speear.name=Apathyr Spear
+entity.apathyr_eye.name=Apathyr's Eye
+entity.cursed_revenant.name=Friendly Cursed Revenant
+entity.cursed_sentinel.name=Cursed Sentinel
+entity.cursed_sentinel_friendly.name=Cursed Golem
+
 entity.voidclysm.name=The Wither
 entity.voidclysm_bolt.name=Wither Bolt
 entity.void_bomb.name=Wither Bomb
@@ -30,6 +41,14 @@ item.flame_boots.name=Emberium Hero Boots
 item.flame_metal_scrap.name=Emberium Hero Scrap
 item.knight_shard.name=Garsen Shard
 item.knight_ingot.name=Garsen Ingot
+item.novik_plate.name=Novik Metal Plate
+item.novik_helmet.name=Novik Helmet
+item.novik_chestplate.name=Novik Chestplate
+item.novik_leggings.name=Novik Leggings
+item.novik_boots.name=Novik Boots
+item.novik_sword.name=Discordant Ruby Sword
+
+item.crystal_trinket.name=Hùng Carved Lustrian
 
 tile.aza_vines.name=Verrybine
 tile.aza_vines_berries.name=Verrybine With Berries

@@ -1,0 +1,42 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made by Foreck with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "da:items/novik_sword"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, 13.25, -0.5],
+			"scale": [1.7, 1.7, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [35, -90, 0],
+			"translation": [0, 13.25, -0.5],
+			"scale": [1.7, 1.7, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [1.13, 7.7, 1.13],
+			"scale": [1.35, 1.35, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [30, -90, 0],
+			"translation": [1.13, 7.7, 1.13],
+			"scale": [1.35, 1.35, 0.68]
+		},
+		"ground": {
+			"translation": [0, 8, 0],
+			"scale": [2, 2, 1]
+		},
+		"gui": {
+			"translation": [4.5, 4.5, 0],
+			"scale": [1.5, 1.5, 1]
+		},
+		"fixed": {
+			"translation": [5.5, 5.25, 0],
+			"scale": [1.8, 1.8, 1]
+		}
+	}
+}

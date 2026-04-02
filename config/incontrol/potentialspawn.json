@@ -97,7 +97,7 @@
     ]
   },
   
-   {
+  {
     "dimension": [0,10],
     "mobs": [
       {
@@ -160,7 +160,7 @@
     ]
   },
 
- {
+  {
     "dimension": 10,
     "mobs": [
       {
@@ -172,7 +172,7 @@
     ]
   },
 
- {
+  {
     "dimension": 0,
     "mobs": [
       {
@@ -195,7 +195,7 @@
     ]
   },
   
-   {
+  {
     "dimension": 10,
     "mobs": [
       {
@@ -207,7 +207,7 @@
     ]
   },
   
-    {
+  {
     "dimension": 10,
     "mobs": [
       {
@@ -220,7 +220,7 @@
   },
 
 //lantern
-    {
+  {
     "dimension": 10,
     "mobs": [
       {
@@ -233,7 +233,7 @@
   },
   
  //grottol
-    {
+  {
     "dimension": 10,
     "mobs": [
       {
@@ -478,7 +478,7 @@
     ]
   },
   
-   {
+  {
     "dimension": -1,
     "mobs": [
       {
@@ -490,7 +490,7 @@
     ]
   },
 
-   {
+  {
     "dimension": 4,
     "mobs": [
       {
@@ -502,7 +502,7 @@
     ]
   },
 
-   {
+  {
     "dimension": -1,
     "mobs": [
       {
@@ -514,7 +514,7 @@
     ]
   },
 
-   {
+  {
     "dimension": -1,
     "mobs": [
       {
@@ -527,7 +527,7 @@
   },
 
 // magma slimes
-   {
+  {
     "dimension": -1,
     "mobs": [
       {
@@ -539,7 +539,7 @@
     ]
   },
 
-   {
+  {
     "dimension": [-1,10],
     "mobs": [
       {
@@ -552,7 +552,7 @@
   },
 
 
-   {
+  {
     "dimension": -1,
     "mobs": [
       {
@@ -565,7 +565,7 @@
   },
 
 // ghast
-   {
+  {
     "dimension": -1,
     "mobs": [
       {
@@ -577,7 +577,7 @@
     ]
   },
   
-    {
+  {
     "dimension": -1,
     "mobs": [
       {
@@ -589,7 +589,7 @@
     ]
   },
   
-     {
+  {
     "dimension": 10,
     "mobs": [
       {
@@ -1209,7 +1209,7 @@
   },
   
   // removed from TF
-    {
+  {
     "dimension": [0],
     "mobs": [
       {
@@ -1221,7 +1221,7 @@
     ]
   },
   
-    {
+  {
     "dimension": [0,10],
     "mobs": [
       {
@@ -1233,7 +1233,7 @@
     ]
   },
   
-   {
+  {
     "dimension": [0,10],
     "mobs": [
       {
@@ -1258,7 +1258,7 @@
   },
 
 //silverfish
-    {
+  {
     "dimension": [0,10],
     "mobs": [
       {
@@ -1319,7 +1319,7 @@
     ]
   },
   
-   {
+  {
     "dimension": [0,10],
     "mobs": [
       {
@@ -1332,7 +1332,7 @@
   },
   
 // skydrake
- {
+  {
     "dimension": 4,
     "mobs": [
       {
@@ -1344,9 +1344,21 @@
     ]
   },
   
+// Dungeon Additions [Generic]
+  {
+    "dimension": [0],
+    "mobs": [
+      {
+        "mob": "da:reanimate",
+        "weight": 1,
+        "groupcountmin": 2,
+        "groupcountmax": 2
+      }
+    ]
+  },
  
 // KILLED SUN SPIRIT
- {
+  {
     "dimension": 4,
     "mobs": [
       {
@@ -1358,7 +1370,7 @@
     ]
   },
 
- {
+  {
     "dimension": 0,
     "mobs": [
       {
@@ -1370,7 +1382,7 @@
     ]
   },
 
- {
+  {
     "dimension": 0,
     "mobs": [
       {
@@ -1382,7 +1394,7 @@
     ]
   },
 
-{
+  {
     "dimension": 0,
     "mobs": [
       {
@@ -1394,7 +1406,7 @@
     ]
   },
   
- {
+  {
     "dimension": 0,
     "mobs": [
       {
@@ -1406,7 +1418,7 @@
     ]
   },
   
- {
+  {
     "dimension": 0,
     "mobs": [
       {
@@ -1418,7 +1430,7 @@
     ]
   },
 
- {
+  {
     "dimension": 0,
     "mobs": [
       {
@@ -1430,7 +1442,7 @@
     ]
   },
 
- {
+  {
     "dimension": 4,
     "mobs": [
       {
@@ -1515,7 +1527,7 @@
     ]
   },  
   
-    {
+  {
     "dimension": 0,
     "mobs": [
       {
@@ -1527,7 +1539,7 @@
     ]
   },
   
-     {
+  {
     "dimension": 0,
     "mobs": [
       {
@@ -1539,7 +1551,7 @@
     ]
   },
   
-    {
+  {
     "dimension": [0,10],
     "mobs": [
       {
@@ -1551,7 +1563,7 @@
     ]
   },
   
-    {
+  {
     "dimension": 0,
     "mobs": [
       {
@@ -1587,7 +1599,7 @@
     ]
   },  
 // rats
- {
+  {
     "dimension": 0,
     "mobs": [
       {
@@ -1659,7 +1671,7 @@
     ]
   },
  
-   {
+  {
     "dimension": 4,
     "mobs": [
       {
@@ -1671,7 +1683,7 @@
     ]
   },
  
-    {
+  {
     "dimension": 4,
     "mobs": [
       {
@@ -1683,7 +1695,7 @@
     ]
   },
  
-    {
+  {
     "dimension": 4,
     "mobs": [
       {
@@ -1695,7 +1707,7 @@
     ]
   },
 
-   {
+  {
     "dimension": 4,
     "mobs": [
       {
@@ -1721,7 +1733,7 @@
   },
  
  
-   {
+  {
     "dimension": 0,
     "mobs": [
       {
@@ -1732,7 +1744,7 @@
       }
     ]
   },
-   {
+  {
     "dimension": 0,
     "mobs": [
       {
