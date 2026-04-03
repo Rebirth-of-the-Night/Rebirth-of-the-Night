@@ -97,10 +97,10 @@ ExAlembico.registerHeatSourceBlock(<blockstate:exsartagine:hearth:facing=north,h
 ExAlembico.registerHeatSourceBlock(<blockstate:exsartagine:hearth:facing=east,heated=true>, 1);
 ExAlembico.registerHeatSourceBlock(<blockstate:exsartagine:hearth:facing=west,heated=true>, 1);
 ExAlembico.registerHeatSourceBlock(<blockstate:exsartagine:hearth:facing=south,heated=true>, 1);
-ExAlembico.registerHeatSourceBlock(<blockstate:exsartagine:hearth:facing=north,heated=true>, 2);
-ExAlembico.registerHeatSourceBlock(<blockstate:exsartagine:hearth:facing=east,heated=true>, 2);
-ExAlembico.registerHeatSourceBlock(<blockstate:exsartagine:hearth:facing=west,heated=true>, 2);
-ExAlembico.registerHeatSourceBlock(<blockstate:exsartagine:hearth:facing=south,heated=true>, 2);
+ExAlembico.registerHeatSourceBlock(<blockstate:exsartagine:hearth:facing=north,heated=false>, 0);
+ExAlembico.registerHeatSourceBlock(<blockstate:exsartagine:hearth:facing=east,heated=false>, 0);
+ExAlembico.registerHeatSourceBlock(<blockstate:exsartagine:hearth:facing=west,heated=false>, 0);
+ExAlembico.registerHeatSourceBlock(<blockstate:exsartagine:hearth:facing=south,heated=false>, 0);
 
 Heater.addHeaterRecipe(<minecraft:coal>, 1600, 1, 2); //coal, most basic for alchemy
 Heater.addHeaterRecipe(<minecraft:coal_block>, 16000, 1, 2); //coal, most basic for alchemy

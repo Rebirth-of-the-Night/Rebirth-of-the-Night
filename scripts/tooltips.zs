@@ -539,13 +539,18 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <futuremc:smoker>.addShiftTooltip(format.gold("Fuel Capacity:") + format.yellow(" full stack; 1 at a time."));
 <futuremc:smoker>.addShiftTooltip(format.gold("Fuel Modifier:") + format.yellow(" 100%; 2x cooking speed"));
 
+<exalembico:heater>.addTooltip("Ultimate control for heat-powered appliances. Courtesy of the Val-Kaine.");
+<exalembico:heater>.addShiftTooltip("Can be turned on and off. Different fuels provide different accessible heat levels. Supports alembics, woks, pots, bake kettles, stoked crucibles, and melting crucibles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exalembico:alembic>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" VALKEN HEATER, STOVE, HEARTH"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:wok>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:pot>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:kettle>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:range:*>.addTooltip("Efficiently heats cooking appliances for fuel.");
 <exsartagine:range:*>.addShiftTooltip("Supports up to three total Stove Extensions on either side, offering four surfaces on which to place woks, pots and bake kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<exsartagine:hearth:*>.addTooltip("Heats cooking appliances for fuel. Requires ignition");
+<exsartagine:range:*>.addShiftTooltip("Acts as heat level 2 for alembics.");
+<exsartagine:hearth:*>.addTooltip("Heats cooking appliances for fuel. Requires ignition.");
 <exsartagine:hearth:*>.addShiftTooltip("Supports one Hearth Extension to its side, offering two total surfaces on which to place woks, pots and bake kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:hearth:*>.addShiftTooltip("Acts as heat level 2 for alembics.");
 <exsartagine:range_extended>.addTooltip("An extension for the Stove. Up to three can be added to either side of a Stove. Can only be placed next to Stoves.");
 <exsartagine:hearth_extended>.addTooltip("An extension for the Hearth. Only one can be added to the side of a Hearth. Can only be placed next to Hearths.");
 
@@ -591,9 +596,9 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <exsartagine:yeast:*>.addTooltip("Can be used as Brewer's Yeast.");
 <contenttweaker:steel_artifact:*>.addTooltip("Can be used to craft flint & steel");
 <contenttweaker:steel_artifact>.addShiftTooltip('Relic of the olden days. Rarely drops from "older" undead.', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<vials:vial_288>.addShiftTooltip("Pick those annoying drops of 1 mb liquid off your machines and into a tank.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<vials:vial_432>.addShiftTooltip("This bottle was designated for scooping measures of 250 mb.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<vials:vial_576>.addShiftTooltip("Two measuring bottles used together to hold 250 mb of liquid.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<vials:vial_288>.addShiftTooltip("Pick those annoying drops of 1 mb liquid off your machines and into a tank. Stacks up to 100, including filled.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<vials:vial_432>.addShiftTooltip("This bottle was designated for scooping measures of 250 mb. Stacks up to 4, including filled.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<vials:vial_576>.addShiftTooltip("Two measuring bottles used together to hold 250 mb of liquid. Stacks up to 2, including filled.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <minecraft:chest>.addShiftTooltip("An old looking chest. It's been varnished to withstand the passage of time.");
 <contenttweaker:ground_fiery_netherrack:*>.addTooltip("Turns into sludge if it touches water.");
 <betterwithmods:material:15>.addTooltip(format.red("It might be smart to study this in the guide before throwing a bunch of them into the evil sand."));

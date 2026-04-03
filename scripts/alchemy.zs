@@ -73,11 +73,14 @@ var vis = <contenttweaker:vis_shard>;
 var allium = <minecraft:red_flower:2>;
 var firetears = <twilightforest:fiery_tears>;
 var firedcin = <contenttweaker:flashfired_cincinnasite>;
+var sunflower = <minecraft:double_plant>;
+var hempseeds = <betterwithmods:hemp>;
 
 
 //Define liquids
 var hotspring = <liquid:hot_spring_water>;
 var lunarwater = <liquid:lunar_water>;
+var woodalcohol = <liquid:methanol>;
 var blood = <liquid:blood>;
 var spiritfire = <liquid:unstable_spiritfire>;
 var poison = <liquid:poison>;
@@ -211,6 +214,7 @@ val forcefulElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple 
 val fireresElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple Fire Resistance Elixir"},ElixirEffects:[{Effect: "minecraft:fire_resistance", Duration: 9600, Amplifier: 3}]});
 val healthElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Metabolic Whey"},ElixirEffects:[{Effect: "minecraft:regeneration", Duration: 160, Amplifier: 2},{Effect: "minecraft:hunger", Duration: 160, Amplifier: 29},{Effect: "minecraft:nausea", Duration: 160, Amplifier: 0}]});
 val hasteElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple Haste Elixir"},ElixirEffects:[{Effect: "minecraft:haste", Duration: 9600, Amplifier: 1}]});
+val sunfeedElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple Sunfeed Elixir"},ElixirEffects:[{Effect: "extraalchemy:effect.photosynthesis", Duration: 1000, Amplifier: 0}]});
 
 val masteryElixirNether = <rustic:elixir>.withTag({display:{LocName:"Simple Mastery Elixir"},ElixirEffects:[{Effect: "dpt:mastery", Duration: 9600, Amplifier: 1}]});
 val healthElixirNether = <rustic:elixir>.withTag({display:{LocName:"Simple Healing Elixir"},ElixirEffects:[{Effect: "minecraft:instant_health", Amplifier: 4}]});
@@ -247,7 +251,7 @@ val flightElixirTF = <rustic:elixir>.withTag({display:{LocName:"Air Master's Eli
 /////CRAFTABLE IN OVERWORLD\\\\\
 Condenser.addRecipe(speedElixirOverworld, [thistle, fasthaw]);
 Condenser.addRecipe(magnetismElixirOverworld, [ironBerry, genericNugg]);
-Condenser.addRecipe(bouncyElixirOverworld, [slime, mallow]);
+Condenser.addRecipe(bouncyElixirOverworld, [slime, mallow], null, bottle, woodalcohol * 125);
 Condenser.addRecipe(healthElixirOverworld, [ginseng, stomach]);
 Condenser.addRecipe(luckElixirOverworld, [fourclover, goldNugg], null, bottle, hotspring * 125);
 Condenser.addRecipe(featherElixirOverworld, [cloudsbluff, cloudgold], null, bottle, lunarwater * 125);
@@ -256,6 +260,7 @@ Condenser.addRecipe(strengthElixirOverworld, [core, spirits], null, bottle, luna
 Condenser.addRecipe(forcefulElixirOverworld, [core, jumphaw], null, bottle, lunarwater * 125);
 Condenser.addRecipe(fireresElixirOverworld, [aloe, scab], null, bottle, lunarwater * 125);
 Condenser.addRecipe(hasteElixirOverworld, [cohosh, redstone], null, bottle, lunarwater * 125);
+Condenser.addRecipe(sunfeedElixirOverworld, [sunflower, hempseeds], null, bottle, woodalcohol * 125);
 
 /////CRAFTABLE POST-NETHER\\\\\
 Condenser.addRecipe(healthElixirNether, [tear, tarblock], null, bottle, lunarwater * 1000);

@@ -181,6 +181,9 @@ id="pyrotech:marshmallow" -> 256
 id="pyrotech:marshmallow_roasted" -> 256
 id="betterwithmods:dirt_pile" -> 256
 # potions & liquids & etc
+id="vials:vial_288" -> 100
+id="vials:vial_432" -> 4
+id="vials:vial_576" -> 2
 id="dynamictrees:dendropotion" -> 8
 id="dynamictrees:dendropotion:1" -> 8
 id="dynamictrees:dendropotion:2" -> 8
