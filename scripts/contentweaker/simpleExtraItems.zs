@@ -44,6 +44,7 @@ bandage.onItemFoodEaten = function(stack, world, player) {if (!world.isRemote())
     server.commandManager.executeCommand(server, "execute "~playername~" "~x~" "~y~" "~z~" title @p actionbar \"+3 Hearts\" ");
     server.commandManager.executeCommand(server, "particle heart ~ ~2.25 ~ 0 0 0 0 0 force @a");
     server.commandManager.executeCommand(server, "effect @p potioncore:vulnerable 10 1");
+	server.commandManager.executeCommand(server, "effect @p prey:prey 20 0 true");
 	player.setCooldown(stack, 180);
 }}; 
 bandage.register();
@@ -53,16 +54,17 @@ bandage_salve.saturation = 0.0;
 bandage_salve.itemUseAction = "BOW";
 bandage_salve.alwaysEdible = true;
 bandage_salve.onItemFoodEaten = function(stack, world, player) {if (!world.isRemote()) {
-    player.heal(6);
+    player.heal(7);
     var x as int = player.x as int;
     var y as int = player.y as int;
     var z as int = player.z as int;
     var playername = player.name as string;
     player.executeCommand("playsound minecraft:entity.llama.swag master @a ~ ~ ~");
-    server.commandManager.executeCommand(server, "execute "~playername~" "~x~" "~y~" "~z~" title @p actionbar \"+3 Hearts\" ");
+    server.commandManager.executeCommand(server, "execute "~playername~" "~x~" "~y~" "~z~" title @p actionbar \"+3.5 Hearts\" ");
     server.commandManager.executeCommand(server, "particle heart ~ ~2.25 ~ 0 0 0 0 0 force @a");
 	server.commandManager.executeCommand(server, "effect @p minecraft:regeneration 8");
     server.commandManager.executeCommand(server, "effect @p potioncore:vulnerable 10 1");
+	server.commandManager.executeCommand(server, "effect @p prey:prey 30 0 true");
 	player.setCooldown(stack, 180);
 }}; 
 bandage_salve.register();
@@ -82,6 +84,7 @@ suturing_kit.onItemFoodEaten = function(stack, world, player) {if (!world.isRemo
     server.commandManager.executeCommand(server, "particle heart ~ ~2.25 ~ 0 0 0 0 0 force @a");
 	server.commandManager.executeCommand(server, "effect @p minecraft:regeneration 21");
     server.commandManager.executeCommand(server, "effect @p potioncore:vulnerable 30 2");
+	server.commandManager.executeCommand(server, "effect @p prey:prey 20 2 true");
 	player.setCooldown(stack, 450);
 }}; 
 suturing_kit.register();

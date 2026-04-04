@@ -151,7 +151,7 @@ HungerEvents.onFoodEaten(function(event as mods.hungertweaker.events.FoodEatenEv
 	if (event.food.definition.id == <betterwithmods:raw_egg>.definition.id) {
 		var nausea = <potion:minecraft:nausea>.makePotionEffect(200, 1, false, false);
 		event.player.addPotionEffect(nausea);
-		var regen = <potion:minecraft:regeneration>.makePotionEffect(200, 0, false, true);
+		var regen = <potion:minecraft:regeneration>.makePotionEffect(400, 0, false, true);
 		event.player.addPotionEffect(regen);
 		var blind = <potion:minecraft:blindness>.makePotionEffect(50, 0, false, false);
 		event.player.addPotionEffect(blind);

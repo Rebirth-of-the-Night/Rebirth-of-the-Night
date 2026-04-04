@@ -1,0 +1,32 @@
+{
+  "block": "minecraft:grass",
+  "iterations": 50,
+  "biomes": [
+    "biomesoplenty:meadow"
+  ],
+  "dimensions": [
+    0
+  ],
+  "spawnBlocks": [
+    {
+      "block": "biomesoplenty:plant_0[variant=cloverpatch]",
+      "weight": 80
+    },
+	{
+      "block": "minecraft:red_flower[type=houstonia]",
+      "weight": 10
+    },
+    {
+      "block": "biomesoplenty:plant_0[variant=shortgrass]",
+      "weight": 20
+    },
+    {
+      "block": "minecraft:tallgrass[type=tall_grass]",
+      "weight": 15
+    },
+    {
+      "block": "biomesoplenty:plant_0[variant=sprout]",
+      "weight": 10
+    }
+  ]
+}

@@ -75,7 +75,7 @@ JEI.removeAndHide(<betterwithmods:candle_holder>);
 JEI.removeAndHide(<betterwithmods:aesthetic:8>);
 JEI.removeAndHide(<betterwithmods:material:46>);
 
-JEI.removeAndHide(<betterwithmods:raw_egg>);
+recipes.remove(<betterwithmods:raw_egg>);
 JEI.removeAndHide(<betterwithmods:cooked_egg>);
 furnace.remove(<betterwithmods:cooked_egg>);
 JEI.removeAndHide(<betterwithmods:ham_and_eggs>);

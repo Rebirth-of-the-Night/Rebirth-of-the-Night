@@ -271,7 +271,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <sereneseasons:greenhouse_glass:*>.addTooltip("Lets crops grow out of their normal growing seasons. If the glass is placed more than 7 blocks above a crop, the crop won't gain this benefit.");
 <netherex:ghast_meat_cooked:*>.addTooltip("Slimy, yet satisfying!");
 <betterwithmods:raw_egg>.addTooltip("An effective medicine and stomach filler. That is what you tell yourself in order to tolerate the taste.");
-<betterwithmods:raw_egg>.addShiftTooltip("Granny's remedy, directly from Causeperse (whose, you don't know). Heals for a few seconds but causes an upset stomach and leaves you vulnerable.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<betterwithmods:raw_egg>.addShiftTooltip("Granny's remedy (whose, you don't know), directly from Causeperse. Heals for a few seconds but causes an upset stomach and leaves you vulnerable.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <harvestcraft:slimegummiesitem>.addTooltip("For years you have underestimated the power of slimes. With your intellect and these super cells, you are untouchable.");
 <rustic:elixir>.withTag({display:{LocName:"Metabolic Whey"},ElixirEffects:[{Effect: "minecraft:regeneration", Duration: 160, Amplifier: 2},{Effect: "minecraft:hunger", Duration: 160, Amplifier: 29},{Effect: "minecraft:nausea", Duration: 160, Amplifier: 0}]}).addTooltip("Tastes awful, but it will accelerate the natural healing of the body threefold and make you very hungry.");
 
@@ -483,15 +483,15 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <eplus:advanced_table:*>.addTooltip("Requires placing an Enchanting Table Upgrade on a regular Enchanting Table.");
 <eplus:table_upgrade:*>.addTooltip("Shift + right-click on an Enchanting Table to upgrade.");
 <contenttweaker:bandage>.addTooltip("Restores 6HP on use.");
-<contenttweaker:bandage>.addTooltip(format.red("Vulnerable for 10 seconds after use."));
+<contenttweaker:bandage>.addTooltip(format.red("Vulnerable for 10 seconds and revealed to enemies for 20 seconds after use."));
 <contenttweaker:bandage>.addShiftTooltip("After healing, incoming damage is increased by 40%, use out of danger.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <contenttweaker:bandage>.removeTooltip("Compost Value: 1");
-<contenttweaker:bandage_salve>.addTooltip("Restores 6HP on use and continues to heal 3HP.");
-<contenttweaker:bandage_salve>.addTooltip(format.red("Vulnerable for 10 seconds after use."));
+<contenttweaker:bandage_salve>.addTooltip("Restores 7HP on use and continues to heal 3HP.");
+<contenttweaker:bandage_salve>.addTooltip(format.red("Vulnerable for 10 seconds and revealed to enemies for 30 seconds after use."));
 <contenttweaker:bandage_salve>.addShiftTooltip("After healing, incoming damage is increased by 40%, use out of danger.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <contenttweaker:bandage>.removeTooltip("Compost Value: 1");
 <contenttweaker:suturing_kit>.addTooltip("Restores 30HP on use and continues to heal 6HP.");
-<contenttweaker:suturing_kit>.addTooltip(format.red("Very vulnerable for 30 seconds after use."));
+<contenttweaker:suturing_kit>.addTooltip(format.red("Very vulnerable for 30 seconds and greatly revealed to enemies for 20 seconds after use."));
 <contenttweaker:suturing_kit>.addShiftTooltip("After healing, incoming damage is increased by 60%, use out of danger.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <contenttweaker:suturing_kit>.removeTooltip("Compost Value: 1");
 <foundry:machine:2>.removeTooltip("Requires RF, FE, or Tesla to operate.");
