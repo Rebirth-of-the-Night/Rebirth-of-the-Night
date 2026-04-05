@@ -12,7 +12,7 @@
         },
         {
             "type": "text",
-            "text": "The basic premise of sculpting starts with a full block of material. By carving and smoothing out different segments I can create quality recipients or intricate shapes. $(br2)If I ever want to $(thing)automate$() any of these processes, I should look into a $(l:innovation/light_machines/turntable)turntable$()."
+            "text": "The basic premise of sculpting starts with a full block of material. By carving and smoothing out different segments I can create quality recipients or intricate shapes. $(br2)If I ever want to $(thing)automate$() any of these processes, I should look into a $(l:innovation/machines/turntable)turntable$()."
         },
         {
             "type": "relations",

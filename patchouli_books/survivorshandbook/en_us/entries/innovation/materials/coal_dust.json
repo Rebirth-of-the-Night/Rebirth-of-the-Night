@@ -12,7 +12,7 @@
         {
 			"type": "relations",
 			"entries": [
-				"innovation/light_machines/millstone",
+				"innovation/machines/millstone",
                 "innovation/materials/hellfire_dust",
                 "innovation/materials/nether_coal"
 			]

@@ -1,0 +1,27 @@
+{
+  "name": "Valken Heater",
+  "icon": "exalembico:heater",
+  "category": "innovation_burn",
+  "pages": [
+	{
+      "type": "text",
+      "text": "Stoves and forges are good for food and metallurgy, but I could use something more advanced. I know that Valks in the Aether commonly use effective burners for powering everything from their war machine to kōji tea. I could use that for powering an $(l:innovation/alchemy/alembic)alembic$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:heater1",
+      "text": "This burner is not easy to craft, and I might have much better luck trying to source one from abandoned Valken outposts or lodges in the Aether."
+    },
+	{
+      "type": "text",
+      "text": "This is how it works: uwu"
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

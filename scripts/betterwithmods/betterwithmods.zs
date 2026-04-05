@@ -142,6 +142,9 @@ recipes.remove(<betterwithmods:wood_table:3>);
 recipes.remove(<betterwithmods:wood_table:4>);
 recipes.remove(<betterwithmods:wood_table:5>);
 
+JEI.removeAndHide(<contenttweaker:fire_block:*>);
+JEI.removeAndHide(<contenttweaker:stoked_fire_block:*>);
+
 //Turntable
 Turntable.removeAll();
 Turntable.add(<minecraft:clay>, <betterwithmods:unfired_pottery:1>, [<minecraft:clay_ball>]);
@@ -660,6 +663,7 @@ HeatRegistry.addHeatSource([
     <blockstate:minecraft:fire>,
     <blockstate:contenttweaker:fire_block>
 ], <contenttweaker:fire_block>, 1);
+HeatRegistry.addHeatSource(<contenttweaker:stoked_fire_block>, 2);
 
 HeatRegistry.addHeatSource(<blockstate:exalembico:heater:heat=3>, 2);
 HeatRegistry.addHeatSource(<blockstate:exalembico:heater:heat=4>, 2);

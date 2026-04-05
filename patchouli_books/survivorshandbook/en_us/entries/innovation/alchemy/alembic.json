@@ -1,0 +1,32 @@
+{
+  "name": "Alembic",
+  "icon": "exalembico:alembic",
+  "category": "innovation_alchemy",
+  "pages": [
+	{
+      "type": "text",
+      "text": "Use bottles to unlock this entry"
+    },
+    {
+      "type": "spotlight",
+      "item": "exalembico:alembic",
+      "text": "The alembic is able to do a plethora of alchemical tranformations at specific temperatures, mixing, filtering, and distilling ingredients. Different blocks are needed for different heat levels. So although some recipes are quite cheap, the correct temperature is fundamental."
+    },
+	{
+      "type": "text",
+      "text": "$(l)Sources of Heat$()$(li)$(t:Heat Levels: 2)$(item)Lit Hearth/Stove$()$(li)$(t:Heat Levels: 1)$(item)Lit Hearth/Stove Extensions$()$(li)$(t:Heat Levels: 1-4)$(item)Valken Heater$()$(br2)$(br2)The $(l:innovation/burn/valken_heater)Valken Heater$() offers granular control over temperature."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pyrotech:tool/obsidian_pickaxe",
+      "recipe2": "pyrotech:tool/obsidian_axe"
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

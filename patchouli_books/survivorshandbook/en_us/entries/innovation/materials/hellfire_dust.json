@@ -7,7 +7,7 @@
         {
             "type": "spotlight",
             "item": "betterwithmods:material:16",
-            "text": "Filtered fiery essence from the Nether, obtained by filtering $(thing)ground Netherrack$() through a $(l:innovation/light_machines/hopper)filtered hopper with soul sand$()."
+            "text": "Filtered fiery essence from the Nether, obtained by filtering $(thing)ground Netherrack$() through a $(l:innovation/machines/hopper)filtered hopper with soul sand$()."
         },
         {
             "type": "text",
@@ -16,7 +16,7 @@
         {
 			"type": "relations",
 			"entries": [
-                "innovation/light_machines/hopper",
+                "innovation/machines/hopper",
 				"innovation/materials/nether_coal"
 			]
 		}

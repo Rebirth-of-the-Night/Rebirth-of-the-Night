@@ -153,6 +153,7 @@ for w, weapon in sapphireweps{
 <dungeontactics:golden_club:*>.addTooltip("Has a chance to disarm the enemy.");
 <dungeontactics:golden_battleaxe:*>.addTooltip("Beheading weapon.");
 <contenttweaker:fire_block:*>.addTooltip('"Huh, weird..."');
+<contenttweaker:stoked_fire_block:*>.addShiftTooltip('"We have Ponder at home!"');
 <minecraft:crafting_table:*>.addTooltip("Static version."); 
 <minecraft:crafting_table>.addShiftTooltip(("A") + format.yellow(" Portable Crafting") + format.gray(" Mat is better for long journeys."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <dungeontactics:trap_clamp:*>.addTooltip("Snaps and crushes its victim, inflicting great slowness.");
@@ -541,18 +542,22 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 
 <exalembico:heater>.addTooltip("Ultimate control for heat-powered appliances. Courtesy of the Val-Kaine.");
 <exalembico:heater>.addShiftTooltip("Can be turned on and off. Different fuels provide different accessible heat levels. Supports alembics, woks, pots, bake kettles, stoked crucibles, and melting crucibles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<exalembico:alembic>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" VALKEN HEATER, STOVE, HEARTH"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<exsartagine:wok>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<exsartagine:pot>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<exsartagine:kettle>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exalembico:heater>.addShiftTooltip("· For use as a Hearth/Stove: Heat 2.");
+<exalembico:heater>.addShiftTooltip("· For use as a Stoked Fire:  Heat 3.");
+<exalembico:alembic>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" VALKEN HEATER, STOVE [Heat 2], HEARTH [Heat 2]"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:wok>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME, VALKEN HEATER [at Heat 2]"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:pot>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME, VALKEN HEATER [at Heat 2]"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:kettle>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME, VALKEN HEATER [at Heat 2]"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:range:*>.addTooltip("Efficiently heats cooking appliances for fuel.");
 <exsartagine:range:*>.addShiftTooltip("Supports up to three total Stove Extensions on either side, offering four surfaces on which to place woks, pots and bake kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<exsartagine:range:*>.addShiftTooltip("Acts as heat level 2 for alembics.");
+<exsartagine:range:*>.addShiftTooltip("[Acts as heat level 2 for alembics]");
 <exsartagine:hearth:*>.addTooltip("Heats cooking appliances for fuel. Requires ignition.");
 <exsartagine:hearth:*>.addShiftTooltip("Supports one Hearth Extension to its side, offering two total surfaces on which to place woks, pots and bake kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<exsartagine:hearth:*>.addShiftTooltip("Acts as heat level 2 for alembics.");
+<exsartagine:hearth:*>.addShiftTooltip("[Acts as heat level 2 for alembics]");
 <exsartagine:range_extended>.addTooltip("An extension for the Stove. Up to three can be added to either side of a Stove. Can only be placed next to Stoves.");
+<exsartagine:range_extended>.addShiftTooltip("[Acts as heat level 1 for alembics]", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:hearth_extended>.addTooltip("An extension for the Hearth. Only one can be added to the side of a Hearth. Can only be placed next to Hearths.");
+<exsartagine:hearth_extended>.addShiftTooltip("[Acts as heat level 1 for alembics]", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 <biomesoplenty:terrestrial_artifact>.addTooltip("Has a chance to be dropped from Mysterious Lodestone.");
 <dungeontactics:mithril_block>.addTooltip("Found in frozen and arctic biomes.");

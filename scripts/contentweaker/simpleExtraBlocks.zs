@@ -2335,6 +2335,14 @@ fire_block.setPassable(true);
 fire_block.setCreativeTab(<creativetab:decorations>);
 fire_block.register();
 
+var stoked_fire_block = VanillaFactory.createBlock("stoked_fire_block", <blockmaterial:Fire>);
+stoked_fire_block.setBlockSoundType(<soundtype:cloth>);
+stoked_fire_block.setLightValue(1.0);
+stoked_fire_block.setBlockLayer("CUTOUT");
+stoked_fire_block.setPassable(true);
+stoked_fire_block.setCreativeTab(<creativetab:decorations>);
+stoked_fire_block.register();
+
 var planarspsp2 = VanillaFactory.createBlock("planarspsp2", <blockmaterial:Rock>);
 planarspsp2.setCreativeTab(<creativetab:rotn_blocks>);
 planarspsp2.setBlockHardness(350.0);
