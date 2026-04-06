@@ -1,6 +1,7 @@
 ﻿{
   "name": "Survivor's Handbook",
   "landing_text": "A place to record all my plans and discoveries. I'll keep writing new entries here as I learn more.",
+  "advancement_namespaces": ["triumph"],
   "subtitle": "Knowledge is power.",
   "version": 0,
   "show_progress": false,

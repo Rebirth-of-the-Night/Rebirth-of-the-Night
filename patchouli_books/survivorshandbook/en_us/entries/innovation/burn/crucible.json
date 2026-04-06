@@ -1,24 +1,28 @@
 {
-    "name": "Crucible",
-    "icon": "betterwithmods:cooking_pot:0",
-    "category": "innovation_burn",
-    "sortnum": 4,
-    "read_by_default": "true",
-    "pages": [
-        {
-            "type": "kiln_spotlight",
-            "title": "Crucible",
-            "input": "contenttweaker:crucible:0",
-            "output": "betterwithmods:cooking_pot",
-            "time": "3:30min",
-            "text": "With this crucible, I'm able to generate enough heat to be able to process $(l:innovation/metallurgy/steel)crucible steel.$()$(br2)I can fully fire it by having lit fires beneath it in a 3x3 horizontal area."
-        },
-        {
-			"type": "relations",
-			"entries": [
-                "innovation/burn/kiln",
-				"innovation/pottery"
-			]
-		}
-    ]
+  "name":"Crucible",
+  "icon":"betterwithmods:cooking_pot:0",
+  "category":"innovation_burn",
+  "sortnum":4,
+  "read_by_default":"true",
+  "pages":[
+    {
+      "type":"kiln_spotlight",
+      "title":"Crucible",
+      "input":"contenttweaker:crucible:0",
+      "output":"betterwithmods:cooking_pot",
+      "time":"3:30min",
+      "text":"With this crucible, I'm able to generate enough heat to be able to process $(l:innovation/metallurgy/steel)crucible steel.$()$(br2)I can fully fire it by having lit fires beneath it in a 3x3 horizontal area."
+    },
+    {
+      "type":"text",
+      "text":"The most easily accessible source of heat for a crucible would be setting up $(l:newbeginning/fire_1#campfire)campfires$(), as they last quite a bit.$(br2)If I could get my hands on a bit of netherrack I could create something to $(l:innovation/burn/stoked_flame)stoke the fire$(), it would be the smartest thing to do next. Or perhaps I could source $(l:innovation/burn/valken_heater)something from the Valks$(), less efficient but much more versatile."
+    },
+    {
+      "type":"relations",
+      "entries":[
+        "innovation/burn/kiln",
+        "innovation/pottery"
+      ]
+    }
+  ]
 }

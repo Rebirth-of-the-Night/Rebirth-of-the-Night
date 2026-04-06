@@ -1,0 +1,19 @@
+setIcon(<betterwithmods:hibachi>)
+setTitle("Hibachi and Stoked Fire")
+setDescription("Creates fire that can be stoked by powered bellows. Nine stoked hibachi below a crucible, cauldron, or structural kiln will enable stoked fire recipes at the highest possible speed.")
+
+
+addParent("triumph:advancements/techtree/crucible")
+
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(true)
+
+criteria = addCriteria("Hibachi and Stoked Fire", "minecraft:inventory_changed")
+criteria.addItem("betterwithmods:hibachi")
+
+alwaysVisible()
+setPos(18,2)

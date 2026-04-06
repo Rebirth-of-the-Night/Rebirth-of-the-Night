@@ -1,0 +1,24 @@
+setIcon(<pyrotech:campfire>)
+setTitle("Campfire")
+setDescription("Place down dried fibers on the ground, add any logs, and light them up with a hand drill to create a campfire for cooking food.")
+
+
+addParent("triumph:advancements/techtree/root")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(true)
+
+criteria = addCriteria("Light Campfire", "triumph:right_click_block")
+criteria.setBlock(<pyrotech:campfire>)
+criteria.setItem(<pyrotech:matchstick>)
+
+//This function grants the lightedCampfire gamestage to hook to. Also grants campfire advancement retroactively.
+addRewardFunction("triumph:lighted_campfire")
+
+hideLines()
+
+alwaysVisible()
+setPos(-224,2)

@@ -72,8 +72,11 @@ val alexandrite = <biomesoplenty:gem:2>;
 val sapphire = <biomesoplenty:gem:6>;
 val groundRrack = <betterwithmods:material:15>;
 val groundFiery = <contenttweaker:ground_fiery_netherrack>;
-val NethCoal = <betterwithmods:material:1>;
-val NethCoalBlock = <betterwithmods:aesthetic:13>;
+val nethCoal = <betterwithmods:material:1>;
+val nethCoalBlock = <betterwithmods:aesthetic:13>;
+val flowerPot = <minecraft:flower_pot>;
+val refractoryMaterial = <pyrotech:material:4>;
+val genericMetal = <ore:genericMetal>;
 
 //Define liquids
 var hotspring = <liquid:hot_spring_water>;
@@ -91,6 +94,11 @@ recipes.addShaped("heater1", <exalembico:heater>,
 [[<betterwithaddons:wrought_bars>, <behgameon:accessory_17>, <betterwithaddons:wrought_bars>], 
 [<betterwithaddons:wrought_bars>, <betterwithmods:material:27>, <betterwithaddons:wrought_bars>], 
 [null, <aether_legacy:dungeon_block:5>, null]]);
+
+recipes.addShaped("alembic1", <exalembico:alembic>, 
+[[refractoryMaterial, null, null], 
+[flowerPot, refractoryMaterial, flowerPot],
+[genericMetal, null, genericMetal]]);
 
 ExAlembico.registerHeatSourceBlock(<blockstate:exsartagine:hearth:facing=north,heated=true>, 2);
 ExAlembico.registerHeatSourceBlock(<blockstate:exsartagine:hearth:facing=east,heated=true>, 2);
@@ -135,8 +143,8 @@ Heater.addHeaterRecipe(<pyrotech:charcoal_block>, 8000, 1, 2); //charcoal block,
 Heater.addHeaterRecipe(<pyrotech:material:1>, 800, 1, 2, 3); //coke, most important base fuel
 Heater.addHeaterRecipe(<pyrotech:coal_coke_block>, 8000, 1, 2, 3); //coke block, most important base fuel
 Heater.addHeaterRecipe(<contenttweaker:charmpeat>, 4000, 3); //pressurized fuel that always burn at 3
-Heater.addHeaterRecipe(NethCoal, 1600, 1, 2, 3, 4); //nether coal most versatile fuel
-Heater.addHeaterRecipe(NethCoalBlock, 16000, 1, 2, 3, 4); //nether coal block most versatile fuel
+Heater.addHeaterRecipe(nethCoal, 1600, 1, 2, 3, 4); //nether coal most versatile fuel
+Heater.addHeaterRecipe(nethCoalBlock, 16000, 1, 2, 3, 4); //nether coal block most versatile fuel
 Heater.addHeaterRecipe(groundRrack, 180000, 1); //ground netherrack, two and a half hours of dim light
 Heater.addHeaterRecipe(groundFiery, 180000, 1); //ground fiery netherrack, two and a half hours of dim light
 

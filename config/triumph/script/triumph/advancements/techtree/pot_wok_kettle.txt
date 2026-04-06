@@ -1,0 +1,19 @@
+setIcon(<exsartagine:pot>)
+setTitle("Pot, Wok, & Bake Kettle")
+setDescription("Cooking utensils that can be heated from below. From tanning and homemade alchemy to beverages and gourmet dishes.")
+
+
+addParent("triumph:advancements/techtree/campfire")
+
+
+criteria = addCriteria("Pot", "minecraft:inventory_changed")
+criteria.addItem("exsartagine:pot")
+
+criteria = addCriteria("Wok", "minecraft:inventory_changed")
+criteria.addItem("exsartagine:wok")
+
+criteria = addCriteria("Bake Kettle", "minecraft:inventory_changed")
+criteria.addItem("exsartagine:kettle")
+
+alwaysVisible()
+setPos(-138,68)

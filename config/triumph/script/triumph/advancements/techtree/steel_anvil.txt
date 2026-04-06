@@ -1,0 +1,23 @@
+setIcon(<betterwithmods:steel_anvil>)
+setTitle("Steel Anvil")
+setDescription("A crucial extension of the crafting table that opens the gate to all sorts of advanced equipment and materials.")
+
+
+addParent("triumph:advancements/techtree/crucible")
+addParent("triumph:advancements/techtree/mortar")
+addParent("triumph:advancements/techtree/stone_anvil")
+
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(true)
+setFrameType("GOAL")
+setUncompletedIconColor(217,255,92)
+
+criteria = addCriteria("Steel Anvil", "minecraft:inventory_changed")
+criteria.addItem("betterwithmods:steel_anvil")
+
+alwaysVisible()
+setPos(-15,102)

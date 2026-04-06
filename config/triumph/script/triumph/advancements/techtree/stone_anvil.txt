@@ -1,0 +1,19 @@
+setIcon(<pyrotech:anvil_granite>)
+setTitle("Multipurpose Stone Anvil")
+setDescription("A surface to strike against. Can be used to manually grind down and shatter all sorts of sturdy materials.")
+
+
+addParent("triumph:advancements/techtree/millstone")
+
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(true)
+
+criteria = addCriteria("Multipurpose Stone Anvil", "minecraft:inventory_changed")
+criteria.addItem("pyrotech:anvil_granite")
+
+alwaysVisible()
+setPos(-138,134)

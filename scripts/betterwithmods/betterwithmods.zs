@@ -665,6 +665,8 @@ HeatRegistry.addHeatSource([
 ], <contenttweaker:fire_block>, 1);
 HeatRegistry.addHeatSource(<contenttweaker:stoked_fire_block>, 2);
 
+HeatRegistry.addHeatSource(<blockstate:exalembico:heater:heat=2>, 1);
+
 HeatRegistry.addHeatSource(<blockstate:exalembico:heater:heat=3>, 2);
 HeatRegistry.addHeatSource(<blockstate:exalembico:heater:heat=4>, 2);
 

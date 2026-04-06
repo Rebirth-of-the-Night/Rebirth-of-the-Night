@@ -190,6 +190,7 @@ ExSartagine.addPlaceable(<blockstate:pyrotech:campfire:ash=6,variant=lit>,true,t
 ExSartagine.addPlaceable(<blockstate:pyrotech:campfire:ash=7,variant=lit>,true,true);
 ExSartagine.addPlaceable(<blockstate:pyrotech:campfire:ash=8,variant=lit>,true,true);
 ExSartagine.addPlaceable(<blockstate:exalembico:heater>.getBlock(),false);
+ExSartagine.addPlaceable(<blockstate:exalembico:heater:heat=1>,true);
 ExSartagine.addPlaceable(<blockstate:exalembico:heater:heat=2>,true);
 
 ExSartagine.removeSmelterRecipe(<minecraft:gold_ingot>);

@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+advancement grant @p only triumph:advancements/techtree/crafting_table
+gamestage silentadd @p craftingTable

@@ -1,0 +1,20 @@
+setIcon(<minecraft:glass_bottle>)
+setTitle("Bottle")
+
+addParent("triumph:advancements/techtree/root")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(false)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+criteria = addCriteria("Bottle", "minecraft:inventory_changed")
+criteria.addItem("minecraft:glass_bottle")
+criteria = addCriteria("Bottle_measure", "minecraft:inventory_changed")
+criteria.addItem("vials:vial_432")
+criteria = addCriteria("Elixir", "minecraft:inventory_changed")
+criteria.addItem("rustic:elixir")
+
+hideLines()
+setHidden(true)
