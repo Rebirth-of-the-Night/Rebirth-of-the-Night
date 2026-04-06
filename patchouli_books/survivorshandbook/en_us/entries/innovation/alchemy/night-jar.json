@@ -1,0 +1,26 @@
+{
+  "name": "Night-Jar",
+  "icon": "requious:night_jar",
+  "category": "innovation_alchemy",
+  "sortnum": 2,
+  "advancement": "triumph:advancements/techtree/night-jar",
+  "negate_advancement": false,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:night_jar",
+      "text": "I've seen a few of these being used in wealthier or more specialized settlements. Nigh-Jars, they channel the energy of the moon."
+    },
+	{
+      "type": "text",
+      "text": "The Night-Jar transforms natural water into Lunar Water. It only works at night and requires $(l:magic/quintessence)$(item)Luna Quintessence$() to process the water. Using a setup of pipes, faucets, and tanks, I could perfectly automate the entire process, if I needed to."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "innovation/burn/valken_heater",
+        "innovation/burn/refractory"
+      ]
+    }
+  ]
+}

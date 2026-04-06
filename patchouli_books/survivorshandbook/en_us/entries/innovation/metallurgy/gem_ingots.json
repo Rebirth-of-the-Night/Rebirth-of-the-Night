@@ -1,7 +1,7 @@
 {
     "name": "Gem Ingots",
     "icon": "contenttweaker:four_gem_ingots",
-    "category": "equipment",
+    "category": "innovation_metallurgy",
     "advancement": "triumph:advancements/progression/nether/gems",
     "pages": [
       {

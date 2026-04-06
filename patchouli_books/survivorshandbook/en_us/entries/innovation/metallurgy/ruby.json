@@ -22,7 +22,7 @@
     {
       "type": "relations",
       "entries": [
-        "equipment/gem_ingots",
+        "innovation/metallurgy/gem_ingots",
         "innovation/metallurgy/peridot",
         "innovation/metallurgy/diamond",
         "innovation/metallurgy/sapphire"

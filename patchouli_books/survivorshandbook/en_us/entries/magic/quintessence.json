@@ -1,29 +1,14 @@
 {
-  "sortnum": 6,
-  "name": "Magicite",
-  "icon": "quark:crystal:7",
-  "category": "magic_leyoftheland",
-  "advancement": "triumph:advancements/placeholder",
+  "sortnum": 5,
+  "name": "quintessence",
+  "icon": "contenttweaker:sol_quintessence",
+  "category": "magic",
+  "advancement": "triumph:advancements/magick/alchemy/quintessence",
   "read_by_default": "true",
   "pages": [
     {
       "type": "text",
-      "text": "I've happened upon a type of stone that seems to be saturated with magic. Upon breaking it, it released its quintessence.$(br2)Perhaps by being exposed to leylines, these stones have soaked in magic, and solidified it, allowing for collection.$(br2)I'll use this section to record my findings."
-    },
-    {
-      "type": "image",
-      "images": ["book:images/magicite.png"],
-      "border": "true"
-    },
-    {
-      "type": "spotlight",
-      "item": "contenttweaker:vis_speck",
-      "text": "Magicite seems to occassionally contain vis specks upon breaking."
-    },
-    {
-      "type": "spotlight",
-      "item": "contenttweaker:magicked_stone",
-      "text": "This familiar looking stone is what is left after magicite has been depleted of its essence. Still, however, it has decorative uses that Botanical fans might enjoy."
+      "text": "A nebulous and semi-corporeal matter permeating the definitory essence of its source. Rather difficult to manipulate, but it can help me greatly steer the identity of objects, rituals, and etc. From what I've noticed, it can be sourced from dismantled objects in an appropriate mortar, or from infused magicite."
     },
     {
       "type": "text",

@@ -1,6 +1,6 @@
 {
   "name": "Alchemy",
-  "description": "One of the oldest arts of artificers. By distilling, mixing, and cooking the trace ingredients found in plants, animal parts, and other natural sources using special equipment I may be able to imbue objects or myself with unique properties.",
+  "description": "One of the oldest arts of artificers. By distilling, mixing, and cooking different ingredients using special equipment I may be able to imbue objects or myself with unique properties.",
   "icon": "rustic:elixir",
   "sortnum": 6,
   "parent": "innovation"

@@ -1,0 +1,12 @@
+setIcon(<contenttweaker:sol_quintessence>)
+setTitle("Not Coffee")
+setDescription("Obtain Quintessence.")
+
+addParent("triumph:advancements/magick/leyoftheland/magicite")
+
+criteria = addCriteria("Quintessence Obtain", "minecraft:inventory_changed")
+criteria.addItem(<ore:ore:anyQuintessence>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-330,35)
