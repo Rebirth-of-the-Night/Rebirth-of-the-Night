@@ -8,7 +8,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "A nebulous and semi-corporeal matter permeating the definitory essence of its source. Rather difficult to manipulate, but it can help me greatly steer the identity of objects, rituals, and etc. From what I've noticed, it can be sourced from dismantled objects in an appropriate mortar, or from infused magicite."
+      "text": "A nebulous and semi-corporeal matter permeating the definitory essence of its source. Rather difficult to manipulate, but it can help me greatly steer the identity of objects, rituals, and etc. From what I've noticed, it can be sourced from dismantled objects in an appropriate $(l:agriculture/mortar)mortar$(), or from infused magicite."
     },
     {
       "type": "text",

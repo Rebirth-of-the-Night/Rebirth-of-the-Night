@@ -1,0 +1,49 @@
+{
+  "name": "Primer to alchemy",
+  "icon": "minecraft:glass_bottle",
+  "category": "innovation_alchemy",
+  "sortnum": 1,
+  "pages": [
+	{
+      "type": "text",
+      "text": "Alchemy is as powerful as it is broad a category. First and foremost, I should procure some bottles to store the various liquids I will need in an easy to carry and access way. Moreover, I can turn normal bottles into $(item)$(t:Crafting a glass bottle alone turns it into a liquid container of 250mb; combining two allows to carry 500mb, half a bucket.)measuring bottles$() to store various liquids until I need to process them."
+    },
+	{
+	  "type": "item_list_spotlight",
+	  "text": "Most concoctions that do not use their own ingredients or water as their base will instead require another liquid.",
+	  "a_i":"book:empty.png",
+	  "b":"vials:vial_432{Fluid: {FluidName: 'methanol', Amount: 250}}",
+	  "b_t":"Wood alcohol is easy to distill from sawdust in a kettle",
+	  "b_i":"book:hover_icon.png",
+	  "c":"vials:vial_432{Fluid: {FluidName: 'lunar_water', Amount: 250}}",
+	  "c_t":"Lunar water is an important resource with many uses. Mainly obtained with a night-jar",
+	  "c_i":"book:hover_icon.png",
+	  "d":"vials:vial_432{Fluid: {FluidName: 'hot_spring_water', Amount: 250}}",
+	  "d_t":"Reasonably rare, it can appear in alps, shields, and similar alpine biomes",
+	  "d_i":"book:hover_icon.png",
+	  "e_i":"book:empty.png",
+	  "f_i":"book:empty.png",
+	  "g_i":"book:empty.png",
+	  "text2": "I might also be able to locate some of these in abandoned laboratories, so I better keep an eye out. Having early access to some bases could suppose a significant advantage."
+	},
+	{
+      "advancement": "triumph:advancements/progression/nether/enternether",
+	  "type": "text",
+      "text": "After gaining access to the nether, I have identified 'blood' and unstable spirit fire as viable bases."
+    },
+	{
+      "type": "text",
+      "text": "$(#a84b0f)I will progress my research once I've secured some bottles.$() THIS PAGE SHOULD ONLY APPEAR BEFORE THE PLAYER OBTAINS A BOTTLE. ANY OTHER BEHAVIOR IS WRONG.",
+      "negate_advancement": true,
+	  "advancement": "triumph:advancements/placeholder"
+    },
+    {
+      "type": "relations",
+      "entries": [
+	    "innovation/alchemy/alembic",
+        "innovation/alchemy/night-jar",
+		"agriculture/alcohol"
+      ]
+    }
+  ]
+}

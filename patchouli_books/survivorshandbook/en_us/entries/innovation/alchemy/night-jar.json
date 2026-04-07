@@ -3,13 +3,13 @@
   "icon": "requious:night_jar",
   "category": "innovation_alchemy",
   "sortnum": 2,
-  "advancement": "triumph:advancements/techtree/night-jar",
+  "advancement": "triumph:advancements/techtree/bottle",
   "negate_advancement": false,
   "pages": [
     {
       "type": "crafting",
       "recipe": "crafttweaker:night_jar",
-      "text": "I've seen a few of these being used in wealthier or more specialized settlements. Nigh-Jars, they channel the energy of the moon."
+      "text": "I've seen a few of these being used in wealthier or more specialized settlements, night-Jars. They channel the energy of the moon with a crafty celestial setup."
     },
 	{
       "type": "text",

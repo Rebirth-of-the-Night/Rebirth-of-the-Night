@@ -34,7 +34,7 @@
       "input": "betterwithmods:unfired_pottery:3",
       "output": "betterwithmods:vase",
       "time": "3:30min",
-      "text": "Made from an unfired $(item)pot$() as a base, a $(item)vase$() is a small container with a thin neck; it can hold $(thing)one$() item at a time, although I will not be able to retrieve said item without breaking the vase... I should be careful with stuff like $(item)Blasting oil$() slipping into one..."
+      "text": "Made from an unfired $(item)pot$() as a base, a $(item)vase$() is a small container with a thin neck; it can hold $(bold)one$() item at a time, although I will not be able to retrieve said item without breaking the vase... I should be careful with stuff like $(item)Blasting oil$() slipping into one..."
     },
     {
       "type": "kiln_spotlight",
