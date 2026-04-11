@@ -1,0 +1,34 @@
+{
+    "pools": [
+        {
+            "name": "grave",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "totf:blocks/grave/worthless",
+                    "weight": 10,
+                    "quality": -3
+                },
+                {
+                    "type": "loot_table",
+                    "name": "totf:blocks/grave/decent",
+                    "weight": 24,
+                    "quality": -1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "totf:blocks/grave/good",
+                    "weight": 8,
+                    "quality": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "totf:blocks/grave/very_rare",
+                    "weight": 4,
+                    "quality": 3
+                }
+            ]
+        }
+    ]
+}
