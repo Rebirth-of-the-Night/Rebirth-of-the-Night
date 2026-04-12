@@ -52,6 +52,11 @@ dairy_free_cheese_slice.setSaturation(2.5);
 dairy_free_cheese_slice.setCreativeTab(<creativetab:harvestCraft>);
 dairy_free_cheese_slice.register();
 
+val edible_creephae = VanillaFactory.createItemFood("edible_creephae", 1);
+edible_creephae.setSaturation(0.5);
+edible_creephae.setCreativeTab(<creativetab:harvestCraft>);
+edible_creephae.register();
+
 //BLOCKS
 //Yeast flour
 var yeast_flour = VanillaFactory.createBlock("yeast_flour", <blockmaterial:Cloth>);

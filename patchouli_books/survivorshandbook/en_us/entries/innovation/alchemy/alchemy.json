@@ -33,7 +33,7 @@
     },
 	{
       "type": "text",
-      "text": "$(#a84b0f)I will progress my research once I've secured some bottles.$() THIS PAGE SHOULD ONLY APPEAR BEFORE THE PLAYER OBTAINS A BOTTLE. ANY OTHER BEHAVIOR IS WRONG.",
+      "text": "$(#a84b0f)I will progress my research once I've secured some bottles.$() THIS PAGE SHOULD ONLY APPEAR BEFORE THE PLAYER OBTAINS A BOTTLE, using triumph:advancements/techtree/bottle. ANY OTHER BEHAVIOR IS WRONG.",
       "negate_advancement": true,
 	  "advancement": "triumph:advancements/placeholder"
     },
