@@ -1,0 +1,5 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamestage silentremove @p start
+gamestage silentadd @p skimmingrune
+summon endreborn:chronologist

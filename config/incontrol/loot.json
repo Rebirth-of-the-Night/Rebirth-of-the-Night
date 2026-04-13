@@ -953,7 +953,7 @@
 	
 	// Ancient Steel
 	{
-		"mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior","quark:ashen","quark:dweller","mod_lavacow:unburied","mod_lavacow:zombiefrozen","mod_lavacow:zombiemushroom","mod_lavacow:zombiepiranha"],
+		"mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior","quark:ashen","quark:dweller","mod_lavacow:unburied","mod_lavacow:zombiefrozen","mod_lavacow:zombiemushroom","mod_lavacow:zombiepiranha","ancientbeasts:boulderer"],
 		"player": true,
 		"item": "contenttweaker:steel_artifact",
 		"itemcount": "1",
@@ -965,6 +965,93 @@
 		"item": "contenttweaker:steel_artifact",
 		"itemcount": "1",
 		"random": "0.5"
+	},
+	// Bundles of Loot //
+	// Bundle of the Just
+	{
+		"mob": ["minecraft:zombie","quark:dweller","mod_lavacow:unburied","mod_lavacow:zombiefrozen","mod_lavacow:zombiemushroom","mod_lavacow:zombiepiranha","ancientbeasts:boulderer","specialmobs:fishingzombie","specialmobs:hungryzombie","specialmobs:huskzombie","specialmobs:plaguezombie","specialmobs:specialzombie"],
+		"player": true,
+		"item": "bundles:bundle",
+		"nbt": {"RepairCost":0,"Color":12798298,"display":{"Name":"Bundle of the Just"},"Amount":16,"Items":[{"id":"minecraft:bone","Count":3,"Damage":0},{"id":"minecraft:fire_charge","Count":3,"Damage":0},{"id":"minecraft:golden_apple","Count":1,"Damage":0},{"id":"minecraft:double_plant","Count":4,"Damage":0},{"id":"arcaneworld:molten_core","Count":1,"Damage":0},{"id":"contenttweaker:material_part","Count":2,"Damage":29},{"id":"contenttweaker:steel_artifact","Count":2,"Damage":0}]},
+		"itemcount": "1",
+		"random": "0.006"
+	},
+	// Bundle of the Experiencer
+	{
+		"mob": ["minecraft:zombie","quark:dweller","mod_lavacow:unburied","mod_lavacow:zombiefrozen","mod_lavacow:zombiemushroom","mod_lavacow:zombiepiranha","ancientbeasts:boulderer","specialmobs:fishingzombie","specialmobs:hungryzombie","specialmobs:huskzombie","specialmobs:plaguezombie","specialmobs:specialzombie"],
+		"player": true,
+		"item": "bundles:bundle",
+		"nbt": {"Color":11773871,"Items":[{"id":"animania:milk_bottle","Count":2,"Damage":0},{"id":"vials:vial_576","Count":1,"Damage":0,"tag":{"Fluid":{"FluidName":"methanol","Amount":500}}},{"id":"rustic:elixir","Count":1,"Damage":0,"tag":{"display":{"LocName":"Simple Bouncy Elixir"},"ElixirEffects":[{"Effect":"cyclicmagic:potion.bounce","Duration":7200,"Amplifier":1}]}},{"id":"betterwithaddons:food_mulberry","Count":5,"Damage":0},{"id":"minecraft:flower_pot","Count":2,"Damage":0}],"Amount":63,"display":{"Name":"Bundle of the Experiencer"},"RepairCost":0},
+		"itemcount": "1",
+		"random": "0.006"
+	},
+	// Bundle of the Dreamer
+	{
+		"mob": ["minecraft:zombie","quark:dweller","mod_lavacow:unburied","mod_lavacow:zombiefrozen","mod_lavacow:zombiemushroom","mod_lavacow:zombiepiranha","ancientbeasts:boulderer","specialmobs:fishingzombie","specialmobs:hungryzombie","specialmobs:huskzombie","specialmobs:plaguezombie","specialmobs:specialzombie"],
+		"player": true,
+		"item": "bundles:bundle",
+		"nbt": {"Color":7570110,"Items":[{"id":"contenttweaker:vis_speck","Count":6,"Damage":0},{"id":"minecraft:book","Count":3,"Damage":0},{"id":"dynamictreesbop:magicseed","Count":2,"Damage":0},{"id":"biomesoplenty:mushroom","Count":2,"Damage":3},{"id":"biomesoplenty:mushroom","Count":2,"Damage":2},{"id":"mod_lavacow:feather_black","Count":2,"Damage":0}],"Amount":17,"display":{"Name":"Bundle of the Dreamer"},"RepairCost":0},
+		"itemcount": "1",
+		"random": "0.006"
+	},
+	// Bundle of the Melancholic
+	{
+		"mob": ["minecraft:zombie","quark:dweller","mod_lavacow:unburied","mod_lavacow:zombiefrozen","mod_lavacow:zombiemushroom","mod_lavacow:zombiepiranha","ancientbeasts:boulderer","specialmobs:fishingzombie","specialmobs:hungryzombie","specialmobs:huskzombie","specialmobs:plaguezombie","specialmobs:specialzombie"],
+		"player": true,
+		"item": "bundles:bundle",
+		"nbt": {"Items":[{"id":"artisanworktables:artisans_quill_gold","Count":1,"Damage":0},{"id":"totf:bundle_of_lost_letters","Count":1,"Damage":0}],"Color":16570456,"display":{"Name":"Bundle of the Melancholic"},"RepairCost":0,"Amount":128},
+		"itemcount": "1",
+		"random": "0.006"
+	},
+	// Bundle of the Strifeful
+	{
+		"mob": ["minecraft:zombie","quark:dweller","mod_lavacow:unburied","mod_lavacow:zombiefrozen","mod_lavacow:zombiemushroom","mod_lavacow:zombiepiranha","ancientbeasts:boulderer","specialmobs:fishingzombie","specialmobs:hungryzombie","specialmobs:huskzombie","specialmobs:plaguezombie","specialmobs:specialzombie"],
+		"player": true,
+		"item": "bundles:bundle",
+		"nbt": {"Color":6966848,"Items":[{"id":"minecraft:flint","Count":3,"Damage":0},{"id":"betterwithmods:material","Count":3,"Damage":26},{"id":"betterwithmods:dynamite_bundle","Count":2,"Damage":0},{"id":"minecraft:gunpowder","Count":4,"Damage":0},{"id":"minetraps:explosive_mine","Count":2,"Damage":0},{"id":"pyrotech:material","Count":3,"Damage":26}],"Amount":17,"display":{"Name":"Bundle of the Strifeful"},"RepairCost":0},
+		"itemcount": "1",
+		"random": "0.006"
+	},
+	// Bundle of the Resigned
+	{
+		"mob": ["minecraft:zombie","quark:dweller","mod_lavacow:unburied","mod_lavacow:zombiefrozen","mod_lavacow:zombiemushroom","mod_lavacow:zombiepiranha","ancientbeasts:boulderer","specialmobs:fishingzombie","specialmobs:hungryzombie","specialmobs:huskzombie","specialmobs:plaguezombie","specialmobs:specialzombie"],
+		"player": true,
+		"item": "bundles:bundle",
+		"nbt": {"Items":[{"id":"minecraft:rabbit_foot","Count":1,"Damage":0},{"id":"contenttweaker:4leaf_clover","Count":2,"Damage":0},{"id":"minecraft:dye","Count":5,"Damage":4},{"id":"quark:rope","Count":4,"Damage":0},{"id":"nyx:fallen_star","Count":1,"Damage":0}],"Amount":13,"Color":10201128,"display":{"Name":"Bundle of the Resigned"},"RepairCost":0},
+		"itemcount": "1",
+		"random": "0.006"
+	},
+	// Bundle of the Penitent
+	{
+		"mob": ["minecraft:zombie","quark:dweller","mod_lavacow:unburied","mod_lavacow:zombiefrozen","mod_lavacow:zombiemushroom","mod_lavacow:zombiepiranha","ancientbeasts:boulderer","specialmobs:fishingzombie","specialmobs:hungryzombie","specialmobs:huskzombie","specialmobs:plaguezombie","specialmobs:specialzombie"],
+		"player": true,
+		"item": "bundles:bundle",
+		"nbt": {"Items":[{"id":"rats:herb_bundle","Count":1,"Damage":0},{"id":"contenttweaker:artificial_nature","Count":1,"Damage":0},{"id":"contenttweaker:bandage","Count":2,"Damage":0},{"id":"animania:milk_bottle","Count":2,"Damage":0}],"Amount":36,"Color":13356838,"display":{"Name":"Bundle of the Penitent"},"RepairCost":0},
+		"itemcount": "1",
+		"random": "0.006"
+	},
+	// Bundle of the Passionate
+	{
+		"mob": ["minecraft:zombie","quark:dweller","mod_lavacow:unburied","mod_lavacow:zombiefrozen","mod_lavacow:zombiemushroom","mod_lavacow:zombiepiranha","ancientbeasts:boulderer","specialmobs:fishingzombie","specialmobs:hungryzombie","specialmobs:huskzombie","specialmobs:plaguezombie","specialmobs:specialzombie"],
+		"player": true,
+		"item": "bundles:bundle",
+		"nbt": {"Items":[{"id":"nyx:fallen_star","Count":2,"Damage":0},{"id":"growthcraft_grapes:grapewine","Count":1,"Damage":20},{"id":"scalinghealth:heartdust","Count":3,"Damage":0},{"id":"primitivemobs:camouflage_dye","Count":2,"Damage":0}],"Amount":15,"Color":13854362,"display":{"Name":"Bundle of the Passionate"},"RepairCost":0},
+		"itemcount": "1",
+		"random": "0.006"
+	},
+	
+	
+	{
+		"mob": ["defiledlands:the_destroyer"],
+		"player": true,
+		"item": "totf:rune_of_skimming",
+		"itemcount": "1",
+		"gamestage": "enteredBeneath"
+	},
+	{
+		"mob": ["defiledlands:the_destroyer"],
+		"remove": "totf:rune_of_skimming",
+		"gamestage": "skimmingrune"
 	},
 	
 	// Ender Creeper

@@ -133,3 +133,4 @@ config/fancymenu/config.txt
 /config/konkrete
 /impossible_data
 /config/fancymenu/locals
+/config/rc_cache

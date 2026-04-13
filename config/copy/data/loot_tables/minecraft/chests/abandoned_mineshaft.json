@@ -24,11 +24,11 @@
           "name": "minecraft:golden_apple"
         },
         {
-          "entryName": "minecraft:name_tag",
-          "weight": 30,
-          "quality": 0,
+          "entryName": "totf:old_world_tinkers_kit",
+          "weight": 4,
+          "quality": 2,
           "type": "item",
-          "name": "minecraft:name_tag"
+          "name": "totf:old_world_tinkers_kit"
         },
         {
           "entryName": "minecraft:iron_pickaxe",

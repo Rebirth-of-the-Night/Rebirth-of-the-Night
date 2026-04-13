@@ -5,7 +5,7 @@ setDescription("Obtain Quintessence.")
 addParent("triumph:advancements/magick/leyoftheland/magicite")
 
 criteria = addCriteria("Quintessence Obtain", "minecraft:inventory_changed")
-criteria.addItem(<ore:ore:anyQuintessence>)
+criteria.addItem(<ore:anyQuintessence>)
 
 alwaysVisible()
 // (horizontal, vertical)
