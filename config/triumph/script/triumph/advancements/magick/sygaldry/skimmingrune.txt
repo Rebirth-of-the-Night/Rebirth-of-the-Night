@@ -2,7 +2,6 @@ setIcon(<totf:rune_of_skimming>)
 setTitle("A Step Ahead Of An Empire")
 setDescription("Find a unique rune from eras forgotten.")
 
-
 addParent("triumph:advancements/magick/sygaldry/sygaldry")
 
 criteria = addCriteria("A Step Ahead Of An Empire", "minecraft:inventory_changed")
