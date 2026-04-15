@@ -291,9 +291,9 @@ recipes.addShaped("stone_cutter", <futuremc:stonecutter>,[
 // hand crank
 recipes.remove(<betterwithmods:hand_crank>);
 recipes.addShaped("hand_crank", <betterwithmods:hand_crank>,[
-	[null, null, stick],
-    [null, <spartanweaponry:material>, null],
-	[cobblestone, gear_wood, cobblestone]
+	[null, null, null],
+    [null, <ore:lever>, null],
+	[<ore:rock>, gear_wood, <ore:rock>]
 ]);
 // gearboxes
 recipes.remove(<betterwithmods:wooden_gearbox>);

@@ -30,6 +30,8 @@ val bwaArray = [
     <betterwithaddons:japanmat:36>,
     <betterwithaddons:decomat:1>,
     <betterwithaddons:decomat:2>,
+    <betterwithaddons:decomat:3>,
+    <betterwithaddons:world_scale_ore:1>,
     <betterwithaddons:tweakmat>,
     <betterwithaddons:katana>,
     <betterwithaddons:tanto>,
