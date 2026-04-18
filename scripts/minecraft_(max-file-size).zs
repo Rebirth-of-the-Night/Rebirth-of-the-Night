@@ -10,36 +10,9 @@ import mods.artisanworktables.builder.RecipeBuilder;
 import mods.ltt.LootTable;
 import mods.betterwithmods.MiniBlocks;
 
-// brewing.addBrew(IIngredient input, IIngredient ingredient, IItemStack output, @Optional boolean hidden);
-// brewing.addBrew(<minecraft:splash_potion>, <minecraft:emerald>, <minecraft:experience_bottle>);
-
-brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:ghast_tear>);
-brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <inspirations:edibles>);
-brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:regeneration"}), <minecraft:redstone>);
-brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:regeneration"}), <minecraft:glowstone_dust>);
-brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:regeneration"}), <randomthings:glowingmushroom>);
-
-brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:regeneration"}), <minecraft:gunpowder>);
-brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:long_regeneration"}), <minecraft:gunpowder>);
-brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:strong_regeneration"}), <minecraft:gunpowder>);
-
-brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:regeneration"}), <minecraft:redstone>);
-brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:regeneration"}), <minecraft:glowstone_dust>);
-brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:regeneration"}), <randomthings:glowingmushroom>);
-
-brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:regeneration"}), <minecraft:dragon_breath>);
-brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:long_regeneration"}), <minecraft:dragon_breath>);
-brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:strong_regeneration"}), <minecraft:dragon_breath>);
-
-brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:regeneration"}), <minecraft:redstone>);
-brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:regeneration"}), <minecraft:glowstone_dust>);
-brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:regeneration"}), <randomthings:glowingmushroom>);
-
-brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:ghast_tear>);
-brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"}), <inspirations:edibles>);
-
-brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:ghast_tear>);
-brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:awkward"}), <inspirations:edibles>);
+// Item Reset
+recipes.addShapeless("slayer_to_book",<minecraft:book>,[<contenttweaker:slayers_tattered_journal:*>]);
+recipes.addShapeless("todo_list",<clipboard:clipboard>,[<clipboard:clipboard:*>]);
 
 // Vanilla MC hiding
 JEI.removeAndHide(<minecraft:end_portal>);
@@ -66,13 +39,6 @@ JEI.removeAndHide(<forge:bucketfilled:*>);
 recipes.remove(<minecraft:tnt>);
 recipes.addShapeless("tnt_dynamite",<minecraft:tnt>,[ <betterwithmods:dynamite_bundle>, <betterwithmods:dynamite_bundle>, <betterwithmods:dynamite_bundle>, <betterwithmods:dynamite_bundle>]);
 recipes.addShapeless("dynamite_tnt",<betterwithmods:dynamite_bundle>*4,[<minecraft:tnt>]);
-
-// Weapon changes
-recipes.remove(<rats:feral_bagh_nakhs>);
-JEI.removeAndHide(<rats:feral_bagh_nakhs>);
-
-recipes.remove(<spartanweaponry:arrow_explosive>);
-JEI.removeAndHide(<spartanweaponry:arrow_explosive>);
 
 recipes.remove(<minecraft:minecart>);
 recipes.addShaped("minecart", <minecraft:minecart>, [

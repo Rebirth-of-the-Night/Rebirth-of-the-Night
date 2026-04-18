@@ -10,6 +10,38 @@ import mods.artisanworktables.builder.RecipeBuilder;
 import mods.contenttweaker.CreativeTab;
 import mods.contenttweaker.VanillaFactory;
 
+//Vanilla Stuff
+// brewing.addBrew(IIngredient input, IIngredient ingredient, IItemStack output, @Optional boolean hidden);
+// brewing.addBrew(<minecraft:splash_potion>, <minecraft:emerald>, <minecraft:experience_bottle>);
+
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:ghast_tear>);
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <inspirations:edibles>);
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:regeneration"}), <minecraft:redstone>);
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:regeneration"}), <minecraft:glowstone_dust>);
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:regeneration"}), <randomthings:glowingmushroom>);
+
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:regeneration"}), <minecraft:gunpowder>);
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:long_regeneration"}), <minecraft:gunpowder>);
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:strong_regeneration"}), <minecraft:gunpowder>);
+
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:regeneration"}), <minecraft:redstone>);
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:regeneration"}), <minecraft:glowstone_dust>);
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:regeneration"}), <randomthings:glowingmushroom>);
+
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:regeneration"}), <minecraft:dragon_breath>);
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:long_regeneration"}), <minecraft:dragon_breath>);
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:strong_regeneration"}), <minecraft:dragon_breath>);
+
+brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:regeneration"}), <minecraft:redstone>);
+brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:regeneration"}), <minecraft:glowstone_dust>);
+brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:regeneration"}), <randomthings:glowingmushroom>);
+
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:ghast_tear>);
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"}), <inspirations:edibles>);
+
+brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:ghast_tear>);
+brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:awkward"}), <inspirations:edibles>);
+
 //Define ingredients
 var thistle = <rustic:wind_thistle>;
 var fasthaw = <cyclicmagic:horse_upgrade_speed>;

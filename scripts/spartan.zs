@@ -623,6 +623,9 @@ JEI.addItem(<spartanweaponry:staff_diamond>.withTag({display: {Name: "§aAlexand
 JEI.addItem(<spartanweaponry:throwing_knife_diamond>.withTag({display: {Name: "§bDiamond Bo-Shuriken"}}));
 JEI.addItem(<spartanweaponry:throwing_axe_diamond>.withTag({display: {Name: "§cRuby Trumbash"}})); 
 
+recipes.remove(<spartanweaponry:arrow_explosive>);
+JEI.removeAndHide(<spartanweaponry:arrow_explosive>);
+
 JEI.removeAndHide(<spartanweaponry:warhammer_diamond>);
 JEI.removeAndHide(<spartanweaponry:spear_diamond>);
 JEI.removeAndHide(<spartanweaponry:pike_diamond>);

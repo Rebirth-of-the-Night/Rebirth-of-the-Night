@@ -36,6 +36,7 @@ recipes.addShapeless("lightblue_bundle_pouch", <bundles:bundle>.withTag({Color: 
 recipes.addShapeless("magenta_bundle_pouch", <bundles:bundle>.withTag({Color: -13}), [<bundles:bundle>.withTag({}), <ore:dyeMagenta>]);
 recipes.addShapeless("orange_bundle_pouch", <bundles:bundle>.withTag({Color: -14}), [<bundles:bundle>.withTag({}), <ore:dyeOrange>]);
 recipes.addShapeless("white_bundle_pouch", <bundles:bundle>.withTag({Color: -15}), [<bundles:bundle>.withTag({}), <ore:dyeWhite>]);
+ */
 
 // Remove dye from bundle
-recipes.addShapeless("clean_bundle_pouch", <bundles:bundle>, [bundlePouch, <betterwithaddons:decomat>]); */
+recipes.addShapeless("clean_bundle_pouch", <bundles:bundle>, [bundlePouch, <ore:soap>]);

@@ -3852,3 +3852,5 @@ ExSartagine.addKettleRecipe([woodChips], null, waterBucket, <liquid:methanol>*10
 //clean water
 ExSartagine.addKettleRecipe([null],<ore:soap>,<liquid:water>*1000,null,[null], 1200, -5000);//liquid
 
+//soap
+ExSartagine.addKettleRecipe([<betterwithmods:material:21>, <betterwithaddons:decomat>|<quark:tallow>],null,<liquid:water>*200,null,[<betterwithmods:material:50>],2400,-1000);//liquid

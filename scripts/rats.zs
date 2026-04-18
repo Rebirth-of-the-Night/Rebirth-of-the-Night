@@ -12,6 +12,9 @@ recipes.addShapeless("marbled_cheese_dirt",<rats:marbled_cheese_dirt>,[<rats:mar
 recipes.remove(<rats:marbled_cheese_grass>);
 recipes.addShapeless("marbled_cheese_grass",<rats:marbled_cheese_grass>,[<rats:marbled_cheese>,<ore:grass>]);
 
+recipes.remove(<rats:feral_bagh_nakhs>);
+JEI.removeAndHide(<rats:feral_bagh_nakhs>);
+
 // renamed
 <rats:black_death_mask>.addTooltip(format.darkPurple("Epic Armor"));
 <rats:plague_scythe>.addTooltip(format.gold("Legendary Weapon"));
