@@ -287,5 +287,5 @@ Alembic.beginAlembicRecipe(400)
   .setHeatLevels(4)
   .setInputItem(<betterwithmods:material:21>)
   .setInputFluid(<liquid:concentrated_bioflow>*250)
-  .setOutputItem(<contenttweaker:raw_tin>, <da:knight_shard>)
+  .setOutputItem(<da:knight_shard>, <contenttweaker:raw_tin>)
   .addToAlembic();
