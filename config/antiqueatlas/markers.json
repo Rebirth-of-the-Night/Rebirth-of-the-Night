@@ -44,10 +44,19 @@
     "antiqueatlas:end_city_mipped_32": {},
     "antiqueatlas:farm": {},
     "antiqueatlas:google": {},
+    "antiqueatlas:lycanites": {},
     "antiqueatlas:megatower": {},
+    "antiqueatlas:monsterspawner": {},
     "antiqueatlas:nether_portal": {},
     "antiqueatlas:parasite": {},
     "antiqueatlas:pickaxe": {},
+    "antiqueatlas:pirani_platform": {
+      "textures": [
+        "antiqueatlas:textures/gui/markers/pirani_platform.png"
+      ],
+      "isTile": true,
+      "isTechnical": false
+    },
     "antiqueatlas:quadtower": {},
     "antiqueatlas:red_x_large": {},
     "antiqueatlas:red_x_small": {},
@@ -58,13 +67,6 @@
     "antiqueatlas:spinebud": {
       "textures": [
         "antiqueatlas:textures/gui/markers/spinebud.png"
-      ],
-      "isTile": true,
-      "isTechnical": false
-    },
-	"antiqueatlas:pirani_platform": {
-      "textures": [
-        "antiqueatlas:textures/gui/markers/pirani_platform.png"
       ],
       "isTile": true,
       "isTechnical": false

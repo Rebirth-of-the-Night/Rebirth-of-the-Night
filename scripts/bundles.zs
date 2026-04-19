@@ -39,4 +39,4 @@ recipes.addShapeless("white_bundle_pouch", <bundles:bundle>.withTag({Color: -15}
  */
 
 // Remove dye from bundle
-recipes.addShapeless("clean_bundle_pouch", <bundles:bundle>, [bundlePouch, <ore:soap>]);
+recipes.addShapeless("clean_bundle_pouch", <bundles:bundle>, [<bundles:bundle:*>, <ore:soap>]);
