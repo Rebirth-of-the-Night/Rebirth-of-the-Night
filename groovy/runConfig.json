@@ -1,0 +1,22 @@
+{
+  "packName": "PlaceHolder name",
+  "packId": "placeholdername",
+  "author": "Placeholder, author",
+  "version": "1.0.0",
+  "debug": false,
+  "loaders": {
+    "preInit": [
+      "classes/",
+      "preInit/"
+    ],
+    "postInit": [
+      "postInit/"
+    ]
+  },
+  "packmode": {
+    "values": [],
+    "default": "",
+    "_comment": "By default the packmode is not synced with the packmode mod. You can enable integration, but you can no longer change packmode on the fly.",
+    "integratePackmodeMod": false
+  }
+}

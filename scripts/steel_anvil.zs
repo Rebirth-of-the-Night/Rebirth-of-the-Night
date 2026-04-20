@@ -140,7 +140,7 @@ Anvil.addShaped(<spartanweaponry:pike_invar>,[
     [null, null, null, <contenttweaker:electrum_core>],
     [null, <ore:ingotElectrum>, <spartanfire:witherbone_handle>, null],
     [<ore:ingotElectrum>, <spartanfire:witherbone_handle>, <ore:ingotElectrum>, null],
-    [<ore:ingotElectrum>, <ore:ingotElectrum>, null, null]
+    [<ore:ingotSilver>, <ore:ingotElectrum>, null, null]
 ]);
 
 recipes.remove(<twilightforest:steeleaf_boots>);
