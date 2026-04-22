@@ -1,0 +1,23 @@
+setIcon(<pyrotech:tinder>)
+setTitle("Dried Fiber")
+setDescription("Obtain Dried Fiber, either from cutting tall grass, or from drying fresh fibers.")
+
+
+addParent("triumph:advancements/techtree/root")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+criteria = addCriteria("Dried Fiber", "minecraft:inventory_changed")
+criteria.addItem("pyrotech:tinder")
+
+criteria = addCriteria("Refractory Kiln", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/techtree/campfire")
+
+hideLines()
+
+alwaysVisible()
+setPos(-284,2)

@@ -159,6 +159,8 @@ GCT.addRecipe("magicinfused_wood1", <biomesoplenty:log_1:5>*16, [<arcanearchives
 GCT.addRecipe("magicinfused_wood2", <biomesoplenty:log_1:5>*64, [<arcanearchives:radiant_dust>*2, <contenttweaker:magic_blend>*2, <ore:mundaneWood>*64]);
 
 GCT.addRecipe("brass_bearing", <behgameon:accessory_17>*1, [<contenttweaker:material_part:46>*9, <contenttweaker:material_part:45>]);
+// temporary
+GCT.addRecipe("ghast_queen_tear", <netherex:ghast_queen_tear>, [<minecraft:nether_star>, <quark:biotite>*8, <biomesoplenty:biome_essence>, <minecraft:ghast_tear>*3, <minecraft:ender_eye>*3]);
 
 //Radiant Chests
 recipes.remove(<arcanearchives:radiant_chest>);

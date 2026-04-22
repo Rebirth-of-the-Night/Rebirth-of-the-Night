@@ -11,8 +11,9 @@ setShowToast(true)
 
 //Set the advancement to not send a chat message when it is achieved.
 setAnnounceToChat(true)
-setFrameType("GOAL")
+
 setUncompletedIconColor(217,255,92)
+setCompletedIconColor(255, 255, 0)
 
 criteria = addCriteria("Windmill", "minecraft:inventory_changed")
 criteria.addItem("betterwithmods:axle_generator")
