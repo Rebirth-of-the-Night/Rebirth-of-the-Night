@@ -637,6 +637,11 @@ JEI.removeAndHide(<spartanweaponry:dagger_diamond>);
 JEI.removeAndHide(<spartanweaponry:battleaxe_diamond>);
 
 // Scythes
+JEI.removeAndHide(<spartanweaponry:scythe_wood>);
+JEI.removeAndHide(<spartanweaponry:scythe_stone>);
+JEI.removeAndHide(<spartanweaponry:scythe_iron>);
+JEI.removeAndHide(<spartanweaponry:scythe_gold>);
+JEI.removeAndHide(<spartanweaponry:scythe_diamond>);
 JEI.removeAndHide(<spartanweaponry:scythe_steel>);
 JEI.removeAndHide(<spartanweaponry:scythe_tin>);
 JEI.removeAndHide(<spartanweaponry:scythe_silver>);

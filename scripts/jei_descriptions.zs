@@ -275,6 +275,7 @@ JEI.addDescription(denseRedstone, "The purest variety of redstone, it pulsates f
 JEI.addDescription(kaolin_quartz, "A valuable cluster of high quality quartz obtained from the Nether; it contains a good amount of kaolin, the most important component in the elaboration of porcelain.");
 JEI.addDescription(<betterwithmods:material:15>, "The dust of dried, flesh-like rock. It instantly becomes a viscuous substance when touching fluids; a conveyor belt could be another method of transport for this...");
 JEI.addDescription(ground_nether_dust, "The dust of dried, flesh-like rock. It instantly becomes a viscuous substance when touching fluids; a conveyor belt could be another method of transport for this...");
+JEI.addDescription(<iceandfire:stymphalian_bird_feather>, "Highly metallic feathers that can be renewably acquired reliably by letting oneself be hit constantly by the bird's attacks... Not the most pleasant experience.");
 JEI.addDescription(<rustic:rope>, "Used for supporting various plants so that they can grow, such as Roma tomatoes and Cayenne chilies. Can be tied onto a crop stake.");
 JEI.addDescription(<rustic:crop_stake>, "Used for supporting various plants so that they can grow, such as Roma tomatoes and Cayenne chilies. Simple Rope can be tied onto a crop stake.");
 JEI.addDescription(expertly_crafted_arrow_head, "This arrow head is of an exquisite quality and was clearly made by the hand of someone who has dedicated their whole life to their profession. It may be used by an equally talented fletcher to make high grade arrows.");
