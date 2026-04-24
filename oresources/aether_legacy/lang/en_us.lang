@@ -1,4 +1,9 @@
-﻿gui.valkyrie.dialog.1=What's that? You want to fight? Aww, what a bold little human!
+﻿entity.valkyrie.name=Val-Mitter
+entity.valkyrie_queen.name=Val-Kaisis Steward
+
+title.aether_legacy.valkyrie_queen.name=the Val-Kaisis Steward
+
+gui.valkyrie.dialog.1=What's that? You want to fight? Aww, what a bold little human!
 gui.valkyrie.dialog.2=You're not seriously thinking of fighting a real Valkyrie, are you?
 gui.valkyrie.dialog.3=I don't think you should bother me, little human. You could really get hurt.
 
@@ -7,7 +12,7 @@ gui.valkyrie.dialog.medal.2=You think yourself special? I won't hold back.
 gui.valkyrie.dialog.medal.3=Why do you show me this medal, human? Are you boasting? That's cute.
 
 gui.valkyrie.dialog.defeated.1=Alright! You win!
-gui.valkyrie.dialog.defeated.2=Did the queen convince you to do this? 
+gui.valkyrie.dialog.defeated.2=Did the steward convince you to do this? 
 gui.valkyrie.dialog.defeated.3=Ow! Take your damned medal...
 
 gui.valkyrie.dialog.attack.1=I'm not going easy on you!
@@ -35,7 +40,7 @@ gui.queen.lost=As expected.
 
 gui.queen.dialog.0=What can you tell me about this place?
 
-gui.queen.answer.0=This temple is a sanctuary for Valkyries to seek rest and train their skills. I am not sure how a human came to this realm... but if I were you, I would not dwell here for long.
+gui.queen.answer.0=This temple is a sanctuary built long ago, now a school for young Valken to seek rest and train their skills. I am not sure how a lowlander came to this realm... but if I were you, I would not dwell here for long.
 gui.queen.answer.1=Very well, then. Bring me ten medals from the sisters of battle to prove your worth, and then we'll see if you are ready.
 gui.queen.answer.2=Farewell.
 
