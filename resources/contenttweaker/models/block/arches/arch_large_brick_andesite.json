@@ -1,0 +1,7 @@
+{
+  "parent": "contenttweaker:block/arches/arch_large_brick_red_granite",
+  "textures": {
+    "particle": "undergroundbiomes:blocks/andesite_brick",
+    "0": "undergroundbiomes:blocks/andesite_brick"
+  }
+}

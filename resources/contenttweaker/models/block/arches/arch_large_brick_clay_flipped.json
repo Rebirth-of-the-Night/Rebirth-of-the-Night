@@ -1,0 +1,7 @@
+{
+  "parent": "contenttweaker:block/arches/arch_large_brick_red_granite_flipped",
+  "textures": {
+    "particle": "blocks/brick",
+    "0": "blocks/brick"
+  }
+}

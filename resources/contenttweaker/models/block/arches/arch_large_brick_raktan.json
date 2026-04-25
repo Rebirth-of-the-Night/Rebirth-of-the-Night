@@ -1,0 +1,7 @@
+{
+  "parent": "contenttweaker:block/arches/arch_large_brick_red_granite",
+  "textures": {
+    "particle": "contenttweaker:blocks/brick_raktan",
+    "0": "contenttweaker:blocks/brick_raktan"
+  }
+}

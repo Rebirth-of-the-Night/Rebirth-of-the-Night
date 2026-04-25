@@ -1,0 +1,7 @@
+{
+  "parent": "contenttweaker:block/arches/arch_large_brick_red_granite",
+  "textures": {
+    "particle": "biomesoplenty:blocks/mud_brick_block",
+    "0": "biomesoplenty:blocks/mud_brick_block"
+  }
+}

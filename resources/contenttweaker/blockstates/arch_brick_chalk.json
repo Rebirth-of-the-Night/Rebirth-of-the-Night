@@ -1,0 +1,73 @@
+{
+  "variants": {
+
+    "facing=north,plane_rot=down": {
+      "model": "contenttweaker:arches/arch_brick_chalk"
+    },
+    "facing=east,plane_rot=down": {
+      "model": "contenttweaker:arches/arch_brick_chalk",
+      "y": 90
+    },
+    "facing=south,plane_rot=down": {
+      "model": "contenttweaker:arches/arch_brick_chalk",
+      "y": 180
+    },
+    "facing=west,plane_rot=down": {
+      "model": "contenttweaker:arches/arch_brick_chalk",
+      "y": 270
+    },
+    "facing=north,plane_rot=up": {
+      "model": "contenttweaker:arches/arch_brick_chalk",
+      "y": 180,
+      "x": 180
+    },
+    "facing=east,plane_rot=up": {
+      "model": "contenttweaker:arches/arch_brick_chalk",
+      "y": 270,
+      "x": 180
+    },
+    "facing=south,plane_rot=up": {
+      "model": "contenttweaker:arches/arch_brick_chalk",
+      "x": 180
+    },
+    "facing=west,plane_rot=up": {
+      "model": "contenttweaker:arches/arch_brick_chalk",
+      "y": 90,
+      "x": 180
+    },
+    "facing=north,plane_rot=left": {
+      "model": "contenttweaker:arches/arch_brick_chalk_flipped"
+    },
+    "facing=east,plane_rot=left": {
+      "model": "contenttweaker:arches/arch_brick_chalk_flipped",
+      "y": 90
+    },
+    "facing=south,plane_rot=left": {
+      "model": "contenttweaker:arches/arch_brick_chalk_flipped",
+      "y": 180
+    },
+    "facing=west,plane_rot=left": {
+      "model": "contenttweaker:arches/arch_brick_chalk_flipped",
+      "y": 270
+    },
+      "facing=north,plane_rot=right": {
+      "model": "contenttweaker:arches/arch_brick_chalk_flipped",
+      "y": 180,
+      "x": 180
+    },
+    "facing=east,plane_rot=right": {
+      "model": "contenttweaker:arches/arch_brick_chalk_flipped",
+      "y": 270,
+      "x": 180
+    },
+    "facing=south,plane_rot=right": {
+      "model": "contenttweaker:arches/arch_brick_chalk_flipped",
+      "x": 180
+    },
+    "facing=west,plane_rot=right": {
+      "model": "contenttweaker:arches/arch_brick_chalk_flipped",
+      "y": 90,
+      "x": 180
+    }
+  }
+}

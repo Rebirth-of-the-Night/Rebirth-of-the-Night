@@ -1,0 +1,7 @@
+{
+  "parent": "contenttweaker:block/arches/arch_large_brick_red_granite_flipped",
+  "textures": {
+    "particle": "undergroundbiomes:blocks/migmatite_brick",
+    "0": "undergroundbiomes:blocks/migmatite_brick"
+  }
+}
