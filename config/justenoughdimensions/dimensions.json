@@ -1,0 +1,215 @@
+{
+    "dimensions": [
+		{
+            "dim": 9,
+            "chunkgenerator": "com.noobanidus.superflatcaves.ChunkGeneratorFlatCaves",
+            "dimensiontype": {
+                "id": 9,
+                "name": "Skylands",
+                "suffix": "_dim9",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED",
+                "require_exact_match": true
+            },
+            "worldinfo": {
+                "generatorName": "flat",
+                "generatorOptions": "3;256*minecraft:air;1;caves,ravines,decoration"
+            },
+            "worldinfo_onetime": {
+                "SpawnX": 256,
+                "SpawnY": 32,
+                "SpawnZ": 256,
+                "GameRules": {
+                    "doWeatherCycle": "false"
+                }
+            },
+            "jed": {
+                "SkyColor": "89b6ff",
+                "CloudHeight": -80
+            }
+        },
+        {
+            "dim": 27,
+		    "biome": "biometweaker:depths",
+            "chunkgenerator": "com.shinoow.beneath.common.world.gen.ChunkProviderDeepDank",
+            "dimensiontype": {
+                "id": 27,
+                "name": "The Depths",
+                "suffix": "_dim27",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderHellJED",
+                "require_exact_match": true
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyColor": "000000",
+                "FogColor": "834210",
+                "SkyDisableFlags": 7
+            },
+            "worldinfo": {
+                "generatorName": "flat",
+                "generatorOptions": "3;1*minecraft:bedrock,254*minecraft:stone,1*minecraft:bedrock;1;caves,ravines,decoration,mineshaft"
+            }
+        },
+        {
+            "dim": 100,
+            "biome": "minecraft:void",
+            "dimensiontype": {
+                "id": 100,
+                "name": "Worldspines",
+                "worldprovider": "WorldProviderSurfaceJED",
+                "require_exact_match": true
+            },
+            "worldinfo_onetime": {
+                "generatorName": "flat",
+                "generatorOptions": "3;minecraft:air;1;"
+            }
+        },
+        {
+            "dim": 999,
+            "biome": "minecraft:hell",
+            "chunkgenerator": "com.shinoow.beneath.common.world.gen.ChunkProviderDeepDank",
+            "dimensiontype": {
+                "id": 999,
+                "name": "The Core",
+                "suffix": "_dim999",
+                "keeploaded": false,
+                "require_exact_match": true,
+                "worldprovider": "WorldProviderHellJED"
+            },
+            "worldinfo_onetime": {
+                "RandomSeed": "",
+                "GameRules": {
+                    "doMobSpawning": "false"
+                },
+				"generatorName": "customized",
+                "generatorOptions": "{\"useRavines\":false,\"useDungeons\":false}"
+            },
+            "jed": {
+                "CanRespawnHere": false,
+                "FogColor": "000000",
+                "SkyColor": "000000",
+                "HasXZFog": true,
+                "IsSurfaceWorld": false,
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+				"MovementFactor": 1
+            }
+        },
+		{
+            "dim": 666,
+            "normal_biomes": true,
+            "dimensiontype": {
+                "id": 666,
+                "name": "The End Citadel",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderEndJED",
+                "require_exact_match": true
+            },
+            "spawn_structure": {
+                "name": "end_citadel.nbt",
+                "centered": true,
+                "offset": [8, -3, 0]
+            },
+            "worldinfo_onetime": {
+                "generatorName": "flat",
+                "generatorOptions": "3;minecraft:air;1;",
+                "SpawnX": 256,
+                "SpawnY": 32,
+                "SpawnZ": 256,
+                "GameRules": {
+                    "spawnRadius": "0"
+                },
+				"BorderSize": 1024,
+                "BorderSizeLerpTarget": 1024,
+				"GameType": 2
+            },
+			"jed": {
+                "WorldBorderCenteredOnSpawn": true,
+				"ForceGameMode": true
+            }
+        },
+		{
+            "dim": -343800852,
+            "unregister": true,
+            "disable_teleporting_to": true
+        },
+		{
+            "dim": 7,
+			"override": true,
+            "jed": {
+                "RespawnDimension": 0
+            }
+        },
+        {
+            "dim": 28,
+            "biome": "biometweaker:abyssal_depths",
+            "dimensiontype": {
+                "id": 28,
+                "name": "Water Abyss",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED",
+                "require_exact_match": true
+            },
+            "worldinfo_onetime": {
+                "generatorName": "flat",
+                "generatorOptions": "3;1*minecraft:bedrock,100*minecraft:stone,1*minecraft:bedrock;1;caves,decoration",
+                "DayTime": 18000,
+                "GameRules": {
+                    "doDaylightCycle": "false"
+                }
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "CloudRenderer": "DummyRenderer",
+                "SkyBlend": 1.0,
+                "DisableDawnDuskColors": true,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "CanRespawnHere": false,
+                "RespawnDimension": 0,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 10,
+                    "max_y": 240
+                }
+            }
+        },
+        {
+            "dim": 26,
+            "biome": "biometweaker:abyssal_depths",
+            "dimensiontype": {
+                "id": 26,
+                "name": "Unknown Abyss",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED",
+                "require_exact_match": true
+            },
+            "worldinfo_onetime": {
+                "generatorName": "flat",
+                "generatorOptions": "3;1*minecraft:bedrock,100*minecraft:stone,1*minecraft:bedrock;1;caves,decoration",
+                "DayTime": 18000,
+                "GameRules": {
+                    "doDaylightCycle": "false"
+                }
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "CloudRenderer": "DummyRenderer",
+                "SkyBlend": 0.5,
+                "DisableDawnDuskColors": true,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "CanRespawnHere": false,
+                "RespawnDimension": 100,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 10,
+                    "max_y": 240
+                }
+            }
+        }
+    ]
+}
