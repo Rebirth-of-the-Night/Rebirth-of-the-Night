@@ -14,21 +14,51 @@ import mods.advancedmortars.Mortar;
 
 val elec = <ore:ingotElectrum>.firstItem;
 val elecnugget = <ore:nuggetElectrum>.firstItem;
+val elecblock = <ore:blockElectrum>.firstItem;
+val elecslab = <contentcreator:electrum_slab>;
 
 //BLOCKS
-recipes.addShaped("electrum_to_block",<ore:blockElectrum>.firstItem, [
+recipes.addShaped("electrum_to_block",elecblock, [
     [elec, elec, elec],
     [elec, elec, elec], 
     [elec, elec, elec]
 ]);
 recipes.addShapeless("block_to_electrum",<ore:ingotElectrum>.firstItem* 9,
-    [<ore:blockElectrum>]
+    [elecblock]
 );
 recipes.addShaped("electrum_to_plateBlock",<contenttweaker:electrum_plate> * 24, [
     [elec, elec, elec],
     [elec, <minetraps:nails:*>, elec], 
     [elec, elec, elec]
 ]);
+
+recipes.addShaped("plateBlock_to_electrum",elec * 3, [
+    [<contenttweaker:electrum_plate>, <contenttweaker:electrum_plate>, <contenttweaker:electrum_plate>],
+    [<contenttweaker:electrum_plate>, null, <contenttweaker:electrum_plate>], 
+    [<contenttweaker:electrum_plate>, <contenttweaker:electrum_plate>, <contenttweaker:electrum_plate>]
+]);
+
+recipes.addShaped("electrum_trapdoor",<bblsom:electrum_trapdoor>, [
+    [elec, elec],
+    [elec, elec]
+]);
+
+recipes.addShaped("electrum_to_slab",elecslab * 6, [
+    [elecblock, elecblock, elecblock]
+]);
+recipes.addShapeless("slab_to_electrum",elecblock, [elecslab, elecslab]);
+
+recipes.addShapedMirrored("electrum_to_stairs",<contentcreator:electrum_stairs> * 8, [
+    [elecblock, null, null],
+	[elecblock, elecblock, null],
+	[elecblock, elecblock, elecblock]
+]);
+recipes.addShapedMirrored("electrum_slab_to_stairs",<contentcreator:electrum_stairs> * 4, [
+    [elecslab, null, null],
+	[elecslab, elecslab, null],
+	[elecslab, elecslab, elecslab]
+]);
+recipes.addShapeless("stairs_to_electrum",elecblock*3, [<contentcreator:electrum_stairs>,<contentcreator:electrum_stairs>,<contentcreator:electrum_stairs>,<contentcreator:electrum_stairs>]);
 
 //ELECTRUM RECIPES
 recipes.addShaped("electrum_nugget_to_ingot",elec, [
