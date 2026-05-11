@@ -1,0 +1,273 @@
+# ============================================================
+# Core Effect Name
+# ============================================================
+
+# Name of the Comfort status effect shown in the inventory/effects UI
+chunkcomfort.effects.comfort=Comfort
+
+
+# ============================================================
+# Headers and General Tooltips
+# ============================================================
+
+# Main header shown at the top of Comfort-related tooltips
+tooltip.chunkcomfort.header=§8[§6Hold CTRL for comfort info§8]
+
+# Tooltip shown for blocks counted as valid comfort fire sources
+# (campfires, fireplaces, etc.)
+tooltip.chunkcomfort.fireblocks=§6A comfy symbol of home, key to establishing a sheltered comfort zone.
+
+# Tooltip for items capable of creating a valid comfort fire
+# (flint & steel, fire charges, etc.)
+tooltip.chunkcomfort.firestarters=§6UNUSED LANG.
+
+tooltip.chunkcomfort.inactive=§8[§6CC§8] §7Place a hearth or bed in a sheltered area to begin making it a comfortable home.
+
+tooltip.chunkcomfort.blacklisted.environment=§8[§6CC§8] §7This place feels deeply unnatural, as if the land itself rejects comfort.
+
+tooltip.chunkcomfort.blacklisted.boss=§8[§6CC§8] §7A powerful presence looms nearby, comfort is impossible while it draws breath.
+
+tooltip.chunkcomfort.level=§6Comfort: %1$s/%2$s
+tooltip.chunkcomfort.level.next=§6Points to next level: %1$s
+tooltip.chunkcomfort.level.maxed=Comfort is at its peak
+
+tooltip.chunkcomfort.positive.effects=§2Comfort Effects:
+tooltip.chunkcomfort.positive.effects.plus=§a+
+tooltip.chunkcomfort.negative.effects=§4Negated Effects:
+tooltip.chunkcomfort.positive.effects.minus=§c-
+
+tooltip.chunkcomfort.spacer=
+
+# ============================================================
+# Group Tooltip Descriptions (Ctrl + Hover over tooltip shows this description)
+# ============================================================
+
+tooltip.chunkcomfort.hidden.furniture=§7You settle into the quiet of your home, where every chair, table, and shelf feels like it has learned your rhythm. Nothing rushes here, only the soft certainty of being where you belong.
+
+tooltip.chunkcomfort.hidden.workstation=§7Tools rest where they were last used, as if the work never truly stopped. There is purpose in the air here, a quiet promise that anything you need can be made with time and effort.
+
+tooltip.chunkcomfort.hidden.enchanting=§7The air feels thinner here, like reality is holding its breath. Soft whispers of forgotten knowledge linger at the edges of your thoughts, just out of understanding.
+
+tooltip.chunkcomfort.hidden.luxury=§7Everything here feels intentional. Not necessary, but chosen. The space reminds you that comfort is not survival, but something greater you build for yourself.
+
+tooltip.chunkcomfort.hidden.lightsources=§7Warm light spills across the walls, pushing back the uncertainty beyond them. In its glow, the world feels smaller, safer, and easier to understand.
+
+tooltip.chunkcomfort.hidden.wild=§7It's been like any other day as the sun sets and you close the shutters, light the candles, and just before the last light fades, you pause. Outside, your eyes meet something alive: a rabbit on the hill, still for a moment, before it turns away to the safety of night. For a brief instant, you are part of the same quiet world.
+
+tooltip.chunkcomfort.hidden.pets=§7Somewhere nearby, a familiar presence shifts or breathes. You don’t look up, you don’t need to. The comfort is in knowing you are not alone here.
+
+tooltip.chunkcomfort.hidden.mounts=§7Resting nearby, strength waits patiently for the next journey. There is trust here, earned through distance traveled and paths survived together.
+
+tooltip.chunkcomfort.hidden.legendary=§7Even still, this place feels different. As if something rare once stood here and left a trace behind that refuses to fade.
+
+tooltip.chunkcomfort.hidden.collectibles=§7Small reminders of where you’ve been and what you’ve survived line the space around you. None are necessary, but all of them matter.
+
+tooltip.chunkcomfort.hidden.kitchen=§7The air carries traces of meals shared and meals yet to come. Hunger feels distant here, replaced by the quiet rhythm of preparation and care.
+
+tooltip.chunkcomfort.hidden.brewery=§7Strange scents linger in the air, sharp, warm, unfamiliar. Time feels slightly distorted here, as if patience itself has been distilled into liquid form.
+
+tooltip.chunkcomfort.hidden.curiosities=§7A testament to your knowledge of Khaedyr. Instruments and curiosities worthy of any versed scholar anchor your troubled conciousness to the physical realm.
+
+tooltip.chunkcomfort.hidden.villagers=§7Voices drift through the space, carrying trades, complaints, and daily life. Civilization feels close enough to touch, even if you are not part of it.
+
+tooltip.chunkcomfort.hidden.farm=§7Life repeats itself here in quiet cycles. Growth, harvest, rest, each one a reminder that survival can be gentle when given time.
+
+# ============================================================
+# Decorative Entity Tooltips (paintings, item frames, etc.)
+# ============================================================
+
+# Shows total comfort points contributed by this decorative entity
+# %1$s = entity points added
+# %2$s/%3$s = current group total / group limit
+tooltip.chunkcomfort.decorative.line1=§7Entity points: %1$s  Limit: %2$s/%3$s
+
+# Displays which decorative group the entity belongs to
+# %1$s = group name
+# %2$s/%3$s = points in group / max allowed points
+tooltip.chunkcomfort.decorative.line2=§7Group: %1$s  Points: %2$s/%3$s
+
+
+# ============================================================
+# Comfort Block Tooltips
+# ============================================================
+
+# Displays comfort value contributed by a placed block
+# %1$s = block points added
+# %2$s/%3$s = current group total / group limit
+tooltip.chunkcomfort.block.line1=§7Block points: %1$s  Limit: %2$s/%3$s
+
+# Shows block comfort group information
+tooltip.chunkcomfort.block.line2=§7Group: %1$s  Points: %2$s/%3$s
+
+
+# ============================================================
+# Living Entity Tooltips
+# ============================================================
+
+# Comfort contribution from living entities (pets, villagers, animals)
+tooltip.chunkcomfort.living.line1=§7Entity points: %1$s  Limit: %2$s/%3$s
+
+# Living entity group breakdown
+tooltip.chunkcomfort.living.line2=§7Group: %1$s  Points: %2$s/%3$s
+
+# Bonus comfort granted when entities are named
+# %1$s = list of names detected
+# %2$s = bonus points awarded
+tooltip.chunkcomfort.named_pets=§7Names: %1$s + %2$s points
+
+
+# ============================================================
+# Petting System
+# ============================================================
+
+# Instruction shown when looking at a pettable entity
+tooltip.chunkcomfort.pet=§7§oShift + Left Click to pet your pet!
+
+# Chat message shown when petting succeeds
+# %1$s = entity name
+tooltip.chunkcomfort.petting.message.line1=§6Petting your pet %1$s comforts you.
+
+# Displays temporary comfort bonus
+# %1$s = comfort gained
+# %2$s = duration in seconds
+tooltip.chunkcomfort.petting.message.line2=§6Comfort increased by %1$s point(s) for %2$s seconds!
+
+# Cooldown Message for when your pet does not want to be petted just yet
+# %1$s = seconds cooldown remaining
+chunkcomfort.petting.cooldown=§6Your pet doesn't feel like being petted. Wait %1$s second(s).
+
+
+# ============================================================
+# Command Debug Messages
+# ============================================================
+
+# Usage hint for /chunkcomfort command
+debug.chunkcomfort.usage=§cUsage: /chunkcomfort <info|reload|biome|block|item>
+
+# Unknown subcommand warning
+debug.chunkcomfort.unknown_subcommand=§cUnknown subcommand.
+
+
+# ============================================================
+# Reload Process Debug Messages
+# ============================================================
+
+# Reload process started (clears caches + reloads configs)
+debug.chunkcomfort.reload_start=§a[ChunkComfort] Clearing caches and reloading...
+
+# Config file successfully reloaded
+debug.chunkcomfort.reload_config=§a[ChunkComfort] Config reloaded.
+
+# Per-world cache cleared
+# %1$s = world/dimension id
+debug.chunkcomfort.reload_world=§a[ChunkComfort] Cleared caches for world: %1$s
+
+# Comfort recalculation finished for all players
+debug.chunkcomfort.reload_complete=§a[ChunkComfort] Comfort recalculated for all players.
+
+
+# ============================================================
+# System State Debugging
+# ============================================================
+
+# Printed when comfort system is disabled or inactive
+# %1$s = reason
+debug.chunkcomfort.inactive=Comfort system inactive: %1$s
+
+
+# ============================================================
+# Comfort Breakdown Debug Output
+# ============================================================
+
+# Visual separator used in debug chat output
+debug.chunkcomfort.separator=-------------------
+
+# Header for activation requirement debug section
+debug.chunkcomfort.activation_header=Comfort Activation:
+
+# Shows total comfort points vs required activation threshold
+debug.chunkcomfort.group_breakdown=Group Breakdown: [Total Comfort: %1$s/%2$s]
+
+# Explains debug output formatting
+debug.chunkcomfort.group_breakdown_syntax=Syntax: Group, Points, Limit | Entity, Count, Limit
+
+
+# ============================================================
+# Activation Requirement Debug Checks
+# ============================================================
+
+# Shelter requirement enabled
+debug.chunkcomfort.shelter_required=Shelter Required: true
+
+# Whether valid shelter was detected
+debug.chunkcomfort.shelter_found=, Found: %1$s
+
+# Required minimum light level
+debug.chunkcomfort.light_required=Light Level Required: %1$s
+
+# Player's current light level
+debug.chunkcomfort.light_level=, Level: %1$s
+
+# Fire requirement enabled
+debug.chunkcomfort.fire_required=Fire Required: true
+
+# Whether valid fire source was found nearby
+debug.chunkcomfort.fire_found=, Found: %1$s
+
+# Temperature requirement enabled
+debug.chunkcomfort.temperature_required=Temperature Required: true
+
+# Comfort temperature range comparison
+# %1$s = minimum comfort temp
+# %2$s = maximum comfort temp
+# %3$s = player temperature
+debug.chunkcomfort.temperature_range= Comfort Temp: %1$s to %2$s Player Temp: %3$s
+
+# Invalid syntax messages
+chunkcomfort.config.invalid_entry=Invalid ChunkComfort biome config entry: '%1$s'
+chunkcomfort.config.invalid_block_entry=Invalid ChunkComfort block config entry: '%1$s'
+chunkcomfort.config.invalid_block_alias=Invalid ChunkComfort block alias entry: '%1$s'
+chunkcomfort.config.invalid_spawn_egg_entry=Invalid ChunkComfort custom spawn egg config entry: '%1$s'
+chunkcomfort.config.invalid_entity_entry=Invalid ChunkComfort entity config entry: '%1$s'
+chunkcomfort.config.invalid_fire_block_entry=Invalid ChunkComfort fire block config entry: '%1$s'
+chunkcomfort.config.invalid_fire_source_item_entry=Invalid ChunkComfort fire source item config entry: '%1$s'
+chunkcomfort.config.invalid_living_entry=Invalid ChunkComfort living entity config entry: '%1$s'
+chunkcomfort.config.invalid_named_pet_entry=Invalid ChunkComfort named pet config entry: '%1$s'
+chunkcomfort.config.invalid_petting_entry=Invalid ChunkComfort petting comfort config entry: '%1$s'
+
+
+# Messages displayed for comfort levels
+chunkcomfort.config.message.1=§6You dreamt of a warm, sheltered house with a comfy fire, a pet, and a carpet on the floor
+chunkcomfort.config.message.2=§6As you wake up a thought lingers, surely a sheltered place with a bed, a fire and banners would beat this?
+chunkcomfort.config.message.3=§6You dreamt of petting your pet while watching the flames dance within the fireplace
+chunkcomfort.config.message.4=§6You feel refreshed, though your residence could use some improvements
+chunkcomfort.config.message.5=§6As you wake and look around your house, you feel somewhat established
+chunkcomfort.config.message.6=§6You had one of those fleeting dreams about building a library expansion
+chunkcomfort.config.message.7=§6Open sky, fresh air... it all sounds so romantic, but nothing beats a place like home
+chunkcomfort.config.message.8=§6You dreamt about beating the Ender Dragon and displaying its trophy egg!
+chunkcomfort.config.message.9=§6Cats, dogs, parrots!? All in the same place — wild! But also comfy!
+chunkcomfort.config.message.10=§6As you open your eyes, there is but one thing you can think of... a parrot called Eagle!
+chunkcomfort.config.message.11=§6You dreamt about a world, Dregora... and being sheltered against the probability of being smitten
+chunkcomfort.config.message.12=§6You wake and have an existential crisis: how much more comfort makes things comfier?!
+chunkcomfort.config.message.13=§6You no longer need to dream — you are living it
+
+
+# Messages when comfort increased
+toast.chunkcomfort.tierup.title=Comfort Level Up
+toast.chunkcomfort.tierup.title.max=Comfort Maxed Hurray!
+toast.chunkcomfort.tierup.flavor=Your home grows ever more comfortable.
+
+# Per-tier flavour lines (optional, falls back to .flavor if missing)
+toast.chunkcomfort.tierup.tier0=A fire, a roof, it's a start.
+toast.chunkcomfort.tierup.tier1=Comfy? Nah but livable!
+toast.chunkcomfort.tierup.tier2=You know what? Pillows!
+toast.chunkcomfort.tierup.tier3=What really is Comfortable?
+toast.chunkcomfort.tierup.tier4=This place is shaping up!
+toast.chunkcomfort.tierup.tier5=What belongs here next?
+toast.chunkcomfort.tierup.tier6=More Green! aka Nischi.
+toast.chunkcomfort.tierup.tier7=Every corner tells a story.
+toast.chunkcomfort.tierup.tier8=This place has come alive.
+toast.chunkcomfort.tierup.tier9=Wait, is that art!?
+toast.chunkcomfort.tierup.tier10=Lightning-Free.. Right?
+toast.chunkcomfort.tierup.tier11=I, Eagle am proud of you!
+toast.chunkcomfort.tierup.tier12=Nothing left to wish for.
