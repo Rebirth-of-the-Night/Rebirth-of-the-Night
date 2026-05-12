@@ -46,13 +46,15 @@ tooltip.chunkcomfort.hidden.furniture=§7You settle into the quiet of your home,
 
 tooltip.chunkcomfort.hidden.workstation=§7Tools rest where they were last used, as if the work never truly stopped. There is purpose in the air here, a quiet promise that anything you need can be made with time and effort.
 
-tooltip.chunkcomfort.hidden.enchanting=§7The air feels thinner here, like reality is holding its breath. Soft whispers of forgotten knowledge linger at the edges of your thoughts, just out of understanding.
+tooltip.chunkcomfort.hidden.hearth=§7The warm bathes the stay. You can feel the heart of the fire, crackling, welcoming, enveloping you.
+
+tooltip.chunkcomfort.hidden.occult=§7The air feels thinner here, like reality is holding its breath. Soft whispers of forgotten knowledge linger at the edges of your thoughts, just out of understanding, making the line between comfort and distress blurry.
 
 tooltip.chunkcomfort.hidden.luxury=§7Everything here feels intentional. Not necessary, but chosen. The space reminds you that comfort is not survival, but something greater you build for yourself.
 
 tooltip.chunkcomfort.hidden.lightsources=§7Warm light spills across the walls, pushing back the uncertainty beyond them. In its glow, the world feels smaller, safer, and easier to understand.
 
-tooltip.chunkcomfort.hidden.wild=§7It's been like any other day as the sun sets and you close the shutters, light the candles, and just before the last light fades, you pause. Outside, your eyes meet something alive: a rabbit on the hill, still for a moment, before it turns away to the safety of night. For a brief instant, you are part of the same quiet world.
+tooltip.chunkcomfort.hidden.wild=§7Outside, you catch the wildlife dart around, perhaps you have a memento yourself. Whatever the case, the wonder of nature fills you with a special feeling.
 
 tooltip.chunkcomfort.hidden.pets=§7Somewhere nearby, a familiar presence shifts or breathes. You don’t look up, you don’t need to. The comfort is in knowing you are not alone here.
 
@@ -62,11 +64,9 @@ tooltip.chunkcomfort.hidden.legendary=§7Even still, this place feels different.
 
 tooltip.chunkcomfort.hidden.collectibles=§7Small reminders of where you’ve been and what you’ve survived line the space around you. None are necessary, but all of them matter.
 
-tooltip.chunkcomfort.hidden.kitchen=§7The air carries traces of meals shared and meals yet to come. Hunger feels distant here, replaced by the quiet rhythm of preparation and care.
-
 tooltip.chunkcomfort.hidden.brewery=§7Strange scents linger in the air, sharp, warm, unfamiliar. Time feels slightly distorted here, as if patience itself has been distilled into liquid form.
 
-tooltip.chunkcomfort.hidden.curiosities=§7A testament to your knowledge of Khaedyr. Instruments and curiosities worthy of any versed scholar anchor your troubled conciousness to the physical realm.
+tooltip.chunkcomfort.hidden.curiosities=§7Testaments to your knowledge of Khaedyr. Everyday rusticalities remind you of the simpler world. Instruments and curiosities worthy of any versed scholar anchor your troubled conciousness to the physical realm, while esoteric trinkets and mystiques make you dream of that beyond.
 
 tooltip.chunkcomfort.hidden.villagers=§7Voices drift through the space, carrying trades, complaints, and daily life. Civilization feels close enough to touch, even if you are not part of it.
 
@@ -237,37 +237,26 @@ chunkcomfort.config.invalid_petting_entry=Invalid ChunkComfort petting comfort c
 
 
 # Messages displayed for comfort levels
-chunkcomfort.config.message.1=§6You dreamt of a warm, sheltered house with a comfy fire, a pet, and a carpet on the floor
-chunkcomfort.config.message.2=§6As you wake up a thought lingers, surely a sheltered place with a bed, a fire and banners would beat this?
-chunkcomfort.config.message.3=§6You dreamt of petting your pet while watching the flames dance within the fireplace
-chunkcomfort.config.message.4=§6You feel refreshed, though your residence could use some improvements
-chunkcomfort.config.message.5=§6As you wake and look around your house, you feel somewhat established
-chunkcomfort.config.message.6=§6You had one of those fleeting dreams about building a library expansion
-chunkcomfort.config.message.7=§6Open sky, fresh air... it all sounds so romantic, but nothing beats a place like home
-chunkcomfort.config.message.8=§6You dreamt about beating the Ender Dragon and displaying its trophy egg!
-chunkcomfort.config.message.9=§6Cats, dogs, parrots!? All in the same place — wild! But also comfy!
-chunkcomfort.config.message.10=§6As you open your eyes, there is but one thing you can think of... a parrot called Eagle!
-chunkcomfort.config.message.11=§6You dreamt about a world, Dregora... and being sheltered against the probability of being smitten
-chunkcomfort.config.message.12=§6You wake and have an existential crisis: how much more comfort makes things comfier?!
-chunkcomfort.config.message.13=§6You no longer need to dream — you are living it
+chunkcomfort.config.message.1=§6Restless nights
+chunkcomfort.config.message.2=§6Satisfaction
 
 
 # Messages when comfort increased
-toast.chunkcomfort.tierup.title=Comfort Level Up
+toast.chunkcomfort.tierup.title=Comfort Increased
 toast.chunkcomfort.tierup.title.max=Comfort Maxed Hurray!
 toast.chunkcomfort.tierup.flavor=Your home grows ever more comfortable.
 
 # Per-tier flavour lines (optional, falls back to .flavor if missing)
 toast.chunkcomfort.tierup.tier0=A fire, a roof, it's a start.
-toast.chunkcomfort.tierup.tier1=Comfy? Nah but livable!
-toast.chunkcomfort.tierup.tier2=You know what? Pillows!
-toast.chunkcomfort.tierup.tier3=What really is Comfortable?
+toast.chunkcomfort.tierup.tier1=A step up.
+toast.chunkcomfort.tierup.tier2=A place to stay.
+toast.chunkcomfort.tierup.tier3=It can be considered home.
 toast.chunkcomfort.tierup.tier4=This place is shaping up!
-toast.chunkcomfort.tierup.tier5=What belongs here next?
-toast.chunkcomfort.tierup.tier6=More Green! aka Nischi.
+toast.chunkcomfort.tierup.tier5=You've made this your abode.
+toast.chunkcomfort.tierup.tier6=This place has its own soul now.
 toast.chunkcomfort.tierup.tier7=Every corner tells a story.
-toast.chunkcomfort.tierup.tier8=This place has come alive.
-toast.chunkcomfort.tierup.tier9=Wait, is that art!?
-toast.chunkcomfort.tierup.tier10=Lightning-Free.. Right?
-toast.chunkcomfort.tierup.tier11=I, Eagle am proud of you!
+toast.chunkcomfort.tierup.tier8=A place people will remember.
+toast.chunkcomfort.tierup.tier9=A place of pure history.
+toast.chunkcomfort.tierup.tier10=The home you always dreamt of.
+toast.chunkcomfort.tierup.tier11=The home everyone wish they could have.
 toast.chunkcomfort.tierup.tier12=Nothing left to wish for.
