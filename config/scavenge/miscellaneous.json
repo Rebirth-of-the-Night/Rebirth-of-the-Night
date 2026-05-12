@@ -901,6 +901,50 @@
                     "category": "block"
                 }
                 ]
+            },
+            {
+			"name": "Turn On Redstone Lamp",
+			"type": {
+				"type": "block",
+				"name": "minecraft:redstone_lamp"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "quark:lit_lamp"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:block.comparator.click",
+                    "category": "block"
+                }
+                ]
+            },
+            {
+			"name": "Turn Off Redstone Lamp",
+			"type": {
+				"type": "block",
+				"name": "quark:lit_lamp"
+			},
+            "clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "minecraft:redstone_lamp"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:block.comparator.click",
+                    "category": "block"
+                }
+                ]
             }
         ]
     }
