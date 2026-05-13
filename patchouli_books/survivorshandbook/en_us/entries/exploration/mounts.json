@@ -2,23 +2,44 @@
   "name": "Mounts/Rides",
   "icon": "minecraft:saddle",
   "category": "exploration",
-  "advancement": "triumph:advancements/placeholder",
+  "read_by_default": "true",
   "pages": [
-  {
+	{
       "type": "text",
-      "text": "$(item)Tongs$() will allow you to safely handle $(item)Blooms$().$(p)$(info) To pick up a $(item)Bloom$(), $(use) the $(item)Bloom$() with $(item)Tongs$().$(p)$(info) $(item)Tongs$() held in either hand will pick up a $(item)Bloom$() when it enters your inventory.$(p)$(info) $(item)Tongs$() can be used with the $(item)Bloomery$() and $(item)Wither Forge$()."
+      "text": "There are plenty of methods I'll explore in other chapters that allow me to go faster on foot, but having mounts of my own has its advantages. There are two common steeds I know of in the world. I'll begin by the more 'grounded' one, horses:"
     },
     {
-      "type": "crafting",
-      "recipe": "pyrotech:tool/obsidian_pickaxe",
-      "recipe2": "pyrotech:tool/obsidian_axe"
+      "type": "entity",
+          "entity": "minecraft:horse",
+          "scale": 0.8,
+          "offset": 0.25,
+          "rotate": "true",
+        "default_rotation": -45,
+        "text": "Smart, loving, and $(bold)very versatile. $(l:slayers_journal/bestiary/horse)Dedicated entry$()."
+    },
+	{
+      "type": "text",
+      "text": "The other steed might be considered exotic by some, but they are extremely agile and light as a feather:"
+    },
+    {
+      "type": "entity",
+          "entity": "aether_legacy:moa",
+          "scale": 0.8,
+          "offset": 0.25,
+          "rotate": "true",
+        "default_rotation": -45,
+        "text": "Primal, agile, and $(bold)light on its talons."
     },
     {
       "type": "relations",
       "entries": [
-        "adapt/twine",
-        "gather/sticks"
+        "slayers_journal/bestiary/horse",
+        "slayers_journal/bestiary/moa"
       ]
+    },
+	{
+      "type": "text",
+      "text": "$(br2)$(italics)$(#a84b0f)Dev note: More pages will be added in the future. Moas will receive a major 'rework' to justify the text at the beginning of this entry.$()"
     }
   ]
 }

@@ -27,7 +27,7 @@ tooltip.chunkcomfort.blacklisted.environment=§8[§6CC§8] §7This place feels d
 
 tooltip.chunkcomfort.blacklisted.boss=§8[§6CC§8] §7A powerful presence looms nearby, comfort is impossible while it draws breath.
 
-tooltip.chunkcomfort.level=§6Comfort: %1$s/%2$s
+tooltip.chunkcomfort.level=§6Current Comfort: %1$s
 tooltip.chunkcomfort.level.next=§6Points to next level: %1$s
 tooltip.chunkcomfort.level.maxed=Comfort is at its peak
 
@@ -248,15 +248,15 @@ toast.chunkcomfort.tierup.flavor=Your home grows ever more comfortable.
 
 # Per-tier flavour lines (optional, falls back to .flavor if missing)
 toast.chunkcomfort.tierup.tier0=A fire, a roof, it's a start.
-toast.chunkcomfort.tierup.tier1=A step up.
-toast.chunkcomfort.tierup.tier2=A place to stay.
+toast.chunkcomfort.tierup.tier1=Comfort level up.
+toast.chunkcomfort.tierup.tier2=Comfort level up.
 toast.chunkcomfort.tierup.tier3=It can be considered home.
-toast.chunkcomfort.tierup.tier4=This place is shaping up!
-toast.chunkcomfort.tierup.tier5=You've made this your abode.
-toast.chunkcomfort.tierup.tier6=This place has its own soul now.
-toast.chunkcomfort.tierup.tier7=Every corner tells a story.
-toast.chunkcomfort.tierup.tier8=A place people will remember.
-toast.chunkcomfort.tierup.tier9=A place of pure history.
-toast.chunkcomfort.tierup.tier10=The home you always dreamt of.
-toast.chunkcomfort.tierup.tier11=The home everyone wish they could have.
+toast.chunkcomfort.tierup.tier4=Comfort level up.
+toast.chunkcomfort.tierup.tier5=Comfort level up.
+toast.chunkcomfort.tierup.tier6=This place has its own soul.
+toast.chunkcomfort.tierup.tier7=Comfort level up.
+toast.chunkcomfort.tierup.tier8=Comfort level up.
+toast.chunkcomfort.tierup.tier9=Every corner tells a story.
+toast.chunkcomfort.tierup.tier10=Comfort level up.
+toast.chunkcomfort.tierup.tier11=The home of your dreams.
 toast.chunkcomfort.tierup.tier12=Nothing left to wish for.

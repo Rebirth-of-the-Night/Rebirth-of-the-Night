@@ -11,7 +11,7 @@
         },
         {
             "type": "text",
-            "text": "There also exist two other variants: the $(thing)Aetherial glaretorch$() and the $(thing)End glaretorch$(). I've no clue how to replicate these; the material they're made of seems to be beyond my knowledge. They seem to be fairly commonplace within chests from their respective realms, though, so I can always look for more that way.$(br2)However, I can make one of these bad boys:"
+            "text": "There also exist two other variants: the $(thing)Aetherial glaretorch$() and the $(thing)End glaretorch$(). I've no clue how to replicate these; the material they're made of seems to be beyond my knowledge. They seem to be fairly commonplace within their respective realms, though, so I can always look for more that way.$(br2)However, I can make one of these bad boys:"
         },
         {
             "type": "crafting",
