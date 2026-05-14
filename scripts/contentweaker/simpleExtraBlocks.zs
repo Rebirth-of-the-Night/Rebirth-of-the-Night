@@ -2309,21 +2309,19 @@ coba_star.setFullBlock(false);
 coba_star.setCreativeTab(<creativetab:rotn_blocks>);
 coba_star.register();
 
-var mystic_cincinnasite_lamp = VanillaFactory.createBlock("mystic_cincinnasite_lamp", <blockmaterial:Glass>);
+var mystic_cincinnasite_lamp = VanillaFactory.createBlock("mystic_cincinnasite_lamp", <blockmaterial:Rock>);
 mystic_cincinnasite_lamp.setCreativeTab(<creativetab:rotn_blocks>);
 mystic_cincinnasite_lamp.setLightValue(1.0);
 mystic_cincinnasite_lamp.setBlockSoundType(<soundtype:stone>);
 mystic_cincinnasite_lamp.setBlockHardness(18);
-mystic_cincinnasite_lamp.setBlockMaterial(<blockmaterial:glass>);
 mystic_cincinnasite_lamp.setToolLevel(1);
 mystic_cincinnasite_lamp.register();
 
-var ferrought_cincinnasite_lamp = VanillaFactory.createBlock("ferrought_cincinnasite_lamp", <blockmaterial:Glass>);
+var ferrought_cincinnasite_lamp = VanillaFactory.createBlock("ferrought_cincinnasite_lamp", <blockmaterial:Rock>);
 ferrought_cincinnasite_lamp.setCreativeTab(<creativetab:rotn_blocks>);
 ferrought_cincinnasite_lamp.setLightValue(1.0);
 ferrought_cincinnasite_lamp.setBlockSoundType(<soundtype:stone>);
 ferrought_cincinnasite_lamp.setBlockHardness(38);
-ferrought_cincinnasite_lamp.setBlockMaterial(<blockmaterial:glass>);
 ferrought_cincinnasite_lamp.setToolLevel(2);
 ferrought_cincinnasite_lamp.register();
 
