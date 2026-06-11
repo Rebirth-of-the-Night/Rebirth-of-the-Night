@@ -433,8 +433,8 @@ val cakeBatter = <betterwithmods:raw_pastry>;
 // Stock Recipes
 recipes.remove(stock);
 ExSartagine.addPotRecipe(<minecraft:bone>|<undergroundbiomes:fossil_piece:2>|<undergroundbiomes:fossil_piece:3>|<undergroundbiomes:fossil_piece:5>|<undergroundbiomes:fossil_piece:7>, stock);
-ExSartagine.addPotRecipe(veggie, stock*2);
-ExSartagine.addPotRecipe(<ore:listAllmeatraw>|<betterwithaddons:congealed>, stock*3);
+ExSartagine.addKettleRecipe([veggie], null, null, [stock*2], 80);
+ExSartagine.addKettleRecipe([<ore:listAllmeatraw>|<betterwithaddons:congealed>], null, null, [stock*3], 80);
 
 // Wormhole Potion
 ExSartagine.addKettleRecipe([<quark:arrow_ender>,<minecraft:glass_bottle>],null,waterBottle,[<bountifulbaubles:potionwormhole>],300);
