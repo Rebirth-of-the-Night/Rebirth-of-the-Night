@@ -129,37 +129,39 @@
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:sapling",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 3,
-                                "max": 7
-                            }
-                        }
-                    ],
-                    "weight": 5
+                    "name": "stripmining:excavator_dunland",
+                    "quality": 10,
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "stripmining:excavator_shadits",
+                    "quality": 5,
+                    "weight": 1
                 },
                 {
                     "type": "item",
                     "name": "minecraft:saddle",
+                    "quality": -5,
                     "weight": 3
                 },
                 {
                     "type": "item",
                     "name": "minecraft:iron_horse_armor",
-                    "weight": 1
+                    "quality": 0,
+                    "weight": 2
                 },
                 {
                     "type": "item",
                     "name": "minecraft:golden_horse_armor",
-                    "weight": 1
+                    "quality": 2,
+                    "weight": 2
                 },
                 {
                     "type": "item",
                     "name": "minecraft:diamond_horse_armor",
-                    "weight": 1
+                    "quality": 5,
+                    "weight": 2
                 }
             ]
         }

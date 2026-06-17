@@ -1,0 +1,23 @@
+{
+  "name": "strife",
+  "displayName": "Apocalypsis",
+  "craftingMaterial": "strife",
+  "breakarea": {
+    "height": 3,
+    "width": 3
+  },
+  "color": {
+    "red": 44,
+    "green": 205,
+    "blue": 177
+  },
+  "tier": 0,
+  "harvestLevel": 4,
+  "durability": 4122,
+  "efficiency": 8.2,
+  "damage": 25.0,
+  "attackspeed": -3.2,
+  "enchantability": 22,
+  "enchantable": true,
+  "repairable": true
+}

@@ -1,0 +1,23 @@
+{
+  "name": "dunland",
+  "displayName": "Dunland Excavator",
+  "craftingMaterial": "dunland",
+  "breakarea": {
+    "height": 3,
+    "width": 3
+  },
+  "color": {
+    "red": 228,
+    "green": 235,
+    "blue": 231
+  },
+  "tier": 0,
+  "harvestLevel": 1,
+  "durability": 1024,
+  "efficiency": 4.5,
+  "damage": 7.0,
+  "attackspeed": -3.1,
+  "enchantability": 7,
+  "enchantable": true,
+  "repairable": true
+}

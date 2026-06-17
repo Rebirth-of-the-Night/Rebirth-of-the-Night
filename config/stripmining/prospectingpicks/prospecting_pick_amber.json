@@ -2,7 +2,7 @@
   "name": "amber",
   "displayName": "Beaming Amber Prospector",
   "craftingMaterial": "ingotAmber",
-  "scanradius": 12,
+  "scanradius": 8,
   "oreBlacklist": [],
   "oreWhitelist": [],
   "color": {
@@ -10,9 +10,10 @@
     "green": 174,
     "blue": 102
   },
+  "tier": 0,
   "harvestLevel": 2,
-  "durability": 425,
-  "efficiency": 4.8,
+  "durability": 1133,
+  "efficiency": 4,
   "damage": 3.0,
   "attackspeed": -2.7,
   "enchantability": 10,

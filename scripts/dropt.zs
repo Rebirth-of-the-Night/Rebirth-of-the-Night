@@ -855,11 +855,15 @@ Dropt.list("lost_cargo")
       )
 	  .addDrop(Dropt.drop()
           .selector(Dropt.weight(5))
-		  .items([<minecraft:painting>.withTag({"jsonpaintings:painting": "Yearn"})]) // art
+		  .items([<minecraft:painting>.withTag({"jsonpaintings:painting": "The Opera House"})]) // art
       )
 	  .addDrop(Dropt.drop()
           .selector(Dropt.weight(5))
 		  .items([<glaretorch:itemglaretorchsmall>]) // lumina
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(5))
+		  .items([<stripmining:excavator_shadits>]) // tool
       )
   )
   .add(Dropt.rule() // luxurious dragonbone after Beneath

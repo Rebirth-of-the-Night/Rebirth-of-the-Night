@@ -330,6 +330,24 @@
 		"isCreative": true
     },
 	{
+        "motive": "Function",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Mass-Energy",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "The Perfect Matrix",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
         "motive": "Stairs",
         "width": 1,
         "height": 1,

@@ -1,0 +1,23 @@
+{
+  "name": "shadits",
+  "displayName": "Remover",
+  "craftingMaterial": "Shadits",
+  "breakarea": {
+    "height": 2,
+    "width": 5
+  },
+  "color": {
+    "red": 237,
+    "green": 174,
+    "blue": 102
+  },
+  "tier": 0,
+  "harvestLevel": 2,
+  "durability": 1080,
+  "efficiency": 5.8,
+  "damage": 4.0,
+  "attackspeed": -2.1,
+  "enchantability": 3,
+  "enchantable": true,
+  "repairable": true
+}

@@ -115,7 +115,6 @@ var carpaper = <cyclicmagic:carbon_paper>;
 var paper = <ore:paper>;
 var obsi_shard = <endreborn:item_shard_obsidian>;
 var obsi_shear = <cyclicmagic:shears_obsidian>;
-var ore_locator = <cyclicmagic:tool_prospector>;
 var blazerod = <minecraft:blaze_rod>;
 var st_conveyor = <cyclicmagic:plate_push_slowest>;
 var masonry_brick = <contenttweaker:masonry_brick>;
@@ -201,12 +200,6 @@ recipes.addShaped("obsidian_shears", obsi_shear,[
 recipes.addShaped("powered_conveyor", st_conveyor*12,[
 	[timber_framing,timber_framing,timber_framing],
     [masonry_brick, dense_redstone, masonry_brick]
-]);
-
-recipes.addShaped("ore_locator", ore_locator,[
-	[null, codex, <betterwithmods:material:45>],
-    [null, blazerod, <cyclicmagic:tool_spelunker>],
-    [blazerod, null, null]
 ]);
 
 recipes.addShapeless("straight_conveyor_2_corner", <cyclicmagic:plate_push_slowest_corner>, [st_conveyor]);
