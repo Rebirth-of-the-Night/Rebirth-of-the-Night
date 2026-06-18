@@ -14,22 +14,22 @@ val twine = <ore:twine>;
 val durable_fiber = <ore:durableFiber>;
 
 <ore:barkWood>.remove([<primallib:bark_oak>, <primallib:bark_spruce>, <primallib:bark_birch>, <primallib:bark_jungle>, <primallib:bark_acacia>, <primallib:bark_dark_oak>]);
+recipes.remove(<textiles:basket:0>);
+recipes.remove(<textiles:basket:1>);
 
 recipes.addShapeless("bark_strips", bark_strips*4,
 [<ore:barkWood>]);
-recipes.addShaped("basket_small", <basketcase:basket_small_generic>,
- [[null,twine,null],
-  [wicker_pane,null,wicker_pane],
-  [null,wicker_full,null]]);
-recipes.addShaped("basket_medium", <basketcase:basket_medium_generic>,
+recipes.addShaped("basket_medium", <textiles:basket:0>,
  [[durable_fiber,null,durable_fiber],
   [wicker_pane,null,wicker_pane],
   [wicker_pane,wicker_full,wicker_pane]]);
-recipes.addShaped("basket_big", <basketcase:basket_large_generic>,
- [[durable_fiber,null,durable_fiber],
-  [wicker_full,null,wicker_full],
-  [wicker_pane,wicker_full,wicker_pane]]);
-  
+recipes.addShaped("basket_big", <textiles:basket:1>,
+ [[wicker_full,<textiles:basket:0>,wicker_full],
+  [null,<ore:genericMetal>,null]]);
+
+JEI.removeAndHide(<basketcase:basket_small_generic>);
+JEI.removeAndHide(<basketcase:basket_medium_generic>);
+JEI.removeAndHide(<basketcase:basket_large_generic>);
 JEI.removeAndHide(<basketcase:wicker_medium_twig_birch>);
 JEI.removeAndHide(<basketcase:wicker_large_twig_birch>);
 JEI.removeAndHide(<basketcase:wicker_small_bark_dark_oak>);

@@ -3765,6 +3765,7 @@ ExSartagine.addCooktopRecipe(bread, <dungeontactics:toast>, 500);
 //Cutting Board
 ExSartagine.addCuttingBoardRecipe(potato, cuttingImplement, <contenttweaker:raw_fries>, 1);
 ExSartagine.addCuttingBoardRecipe(<minecraft:melon_block>, cuttingImplement, melon*8, 8);
+ExSartagine.addCuttingBoardRecipe(<contenttweaker:dark_fruit>, cuttingImplement, <betterwithaddons:wheatmat>*4, 8);
 
 //Pork
 ExSartagine.addCuttingBoardRecipe(<animania:raw_prime_pork>, cuttingImplement, <animania:raw_prime_bacon>*4, 4);

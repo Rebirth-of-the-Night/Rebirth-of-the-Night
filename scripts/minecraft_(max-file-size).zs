@@ -1385,6 +1385,11 @@ val durableFiber = <ore:durableFiber>;
 durableFiber.addAll(<ore:fiberHemp>);
 durableFiber.add(<betterwithmods:material:3>);
 durableFiber.add(<pyrotech:material:26>);
+durableFiber.add(<textiles:material:1>);
+
+val durableFabric = <ore:durableFabric>;
+durableFabric.add(<betterwithmods:material:4>);
+durableFabric.add(<textiles:material:13>);
 
 val genericMetal = <ore:genericMetal>;
 genericMetal.addAll(<ore:ingotCopper>);

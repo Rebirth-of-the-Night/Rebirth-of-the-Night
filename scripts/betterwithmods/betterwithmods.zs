@@ -195,7 +195,8 @@ var gnugg = <minecraft:gold_nugget>;
 var rstone = <minecraft:redstone>;
 var plank_wood = <ore:plankWood>;
 var rope = <betterwithmods:rope>;
-var cattail = <biomesoplenty:plant_1:4>; 
+var cattail = <biomesoplenty:plant_1:4>;
+var flax = <textiles:material:2>;
 var wicker = <betterwithmods:wicker>;
 var driedf = <pyrotech:tinder>;
 var rice = <ore:cropRice>;
@@ -375,12 +376,16 @@ recipes.addShaped("wicker2", wicker*4,
   [[cattail,cattail,cattail],
   [cattail,cattail,cattail]]);
   
-recipes.addShaped("wicker3", wicker*3,
+recipes.addShaped("wicker3", wicker*4,
+  [[flax,flax,flax],
+  [flax,flax,flax]]);
+  
+recipes.addShaped("wicker4", wicker*3,
   [[driedf,driedf],
   [driedf,driedf],
   [driedf,driedf]]);
   
-recipes.addShaped("wicker4", wicker*3,
+recipes.addShaped("wicker5", wicker*3,
   [[rice,rice,rice],
   [rice,rice,rice]]);
 	

@@ -227,11 +227,6 @@ RecipeBuilder.get("mage")
 
 // Rat Sack
 recipes.remove(<rats:rat_sack>);
-recipes.addShaped("rats_sack",<rats:rat_sack>,[
-    [null,<ore:twine>,null],
-    [<ore:leather>,<rats:cheese>,<ore:leather>],
-    [<ore:leather>,<ore:leather>,<ore:leather>]
-]);
 
 // Rat Cage
 recipes.remove(<rats:rat_cage>);

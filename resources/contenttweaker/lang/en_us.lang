@@ -249,11 +249,11 @@ item.contenttweaker.ground_fiery_netherrack.name=Ground Fiery Netherrack
 item.contenttweaker.grove_tear.name=§bGrove Tear...
 item.contenttweaker.halberd_mold.name=Halberd Mold
 item.contenttweaker.hammer_mold.name=Hammer Mold
-item.contenttweaker.hide_tiny_scraped.name=Tiny Scraped Hide
-item.contenttweaker.hide_tiny_tanned.name=Tiny Tanned Hide
 item.contenttweaker.heart_of_fire.name=§5Heart of Fire
 item.contenttweaker.heartofthefallen.name=§6Heart of the Fallen
 item.contenttweaker.heavensheart.name=§6Heaven's Heart
+item.contenttweaker.hide_tiny_scraped.name=Tiny Scraped Hide
+item.contenttweaker.hide_tiny_tanned.name=Tiny Tanned Hide
 item.contenttweaker.holy_zanite.name=Holy Zanite
 item.contenttweaker.invasion_debug_tool.name=Invasion Debug Tool
 item.contenttweaker.javelin_mold.name=Javelin Mold
@@ -288,6 +288,7 @@ item.contenttweaker.ruby_ingot.name=Ruby Ingot
 item.contenttweaker.saber_mold.name=Saber Mold
 item.contenttweaker.sandy_dirt_pile.name=Sandy Dirt Clump
 item.contenttweaker.sapphire_ingot.name=Sapphire Ingot
+item.contenttweaker.seed_oil.name=Formic Oil
 item.contenttweaker.sfs_artifact.name=Soul Steel Artifact Alpha
 item.contenttweaker.sfs_artifact1.name=Soul Steel Artifact Beta
 item.contenttweaker.sfs_artifact2.name=Soul Steel Artifact Gamma
@@ -315,6 +316,8 @@ item.contenttweaker.voids_call.name=Void's Call
 item.contenttweaker.voidseen_exorite.name=Voidseen Exorite
 item.contenttweaker.warhammer_mold.name=Warhammer Mold
 item.contenttweaker.waterlogged_sapphire.name=Waterlogged Sapphire
+item.contenttweaker.wood_bleach.name=Wood Bleach
+item.contenttweaker.wood_stain.name=Wood Stain
 item.contenttweaker.wrought_animation_core.name=Wrought Animation Core
 item.contenttweaker.zanite_ingot.name=Zanite Ingot
 
@@ -328,6 +331,8 @@ item.contenttweaker.sfs_masonpick.name=Soulforged Steel Mason Pick
 item.contenttweaker.steel_crowbar.name=Steel Crowbar
 item.contenttweaker.harmony_staff.name=Staff Of Harmony
 item.contenttweaker.sowing_scepter.name=Scepter Of Sowing
+item.contenttweaker.bag_nails.name=Bag of Nails
+item.contenttweaker.bag_coins.name=Bag of Coins
 
 #------------------------------------------------------------------------------
 # Bricks
