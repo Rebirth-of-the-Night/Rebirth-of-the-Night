@@ -7,8 +7,8 @@ inv.steel_anvil.name=Steel Anvil
 
 tile.bwm:bucket.name=Robust Fluid Container
 
-item.bwm:material.hemp_fibers.name=Durable Fibers
-item.bwm:material.hemp_cloth.name=Durable Cloth
+item.bwm:material.hemp_fibers.name=Hemp Fibers
+item.bwm:material.hemp_cloth.name=Canvas
 
 item.bwm:wool_helmet.name=Incomplete Developer Helmet
 item.bwm:wool_chest.name=Incomplete Developer Chestplate
