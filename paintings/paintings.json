@@ -1605,6 +1605,12 @@
 		"isCreative": false
     },
 	{
+        "motive": "Sky Piercer",
+        "width": 5,
+        "height": 4,
+		"isCreative": false
+    },
+	{
         "motive": "After Hours",
         "width": 5,
         "height": 3,
@@ -1717,5 +1723,11 @@
         "textures": {
             "front": "items/apple"
         }
+    },
+	{
+        "motive": "The Sky Within the Spire",
+        "width": 14,
+        "height": 12,
+		"isCreative": true
     }
 ]
