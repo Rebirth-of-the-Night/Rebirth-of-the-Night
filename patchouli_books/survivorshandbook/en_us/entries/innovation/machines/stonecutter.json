@@ -1,0 +1,22 @@
+{
+    "name": "Stonecutter",
+    "icon": "futuremc:stonecutter",
+    "category": "innovation_advanced_crafting",
+    "sortnum": 5,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "futuremc:stonecutter",
+            "text": "The stonecutter's steel blade is capable of cutting perfect bricks.$(br2) I will require cauldrons and crucibles for the leather and saw, but I will be able to erect solid walls."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "construction/construction",
+				"innovation/metallurgy/steel"
+            ]
+        }
+    ]
+    
+}

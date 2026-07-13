@@ -1,12 +1,56 @@
 {
   "name": "Bricklaying",
-  "icon": "undergroundbiomes:igneous_brick:1",
+  "icon": "contenttweaker:masonry_brick",
   "category": "construction",
   "read_by_default": "true",
   "pages": [
     {
     "type": "text",
-      "text": "Looking at my options, I may want to start crafting sturdier building blocks to reinforce my structures. Before I gain access to a stonecutter, I could consider making things like $(thing)rammed earth$() or $(thing)dry fitted stone$()."
+      "text": "Looking at my options, I may want to start crafting sturdier building blocks to reinforce my structures. Before I gain access to a $(l:innovation/machines/stonecutter)stonecutter$(), I could consider laying down $(thing)rammed earth$() or $(thing)dry fitted stone$(). But I could also invest into earthware like $(thing)mud, clay$() or $(thing)adobe bricks$()."
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:steel_crowbar",
+	  "text": "$(italics)$(#a84b0f)Right clicking with a crowbar will $(bold)instantly$(italics)$(#a84b0f) remove any resilient base-defense building block. This includes mortared bricks, nailed planks, rammed earth, and dry fitted stone$(br2)There are mason picks that are more durable as well.$()"
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:rammed_earth_vanilla_dirt",
+	  "text": "Rammed earth is surprisingly easy to make, if labor-intensive. Compressing $(thing)three dirt blocks$() of any type in a $(l:innovation/advanced_crafting/compacting_bin)compacting bin$() will result in a single, resistant block."
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:dry_fitted_coade_stone",
+	  "text": "Dry fitted stone can make for highly-efficient walls, made from carefully stacked $(thing)rocks$() pressed down by gravity. It is... surprisingly easy to make? Why do I feel like this won't last."
+    },
+    {
+      "type": "spotlight",
+	  "title": "Plain Glazed Bricks",
+      "item": "contenttweaker:brick_minecraft_clay",
+	  "text": "Bricks made from glazed materials such as mud, clay, or adobe, I can create without a stonecutter. They are decently solid, but like stone bricks, they require $(t:Can be searched in JEI. Includes clay balls, slime, refractory material...)$(item)mortar$() to stick together."
+    },
+    {
+      "type": "spotlight",
+	  "title": "Plain Stone Bricks",
+      "item": "contenttweaker:big_limestone_bricks",
+	  "text": "Bricks made from stone are among the toughest there are; however, their hardness is dependent on the type of rock, which I can confirm individually by checking blocks of stone or cobbleston. They require $(t:Can be searched in JEI. Includes clay balls, slime, refractory material...)$(item)mortar$()"
+    },
+    {
+      "type": "spotlight",
+	  "title": "Advanced Glazed Bricks",
+      "item": "contenttweaker:brick_ceramics_porcelain",
+	  "text": "If I approach glazed bricks from a different approach, pure, solid porcelain bricks would work fantastic for a hard barrier. Refractory bricks would be up there, but from what I've gathered, there might be an even harder, if less tough material in the nether part of the world."
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:blendrein_block",
+	  "text": "I'm not really capable of reproducing this substance. It might just be the most durable material I've ever seen employed in building, barring anomalies like worldspines or onyx."
+    },
+    {
+        "type": "relations",
+        "entries": [
+            "innovation/machines/stonecutter"
+        ]
     }
   ]
 }

@@ -1,0 +1,48 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "#title",
+			"centered": true,
+			"x": -1,"y": -1
+		},
+		{
+			"type": "text",
+			"text": "#text",
+			"x": 0,
+			"y": 13
+		},
+		{
+			"type": "image",
+			"image": "#a_i",
+			"width": 32, "height": 32,
+			"texture_width": 32, "texture_height": 32,
+			"x": 40,
+			"y": 52
+		},
+		{
+			"type": "item",
+			"item": "#a",
+			"x": 32,
+			"y": 84
+		},
+		{
+			"type": "item",
+			"item": "#b",
+			"x": 48,
+			"y": 84
+		},
+		{
+			"type": "item",
+			"item": "#c",
+			"x": 64,
+			"y": 84
+		},
+		{
+			"type": "text",
+			"text": "#text2",
+			"x": 0,
+			"y": 106
+		}
+	]
+}

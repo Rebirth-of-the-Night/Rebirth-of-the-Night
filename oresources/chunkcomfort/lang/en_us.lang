@@ -21,7 +21,7 @@ tooltip.chunkcomfort.fireblocks=§6A comfy symbol of home, key to establishing a
 # (flint & steel, fire charges, etc.)
 tooltip.chunkcomfort.firestarters=§6UNUSED LANG.
 
-tooltip.chunkcomfort.inactive=§8[§6CC§8] §7Place a hearth or bed in a sheltered area to begin making it a comfortable home.
+tooltip.chunkcomfort.inactive=§8[§6Comfortable§8].
 
 tooltip.chunkcomfort.blacklisted.environment=§8[§6CC§8] §7This place feels deeply unnatural, as if the land itself rejects comfort.
 

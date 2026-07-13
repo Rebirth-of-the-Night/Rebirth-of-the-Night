@@ -512,6 +512,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <foundry:burner_heater>.addShiftTooltip(format.gold("Fuel Capacity:") + format.yellow(" 4 stacks"));
 <foundry:burner_heater>.addShiftTooltip(format.gold("Fuel Modifier:") + format.yellow(" 25% (1 stack) - 100% (4 stacks)"));
 <foundry:burner_heater:*>.addTooltip("Burns all 4 fuel slots concurrently. Make sure all 4 slots are filled with at least 1 fuel item for maximum efficiency!");
+<ore:rock>.addTooltip("Can be thrown.");
 
 <ironfurnaces:iron_furnace_idle>.addShiftTooltip(format.gold("Input Capacity:") + "" + format.yellow(" full stack; 1 at a time."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info.")); // mud furnace
 <ironfurnaces:iron_furnace_idle>.addShiftTooltip(format.gold("Fuel Capacity:") + format.yellow(" full stack; 1 at a time."));

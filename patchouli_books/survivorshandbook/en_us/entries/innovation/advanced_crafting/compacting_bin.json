@@ -1,0 +1,26 @@
+{
+    "name": "Compacting Bin",
+    "icon": "pyrotech:compacting_bin",
+    "category": "innovation_advanced_crafting",
+    "sortnum": 4,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "pyrotech:compacting_bin",
+            "text": "The compacting bin is useful for creating a variety of compressed blocks from loose materials.$(br2) Particularly, I can compact dirt into $(l:construction/construction)rammed earth$() for building, or refractory material into $(l:innovation/advanced_crafting/ware_crafting)modeling refractory material$() blocks, among other things."
+        },
+        {
+            "type": "spotlight",
+            "item": "pyrotech:mechanical_compacting_bin",
+            "text": "Later on, I could iterate on this design for gravity to do the work for me automatically. A mechanical compacting bin would only require a simple cog to work on its own at a stable pace."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "construction/construction"
+            ]
+        }
+    ]
+    
+}
