@@ -737,6 +737,7 @@ item.contenttweaker.ratatouille.name=Ratatouille
 item.contenttweaker.raw_fries.name=Raw Fries
 item.contenttweaker.sheep_intestines.name=Sheep Intestines
 item.contenttweaker.sprinkles.name=Sprinkles
+item.contenttweaker.stock.name=Stock
 item.contenttweaker.wiener.name=Wiener
 item.contenttweaker.dairy_free_cheese_slice.name=Dairy Free Cheese Wedge
 tile.contenttweaker.abyss_pizza_block.name=Raw Abyss Pizza
@@ -874,3 +875,31 @@ tile.contenttweaker.unfired_refractory_brick.name=Unfired Refractory Brick
 tile.contenttweaker.unfired_porcelain_brick.name=Unfired Porcelain Brick
 
 tile.contenttweaker.crucible_of_souls.name=Crucible of Souls
+
+#------------------------------------------------------------------------------
+# Alcohol
+#------------------------------------------------------------------------------
+
+item.contenttweaker.tankard.name=Tankard
+item.contenttweaker.tankard_ambrosia_mocktail.name=Ambrosia Mocktail
+item.contenttweaker.tankard_beer.name=Beer
+item.contenttweaker.tankard_billowing_tonic.name=Billowing Tonic
+item.contenttweaker.tankard_blastem_brandy.name=Blastem Brandy
+item.contenttweaker.tankard_blue_ribbon.name=Blue Ribbon
+item.contenttweaker.tankard_chemomile.name=Chemomile
+item.contenttweaker.tankard_cider.name=Cider
+item.contenttweaker.tankard_dragon_daquiri.name=Dragon Daquiri
+item.contenttweaker.tankard_enchanted_mead.name=Enchanted Mead
+item.contenttweaker.tankard_ironberry_stout.name=Ironberry Stout
+item.contenttweaker.tankard_mead.name=Mead
+item.contenttweaker.tankard_melon_chareau.name=Melon Chareau
+item.contenttweaker.tankard_mythril_energy.name=Mythril Energy
+item.contenttweaker.tankard_ognovoda.name=Ognovoda
+item.contenttweaker.tankard_red_wine.name=Red Wine
+item.contenttweaker.tankard_rose_tequila.name=Rose Tequila
+item.contenttweaker.tankard_rum.name=Rum
+item.contenttweaker.tankard_sake.name=Sake
+item.contenttweaker.tankard_sanguine_remedy.name=Sanguine Remedy
+item.contenttweaker.tankard_silken_nectar.name=Silken Nectar
+item.contenttweaker.tankard_twinned_spirit.name=Twinned Spirit
+item.contenttweaker.tankard_tzarma.name=Tzarma

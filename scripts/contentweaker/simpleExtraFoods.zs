@@ -7,8 +7,8 @@ import mods.contenttweaker.Block;
 
 import mods.contenttweaker.AxisAlignedBB;
 //ITEMS
-var rat = VanillaFactory.createItemFood("ratatouille", 10);
-rat.setSaturation(9.5);
+var rat = VanillaFactory.createItemFood("ratatouille", 26);
+rat.setSaturation(15.5);
 rat.register();
 
 val sprinkles = VanillaFactory.createItem("sprinkles");
@@ -56,6 +56,11 @@ val edible_creephae = VanillaFactory.createItemFood("edible_creephae", 1);
 edible_creephae.setSaturation(0.5);
 edible_creephae.setCreativeTab(<creativetab:harvestCraft>);
 edible_creephae.register();
+
+val stock = VanillaFactory.createItemFood("stock", 1);
+stock.setSaturation(0.5);
+stock.setCreativeTab(<creativetab:harvestCraft>);
+stock.register();
 
 //BLOCKS
 //Yeast flour
