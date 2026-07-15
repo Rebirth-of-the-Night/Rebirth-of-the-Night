@@ -519,6 +519,7 @@ recipes.addShaped("steel_sword", <dungeontactics:steel_cutlass>,[
     [<ore:ingotSteel>],
     [<spartanweaponry:material>]
 ]);
+<dungeontactics:steel_cutlass>.maxDamage = 1561;
 
 JEI.removeAndHide(<dungeontactics:tunnelling_device>);
 JEI.removeAndHide(<dungeontactics:piston_glove>);
