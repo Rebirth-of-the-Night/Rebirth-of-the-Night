@@ -18,17 +18,17 @@ container.rustic.condenser_advanced=Midnight Resonator
 container.rustic.brewing_barrel=Brewing Barrel
 
 #Blocks
-tile.rustic.chain.name=Iron Chandelier Chain
+tile.rustic.chain.name=Wrought Iron Chandelier Chain
 tile.rustic.chain_gold.name=Golden Chandelier Chain
 tile.rustic.chain_silver.name=Silver Chandelier Chain
 tile.rustic.stone_pillar.name=Coade Stone Pillar
 tile.rustic.andesite_pillar.name=Gray Andesite Pillar
 tile.rustic.diorite_pillar.name=Diorite Pillar
 tile.rustic.granite_pillar.name=Granite Pillar
-tile.rustic.chandelier.name=Iron Chandelier Ring
+tile.rustic.chandelier.name=Wrought Iron Chandelier Ring
 tile.rustic.chandelier_gold.name=Golden Chandelier Ring
 tile.rustic.chandelier_silver.name=Silver Chandelier Ring
-tile.rustic.candle.name=Iron Candle
+tile.rustic.candle.name=Wrought Iron Candle
 tile.rustic.candle_lever.name=Iron Candle Lever
 tile.rustic.candle_gold.name=Golden Candle
 tile.rustic.candle_lever_gold.name=Golden Candle Lever
