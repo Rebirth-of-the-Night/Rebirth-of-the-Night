@@ -18,7 +18,7 @@ entity.apathyr.name=The Apathyr
 entity.apathyr_ghost.name=Ghost Apathyr
 entity.ultra_attack.name=Apathyr Crystal Domain
 entity.crystal_wave.name=Gaelon Crystal Wave
-entity.apathyr_speear.name=Apathyr Spear
+entity.apathyr_spear.name=Apathyr Spear
 entity.apathyr_eye.name=Apathyr's Eye
 entity.cursed_revenant.name=Friendly Cursed Revenant
 entity.cursed_sentinel.name=Cursed Sentinel
@@ -30,6 +30,14 @@ entity.void_bomb.name=Wither Bomb
 entity.voidclysm_spike.name=Wither Spike
 entity.void_projectile.name=Wither Tracking Magic
 entity.void_hole.name=Wither Void
+
+entity.dauntless_crystal.name=Dhvara Orbit Bomb
+entity.rally_flag.name=Flag of Determination
+entity.dauntless.name=The Attainer
+entity.dauntless_aoe.name=Attainer's Magic
+entity.dauntless_sword.name=Attainer's Sword
+entity.dauntless_slice.name=Attainer Spear
+entity.delayed_lazer.name=Attainer Laser
 
 item.Strife_flame.name=Flame of Strife
 item.Strife_sword.name=Greatsword of Retribution
@@ -47,6 +55,11 @@ item.novik_chestplate.name=Novik Chestplate
 item.novik_leggings.name=Novik Leggings
 item.novik_boots.name=Novik Boots
 item.novik_sword.name=Discordant Ruby Sword
+
+item.dauntless_fist.name=Gauntlet of Strife
+item.dauntless_crystal.name=Forbidden Crystal
+item.dauntless_spear.name=Attainer Spear
+item.heart_projectile.name=Attainer Locator Projectile
 
 item.crystal_trinket.name=Hùng Carved Lustrian
 
