@@ -446,6 +446,8 @@ for targetTree, seed in transformationTargets{
 }
 
 //Remove vanilla brewing stand
+recipes.remove(<minecraft:brewing_stand>);
+JEI.removeAndHide(<minecraft:brewing_stand>);
 mods.jei.JEI.hideCategory("minecraft.brewing");
 
 var potionTypes = [
@@ -753,7 +755,6 @@ var potionTypes = [
   "cyclicmagic:bounce"
 ] as string[];
 
-JEI.removeAndHide(<minecraft:brewing_stand>);
 JEI.removeAndHide(<minecraft:splash_potion>.withTag({Potion: "minecraft:water"}));
 JEI.removeAndHide(<minecraft:lingering_potion>.withTag({Potion: "minecraft:water"}));
 recipes.removeByRecipeName("minecraft:tippedarrow");
