@@ -55,6 +55,10 @@ item.novik_chestplate.name=Novik Chestplate
 item.novik_leggings.name=Novik Leggings
 item.novik_boots.name=Novik Boots
 item.novik_sword.name=Discordant Ruby Sword
+item.dark_mana.name=Shade Speck
+item.dark_core.name=Roh Void Core
+item.dark_locator.name=Cult of Roh Eye
+item.dark_dagger.name=Roh Void Dagger
 
 item.dauntless_fist.name=Gauntlet of Strife
 item.dauntless_crystal.name=Forbidden Crystal

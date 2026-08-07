@@ -29,7 +29,7 @@ addMaterial("Electrum", "FFFF8C", ["ingot","nugget","molten","dense_plate","dust
 addMaterial("Silver", "D2DCE8", ["dust"], [0], [""]);
 addMaterial("Zinc", "E3EAE8", ["ore","ingot","block","nugget","molten","dust"], [500, 3100, 7, 1900], [""]);
 addMaterial("Brass", "FCE285", ["ingot","nugget","molten","dust"], [1308, 1500, 9, 3920], ["ingot"]);
-addMaterial("Ambrosium", "FFE666", ["molten","dust"], [195, 1125, 12, 6050], [""]);
+addMaterial("Ambrosium", "FFE666", ["molten","dust", "ingot"], [195, 1125, 12, 6050], ["ingot"]);
 addMaterial("Gravitite", "F468D6", ["ingot","nugget","molten","dust"], [20, 1000, 2, 20], ["ingot"]);
 
 // Add new materials using this function!

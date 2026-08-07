@@ -1763,7 +1763,7 @@ mortarRefractory.addItems([<ceramics:unfired_clay:4>,<pyrotech:material:8>,<pyro
 
 val binder = <ore:materialBinding>;
 binder.addAll(<ore:treeLeaves>,<ore:flower>,<ore:vine>);
-binder.addItems([<biomesoplenty:plant_0:11>,<biomesoplenty:plant_0:12>,<quark:leaf_carpet:*>,<pyrotech:tinder>,<pyrotech:material:12>,<betterwithmods:material:3>,<minecraft:double_plant:3>,<minecraft:tallgrass:2>,<minecraft:double_plant:2>,<minecraft:tallgrass:1>,<biomesoplenty:plant_0:13>,<biomesoplenty:plant_0:14>,<biomesoplenty:plant_0:1>,<biomesoplenty:plant_0>,<biomesoplenty:plant_0:9>,<harvestcraft:barleyitem>,<harvestcraft:ryeitem>,<harvestcraft:oatsitem>,<betterwithmods:material:2>]);
+binder.addItems([<biomesoplenty:plant_0:11>,<biomesoplenty:plant_0:12>,<quark:leaf_carpet:*>,<pyrotech:tinder>,<pyrotech:material:12>,<betterwithmods:material:3>,<minecraft:double_plant:3>,<minecraft:tallgrass:2>,<minecraft:double_plant:2>,<minecraft:tallgrass:1>,<biomesoplenty:plant_0:13>,<biomesoplenty:plant_0:14>,<biomesoplenty:plant_0:1>,<biomesoplenty:plant_0>,<biomesoplenty:plant_0:9>,<harvestcraft:barleyitem>,<harvestcraft:ryeitem>,<harvestcraft:oatsitem>,<betterwithmods:material:2>,<contenttweaker:draff>]);
 binder.removeItems([<minecraft:sapling>]);
 
 // Brick Rework

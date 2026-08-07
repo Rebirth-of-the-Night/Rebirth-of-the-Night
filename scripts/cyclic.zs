@@ -41,6 +41,7 @@ JEI.removeAndHide(<cyclicmagic:block_fishing>);//add back
 JEI.removeAndHide(<cyclicmagic:password_block>);//add back
 JEI.removeAndHide(<cyclicmagic:fluid_placer>); //Requires RF
 JEI.removeAndHide(<cyclicmagic:fluid_drain>); //Requires RF
+JEI.removeAndHide(<cyclicmagic:tool_prospector>);
 //JEI.removeAndHide(<cyclicmagic:corrupted_chorus>);//add back in future update
 
 
@@ -72,7 +73,6 @@ recipes.remove(<cyclicmagic:plate_push_corner>);
 recipes.remove(<cyclicmagic:plate_push_med_angle>);
 recipes.remove(<cyclicmagic:shears_obsidian>);
 recipes.remove(<cyclicmagic:doorbell_simple>);
-recipes.remove(<cyclicmagic:tool_prospector>);
 recipes.remove(<cyclicmagic:horse_upgrade_type>);
 recipes.remove(<cyclicmagic:horse_upgrade_variant>);
 recipes.remove(<cyclicmagic:horse_upgrade_health>);
@@ -189,7 +189,7 @@ recipes.addShaped("immersive_carbon_paper", carpaper*6, [
 
 recipes.addShaped("immersive_prospector", <cyclicmagic:tool_spelunker>, [
 	[carpaper, <minecraft:stone_pickaxe>],
-    [<minecraft:writable_book>, <artisanworktables:artisans_lens_gold>, <antiqueatlas:empty_antique_atlas>]
+    [paper, <artisanworktables:artisans_lens_gold>]
 ]);
 
 recipes.addShaped("obsidian_shears", obsi_shear,[

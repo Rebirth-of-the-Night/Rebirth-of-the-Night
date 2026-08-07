@@ -3847,7 +3847,6 @@ ExSartagine.addKettleRecipe([<contenttweaker:magic_blend>], null, <liquid:lunar_
 //bandage
 ExSartagine.addKettleRecipe([<ore:durableFiber>,<ore:durableFiber>,<ore:durableFiber>,<ore:durableFiber>,<ore:durableFiber>,<ore:durableFiber>], null, <liquid:water>*100, null, [<contenttweaker:bandage>], 1000);//liquid
 //methanol
-ExSartagine.addKettleRecipe([<pyrotech:rock:7>], waterBucket,<liquid:methanol>*1000, [null], 1000);//liquid
 ExSartagine.addKettleRecipe([woodChips], null, waterBucket, <liquid:methanol>*1000, [null], 1000, 1200);//liquid
 
 //clean water

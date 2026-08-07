@@ -77,6 +77,10 @@ val nethCoalBlock = <betterwithmods:aesthetic:13>;
 val flowerPot = <minecraft:flower_pot>;
 val refractoryMaterial = <pyrotech:material:4>;
 val genericMetal = <ore:genericMetal>;
+val shadeSpeck = <da:dark_mana>;
+val nightShard = <contenttweaker:shard_of_night>;
+val garsenShard = <da:knight_shard>;
+val glassShard = <ore:shardGlass>;
 
 //Define liquids
 var hotspring = <liquid:hot_spring_water>;
@@ -287,5 +291,12 @@ Alembic.beginAlembicRecipe(400)
   .setHeatLevels(4)
   .setInputItem(<betterwithmods:material:21>)
   .setInputFluid(<liquid:concentrated_bioflow>*250)
-  .setOutputItem(<da:knight_shard>, <contenttweaker:raw_tin>)
+  .setOutputItem(garsenShard, <contenttweaker:raw_tin>)
+  .addToAlembic();
+  
+//Shade Alchemy
+Alembic.beginAlembicRecipe(20)
+  .setHeatLevels(3)
+  .setInputItem(shadeSpeck)
+  .setOutputItem(nightShard, glassShard)
   .addToAlembic();
