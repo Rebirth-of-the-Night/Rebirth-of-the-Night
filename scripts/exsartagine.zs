@@ -203,7 +203,7 @@ furnace.remove(<dungeontactics:toast>);
 
 //Cleaner: cleans appliances on its own
 val cleaner = <ore:cleaner>;
-cleaner.add(<betterwithmods:material:49>);
+cleaner.add(<totf:cleaner>);
 
 //Washer: cleans appliances when there is 100 water therein
 val washer = <ore:washer>;

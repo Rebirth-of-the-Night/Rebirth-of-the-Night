@@ -8,8 +8,8 @@ import mods.betterwithmods.Anvil;
 //Steel Anvil
 recipes.remove(<betterwithmods:steel_anvil>);
 
-var steel = <dungeontactics:steel_ingot>;
-var steelblock = <dungeontactics:steel_block>;
+val steel = <dungeontactics:steel_ingot>;
+val steelblock = <dungeontactics:steel_block>;
 
 recipes.addShaped("Steel Anvil", <betterwithmods:steel_anvil>,[
 	[steelblock, steelblock, steelblock],
@@ -20,23 +20,25 @@ recipes.addShaped("Steel Anvil", <betterwithmods:steel_anvil>,[
 <ore:gearSteel>.add(<pyrotech:cog_bone>);
 <ore:gearBrass>.add(<pyrotech:cog_gold>);
 
-var leatherBelt = <betterwithmods:material:9>;
-var cSteelNugget = <ore:nuggetSteel>;
-var cSteelIngot = <ore:ingotSteel>;
-var redstoneLatch = <ore:latchRedstone>;
-var steelGear = <pyrotech:cog_bone>;
-var brassGear = <pyrotech:cog_gold>;
-var sfsNugget = <ore:nuggetSoulforgedSteel>;
-var sfsIngot = <ore:ingotSoulforgedSteel>;
-var vnugg = <ore:nuggetViridium>.firstItem;
-var tannedstrap = <betterwithmods:material:8>;
-var glue = <ore:glue>;
-var tanned = <ore:hideTanned>;
-var durafiber = <ore:durableFiber>;
-var feralratclaw = <rats:feral_rat_claw>;
+val leatherBelt = <betterwithmods:material:9>;
+val cSteelNugget = <ore:nuggetSteel>;
+val cSteelIngot = <ore:ingotSteel>;
+val redstoneLatch = <ore:latchRedstone>;
+val steelGear = <pyrotech:cog_bone>;
+val brassGear = <pyrotech:cog_gold>;
+val sfsNugget = <ore:nuggetSoulforgedSteel>;
+val sfsIngot = <ore:ingotSoulforgedSteel>;
+val vnugg = <ore:nuggetViridium>.firstItem;
+val tannedstrap = <betterwithmods:material:8>;
+val glue = <ore:glue>;
+val tanned = <ore:hideTanned>;
+val durafiber = <ore:durableFiber>;
+val feralratclaw = <rats:feral_rat_claw>;
+val spring = <betterwithmods:material:49>;
 
 Anvil.removeShaped(<betterwithaddons:wrought_bars>);
 Anvil.removeShaped(<betterwithaddons:steel_masonpick>); // replaced with content tweaker items for removal of building blocks (craftable only at foundry)
+Anvil.removeShaped(spring);
 
 Anvil.removeShaped(<betterwithmods:steel_axle>);
 Anvil.removeShaped(<betterwithmods:steel_gearbox>);

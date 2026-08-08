@@ -627,6 +627,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 
 <aesthetics:iron_brick_stairs:*>.addTooltip("When used in machines, can be oriented in any position.");
 
+<artifacts:drinking_hat:*>.addTooltip("'This thing is so dumb, you could only get it from giving a fairy cat the key to infinite fish' - Foreck");
+
 // Bombs
 <dungeontactics:bomb_frag:*>.addTooltip("Explodes in an area");
 <dungeontactics:bomb_frag>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));

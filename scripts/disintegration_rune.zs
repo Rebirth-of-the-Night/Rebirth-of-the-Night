@@ -89,16 +89,6 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
-  .setShapeless([<bountifulbaubles:amuletsingluttony>])
-  .addOutput(<contenttweaker:vis_sliver>)
-  .addTool(<contenttweaker:disint_rune>, 1)
-  .setExtraOutputOne(<contenttweaker:vis_sliver>, 0.1)
-  .setExtraOutputTwo(<contenttweaker:energy_quintessence>, 0.1)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .create();
-
-RecipeBuilder.get("mage")
   .setShapeless([<artifacts:cobalt_shield>])
   .addOutput(<contenttweaker:vis_sliver>)
   .addTool(<contenttweaker:disint_rune>, 1)

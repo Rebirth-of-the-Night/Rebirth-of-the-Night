@@ -291,6 +291,26 @@ Infuser.addShaped(<contenttweaker:crucible_of_souls>,[
     [<betterwithmods:cooking_pot>]
 ], 16);
 
+// Star Cloak infusion
+val nightShard = <contenttweaker:shard_of_night>;
+Infuser.addShaped(<artifacts:star_cloak>,[
+    [null,<nyx:fallen_star>,null],
+	[nightShard,<ore:wolfCape>,nightShard],
+    [null,nightShard,null]
+], 32);
+Infuser.addShaped(<artifacts:star_cloak>,[
+    [null,<nyx:fallen_star>,null],
+	[nightShard,<ore:bearCape>,nightShard],
+    [null,nightShard,null]
+], 32);
+
+// Feral Claws infusion
+Infuser.addShaped(<artifacts:feral_claws>,[
+    [null, <contenttweaker:ofuda>, null],
+	[<ore:ingotViridium>,<totf:ancestral_claw_necklace>,<ore:ingotViridium>],
+    [null, <ore:ingotViridium>, null]
+], 1);
+
 // Spirit charging
 Infuser.addShapeless(<cyclicmagic:wand_hypno>,
 [<cyclicmagic:wand_hypno>.anyDamage(),<contenttweaker:vis_sliver>], 64);

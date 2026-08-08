@@ -178,6 +178,12 @@ recipes.addShaped("fat_candle", <betterwithmods:candle>*2, [
 	[<ore:burnable_fat>]
 ]);
 
+recipes.addShaped("steel_spring", <betterwithmods:material:49>*2, [
+    [<dungeontactics:steel_nugget>,<dungeontactics:steel_nugget>],
+    [<dungeontactics:steel_nugget>,<dungeontactics:steel_nugget>],
+	[<dungeontactics:steel_nugget>,<dungeontactics:steel_nugget>]
+]);
+
 recipes.addShapeless("clay_brick_revert",<minecraft:clay_ball>,[<betterwithmods:unfired_pottery:4>]);
 
 recipes.addShapeless("nether_brick_revert",<betterwithmods:material:35>,[<betterwithmods:unfired_pottery:5>]);

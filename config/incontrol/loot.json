@@ -1,7 +1,7 @@
 [
 	// Slayer's Journal
 	{
-		"mob": ["minecraft:zombie","minecraft:skeleton","minecraft:zombie_villager","primitivemobs:skeleton_warrior","primitivemobs:goblin","quark:ashen","minecraft:witch","quark:dweller","primitivemobs:lost_miner","toroquest:toroquest_sentry","zombie_players:zombie_player"],
+		"mob": ["minecraft:zombie","minecraft:skeleton","minecraft:zombie_villager","primitivemobs:skeleton_warrior","totf:goblin_wayfarer","quark:ashen","minecraft:witch","quark:dweller","primitivemobs:lost_miner","toroquest:toroquest_sentry","zombie_players:zombie_player"],
 		"player": true,
 		"item": "contenttweaker:slayers_tattered_journal",
 		"itemcount": "1",
@@ -9,14 +9,14 @@
 		"gamestage": "start"
 	},
 	{
-		"mob": ["minecraft:zombie","minecraft:skeleton","minecraft:zombie_villager","primitivemobs:skeleton_warrior","primitivemobs:goblin","quark:ashen","minecraft:witch","quark:dweller","primitivemobs:lost_miner","toroquest:toroquest_sentry","zombie_players:zombie_player"],
+		"mob": ["minecraft:zombie","minecraft:skeleton","minecraft:zombie_villager","primitivemobs:skeleton_warrior","totf:goblin_wayfarer","quark:ashen","minecraft:witch","quark:dweller","primitivemobs:lost_miner","toroquest:toroquest_sentry","zombie_players:zombie_player"],
 		"remove": "contenttweaker:slayers_tattered_journal",
 		"gamestage": "slayersjournal"
 	},
 	
 	// Dietary Guide
 	{
-		"mob": ["minecraft:zombie","minecraft:skeleton","minecraft:zombie_villager","primitivemobs:skeleton_warrior","primitivemobs:goblin","quark:ashen","minecraft:witch","quark:dweller","primitivemobs:lost_miner","toroquest:toroquest_sentry","zombie_players:zombie_player"],
+		"mob": ["minecraft:zombie","minecraft:skeleton","minecraft:zombie_villager","primitivemobs:skeleton_warrior","totf:goblin_wayfarer","quark:ashen","minecraft:witch","quark:dweller","primitivemobs:lost_miner","toroquest:toroquest_sentry","zombie_players:zombie_player"],
 		"player": true,
 		"item": "solcarrot:food_book",
 		"itemcount": "1",
@@ -30,7 +30,7 @@
 		"gamestage": "start"
 	},
 	{
-		"mob": ["minecraft:zombie","minecraft:skeleton","minecraft:zombie_villager","primitivemobs:skeleton_warrior","primitivemobs:goblin","quark:ashen","minecraft:witch","quark:dweller","primitivemobs:lost_miner","toroquest:toroquest_sentry","zombie_players:zombie_player"],
+		"mob": ["minecraft:zombie","minecraft:skeleton","minecraft:zombie_villager","primitivemobs:skeleton_warrior","totf:goblin_wayfarer","quark:ashen","minecraft:witch","quark:dweller","primitivemobs:lost_miner","toroquest:toroquest_sentry","zombie_players:zombie_player"],
 		"remove": "solcarrot:food_book",
 		"nbt": {
 			"display":{
@@ -43,7 +43,7 @@
 
 	// To Do List
 	{
-		"mob": ["minecraft:zombie","minecraft:skeleton","minecraft:zombie_villager","primitivemobs:skeleton_warrior","primitivemobs:goblin","quark:ashen","minecraft:witch","quark:dweller","primitivemobs:lost_miner","toroquest:toroquest_sentry","zombie_players:zombie_player"],
+		"mob": ["minecraft:zombie","minecraft:skeleton","minecraft:zombie_villager","primitivemobs:skeleton_warrior","totf:goblin_wayfarer","quark:ashen","minecraft:witch","quark:dweller","primitivemobs:lost_miner","toroquest:toroquest_sentry","zombie_players:zombie_player"],
 		"player": true,
 		"item": "clipboard:clipboard",
 		"itemcount": "1",
@@ -63,7 +63,7 @@
 		"gamestage": "start"
 	},
 	{
-		"mob": ["minecraft:zombie","minecraft:skeleton","minecraft:zombie_villager","primitivemobs:skeleton_warrior","primitivemobs:goblin","quark:ashen","minecraft:witch","quark:dweller","primitivemobs:lost_miner","toroquest:toroquest_sentry","zombie_players:zombie_player"],
+		"mob": ["minecraft:zombie","minecraft:skeleton","minecraft:zombie_villager","primitivemobs:skeleton_warrior","totf:goblin_wayfarer","quark:ashen","minecraft:witch","quark:dweller","primitivemobs:lost_miner","toroquest:toroquest_sentry","zombie_players:zombie_player"],
 		"remove": "clipboard:clipboard",
 		"nbt": {
 			"display":{
