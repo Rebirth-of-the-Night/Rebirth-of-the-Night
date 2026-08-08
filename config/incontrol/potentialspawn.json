@@ -108,33 +108,30 @@
       }
     ]
   },
-
-// removed from TF  
   {
-    "dimension": [0],
+    "dimension": [0,10,7],
     "mobs": [
       {
-        "mob": "primitivemobs:goblin",
-        "weight": 0.2,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      }
-    ]
-  },
-
-
-// beneath
-  {
-    "dimension": 10,
-    "mobs": [
-      {
-        "mob": "primitivemobs:goblin",
-        "weight": 3,
+        "mob": "totf:goblin_wayfarer",
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 2
       }
     ]
   },
+  {
+    "dimension": [0,10,7],
+    "mobs": [
+      {
+        "mob": "totf:goblin",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+
+// beneath
   
   {
     "dimension": 10,
@@ -357,7 +354,7 @@
     "mobs": [
       {
         "mob": "netherex:ember",
-        "weight": 0.3,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 5
       }

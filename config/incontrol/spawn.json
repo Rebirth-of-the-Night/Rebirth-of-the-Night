@@ -54,7 +54,18 @@
     "random": 0.1,
     "armorboots": ["minecraft:leather_boots", "minecraft:chainmail_boots"]
 },
-
+{
+  "mob": "minecraft:zombie",
+  "customname": "§cEmberian Purger",
+  "healthmultiply": 2,
+  "damagemultiply": 2,
+  "random": 0.05,
+  "helditem": ["spartanweaponry:longsword_silver"],
+  "armorhelmet": ["dungeontactics:stone_plate_faceplate"],
+  "armorchest": ["dungeontactics:stone_plate_chestpiece"],
+  "armorlegs": ["minecraft:chainmail_leggings"],
+  "armorboots": ["minecraft:chainmail_boots"]
+},
 
 /////////// KILLED HARVESTER GAMESTAGE //////////////
 
@@ -214,37 +225,37 @@
 
 ////////////////// TOOL GAME STAGES //////////////////////////
 {
-    "mob": ["minecraft:zombie","primitivemobs:goblin"],
+    "mob": ["minecraft:zombie","totf:goblin_tunneler"],
     "random": 0.1,
     "helditem": ["2=simpleores:mythril_pickaxe","2=primitivemobs:goblin_mace"],
     "gamestage": "minedMythril"
 },
 {
-    "mob": ["minecraft:zombie","primitivemobs:goblin"],
+    "mob": ["minecraft:zombie","totf:goblin_tunneler"],
     "random": 0.1,
     "helditem": ["3=simpleores:onyx_pickaxe"],
     "gamestage": "killedWither"
 },
 {
-    "mob": ["minecraft:zombie","primitivemobs:goblin"],
+    "mob": ["minecraft:zombie","totf:goblin_tunneler"],
     "random": 0.1,
     "helditem": ["3=minecraft:diamond_pickaxe","3=atop:ruby_pickaxe","3=atop:sapphire_pickaxe","3=atop:peridot_pickaxe","2=simpleores:adamantium_pickaxe"],
     "gamestage": "enteredBeneath"
 },
 {
-    "mob": ["minecraft:zombie","primitivemobs:goblin"],
+    "mob": ["minecraft:zombie","totf:goblin_tunneler"],
     "random": 0.1,
     "helditem": ["3=dungeontactics:steel_pickaxe", "2=atop:mud_pickaxe"],
     "gamestage": "enteredNether"
 },
 {
-    "mob": ["minecraft:zombie","primitivemobs:goblin"],
+    "mob": ["minecraft:zombie","totf:goblin_tunneler"],
     "random": 0.1,
     "helditem": "3=atop:amethyst_pickaxe",
     "gamestage": "enteredEnd"
 },/*
 {
-    "mob": ["minecraft:zombie","primitivemobs:goblin"],
+    "mob": ["minecraft:zombie","totf:goblin_tunneler"],
     "helditem": ["1=minecraft:iron_pickaxe", "2=atop:mud_pickaxe"],
     "gamestage": "killedQuazar"
 },*/
@@ -258,30 +269,39 @@
     "potion": ["minecraft:fire_resistance,1000000,10"]
   },
   
-// goblin mace nerf
-{
-	"dimension" : [0, 10],
-	"mob": "primitivemobs:goblin",
-	"onjoin": true,
+// goblin brood common spawn
+  {
+	"dimension" : [0],
+	"mob": "totf:goblin",
 	"seesky": false,
 	"maxlight": 7,
-	"maxheight": 35,
+	"maxheight": 55,
 	"minheight": 10,
-    "random": 0.1,
-	"helditem": ["4=spartanweaponry:club_wood", "2=minecraft:iron_pickaxe", "2=mod_lavacow:tooth_dagger", "3=mod_lavacow:vespa_dagger", "1=mod_lavacow:bonesword", "1=spartanweaponry:dagger_bronze", "2=spartanweaponry:dagger_iron", "2=spartanweaponry:dagger_copper", "4=dungeontactics:bone_knife", "2=dungeontactics:sharp_stick", "1=spartanweaponry:throwing_axe_stone", "1=spartanweaponry:throwing_axe_iron"],
-	"maxcount": {
-        "amount": 6,
-        "perplayer": true
-    },
 	"result": "allow"
   },
-{
-	"dimension" : [0, 10],
+  {
+	"dimension" : [0],
 	"mob": "primitivemobs:goblin",
-    "onjoin": "true",
 	"result": "deny"
   },
   
+// goblin wayfarer common spawn
+  {
+	"dimension" : [0],
+	"mob": "totf:goblin_wayfarer",
+	"seesky": false,
+	"maxlight": 5,
+	"maxheight": 35,
+	"minheight": 10,
+	"result": "allow"
+  },
+  {
+	"dimension" : [0],
+	"mob": "primitivemobs:goblin_wayfarer",
+	"result": "deny"
+  },
+
+
 // Neutral Pigmen (orc)
 {
    "dimension": -1,
@@ -302,7 +322,7 @@
 // boss buff time!
 {
     "mob": "minecraft:wither",
-	 "onjoin": true,
+	"onjoin": true,
     "nbt": {"ActiveEffects":[{"Id":133,"Duration":5,"Amplifier":1,"ShowParticles":"1b"},{"Id":158,"Duration":1000000,"Amplifier":1,"ShowParticles":"1b"}],"Invul":220},
     "damagemultiply": 2
   },
@@ -1043,7 +1063,9 @@
     "dimension": [0,10],
     "mob": "netherex:ember",
     "gamestage": "enteredNether",
-	"maxlight": 7,
+	"maxlight": 12,
+	"seesky": true,
+	"potion": ["potioncore:slow_fall,1000000,0","minecraft:fire_resistance,1000000,10"],
 
     "maxheight": 50,
     "random": 0.1,
@@ -2339,7 +2361,7 @@
 	"maxheight": 120,
     "result": "allow",
 	"damagemultiply": 0.7,
-    "healthmultiply": 0.5,
+    "healthmultiply": 0.25,
 	"potion": "minecraft:fire_resistance,1000000,10"
  },
  {
