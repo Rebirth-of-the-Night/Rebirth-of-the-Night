@@ -1,0 +1,12 @@
+{
+	"hordes:infectivity": {
+		"base_value": 1,
+		"display_mode": "PERCENTAGE",
+		"text_colour": "0x870000"
+	},
+	"hordes:infection_resistance": {
+		"base_value": 1,
+		"display_mode": "PERCENTAGE",
+		"text_colour": "gold"
+	}
+}

@@ -1,7 +1,0 @@
-[
-	{
-		"entity": "minecraft:horse",
-		"converts_to": "minecraft:zombie_horse",
-		"chance": 0.65
-	}
-]

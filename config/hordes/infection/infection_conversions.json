@@ -1,0 +1,12 @@
+[
+	{
+		"entity": "minecraft:villager",
+		"converts_to": "minecraft:zombie_villager",
+		"protection": 0.15
+	},
+	{
+		"entity": "minecraft:horse",
+		"converts_to": "minecraft:zombie_horse",
+		"protection": 0.35
+	}
+]

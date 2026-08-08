@@ -1,0 +1,117 @@
+[
+	{
+		"item": "minecraft:leather_boots",
+		"protection": 0.05,
+		"operation": "add_multiplied_total"
+	},
+	{
+		"item": "minecraft:leather_leggings",
+		"protection": 0.05,
+		"operation": "add_multiplied_total"
+	},
+	{
+		"item": "minecraft:leather_chestplate",
+		"protection": 0.05,
+		"operation": "add_multiplied_total"
+	},
+	{
+		"item": "minecraft:leather_helmet",
+		"protection": 0.05,
+		"operation": "add_multiplied_total"
+	},
+	{
+		"item": "minecraft:chainmail_boots",
+		"protection": 0.05,
+		"operation": "add_multiplied_total"
+	},
+	{
+		"item": "minecraft:chainmail_leggings",
+		"protection": 0.05,
+		"operation": "add_multiplied_total"
+	},
+	{
+		"item": "minecraft:chainmail_chestplate",
+		"protection": 0.05,
+		"operation": "add_multiplied_total"
+	},
+	{
+		"item": "minecraft:chainmail_helmet",
+		"protection": 0.05,
+		"operation": "add_multiplied_total"
+	},
+	{
+		"item": "minecraft:iron_boots",
+		"protection": 0.1,
+		"operation": "add_multiplied_total"
+	},
+	{
+		"item": "minecraft:iron_leggings",
+		"protection": 0.1,
+		"operation": "add_multiplied_total"
+	},
+	{
+		"item": "minecraft:iron_chestplate",
+		"protection": 0.1,
+		"operation": "add_multiplied_total"
+	},
+	{
+		"item": "minecraft:iron_helmet",
+		"protection": 0.1,
+		"operation": "add_multiplied_total"
+	},
+	{
+		"item": "minecraft:golden_boots",
+		"protection": 0.1,
+		"operation": "add_multiplied_total"
+	},
+	{
+		"item": "minecraft:golden_leggings",
+		"protection": 0.1,
+		"operation": "add_multiplied_total"
+	},
+	{
+		"item": "minecraft:golden_chestplate",
+		"protection": 0.1,
+		"operation": "add_multiplied_total"
+	},
+	{
+		"item": "minecraft:golden_helmet",
+		"protection": 0.1,
+		"operation": "add_multiplied_total"
+	},
+	{
+		"item": "minecraft:diamond_boots",
+		"protection": 0.15,
+		"operation": "add_multiplied_total"
+	},
+	{
+		"item": "minecraft:diamond_leggings",
+		"protection": 0.15,
+		"operation": "add_multiplied_total"
+	},
+	{
+		"item": "minecraft:diamond_chestplate",
+		"protection": 0.15,
+		"operation": "add_multiplied_total"
+	},
+	{
+		"item": "minecraft:diamond_helmet",
+		"protection": 0.15,
+		"operation": "add_multiplied_total"
+	},
+	{
+		"item": "minecraft:iron_horse_armor",
+		"protection": 0.4,
+		"operation": "add_multiplied_total"
+	},
+	{
+		"item": "minecraft:golden_horse_armor",
+		"protection": 0.4,
+		"operation": "add_multiplied_total"
+	},
+	{
+		"item": "minecraft:diamond_horse_armor",
+		"protection": 0.5,
+		"operation": "add_multiplied_total"
+	}
+]

@@ -1,0 +1,22 @@
+{
+  "horde_spawn": {
+    "category": "hostile",
+    "subtitle": "hordes.subtitle.hordeHowls",
+    "sounds": [ "hordes:horde_spawn" ]
+  },
+  "infect": {
+    "category": "player",
+    "subtitle": "hordes.subtitle.infected",
+    "sounds": [ "mob/zombie/unfect" ]
+  },
+  "immune": {
+    "category": "player",
+    "subtitle": "hordes.subtitle.immune",
+    "sounds": [ "entity/shulker/hurt_closed1",
+				"entity/shulker/hurt_closed2",
+				"entity/shulker/hurt_closed3",
+				"entity/shulker/hurt_closed4",
+				"entity/shulker/hurt_closed5" 
+				]
+  }
+ }
