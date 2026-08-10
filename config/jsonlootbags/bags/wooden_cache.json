@@ -1,0 +1,12 @@
+{
+    "loot-table": "jsonlootbags:wooden_cache", 
+    "name": "wooden_cache",                 
+    "human-name": "Wooden Cache",    
+    "texture": "jsonlootbags:bag",  
+    "rarity": "Uncommon",   
+    "effect": true,     
+    "colors": [         
+    "0x90C3D4",         
+    "#DB32DB"           
+    ]
+}

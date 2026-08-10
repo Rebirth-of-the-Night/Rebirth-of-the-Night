@@ -5,6 +5,7 @@
       "rolls": 1,
       "entries": [
         {
+          "entryName": "providence",
           "type": "item",
           "name": "fickle:plushie",
           "functions": [
@@ -20,6 +21,7 @@
           "weight": 1
         },
         {
+          "entryName": "elite",
           "type": "item",
           "name": "fickle:plushie",
           "functions": [
@@ -35,6 +37,7 @@
           "weight": 1
         },
         {
+          "entryName": "cosmo",
           "type": "item",
           "name": "fickle:plushie",
           "functions": [
@@ -50,6 +53,7 @@
           "weight": 1
         },
         {
+          "entryName": "hikonyan",
           "type": "item",
           "name": "fickle:plushie",
           "functions": [
@@ -65,6 +69,7 @@
           "weight": 1
         },
         {
+          "entryName": "baa",
           "type": "item",
           "name": "fickle:plushie",
           "functions": [
@@ -80,6 +85,7 @@
           "weight": 1
         },
         {
+          "entryName": "starry_sock",
           "type": "item",
           "name": "fickle:plushie",
           "functions": [
@@ -95,6 +101,7 @@
           "weight": 1
         },
         {
+          "entryName": "phos",
           "type": "item",
           "name": "fickle:plushie",
           "functions": [
@@ -110,6 +117,7 @@
           "weight": 1
         },
         {
+          "entryName": "ozy",
           "type": "item",
           "name": "fickle:plushie",
           "functions": [
@@ -125,6 +133,7 @@
           "weight": 1
         },
         {
+          "entryName": "mari",
           "type": "item",
           "name": "fickle:plushie",
           "functions": [
@@ -140,6 +149,7 @@
           "weight": 1
         },
         {
+          "entryName": "fang_guard",
           "type": "item",
           "name": "fickle:plushie",
           "functions": [

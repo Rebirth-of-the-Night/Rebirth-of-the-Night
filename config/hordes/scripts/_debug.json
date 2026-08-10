@@ -1,8 +1,23 @@
 [
   {
-    "function": "hordes:set_spawntable",
+    "function": "hordes:multiple",
     "value": [
-      "hordes:basic1"
+      {
+        "function": "hordes:set_spawntable",
+        "value": "hordes:basic1"
+      },
+      {
+        "function": "hordes:set_start_message",
+        "value": "You hear the sounds of undead moaning in the distance..."
+      },
+      {
+        "function": "hordes:set_end_message",
+        "value": "The sounds of moaning cease as the last attackers are fended off..."
+      },
+      {
+        "function": "hordes:call_script",
+        "value": "hordes:rewards_basic1"
+      }
     ],
     "conditions": [
       {
@@ -131,18 +146,7 @@
       }
     ]
   },
-  {
-    "function": "hordes:set_spawntable",
-    "value": [
-      "hordes:beneath3"
-    ],
-    "conditions": [
-      {
-        "name": "gamestages:gamestage",
-        "value": "beneath3"
-      }
-    ]
-  },
+
   {
     "function": "hordes:set_spawntable",
     "value": [

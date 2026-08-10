@@ -1,9 +1,0 @@
-[
-    {
-        "function": "hordes:set_spawntable",
-        "value": [
-            "hordes:default"
-        ],
-        "conditions": []
-    }
-]

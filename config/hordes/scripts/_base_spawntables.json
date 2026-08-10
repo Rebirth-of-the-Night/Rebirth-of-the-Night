@@ -1,0 +1,327 @@
+[
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:weighted_random",
+        "value": [
+          {
+            "function": "hordes:multiple",
+            "value": [
+              {
+                "function": "hordes:set_spawntable",
+                "value": "hordes:basic1"
+              },
+              {
+                "function": "hordes:set_start_message",
+                "value": "You hear the sounds of undead moaning in the distance..."
+              },
+              {
+                "function": "hordes:set_end_message",
+                "value": "The sounds of moaning cease as the last attackers are fended off..."
+              },
+              {
+                "function": "hordes:call_script",
+                "value": "hordes:rewards_basic1"
+              }
+            ],
+            "weight": 1
+          },
+          {
+            "function": "hordes:multiple",
+            "value": [
+              {
+                "function": "hordes:set_spawntable",
+                "value": "hordes:basic2"
+              },
+              {
+                "function": "hordes:set_start_message",
+                "value": "You hear the sounds of raid horns in the distance..."
+              },
+              {
+                "function": "hordes:set_end_message",
+                "value": "The last few surviving illagers beat a hasty retreat..."
+              },
+              {
+                "function": "hordes:call_script",
+                "value": "hordes:rewards_basic2"
+              }
+            ],
+            "weight": 1
+          },
+          {
+            "function": "hordes:multiple",
+            "value": [
+              {
+                "function": "hordes:set_spawntable",
+                "value": "hordes:basic3"
+              },
+              {
+                "function": "hordes:set_start_message",
+                "value": "You hear a pack of wild animals howling in the distance..."
+              },
+              {
+                "function": "hordes:set_end_message",
+                "value": "The raiders lick their wounds and slink off as the sun rises..."
+              },
+              {
+                "function": "hordes:call_script",
+                "value": "hordes:rewards_basic3"
+              }
+            ],
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "function": "hordes:set_spawn_duration",
+        "value": 6000,
+        "conditions": []
+      },
+      {
+        "function": "hordes:set_spawn_interval",
+        "value": 1500,
+        "conditions": []
+      },
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 25,
+        "conditions": []
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:not",
+        "value": {
+          "name": "gamestages:gamestage",
+          "value": "killedharvester"
+        }
+      }
+    ]
+  },
+  {
+    "function": "hordes:weighted_random",
+    "value": [
+      {
+        "function": "hordes:weighted_random",
+        "value": [
+          {
+            "function": "hordes:multiple",
+            "value": [
+              {
+                "function": "hordes:set_spawntable",
+                "value": "hordes:basic1"
+              },
+              {
+                "function": "hordes:set_start_message",
+                "value": "You hear the sounds of undead moaning in the distance..."
+              },
+              {
+                "function": "hordes:set_end_message",
+                "value": "The sounds of moaning cease as the last attackers are fended off..."
+              }
+            ],
+            "weight": 1
+          },
+          {
+            "function": "hordes:multiple",
+            "value": [
+              {
+                "function": "hordes:set_spawntable",
+                "value": "hordes:basic2"
+              },
+              {
+                "function": "hordes:set_start_message",
+                "value": "You hear the sounds of raid horns in the distance..."
+              },
+              {
+                "function": "hordes:set_end_message",
+                "value": "The last few surviving illagers beat a hasty retreat..."
+              }
+            ],
+            "weight": 1
+          },
+          {
+            "function": "hordes:multiple",
+            "value": [
+              {
+                "function": "hordes:set_spawntable",
+                "value": "hordes:basic3"
+              },
+              {
+                "function": "hordes:set_start_message",
+                "value": "You hear a pack of wild animals howling in the distance..."
+              },
+              {
+                "function": "hordes:set_end_message",
+                "value": "The raiders lick their wounds and slink off as the sun rises..."
+              }
+            ],
+            "weight": 1
+          }
+        ],
+        "weight": 1
+      },
+      {
+        "function": "hordes:weighted_random",
+        "value": [
+          {
+            "function": "hordes:multiple",
+            "value": [
+              {
+                "function": "hordes:set_spawntable",
+                "value": "hordes:harvester1"
+              },
+              {
+                "function": "hordes:set_start_message",
+                "value": "harvester1"
+              },
+              {
+                "function": "hordes:set_end_message",
+                "value": "The raiders lick their wounds and slink off as the sun rises..."
+              }
+            ],
+            "weight": 1
+          },
+          {
+            "function": "hordes:multiple",
+            "value": [
+              {
+                "function": "hordes:set_spawntable",
+                "value": "hordes:harvester2"
+              },
+              {
+                "function": "hordes:set_start_message",
+                "value": "harvester2"
+              },
+              {
+                "function": "hordes:set_end_message",
+                "value": "The raiders lick their wounds and slink off as the sun rises..."
+              }
+            ],
+            "weight": 1
+          }
+        ],
+        "weight": 2
+      },
+      {
+        "function": "hordes:weighted_random",
+        "value": [
+          {
+            "function": "hordes:multiple",
+            "value": [
+              {
+                "function": "hordes:set_spawntable",
+                "value": "hordes:nether1"
+              }
+            ],
+            "weight": 1
+          },
+          {
+            "function": "hordes:multiple",
+            "value": [
+              {
+                "function": "hordes:set_spawntable",
+                "value": "hordes:nether2"
+              }
+            ],
+            "weight": 1
+          }
+        ],
+        "conditions": [
+          {
+            "name": "gamestages:gamestage",
+            "value": "enterednether"
+          }
+        ],
+        "weight": 3
+      },
+      {
+        "function": "hordes:weighted_random",
+        "value": [
+          {
+            "function": "hordes:multiple",
+            "value": [
+              {
+                "function": "hordes:set_spawntable",
+                "value": "hordes:aether1"
+              }
+            ],
+            "weight": 1
+          },
+          {
+            "function": "hordes:multiple",
+            "value": [
+              {
+                "function": "hordes:set_spawntable",
+                "value": "hordes:aether2"
+              }
+            ],
+            "weight": 1
+          }
+        ],
+        "conditions": [
+          {
+            "name": "gamestages:gamestage",
+            "value": "enteredaether"
+          }
+        ],
+        "weight": 3
+      },
+      {
+        "function": "hordes:multiple",
+        "value": [
+          {
+            "function": "hordes:set_spawntable",
+            "value": "hordes:beneath1"
+          }
+        ],
+        "conditions": [
+          {
+            "name": "gamestages:gamestage",
+            "value": "enteredbeneath"
+          }
+        ],
+        "weight": 5
+      },
+      {
+        "function": "hordes:multiple",
+        "value": [
+          {
+            "function": "hordes:set_spawntable",
+            "value": "hordes:beneath2"
+          }
+        ],
+        "conditions": [
+          {
+            "name": "gamestages:gamestage",
+            "value": "minedmythril"
+          }
+        ],
+        "weight": 5
+      },
+      {
+        "function": "hordes:multiple",
+        "value": [
+          {
+            "function": "hordes:set_spawntable",
+            "value": "hordes:end1"
+          }
+        ],
+        "conditions": [
+          {
+            "name": "gamestages:gamestage",
+            "value": "enteredend"
+          }
+        ],
+        "weight": 5
+      }
+    ],
+    "conditions": [
+      {
+        "name": "gamestages:gamestage",
+        "value": "killedharvester"
+      }
+    ]
+  }
+]

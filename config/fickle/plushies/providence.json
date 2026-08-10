@@ -1,7 +1,7 @@
 {
     "id": "providence",
-    "displayName": "Providence Daemon",
-    "tooltip": "A cute and squishy companion (Courtesy of Providence Daemon).",
+    "displayName": "ProvidenceDaemon",
+    "tooltip": "A cute and squishy companion (Courtesy of ProvidenceDaemon).",
     
     "modelPath": "file:plushies/providence/plushie_providence",
     "texturePath": "file:plushies/providence/plushie_providence_base.png",
