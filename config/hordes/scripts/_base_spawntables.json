@@ -21,8 +21,8 @@
                 "value": "The sounds of moaning cease as the last attackers are fended off..."
               },
               {
-                "function": "hordes:call_script",
-                "value": "hordes:rewards_basic1"
+                "function": "hordes:add_reward_command",
+                "value": "/give @p jsonlootbags:wooden_cache"
               }
             ],
             "weight": 1
@@ -41,10 +41,6 @@
               {
                 "function": "hordes:set_end_message",
                 "value": "The last few surviving illagers beat a hasty retreat..."
-              },
-              {
-                "function": "hordes:call_script",
-                "value": "hordes:rewards_basic2"
               }
             ],
             "weight": 1
@@ -63,10 +59,6 @@
               {
                 "function": "hordes:set_end_message",
                 "value": "The raiders lick their wounds and slink off as the sun rises..."
-              },
-              {
-                "function": "hordes:call_script",
-                "value": "hordes:rewards_basic3"
               }
             ],
             "weight": 1
@@ -174,11 +166,11 @@
               },
               {
                 "function": "hordes:set_start_message",
-                "value": "harvester1"
+                "value": "You hear a distant shaking of chains and rattling of bones..."
               },
               {
                 "function": "hordes:set_end_message",
-                "value": "The raiders lick their wounds and slink off as the sun rises..."
+                "value": "The raiding spirits have been laid to rest, for now..."
               }
             ],
             "weight": 1
@@ -192,11 +184,11 @@
               },
               {
                 "function": "hordes:set_start_message",
-                "value": "harvester2"
+                "value": "You hear the sound of many legs skittering in the distance..."
               },
               {
                 "function": "hordes:set_end_message",
-                "value": "The raiders lick their wounds and slink off as the sun rises..."
+                "value": "The last bugs have been crushed as the raid comes to an end"
               }
             ],
             "weight": 1
@@ -213,6 +205,14 @@
               {
                 "function": "hordes:set_spawntable",
                 "value": "hordes:nether1"
+              },
+              {
+                "function": "hordes:set_start_message",
+                "value": "A raiding party from the firey depths approaches..."
+              },
+              {
+                "function": "hordes:set_end_message",
+                "value": "The hellish attackers have been fended off, for now..."
               }
             ],
             "weight": 1
@@ -223,6 +223,14 @@
               {
                 "function": "hordes:set_spawntable",
                 "value": "hordes:nether2"
+              },
+              {
+                "function": "hordes:set_start_message",
+                "value": "You feel a growing heat on your skin as fiery beasts gather on the horizon..."
+              },
+              {
+                "function": "hordes:set_end_message",
+                "value": "The last flames of the raid are extinguished as the morning approaches..."
               }
             ],
             "weight": 1
@@ -245,6 +253,14 @@
               {
                 "function": "hordes:set_spawntable",
                 "value": "hordes:aether1"
+              },
+              {
+                "function": "hordes:set_start_message",
+                "value": "You hear wings flapping in the distant skies..."
+              },
+              {
+                "function": "hordes:set_end_message",
+                "value": "The last of the flying beasts have finally been shot down..."
               }
             ],
             "weight": 1
@@ -274,6 +290,14 @@
           {
             "function": "hordes:set_spawntable",
             "value": "hordes:beneath1"
+          },
+          {
+            "function": "hordes:set_start_message",
+            "value": "A horrid undead menangerie gathers on the horizon..."
+          },
+          {
+            "function": "hordes:set_end_message",
+            "value": "The last undead monstrosity falls as the invaders are defeated..."
           }
         ],
         "conditions": [
@@ -290,6 +314,14 @@
           {
             "function": "hordes:set_spawntable",
             "value": "hordes:beneath2"
+          },
+          {
+            "function": "hordes:set_start_message",
+            "value": "The putrid smell of sickness floats on the air..."
+          },
+          {
+            "function": "hordes:set_end_message",
+            "value": "The harbingers of that terrible disease have been felled..."
           }
         ],
         "conditions": [
@@ -306,6 +338,14 @@
           {
             "function": "hordes:set_spawntable",
             "value": "hordes:end1"
+          },
+          {
+            "function": "hordes:set_start_message",
+            "value": "The warhorns of a forgotten empire sound on the horizon..."
+          },
+          {
+            "function": "hordes:set_end_message",
+            "value": "The last vestiges of the raiding party crumble to your blows..."
           }
         ],
         "conditions": [
