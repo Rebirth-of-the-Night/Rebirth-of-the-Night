@@ -1,0 +1,160 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "fickle:plushie",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{PlushieId: \"providence\"}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "fickle:plushie",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{PlushieId: \"elite\"}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "fickle:plushie",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{PlushieId: \"cosmo\"}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "fickle:plushie",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{PlushieId: \"hikonyan\"}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "fickle:plushie",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{PlushieId: \"baa\"}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "fickle:plushie",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{PlushieId: \"starry_sock\"}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "fickle:plushie",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{PlushieId: \"phos\"}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "fickle:plushie",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{PlushieId: \"ozy\"}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "fickle:plushie",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{PlushieId: \"mari\"}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "fickle:plushie",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{PlushieId: \"fang_guard\"}"
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

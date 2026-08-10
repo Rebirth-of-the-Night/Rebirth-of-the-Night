@@ -1,0 +1,211 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "entryName": "twine",
+          "type": "item",
+          "name": "pyrotech:material",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 14
+            }
+          ],
+          "weight": 6
+        },
+        {
+          "entryName": "spindle",
+          "type": "item",
+          "name": "totf:silk_spindle",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "weight": 6
+        },
+        {
+          "entryName": "simple healing elixir",
+          "type": "item",
+          "name": "rustic:elixir",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 4
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display: {LocName: \"Simple Healing Elixir\"}, ElixirEffects: [{Effect: \"minecraft:instant_health\", Amplifier: 4}]}"
+            }
+          ],
+          "weight": 6
+        },
+        {
+          "entryName": "book",
+          "type": "item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 10
+              }
+            }
+          ],
+          "weight": 6
+        },
+        {
+          "entryName": "old world tinkers kit",
+          "type": "item",
+          "name": "totf:old_world_tinkers_kit",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "entryName": "pemmican",
+          "type": "item",
+          "name": "totf:pemmican",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "entryName": "burlap",
+          "type": "item",
+          "name": "textiles:material",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 6,
+                "max": 10
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 13
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "entryName": "blood bottle",
+          "type": "item",
+          "name": "vials:vial_432",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Fluid: {FluidName: \"blood\", Amount: 250}}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "porcelain pot",
+          "type": "item",
+          "name": "totf:porcelain_pot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "porcelain_cup",
+          "type": "item",
+          "name": "totf:porcelain_cup",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "pemmican",
+          "type": "item",
+          "name": "betterwithmods:material",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 6
+              }
+            },
+            {
+              "function":"set_data",
+              "data": 6
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "random_plushie",
+      "entries": [
+        {
+          "entryName": "random_plushie",
+          "name": "rotn:misc/random_plushie",
+          "weight": 1,
+          "quality": 5,
+          "type": "loot_table"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.1,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    }
+  ]
+}
