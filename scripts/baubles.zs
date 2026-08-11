@@ -228,7 +228,6 @@ val baubleHead = <ore:baubleHead>;
 baubleHead.add(
   <artifacts:snorkel>,
   <artifacts:drinking_hat>,
-  <artifacts:night_vision_goggles>,
   <bountifulbaubles:trinketmagiclenses>
 );
 
@@ -960,3 +959,4 @@ RecipeBuilder.get("mage")
 
 //remove and hide original BB disint tablet
 JEI.removeAndHide(<bountifulbaubles:disintegrationtablet>);
+JEI.removeAndHide(<artifacts:night_vision_goggles>);
