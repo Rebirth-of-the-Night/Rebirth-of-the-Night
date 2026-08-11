@@ -1,0 +1,12 @@
+{
+    "loot-table": "jsonlootbags:raiders_bag", 
+    "name": "raiders_bag",                 
+    "human-name": "Raider's Bag",    
+    "texture": "jsonlootbags:bag",  
+    "rarity": "Uncommon",   
+    "effect": true,     
+    "colors": [         
+    "0x90C3D4",         
+    "#DB32DB"           
+    ]
+}

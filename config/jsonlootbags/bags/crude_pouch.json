@@ -1,0 +1,12 @@
+{
+    "loot-table": "jsonlootbags:crude_pouch", 
+    "name": "crude_pouch",                 
+    "human-name": "Crude Pouch",    
+    "texture": "jsonlootbags:bag",  
+    "rarity": "Uncommon",   
+    "effect": true,     
+    "colors": [         
+    "0x90C3D4",         
+    "#DB32DB"           
+    ]
+}

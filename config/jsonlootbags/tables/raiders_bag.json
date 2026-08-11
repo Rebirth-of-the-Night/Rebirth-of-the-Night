@@ -8,34 +8,34 @@
       },
       "entries": [
         {
-          "entryName": "twine",
+          "entryName": "zinc dust",
           "type": "item",
-          "name": "pyrotech:material",
+          "name": "contenttweaker:material_part",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 16,
-                "max": 32
+                "min": 8,
+                "max": 12
               }
             },
             {
               "function": "set_data",
-              "data": 14
+              "data": 36
             }
           ],
           "weight": 6
         },
         {
-          "entryName": "spindle",
+          "entryName": "raw tin",
           "type": "item",
-          "name": "totf:silk_spindle",
+          "name": "contenttweaker:raw_tin",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 1,
-                "max": 2
+                "min": 12,
+                "max": 16
               }
             }
           ],
@@ -61,24 +61,104 @@
           "weight": 6
         },
         {
-          "entryName": "book",
+          "entryName": "lapis",
           "type": "item",
-          "name": "minecraft:book",
+          "name": "minecraft:dye",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 4,
-                "max": 10
+                "min": 16,
+                "max": 32
               }
+            },
+            {
+              "function": "set_data",
+              "data": 4
             }
           ],
           "weight": 6
         },
         {
-          "entryName": "old world tinkers kit",
+          "entryName": "raw silver",
           "type": "item",
-          "name": "totf:old_world_tinkers_kit",
+          "name": "contenttweaker:raw_silver",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 12,
+                "max": 16
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "entryName": "emerald",
+          "type": "item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 12,
+                "max": 16
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "entryName": "stimulant brew",
+          "type": "item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:10974942,CustomPotionEffects:[{Id:7,Duration:0,Amplifier:3,ShowParticles:0b,ShowIcon:0b},{Id:1,Duration:4800,Amplifier:1},{Id:5,Duration:4800,Amplifier:1},{Id:10,Duration:300}],display:{LocName:\"Stimulant Brew\"}}"
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "entryName": "vis sliver",
+          "type": "item",
+          "name": "contenttweaker:vis_sliver",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "mining charge",
+          "type": "item",
+          "name": "betterwithmods:mining_charge",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 6,
+                "max": 8
+              }
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "gunpowder keg",
+          "type": "item",
+          "name": "dungeontactics:powderkeg",
           "functions": [
             {
               "function": "set_count",
@@ -86,83 +166,6 @@
                 "min": 1,
                 "max": 2
               }
-            }
-          ],
-          "weight": 3
-        },
-        {
-          "entryName": "pemmican",
-          "type": "item",
-          "name": "totf:pemmican",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 3,
-                "max": 6
-              }
-            }
-          ],
-          "weight": 3
-        },
-        {
-          "entryName": "burlap",
-          "type": "item",
-          "name": "textiles:material",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 6,
-                "max": 10
-              }
-            },
-            {
-              "function": "set_data",
-              "data": 13
-            }
-          ],
-          "weight": 3
-        },
-        {
-          "entryName": "blood bottle",
-          "type": "item",
-          "name": "vials:vial_432",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 2,
-                "max": 4
-              }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{Fluid: {FluidName: \"blood\", Amount: 250}}"
-            }
-          ],
-          "weight": 1
-        },
-        {
-          "entryName": "porcelain pot",
-          "type": "item",
-          "name": "totf:porcelain_pot",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ],
-          "weight": 1
-        },
-        {
-          "entryName": "porcelain cup",
-          "type": "item",
-          "name": "totf:porcelain_cup",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
             }
           ],
           "weight": 1

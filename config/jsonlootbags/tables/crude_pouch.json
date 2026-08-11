@@ -8,9 +8,9 @@
       },
       "entries": [
         {
-          "entryName": "twine",
+          "entryName": "bone",
           "type": "item",
-          "name": "pyrotech:material",
+          "name": "minecraft:bone",
           "functions": [
             {
               "function": "set_count",
@@ -18,25 +18,25 @@
                 "min": 16,
                 "max": 32
               }
-            },
-            {
-              "function": "set_data",
-              "data": 14
             }
           ],
           "weight": 6
         },
         {
-          "entryName": "spindle",
+          "entryName": "wrought iron shard",
           "type": "item",
-          "name": "totf:silk_spindle",
+          "name": "contenttweaker:material_part",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 1,
-                "max": 2
+                "min": 8,
+                "max": 12
               }
+            },
+            {
+              "function": "set_data",
+              "data": 52
             }
           ],
           "weight": 6
@@ -61,44 +61,29 @@
           "weight": 6
         },
         {
-          "entryName": "book",
+          "entryName": "raw venison",
           "type": "item",
-          "name": "minecraft:book",
+          "name": "betteranimalsplus:venisonraw",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 4,
-                "max": 10
+                "min": 10,
+                "max": 16
               }
             }
           ],
           "weight": 6
         },
         {
-          "entryName": "old world tinkers kit",
+          "entryName": "ammonite fossil",
           "type": "item",
-          "name": "totf:old_world_tinkers_kit",
+          "name": "undergroundbiomes:fossil_piece",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ],
-          "weight": 3
-        },
-        {
-          "entryName": "pemmican",
-          "type": "item",
-          "name": "totf:pemmican",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 3,
+                "min": 4,
                 "max": 6
               }
             }
@@ -106,47 +91,58 @@
           "weight": 3
         },
         {
-          "entryName": "burlap",
+          "entryName": "mysterious fur",
           "type": "item",
-          "name": "textiles:material",
+          "name": "totf:mysterious_fur",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 6,
-                "max": 10
+                "min": 4,
+                "max": 6
               }
-            },
-            {
-              "function": "set_data",
-              "data": 13
             }
           ],
           "weight": 3
         },
         {
-          "entryName": "blood bottle",
+          "entryName": "wonder sap",
           "type": "item",
-          "name": "vials:vial_432",
+          "name": "primitivemobs:wonder_sap",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 2,
-                "max": 4
+                "min": 12,
+                "max": 16
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "entryName": "brass ingot",
+          "type": "item",
+          "name": "contenttweaker:material_part",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 10
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Fluid: {FluidName: \"blood\", Amount: 250}}"
+              "function": "set_data",
+              "data": 45
             }
           ],
           "weight": 1
         },
         {
-          "entryName": "porcelain pot",
+          "entryName": "maw skull",
           "type": "item",
-          "name": "totf:porcelain_pot",
+          "name": "totf:arcane_skull_maw",
           "functions": [
             {
               "function": "set_count",
@@ -156,9 +152,9 @@
           "weight": 1
         },
         {
-          "entryName": "porcelain cup",
+          "entryName": "goblin idol",
           "type": "item",
-          "name": "totf:porcelain_cup",
+          "name": "totf:goblin_idol",
           "functions": [
             {
               "function": "set_count",
