@@ -419,7 +419,6 @@
 		persistence = "120"
 		priority = "100"
 		resource_name = [ "EndCity" ]
-	[triggers.time]
 		identifier = "night"
 		time_bundle = "night"
 	[triggers.universal]
