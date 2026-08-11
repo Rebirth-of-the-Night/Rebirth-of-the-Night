@@ -153,6 +153,8 @@
 		triggers = [ "mob-enderdragon" ]
 	[songs.Mirrormere]
 		triggers = [ "dimension-overworld" ]
+	[songs.Moonless Night]
+		triggers = [ "newmoon" ]
 	[[songs.Moonsong]]
 		triggers = [ "dimension-overworld", "raining" ]
 	[[songs.Moonsong]]
@@ -419,6 +421,11 @@
 		persistence = "120"
 		priority = "100"
 		resource_name = [ "EndCity" ]
+	[[triggers.time]]
+		identifier = "newmoon"
+		time_bundle = "night"
+		moon_phase = "5"
+	[[triggers.time]]
 		identifier = "night"
 		time_bundle = "night"
 	[triggers.universal]
