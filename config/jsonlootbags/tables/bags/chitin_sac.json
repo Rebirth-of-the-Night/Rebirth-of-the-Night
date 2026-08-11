@@ -8,35 +8,22 @@
       },
       "entries": [
         {
-          "entryName": "bone",
-          "type": "item",
-          "name": "minecraft:bone",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 16,
-                "max": 32
-              }
-            }
-          ],
+          "entryName": "random herbs",
+          "type": "loot_table",
+          "name": "jsonlootbags:subtables/random_herbs",
           "weight": 6
         },
         {
-          "entryName": "wrought iron shard",
+          "entryName": "sugarcane",
           "type": "item",
-          "name": "contenttweaker:material_part",
+          "name": "minecraft:reeds",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 8,
-                "max": 12
+                "min": 24,
+                "max": 32
               }
-            },
-            {
-              "function": "set_data",
-              "data": 52
             }
           ],
           "weight": 6
@@ -61,24 +48,9 @@
           "weight": 6
         },
         {
-          "entryName": "raw venison",
+          "entryName": "scab",
           "type": "item",
-          "name": "betteranimalsplus:venisonraw",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 10,
-                "max": 16
-              }
-            }
-          ],
-          "weight": 6
-        },
-        {
-          "entryName": "ammonite fossil",
-          "type": "item",
-          "name": "undergroundbiomes:fossil_piece",
+          "name": "contenttweaker:scab",
           "functions": [
             {
               "function": "set_count",
@@ -91,58 +63,54 @@
           "weight": 3
         },
         {
-          "entryName": "mysterious fur",
+          "entryName": "skull",
           "type": "item",
-          "name": "totf:mysterious_fur",
+          "name": "minecraft:skull",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 4,
-                "max": 6
+                "min": 2,
+                "max": 3
               }
             }
           ],
           "weight": 3
         },
         {
-          "entryName": "wonder sap",
+          "entryName": "stomach",
           "type": "item",
-          "name": "primitivemobs:wonder_sap",
+          "name": "growthcraft_milk:stomach",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 12,
-                "max": 16
+                "min": 2,
+                "max": 3
               }
             }
           ],
           "weight": 3
         },
         {
-          "entryName": "brass ingot",
+          "entryName": "magic seed",
           "type": "item",
-          "name": "contenttweaker:material_part",
+          "name": "dynamictreesbop:magicseed",
           "functions": [
             {
               "function": "set_count",
               "count": {
                 "min": 8,
-                "max": 10
+                "max": 12
               }
-            },
-            {
-              "function": "set_data",
-              "data": 45
             }
           ],
           "weight": 1
         },
         {
-          "entryName": "maw skull",
+          "entryName": "stillborn petal",
           "type": "item",
-          "name": "totf:arcane_skull_maw",
+          "name": "biomesoplenty:terrestrial_artifact",
           "functions": [
             {
               "function": "set_count",
@@ -152,13 +120,16 @@
           "weight": 1
         },
         {
-          "entryName": "goblin idol",
+          "entryName": "mulch",
           "type": "item",
-          "name": "totf:goblin_idol",
+          "name": "pyrotech:mulch",
           "functions": [
             {
               "function": "set_count",
-              "count": 1
+              "count": {
+                "min": 24,
+                "max": 32
+              }
             }
           ],
           "weight": 1
@@ -189,7 +160,7 @@
       "entries": [
         {
           "entryName": "random_plushie",
-          "name": "jsonlootbags:random_plushie",
+          "name": "jsonlootbags:subtables/random_plushie",
           "weight": 1,
           "quality": 5,
           "type": "loot_table"

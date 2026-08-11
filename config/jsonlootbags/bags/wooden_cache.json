@@ -1,5 +1,5 @@
 {
-    "loot-table": "jsonlootbags:wooden_cache", 
+    "loot-table": "jsonlootbags:bags/wooden_cache", 
     "name": "wooden_cache",                 
     "human-name": "Wooden Cache",    
     "texture": "jsonlootbags:wooden_cache",  

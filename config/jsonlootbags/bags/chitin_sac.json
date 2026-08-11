@@ -1,7 +1,7 @@
 {
-    "loot-table": "jsonlootbags:bags/crude_pouch", 
-    "name": "crude_pouch",                 
-    "human-name": "Crude Pouch",    
+    "loot-table": "jsonlootbags:bags/chitin_sac", 
+    "name": "chitin_sac",                 
+    "human-name": "Chitin Sac",    
     "texture": "jsonlootbags:bag",  
     "rarity": "Uncommon",   
     "effect": true,     

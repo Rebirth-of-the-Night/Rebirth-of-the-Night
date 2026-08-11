@@ -8,34 +8,34 @@
       },
       "entries": [
         {
-          "entryName": "zinc dust",
+          "entryName": "twine",
           "type": "item",
-          "name": "contenttweaker:material_part",
+          "name": "pyrotech:material",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 8,
-                "max": 12
+                "min": 16,
+                "max": 32
               }
             },
             {
               "function": "set_data",
-              "data": 36
+              "data": 14
             }
           ],
           "weight": 6
         },
         {
-          "entryName": "raw tin",
+          "entryName": "spindle",
           "type": "item",
-          "name": "contenttweaker:raw_tin",
+          "name": "totf:silk_spindle",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 12,
-                "max": 16
+                "min": 1,
+                "max": 2
               }
             }
           ],
@@ -61,77 +61,92 @@
           "weight": 6
         },
         {
-          "entryName": "lapis",
+          "entryName": "book",
           "type": "item",
-          "name": "minecraft:dye",
+          "name": "minecraft:book",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 16,
-                "max": 32
+                "min": 4,
+                "max": 10
               }
-            },
-            {
-              "function": "set_data",
-              "data": 4
             }
           ],
           "weight": 6
         },
         {
-          "entryName": "raw silver",
+          "entryName": "old world tinkers kit",
           "type": "item",
-          "name": "contenttweaker:raw_silver",
+          "name": "totf:old_world_tinkers_kit",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 12,
-                "max": 16
+                "min": 1,
+                "max": 2
               }
             }
           ],
           "weight": 3
         },
         {
-          "entryName": "emerald",
+          "entryName": "pemmican",
           "type": "item",
-          "name": "minecraft:emerald",
+          "name": "totf:pemmican",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 12,
-                "max": 16
+                "min": 3,
+                "max": 6
               }
             }
           ],
           "weight": 3
         },
         {
-          "entryName": "stimulant brew",
+          "entryName": "burlap",
           "type": "item",
-          "name": "minecraft:potion",
+          "name": "textiles:material",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 6,
+                "max": 10
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 13
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "entryName": "blood bottle",
+          "type": "item",
+          "name": "vials:vial_432",
           "functions": [
             {
               "function": "set_count",
               "count": {
                 "min": 2,
-                "max": 3
+                "max": 4
               }
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionColor:10974942,CustomPotionEffects:[{Id:7,Duration:0,Amplifier:3,ShowParticles:0b,ShowIcon:0b},{Id:1,Duration:4800,Amplifier:1},{Id:5,Duration:4800,Amplifier:1},{Id:10,Duration:300}],display:{LocName:\"Stimulant Brew\"}}"
+              "tag": "{Fluid: {FluidName: \"blood\", Amount: 250}}"
             }
           ],
-          "weight": 3
+          "weight": 1
         },
         {
-          "entryName": "vis sliver",
+          "entryName": "porcelain pot",
           "type": "item",
-          "name": "contenttweaker:vis_sliver",
+          "name": "totf:porcelain_pot",
           "functions": [
             {
               "function": "set_count",
@@ -141,31 +156,13 @@
           "weight": 1
         },
         {
-          "entryName": "mining charge",
+          "entryName": "porcelain cup",
           "type": "item",
-          "name": "betterwithmods:mining_charge",
+          "name": "totf:porcelain_cup",
           "functions": [
             {
               "function": "set_count",
-              "count": {
-                "min": 6,
-                "max": 8
-              }
-            }
-          ],
-          "weight": 1
-        },
-        {
-          "entryName": "gunpowder keg",
-          "type": "item",
-          "name": "dungeontactics:powderkeg",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
+              "count": 1
             }
           ],
           "weight": 1
@@ -196,7 +193,7 @@
       "entries": [
         {
           "entryName": "random_plushie",
-          "name": "jsonlootbags:random_plushie",
+          "name": "jsonlootbags:subtables/random_plushie",
           "weight": 1,
           "quality": 5,
           "type": "loot_table"
