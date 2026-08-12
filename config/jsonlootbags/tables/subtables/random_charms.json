@@ -1,0 +1,118 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "rolls": 1,
+      "entries": [
+        {
+          "entryName": "toxic",
+          "type": "item",
+          "name": "dungeontactics:charm_toxic",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "sapping",
+          "type": "item",
+          "name": "dungeontactics:charm_sapping",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "heavy",
+          "type": "item",
+          "name": "dungeontactics:charm_heavy",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "emaciated",
+          "type": "item",
+          "name": "dungeontactics:charm_emaciated",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "unintelligible",
+          "type": "item",
+          "name": "dungeontactics:charm_unintelligible",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "darkened",
+          "type": "item",
+          "name": "dungeontactics:charm_darkened",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "famine",
+          "type": "item",
+          "name": "dungeontactics:charm_famine",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "barren",
+          "type": "item",
+          "name": "dungeontactics:charm_barren",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "searing",
+          "type": "item",
+          "name": "dungeontactics:charm_searing",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

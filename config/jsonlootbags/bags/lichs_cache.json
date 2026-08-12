@@ -1,0 +1,12 @@
+{
+    "loot-table": "jsonlootbags:bags/lichs_cache", 
+    "name": "lichs_cache",                 
+    "human-name": "Lichs Cache",    
+    "texture": "jsonlootbags:lichs_cache",  
+    "rarity": "Uncommon",   
+    "effect": false,     
+    "colors": [         
+    "0xFFFFFF",         
+    "0xFFFFFF"           
+    ]
+}

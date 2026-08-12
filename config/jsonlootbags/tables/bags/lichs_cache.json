@@ -1,0 +1,151 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "entryName": "random charms",
+          "type": "loot_table",
+          "name": "jsonlootbags:subtables/random_charms",
+          "weight": 6
+        },
+        {
+          "entryName": "magic powder",
+          "type": "item",
+          "name": "dungeontactics:magic_powder",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 48,
+                "max": 64
+              }
+            }
+          ],
+          "weight": 6
+        },
+        {
+          "entryName": "simple healing elixir",
+          "type": "item",
+          "name": "rustic:elixir",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 4
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display: {LocName: \"Simple Healing Elixir\"}, ElixirEffects: [{Effect: \"minecraft:instant_health\", Amplifier: 4}]}"
+            }
+          ],
+          "weight": 6
+        },
+        {
+          "entryName": "random gems",
+          "type": "loot_table",
+          "name": "jsonlootbags:subtables/random_gems",
+          "weight": 3
+        },
+        {
+          "entryName": "random ring",
+          "type": "loot_table",
+          "name": "jsonlootbags:subtables/random_ring",
+          "weight": 3
+        },
+        {
+          "entryName": "random amulet",
+          "type": "loot_table",
+          "name": "jsonlootbags:subtables/random_amulet",
+          "weight": 3
+        },
+        {
+          "entryName": "zombie scepter",
+          "type": "item",
+          "name": "twilightforest:zombie_scepter",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "benelyte",
+          "type": "item",
+          "name": "biomesoplenty:gem",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 5
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "raw gold",
+          "type": "item",
+          "name": "contenttweaker:raw_gold",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 40
+              }
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "lunar water bottle",
+          "type": "item",
+          "name": "nyx:lunar_water_bottle",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 6
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "random_plushie",
+      "entries": [
+        {
+          "entryName": "random_plushie",
+          "name": "jsonlootbags:subtables/random_plushie",
+          "weight": 1,
+          "quality": 5,
+          "type": "loot_table"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.1,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    }
+  ]
+}

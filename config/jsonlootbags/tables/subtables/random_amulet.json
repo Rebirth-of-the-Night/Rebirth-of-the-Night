@@ -1,0 +1,190 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "rolls": 1,
+      "entries": [
+        {
+          "entryName": "5",
+          "type": "item",
+          "name": "behgameon:accessory_5",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "6",
+          "type": "item",
+          "name": "behgameon:accessory_6",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "7",
+          "type": "item",
+          "name": "behgameon:accessory_7",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "8",
+          "type": "item",
+          "name": "behgameon:accessory_8",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "21",
+          "type": "item",
+          "name": "behgameon:accessory_21",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "22",
+          "type": "item",
+          "name": "behgameon:accessory_22",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "23",
+          "type": "item",
+          "name": "behgameon:accessory_23",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "24",
+          "type": "item",
+          "name": "behgameon:accessory_24",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "25",
+          "type": "item",
+          "name": "behgameon:accessory_25",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "26",
+          "type": "item",
+          "name": "behgameon:accessory_26",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "27",
+          "type": "item",
+          "name": "behgameon:accessory_27",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "28",
+          "type": "item",
+          "name": "behgameon:accessory_28",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "29",
+          "type": "item",
+          "name": "behgameon:accessory_29",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "30",
+          "type": "item",
+          "name": "behgameon:accessory_30",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "31",
+          "type": "item",
+          "name": "behgameon:accessory_31",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
