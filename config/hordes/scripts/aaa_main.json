@@ -123,5 +123,15 @@
         ]
       }
     ]
+  },
+  {
+    "function": "hordes:set_spawntable",
+    "value": "hordes:slime",
+    "conditions":[
+      {
+        "name": "hordes:random",
+        "value": 0.01
+      }
+    ]
   }
 ]

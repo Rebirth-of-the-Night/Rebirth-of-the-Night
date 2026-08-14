@@ -3,45 +3,15 @@
         "function": "hordes:multiple",
         "value": [
             {
-                "function": "hordes:weighted_random",
-                "value": [
-                    {
-                        "function": "hordes:set_entity_y",
-                        "value": {
-                            "name": "hordes:add",
-                            "value1": {
-                                "name": "hordes:player_pos",
-                                "value": "y"
-                            },
-                            "value2": 30
-                        },
-                        "weight": 1
+                "function": "hordes:set_entity_y",
+                "value": {
+                    "name": "hordes:add",
+                    "value1": {
+                        "name": "hordes:player_pos",
+                        "value": "y"
                     },
-                    {
-                        "function": "hordes:set_entity_y",
-                        "value": {
-                            "name": "hordes:add",
-                            "value1": {
-                                "name": "hordes:player_pos",
-                                "value": "y"
-                            },
-                            "value2": 40
-                        },
-                        "weight": 1
-                    },
-                    {
-                        "function": "hordes:set_entity_y",
-                        "value": {
-                            "name": "hordes:add",
-                            "value1": {
-                                "name": "hordes:player_pos",
-                                "value": "y"
-                            },
-                            "value2": 50
-                        },
-                        "weight": 1
-                    }
-                ]
+                    "value2": 70
+                }
             },
             {
                 "function": "hordes:weighted_random",
@@ -61,7 +31,7 @@
                     {
                         "function": "hordes:set_entity_x",
                         "value": {
-                            "name": "hordes:subtract",
+                            "name": "hordes:add",
                             "value1": {
                                 "name": "hordes:player_pos",
                                 "value": "x"
@@ -85,7 +55,7 @@
                     {
                         "function": "hordes:set_entity_x",
                         "value": {
-                            "name": "hordes:subtract",
+                            "name": "hordes:add",
                             "value1": {
                                 "name": "hordes:player_pos",
                                 "value": "x"
@@ -109,7 +79,7 @@
                     {
                         "function": "hordes:set_entity_x",
                         "value": {
-                            "name": "hordes:subtract",
+                            "name": "hordes:add",
                             "value1": {
                                 "name": "hordes:player_pos",
                                 "value": "x"
@@ -199,17 +169,17 @@
             }
         ],
         "conditions": [
-          {
-            "name": "hordes:comparison",
-            "value": {
-              "type": "string",
-              "operation": "==",
-              "value1": {
-                "name": "hordes:spawn_table"
-              },
-              "value2": "hordes:slime"
+            {
+                "name": "hordes:comparison",
+                "value": {
+                    "type": "string",
+                    "operation": "==",
+                    "value1": {
+                        "name": "hordes:spawn_table"
+                    },
+                    "value2": "hordes:slime"
+                }
             }
-          }
         ]
     }
 ]
