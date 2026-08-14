@@ -1,24 +1,7 @@
 [
   {
-    "function": "hordes:multiple",
-    "value": [
-      {
-        "function": "hordes:set_spawntable",
-        "value": "hordes:basic1"
-      },
-      {
-        "function": "hordes:set_start_message",
-        "value": "You hear the sounds of undead moaning in the distance..."
-      },
-      {
-        "function": "hordes:set_end_message",
-        "value": "The sounds of moaning cease as the last attackers are fended off..."
-      },
-      {
-        "function": "hordes:call_script",
-        "value": "hordes:rewards_basic1"
-      }
-    ],
+    "function": "hordes:set_spawntable",
+    "value": "hordes:basic1",
     "conditions": [
       {
         "name": "gamestages:gamestage",
@@ -28,9 +11,7 @@
   },
   {
     "function": "hordes:set_spawntable",
-    "value": [
-      "hordes:basic2"
-    ],
+    "value": "hordes:basic2",
     "conditions": [
       {
         "name": "gamestages:gamestage",
@@ -40,9 +21,7 @@
   },
   {
     "function": "hordes:set_spawntable",
-    "value": [
-      "hordes:basic3"
-    ],
+    "value": "hordes:basic3",
     "conditions": [
       {
         "name": "gamestages:gamestage",
@@ -52,9 +31,7 @@
   },
   {
     "function": "hordes:set_spawntable",
-    "value": [
-      "hordes:harvester1"
-    ],
+    "value": "hordes:harvester1",
     "conditions": [
       {
         "name": "gamestages:gamestage",
@@ -64,9 +41,7 @@
   },
   {
     "function": "hordes:set_spawntable",
-    "value": [
-      "hordes:harvester2"
-    ],
+    "value": "hordes:harvester2",
     "conditions": [
       {
         "name": "gamestages:gamestage",
@@ -76,9 +51,7 @@
   },
   {
     "function": "hordes:set_spawntable",
-    "value": [
-      "hordes:nether1"
-    ],
+    "value": "hordes:nether1",
     "conditions": [
       {
         "name": "gamestages:gamestage",
@@ -88,9 +61,7 @@
   },
   {
     "function": "hordes:set_spawntable",
-    "value": [
-      "hordes:nether2"
-    ],
+    "value": "hordes:nether2",
     "conditions": [
       {
         "name": "gamestages:gamestage",
@@ -100,9 +71,7 @@
   },
   {
     "function": "hordes:set_spawntable",
-    "value": [
-      "hordes:aether1"
-    ],
+    "value": "hordes:aether1",
     "conditions": [
       {
         "name": "gamestages:gamestage",
@@ -112,9 +81,7 @@
   },
   {
     "function": "hordes:set_spawntable",
-    "value": [
-      "hordes:aether2"
-    ],
+    "value": "hordes:aether2",
     "conditions": [
       {
         "name": "gamestages:gamestage",
@@ -124,9 +91,7 @@
   },
   {
     "function": "hordes:set_spawntable",
-    "value": [
-      "hordes:beneath1"
-    ],
+    "value": "hordes:beneath1",
     "conditions": [
       {
         "name": "gamestages:gamestage",
@@ -136,9 +101,7 @@
   },
   {
     "function": "hordes:set_spawntable",
-    "value": [
-      "hordes:beneath2"
-    ],
+    "value": "hordes:beneath2",
     "conditions": [
       {
         "name": "gamestages:gamestage",
@@ -146,12 +109,9 @@
       }
     ]
   },
-
   {
     "function": "hordes:set_spawntable",
-    "value": [
-      "hordes:end1"
-    ],
+    "value": "hordes:end1",
     "conditions": [
       {
         "name": "gamestages:gamestage",

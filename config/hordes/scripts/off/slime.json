@@ -1,0 +1,6 @@
+[
+    {
+      "function": "hordes:set_spawntable",
+      "value": "hordes:slime"
+    }
+]

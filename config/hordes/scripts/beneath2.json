@@ -1,0 +1,32 @@
+[
+    {
+        "function": "hordes:multiple",
+        "value": [
+            {
+                "function": "hordes:set_start_message",
+                "value": "The putrid smell of sickness floats on the air..."
+            },
+            {
+                "function": "hordes:set_end_message",
+                "value": "The harbingers of that terrible disease have been felled..."
+            },
+            {
+                "function": "hordes:add_reward_command",
+                "value": "/give @p stone"
+            }
+        ],
+        "conditions": [
+            {
+                "name": "hordes:comparison",
+                "value": {
+                    "type": "string",
+                    "operation": "==",
+                    "value1": {
+                        "name": "hordes:spawn_table"
+                    },
+                    "value2": "hordes:beneath2"
+                }
+            }
+        ]
+    }
+]

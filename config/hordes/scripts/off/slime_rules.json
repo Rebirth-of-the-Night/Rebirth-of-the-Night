@@ -1,0 +1,32 @@
+[
+    {
+        "function": "hordes:multiple",
+        "value": [
+          {
+            "function": "hordes:set_spawn_duration",
+            "value": 10000
+          },
+          {
+            "function": "hordes:set_spawn_interval",
+            "value": 60
+          },
+          {
+            "function": "hordes:set_spawn_amount",
+            "value": 2
+          }
+        ],
+        "conditions": [
+          {
+            "name": "hordes:comparison",
+            "value": {
+              "type": "string",
+              "operation": "==",
+              "value1": {
+                "name": "hordes:spawn_table"
+              },
+              "value2": "hordes:slime"
+            }
+          }
+        ]
+      }
+]

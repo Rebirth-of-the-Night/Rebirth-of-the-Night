@@ -1,0 +1,127 @@
+[
+  {
+    "function": "hordes:weighted_random",
+    "value": [
+      {
+        "function": "hordes:weighted_random",
+        "value": [
+          {
+            "function": "hordes:set_spawntable",
+            "value": "hordes:basic1",
+            "weight": 1
+          },
+          {
+            "function": "hordes:set_spawntable",
+            "value": "hordes:basic2",
+            "weight": 1
+          },
+          {
+            "function": "hordes:set_spawntable",
+            "value": "hordes:basic3",
+            "weight": 1
+          }
+        ],
+        "weight": 1
+      },
+      {
+        "function": "hordes:weighted_random",
+        "value": [
+          {
+            "function": "hordes:set_spawntable",
+            "value": "hordes:harvester1",
+            "weight": 1
+          },
+          {
+            "function": "hordes:set_spawntable",
+            "value": "hordes:harvester2",
+            "weight": 1
+          }
+        ],
+        "weight": 2,
+        "conditions": [
+          {
+            "name": "gamestages:gamestage",
+            "value": "killedharvester"
+          }
+        ]
+      },
+      {
+        "function": "hordes:weighted_random",
+        "value": [
+          {
+            "function": "hordes:set_spawntable",
+            "value": "hordes:nether1",
+            "weight": 1
+          },
+          {
+            "function": "hordes:set_spawntable",
+            "value": "hordes:nether2",
+            "weight": 1
+          }
+        ],
+        "weight": 3,
+        "conditions": [
+          {
+            "name": "gamestages:gamestage",
+            "value": "enterednether"
+          }
+        ]
+      },
+      {
+        "function": "hordes:weighted_random",
+        "value": [
+          {
+            "function": "hordes:set_spawntable",
+            "value": "hordes:aether1",
+            "weight": 1
+          },
+          {
+            "function": "hordes:set_spawntable",
+            "value": "hordes:aether2",
+            "weight": 1
+          }
+        ],
+        "weight": 3,
+        "conditions": [
+          {
+            "name": "gamestages:gamestage",
+            "value": "enteredaether"
+          }
+        ]
+      },
+      {
+        "function": "hordes:set_spawntable",
+        "value": "hordes:beneath1",
+        "weight": 5,
+        "conditions": [
+          {
+            "name": "gamestages:gamestage",
+            "value": "enteredbeneath"
+          }
+        ]
+      },
+      {
+        "function": "hordes:set_spawntable",
+        "value": "hordes:beneath2",
+        "weight": 5,
+        "conditions": [
+          {
+            "name": "gamestages:gamestage",
+            "value": "minedmythril"
+          }
+        ]
+      },
+      {
+        "function": "hordes:set_spawntable",
+        "value": "hordes:end1",
+        "weight": 5,
+        "conditions": [
+          {
+            "name": "gamestages:gamestage",
+            "value": "enteredend"
+          }
+        ]
+      }
+    ]
+  }
+]

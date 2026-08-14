@@ -1,0 +1,32 @@
+[
+    {
+        "function": "hordes:multiple",
+        "value": [
+            {
+                "function": "hordes:set_start_message",
+                "value": "The warhorns of a forgotten empire sound on the horizon..."
+            },
+            {
+                "function": "hordes:set_end_message",
+                "value": "The last vestiges of the raiding party crumble to your blows..."
+            },
+            {
+                "function": "hordes:add_reward_command",
+                "value": "/give @p stone"
+            }
+        ],
+        "conditions": [
+            {
+                "name": "hordes:comparison",
+                "value": {
+                    "type": "string",
+                    "operation": "==",
+                    "value1": {
+                        "name": "hordes:spawn_table"
+                    },
+                    "value2": "hordes:end1"
+                }
+            }
+        ]
+    }
+]

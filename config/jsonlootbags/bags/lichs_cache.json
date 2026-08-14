@@ -1,7 +1,7 @@
 {
     "loot-table": "jsonlootbags:bags/lichs_cache", 
     "name": "lichs_cache",                 
-    "human-name": "Lichs Cache",    
+    "human-name": "Lich's Cache",    
     "texture": "jsonlootbags:lichs_cache",  
     "rarity": "Uncommon",   
     "effect": false,     
