@@ -3,8 +3,8 @@
     {
       "name": "main",
       "rolls": {
-        "min": 2,
-        "max": 4
+        "min": 3,
+        "max": 5
       },
       "entries": [
         {
@@ -114,14 +114,18 @@
         {
           "entryName": "lunar water bottle",
           "type": "item",
-          "name": "nyx:lunar_water_bottle",
+          "name": "vials:vial_432",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 4,
-                "max": 6
+                "min": 2,
+                "max": 4
               }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Fluid: {FluidName: \"lunar_water\", Amount: 250}}"
             }
           ],
           "weight": 1
