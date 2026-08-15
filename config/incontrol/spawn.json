@@ -59,7 +59,7 @@
   "customname": "§cEmberian Purger",
   "healthmultiply": 2,
   "damagemultiply": 2,
-  "random": 0.05,
+  "random": 0.025,
   "helditem": ["spartanweaponry:longsword_silver"],
   "armorhelmet": ["dungeontactics:stone_plate_faceplate"],
   "armorchest": ["dungeontactics:stone_plate_chestpiece"],
