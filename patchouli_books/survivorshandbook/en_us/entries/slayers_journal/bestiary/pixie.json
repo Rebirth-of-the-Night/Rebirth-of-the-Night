@@ -29,11 +29,6 @@
             "text": "$(#734608)Pixies can also be captured with a jar and placed to produce $(item)pixie dust$()$(#734608) every 3 days when the pixie sits down. Breaking the jar with a pixie will release it$(br2)Pixie dust can be directly consumed to give Levitation, Glowing, and Luck for a few seconds"
         },
         {
-            "type": "crafting",
-            "recipe": "iceandfire:ambrosia",
-            "text": "$(#734608)Its potency is further increased when crafted into $(item)Ambrosia$()$(#734608), giving Jump Boost, Absorption, Luck, and Strength for a few minutes"
-        },
-        {
             "type": "runic_slim",
             "recipe": "mage:366119432",
             "text_left": "$(#734608)Killing a pixie may drop pixie dust and rarely pixie wings which can then be crafted into a pixie wand"

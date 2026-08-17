@@ -1,0 +1,19 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made by Foreck with Blockbench",
+	"elements": [
+		{
+			"from": [0, 7, 7.01],
+			"to": [7, 9, 8.99],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -5, 0]},
+			"faces": {
+				"north": {"uv": [2, 11.99, 4, 4.99], "rotation": 90, "texture": "#side"},
+				"east": {"uv": [0.01, 14, 1.99, 16], "texture": "#side"},
+				"south": {"uv": [2, 4.99, 4, 11.99], "rotation": 90, "texture": "#side"},
+				"west": {"uv": [0, 0, 1.98, 2], "texture": "#side"},
+				"up": {"uv": [2, 5, 3.98, 12], "rotation": 90, "texture": "#side"},
+				"down": {"uv": [2, 5, 3.98, 12], "rotation": 90, "texture": "#side"}
+			}
+		}
+	]
+}

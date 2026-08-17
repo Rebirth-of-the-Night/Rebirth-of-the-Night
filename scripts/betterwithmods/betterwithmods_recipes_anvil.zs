@@ -39,6 +39,7 @@ val spring = <betterwithmods:material:49>;
 Anvil.removeShaped(<betterwithaddons:wrought_bars>);
 Anvil.removeShaped(<betterwithaddons:steel_masonpick>); // replaced with content tweaker items for removal of building blocks (craftable only at foundry)
 Anvil.removeShaped(spring);
+Anvil.removeShaped(<betterwithmods:grate>);
 
 Anvil.removeShaped(<betterwithmods:steel_axle>);
 Anvil.removeShaped(<betterwithmods:steel_gearbox>);

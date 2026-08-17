@@ -1432,6 +1432,9 @@ gemAmethyst.add(<netherex:amethyst_crystal>);
 val blockGravitite = <ore:blockGravitite>;
 blockGravitite.addAll(<ore:blockEnchantedGravitite>);
 
+val denseRedstoneOre = <ore:denseRedstoneOre>;
+flower.addItems([<pyrotech:dense_redstone_ore_rocks>,<pyrotech:dense_redstone_ore_small>,<pyrotech:dense_redstone_ore_large>]);
+
 val heartCrystalOre = <ore:oreHeartCrystal>;
 heartCrystalOre.add(<scalinghealth:crystalore>);
 

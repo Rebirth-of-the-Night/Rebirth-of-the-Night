@@ -91,6 +91,15 @@ Dropt.list("codex_junk")
           .items([<villagenames:codex>])
       )
   );
+  
+Dropt.list("stick")
+
+  .add(Dropt.rule()
+      .matchBlocks(["betterwithmods:grate:0"])
+      .addDrop(Dropt.drop()
+          .items([<minecraft:stick>])
+      )
+  );
 
 Dropt.list("halite")
 .add(Dropt.rule()
