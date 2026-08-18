@@ -628,7 +628,7 @@ recipes.addShapeless("name_tag",<minecraft:name_tag>,[
     <ore:string>, <ore:nuggetGold>, <minecraft:paper>
 ]);
 
-recipes.addShapeless("name_tag",<minecraft:paper>,[
+recipes.addShapeless("paper",<minecraft:paper>,[
     <bblsom:paper>
 ]);
 
