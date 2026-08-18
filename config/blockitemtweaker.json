@@ -1,0 +1,24 @@
+{
+  "normal": {
+    "minecraft:stick":  {
+      "mode": "set_item",
+      "item": "betterwithmods:grate",
+	  "meta": 0
+    },
+	"minecraft:bone":  {
+      "mode": "set_item",
+      "item": "betterwithmods:grate",
+	  "meta": 1
+    },
+	"simpleores:mythril_rod":  {
+      "mode": "set_item",
+      "item": "betterwithmods:grate",
+	  "meta": 2
+    },
+	"minecraft:bowl": "contenttweaker:bowl",
+    "minecraft:paper": {
+      "mode": "set_item",
+      "item": "bblsom:paper"
+    }
+  }
+}

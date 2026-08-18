@@ -275,6 +275,10 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <betterwithmods:raw_egg>.addShiftTooltip("Granny's remedy (whose, you don't know), directly from Causeperse. Heals for a few seconds but causes an upset stomach and leaves you vulnerable.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <harvestcraft:slimegummiesitem>.addTooltip("For years you have underestimated the power of slimes. With your intellect and these super cells, you are untouchable.");
 <rustic:elixir>.withTag({display:{LocName:"Metabolic Whey"},ElixirEffects:[{Effect: "minecraft:regeneration", Duration: 160, Amplifier: 2},{Effect: "minecraft:hunger", Duration: 160, Amplifier: 29},{Effect: "minecraft:nausea", Duration: 160, Amplifier: 0}]}).addTooltip("Tastes awful, but it will accelerate the natural healing of the body threefold and make you very hungry.");
+<minecraft:stick>.addTooltip("Place down for a cheap fence.");
+<minecraft:bone>.addTooltip("Place down for a cheap fence.");
+<minecraft:bowl>.addTooltip("Can be placed.");
+<minecraft:paper>.addTooltip("Can be placed and stacked.");
 
 // Charm
 //<charm:totem_of_returning:*>.addTooltip("§5Right-click a block while holding the totem to bind yourself to that point. Right click again to return to that point.");

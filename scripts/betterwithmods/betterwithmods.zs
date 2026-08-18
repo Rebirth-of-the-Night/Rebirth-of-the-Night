@@ -42,6 +42,8 @@ JEI.removeAndHide(<betterwithmods:steel_axle>);
 JEI.removeAndHide(<betterwithmods:steel_gearbox>);
 JEI.removeAndHide(<betterwithmods:steel_broken_gearbox>);
 JEI.removeAndHide(<betterwithmods:grate>);
+JEI.removeAndHide(<betterwithmods:grate:1>);
+JEI.removeAndHide(<betterwithmods:grate:2>);
 
 
 JEI.removeAndHide(<betterwithmods:bark>);

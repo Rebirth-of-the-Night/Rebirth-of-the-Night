@@ -116,6 +116,8 @@ furnace.setFuel(<contenttweaker:charmpeat>, 4800);
 furnace.setFuel(<betterwithmods:stake>, 80);
 furnace.setFuel(<rustic:crop_stake>, 240);
 furnace.setFuel(<contenttweaker:broken_stick>, 150);
+furnace.setFuel(<betterwithmods:grate:1>, 0); // remove placeable bone fuel
+furnace.setFuel(<betterwithmods:grate:2>, 0); // remove placeable mythril rod fuel
 
 <ore:sourceCopper>.addItems([<contenttweaker:raw_copper>,<simpleores:copper_ingot>]);
 <ore:sourceCopper>.addAll(<ore:oreCopper>);
@@ -626,6 +628,10 @@ recipes.addShapeless("name_tag",<minecraft:name_tag>,[
     <ore:string>, <ore:nuggetGold>, <minecraft:paper>
 ]);
 
+recipes.addShapeless("name_tag",<minecraft:paper>,[
+    <bblsom:paper>
+]);
+
 recipes.removeByRecipeName("minecraft:dispenser");
 recipes.addShaped("vanilla_dispenser",<minecraft:dispenser>,[
     [<ore:cobblestone>,<ore:cobblestone>,<ore:cobblestone>],
@@ -1016,10 +1022,7 @@ recipes.addShaped("bowl",<minecraft:bowl>*4,[
     [<ore:stickMat>,null,<ore:stickMat>],
     [null,<ore:stickMat>,null]
 ]);
-
-recipes.addShapeless("bowl_to_cot_bowl",<contenttweaker:bowl>,[<minecraft:bowl>]);
-
-recipes.addShapeless("cot_bowl_to_bowl",<minecraft:bowl>,[<contenttweaker:bowl>]);
+JEI.removeAndHide(<contenttweaker:bowl>);
 
 val ladderMats = <ore:ladderMat>;
 ladderMats.mirror(<ore:stickWood>);

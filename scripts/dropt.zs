@@ -101,6 +101,33 @@ Dropt.list("stick")
       )
   );
 
+Dropt.list("bone")
+
+  .add(Dropt.rule()
+      .matchBlocks(["betterwithmods:grate:1"])
+      .addDrop(Dropt.drop()
+          .items([<minecraft:bone>])
+      )
+  );
+  
+Dropt.list("bone")
+
+  .add(Dropt.rule()
+      .matchBlocks(["betterwithmods:grate:2"])
+      .addDrop(Dropt.drop()
+          .items([<simpleores:mythril_rod>])
+      )
+  );
+  
+Dropt.list("bowl")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:bowl"])
+      .addDrop(Dropt.drop()
+          .items([<minecraft:bowl>])
+      )
+  );
+
 Dropt.list("halite")
 .add(Dropt.rule()
       .matchBlocks(["contenttweaker:halite"])
