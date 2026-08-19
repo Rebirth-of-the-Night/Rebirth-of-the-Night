@@ -19,6 +19,7 @@
     "minecraft:paper": {
       "mode": "set_item",
       "item": "bblsom:paper"
-    }
+    },
+	"minecraft:glass_bottle": "contenttweaker:bottle"
   }
 }

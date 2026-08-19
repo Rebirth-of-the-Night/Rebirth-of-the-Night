@@ -289,6 +289,24 @@ bowl.setLightOpacity(0);
 bowl.setBlockLayer("CUTOUT");
 bowl.register();
 
+var bottle = VanillaFactory.createBlock("bottle", <blockmaterial:Wood>);
+bottle.axisAlignedBB = AxisAlignedBB.create(
+     5.0 / 16.0,
+     0.0 / 16.0,
+     5.0 / 16.0,
+	11.0 / 16.0,
+	8.0 / 16.0,
+    11.0 / 16.0
+	);
+bottle.setCreativeTab(<creativetab:rotn_blocks>);
+bottle.setBlockHardness(2.0);
+bottle.setBlockResistance(1.0);
+bottle.setFullBlock(false);
+bottle.setLightOpacity(0);
+bottle.setBlockSoundType(<soundtype:glass>);
+bottle.setBlockLayer("CUTOUT");
+bottle.register();
+
 // Bones (add with content creator when possible to take advantage of blockstates and rotations)
 // human(?
 var bone_1 = VanillaFactory.createBlock("bone_1", <blockmaterial:Wood>);

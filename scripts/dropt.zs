@@ -127,6 +127,15 @@ Dropt.list("bowl")
           .items([<minecraft:bowl>])
       )
   );
+  
+Dropt.list("bottle")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:bottle"])
+      .addDrop(Dropt.drop()
+          .items([<minecraft:bottle>])
+      )
+  );
 
 Dropt.list("halite")
 .add(Dropt.rule()

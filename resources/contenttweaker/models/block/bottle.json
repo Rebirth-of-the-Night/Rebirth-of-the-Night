@@ -1,0 +1,88 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made by Foreck with Blockbench",
+	"textures": {
+		"0": "contenttweaker:blocks/bottle"
+	},
+	"elements": [
+		{
+			"from": [6.5, 1.1, 6.5],
+			"to": [9.5, 4.1, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.5, 1.1, 6.5]},
+			"faces": {
+				"north": {"uv": [0.5, 11, 3.5, 14], "texture": "#0"},
+				"east": {"uv": [0.5, 11, 3.5, 14], "texture": "#0"},
+				"south": {"uv": [0.5, 11, 3.5, 14], "texture": "#0"},
+				"west": {"uv": [0.5, 11, 3.5, 14], "texture": "#0"},
+				"up": {"uv": [0.5, 11, 3.5, 14], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.5, 5.1, 6.5],
+			"to": [9.5, 8.1, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.5, 5.1, 6.5]},
+			"faces": {
+				"north": {"uv": [11, 5, 14, 8], "texture": "#0"},
+				"east": {"uv": [11, 5, 14, 8], "texture": "#0"},
+				"south": {"uv": [11, 5, 14, 8], "texture": "#0"},
+				"west": {"uv": [11, 5, 14, 8], "texture": "#0"},
+				"up": {"uv": [7, 4, 10, 7], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.5, 0.1, 5.5],
+			"to": [10.5, 5.1, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.5, 0.1, 6.5]},
+			"faces": {
+				"north": {"uv": [5, 7, 10, 12], "texture": "#0"},
+				"east": {"uv": [5, 7, 10, 12], "texture": "#0"},
+				"south": {"uv": [5, 7, 10, 12], "texture": "#0"},
+				"west": {"uv": [5, 7, 10, 12], "texture": "#0"},
+				"up": {"uv": [5, 7, 10, 12], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [22.75, 0, 0],
+			"translation": [0, 3, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [22.75, 0, 0],
+			"translation": [0, 3, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"firstperson_righthand": {
+			"translation": [2, 0, 0],
+			"scale": [0.35, 0.35, 0.35]
+		},
+		"firstperson_lefthand": {
+			"translation": [2, 0, 0],
+			"scale": [0.35, 0.35, 0.35]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, -135, 0],
+			"translation": [-3, 0.75, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -1.75],
+			"scale": [0.32, 0.32, 0.32]
+		}
+	},
+	"groups": [
+		{
+			"name": "pot1",
+			"origin": [0, 0, 0],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

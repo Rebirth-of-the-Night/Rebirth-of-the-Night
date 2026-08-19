@@ -1023,6 +1023,7 @@ recipes.addShaped("bowl",<minecraft:bowl>*4,[
     [null,<ore:stickMat>,null]
 ]);
 JEI.removeAndHide(<contenttweaker:bowl>);
+JEI.removeAndHide(<contenttweaker:bottle>);
 
 val ladderMats = <ore:ladderMat>;
 ladderMats.mirror(<ore:stickWood>);
