@@ -133,7 +133,7 @@ Dropt.list("bottle")
   .add(Dropt.rule()
       .matchBlocks(["contenttweaker:bottle"])
       .addDrop(Dropt.drop()
-          .items([<minecraft:bottle>])
+          .items([<minecraft:glass_bottle>])
       )
   );
 
