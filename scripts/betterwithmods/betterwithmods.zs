@@ -145,8 +145,6 @@ recipes.remove(<betterwithmods:wood_table:3>);
 recipes.remove(<betterwithmods:wood_table:4>);
 recipes.remove(<betterwithmods:wood_table:5>);
 
-JEI.removeAndHide(<contenttweaker:fire_block:*>);
-JEI.removeAndHide(<contenttweaker:stoked_fire_block:*>);
 
 //Turntable
 Turntable.removeAll();
