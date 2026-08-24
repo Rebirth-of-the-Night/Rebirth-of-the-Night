@@ -17,9 +17,13 @@ import crafttweaker.item.IIngredient;
 <atop:tanzanite_helmet:*>.addTooltip(format.white("Everything is going to be okay..."));
 
 // Primitive metal (recipes at pyrotech kiln and rotn tweaker scripts)
-<rotntweaker:smelting_vessel>.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 1, Damage: 21}, {id: "contenttweaker:material_part", Count: 3, Damage: 20}]}).addTooltip(format.gray("Contains 3 Copper Dust."));
-<rotntweaker:smelting_vessel>.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 1, Damage: 21}, {id: "contenttweaker:material_part", Count: 3, Damage: 20}]}).addTooltip(format.gray("Contains 1 Tin Dust."));
-<rotntweaker:smelting_vessel>.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 4, Damage: 0}]}).addTooltip(format.darkGreen("Contains 4 Bronze Ingots."));
+val vessel_source_bronze = <rotntweaker:smelting_vessel>.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 1, Damage: 21}, {id: "contenttweaker:material_part", Count: 3, Damage: 20}], display: {Name: "Smelting Vessel (Bronze-Ready)"}});
+val vessel_ingot_bronze = <rotntweaker:smelting_vessel>.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 1, Damage: 0}], display: {Name: "Smelting Vessel (Bronze)"}});
+
+vessel_source_bronze.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 1, Damage: 21}, {id: "contenttweaker:material_part", Count: 3, Damage: 20}]}).addTooltip(format.gray("Contains 3 Copper Dust."));
+vessel_source_bronze.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 1, Damage: 21}, {id: "contenttweaker:material_part", Count: 3, Damage: 20}]}).addTooltip(format.gray("Contains 1 Tin Dust."));
+
+vessel_ingot_bronze.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 4, Damage: 0}]}).addTooltip(format.darkGreen("Contains 4 Bronze Ingots."));
 
 // Single item set bonuses
 <minecraft:diamond_sword:*>.addTooltip(format.blue("+15% Attack Speed"));
