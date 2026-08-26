@@ -81,12 +81,14 @@
         "motive": "Blessed Passion",
         "width": 2,
         "height": 3,
+		"item_model":"rotn:item/blessed_passion",
 		"isCreative": true
     },
 	{
         "motive": "Magekiller",
         "width": 2,
         "height": 3,
+		"item_model":"rotn:item/magekiller",
 		"isCreative": true
     },
 	{
@@ -141,6 +143,7 @@
         "motive": "Yearn",
         "width": 4,
         "height": 3,
+		"item_model":"rotn:item/yearn",
 		"isCreative": true
     },
 	{
@@ -159,6 +162,7 @@
         "motive": "Grow",
         "width": 4,
         "height": 3,
+		"item_model":"rotn:item/grow",
 		"isCreative": true
     },
 	{
@@ -177,6 +181,7 @@
         "motive": "The Holy Memory",
         "width": 4,
         "height": 4,
+		"item_model":"rotn:item/the_holy_memory",		
 		"isCreative": true
     },
 	{
@@ -327,6 +332,7 @@
         "motive": "Crimson Crown",
         "width": 7,
         "height": 9,
+		"item_model":"rotn:item/crimson_crown",
 		"isCreative": true
     },
 	{
@@ -1017,12 +1023,14 @@
         "motive": "Wanderer of the Sunset",
         "width": 2,
         "height": 2,
+		"item_model":"rotn:item/wanderer_of_the_sunset",
 		"isCreative": false
     },
 	{
         "motive": "Velunith in the Sky",
         "width": 2,
         "height": 2,
+		"item_model":"rotn:item/velunith_in_the_sky",
 		"isCreative": false
     },
 	{
@@ -1284,6 +1292,7 @@
         "motive": "Fog Weaver",
         "width": 2,
         "height": 3,
+		"item_model":"rotn:item/fog_weaver",
 		"isCreative": false
     },
 	{
@@ -1416,6 +1425,7 @@
         "motive": "Wizard Tower",
         "width": 3,
         "height": 3,
+		"item_model":"rotn:item/wizard_tower",
 		"isCreative": false
     },
 	{
@@ -1572,6 +1582,7 @@
         "motive": "Dream Sequence - Near the Bottom",
         "width": 4,
         "height": 4,
+		"item_model":"rotn:item/dream_sequence_-_near_the_bottom",
 		"isCreative": false
     },
 	{
@@ -1602,18 +1613,21 @@
         "motive": "The Opera House",
         "width": 5,
         "height": 4,
+		"item_model":"rotn:item/the_opera_house",
 		"isCreative": false
     },
 	{
         "motive": "Sky Piercer",
         "width": 5,
         "height": 4,
+		"item_model":"rotn:item/sky_piercer",
 		"isCreative": false
     },
 	{
         "motive": "After Hours",
         "width": 5,
         "height": 3,
+		"item_model":"rotn:item/after_hours",
 		"isCreative": false
     },
 	{
@@ -1644,17 +1658,19 @@
         "motive": "A Wolf in Need",
         "width": 6,
         "height": 4,
+		"item_model":"rotn:item/a_wolf_in_need",
 		"isCreative": false
     },
 	{
         "motive": "A Place for Retribution",
         "width": 8,
         "height": 4,
+		"item_model":"rotn:item/a_place_for_retribution",
 		"isCreative": false
     },
 	{
         "motive": "Supporter - DoctorNutmeg",
-        "width": 3,
+        "width": 2,
         "height": 2,
 		"isCreative": false
     },
