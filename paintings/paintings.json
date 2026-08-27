@@ -116,6 +116,7 @@
         },
         "width": 3,
         "height": 3,
+		"item_model":"rotn:item/red",
 		"isCreative": true
     },
 	{
@@ -125,6 +126,7 @@
         },
         "width": 3,
         "height": 3,
+		"item_model":"rotn:item/blue",
 		"isCreative": true
     },
 	{
@@ -150,12 +152,14 @@
         "motive": "Leave",
         "width": 4,
         "height": 3,
+		"item_model":"rotn:item/leave",
 		"isCreative": true
 	},
 	{
         "motive": "Arrive",
         "width": 4,
         "height": 3,
+		"item_model":"rotn:item/arrive",
 		"isCreative": true
     },
 	{
@@ -169,6 +173,7 @@
         "motive": "Bronze",
         "width": 4,
         "height": 3,
+		"item_model":"rotn:item/bronze",
 		"isCreative": true
     },
 	{
@@ -194,12 +199,14 @@
         "motive": "Dream Sequence - Frostfall",
         "width": 4,
         "height": 4,
+		"item_model":"rotn:item/dream_sequence_-_frostfall",
 		"isCreative": true
     },
 	{
         "motive": "Dream Sequence - Beyond These Prison Walls",
         "width": 4,
         "height": 4,
+		"item_model":"rotn:item/dream_sequence_-_beyond_these_prison_walls",
 		"isCreative": true
     },
 	{
@@ -296,6 +303,7 @@
         "motive": "Emberia's Last Stand",
         "width": 6,
         "height": 4,
+		"item_model":"rotn:item/emberia's_last_stand",
 		"isCreative": false
     },
 	{
@@ -684,12 +692,6 @@
 		"isCreative": false
     },
 	{
-        "motive": "Mountain Range",
-        "width": 2,
-        "height": 1,
-		"isCreative": false
-    },
-	{
         "motive": "Sunrise",
         "width": 2,
         "height": 1,
@@ -957,6 +959,7 @@
         "motive": "F.K. library - Lunarin of the Overworld",
         "width": 2,
         "height": 2,
+		"item_model":"rotn:item/fk_library_-_lunarin_of_the_overworld",
 		"isCreative": false
     },
 	{
@@ -1142,7 +1145,7 @@
 		"isCreative": false
     },
 	{
-        "motive": "It Who Smells",
+        "motive": "It Who Scents",
         "width": 1,
         "height": 3,
 		"isCreative": true
@@ -1299,6 +1302,7 @@
         "motive": "Herald",
         "width": 2,
         "height": 3,
+		"item_model":"rotn:item/herald",
 		"isCreative": false
     },
 	{
@@ -1510,6 +1514,7 @@
         "motive": "Blood Moon",
         "width": 4,
         "height": 3,
+		"item_model":"rotn:item/blood_moon",
 		"isCreative": false
     },
 	{
@@ -1552,12 +1557,14 @@
         "motive": "Hail to the New King",
         "width": 3,
         "height": 4,
+		"item_model": "rotn:item/hail_to_the_new_king",
 		"isCreative": true
     },
     {
         "motive": "After Dark",
         "width": 3,
         "height": 4,
+		"item_model":"rotn:item/after_dark",
 		"isCreative": false
     },
 	{
@@ -1576,6 +1583,7 @@
         "motive": "Dream Sequence - Home",
         "width": 4,
         "height": 4,
+		"item_model":"rotn:item/dream_sequence_-_home",
 		"isCreative": false
     },
 	{
@@ -1589,24 +1597,28 @@
         "motive": "Dream Sequence - Fog Pause",
         "width": 4,
         "height": 4,
+		"item_model":"rotn:item/dream_sequence_-_fog_pause",
 		"isCreative": false
     },
 	{
         "motive": "Dream Sequence - Between Realms",
         "width": 4,
         "height": 4,
+		"item_model":"rotn:item/dream_sequence_-_between_realms",
 		"isCreative": false
     },
 	{
         "motive": "Beneath",
         "width": 5,
         "height": 3,
+		"item_model":"rotn:item/beneath",
 		"isCreative": false
     },
 	{
         "motive": "Cradle",
         "width": 5,
         "height": 3,
+		"item_model":"rotn:item/cradle",
 		"isCreative": true
     },
 	{
@@ -1634,18 +1646,21 @@
         "motive": "Mortarid Countryside",
         "width": 6,
         "height": 3,
+		"item_model":"rotn:item/mortarid_countryside",
 		"isCreative": false
     },
 	{
         "motive": "The Way of the Crown",
         "width": 6,
         "height": 3,
+		"item_model":"rotn:item/the_way_of_the_crown",
 		"isCreative": false
     },
 	{
         "motive": "Flight in Shadow",
         "width": 6,
         "height": 3,
+		"item_model":"rotn:item/flight_in_shadow",
 		"isCreative": false
     },
 	{
@@ -1720,18 +1735,21 @@
         "motive": "Dev - Foreck",
         "width": 2,
         "height": 3,
+		"item_model":"rotn:item/dev_-_foreck",
 		"isCreative": false
     },
 	{
         "motive": "Dev - Ozymandias",
         "width": 2,
         "height": 3,
+		"item_model":"rotn:item/dev_-_ozymandias",
 		"isCreative": false
     },
 	{
         "motive": "Dev - Providence Daemon",
         "width": 2,
         "height": 3,
+		"item_model":"rotn:item/dev_-_providence_daemon",
 		"isCreative": false
     },
     {
@@ -1744,6 +1762,7 @@
         "motive": "The Sky Within the Spire",
         "width": 14,
         "height": 12,
+		"item_model":"rotn:item/the_sky_within_the_spire",
 		"isCreative": true
     }
 ]

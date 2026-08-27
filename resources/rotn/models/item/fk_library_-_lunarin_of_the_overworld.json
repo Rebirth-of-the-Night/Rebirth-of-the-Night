@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "rotn:items/fk_library_-_lunarin_of_the_overworld"
+    }
+}
