@@ -193,6 +193,7 @@
         "motive": "Wings of Hatred",
         "width": 4,
         "height": 4,
+		"item_model":"rotn:item/wings_of_hatred",
 		"isCreative": true
     },
 	{
@@ -261,6 +262,7 @@
         "motive": "Remnant",
         "width": 5,
         "height": 1,
+		"item_model":"rotn:item/remnant",
 		"isCreative": true
     },
 	{
@@ -310,12 +312,14 @@
         "motive": "Wroughtclad",
         "width": 7,
         "height": 4,
+		"item_model":"rotn:item/wroughtclad",
 		"isCreative": true
     },
 	{
         "motive": "Mundi - Sja'zara",
         "width": 7,
         "height": 4,
+		"item_model":"rotn:item/mundi_-_sja'zara",
 		"isCreative": true
     },
 	{
@@ -395,66 +399,77 @@
         "motive": "small Quazar",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/small_quazar",
 		"isCreative": false
     },
 	{
         "motive": "Small nod",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/small_nod",
 		"isCreative": false
     },
 	{
         "motive": "Small blink",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/small_blink",
 		"isCreative": false
     },
 	{
         "motive": "Small badass",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/small_badass",
 		"isCreative": false
     },
 	{
         "motive": "Small box",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/small_box",
 		"isCreative": false
     },
 	{
         "motive": "Silhouette",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/silhouette",
 		"isCreative": false
     },
 	{
         "motive": "Small moon",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/small_moon",
 		"isCreative": false
     },
 	{
         "motive": "Small red moon",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/small_red_moon",
 		"isCreative": false
     },
 	{
         "motive": "Small bronze moon",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/small_bronze_moon",
 		"isCreative": false
     },
 	{
         "motive": "Small star moon",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/small_star_moon",
 		"isCreative": false
     },
 	{
         "motive": "Small harvest moon",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/small_harvest_moon",
 		"isCreative": false
     },
 	{
@@ -743,6 +758,7 @@
         "motive": "Cursed Forest",
         "width": 5,
         "height": 1,
+		"item_model":"rotn:item/cursed_forest",
 		"isCreative": false
     },
 	{
@@ -953,6 +969,7 @@
         "motive": "Kale",
         "width": 2,
         "height": 2,
+		"item_model":"rotn:item/kale",
 		"isCreative": false
     },
 	{
@@ -978,6 +995,7 @@
         "motive": "Ancient Currency",
         "width": 2,
         "height": 2,
+		"item_model":"rotn:item/ancient_currency",
 		"isCreative": false
     },
 	{
@@ -996,30 +1014,35 @@
         "motive": "With Soul",
         "width": 2,
         "height": 2,
+		"item_model":"rotn:item/with_soul",
 		"isCreative": false
     },
 	{
         "motive": "Green Surface",
         "width": 2,
         "height": 2,
+		"item_model":"rotn:item/green_surface",
 		"isCreative": false
     },
 	{
         "motive": "A Mortarid settlement",
         "width": 2,
         "height": 2,
+		"item_model":"rotn:item/a_mortarid_settlement",
 		"isCreative": false
     },
 	{
         "motive": "Densatio of the Barrier",
         "width": 2,
         "height": 2,
+		"item_model":"rotn:item/densatio_of_the_barrier",
 		"isCreative": false
     },
 	{
         "motive": "A Mortarid monastery",
         "width": 2,
         "height": 2,
+		"item_model":"rotn:item/a_mortarid_monastery",
 		"isCreative": false
     },
 	{
@@ -1136,6 +1159,7 @@
         "motive": "Lily of the living soul",
         "width": 3,
         "height": 2,
+		"item_model":"rotn:item/a_lily_for_mortarid",
 		"isCreative": false
     },
 	{
@@ -1436,6 +1460,7 @@
         "motive": "Fractured Tower",
         "width": 3,
         "height": 3,
+		"item_model":"rotn:item/fractured_tower",
 		"isCreative": false
     },
 	{

@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "rotn:items/remnant"
+        "layer0": "rotn:items/wings_of_hatred"
     }
 }
