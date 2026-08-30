@@ -3,60 +3,70 @@
         "motive": "sigil Mono no aware",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/sigil_generic",
 		"isCreative": true
     },
 	{
         "motive": "sigil Cantus planus",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/sigil_generic",
 		"isCreative": true
     },
     {
         "motive": "sigil Logos",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/sigil_generic",
 		"isCreative": true
     },
 	{
         "motive": "sigil Episteme",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/sigil_generic",
 		"isCreative": true
     },
 	{
         "motive": "sigil Kinisi",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/sigil_generic",
 		"isCreative": true
     },
 	{
         "motive": "sigil Thymos-Eros",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/sigil_generic",
 		"isCreative": true
     },
 	{
         "motive": "sigil Soter",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/sigil_generic",
 		"isCreative": true
     },
 	{
         "motive": "sigil Yaruk",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/sigil_generic",
 		"isCreative": true
     },
 	{
         "motive": "sigil Fatum",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/sigil_generic",
 		"isCreative": true
     },
 	{
         "motive": "sigil Relata",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/sigil_generic",
 		"isCreative": true
     },
 	{
@@ -98,6 +108,7 @@
         },
         "width": 3,
         "height": 3,
+		"item_model":"rotn:item/giant_sigil_order",
 		"isCreative": true
     },
 	{
@@ -107,6 +118,7 @@
         },
         "width": 3,
         "height": 3,
+		"item_model":"rotn:item/giant_sigil_soter",
 		"isCreative": true
     },
 	{
@@ -217,18 +229,21 @@
         },
         "width": 4,
         "height": 4,
+		"item_model":"rotn:item/enormous_sigil_soter",
 		"isCreative": false
     },
 	{
         "motive": "Cause for Strife",
         "width": 4,
         "height": 4,
+		"item_model":"rotn:item/cause_for_strife",
 		"isCreative": true
     },
 	{
         "motive": "Legacy of the Depths",
         "width": 4,
         "height": 4,
+		"item_model":"rotn:item/legacy_of_the_depths",
 		"isCreative": true
     },
 	{
@@ -256,6 +271,7 @@
         "motive": "Disharmony",
         "width": 5,
         "height": 1,
+		"item_model":"rotn:item/disharmony",
 		"isCreative": true
     },
 	{
@@ -1259,6 +1275,7 @@
         "motive": "Wololo",
         "width": 3,
         "height": 2,
+		"item_model":"rotn:item/wololo",
 		"isCreative": false
     },
 	{
@@ -1570,6 +1587,7 @@
         "motive": "The Exalted Ember",
         "width": 2,
         "height": 5,
+		"item_model": "rotn:item/the_exalted_ember",
 		"isCreative": false
     },
 	{
@@ -1712,48 +1730,56 @@
         "motive": "Supporter - DoctorNutmeg",
         "width": 2,
         "height": 2,
+		"item_model":"rotn:item/a_place_for_retribution",
 		"isCreative": false
     },
 	{
         "motive": "Supporter - Blu Toon - a",
         "width": 3,
         "height": 2,
+		"item_model":"rotn:item/meta_generic",
 		"isCreative": false
     },
 	{
         "motive": "Supporter - Blu Toon - b",
         "width": 3,
         "height": 2,
+		"item_model":"rotn:item/meta_generic",
 		"isCreative": false
     },
 	{
         "motive": "Supporter - Akkiruk",
         "width": 2,
         "height": 3,
+		"item_model":"rotn:item/meta_generic",
 		"isCreative": true
     },
 	{
         "motive": "Supporter - Kate",
         "width": 3,
         "height": 4,
+		"item_model":"rotn:item/meta_generic",
 		"isCreative": false
     },
 	{
         "motive": "Helper - John",
         "width": 2,
         "height": 3,
+		"item_model":"rotn:item/meta_generic",
 		"isCreative": false
     },
 	{
         "motive": "Ex-dev - Mari",
         "width": 2,
         "height": 3,
+		"item_model":"rotn:item/meta_generic",
 		"isCreative": false
     },
 	{
         "motive": "Ex-dev - Moondiver",
         "width": 2,
         "height": 3,
+		"item_model":"rotn:item/meta_generic",
 		"isCreative": false
     },
 	{
@@ -1780,8 +1806,10 @@
     {
         "motive": "Apple",
         "textures": {
-            "front": "items/apple"
-        }
+            "front": "items/apple",
+			"back": "paintings:null"
+        },
+		"item_model":"rotn:item/meta_generic"
     },
 	{
         "motive": "The Sky Within the Spire",
