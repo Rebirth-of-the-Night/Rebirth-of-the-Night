@@ -145,6 +145,7 @@
         "motive": "Requisitioner",
         "width": 3,
         "height": 4,
+		"item_model":"rotn:item/requisitioner",
 		"isCreative": true
     },
 	{
@@ -790,12 +791,14 @@
         "motive": "The Lawgiver Author",
         "width": 1,
         "height": 2,
+		"item_model":"rotn:item/the_lawgiver_author",
 		"isCreative": false
     },
 	{
         "motive": "The Veiled Author",
         "width": 1,
         "height": 2,
+		"item_model":"rotn:item/the_veiled_author",
 		"isCreative": false
     },
 	{
@@ -808,36 +811,42 @@
         "motive": "Purified",
         "width": 1,
         "height": 2,
+		"item_model":"rotn:item/purified",
 		"isCreative": false
     },
 	{
         "motive": "Web",
         "width": 1,
         "height": 2,
+		"item_model":"rotn:item/web",
 		"isCreative": false
     },
 	{
         "motive": "ai",
         "width": 1,
         "height": 2,
+		"item_model":"rotn:item/ai",
 		"isCreative": false
     },
 	{
         "motive": "Cherry Tree",
         "width": 1,
         "height": 2,
+		"item_model":"rotn:item/cherry_tree",
 		"isCreative": false
     },
 	{
         "motive": "Giant petal collection",
         "width": 1,
         "height": 2,
+		"item_model":"rotn:item/giant_petal_collection",
 		"isCreative": false
     },
 	{
         "motive": "Hemp at the Lake",
         "width": 1,
         "height": 2,
+		"item_model":"rotn:item/hemp_at_the_lake",
 		"isCreative": false
     },
 	{
@@ -851,24 +860,28 @@
         "motive": "Lunarin View",
         "width": 1,
         "height": 2,
+		"item_model":"rotn:item/lunarin_view",
 		"isCreative": false
     },
 	{
         "motive": "Skylands View",
         "width": 1,
         "height": 2,
+		"item_model":"rotn:item/skylands_view",
 		"isCreative": false
     },
 	{
         "motive": "Jar 2",
         "width": 1,
         "height": 2,
+		"item_model":"rotn:item/jar_2",
 		"isCreative": false
     },
 	{
         "motive": "Nascent",
         "width": 1,
         "height": 2,
+		"item_model":"rotn:item/nascent",
 		"isCreative": false
     },
 	{
@@ -1152,6 +1165,7 @@
         "motive": "It who remains",
         "width": 2,
         "height": 1,
+		"item_model":"rotn:item/it_who_remains",
 		"isCreative": false
     },
 	{
@@ -1183,18 +1197,21 @@
         "motive": "It Who Sees",
         "width": 3,
         "height": 1,
+		"item_model":"rotn:item/it_who_sees",
 		"isCreative": false
     },
 	{
         "motive": "It Who Scents",
         "width": 1,
         "height": 3,
+		"item_model":"rotn:item/it_who_scents",
 		"isCreative": true
     },
 	{
         "motive": "poster - dominion",
         "width": 1,
         "height": 3,
+		"item_model":"rotn:item/poster_-_dominion",
 		"isCreative": false
     },
 	{
@@ -1732,7 +1749,7 @@
         "motive": "Supporter - DoctorNutmeg",
         "width": 2,
         "height": 2,
-		"item_model":"rotn:item/a_place_for_retribution",
+		"item_model":"rotn:item/meta_generic",
 		"isCreative": false
     },
 	{
