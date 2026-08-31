@@ -844,6 +844,7 @@
         "motive": "Galliard Riders",
         "width": 1,
         "height": 2,
+		"item_model":"rotn:item/galliard_riders",
 		"isCreative": false
     },
 	{
@@ -1410,6 +1411,7 @@
         "motive": "The Moon Witch",
         "width": 2,
         "height": 3,
+		"item_model":"rotn:item/the_moon_witch",
 		"isCreative": false
     },
 	{
