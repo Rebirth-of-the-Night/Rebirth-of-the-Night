@@ -79,12 +79,14 @@
         "motive": "Mother of Change",
         "width": 2,
         "height": 2,
+		"item_model":"rotn:item/mother_of_change",
 		"isCreative": true
     },
 	{
         "motive": "In the Mouth of Knowledge",
         "width": 3,
         "height": 2,
+		"item_model":"rotn:item/in_the_mouth_of_knowledge",
 		"isCreative": true
     },
 	{
@@ -152,6 +154,7 @@
         "motive": "Thornesveil",
         "width": 3,
         "height": 8,
+		"item_model":"rotn:item/thornesveil",
 		"isCreative": true
     },
 	{
@@ -286,6 +289,7 @@
         "motive": "Might Guide Plight",
         "width": 5,
         "height": 3,
+		"item_model":"rotn:item/might_guide_plight",
 		"isCreative": true
     },
 	{
@@ -349,12 +353,14 @@
         "motive": "Umberia - Capital of Magic",
         "width": 7,
         "height": 5,
+		"item_model":"rotn:item/umberia_-_capital_of_magic",
 		"isCreative": false
     },
 	{
         "motive": "The Nine Warriors",
         "width": 7,
         "height": 5,
+		"item_model":"rotn:item/the_nine_warriors",
 		"isCreative": true
     },
 	{
@@ -368,12 +374,14 @@
         "motive": "Function",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/function",
 		"isCreative": false
     },
 	{
         "motive": "Mass-Energy",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/mass-energy",
 		"isCreative": false
     },
 	{
@@ -392,6 +400,7 @@
         "motive": "Creatura",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/creatura",
 		"isCreative": false
     },
 	{
@@ -523,24 +532,28 @@
         "motive": "O-yoroi",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/o-yoroi",
 		"isCreative": false
     },
 	{
         "motive": "Hibiscus",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/hibiscus",
 		"isCreative": false
     },
 	{
         "motive": "Is it a Window",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/is_it_a_window",
 		"isCreative": false
     },
 	{
         "motive": "Cold Hunger",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/cold_hunger",
 		"isCreative": false
     },
 	{
@@ -697,6 +710,7 @@
         "motive": "Creek by The Forest",
         "width": 2,
         "height": 1,
+		"item_model":"rotn:item/creek_by_the_forest",
 		"isCreative": false
     },
     {
@@ -1019,6 +1033,7 @@
         "motive": "Bane of Arthropods",
         "width": 2,
         "height": 2,
+		"item_model":"rotn:item/bane_of_arthropods",
 		"isCreative": false
     },
 	{
@@ -1172,6 +1187,7 @@
         "motive": "Instigation Is a Storm",
         "width": 3,
         "height": 2,
+		"item_model":"rotn:item/instigation_is_a_storm",
 		"isCreative": false
     },
 	{
@@ -1242,6 +1258,7 @@
         "motive": "picture - idyllic 1",
         "width": 3,
         "height": 2,
+		"item_model":"rotn:item/picture_-_idyllic_1",
 		"isCreative": false
     },
 	{
@@ -1342,6 +1359,7 @@
         "motive": "bark",
         "width": 3,
         "height": 2,
+		"item_model":"rotn:item/bark",
 		"isCreative": false
     },
 	{
