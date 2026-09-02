@@ -25,11 +25,13 @@ ground_beef.setSaturation(2.5);
 ground_beef.setCreativeTab(<creativetab:harvestCraft>);
 ground_beef.register();
 
-val wiener = VanillaFactory.createItem("wiener");
+val wiener = VanillaFactory.createItemFood("wiener", 1);
+wiener.setSaturation(0.5);
 wiener.setCreativeTab(<creativetab:harvestCraft>);
 wiener.register();
 
-val sheep_intestines = VanillaFactory.createItem("sheep_intestines");
+val sheep_intestines = VanillaFactory.createItemFood("sheep_intestines", 1);
+sheep_intestines.setSaturation(0.5);
 sheep_intestines.setCreativeTab(<creativetab:harvestCraft>);
 sheep_intestines.register();
 
