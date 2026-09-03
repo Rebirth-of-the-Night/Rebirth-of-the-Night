@@ -23,10 +23,10 @@
 	"iceandfire:manuscript": {
       "mode": "set_item",
       "item": "bblsom:paper_w"
-    },
-	"minecraft:glass_bottle": "contenttweaker:bottle"
+    }
   },
   "sneaking": {
+	"minecraft:glass_bottle": "contenttweaker:bottle",
 	"jsonlootbags:wonder_geode": "rotn_blocks:wonder_geode"
   }
 }
