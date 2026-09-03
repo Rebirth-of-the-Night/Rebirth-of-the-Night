@@ -249,7 +249,7 @@ for tag, block in igneousStoneIDs{
 }
 
 val metamorphicBrickIDs as IIngredient[string] = {
-    "gniess" : <undergroundbiomes:metamorphic_brick>,
+    "gneiss" : <undergroundbiomes:metamorphic_brick>,
     "eclogite" : <undergroundbiomes:metamorphic_brick:1>,
     "marble" : <undergroundbiomes:metamorphic_brick:2>,
     "quartzite" : <undergroundbiomes:metamorphic_brick:3>,
@@ -285,7 +285,7 @@ for tag, block in metamorphicBrickIDs{
 }
 
 val metamorphicCobbleIDs as IIngredient[string] = {
-    "gniess" : <undergroundbiomes:metamorphic_cobble>,
+    "gneiss" : <undergroundbiomes:metamorphic_cobble>,
     "eclogite" : <undergroundbiomes:metamorphic_cobble:1>,
     "marble" : <undergroundbiomes:metamorphic_cobble:2>,
     "quartzite" : <undergroundbiomes:metamorphic_cobble:3>,
@@ -321,7 +321,7 @@ for tag, block in metamorphicCobbleIDs{
 }
 
 val metamorphicStoneIDs as IIngredient[string] = {
-    "gniess" : <undergroundbiomes:metamorphic_stone>,
+    "gneiss" : <undergroundbiomes:metamorphic_stone>,
     "eclogite" : <undergroundbiomes:metamorphic_stone:1>,
     "marble" : <undergroundbiomes:metamorphic_stone:2>,
     "quartzite" : <undergroundbiomes:metamorphic_stone:3>,
