@@ -277,6 +277,7 @@
 	"maxlight": 7,
 	"maxheight": 55,
 	"minheight": 10,
+	"random": 0.3,
 	"result": "allow"
   },
   {
@@ -293,6 +294,7 @@
 	"maxlight": 5,
 	"maxheight": 35,
 	"minheight": 10,
+	"random": 0.3,
 	"result": "allow"
   },
   {
@@ -300,7 +302,23 @@
 	"mob": "primitivemobs:goblin_wayfarer",
 	"result": "deny"
   },
-
+  
+// goblin shaman common spawn
+  {
+	"dimension" : [0],
+	"mob": "totf:goblin_shaman",
+	"seesky": false,
+	"maxlight": 0,
+	"maxheight": 30,
+	"minheight": 10,
+	"random": 0.2,
+	"result": "allow"
+  },
+  {
+	"dimension" : [0],
+	"mob": "totf:goblin_shaman",
+	"result": "deny"
+  },
 
 // Neutral Pigmen (orc)
 {

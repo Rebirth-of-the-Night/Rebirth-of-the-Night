@@ -1,0 +1,12 @@
+{
+    "loot-table": "jsonlootbags:bags/wonder_geode", 
+    "name": "wonder_geode",                 
+    "human-name": "Wonder Geode",    
+    "texture": "jsonlootbags:wonder_geode",  
+    "rarity": "Uncommon",   
+    "effect": true,     
+    "colors": [         
+    "0xFFFFFF",         
+    "0xFFFFFF"           
+    ]
+}

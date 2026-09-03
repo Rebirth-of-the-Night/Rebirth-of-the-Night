@@ -25,6 +25,9 @@ vessel_source_bronze.withTag({storedItems: [{id: "contenttweaker:material_part",
 
 vessel_ingot_bronze.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 4, Damage: 0}]}).addTooltip(format.darkGreen("Contains 4 Bronze Ingots."));
 
+<jsonlootbags:wonder_geode>.addTooltip(format.white("Use to open. Crouch + use to place again."));
+<jsonlootbags:wonder_geode>.addShiftTooltip("These are bulky and only stack up to 32. It is easier to store their contents in a Bundle.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+
 // Single item set bonuses
 <minecraft:diamond_sword:*>.addTooltip(format.blue("+15% Attack Speed"));
 <minecraft:diamond_sword:*>.addTooltip(format.blue("+1 Armor Toughness"));
@@ -283,6 +286,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <minecraft:bone>.addTooltip("Place down for a cheap fence.");
 <minecraft:bowl>.addTooltip("Can be placed.");
 <minecraft:paper>.addTooltip("Can be placed and stacked.");
+<iceandfire:manuscript>.addTooltip("Can be placed and stacked.");
 
 // Charm
 //<charm:totem_of_returning:*>.addTooltip("§5Right-click a block while holding the totem to bind yourself to that point. Right click again to return to that point.");

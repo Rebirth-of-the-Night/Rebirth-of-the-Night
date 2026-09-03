@@ -2087,6 +2087,12 @@ loose_big_serpentinite_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_serpentinite_bricks.setGravity(true);
 loose_big_serpentinite_bricks.setToolLevel(1);
 loose_big_serpentinite_bricks.register();
+// Magicked
+var loose_big_magicked_bricks = VanillaFactory.createBlock("loose_big_magicked_bricks", <blockmaterial:Rock>);
+loose_big_magicked_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_big_magicked_bricks.setGravity(true);
+loose_big_magicked_bricks.setToolLevel(1);
+loose_big_magicked_bricks.register();
 // Limestone
 var loose_big_limestone_bricks = VanillaFactory.createBlock("loose_big_limestone_bricks", <blockmaterial:Rock>);
 loose_big_limestone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
@@ -2226,6 +2232,13 @@ big_serpentinite_bricks.setToolLevel(2);
 big_serpentinite_bricks.setBlockHardness(35);
 big_serpentinite_bricks.setBlockResistance(50);
 big_serpentinite_bricks.register();
+
+var big_magicked_bricks = VanillaFactory.createBlock("big_magicked_bricks", <blockmaterial:Rock>);
+big_magicked_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+big_magicked_bricks.setToolLevel(2);
+big_magicked_bricks.setBlockHardness(30);
+big_magicked_bricks.setBlockResistance(40);
+big_magicked_bricks.register();
 
 // Tapestry Wool
 var tapestry_purple = VanillaFactory.createBlock("tapestry_purple", <blockmaterial:Ground>);

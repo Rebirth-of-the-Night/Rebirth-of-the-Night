@@ -4,6 +4,7 @@ import mods.jei.JEI;
 import crafttweaker.oredict.IOreDictEntry;
 
 JEI.hide(<rotn_blocks:mushroom_lamp_1>);
+JEI.hide(<rotn_blocks:wonder_geode>);
 
 recipes.addShapeless("moss_block", <rotn_blocks:cave_moss>, [<pyrotech:rock_grass>|<contenttweaker:moss_patch>,<pyrotech:rock_grass>|<contenttweaker:moss_patch>,<pyrotech:rock_grass>|<contenttweaker:moss_patch>,<pyrotech:rock_grass>|<contenttweaker:moss_patch>]);
 
