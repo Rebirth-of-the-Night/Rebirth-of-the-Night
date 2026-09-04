@@ -458,6 +458,9 @@ val slimeball = <ore:slimeball>;
 val meatball = <mod_lavacow:meatball>;
 val misoPaste = <harvestcraft:misopasteitem>;
 val cakeBatter = <betterwithmods:raw_pastry>;
+val grinKale = <contentcreator:grin_kale>;
+val grinLeaf = <contenttweaker:grin_kale_leaf>;
+val coreRoot = <rustic:core_root>;
 
 //Stock Recipes
 recipes.remove(stock);
@@ -2611,7 +2614,7 @@ ExSartagine.addKettleRecipe([rawChicken,veggie,veggie,flour,rice],cookKitKettle,
 recipes.remove(<harvestcraft:californiarollitem>);
 RecipeBuilder.get("chef")
   .setName("california_roll")
-  .setShapeless([rawFish,avocado,cucumber,seaweed,rice])
+  .setShapeless([rawFish,avocado,grinLeaf,seaweed,rice])
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:californiarollitem>)
   .create();
@@ -3440,12 +3443,12 @@ recipes.remove(<harvestcraft:wontonsoupitem>);
 ExSartagine.addKettleRecipe([stock,dough,scallion,ginger,soySauce],null,null,[<harvestcraft:wontonsoupitem>],80);
 //Spring Rolls
 recipes.remove(<harvestcraft:springrollitem>);
-recipes.addShapeless("springroll", <harvestcraft:springrollitem>,[rice,hoisinSauce,peanut,veggie,lime,spice,lettuce,cookKitBad]);
+recipes.addShapeless("springroll", <harvestcraft:springrollitem>*3,[grinKale,spice,coreRoot,cookKitBad]);
 RecipeBuilder.get("chef")
   .setName("springroll")
-  .setShapeless([rice,hoisinSauce,peanut,veggie,lime,spice,lettuce])
+  .setShapeless([grinKale,spice,coreRoot])
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:springrollitem>)
+  .addOutput(<harvestcraft:springrollitem>*3)
   .create();
 //Meaty Stirfry -&R
 recipes.remove(<harvestcraft:meatystirfryitem>);
@@ -3764,6 +3767,7 @@ ExSartagine.addCooktopRecipe(bread, <dungeontactics:toast>, 500);
 
 //Cutting Board
 ExSartagine.addCuttingBoardRecipe(potato, cuttingImplement, <contenttweaker:raw_fries>, 1);
+ExSartagine.addCuttingBoardRecipe(grinKale, cuttingImplement, grinLeaf*4, 4);
 ExSartagine.addCuttingBoardRecipe(<minecraft:melon_block>, cuttingImplement, melon*8, 8);
 ExSartagine.addCuttingBoardRecipe(<contenttweaker:dark_fruit>, cuttingImplement, <betterwithaddons:wheatmat>*4, 8);
 

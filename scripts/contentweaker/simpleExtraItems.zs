@@ -435,6 +435,7 @@ VanillaFactory.createItem("brick_migmatite").register();
 VanillaFactory.createItem("brick_blue_slate").register();
 VanillaFactory.createItem("brick_green_slate").register();
 VanillaFactory.createItem("brick_purple_slate").register();
+VanillaFactory.createItem("brick_magicked").register();
 VanillaFactory.createItem("brick_serpentinite").register();
 VanillaFactory.createItem("brick_limestone").register();
 VanillaFactory.createItem("brick_chalk").register();

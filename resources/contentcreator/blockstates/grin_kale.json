@@ -1,0 +1,22 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "0": "contentcreator:blocks/grin_kale",
+      "particle": "contentcreator:blocks/grin_kale"
+    },
+    "model": "contentcreator:grin_kale",
+    "uvlock": false,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+      "age=0": { "model": "contentcreator:grin_kale_stage0" },
+      "age=1": { "model": "contentcreator:grin_kale_stage1" },
+      "age=2": { "model": "contentcreator:grin_kale_stage2" },
+      "age=3": { "model": "contentcreator:grin_kale_stage3" },
+      "age=4": { "model": "contentcreator:grin_kale_stage4" },
+      "age=5": { "model": "contentcreator:grin_kale_stage5" },
+      "age=6": { "model": "contentcreator:grin_kale_stage6" },
+      "age=7": { "model": "contentcreator:grin_kale" }
+  }
+}

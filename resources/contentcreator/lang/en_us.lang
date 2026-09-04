@@ -91,3 +91,6 @@ tile.contentcreator.twilight_mangrove_log_pile.name=Twlight Mangrove Log Pile
 tile.contentcreator.darkwood_log_pile.name=Darkwood Log Pile
 tile.contentcreator.bloodwood_log_pile.name=Bloodwood Log Pile
 tile.contentcreator.alicio_log_pile.name=Alicio Log Pile
+
+// Crops
+item.tile.contentcreator.grin_kale.name=Grin Kale

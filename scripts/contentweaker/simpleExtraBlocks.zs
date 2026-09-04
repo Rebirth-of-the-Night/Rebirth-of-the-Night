@@ -2776,6 +2776,11 @@ fancy_soapstone.setCreativeTab(<creativetab:rotn_blocks>);
 fancy_soapstone.setToolLevel(1);
 fancy_soapstone.setBlockHardness(16);
 fancy_soapstone.register();
+var fancy_magicked = VanillaFactory.createBlock("fancy_magicked", <blockmaterial:Rock>);
+fancy_magicked.setCreativeTab(<creativetab:rotn_blocks>);
+fancy_magicked.setToolLevel(1);
+fancy_magicked.setBlockHardness(24);
+fancy_magicked.register();
 
 // Extra coade
 var coade_stone_polished = VanillaFactory.createBlock("coade_stone_polished", <blockmaterial:Rock>);
