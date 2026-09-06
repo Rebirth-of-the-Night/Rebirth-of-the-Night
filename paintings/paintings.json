@@ -196,6 +196,7 @@
         "motive": "Wracked",
         "width": 4,
         "height": 3,
+		"item_model":"rotn:item/wracked",
 		"isCreative": true
     },
 	{
@@ -1380,8 +1381,12 @@
     },
 	{
         "motive": "Jungle Spider Vanguard",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 3,
         "height": 2,
+		"item_model":"rotn:item/decal",
 		"isCreative": false
     },
 	{
