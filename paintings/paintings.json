@@ -269,6 +269,7 @@
         },
         "width": 4,
         "height": 6,
+		"item_model":"rotn:item/decal",
 		"isCreative": true
     },
 	{
@@ -296,18 +297,21 @@
         "motive": "Artistic Depiction of Shadits",
         "width": 5,
         "height": 4,
+		"item_model":"rotn:item/artistic_depiction_of_shadits",
 		"isCreative": false
     },
 	{
         "motive": "Gifts of Old",
         "width": 5,
         "height": 4,
+		"item_model":"rotn:item/gifts_of_old",
 		"isCreative": true
     },
 	{
         "motive": "The Duel",
         "width": 5,
         "height": 3,
+		"item_model":"rotn:item/the_duel",
 		"isCreative": true
     },
 	{
@@ -347,6 +351,7 @@
         "motive": "Time",
         "width": 7,
         "height": 4,
+		"item_model":"rotn:item/time",
 		"isCreative": true
     },
 	{
@@ -388,12 +393,14 @@
         "motive": "The Perfect Matrix",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/the_perfect_matrix",
 		"isCreative": false
     },
 	{
         "motive": "Stairs",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/stairs",
 		"isCreative": false
     },
 	{
@@ -407,18 +414,21 @@
         "motive": "Noodle",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/noodle",
 		"isCreative": false
     },
 	{
         "motive": "Spike 1",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/spike_1",
 		"isCreative": false
     },
 	{
         "motive": "Brothers in Faith",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/brothers_in_faith",
 		"isCreative": false
     },
 	{
@@ -502,30 +512,35 @@
         "motive": "Approximately One Apple",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/approximately_one_apple",
 		"isCreative": false
     },
 	{
         "motive": "Shiny",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/shiny",
 		"isCreative": false
     },
 	{
         "motive": "Bliss 1",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/bliss_1",
 		"isCreative": false
     },
     {
         "motive": "Still Nature 1",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/still_nature_1",
 		"isCreative": false
     },
     {
         "motive": "Oath of the Orders",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/oath_of_the_orders",
 		"isCreative": false
     },
 	{
@@ -584,6 +599,7 @@
         "motive": "Trapped Soul",
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/trapped_soul",
 		"isCreative": false
     },
 	{
@@ -593,6 +609,7 @@
         },
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/decal",
 		"isCreative": false
     },
 	{
@@ -602,6 +619,7 @@
         },
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/decal",
 		"isCreative": false
     },
 	{
@@ -611,12 +629,17 @@
         },
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/decal",
 		"isCreative": false
     },
 	{
         "motive": "radioactive",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/poster",
 		"isCreative": false
     },
 	{
@@ -626,6 +649,7 @@
         },
         "width": 1,
         "height": 1,
+		"item_model":"rotn:item/decal",
 		"isCreative": false
     },
 	{
@@ -635,6 +659,7 @@
         },
         "width": 2,
         "height": 1,
+		"item_model":"rotn:item/decal",
 		"isCreative": false
     },
 	{
@@ -644,6 +669,7 @@
         },
         "width": 2,
         "height": 1,
+		"item_model":"rotn:item/decal",
 		"isCreative": false
     },
 	{
@@ -653,6 +679,7 @@
         },
         "width": 2,
         "height": 1,
+		"item_model":"rotn:item/decal",
 		"isCreative": false
     },
 	{
@@ -662,6 +689,7 @@
         },
         "width": 2,
         "height": 1,
+		"item_model":"rotn:item/decal",
 		"isCreative": false
     },
 	{
@@ -671,6 +699,7 @@
         },
         "width": 1,
         "height": 2,
+		"item_model":"rotn:item/decal",
 		"isCreative": false
     },
 	{
@@ -680,6 +709,7 @@
         },
         "width": 2,
         "height": 1,
+		"item_model":"rotn:item/decal",
 		"isCreative": false
     },
 	{
@@ -689,6 +719,7 @@
         },
         "width": 3,
         "height": 1,
+		"item_model":"rotn:item/decal",
 		"isCreative": false
     },
 	{
@@ -698,6 +729,7 @@
         },
         "width": 3,
         "height": 1,
+		"item_model":"rotn:item/decal",
 		"isCreative": false
     },
 	{
@@ -741,48 +773,63 @@
         "motive": "Sunrise",
         "width": 2,
         "height": 1,
+		"item_model":"rotn:item/sunrise",
 		"isCreative": false
     },
 	{
         "motive": "Sunset 1",
         "width": 2,
         "height": 1,
+		"item_model":"rotn:item/sunset_1",
 		"isCreative": false
     },
 	{
         "motive": "Sunset 2",
         "width": 2,
         "height": 1,
+		"item_model":"rotn:item/sunset_2",
 		"isCreative": false
     },
 	{
         "motive": "Nap Deep in Allegada",
         "width": 2,
         "height": 1,
+		"item_model":"rotn:item/nap_deep_in_allegada",
 		"isCreative": false
     },
 	{
         "motive": "Lake View",
         "width": 2,
         "height": 1,
+		"item_model":"rotn:item/lake_view",
 		"isCreative": false
     },
 	{
         "motive": "Winged Guardian",
         "width": 2,
         "height": 1,
+		"item_model":"rotn:item/winged_guardian",
+		"isCreative": false
+    },
+	{
+        "motive": "To Rot or Not to Rot",
+        "width": 2,
+        "height": 1,
+		"item_model":"rotn:item/to_rot_or_not_to_rot",
 		"isCreative": false
     },
 	{
         "motive": "Below the Crust",
         "width": 2,
         "height": 1,
+		"item_model":"rotn:item/below_the_crust",
 		"isCreative": false
     },
 	{
         "motive": "Dance for Me",
         "width": 2,
         "height": 1,
+		"item_model":"rotn:item/dance_for_me",
 		"isCreative": false
     },
 	{
@@ -799,6 +846,7 @@
         },
         "width": 1,
         "height": 2,
+		"item_model":"rotn:item/decal",
 		"isCreative": false
     },
 	{
@@ -914,6 +962,7 @@
         "motive": "Baby sea serpent trophy",
         "width": 3,
         "height": 1,
+		"item_model":"rotn:item/baby_sea_serpent_trophy",
 		"isCreative": false
     },
 	{
@@ -923,90 +972,112 @@
         },
         "width": 3,
         "height": 1,
+		"item_model":"rotn:item/decal",
 		"isCreative": false
     },
 	{
         "motive": "trans",
         "width": 3,
         "height": 1,
+		"item_model":"rotn:item/poster",
 		"isCreative": false
     },
 	{
         "motive": "lgqbtp",
         "width": 3,
         "height": 1,
+		"item_model":"rotn:item/poster",
 		"isCreative": false
     },
     {
         "motive": "The Crowned City of Shadits",
         "width": 3,
         "height": 1,
+		"item_model":"rotn:item/the_crowned_city_of_shadits",
 		"isCreative": false
     },
 	{
         "motive": "Ender of Worlds",
         "width": 1,
         "height": 4,
+		"item_model":"rotn:item/ender_of_worlds",
 		"isCreative": false
     },
 	{
         "motive": "Sunset Vista",
         "width": 4,
         "height": 1,
+		"item_model":"rotn:item/poster",
 		"isCreative": false
     },
 	{
         "motive": "A Lily for Mortarid",
         "width": 4,
         "height": 1,
+		"item_model":"rotn:item/a_lily_for_mortarid",
 		"isCreative": false
     },
 	{
         "motive": "Lighthouse Vista",
         "width": 4,
         "height": 1,
+		"item_model":"rotn:item/poster",
+		"isCreative": false
+    },
+	{
+        "motive": "Deep Encounter",
+        "width": 2,
+        "height": 2,
+		"item_model":"rotn:item/deep_encounter",
 		"isCreative": false
     },
 	{
         "motive": "Lux Aeterna",
         "width": 2,
         "height": 2,
+		"item_model":"rotn:item/lux_aeterna",
 		"isCreative": false
     },
 	{
         "motive": "Water",
         "width": 2,
         "height": 2,
+		"item_model":"rotn:item/poster",
 		"isCreative": false
     },
 	{
         "motive": "Wind",
         "width": 2,
         "height": 2,
+		"item_model":"rotn:item/poster",
 		"isCreative": false
     },
 	{
         "motive": "Earth",
         "width": 2,
         "height": 2,
+		"item_model":"rotn:item/poster",
 		"isCreative": false
     },
 	{
         "motive": "Fire",
         "width": 2,
         "height": 2,
+		"item_model":"rotn:item/poster",
 		"isCreative": false
     },
 	{
         "motive": "Circle Thinking",
         "width": 2,
         "height": 2,
+		"item_model":"rotn:item/poster",
 		"isCreative": false
     },
 	{
         "motive": "One",
         "width": 2,
         "height": 2,
+		"item_model":"rotn:item/poster",
 		"isCreative": false
     },
 	{
@@ -1027,6 +1098,7 @@
         "motive": "I Was Regent",
         "width": 2,
         "height": 2,
+		"item_model":"rotn:item/i_was_regent",
 		"isCreative": false
     },
 	{
@@ -1047,12 +1119,14 @@
         "motive": "Big nod",
         "width": 2,
         "height": 2,
+		"item_model":"rotn:item/big_nod",
 		"isCreative": false
     },
 	{
         "motive": "Big badass",
         "width": 2,
         "height": 2,
+		"item_model":"rotn:item/big_badass",
 		"isCreative": false
     },
 	{
@@ -1111,6 +1185,7 @@
         },
         "width": 1,
         "height": 3,
+		"item_model":"rotn:item/banner_-_drachenritter_family",
 		"isCreative": false
     },
 	{
@@ -1120,6 +1195,7 @@
         },
         "width": 1,
         "height": 3,
+		"item_model":"rotn:item/banner_-_house_kamal_ito",
 		"isCreative": false
     },
 	{
@@ -1129,6 +1205,7 @@
         },
         "width": 1,
         "height": 3,
+		"item_model":"rotn:item/banner_-_umbertoi_dynasty",
 		"isCreative": false
     },
 	{
@@ -1138,6 +1215,7 @@
         },
         "width": 1,
         "height": 3,
+		"item_model":"rotn:item/banner_-_vorfurt_nation",
 		"isCreative": false
     },
 	{
@@ -1147,15 +1225,17 @@
         },
         "width": 1,
         "height": 3,
+		"item_model":"rotn:item/banner_-_raisencrest_family",
 		"isCreative": false
     },
 	{
-        "motive": "banner - lanara's companions",
+        "motive": "Banner - lanara's companions",
 		"textures": {
             "back": "paintings:null"
         },
         "width": 1,
         "height": 3,
+		"item_model":"rotn:item/banner_-_lanara's_companions",
 		"isCreative": false
     },
 	{
@@ -1165,6 +1245,7 @@
         },
         "width": 1,
         "height": 3,
+		"item_model":"rotn:item/banner_-_the_order_of_the_last_flame",
 		"isCreative": false
     },
 	{
@@ -1174,6 +1255,7 @@
         },
         "width": 1,
         "height": 3,
+		"item_model":"rotn:item/banner_-_wither",
 		"isCreative": false
     },
 	{
@@ -1194,19 +1276,21 @@
         "motive": "The Immense",
         "width": 3,
         "height": 2,
+		"item_model":"rotn:item/the_immense",
 		"isCreative": false
     },
 	{
         "motive": "Trinity of Light",
         "width": 3,
         "height": 2,
+		"item_model":"rotn:item/trinity_of_light",
 		"isCreative": false
     },
 	{
         "motive": "Lily of the living soul",
         "width": 3,
         "height": 2,
-		"item_model":"rotn:item/a_lily_for_mortarid",
+		"item_model":"rotn:item/lily_of_the_living_soul",
 		"isCreative": false
     },
 	{
@@ -1240,18 +1324,21 @@
         "motive": "ornate tapestry - cyan",
         "width": 3,
         "height": 2,
+		"item_model":"rotn:item/ornate_tapestry_-_cyan",
 		"isCreative": false
     },
 	{
         "motive": "ornate tapestry - green",
         "width": 3,
         "height": 2,
+		"item_model":"rotn:item/ornate_tapestry_-_green",
 		"isCreative": false
     },
 	{
         "motive": "ornate tapestry - orange",
         "width": 3,
         "height": 2,
+		"item_model":"rotn:item/ornate_tapestry_-_orange",
 		"isCreative": false
     },
 	{
@@ -1268,6 +1355,7 @@
         },
         "width": 3,
         "height": 2,
+		"item_model":"rotn:item/decal",
 		"isCreative": false
     },
 	{
@@ -1277,6 +1365,7 @@
         },
         "width": 3,
         "height": 2,
+		"item_model":"rotn:item/decal",
 		"isCreative": false
     },
 	{
@@ -1286,6 +1375,7 @@
         },
         "width": 3,
         "height": 2,
+		"item_model":"rotn:item/decal",
 		"isCreative": false
     },
 	{
@@ -1317,12 +1407,14 @@
         "motive": "The Fossor's Lure",
         "width": 3,
         "height": 2,
+		"item_model":"rotn:item/the_fossor's_lure",
 		"isCreative": false
     },
 	{
         "motive": "Lost in the Spines",
         "width": 3,
         "height": 2,
+		"item_model":"rotn:item/lost_in_the_spines",
 		"isCreative": false
     },
 	{
@@ -1335,28 +1427,35 @@
         "motive": "papyrus - Tree of Life",
         "width": 3,
         "height": 2,
+		"textures": {
+            "back": "paintings:null"
+        },
+		"item_model":"rotn:item/poster",
 		"isCreative": false
     },
 	{
-        "motive": "impending",
+        "motive": "Impending",
         "width": 3,
         "height": 2,
+		"item_model":"rotn:item/impending",
 		"isCreative": false
     },
 	{
         "motive": "Times of the Biboat",
         "width": 3,
         "height": 2,
+		"item_model":"rotn:item/times_of_the_biboat",
 		"isCreative": false
     },
 	{
         "motive": "Morning Breeze",
         "width": 3,
         "height": 2,
+		"item_model":"rotn:item/morning_breeze",
 		"isCreative": false
     },
 	{
-        "motive": "bark",
+        "motive": "Bark",
         "width": 3,
         "height": 2,
 		"item_model":"rotn:item/bark",
@@ -1366,6 +1465,7 @@
         "motive": "Grove",
         "width": 3,
         "height": 2,
+		"item_model":"rotn:item/Grove",
 		"isCreative": false
     },
 	{
@@ -1386,60 +1486,70 @@
         "motive": "Harbinger",
         "width": 2,
         "height": 3,
+		"item_model":"rotn:item/harbinger",
 		"isCreative": false
     },
 	{
         "motive": "Retired Hero",
         "width": 2,
         "height": 3,
+		"item_model":"rotn:item/retired_hero",
 		"isCreative": false
     },
 	{
         "motive": "The Beast of Allegada",
         "width": 2,
         "height": 3,
+		"item_model":"rotn:item/the_beast_of_allegada",
 		"isCreative": false
     },
 	{
         "motive": "The Ruler in Motion",
         "width": 2,
         "height": 3,
+		"item_model":"rotn:item/the_ruler_in_motion",
 		"isCreative": false
     },
 	{
         "motive": "The Rebuilder of Emberium",
         "width": 2,
         "height": 3,
+		"item_model":"rotn:item/the_rebuilder_of_emberium",
 		"isCreative": false
     },
 	{
         "motive": "The Val-Kaine Treason",
         "width": 2,
         "height": 3,
+		"item_model":"rotn:item/the_val-kaine_treason",
 		"isCreative": false
     },
 	{
         "motive": "The Magekiller Author",
         "width": 2,
         "height": 3,
+		"item_model":"rotn:item/the_magekiller_author",
 		"isCreative": false
     },
 	{
         "motive": "The Exiled",
         "width": 2,
         "height": 3,
+		"item_model":"rotn:item/the_exiled",
 		"isCreative": false
     },
 	{
         "motive": "The Vanguard of the Crag",
         "width": 2,
         "height": 3,
+		"item_model":"rotn:item/the_vanguard_of_the_crag",
 		"isCreative": false
     },
 	{
         "motive": "The Founder",
         "width": 2,
         "height": 3,
+		"item_model":"rotn:item/the_founder",
 		"isCreative": false
     },
 	{
@@ -1471,12 +1581,14 @@
         "motive": "Withered",
         "width": 2,
         "height": 3,
+		"item_model":"rotn:item/withered",
 		"isCreative": false
     },
 	{
         "motive": "Two Legends",
         "width": 3,
         "height": 3,
+		"item_model":"rotn:item/two_legends",
 		"isCreative": false
     },
 	{
@@ -1545,6 +1657,7 @@
         "motive": "Sidge's Plaza at Night",
         "width": 4,
         "height": 2,
+		"item_model": "rotn:item/sidge's_plaza_at_night",
 		"isCreative": false
     },
 	{
@@ -1573,20 +1686,26 @@
     },
 	{
         "motive": "Emberian peninsula",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 4,
         "height": 3,
+		"item_model":"rotn:item/poster",
 		"isCreative": false
     },
 	{
         "motive": "Fjords of Stormsight",
         "width": 4,
         "height": 3,
+		"item_model":"rotn:item/fjords_of_stormsight",
 		"isCreative": false
     },
 	{
         "motive": "Streets of the Aki-Shadits",
         "width": 4,
         "height": 3,
+		"item_model":"rotn:item/streets_of_the_aki-shadits",
 		"isCreative": false
     },
 	{
@@ -1846,7 +1965,7 @@
             "front": "items/apple",
 			"back": "paintings:null"
         },
-		"item_model":"rotn:item/meta_generic"
+		"item_model":"rotn:item/decal"
     },
 	{
         "motive": "The Sky Within the Spire",

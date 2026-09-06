@@ -99,6 +99,12 @@ recipes.addShaped("exsar_hearth_extension", <exsartagine:hearth_extended>, [
     [rock, <earthworks:itemslab_dry_stone>, rock]
 ]);
 
+recipes.addShapeless("cutting_board", <exsartagine:cutting_board>, [
+    <ore:pressurePlateWood>,<betterwithaddons:decomat>|<contenttweaker:seed_oil>|<contenttweaker:greasy_stem>
+]);
+Mortar.addRecipe(["stone","diamond"], <betterwithaddons:decomat>, 4, [<minecraft:glass_bottle>,<betterwithmods:hemp>]);
+Mortar.addRecipe(["stone","diamond"], <contenttweaker:seed_oil>, 4, [<minecraft:glass_bottle>,<textiles:flax_seeds>]);
+
 val basicWorktable = <artisanworktables:worktable:5> | <minecraft:crafting_table>;
 val chefToque = <rats:chef_toque>.anyDamage().transformDamage();
 val ckit_temp = <contenttweaker:cooking_kit>.anyDamage()|<contenttweaker:cooking_kit_quality>.anyDamage()|<contenttweaker:cooking_kit_premium>.anyDamage()|<contenttweaker:cooking_kit_master>.anyDamage();
