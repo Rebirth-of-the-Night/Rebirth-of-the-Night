@@ -100,10 +100,11 @@ recipes.addShaped("exsar_hearth_extension", <exsartagine:hearth_extended>, [
 ]);
 
 recipes.addShapeless("cutting_board", <exsartagine:cutting_board>, [
-    <ore:pressurePlateWood>,<betterwithaddons:decomat>|<contenttweaker:seed_oil>|<contenttweaker:greasy_stem>
+    <ore:pressurePlateWood>,<contenttweaker:seed_oil>.transformReplace(<minecraft:glass_bottle>)
 ]);
-Mortar.addRecipe(["stone","diamond"], <betterwithaddons:decomat>, 4, [<minecraft:glass_bottle>,<betterwithmods:hemp>]);
-Mortar.addRecipe(["stone","diamond"], <contenttweaker:seed_oil>, 4, [<minecraft:glass_bottle>,<textiles:flax_seeds>]);
+Mortar.addRecipe(["stone","diamond"], <contenttweaker:seed_oil>, 6, [<minecraft:glass_bottle>,<betterwithmods:hemp>*6]);
+Mortar.addRecipe(["stone","diamond"], <contenttweaker:seed_oil>, 6, [<minecraft:glass_bottle>,<textiles:flax_seeds>*6]);
+Mortar.addRecipe(["stone","diamond"], <contenttweaker:seed_oil>, 6, [<minecraft:glass_bottle>,<contenttweaker:greasy_stem>*6]);
 
 val basicWorktable = <artisanworktables:worktable:5> | <minecraft:crafting_table>;
 val chefToque = <rats:chef_toque>.anyDamage().transformDamage();
@@ -3863,4 +3864,4 @@ ExSartagine.addKettleRecipe([woodChips], null, waterBucket, <liquid:methanol>*10
 ExSartagine.addKettleRecipe([null],<ore:soap>,<liquid:water>*1000,null,[null], 1200, -5000);//liquid
 
 //soap
-ExSartagine.addKettleRecipe([<betterwithmods:material:21>, <betterwithaddons:decomat>|<quark:tallow>],null,<liquid:water>*200,null,[<betterwithmods:material:50>],2400,-1000);//liquid
+ExSartagine.addKettleRecipe([<betterwithmods:material:21>, <contenttweaker:seed_oil>.transformReplace(<minecraft:glass_bottle>)|<quark:tallow>],null,<liquid:water>*200,null,[<betterwithmods:material:50>],2400,-1000);//liquid

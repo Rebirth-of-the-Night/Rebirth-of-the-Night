@@ -42,7 +42,7 @@ recipes.addShaped("lantern_chain", <futuremc:chain>, [
 recipes.remove(<futuremc:lantern>);
 recipes.addShaped("metal_oil_lantern", <futuremc:lantern>, [
     [<ore:genericMetalNuggets>, <iceandfire:chain_link>, <ore:genericMetalNuggets>],
-    [<minecraft:stick>, <betterwithaddons:decomat>, <minecraft:stick>],
+    [<minecraft:stick>, <contenttweaker:seed_oil>.transformReplace(<minecraft:glass_bottle>), <minecraft:stick>],
     [<ore:genericMetalNuggets>,<ore:genericMetalNuggets>,<ore:genericMetalNuggets>,]
 ]);
 

@@ -154,17 +154,17 @@ bag_coins.register();
 
 var seed_oil = VanillaFactory.createItem("seed_oil");
 seed_oil.maxStackSize = 1;
-seed_oil.maxDamage = 32;
+seed_oil.maxDamage = 25;
 seed_oil.register();
 
 var wood_stain = VanillaFactory.createItem("wood_stain");
 wood_stain.maxStackSize = 1;
-wood_stain.maxDamage = 32;
+wood_stain.maxDamage = 25;
 wood_stain.register();
 
 var wood_bleach = VanillaFactory.createItem("wood_bleach");
 wood_bleach.maxStackSize = 1;
-wood_bleach.maxDamage = 32;
+wood_bleach.maxDamage = 25;
 wood_bleach.register();
 
 // tools
