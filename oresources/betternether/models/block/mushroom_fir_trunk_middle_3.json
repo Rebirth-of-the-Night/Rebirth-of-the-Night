@@ -1,0 +1,67 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Designed by Paulevs with Cubik Studio - https://cubik.studio",
+	"parent": "block/block",
+	"textures": {
+		"particle": "betternether:blocks/mushroom_fir_bark",
+		"texture": "betternether:blocks/mushroom_fir_bark",
+		"cuts": "betternether:blocks/mushroom_fir_cuts",
+		"top": "betternether:blocks/mushroom_fir_top",
+		"side": "betternether:blocks/mushroom_fir_branch",
+		"bottom": "betternether:blocks/mushroom_fir_bottom"
+	},
+	"elements": [
+		{
+			"name": "Box1",
+			"from": [5, 0, 5],
+			"to": [11, 16, 11],
+			"faces": {
+				"north": {"uv": [5, 0, 11, 16], "texture": "#texture"},
+				"east": {"uv": [5, 0, 11, 16], "texture": "#texture"},
+				"south": {"uv": [5, 0, 11, 16], "texture": "#texture"},
+				"west": {"uv": [5, 0, 11, 16], "texture": "#texture"},
+				"up": {"uv": [8, 0, 14, 6], "texture": "#cuts"},
+				"down": {"uv": [8, 0, 14, 6], "texture": "#cuts"}
+			}
+		},
+		{
+			"name": "Box2",
+			"from": [0, 8, 0],
+			"to": [8, 11, 8],
+			"faces": {
+				"north": {"uv": [4, 2, 12, 5], "texture": "#side"},
+				"east": {"uv": [4, 2, 12, 5], "texture": "#side"},
+				"south": {"uv": [4, 2, 12, 5], "texture": "#side"},
+				"west": {"uv": [4, 2, 12, 5], "texture": "#side"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#top"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#bottom"}
+			}
+		},
+		{
+			"name": "Box2",
+			"from": [6.5, 2, 9],
+			"to": [12.5, 5, 15],
+			"faces": {
+				"north": {"uv": [5, 2, 11, 5], "texture": "#side"},
+				"east": {"uv": [5, 2, 11, 5], "texture": "#side"},
+				"south": {"uv": [5, 2, 11, 5], "texture": "#side"},
+				"west": {"uv": [5, 2, 11, 5], "texture": "#side"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#top"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#bottom"}
+			}
+		},
+		{
+			"name": "Box2",
+			"from": [8, 11, 7],
+			"to": [14, 14, 13],
+			"faces": {
+				"north": {"uv": [5, 2, 11, 5], "texture": "#side"},
+				"east": {"uv": [5, 2, 11, 5], "texture": "#side"},
+				"south": {"uv": [5, 2, 11, 5], "texture": "#side"},
+				"west": {"uv": [5, 2, 11, 5], "texture": "#side"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#top"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#bottom"}
+			}
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Designed by Paulevs with Cubik Studio - https://cubik.studio",
+	"parent": "block/block",
+	"textures": {
+		"top": "betternether:blocks/glowmushroom_spore_top",
+		"bottom": "betternether:blocks/glowmushroom_spore_bottom",
+		"particle": "betternether:blocks/glowmushroom_side_top"
+	},
+	"elements": [
+		{
+			"name": "Box1",
+			"from": [4, 7, 0],
+			"to": [12, 9, 8],
+			"faces": {
+				"north": {"uv": [4, 11, 12, 13], "texture": "#top", "cullface": "north"},
+				"east": {"uv": [4, 11, 12, 13], "texture": "#top"},
+				"south": {"uv": [4, 11, 12, 13], "texture": "#top"},
+				"west": {"uv": [4, 11, 12, 13], "texture": "#top"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#top"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#bottom"}
+			}
+		}
+	]
+}

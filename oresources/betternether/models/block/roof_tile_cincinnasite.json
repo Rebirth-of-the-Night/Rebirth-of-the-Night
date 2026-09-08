@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "betternether:blocks/roof_tile_cincinnasite",
+    "north": "betternether:blocks/roof_tile_cincinnasite",
+    "south": "betternether:blocks/roof_tile_cincinnasite",
+    "east": "betternether:blocks/roof_tile_cincinnasite",
+    "west": "betternether:blocks/roof_tile_cincinnasite",
+    "up": "betternether:blocks/roof_tile_cincinnasite_top",
+    "down": "betternether:blocks/roof_tile_cincinnasite_top"
+  }
+}

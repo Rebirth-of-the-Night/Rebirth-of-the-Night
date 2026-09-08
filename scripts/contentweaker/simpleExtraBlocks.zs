@@ -2765,7 +2765,7 @@ tiled_diagonal.setBlockResistance(14.0);
 tiled_diagonal.setToolLevel(2);
 tiled_diagonal.register();
 
-// Special/Ornate Stone Variants
+// Special/Ornate Variants
 var fancy_limestone = VanillaFactory.createBlock("fancy_limestone", <blockmaterial:Rock>);
 fancy_limestone.setCreativeTab(<creativetab:rotn_blocks>);
 fancy_limestone.setToolLevel(1);
@@ -2781,6 +2781,11 @@ fancy_magicked.setCreativeTab(<creativetab:rotn_blocks>);
 fancy_magicked.setToolLevel(1);
 fancy_magicked.setBlockHardness(24);
 fancy_magicked.register();
+var fancy_dark_oak = VanillaFactory.createBlock("fancy_dark_oak", <blockmaterial:Wood>);
+fancy_dark_oak.setCreativeTab(<creativetab:rotn_blocks>);
+fancy_dark_oak.setToolLevel(0);
+fancy_dark_oak.setBlockHardness(5);
+fancy_dark_oak.register();
 
 // Extra coade
 var coade_stone_polished = VanillaFactory.createBlock("coade_stone_polished", <blockmaterial:Rock>);

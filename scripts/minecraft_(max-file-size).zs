@@ -1985,6 +1985,12 @@ recipes.addShaped("grass_paver", <contenttweaker:grass_paver>*8,[
     [null, <contenttweaker:masonry_brick>, null],
 ]);
 
+recipes.addShapedMirrored("fancy_dark_oak",<contenttweaker:fancy_dark_oak>*3,[
+    [<minecraft:planks:5>, null, null],
+    [null, <minecraft:planks:5>, null],
+    [null, null, <minecraft:planks:5>]
+]);
+
 ////////////////////////////////////// Default brick block replacements for practical base defense
 // dry stone is in earthworks.zs
 // stone brick 

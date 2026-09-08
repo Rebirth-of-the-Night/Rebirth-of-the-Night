@@ -1,0 +1,77 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Designed by Paulevs with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "betternether:blocks/jellyfish_mushroom_top",
+		"texture": "betternether:blocks/jellyfish_mushroom_top",
+		"side": "betternether:blocks/jellyfish_mushroom_side",
+		"stem": "betternether:blocks/jellyfish_nether_mushroom_stem"
+	},
+	"elements": [
+		{
+			"name": "Box1",
+			"from": [5, 11, 5],
+			"to": [11, 13, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -1, 0]},
+			"faces": {
+				"north": {"uv": [5, 2, 11, 4], "texture": "#stem"},
+				"east": {"uv": [5, 2, 11, 4], "texture": "#stem"},
+				"south": {"uv": [5, 2, 11, 4], "texture": "#stem"},
+				"west": {"uv": [5, 2, 11, 4], "texture": "#stem"},
+				"up": {"uv": [5, 0, 11, 6], "texture": "#stem"},
+				"down": {"uv": [5, 0, 11, 6], "texture": "#stem"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [3, 8, 3],
+			"to": [13, 15, 13],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -1, 0]},
+			"faces": {
+				"north": {"uv": [3, 7, 13, 14], "texture": "#texture"},
+				"east": {"uv": [3, 7, 13, 14], "texture": "#texture"},
+				"south": {"uv": [3, 7, 13, 14], "texture": "#texture"},
+				"west": {"uv": [3, 7, 13, 14], "texture": "#texture"},
+				"up": {"uv": [3, 3, 13, 13], "texture": "#texture", "cullface": "up"},
+				"down": {"uv": [11, 10, 16, 13], "texture": "#stem"}
+			}
+		},
+		{
+			"name": "Box8",
+			"from": [3, 3, 3],
+			"to": [13, 8, 13],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 8, 10, 13], "texture": "#side"},
+				"east": {"uv": [2, 8, 12, 13], "texture": "#side"},
+				"south": {"uv": [3, 8, 13, 13], "texture": "#side"},
+				"west": {"uv": [6, 8, 16, 13], "texture": "#side"}
+			}
+		},
+		{
+			"name": "Box8",
+			"from": [5, 6, 5],
+			"to": [11, 11, 11],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -1, 0]},
+			"faces": {
+				"north": {"uv": [5, 8, 11, 13], "texture": "#side"},
+				"east": {"uv": [10, 8, 16, 13], "texture": "#side"},
+				"south": {"uv": [0, 8, 6, 13], "texture": "#side"},
+				"west": {"uv": [5, 8, 11, 13], "texture": "#side"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [7, 0, 7],
+			"to": [9, 11, 9],
+			"faces": {
+				"north": {"uv": [7, 5, 9, 16], "texture": "#stem"},
+				"east": {"uv": [7, 5, 9, 16], "texture": "#stem"},
+				"south": {"uv": [7, 5, 9, 16], "texture": "#stem"},
+				"west": {"uv": [7, 5, 9, 16], "texture": "#stem"}
+			}
+		}
+	]
+}
