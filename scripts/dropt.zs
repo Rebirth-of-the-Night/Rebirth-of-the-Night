@@ -91,6 +91,51 @@ Dropt.list("codex_junk")
           .items([<villagenames:codex>])
       )
   );
+  
+Dropt.list("stick")
+
+  .add(Dropt.rule()
+      .matchBlocks(["betterwithmods:grate:0"])
+      .addDrop(Dropt.drop()
+          .items([<minecraft:stick>])
+      )
+  );
+
+Dropt.list("bone")
+
+  .add(Dropt.rule()
+      .matchBlocks(["betterwithmods:grate:1"])
+      .addDrop(Dropt.drop()
+          .items([<minecraft:bone>])
+      )
+  );
+  
+Dropt.list("bone")
+
+  .add(Dropt.rule()
+      .matchBlocks(["betterwithmods:grate:2"])
+      .addDrop(Dropt.drop()
+          .items([<simpleores:mythril_rod>])
+      )
+  );
+  
+Dropt.list("bowl")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:bowl"])
+      .addDrop(Dropt.drop()
+          .items([<minecraft:bowl>])
+      )
+  );
+  
+Dropt.list("bottle")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:bottle"])
+      .addDrop(Dropt.drop()
+          .items([<minecraft:glass_bottle>])
+      )
+  );
 
 Dropt.list("halite")
 .add(Dropt.rule()
@@ -784,44 +829,7 @@ Dropt.list("wonder_geode")
   .add(Dropt.rule()
       .matchBlocks(["rotn_blocks:wonder_geode"])
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(60))
-		  .items([<minecraft:gold_nugget>])
-      )
-	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(100))
-		  .items([<minecraft:iron_nugget>])
-      )
-	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(60))
-		  .items([<ore:nuggetCopper>.firstItem])
-      )
-	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(60))
-		  .items([<iceandfire:silver_nugget>])
-      )
-	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(60))
-		  .items([<ore:nuggetTin>.firstItem])
-      )
-	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(60))
-		  .items([<pyrotech:material:8>])
-      )
-	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(20))
-		  .items([<pyrotech:material:36>])
-      )
-	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(20))
-		  .items([<contenttweaker:vis_speck>])
-      )
-	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(6))
-		  .items([<dungeontactics:diamond_nugget>])
-      )
-	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(20))
-		  .items([<biomesoplenty:gem:5>]) // benelyte
+		  .items([<jsonlootbags:wonder_geode>])
       )
   );
   

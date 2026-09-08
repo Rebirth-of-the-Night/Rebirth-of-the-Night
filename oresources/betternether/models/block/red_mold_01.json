@@ -1,0 +1,96 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Designed by Paulevs with Cubik Studio - https://cubik.studio",
+	"parent": "block/block",
+	"textures": {
+		"particle": "betternether:blocks/red_mold_top",
+		"texture": "betternether:blocks/red_mold_top",
+		"bottom": "betternether:blocks/red_mold_bottom"
+	},
+	"elements": [
+		{
+			"name": "Box1",
+			"from": [1, 2, 1],
+			"to": [5, 10, 5],
+			"faces": {
+				"north": {"uv": [0, 2, 4, 10], "texture": "#texture"},
+				"east": {"uv": [0, 2, 4, 10], "texture": "#texture"},
+				"south": {"uv": [0, 2, 4, 10], "texture": "#texture"},
+				"west": {"uv": [0, 2, 4, 10], "texture": "#texture"},
+				"up": {"uv": [8, 12, 12, 16], "texture": "#texture"},
+				"down": {"uv": [0, 10, 4, 14], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [10, 0, 5],
+			"to": [12, 4, 7],
+			"faces": {
+				"north": {"uv": [5, 12, 7, 16], "texture": "#texture"},
+				"east": {"uv": [5, 12, 7, 16], "texture": "#texture"},
+				"south": {"uv": [5, 12, 7, 16], "texture": "#texture"},
+				"west": {"uv": [5, 12, 7, 16], "texture": "#texture"},
+				"down": {"uv": [1, 0, 3, 2], "texture": "#texture", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [9, 4, 4],
+			"to": [13, 11, 8],
+			"faces": {
+				"north": {"uv": [4, 2, 8, 9], "texture": "#texture"},
+				"east": {"uv": [4, 2, 8, 9], "texture": "#texture"},
+				"south": {"uv": [4, 2, 8, 9], "texture": "#texture"},
+				"west": {"uv": [4, 2, 8, 9], "texture": "#texture"},
+				"up": {"uv": [8, 12, 12, 16], "texture": "#texture"},
+				"down": {"uv": [0, 10, 4, 14], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [5, 0, 11],
+			"to": [7, 2, 13],
+			"faces": {
+				"north": {"uv": [5, 13, 7, 15], "texture": "#texture"},
+				"east": {"uv": [5, 13, 7, 15], "texture": "#texture"},
+				"south": {"uv": [5, 13, 7, 15], "texture": "#texture"},
+				"west": {"uv": [5, 13, 7, 15], "texture": "#texture"},
+				"down": {"uv": [1, 0, 3, 2], "texture": "#texture", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [4, 2, 10],
+			"to": [8, 8, 14],
+			"faces": {
+				"north": {"uv": [8, 2, 12, 8], "texture": "#texture"},
+				"east": {"uv": [8, 2, 12, 8], "texture": "#texture"},
+				"south": {"uv": [8, 2, 12, 8], "texture": "#texture"},
+				"west": {"uv": [8, 2, 12, 8], "texture": "#texture"},
+				"up": {"uv": [8, 12, 12, 16], "texture": "#texture"},
+				"down": {"uv": [0, 10, 4, 14], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [2, 0, 2],
+			"to": [4, 2, 4],
+			"faces": {
+				"north": {"uv": [5, 14, 7, 16], "texture": "#texture"},
+				"east": {"uv": [5, 14, 7, 16], "texture": "#texture"},
+				"south": {"uv": [5, 14, 7, 16], "texture": "#texture"},
+				"west": {"uv": [5, 14, 7, 16], "texture": "#texture"},
+				"down": {"uv": [1, 0, 3, 2], "texture": "#texture", "cullface": "down"}
+			}
+		},
+		{
+			"name": "PlaneY4",
+			"from": [0, 0.5, 0],
+			"to": [16, 0.501, 16],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#bottom"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom"}
+			}
+		}
+	]
+}

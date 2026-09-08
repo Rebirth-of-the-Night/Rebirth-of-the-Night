@@ -1,0 +1,32 @@
+{
+  "normal": {
+    "minecraft:stick":  {
+      "mode": "set_item",
+      "item": "betterwithmods:grate",
+	  "meta": 0
+    },
+	"minecraft:bone":  {
+      "mode": "set_item",
+      "item": "betterwithmods:grate",
+	  "meta": 1
+    },
+	"simpleores:mythril_rod":  {
+      "mode": "set_item",
+      "item": "betterwithmods:grate",
+	  "meta": 2
+    },
+	"minecraft:bowl": "contenttweaker:bowl",
+    "minecraft:paper": {
+      "mode": "set_item",
+      "item": "bblsom:paper"
+    },
+	"iceandfire:manuscript": {
+      "mode": "set_item",
+      "item": "bblsom:paper_w"
+    }
+  },
+  "sneaking": {
+	"minecraft:glass_bottle": "contenttweaker:bottle",
+	"jsonlootbags:wonder_geode": "rotn_blocks:wonder_geode"
+  }
+}

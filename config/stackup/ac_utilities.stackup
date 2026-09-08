@@ -2,6 +2,6 @@
 id~="scalinghealth:healingitem:*" *=2
 id="minecraft:mushroom_stew" -> 16
 id="cyclicmagic:inventory_food" -> 1
-
+id="jsonlootbags:wonder_geode" -> 32
 # dev item
 id~="contenttweaker:calamarigold" -> 1

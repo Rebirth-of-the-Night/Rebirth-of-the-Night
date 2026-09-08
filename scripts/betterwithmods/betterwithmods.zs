@@ -41,6 +41,9 @@ recipes.addShapeless("betterwithmods_items/material/material_padding_wool", <bet
 JEI.removeAndHide(<betterwithmods:steel_axle>);
 JEI.removeAndHide(<betterwithmods:steel_gearbox>);
 JEI.removeAndHide(<betterwithmods:steel_broken_gearbox>);
+JEI.removeAndHide(<betterwithmods:grate>);
+JEI.removeAndHide(<betterwithmods:grate:1>);
+JEI.removeAndHide(<betterwithmods:grate:2>);
 
 
 JEI.removeAndHide(<betterwithmods:bark>);
@@ -49,6 +52,7 @@ JEI.removeAndHide(<betterwithmods:bark:2>);
 JEI.removeAndHide(<betterwithmods:bark:3>);
 JEI.removeAndHide(<betterwithmods:bark:4>);
 JEI.removeAndHide(<betterwithmods:bark:5>);
+JEI.removeAndHide(<betterwithaddons:decomat>);
 JEI.removeAndHide(<betterwithmods:nether_growth>);
 JEI.removeAndHide(<betterwithmods:steel_saw>);
 JEI.removeAndHide(<betterwithmods:material:52>);
@@ -142,8 +146,6 @@ recipes.remove(<betterwithmods:wood_table:3>);
 recipes.remove(<betterwithmods:wood_table:4>);
 recipes.remove(<betterwithmods:wood_table:5>);
 
-JEI.removeAndHide(<contenttweaker:fire_block:*>);
-JEI.removeAndHide(<contenttweaker:stoked_fire_block:*>);
 
 //Turntable
 Turntable.removeAll();

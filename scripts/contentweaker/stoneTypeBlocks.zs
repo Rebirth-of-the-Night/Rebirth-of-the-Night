@@ -602,6 +602,43 @@ arch_large_brick_migmatite.setLightValue(0);
 arch_large_brick_migmatite.setBlockLayer("CUTOUT");
 arch_large_brick_migmatite.register();
 
+//Magicked
+var arch_brick_magicked = VanillaFactory.createDirectionalBlock("arch_brick_magicked", <blockmaterial:Rock>, "HORIZONTAL", true, true);
+arch_brick_magicked.setBlockHardness(2.0);
+arch_brick_magicked.setBlockResistance(1.0);
+arch_brick_magicked.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     16.0 / 16.0,
+	16.0 / 16.0,
+    16.0 / 16.0,
+    14.0 / 16.0
+	);
+arch_brick_magicked.setToolClass("pickaxe");
+arch_brick_magicked.setFullBlock(false);
+arch_brick_magicked.setLightOpacity(0);
+arch_brick_magicked.setLightValue(0);
+arch_brick_magicked.setBlockLayer("CUTOUT");
+arch_brick_magicked.register();
+
+var arch_large_brick_magicked = VanillaFactory.createDirectionalBlock("arch_large_brick_magicked", <blockmaterial:Rock>, "HORIZONTAL", true, true);
+arch_large_brick_magicked.setBlockHardness(2.0);
+arch_large_brick_magicked.setBlockResistance(1.0);
+arch_large_brick_magicked.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     16.0 / 16.0,
+	16.0 / 16.0,
+    16.0 / 16.0,
+    14.0 / 16.0
+	);
+arch_large_brick_magicked.setToolClass("pickaxe");
+arch_large_brick_magicked.setFullBlock(false);
+arch_large_brick_magicked.setLightOpacity(0);
+arch_large_brick_magicked.setLightValue(0);
+arch_large_brick_magicked.setBlockLayer("CUTOUT");
+arch_large_brick_magicked.register();
+
 //Serpentinite
 var arch_brick_serpentinite = VanillaFactory.createDirectionalBlock("arch_brick_serpentinite", <blockmaterial:Rock>, "HORIZONTAL", true, true);
 arch_brick_serpentinite.setBlockHardness(2.0);

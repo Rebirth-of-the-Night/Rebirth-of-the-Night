@@ -116,6 +116,8 @@ furnace.setFuel(<contenttweaker:charmpeat>, 4800);
 furnace.setFuel(<betterwithmods:stake>, 80);
 furnace.setFuel(<rustic:crop_stake>, 240);
 furnace.setFuel(<contenttweaker:broken_stick>, 150);
+furnace.setFuel(<betterwithmods:grate:1>, 0); // remove placeable bone fuel
+furnace.setFuel(<betterwithmods:grate:2>, 0); // remove placeable mythril rod fuel
 
 <ore:sourceCopper>.addItems([<contenttweaker:raw_copper>,<simpleores:copper_ingot>]);
 <ore:sourceCopper>.addAll(<ore:oreCopper>);
@@ -626,6 +628,10 @@ recipes.addShapeless("name_tag",<minecraft:name_tag>,[
     <ore:string>, <ore:nuggetGold>, <minecraft:paper>
 ]);
 
+recipes.addShapeless("paper",<minecraft:paper>,[
+    <bblsom:paper>
+]);
+
 recipes.removeByRecipeName("minecraft:dispenser");
 recipes.addShaped("vanilla_dispenser",<minecraft:dispenser>,[
     [<ore:cobblestone>,<ore:cobblestone>,<ore:cobblestone>],
@@ -1016,10 +1022,8 @@ recipes.addShaped("bowl",<minecraft:bowl>*4,[
     [<ore:stickMat>,null,<ore:stickMat>],
     [null,<ore:stickMat>,null]
 ]);
-
-recipes.addShapeless("bowl_to_cot_bowl",<contenttweaker:bowl>,[<minecraft:bowl>]);
-
-recipes.addShapeless("cot_bowl_to_bowl",<minecraft:bowl>,[<contenttweaker:bowl>]);
+JEI.removeAndHide(<contenttweaker:bowl>);
+JEI.removeAndHide(<contenttweaker:bottle>);
 
 val ladderMats = <ore:ladderMat>;
 ladderMats.mirror(<ore:stickWood>);
@@ -1432,6 +1436,9 @@ gemAmethyst.add(<netherex:amethyst_crystal>);
 val blockGravitite = <ore:blockGravitite>;
 blockGravitite.addAll(<ore:blockEnchantedGravitite>);
 
+val denseRedstoneOre = <ore:denseRedstoneOre>;
+denseRedstoneOre.addItems([<pyrotech:dense_redstone_ore_rocks>,<pyrotech:dense_redstone_ore_small>,<pyrotech:dense_redstone_ore_large>]);
+
 val heartCrystalOre = <ore:oreHeartCrystal>;
 heartCrystalOre.add(<scalinghealth:crystalore>);
 
@@ -1664,7 +1671,7 @@ val anyAsh = <ore:dustAsh>;
 anyAsh.add(<biomesoplenty:ash>);
 
 val componentWheel = <ore:componentWheel>;
-componentWheel.addItems([<astikorcarts:wheel>,<pyrotech:cog_wood>,<pyrotech:cog_bone>,<pyrotech:cog_gold>,<behgameon:accessory_17>]);
+componentWheel.addItems([<astikorcarts:wheel>,<pyrotech:cog_wood>,<pyrotech:cog_bone>,<pyrotech:cog_gold>,<behgameon:accessory_17>,<totf:wheel>]);
 
 val scaleChestplate = <ore:scaleChestplate>;
 scaleChestplate.addItems([<iceandfire:armor_red_chestplate:*>,<iceandfire:armor_green_chestplate:*>,<iceandfire:armor_bronze_chestplate:*>,<iceandfire:armor_gray_chestplate:*>]);
@@ -1825,6 +1832,7 @@ val stoneBrickBlockMap = {
     <contenttweaker:brick_greywacke> : 		[<contenttweaker:big_greywacke_bricks>,<contenttweaker:loose_big_greywacke_bricks>],
     <contenttweaker:brick_chert> : 			[<contenttweaker:big_chert_bricks>,<contenttweaker:loose_big_chert_bricks>],
     <contenttweaker:masonry_brick> : 		[<contenttweaker:brick_pyrotech_masonry>,<contenttweaker:loose_stone_bricks>],
+	<contenttweaker:brick_magicked> : 		[<contenttweaker:big_magicked_bricks>,<contenttweaker:loose_big_magicked_bricks>],
 	<contenttweaker:brick_serpentinite> : 	[<contenttweaker:big_serpentinite_bricks>,<contenttweaker:loose_big_serpentinite_bricks>]
 //    <contenttweaker:brick_blue_slate> : [<contenttweaker:loose_big_blue_slate_bricks>,],
 //    <contenttweaker:brick_purple_slate> : [<contenttweaker:loose_big_purple_slate_bricks>,],
@@ -1975,6 +1983,12 @@ recipes.addShaped("grass_paver", <contenttweaker:grass_paver>*8,[
     [null, <contenttweaker:masonry_brick>, null],
     [<contenttweaker:masonry_brick>, null, <contenttweaker:masonry_brick>],
     [null, <contenttweaker:masonry_brick>, null],
+]);
+
+recipes.addShapedMirrored("fancy_dark_oak",<contenttweaker:fancy_dark_oak>*3,[
+    [<minecraft:planks:5>, null, null],
+    [null, <minecraft:planks:5>, null],
+    [null, null, <minecraft:planks:5>]
 ]);
 
 ////////////////////////////////////// Default brick block replacements for practical base defense

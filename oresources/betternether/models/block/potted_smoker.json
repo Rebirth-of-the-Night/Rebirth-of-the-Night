@@ -1,0 +1,83 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Designed by Paulevs with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "betternether:blocks/smoker_stem",
+		"stem": "betternether:blocks/smoker_stem",
+		"top": "betternether:blocks/smoker_top"
+	},
+	"elements": [
+		{
+			"name": "Box1",
+			"from": [6, 2, 6],
+			"to": [10, 6, 10],
+			"faces": {
+				"north": {"uv": [4, 2, 8, 6], "texture": "#top"},
+				"east": {"uv": [2, 2, 6, 6], "texture": "#top"},
+				"south": {"uv": [4, 2, 8, 6], "texture": "#top"},
+				"west": {"uv": [1, 1, 5, 5], "texture": "#top"},
+				"up": {"uv": [10, 2, 14, 6], "texture": "#top"},
+				"down": {"uv": [2, 10, 6, 14], "texture": "#top"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [7, -8, 7],
+			"to": [9, 2, 9],
+			"faces": {
+				"north": {"uv": [2, 6, 4, 16], "texture": "#stem"},
+				"east": {"uv": [2, 5, 4, 15], "texture": "#stem"},
+				"south": {"uv": [2, 6, 4, 16], "texture": "#stem"},
+				"west": {"uv": [2, 3, 4, 13], "texture": "#stem"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [10, -8, 10],
+			"to": [11.5, -3, 11.5],
+			"faces": {
+				"north": {"uv": [2, 6, 4, 12], "texture": "#stem"},
+				"east": {"uv": [1, 5, 3, 11], "texture": "#stem"},
+				"south": {"uv": [2, 6, 4, 12], "texture": "#stem"},
+				"west": {"uv": [1, 5, 3, 11], "texture": "#stem"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [9.25, -3, 9.25],
+			"to": [12.25, 0, 12.25],
+			"faces": {
+				"north": {"uv": [4, 2, 8, 6], "texture": "#top"},
+				"east": {"uv": [2, 2, 6, 6], "texture": "#top"},
+				"south": {"uv": [4, 2, 8, 6], "texture": "#top"},
+				"west": {"uv": [1, 1, 5, 5], "texture": "#top"},
+				"up": {"uv": [10, 2, 14, 6], "texture": "#top"},
+				"down": {"uv": [2, 10, 6, 14], "texture": "#top"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [3, -8, 8],
+			"to": [6, -5, 11],
+			"faces": {
+				"north": {"uv": [4, 2, 8, 6], "texture": "#top"},
+				"east": {"uv": [1, 1, 5, 5], "texture": "#top"},
+				"south": {"uv": [4, 2, 8, 6], "texture": "#top"},
+				"west": {"uv": [2, 2, 6, 6], "texture": "#top"},
+				"up": {"uv": [10, 2, 14, 6], "rotation": 180, "texture": "#top"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [8, -8, 3],
+			"to": [11, -5, 6],
+			"faces": {
+				"north": {"uv": [1, 1, 5, 5], "texture": "#top"},
+				"east": {"uv": [4, 2, 8, 6], "texture": "#top"},
+				"south": {"uv": [2, 2, 6, 6], "texture": "#top"},
+				"west": {"uv": [4, 2, 8, 6], "texture": "#top"},
+				"up": {"uv": [10, 2, 14, 6], "rotation": 90, "texture": "#top"}
+			}
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made by Foreck with Blockbench",
+	"textures": {
+		"0": "contentcreator:blocks/grin_kale"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 8],
+			"to": [11, 6, 8],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [3, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 16, 6, 10], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [1, 0, 1, 6], "texture": "#0"},
+				"south": {"uv": [0, 10, 6, 16], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [1, 0, 1, 6], "texture": "#0"},
+				"up": {"uv": [7, 0, 1, 0], "texture": "#0"},
+				"down": {"uv": [7, 0, 1, 0], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 0, 8],
+			"to": [11, 6, 8],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [13, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 10, 6, 16], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [1, 0, 1, 6], "texture": "#0"},
+				"south": {"uv": [0, 16, 6, 10], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [1, 0, 1, 6], "texture": "#0"},
+				"up": {"uv": [1, 0, 7, 0], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [1, 0, 7, 0], "rotation": 180, "texture": "#0"}
+			}
+		}
+	]
+}

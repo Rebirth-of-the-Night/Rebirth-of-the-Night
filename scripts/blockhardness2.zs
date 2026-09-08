@@ -1512,3 +1512,6 @@ if (!isNull(<pyrotech:stone_door>)) {<pyrotech:stone_door>.hardness = 15;}
 <minecraft:stone_slab:4>.hardness = 2;
 <minecraft:brick_stairs>.hardness = 6;
 <aether_legacy:holystone>.hardness = 4;
+<betterwithmods:grate:0>.hardness = 0.4;
+<betterwithmods:grate:1>.hardness = 1;
+<betterwithmods:grate:2>.hardness = 10;

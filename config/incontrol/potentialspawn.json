@@ -130,6 +130,17 @@
       }
     ]
   },
+  {
+    "dimension": [0,10,7],
+    "mobs": [
+      {
+        "mob": "totf:goblin_shaman",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
 
 // beneath
   

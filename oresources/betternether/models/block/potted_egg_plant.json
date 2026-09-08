@@ -1,0 +1,32 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Designed by Paulevs with Cubik Studio - https://cubik.studio",
+	"parent": "block/block",
+	"textures": {
+		"particle": "betternether:blocks/egg_plant",
+		"texture": "betternether:blocks/egg_plant",
+		"vine": "betternether:blocks/egg_plant_vine"
+	},
+	"elements": [
+		{
+			"name": "Box1",
+			"from": [5, -9, 5],
+			"to": [12, -2, 12],
+			"faces": {
+				"north": {"uv": [0, 8, 7, 15], "texture": "#texture"},
+				"east": {"uv": [0, 8, 7, 15], "texture": "#texture"},
+				"south": {"uv": [0, 8, 7, 15], "texture": "#texture"},
+				"west": {"uv": [0, 8, 7, 15], "texture": "#texture"},
+				"up": {"uv": [0, 1, 7, 8], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "PlaneY5",
+			"from": [0, -7.5, 0],
+			"to": [16, -7.499, 16],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#vine"}
+			}
+		}
+	]
+}

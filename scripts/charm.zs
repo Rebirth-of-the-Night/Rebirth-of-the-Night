@@ -10,7 +10,6 @@ JEI.removeAndHide(<charm:rune_portal>);
 JEI.removeAndHide(<charm:bound_compass>);
 JEI.removeAndHide(<charm:iron_lantern>);
 
-JEI.removeAndHide(<charm:crate>);
 JEI.removeAndHide(<charm:crate:1>);
 JEI.removeAndHide(<charm:crate:2>);
 JEI.removeAndHide(<charm:crate:3>);
@@ -18,6 +17,11 @@ JEI.removeAndHide(<charm:crate:4>);
 JEI.removeAndHide(<charm:crate:5>);
 
 recipes.remove(<charm:crate>);
+recipes.addShaped("balanced_crate", <charm:crate>, [
+    [<ore:nailedWood>,<ore:nailedWood>,<ore:nailedWood>],
+    [<ore:nailedWood>, null, <ore:nailedWood>],
+    [<ore:nailedWood>,<ore:nailedWood>,<ore:nailedWood>]
+]);
 recipes.remove(<charm:crate:1>);
 recipes.remove(<charm:crate:2>);
 recipes.remove(<charm:crate:3>);
@@ -35,7 +39,7 @@ recipes.remove(<charm:iron_lantern>);
 recipes.remove(<charm:gold_lantern>);
 recipes.addShaped("gold_oil_lantern", <charm:gold_lantern>, [
     [<minecraft:gold_nugget>, <iceandfire:chain_link>, <minecraft:gold_nugget>],
-    [<minecraft:stick>, <betterwithaddons:decomat>, <minecraft:stick>],
+    [<minecraft:stick>, <contenttweaker:seed_oil>.transformReplace(<minecraft:glass_bottle>), <minecraft:stick>],
     [<minecraft:gold_nugget>,<minecraft:gold_nugget>,<minecraft:gold_nugget>,]
 ]);
 

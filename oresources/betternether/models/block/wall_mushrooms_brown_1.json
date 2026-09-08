@@ -1,0 +1,47 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Designed by Paulevs with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "block/brown_mushroom_block",
+		"texture": "block/brown_mushroom_block",
+		"inside": "block/mushroom_block_inside"
+	},
+	"elements": [
+		{
+			"name": "Box1",
+			"from": [1, 4, 0],
+			"to": [8, 6, 5],
+			"faces": {
+				"east": {"uv": [11, 10, 16, 12], "texture": "#texture"},
+				"south": {"uv": [1, 10, 8, 12], "texture": "#texture"},
+				"west": {"uv": [0, 10, 5, 12], "texture": "#texture"},
+				"up": {"uv": [1, 0, 8, 5], "texture": "#texture"},
+				"down": {"uv": [1, 11, 8, 16], "texture": "#inside"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [6, 7, 0],
+			"to": [15, 9, 6],
+			"faces": {
+				"east": {"uv": [10, 7, 16, 9], "texture": "#texture"},
+				"south": {"uv": [6, 7, 15, 9], "texture": "#texture"},
+				"west": {"uv": [0, 7, 6, 9], "texture": "#texture"},
+				"up": {"uv": [6, 0, 15, 6], "texture": "#texture"},
+				"down": {"uv": [6, 10, 15, 16], "texture": "#inside"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [2, 12, 0],
+			"to": [9, 14, 5],
+			"faces": {
+				"east": {"uv": [11, 2, 16, 4], "texture": "#texture"},
+				"south": {"uv": [2, 2, 9, 4], "texture": "#texture"},
+				"west": {"uv": [0, 2, 5, 4], "texture": "#texture"},
+				"up": {"uv": [2, 0, 9, 5], "texture": "#texture"},
+				"down": {"uv": [2, 11, 9, 16], "texture": "#inside"}
+			}
+		}
+	]
+}

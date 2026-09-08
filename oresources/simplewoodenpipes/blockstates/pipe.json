@@ -1,0 +1,128 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "simplewoodenpipes:pipe_middle"
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "simplewoodenpipes:pipe_side",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "simplewoodenpipes:pipe_side",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "simplewoodenpipes:pipe_side",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "simplewoodenpipes:pipe_side",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "true"
+      },
+      "apply": {
+        "model": "simplewoodenpipes:pipe_side",
+        "x": -90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "down": "true"
+      },
+      "apply": {
+        "model": "simplewoodenpipes:pipe_side",
+        "x": 90,
+        "uvlock": true
+      }
+    },
+
+    {
+      "when": {
+        "extract_north": "true"
+      },
+      "apply": {
+        "model": "simplewoodenpipes:pipe_extraction",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "extract_east": "true"
+      },
+      "apply": {
+        "model": "simplewoodenpipes:pipe_extraction",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "extract_south": "true"
+      },
+      "apply": {
+        "model": "simplewoodenpipes:pipe_extraction",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "extract_west": "true"
+      },
+      "apply": {
+        "model": "simplewoodenpipes:pipe_extraction",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "extract_up": "true"
+      },
+      "apply": {
+        "model": "simplewoodenpipes:pipe_extraction",
+        "x": -90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "extract_down": "true"
+      },
+      "apply": {
+        "model": "simplewoodenpipes:pipe_extraction",
+        "x": 90,
+        "uvlock": true
+      }
+    }
+  ]
+}

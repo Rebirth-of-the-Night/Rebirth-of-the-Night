@@ -286,7 +286,7 @@ recipes.addShaped("rats_cheese_staff",<rats:cheese_stick>,[
 recipes.remove(<rats:rat_seed_bowl>);
 recipes.addShaped("rats_seed_bowl",<rats:rat_seed_bowl>,[
     [<ore:listAllseed>,<ore:listAllseed>,<ore:listAllseed>],
-    [null,<contenttweaker:bowl>|<minecraft:bowl>,null],
+    [null,<minecraft:bowl>,null],
 ]);
 
 // Feral Rat Claw

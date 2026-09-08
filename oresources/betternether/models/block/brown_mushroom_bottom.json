@@ -1,0 +1,76 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Designed by Paulevs with Cubik Studio - https://cubik.studio",
+	"parent": "block/block",
+	"textures": {
+		"particle": "betternether:blocks/brown_head",
+		"inside": "blocks/mushroom_block_inside",
+		"stem": "blocks/mushroom_block_skin_stem"
+	},
+	"elements": [
+		{
+			"name": "Box1",
+			"from": [5, 0, 5],
+			"to": [11, 16, 11],
+			"faces": {
+				"north": {"uv": [5, 0, 11, 16], "texture": "#stem"},
+				"east": {"uv": [5, 0, 11, 16], "texture": "#stem"},
+				"south": {"uv": [5, 0, 11, 16], "texture": "#stem"},
+				"west": {"uv": [5, 0, 11, 16], "texture": "#stem"},
+				"up": {"uv": [5, 5, 11, 11], "texture": "#inside", "cullface": "up"},
+				"down": {"uv": [5, 5, 11, 11], "texture": "#inside", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [8, 0, 2],
+			"to": [14, 8, 8],
+			"faces": {
+				"north": {"uv": [2, 8, 8, 16], "texture": "#stem"},
+				"east": {"uv": [8, 8, 14, 16], "texture": "#stem"},
+				"south": {"uv": [8, 8, 14, 16], "texture": "#stem"},
+				"west": {"uv": [2, 8, 8, 16], "texture": "#stem"},
+				"up": {"uv": [8, 2, 14, 8], "texture": "#stem"},
+				"down": {"uv": [8, 8, 14, 14], "texture": "#inside", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [8, 0, 8],
+			"to": [13, 6, 13],
+			"faces": {
+				"east": {"uv": [3, 10, 8, 16], "texture": "#stem"},
+				"south": {"uv": [8, 10, 13, 16], "texture": "#stem"},
+				"west": {"uv": [8, 10, 13, 16], "texture": "#stem"},
+				"up": {"uv": [8, 8, 13, 13], "texture": "#stem"},
+				"down": {"uv": [8, 3, 13, 8], "texture": "#inside", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [4, 0, 3],
+			"to": [9, 10, 8],
+			"faces": {
+				"north": {"uv": [7, 6, 12, 16], "texture": "#stem"},
+				"east": {"uv": [8, 6, 13, 16], "texture": "#stem"},
+				"south": {"uv": [4, 6, 9, 16], "texture": "#stem"},
+				"west": {"uv": [3, 6, 8, 16], "texture": "#stem"},
+				"up": {"uv": [4, 3, 9, 8], "texture": "#stem"},
+				"down": {"uv": [4, 8, 9, 13], "texture": "#inside", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [3, 0, 8],
+			"to": [9, 5, 14],
+			"faces": {
+				"north": {"uv": [7, 11, 13, 16], "texture": "#stem"},
+				"east": {"uv": [2, 11, 8, 16], "texture": "#stem"},
+				"south": {"uv": [3, 11, 9, 16], "texture": "#stem"},
+				"west": {"uv": [8, 11, 14, 16], "texture": "#stem"},
+				"up": {"uv": [3, 8, 9, 14], "texture": "#stem"},
+				"down": {"uv": [3, 2, 9, 8], "texture": "#inside", "cullface": "down"}
+			}
+		}
+	]
+}

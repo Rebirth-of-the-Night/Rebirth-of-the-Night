@@ -1,0 +1,50 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Designed by Paulevs with Cubik Studio - https://cubik.studio",
+	"parent": "block/block",
+	"textures": {
+		"texture": "betternether:blocks/basalt_bricks_post_side",
+		"top": "block/basalt_side",
+		"particle": "betternether:blocks/basalt_bricks_2"
+	},
+	"elements": [
+		{
+			"name": "Box1",
+			"from": [4, 0, 4],
+			"to": [12, 2, 12],
+			"faces": {
+				"north": {"uv": [4, 14, 12, 16], "texture": "#texture"},
+				"east": {"uv": [4, 14, 12, 16], "texture": "#texture"},
+				"south": {"uv": [4, 14, 12, 16], "texture": "#texture"},
+				"west": {"uv": [4, 14, 12, 16], "texture": "#texture"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#top"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#top", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [4, 14, 4],
+			"to": [12, 16, 12],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 2], "texture": "#texture"},
+				"east": {"uv": [4, 0, 12, 2], "texture": "#texture"},
+				"south": {"uv": [4, 0, 12, 2], "texture": "#texture"},
+				"west": {"uv": [4, 0, 12, 2], "texture": "#texture"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#top", "cullface": "up"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#top"}
+			}
+		},
+		{
+			"name": "Box7",
+			"from": [4, 2, 4],
+			"to": [12, 14, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.9, 0, -0.9]},
+			"faces": {
+				"north": {"uv": [4, 2, 12, 14], "texture": "#texture"},
+				"east": {"uv": [4, 2, 12, 14], "texture": "#texture"},
+				"south": {"uv": [4, 2, 12, 14], "texture": "#texture"},
+				"west": {"uv": [4, 2, 12, 14], "texture": "#texture"}
+			}
+		}
+	]
+}

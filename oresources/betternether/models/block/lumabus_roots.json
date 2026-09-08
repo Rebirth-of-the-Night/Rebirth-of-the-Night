@@ -1,0 +1,55 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Designed by Paulevs with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "betternether:blocks/lumabus_vine",
+		"texture": "betternether:blocks/lumabus_vine",
+		"roots": "betternether:blocks/lumabus_roots"
+	},
+	"elements": [
+		{
+			"name": "PlaneX1",
+			"from": [2.5, 0, 2.5],
+			"to": [2.501, 16, 18.5],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [2.5, 0, 2.5]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#texture"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "PlaneX1",
+			"from": [13.5, 0, 2.5],
+			"to": [13.501, 16, 18.5],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [13.5, 0, 2.5]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#texture"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "PlaneX3",
+			"from": [11, 1.5, 0],
+			"to": [11.001, 17.5, 16],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [11, 1.5, 0]},
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "texture": "#roots"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#roots"}
+			}
+		},
+		{
+			"name": "PlaneZ5",
+			"from": [0, 1.5, 11],
+			"to": [16, 17.5, 11.001],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [0, 1.5, 11]},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#roots"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#roots"}
+			}
+		}
+	]
+}

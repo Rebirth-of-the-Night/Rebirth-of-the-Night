@@ -1,3 +1,5 @@
+#loader crafttweaker reloadable
+
 import mods.dropt.Dropt;
 
 // piles & rocks
@@ -697,7 +699,7 @@ Dropt.list("cobblestone_chert")
           .items([<contenttweaker:chert_cobble>])
       )
   );
-  
+ 
 // Petals
 Dropt.list("red_petal")
 

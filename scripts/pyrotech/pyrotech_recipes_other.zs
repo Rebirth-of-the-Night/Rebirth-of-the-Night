@@ -257,8 +257,8 @@ Campfire.blacklistSmeltingRecipes([<netherex:ghast_meat_cooked>]);
 Campfire.blacklistSmeltingRecipes([<pyrotech:book>]);
 
 //vessel inputs/ouputs
-val vessel_source_bronze = <rotntweaker:smelting_vessel>.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 1, Damage: 21}, {id: "contenttweaker:material_part", Count: 3, Damage: 20}]});
-val vessel_ingot_bronze = <rotntweaker:smelting_vessel>.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 4, Damage: 0}]});
+val vessel_source_bronze = <rotntweaker:smelting_vessel>.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 1, Damage: 21}, {id: "contenttweaker:material_part", Count: 3, Damage: 20}], display: {Name: "Smelting Vessel (Bronze-Ready)"}});
+val vessel_ingot_bronze = <rotntweaker:smelting_vessel>.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 1, Damage: 0}], display: {Name: "Smelting Vessel (Bronze)"}});
 
 //Primitive metal
 Campfire.addRecipe("vessel_bronze", vessel_ingot_bronze, vessel_source_bronze, 600);

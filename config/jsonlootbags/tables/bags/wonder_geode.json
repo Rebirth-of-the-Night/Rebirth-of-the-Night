@@ -1,0 +1,241 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "entryName": "iron_nugget",
+          "type": "item",
+          "name": "minecraft:iron_nugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 0
+            }
+          ],
+          "weight": 100
+        },
+        {
+          "entryName": "gold_nugget",
+          "type": "item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 0
+            }
+          ],
+          "weight": 60
+        },
+        {
+          "entryName": "copper_nugget",
+          "type": "item",
+          "name": "contenttweaker:material_part",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 4
+            }
+          ],
+          "weight": 60
+        },
+        {
+          "entryName": "silver_nugget",
+          "type": "item",
+          "name": "iceandfire:silver_nugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 0
+            }
+          ],
+          "weight": 60
+        },
+        {
+          "entryName": "tin_nugget",
+          "type": "item",
+          "name": "contenttweaker:material_part",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 6
+            }
+          ],
+          "weight": 60
+        },
+        {
+          "entryName": "rich_slag",
+          "type": "item",
+          "name": "pyrotech:material",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 8
+            }
+          ],
+          "weight": 60
+        },
+        {
+          "entryName": "dense_redstone",
+          "type": "item",
+          "name": "pyrotech:material",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 36
+            }
+          ],
+          "weight": 60
+        },
+        {
+          "entryName": "brimstone",
+          "type": "item",
+          "name": "betterwithmods:material",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 25
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "entryName": "vis_speck",
+          "type": "item",
+          "name": "contenttweaker:vis_speck",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 0
+            }
+          ],
+          "weight": 20
+        },
+        {
+          "entryName": "living_silver",
+          "type": "item",
+          "name": "totf:living_silver_nugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 0
+            }
+          ],
+          "weight": 20
+        },
+        {
+          "entryName": "benelyte",
+          "type": "item",
+          "name": "biomesoplenty:gem",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 5
+            }
+          ],
+          "weight": 20
+        },
+        {
+          "entryName": "diamond_shard",
+          "type": "item",
+          "name": "dungeontactics:diamond_nugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 0
+            }
+          ],
+          "weight": 6
+        }
+      ]
+    }
+  ]
+}
