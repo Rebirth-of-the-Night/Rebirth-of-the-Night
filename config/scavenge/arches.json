@@ -1,0 +1,320 @@
+{
+	"block_pools": [
+		{
+			"name": "Arch",
+			"type": {
+				"type": "ore",
+				"name": "blockArch"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+				{
+					"type": "require_empty_hand"
+				},
+                {
+                    "type": "require_sneak"
+                },
+				{
+                    "type": "play_sound",
+                    "name": "futuremc:stonecutter_carve",
+                    "category": "block",
+                    "pitch": "1.2",
+                    "volume": "0.5"
+                },
+                {
+                    "type": "swing_hand"
+                },
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "0" },
+					"effects": { "type": "change_meta", "meta": "1" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "1" },
+					"effects": { "type": "change_meta", "meta": "0" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "4" },
+					"effects": { "type": "change_meta", "meta": "5" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "5" },
+					"effects": { "type": "change_meta", "meta": "4" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "8" },
+					"effects": { "type": "change_meta", "meta": "9" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "9" },
+					"effects": { "type": "change_meta", "meta": "8" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "12" },
+					"effects": { "type": "change_meta", "meta": "13" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "13" },
+					"effects": { "type": "change_meta", "meta": "12" }
+				}
+			]
+		},
+		{
+			"name": "Arch Rotate Right",
+			"type": {
+				"type": "ore",
+				"name": "blockArch"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+				{
+					"type": "require_item",
+                    "name": "minecraft:stick"
+				},
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+                    "type": "play_sound",
+                    "name": "futuremc:stonecutter_carve",
+                    "category": "block",
+                    "pitch": "1.2",
+                    "volume": "0.5"
+                },
+                {
+                    "type": "swing_hand"
+                },
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "0" },
+					"effects": { "type": "change_meta", "meta": "2" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "2" },
+					"effects": { "type": "change_meta", "meta": "1" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "1" },
+					"effects": { "type": "change_meta", "meta": "3" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "3" },
+					"effects": { "type": "change_meta", "meta": "0" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "4" },
+					"effects": { "type": "change_meta", "meta": "6" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "6" },
+					"effects": { "type": "change_meta", "meta": "5" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "5" },
+					"effects": { "type": "change_meta", "meta": "7" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "7" },
+					"effects": { "type": "change_meta", "meta": "4" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "8" },
+					"effects": { "type": "change_meta", "meta": "10" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "10" },
+					"effects": { "type": "change_meta", "meta": "9" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "9" },
+					"effects": { "type": "change_meta", "meta": "11" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "11" },
+					"effects": { "type": "change_meta", "meta": "8" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "12" },
+					"effects": { "type": "change_meta", "meta": "14" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "14" },
+					"effects": { "type": "change_meta", "meta": "13" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "13" },
+					"effects": { "type": "change_meta", "meta": "15" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "15" },
+					"effects": { "type": "change_meta", "meta": "12" }
+				}
+			]
+		},
+		{
+			"name": "Arch Rotate Left",
+			"type": {
+				"type": "ore",
+				"name": "blockArch"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+				{
+					"type": "require_item",
+                    "name": "minecraft:stick"
+				},
+                {
+                    "type": "require_sneak",
+					"sneak": "true"
+                },
+				{
+                    "type": "play_sound",
+                    "name": "futuremc:stonecutter_carve",
+                    "category": "block",
+                    "pitch": "1.2",
+                    "volume": "0.5"
+                },
+                {
+                    "type": "swing_hand"
+                },
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "2" },
+					"effects": { "type": "change_meta", "meta": "0" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "1" },
+					"effects": { "type": "change_meta", "meta": "2" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "3" },
+					"effects": { "type": "change_meta", "meta": "1" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "0" },
+					"effects": { "type": "change_meta", "meta": "3" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "6" },
+					"effects": { "type": "change_meta", "meta": "4" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "5" },
+					"effects": { "type": "change_meta", "meta": "6" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "7" },
+					"effects": { "type": "change_meta", "meta": "5" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "4" },
+					"effects": { "type": "change_meta", "meta": "7" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "10" },
+					"effects": { "type": "change_meta", "meta": "8" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "9" },
+					"effects": { "type": "change_meta", "meta": "10" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "11" },
+					"effects": { "type": "change_meta", "meta": "9" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "8" },
+					"effects": { "type": "change_meta", "meta": "11" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "14" },
+					"effects": { "type": "change_meta", "meta": "12" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "13" },
+					"effects": { "type": "change_meta", "meta": "14" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "15" },
+					"effects": { "type": "change_meta", "meta": "13" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "12" },
+					"effects": { "type": "change_meta", "meta": "15" }
+				}
+			]
+		},
+		{
+			"name": "Arch Place",
+			"type": {
+				"type": "ore",
+				"name": "blockArch"
+			},
+			"clicktype": "place",
+			"properties": [
+				{
+                    "type": "require_sneak",
+					"sneak": "true"
+                },
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "0" },
+					"effects": { "type": "change_meta", "meta": "1" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "4" },
+					"effects": { "type": "change_meta", "meta": "5" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "8" },
+					"effects": { "type": "change_meta", "meta": "9" }
+				},
+				{
+					"type": "conditional_effect",
+					"condition": { "type": "has_meta", "meta": "12" },
+					"effects": { "type": "change_meta", "meta": "13" }
+				}
+			]
+		}
+	]
+}

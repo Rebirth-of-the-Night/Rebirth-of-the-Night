@@ -1,0 +1,357 @@
+{
+	"block_pools": [
+		{
+			"name": "mythril",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:mythril_post",
+                "metas": [0, 1]
+			},
+			"clicktype": "rightclick",
+			"properties": [
+				{
+					"type": "require_item",
+					"name": "minecraft:diamond"
+				},
+                {
+                    "type": "require_side",
+                    "sides": ["north", "south"]
+                },
+				{
+					"type": "consume_item",
+					"amount": "1"
+				},
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:mythril_cross",
+                    "meta": "4"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.metal.place"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "mythril",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:mythril_post",
+                "metas": [0, 1]
+			},
+			"clicktype": "rightclick",
+			"properties": [
+				{
+					"type": "require_item",
+					"name": "minecraft:diamond"
+				},
+                {
+                    "type": "require_side",
+                    "sides": ["east", "west"]
+                },
+				{
+					"type": "consume_item",
+					"amount": "1"
+				},
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:mythril_cross",
+                    "meta": "2"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.metal.place"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+
+        {
+			"name": "mythril",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:mythril_post",
+                "metas": [4, 5]
+			},
+			"clicktype": "rightclick",
+			"properties": [
+				{
+					"type": "require_item",
+					"name": "minecraft:diamond"
+				},
+                {
+                    "type": "require_side",
+                    "sides": ["north", "south"]
+                },
+				{
+					"type": "consume_item",
+					"amount": "1"
+				},
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:mythril_cross",
+                    "meta": "1"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.metal.place"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "mythril",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:mythril_post",
+                "metas": [4, 5]
+			},
+			"clicktype": "rightclick",
+			"properties": [
+				{
+					"type": "require_item",
+					"name": "minecraft:diamond"
+				},
+                {
+                    "type": "require_side",
+                    "sides": ["up", "down"]
+                },
+				{
+					"type": "consume_item",
+					"amount": "1"
+				},
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:mythril_cross",
+                    "meta": "2"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.metal.place"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+
+        {
+			"name": "mythril",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:mythril_post",
+                "metas": [2, 3]
+			},
+			"clicktype": "rightclick",
+			"properties": [
+				{
+					"type": "require_item",
+					"name": "minecraft:diamond"
+				},
+                {
+                    "type": "require_side",
+                    "sides": ["east", "west"]
+                },
+				{
+					"type": "consume_item",
+					"amount": "1"
+				},
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:mythril_cross",
+                    "meta": "1"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.metal.place"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+        {
+			"name": "mythril",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:mythril_post",
+                "metas": [2, 3]
+			},
+			"clicktype": "rightclick",
+			"properties": [
+				{
+					"type": "require_item",
+					"name": "minecraft:diamond"
+				},
+                {
+                    "type": "require_side",
+                    "sides": ["up", "down"]
+                },
+				{
+					"type": "consume_item",
+					"amount": "1"
+				},
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:mythril_cross",
+                    "meta": "4"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.metal.place"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+
+        {
+			"name": "mythril Cross",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:mythril_cross",
+                "metas": [0, 1]
+			},
+			"clicktype": "rightclick",
+			"properties": [
+				{
+					"type": "require_item",
+					"name": "minecraft:diamond"
+				},
+                {
+                    "type": "require_side",
+                    "sides": ["up", "down"]
+                },
+				{
+					"type": "consume_item",
+					"amount": "1"
+				},
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:mythril_brace"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.metal.place"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+
+        {
+			"name": "mythril Cross",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:mythril_cross",
+                "metas": [2, 3]
+			},
+			"clicktype": "rightclick",
+			"properties": [
+				{
+					"type": "require_item",
+					"name": "minecraft:diamond"
+				},
+                {
+                    "type": "require_side",
+                    "sides": ["north", "south"]
+                },
+				{
+					"type": "consume_item",
+					"amount": "1"
+				},
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:mythril_brace"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.metal.place"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		},
+
+        {
+			"name": "mythril Cross",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:mythril_cross",
+                "metas": [4, 5]
+			},
+			"clicktype": "rightclick",
+			"properties": [
+				{
+					"type": "require_item",
+					"name": "minecraft:diamond"
+				},
+                {
+                    "type": "require_side",
+                    "sides": ["east", "west"]
+                },
+				{
+					"type": "consume_item",
+					"amount": "1"
+				},
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:mythril_brace"
+                },
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+				{
+					"type": "play_sound",
+					"name": "minecraft:block.metal.place"
+				},
+                {
+                    "type": "swing_hand"
+                }
+			]
+		}
+	]
+}

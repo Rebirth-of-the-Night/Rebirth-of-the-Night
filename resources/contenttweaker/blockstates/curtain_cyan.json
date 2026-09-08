@@ -1,0 +1,16 @@
+{
+  "defaults": {
+  "textures": {
+		"0": "contenttweaker:blocks/curtain_cyan",
+		"particle": "contenttweaker:blocks/curtain_cyan"
+  
+	},
+  "model": "contenttweaker:curtain_cyan"
+  },
+  "variants": {
+  "facing=north": { "model": "contenttweaker:curtain_cyan", "y": 180 },
+  "facing=south": { "model": "contenttweaker:curtain_cyan", "y": 0 },
+  "facing=west": { "model": "contenttweaker:curtain_cyan", "y": 90 },
+  "facing=east": { "model": "contenttweaker:curtain_cyan", "y": 270 }
+}
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made by Foreck with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"1": "contenttweaker:blocks/stick",
+		"particle": "contenttweaker:blocks/stick"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 16, 9],
+			"faces": {
+				"north": {"uv": [4, 0, 6, 16], "texture": "#1"},
+				"east": {"uv": [4, 0, 6, 16], "texture": "#1"},
+				"south": {"uv": [4, 0, 6, 16], "texture": "#1"},
+				"west": {"uv": [4, 0, 6, 16], "texture": "#1"},
+				"up": {"uv": [2, 0, 4, 2], "texture": "#1"},
+				"down": {"uv": [0, 0, 2, 2], "texture": "#1"}
+			}
+		}
+	]
+}
