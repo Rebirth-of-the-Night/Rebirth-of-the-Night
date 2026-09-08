@@ -16,8 +16,9 @@ import mods.jei.JEI;
 import mods.contenttweaker.World;
 import crafttweaker.item.IItemStack;
 
+//
 //File intended to store block registry helper functions, their uses, and their recipes.
-
+//
 
 val curtainArray = ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "light_gray", "cyan", "purple", "blue", "brown", "green", "red", "black", "trans", "checkered", "eye", "peak", "royal", "patterned", "beige", "cloud"] as string[];
 
@@ -184,42 +185,42 @@ registerPost("mythril", 5.0, "pickaxe", <blockmaterial:Iron>, <soundtype:metal>,
 
 //registerArch
 
-registerArch("brick_red_granite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_black_granite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_rhyolite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_andesite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_gabbro", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_basalt", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_komatiite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_dacite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_gneiss", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_eclogite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_marble", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_quartzite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_blue_schist", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_green_schist", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_soapstone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_migmatite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_magicked", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_serpentinite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_limestone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_chalk", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_shale", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_siltstone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_lignite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_dolomite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_greywacke", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_chert", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_sandstone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_red_sandstone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_white_sandstone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_red_granite_sandstone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_soul_sandstone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_clay", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_masonry", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_mud", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_holystone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_carved_stone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_angelic_stone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_hellfire_stone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
-registerArch("brick_pirani", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
+registerArch("brick_red_granite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_black_granite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_rhyolite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_andesite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_gabbro", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_basalt", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_komatiite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_dacite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_gneiss", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_eclogite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_marble", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_quartzite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_blue_schist", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_green_schist", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_soapstone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_migmatite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_magicked", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_serpentinite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_limestone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_chalk", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_shale", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_siltstone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_lignite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_dolomite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_greywacke", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_chert", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_sandstone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_red_sandstone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_white_sandstone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_red_granite_sandstone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_soul_sandstone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_clay", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_masonry", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_mud", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_holystone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_carved_stone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_angelic_stone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_hellfire_stone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_pirani", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
