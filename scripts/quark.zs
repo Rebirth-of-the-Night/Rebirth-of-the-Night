@@ -118,8 +118,8 @@ recipes.addShaped("tin_plate", <contenttweaker:tin_plate>*24, [
 
 
 recipes.addShaped("quark_backpack", <quark:backpack>.withTag({Quality: {}}),[
-	[<ore:hideTanned>, <ore:hideTanned>, <ore:hideTanned>],
-    [<betterwithmods:material:8>, <ore:chestWood>, <betterwithmods:material:8>],
+	[<ore:durableFiber>, <ore:hideTanned>, <ore:durableFiber>],
+    [<betterwithmods:material:8>, <ore:genericMetal>, <betterwithmods:material:8>],
    	[<ore:hideTanned>, <ore:hideTanned>, <ore:hideTanned>]
 ]);
 

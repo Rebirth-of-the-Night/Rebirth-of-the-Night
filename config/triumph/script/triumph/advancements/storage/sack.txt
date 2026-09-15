@@ -1,6 +1,6 @@
-setIcon(<quark:backpack>)
-setTitle("Backpack")
-setDescription("Craft a backpack which can be equipped to double your inventory space.")
+setIcon(<textiles:sack>)
+setTitle("Sack")
+setDescription("Craft a sack which can retain nine extra stacks of items.")
 
 
 addParent("triumph:advancements/storage/bundle")
@@ -11,12 +11,10 @@ setShowToast(true)
 //Set the advancement to not send a chat message when it is achieved.
 setAnnounceToChat(false)
 
-criteria = addCriteria("Craft Backpack", "minecraft:inventory_changed")
-criteria.addItem("quark:backpack")
-
-setFrameType("CHALLENGE")
+criteria = addCriteria("Craft Sack", "minecraft:inventory_changed")
+criteria.addItem("textiles:sack")
 
 // hideLines()
 // setHidden(true)
 alwaysVisible()
-setPos(-490,-62)
+setPos(-515,-117)

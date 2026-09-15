@@ -15,4 +15,4 @@ criteria.addItem("dungeontactics:bagofhoarding")
 
 // hideLines()
 alwaysVisible()
-setPos(-483,-69)
+setPos(-426,-176)

@@ -1,9 +1,9 @@
-setIcon(<minecraft:purple_shulker_box>)
-setTitle("Shulker Box")
-setDescription("Craft a Shulker Box. An otherworldly sack.")
+setIcon(<textiles:basket>)
+setTitle("Basket")
+setDescription("Craft a basket, which is heavier than a sack, but can be upgraded further for more space.")
+
 
 addParent("triumph:advancements/storage/sack")
-addParent("triumph:advancements/storage/basket")
 
 //Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
 setShowToast(true)
@@ -11,10 +11,10 @@ setShowToast(true)
 //Set the advancement to not send a chat message when it is achieved.
 setAnnounceToChat(false)
 
-criteria = addCriteria("Craft Shulker Box", "minecraft:inventory_changed")
-criteria.addItem("minecraft:purple_shulker_box")
+criteria = addCriteria("Craft Basket", "minecraft:inventory_changed")
+criteria.addItem("textiles:sack")
 
 // hideLines()
 // setHidden(true)
 alwaysVisible()
-setPos(-472,-105)
+setPos(-515,-93)

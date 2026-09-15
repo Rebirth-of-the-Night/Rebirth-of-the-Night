@@ -1,6 +1,7 @@
-setIcon(<rustic:cabinet>)
-setTitle("Cabinet")
-setDescription("Craft a cabinet for stylish storage that opens forwards instead of upwards.")
+setIcon(<bundles:bundle>)
+setTitle("Bundle")
+setDescription("Obtain a bundle which can hold different items in the same slot. Useful for scavenging materials!")
+
 
 addParent("triumph:advancements/storage/chest")
 addParent("triumph:advancements/storage/quarkchest")
@@ -11,10 +12,10 @@ setShowToast(true)
 //Set the advancement to not send a chat message when it is achieved.
 setAnnounceToChat(false)
 
-criteria = addCriteria("Craft Cabinet", "minecraft:inventory_changed")
-criteria.addItem("rustic:cabinet")
+criteria = addCriteria("Obtain Bundle", "minecraft:inventory_changed")
+criteria.addItem("bundles:bundle")
 
 // hideLines()
 // setHidden(true)
 alwaysVisible()
-setPos(-534,-208)
+setPos(-552,-84)

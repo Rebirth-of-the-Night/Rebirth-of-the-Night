@@ -83,9 +83,11 @@ recipes.remove(<atop:mud_hoe>);
 val bronze = <ore:ingotBronze>;
 val brass = <ore:ingotBrass>;
 val wrought = <ore:ingotWroughtIron>;
+val iron = <ore:ingotIron>;
 val bronzeNugget = <ore:nuggetBronze>.firstItem;
 val brassNugget = <ore:nuggetBrass>.firstItem;
 val wroughtNugget = <ore:nuggetWroughtIron>.firstItem;
+val ironNugget = <ore:nuggetIron>.firstItem;
 val bronzeBlock = <contenttweaker:block_bronze>; 
 val brassBlock = <contenttweaker:block_brass>;
 val wroughtBlock = <contenttweaker:sub_block_holder_0:2>;
@@ -183,7 +185,10 @@ recipes.addShaped("wrought_to_ingot", wrought.firstItem,
  [[wroughtNugget,wroughtNugget,wroughtNugget],
   [wroughtNugget,wroughtNugget,wroughtNugget],
   [wroughtNugget,wroughtNugget,wroughtNugget]]);
-  
+
+recipes.removeByRecipeName("minecraft:iron_nugget");  
+recipes.addShapeless("iron_to_nugget", ironNugget*9,
+ [iron]);
 recipes.addShapeless("wrought_to_nugget", wroughtNugget*9,
  [wrought]);
  

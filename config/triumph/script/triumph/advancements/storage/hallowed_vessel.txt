@@ -15,4 +15,4 @@ setFrameType("CHALLENGE")
 
 // hideLines()
 alwaysVisible()
-setPos(-534,-64)
+setPos(-612,-62)
