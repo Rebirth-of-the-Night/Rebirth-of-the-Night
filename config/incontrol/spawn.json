@@ -282,7 +282,7 @@
   },
   {
 	"dimension" : [0],
-	"mob": "primitivemobs:goblin",
+	"mob": "totf:goblin",
 	"result": "deny"
   },
   
@@ -299,7 +299,7 @@
   },
   {
 	"dimension" : [0],
-	"mob": "primitivemobs:goblin_wayfarer",
+	"mob": "totf:goblin_wayfarer",
 	"result": "deny"
   },
   
@@ -649,6 +649,21 @@
     "result": "deny"
  },
 
+  // Spawn dungeon slugs on moss 
+  {
+    "dimension": [0, 10],
+    "random": 0.5,
+    "mob": "totf:dungeon_slug",
+    "block": ["totf:bricks_stone_mossy", "totf:bricks_stone_carved_mossy", "minecraft:mossy_cobblestone", "rotn_blocks:cave_moss"],
+	"seesky": false,
+	"maxlight": 7,
+    "result": "allow"
+  }, 
+  {
+    "dimension": [0, 10],
+    "mob": "totf:dungeon_slug",
+    "result": "deny"
+  }, 
 
  // Spawn Gold Golems in Nether Cities
  {

@@ -227,6 +227,9 @@ for potion in potionMap{
 <betteranimalsplus:wolfhead_5:*>.addTooltip(format.darkGreen("Rare Trophy"));
 <betteranimalsplus:wolfhead_6:*>.addTooltip(format.darkGreen("Rare Trophy"));
 
+// Normal
+<da:volatile_orb>.displayName = "Goort";
+
 // Rare
 <dungeontactics:high_striker:*>.addTooltip(format.darkGreen("Rare Weapon"));
 <dungeontactics:wackerjab:*>.addTooltip(format.darkGreen("Rare Weapon"));

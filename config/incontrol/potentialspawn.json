@@ -278,7 +278,21 @@
       }
     ]
   },
-  
+
+  // Slugs
+  {
+    "dimension": [0, 10],
+    "block": ["totf:bricks_stone_mossy", "totf:bricks_stone_carved_mossy", "minecraft:mossy_cobblestone", "rotn_blocks:cave_moss"],
+    "mobs": [
+      {
+        "mob": "totf:dungeon_slug",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 5
+      }
+    ]
+  }, 
+ 
   // Gold Golems
   {
     "dimension": -1,

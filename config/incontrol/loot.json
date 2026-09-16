@@ -1040,6 +1040,13 @@
 		"random": "0.003"
 	},
 	
+	// Goort
+	{
+		"mob": ["totf:dungeon_slug"],
+		"player": true,
+		"item": "da:volatile_orb",
+		"itemcount": "1"
+	},
 	
 	{
 		"mob": ["defiledlands:the_destroyer"],

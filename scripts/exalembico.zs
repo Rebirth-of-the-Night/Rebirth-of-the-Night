@@ -81,6 +81,7 @@ val shadeSpeck = <da:dark_mana>;
 val nightShard = <contenttweaker:shard_of_night>;
 val garsenShard = <da:knight_shard>;
 val glassShard = <ore:shardGlass>;
+val goort = <da:volatile_orb>;
 
 //Define liquids
 var hotspring = <liquid:hot_spring_water>;
@@ -160,6 +161,20 @@ Alembic.beginAlembicRecipe(640)
   .setOutputItem(<contenttweaker:raw_gold>)
   .setBonusOutputItem(<contenttweaker:raw_gold>, 0.66)
   .addToAlembic();
+  
+Alembic.beginAlembicRecipe(640)
+  .setHeatLevels(1, 2)  
+  .setInputItem(<da:volatile_orb>,<minecraft:slime_ball>)
+  .setOutputItem(<mod_lavacow:silky_sludge>)
+  .setInputFluid(<liquid:methanol> * 250)
+  .addToAlembic();
+Alembic.beginAlembicRecipe(1200)
+  .setHeatLevels(1)
+  .setInputItem(<da:volatile_orb>,<minecraft:slime_ball>)
+  .setInputItem(<primitivemobs:wonder_sap>)
+  .setOutputItem(<betterwithmods:material:12>*3)
+  .setInputFluid(<liquid:methanol> * 250)
+  .addToAlembic();
 
 Alembic.beginAlembicRecipe(400)
   .setHeatLevels(1, 2)
@@ -189,6 +204,11 @@ Alembic.beginAlembicRecipe(400)
 Alembic.beginAlembicRecipe(400)
   .setHeatLevels(1, 2)
   .setInputItem(<quark:root>)
+  .setOutputItem(<contenttweaker:bandage_salve>, <contenttweaker:bandage>)
+  .addToAlembic();
+Alembic.beginAlembicRecipe(400)
+  .setHeatLevels(1, 2)
+  .setInputItem(<da:volatile_orb>)
   .setOutputItem(<contenttweaker:bandage_salve>, <contenttweaker:bandage>)
   .addToAlembic();
   
