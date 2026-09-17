@@ -344,6 +344,7 @@ val gold = <minecraft:gold_nugget>;
 val copper = <ore:nuggetCopper>.firstItem;
 val silver = <iceandfire:silver_nugget>;
 val bronze = <ore:nuggetBronze>.firstItem;
+val brass = <ore:nuggetBrass>.firstItem;
 val steel = <dungeontactics:steel_nugget>;
 val knightmetal = <twilightforest:armor_shard>; 
 val soulforgedSteel = <betterwithmods:material:30>; // Steel Anvil
@@ -482,6 +483,7 @@ val eighteenMap = {
     <spartanweaponry:warhammer_bronze:*> : bronze,
     <spartanweaponry:mace_bronze:*> : bronze,
     <spartanweaponry:glaive_bronze:*> : bronze,
+	<totf:brass_club:*> : brass,
 	<dungeontactics:steel_pickaxe:*> : steel,
 	<dungeontactics:steel_axe:*> : steel,
 	<spartanweaponry:saber_steel:*> : steel,
@@ -629,6 +631,7 @@ val fortyEightMap = {
     <minecraft:golden_chestplate:*> : gold,
     <iceandfire:armor_silver_metal_chestplate:*> : silver,
     <atop:mud_chestplate:*> : bronze,
+	<totf:goblin_idol:*> : brass,
 	<dungeontactics:steel_chestplate:*> : steel,
     <twilightforest:knightmetal_chestplate:*> : knightmetal,
     <simpleores:adamantium_helmet:*> : viridium,
