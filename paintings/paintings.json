@@ -934,6 +934,13 @@
 		"isCreative": false
     },
 	{
+        "motive": "Red Room",
+        "width": 1,
+        "height": 2,
+		"item_model":"rotn:item/red_room",
+		"isCreative": false
+    },
+	{
         "motive": "Jar 2",
         "width": 1,
         "height": 2,
