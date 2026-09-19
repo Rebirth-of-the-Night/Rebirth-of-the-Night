@@ -867,17 +867,6 @@ Casting.addRecipe(<spartanweaponry:lance_steel>, <liquid:steel>*(144-(16*2)), <c
 Casting.addRecipe(<spartancompat:lance_gravitite>, <liquid:gravitite>*(144-(16*2)), <contenttweaker:lance_mold>, <spartanweaponry:material>*3);//gravitite
 Casting.addRecipe(<spartancompat:lance_mythril>, <liquid:mythril>*((144*3)-(16*2*3)), <contenttweaker:lance_mold>, <minecraft:blaze_rod>*3);//mythril
 
-// THROWING KNIFE //
-Casting.addRecipe(<spartanweaponry:throwing_knife_iron>, <liquid:iron>*(144-(16*2)), <contenttweaker:throwing_knife_mold>, <spartanweaponry:material>);//iron
-Casting.addRecipe(<spartanweaponry:throwing_knife_gold>, <liquid:gold>*(144-(16*2)), <contenttweaker:throwing_knife_mold>, <spartanweaponry:material>);//gold
-Casting.addRecipe(<spartanweaponry:throwing_knife_bronze>, <liquid:bronze>*(144-(16*2)), <contenttweaker:throwing_knife_mold>, <spartanweaponry:material>);//bronze
-Casting.addRecipe(<spartanweaponry:throwing_knife_silver>, <liquid:silver>*(144-(16*2)), <contenttweaker:throwing_knife_mold>, <spartanweaponry:material>);//silver
-Casting.addRecipe(<spartanweaponry:throwing_knife_steel>, <liquid:steel>*(144-(16*2)), <contenttweaker:throwing_knife_mold>, <spartanweaponry:material>);//steel
-Casting.addRecipe(<spartancompat:throwing_knife_gravitite>, <liquid:gravitite>*(144-(16*2)), <contenttweaker:throwing_knife_mold>, <spartanweaponry:material>);//gravitite
-Casting.addRecipe(<spartancompat:throwing_knife_mythril>, <liquid:mythril>*(144-(16*2)), <contenttweaker:throwing_knife_mold>, <minecraft:blaze_rod>);//mythril
-// Casting.addRecipe(<spartancompat:throwing_knife_adamantium>, <liquid:viridium>*(144-(16*2)), <contenttweaker:throwing_knife_mold>, <minecraft:blaze_rod>);//viridium
-Casting.addRecipe(<spartantwilight:throwing_knife_steeleaf>.withTag({ench: [{lvl: 2 as short, id: 21 as short}]}), <liquid:steeleaf>*(144-(16*2)), <contenttweaker:throwing_knife_mold>, <spartanfire:witherbone_handle>);//steeleaf
-
 // THROWING AXE //
 Casting.addRecipe(<spartanweaponry:throwing_axe_copper>, <liquid:copper>*((144*2)-(16*2*2)), <contenttweaker:throwing_axe_mold>, <spartanweaponry:material>);//copper
 Casting.addRecipe(<spartanweaponry:throwing_axe_iron>, <liquid:iron>*((144*2)-(16*2*2)), <contenttweaker:throwing_axe_mold>, <spartanweaponry:material>);//iron

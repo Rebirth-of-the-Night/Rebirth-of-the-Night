@@ -9,23 +9,30 @@ JEI.removeAndHide(<artisanworkstumps:log_basin>);
 JEI.removeAndHide(<artisanworkstumps:stone_basin>);
 JEI.removeAndHide(<artisanworktables:artisans_lens_stone>);
 JEI.removeAndHide(<artisanworktables:artisans_quill_stone>);
+JEI.removeAndHide(<artisanworktables:artisans_carver_gold>);
 JEI.removeAndHide(<artisanworktables:worktable>);
 
 recipes.remove(<artisanworktables:artisans_lens_stone>);
 recipes.remove(<artisanworktables:artisans_lens_gold>);
 recipes.addShaped("artisans_lens_gold", <artisanworktables:artisans_lens_gold>, [
     [null, null, null],
-    [<minecraft:gold_ingot>, <minecraft:glass_pane>, <minecraft:gold_ingot>], 
+    [<ore:nuggetGold>, <minecraft:glass_pane>, <ore:nuggetGold>], 
+    [<ore:stickWood>, null, null]
+]);
+recipes.remove(<artisanworktables:artisans_lens_iron>);
+recipes.addShaped("artisans_lens_iron", <artisanworktables:artisans_lens_iron>, [
+    [null, null, null],
+    [<ore:nuggetIron>, <minecraft:glass_pane>, <ore:nuggetIron>], 
     [<ore:stickWood>, null, null]
 ]);
 
 recipes.remove(<artisanworktables:artisans_carver_stone>);
-recipes.addShaped("artisans_carver_gold", <artisanworktables:artisans_carver_stone>, [
+recipes.addShaped("artisans_carver_stone", <artisanworktables:artisans_carver_stone>, [
     [null,<ore:rock>],
     [<ore:stickWood>,null]
 ]);
-recipes.remove(<artisanworktables:artisans_carver_gold>);
-recipes.addShaped("artisans_carver_gold2", <artisanworktables:artisans_carver_gold>, [
+recipes.remove(<artisanworktables:artisans_carver_iron>);
+recipes.addShaped("artisans_carver_iron", <artisanworktables:artisans_carver_iron>, [
     [null,<ore:genericMetalNuggets>],
     [<ore:stickWood>,null]
 ]);
@@ -77,15 +84,14 @@ recipes.addShaped("mage_workstation", <artisanworktables:workstation:7>, [
     [<ore:stoneSlab>, <ore:stone>, <ore:stoneSlab>]
 ]);
 
-// Recipe for Tier 1 "Basic" worktable as a stylistic upgrade to vanilla
-// disabled due to a lot of annoying crafting bugs 
 
-// recipes.addShapeless("free_upgrade", <artisanworktables:worktable:5>, [<minecraft:crafting_table>]);
-
-// Quill (One quill fits all! Using 'gold' since it has the lowest durability)
 recipes.remove(<artisanworktables:artisans_quill_stone>);
+recipes.remove(<artisanworktables:artisans_quill_iron>);
 recipes.remove(<artisanworktables:artisans_quill_gold>);
-recipes.addShapeless("artisan_quill", <artisanworktables:artisans_quill_gold>, [<ore:feather>,<ore:dye>,<ore:nuggetGold>,<minecraft:glass_bottle>]);
+recipes.remove(<artisanworktables:artisans_quill_brass>);
+recipes.addShapeless("quill_iron", <artisanworktables:artisans_quill_iron>, [<ore:feather>,<ore:dye>,<ore:nuggetIron>,<minecraft:glass_bottle>]);
+recipes.addShapeless("quill_gold", <artisanworktables:artisans_quill_gold>, [<ore:feather>,<ore:dye>,<ore:nuggetGold>,<minecraft:glass_bottle>]);
+recipes.addShapeless("quill_brass", <artisanworktables:artisans_quill_brass>, [<ore:feather>,<ore:dye>,<ore:nuggetBrass>,<minecraft:glass_bottle>]);
 
 // Gemcutter - removed for now because AA gem cutter table doesnt work with tools with durability?
 //recipes.remove(<artisanworktables:artisans_gemcutter_gold>);

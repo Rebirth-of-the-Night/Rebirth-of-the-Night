@@ -3809,6 +3809,7 @@ ExSartagine.addCuttingBoardRecipe(<minecraft:leather_leggings:*>, cuttingImpleme
 ExSartagine.addCuttingBoardRecipe(<minecraft:leather_boots>, cuttingImplement, <betterwithmods:material:31>*3, 4);
 ExSartagine.addCuttingBoardRecipe(<minecraft:leather_boots:*>, cuttingImplement, <betterwithmods:material:31>*2, 4);
 ExSartagine.addCuttingBoardRecipe(<bundles:bundle:*>, cuttingImplement, <betterwithmods:material:31>*1, 4);
+ExSartagine.addCuttingBoardRecipe(<minecraft:painting>, cuttingImplement, <betterwithmods:material:4>*1, 4);
 
 //smelter
 //ExSartagine.addSmelterRecipe(<minecraft:sapling:2>, <minecraft:nether_wart>, 20);

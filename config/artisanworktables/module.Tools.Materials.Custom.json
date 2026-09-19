@@ -3,7 +3,7 @@
 	{
       "name": "stone",
       "harvestLevel": 0,
-      "maxUses": 32,
+      "maxUses": 48,
       "efficiency": 12.0,
       "damage": 1.0,
       "enchantability": 5,
@@ -25,6 +25,32 @@
       "ingredient": "ore:ingotIron",
       "langKey": "material.athenaeum.gold",
       "oreDictKey": "artisansToolGold"
+    },
+	{
+      "name": "iron",
+      "harvestLevel": 0,
+      "maxUses": 512,
+      "efficiency": 18.0,
+      "damage": 2.0,
+      "enchantability": 12,
+      "color": "e4dddc",
+      "shiny": false,
+      "ingredient": "ore:ingotIron",
+      "langKey": "material.athenaeum.iron",
+      "oreDictKey": "artisansToolIron"
+    },
+	{
+      "name": "brass",
+      "harvestLevel": 0,
+      "maxUses": 1024,
+      "efficiency": 18.0,
+      "damage": 2.0,
+      "enchantability": 22,
+      "color": "edce70",
+      "shiny": false,
+      "ingredient": "ore:ingotBrass",
+      "langKey": "material.athenaeum.brass",
+      "oreDictKey": "artisansToolBrass"
     }
   ]
 }

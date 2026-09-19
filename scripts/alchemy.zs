@@ -122,6 +122,15 @@ var bioflow = <liquid:concentrated_bioflow>;
 var gravitite = <liquid:gravitite>; 
 var slag = <liquid:ender_slag>;
 
+var potions = <minecraft:potion>;
+var potions_splash = <minecraft:splash_potion>;
+var potions_lingering = <minecraft:lingering_potion>;
+var elixir = <rustic:elixir>;
+
+potions.maxStackSize = 8;
+potions_splash.maxStackSize = 8;
+potions_lingering.maxStackSize = 8;
+elixir.maxStackSize = 8;
 
 //Change condenser recipes
 recipes.remove(<rustic:condenser>);

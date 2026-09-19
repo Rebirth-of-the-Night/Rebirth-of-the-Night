@@ -5,3 +5,5 @@ id="cyclicmagic:inventory_food" -> 1
 id="jsonlootbags:wonder_geode" -> 32
 # dev item
 id~="contenttweaker:calamarigold" -> 1
+# throwing stick
+id="doggytalents:throw_stick" -> 256

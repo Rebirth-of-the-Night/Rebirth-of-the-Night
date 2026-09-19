@@ -9,29 +9,6 @@ JEI.hide(<spartanweaponry:arrow_wood_tipped>);
 JEI.hide(<spartanweaponry:arrow_iron_tipped>);
 JEI.hide(<spartanweaponry:arrow_diamond_tipped>);
 
-// Hide stock Diamond weapons
-// *JEI.removeAndHide(<spartanweaponry:dagger_diamond>);
-/* JEI.removeAndHide(<spartanweaponry:longsword_diamond>);
-JEI.removeAndHide(<spartanweaponry:saber_diamond>);
-JEI.removeAndHide(<spartanweaponry:rapier_diamond>);
-JEI.removeAndHide(<spartanweaponry:greatsword_diamond>);
-JEI.removeAndHide(<spartanweaponry:warhammer_diamond>);
-JEI.removeAndHide(<spartanweaponry:spear_diamond>);
-JEI.removeAndHide(<spartanweaponry:halberd_diamond>);
-JEI.removeAndHide(<spartanweaponry:pike_diamond>);
-JEI.removeAndHide(<spartanweaponry:lance_diamond>);
-JEI.removeAndHide(<spartanweaponry:throwing_knife_diamond>);
-JEI.removeAndHide(<spartanweaponry:throwing_axe_diamond>);
-JEI.removeAndHide(<spartanweaponry:battleaxe_diamond>);
-JEI.removeAndHide(<spartanweaponry:glaive_diamond>);
-JEI.removeAndHide(<spartanweaponry:longbow_diamond>);
-JEI.removeAndHide(<spartanweaponry:boomerang_diamond>);
-JEI.removeAndHide(<spartanweaponry:mace_diamond>);
-JEI.removeAndHide(<spartanweaponry:javelin_diamond>);
-JEI.removeAndHide(<spartanweaponry:hammer_diamond>);
-JEI.removeAndHide(<spartanweaponry:katana_diamond>);
-JEI.removeAndHide(<spartanweaponry:staff_diamond>); */
-
 //Remove soulforged/refined weapoons (sfs is only used for tools and armor, a defensive material)
 JEI.removeAndHide(<spartancompat:dagger_soulforged_steel>);
 JEI.removeAndHide(<spartancompat:longsword_soulforged_steel>);
@@ -120,7 +97,6 @@ recipes.remove(<spartanweaponry:greatsword_stone>);
 recipes.remove(<spartanweaponry:hammer_stone>);
 recipes.remove(<spartanweaponry:warhammer_stone>);
 recipes.remove(<spartanweaponry:spear_stone>);
-recipes.remove(<spartanweaponry:throwing_knife_stone>);
 recipes.remove(<spartanweaponry:throwing_axe_stone>);
 recipes.remove(<spartanweaponry:javelin_stone>);
 recipes.remove(<spartanweaponry:boomerang_stone>);
@@ -249,6 +225,25 @@ JEI.removeAndHide(<spartanweaponry:hammer_electrum>);
 JEI.removeAndHide(<spartanweaponry:katana_electrum>);
 JEI.removeAndHide(<spartanweaponry:staff_electrum>);
 JEI.removeAndHide(<contenttweaker:ancient_cache>);
+JEI.removeAndHide(<spartancompat:throwing_knife_mythril>);
+JEI.removeAndHide(<spartancompat:throwing_knife_zanite>);
+JEI.removeAndHide(<spartancompat:throwing_knife_gravitite>);
+JEI.removeAndHide(<spartanfire:throwing_knife_dragonbone>);
+JEI.removeAndHide(<spartanfire:throwing_knife_fire_dragonbone>);
+JEI.removeAndHide(<spartanfire:throwing_knife_ice_dragonbone>);
+JEI.removeAndHide(<spartanfire:throwing_knife_jungle>);
+JEI.removeAndHide(<spartanfire:throwing_knife_desert>);
+JEI.removeAndHide(<spartanfire:throwing_knife_jungle_venom>);
+JEI.removeAndHide(<spartanfire:throwing_knife_desert_venom>);
+JEI.removeAndHide(<spartanfire:throwing_knife_ice_dragonsteel>);
+JEI.removeAndHide(<spartanfire:throwing_knife_fire_dragonsteel>);
+JEI.removeAndHide(<spartanweaponry:throwing_knife_stone>);
+JEI.removeAndHide(<spartanweaponry:throwing_knife_iron>);
+JEI.removeAndHide(<spartanweaponry:throwing_knife_gold>);
+JEI.removeAndHide(<spartanweaponry:throwing_knife_bronze>);
+JEI.removeAndHide(<spartanweaponry:throwing_knife_steel>);
+JEI.removeAndHide(<spartanweaponry:throwing_knife_silver>);
+JEI.removeAndHide(<spartantwilight:throwing_knife_steeleaf>);
 
 // Invar (Heavenly)
 JEI.removeAndHide(<spartanweaponry:dagger_invar>);
@@ -329,45 +324,7 @@ recipes.removeByRegex("spartancompat:.*zanite");
 recipes.removeByRegex("spartancompat:.*gravitite");
 recipes.removeByRegex("spartanweaponry:.*diamond");
 
-/* var stoneThrows = itemUtils.getItemsByRegexRegistryName("spartan*:(throwing_axe|throwing_knife)_stone") as IItemStack[];
-var copperThrows = itemUtils.getItemsByRegexRegistryName("spartan*:(throwing_axe|throwing_knife)_copper") as IItemStack[];
-var ironThrows = itemUtils.getItemsByRegexRegistryName("spartan*:(throwing_axe|throwing_knife)_iron") as IItemStack[];
-var goldThrows = itemUtils.getItemsByRegexRegistryName("spartan*:(throwing_axe|throwing_knife)_gold") as IItemStack[];
-var silverThrows = itemUtils.getItemsByRegexRegistryName("spartan*:(throwing_axe|throwing_knife)_silver)") as IItemStack[];
-var bronzeThrows = itemUtils.getItemsByRegexRegistryName("spartan*:(throwing_axe|throwing_knife)_bronze") as IItemStack[];
-var steelThrows = itemUtils.getItemsByRegexRegistryName("spartan*:(throwing_axe|throwing_knife)_steel") as IItemStack[];
-var zaniteThrows = itemUtils.getItemsByRegexRegistryName("spartan*:(throwing_axe|throwing_knife)_zanite") as IItemStack[];
-var gravititeThrows = itemUtils.getItemsByRegexRegistryName("spartan*:(throwing_axe|throwing_knife)_gravitite") as IItemStack[];
-
-var throwingWeapons = [stoneThrows, copperThrows, ironThrows, goldThrows, silverThrows, bronzeThrows, steelThrows, zaniteThrows, gravititeThrows] as IItemStack[];
-var throwingMaterials = [<ore:cobblestone>, <ore:ingotCopper>, <ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilver>, <ore:ingotBronze>, <ore:ingotSteel>, <ore:gemZanite>, <ore:ingotGravitite>]
-
-var throwcounter = 0;
-
-for x, weapon in throwingWeapons {
-    recipes.remove(weapon[throwcounter]);
-    recipes.addShaped(weapon[throwcounter],[
-        [handle,throwingMaterials[x],null],
-        [null,throwingMaterials[x],null],
-        [null,null,null]
-    ]); // throwing axe
-    throwcounter += 1;
-
-    recipes.remove(weapon[throwcounter]);
-    recipes.addShaped(weapon[throwcounter],[
-        [null,null,null],
-        [handle,throwingMaterials[x],null],
-        [null,null,null]
-    ]); // throwing knife
-
-    throwcounter = 0;
-}
-*/
-
-/* var skyrootWeapon = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!handle_|pole_|crossbow_|throwing_axe_|throwing_knife_)skyroot") as IItemStack[];
-var holystoneWeapon = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!crossbow_|throwing_axe_|throwing_knife_)holystone") as IItemStack[]; */
 var gravititeSpart = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!crossbow_|throwing_axe_|throwing_knife_)gravitite") as IItemStack[];
-// var zaniteSpart  = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!crossbow_|throwing_axe_|throwing_knife_)zanite") as IItemStack[];
 
 var craftSpartMap = {
     [<ore:ingotGravitite>] : gravititeSpart,
