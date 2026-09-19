@@ -15,7 +15,7 @@ mods.selectionguicrafting.category.categoryBuilder()
 .background("minecraft:textures/blocks/planks_oak.png")
 .backgroundType("TILE")
 .border("selectioncrafting:textures/gui/decor/default.png")
-.frame("rotn:textures/items/big_nod")
+.frame("rotn:textures/items/big_nod.png")
 .bar("selectioncrafting:textures/gui/bar/default.png")
 .sound("minecraft:block.wood.break", 16.0, 1.0)
 //.soundType("RANDOM") //RANDOM or COMBINED

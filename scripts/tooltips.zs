@@ -28,6 +28,22 @@ vessel_ingot_bronze.withTag({storedItems: [{id: "contenttweaker:material_part", 
 <jsonlootbags:wonder_geode>.addTooltip(format.white("Use to open. Crouch + use to place again."));
 <jsonlootbags:wonder_geode>.addShiftTooltip("These are bulky and only stack up to 32. It is easier to store their contents in a Bundle.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
+//Gathering knives
+<dungeontactics:bone_knife>.addShiftTooltip(format.darkRed("Cannot use off-hand items with a gathering knife in-hand."), format.gold("[Properties:]") + "" + "Hold" + format.aqua(" SHIFT") + "" + format.gray(" to show details."));
+<dungeontactics:bone_knife>.addShiftTooltip("Right-clicking enables whittling. Can be used in a cutting board");
+<dungeontactics:bone_knife>.addShiftTooltip("Increases chance of unique drops from tall grass.");
+<dungeontactics:bone_knife>.addShiftTooltip("Has less range than most weapons.");
+
+<dungeontactics:iron_knife>.addShiftTooltip(format.darkRed("Cannot use off-hand items with a gathering knife in-hand."), format.gold("[Properties:]") + "" + "Hold" + format.aqua(" SHIFT") + "" + format.gray(" to show details."));
+<dungeontactics:iron_knife>.addShiftTooltip("Right-clicking enables whittling. Can be used in a cutting board");
+<dungeontactics:iron_knife>.addShiftTooltip("Increases chance of unique drops from tall grass.");
+<dungeontactics:iron_knife>.addShiftTooltip("Has less range than most weapons.");
+
+<dungeontactics:steel_knife>.addShiftTooltip(format.darkRed("Cannot use off-hand items with a gathering knife in-hand."), format.gold("[Properties:]") + "" + "Hold" + format.aqua(" SHIFT") + "" + format.gray(" to show details."));
+<dungeontactics:steel_knife>.addShiftTooltip("Right-clicking enables whittling. Can be used in a cutting board");
+<dungeontactics:steel_knife>.addShiftTooltip("Increases chance of unique drops from tall grass.");
+<dungeontactics:steel_knife>.addShiftTooltip("Has less range than most weapons.");
+
 // Single item set bonuses
 <minecraft:diamond_sword:*>.addTooltip(format.blue("+15% Attack Speed"));
 <minecraft:diamond_sword:*>.addTooltip(format.blue("+1 Armor Toughness"));
