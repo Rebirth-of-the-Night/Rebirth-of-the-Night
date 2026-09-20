@@ -76,3 +76,17 @@ mods.selectionguicrafting.recipe.recipeBuilder()
 .input(<minecraft:painting>)
 .output(<betterwithmods:material:4>)
 .register();
+
+mods.selectionguicrafting.recipe.recipeBuilder()
+.category("whittling")
+.input(<ore:logWood>)
+.output(<earthworks:item_timber>*4)
+.time(20)
+.register();
+
+mods.selectionguicrafting.recipe.recipeBuilder()
+.category("whittling")
+.input(<earthworks:item_timber>)
+.output(<totemexpansion:totem_base>)
+.time(60)
+.register();
