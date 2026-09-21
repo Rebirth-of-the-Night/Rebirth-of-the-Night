@@ -15,6 +15,7 @@ import mods.zenutils.cotx.IPlacementFacingFunction;
 import mods.jei.JEI;
 import mods.contenttweaker.World;
 import crafttweaker.item.IItemStack;
+import mods.contenttweaker.BlockState;
 
 //
 //File intended to store block registry helper functions, their uses, and their recipes.
@@ -155,6 +156,159 @@ large_arch.setBlockLayer("CUTOUT");
 large_arch.register();
 }
 
+function registerSconce(name as string, material as BlockMaterial, hardness as float, resistance as float, tool as string, sound as SoundType, large as bool, arch as bool) {
+
+    var sconce = VanillaFactory.createDirectionalBlock(name+"_sconce", material, "HORIZONTAL", true, false);
+sconce.placementFacingFunction = IPlacementFacingFunction.side();
+sconce.setBlockHardness(hardness);
+sconce.setBlockResistance(resistance);
+sconce.axisAlignedBB = AxisAlignedBB.create(
+     6.0 / 16.0,
+     0.0 / 16.0,
+     16.0 / 16.0,
+	10.0 / 16.0,
+    16.0 / 16.0,
+    6.0 / 16.0
+	);
+sconce.setToolClass(tool);
+sconce.setFullBlock(false);
+sconce.setLightOpacity(0);
+sconce.setLightValue(0);
+sconce.setBlockSoundType(sound);
+sconce.setBlockLayer("CUTOUT_MIPPED");
+sconce.register();
+
+if(large == true) {
+    var large_sconce = VanillaFactory.createDirectionalBlock("large_"+name+"_sconce", material, "HORIZONTAL", true, false);
+large_sconce.placementFacingFunction = IPlacementFacingFunction.side();
+large_sconce.setBlockHardness(hardness);
+large_sconce.setBlockResistance(resistance);
+large_sconce.axisAlignedBB = AxisAlignedBB.create(
+     6.0 / 16.0,
+     0.0 / 16.0,
+     16.0 / 16.0,
+	10.0 / 16.0,
+    16.0 / 16.0,
+    6.0 / 16.0
+	);
+large_sconce.setToolClass(tool);
+large_sconce.setFullBlock(false);
+large_sconce.setLightOpacity(0);
+large_sconce.setLightValue(0);
+large_sconce.setBlockSoundType(sound);
+large_sconce.setBlockLayer("CUTOUT_MIPPED");
+large_sconce.register();
+}
+
+if(arch==true) {
+    var sconce_arch = VanillaFactory.createDirectionalBlock(name+"_sconce_arch", material, "HORIZONTAL", true, false);
+sconce_arch.placementFacingFunction = IPlacementFacingFunction.side();
+sconce_arch.setBlockHardness(hardness);
+sconce_arch.setBlockResistance(resistance);
+sconce_arch.axisAlignedBB = AxisAlignedBB.create(
+     6.0 / 16.0,
+     0.0 / 16.0,
+     16.0 / 16.0,
+	10.0 / 16.0,
+    16.0 / 16.0,
+    0.0 / 16.0
+	);
+sconce_arch.setToolClass(tool);
+sconce_arch.setFullBlock(false);
+sconce_arch.setLightOpacity(0);
+sconce_arch.setLightValue(0);
+sconce_arch.setBlockSoundType(sound);
+sconce_arch.setBlockLayer("CUTOUT_MIPPED");
+sconce_arch.register();
+}
+}
+
+//function registerBarrier(name as string) {
+//
+    //var barrier_base = VanillaFactory.createBlock(name+"_barrier_base", <blockmaterial:Iron>);
+//barrier_base.axisAlignedBB = AxisAlignedBB.create(
+     //5.0 / 16.0,
+     //0.0 / 16.0,
+     //5.0 / 16.0,
+	//11.0 / 16.0,
+    //16.0 / 16.0,
+    //11.0 / 16.0
+	//);
+//barrier_base.setBlockHardness(3);
+//barrier_base.setBlockSoundType(<soundtype:metal>);
+//barrier_base.setFullBlock(false);
+//barrier_base.setLightOpacity(0.5);
+//barrier_base.setToolClass("pickaxe");
+//barrier_base.onBlockPlace = function(world, blockPos, blockState) {
+    //if(world.getBlockState(blockPos.getOffset('up', 1)) == <block:minecraft:air>)
+	//{
+	    //world.setBlockState(blockState.getBlock("contenttweaker:"+name+"_barrier_top"), blockPos.getOffset('up', 1));
+	//}
+//};
+//barrier_base.onBlockBreak = function(world, blockPos, blockState) {
+    //if(world.getBlockState(blockPos.getOffset('up', 1)) == blockState.getBlockState("contenttweaker:"+name+"_barrier_top"))
+	//{
+	    //world.setBlockState(<block:minecraft:air>, blockPos.getOffset('up', 1));
+	//}
+//};
+//barrier_base.register();
+//
+//var barrier_top = VanillaFactory.createBlock(name+"_barrier_top", <blockmaterial:Iron>);
+//barrier_top.axisAlignedBB = AxisAlignedBB.create(
+     //5.0 / 16.0,
+     //0.0 / 16.0,
+     //5.0 / 16.0,
+	//11.0 / 16.0,
+    //7.0 / 16.0,
+    //11.0 / 16.0
+	//);
+//barrier_top.setBlockHardness(3);
+//barrier_top.setBlockSoundType(<soundtype:metal>);
+//barrier_top.setFullBlock(false);
+//barrier_top.setLightOpacity(0.5);
+//barrier_top.setBlockLayer("CUTOUT_MIPPED");
+//barrier_top.setToolClass("pickaxe");
+//barrier_top.onBlockPlace = function(world, blockPos, blockState) {
+    //if(world.getBlockState(blockPos.getOffset('down', 1)) == <block:minecraft:air>)
+	//{
+	    //world.setBlockState(blockState.getBlock("contenttweaker:"+name+"_barrier_base"), blockPos.getOffset('down', 1));
+	//}
+//};
+//barrier_top.onBlockBreak = function(world, blockPos, blockState) {
+    //if(world.getBlockState(blockPos.getOffset('down', 1)) == blockState.getBlockState("contenttweaker:"+name+"_barrier_base"))
+	//{
+	    //world.destroyBlock(blockPos.getOffset('down', 1), true);
+	//}
+//};
+//barrier_top.setDropHandler(function(drops, world, position, state, fortune) {
+    //drops.clear();
+    //return;
+//});
+//barrier_top.register();
+//
+//var barrier_ribbon = VanillaFactory.createDirectionalBlock(name+"_barrier_ribbon", <blockmaterial:Cloth>, "HORIZONTAL", false, true);
+//barrier_ribbon.axisAlignedBB = AxisAlignedBB.create(
+     //7.0 / 16.0,
+     //-3.0 / 16.0,
+     //-8.0 / 16.0,
+	//8.0 / 16.0,
+    //6.0 / 16.0,
+    //24.0 / 16.0
+	//);
+//barrier_ribbon.setBlockHardness(0.3);
+//barrier_ribbon.setBlockSoundType(<soundtype:cloth>);
+//barrier_ribbon.setFullBlock(false);
+//barrier_ribbon.setLightOpacity(0.5);
+//barrier_ribbon.setBlockLayer("CUTOUT_MIPPED");
+//barrier_ribbon.setDropHandler(function(drops, world, position, state, fortune) {
+    //drops.clear();
+    //return;
+//});
+//barrier_ribbon.register();
+//
+//}
+
+
 
 
 
@@ -172,7 +326,13 @@ large_arch.register();
 // example: registerPost("stick", 0.5, "axe", <blockmaterial:Wood>, <soundtype:wood>, <item:minecraft:stick>);
 //
 // registerArch(name as string, hardness as float, resistance as float, tool as string, material as BlockMaterial, sound as SoundType)
-// example: registerArch("brick_red_granite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>)
+// example: registerArch("brick_red_granite", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+//
+// registerSconce(name as string, material as BlockMaterial, hardness as float, resistance as float, tool as string, sound as SoundType, large as boolean, arch as boolean)
+// example: registerSconce("cincinnasite", <blockmaterial:Iron>, 1.0, 2.0, "pickaxe", <soundtype:metal>, true, true);  P.S. the booleans at the end of the function defines whether or not to generate a large variant and an arch variant of the sconce alongside the small one.
+//
+// DOES NOT CURRENTLY WORK! registerBarrier(name as string)
+// example: registerBarrier("fleshweave");
 
 
 
@@ -181,46 +341,57 @@ large_arch.register();
 
 registerPost("stick", 0.5, "axe", <blockmaterial:Wood>, <soundtype:wood>, <item:minecraft:stick>);
 registerPost("bone", 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>, <item:minecraft:bone>);
-registerPost("mythril", 5.0, "pickaxe", <blockmaterial:Iron>, <soundtype:metal>, <item:minecraft:diamond>);
+registerPost("mythril", 5.0, "pickaxe", <blockmaterial:Iron>, <soundtype:metal>, <item:simpleores:mythril_rod>);
 
 //registerArch
 
-registerArch("brick_red_granite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_black_granite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_rhyolite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_andesite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_gabbro", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_basalt", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_komatiite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_dacite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_gneiss", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_eclogite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_marble", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_quartzite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_blue_schist", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_green_schist", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_soapstone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_migmatite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_magicked", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_serpentinite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_limestone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_chalk", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_shale", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_siltstone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_lignite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_dolomite", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_greywacke", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_chert", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_sandstone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_red_sandstone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_white_sandstone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_red_granite_sandstone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_soul_sandstone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_clay", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_masonry", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_mud", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_holystone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_carved_stone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_angelic_stone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_hellfire_stone", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
-registerArch("brick_pirani", 5.0, 2.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_red_granite", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_black_granite", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_rhyolite", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_andesite", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_gabbro", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_basalt", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_komatiite", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_dacite", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_gneiss", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_eclogite", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_marble", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_quartzite", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_blue_schist", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_green_schist", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_soapstone", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_migmatite", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_magicked", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_serpentinite", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_limestone", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_chalk", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_shale", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_siltstone", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_lignite", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_dolomite", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_greywacke", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_chert", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_sandstone", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_red_sandstone", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_white_sandstone", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_red_granite_sandstone", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_soul_sandstone", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_clay", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_masonry", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_mud", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_holystone", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_carved_stone", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_angelic_stone", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_hellfire_stone", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_pirani", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+
+//registerSconce
+
+registerSconce("cincinnasite", <blockmaterial:Iron>, 1.0, 2.0, "pickaxe", <soundtype:metal>, true, true);
+registerSconce("raktan", <blockmaterial:Rock>, 1.0, 2.0, "pickaxe", <soundtype:stone>, true, false);
+
+//registerBarrier
+
+//registerBarrier("fleshweave");
+//registerBarrier("steel");
+
