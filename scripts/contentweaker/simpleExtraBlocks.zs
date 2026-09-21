@@ -160,12 +160,12 @@ codex_junk.register();
 // Rundown cargo cart remains
 var lost_cargo = VanillaFactory.createDirectionalBlock("lost_cargo", <blockmaterial:Wood>, "HORIZONTAL", false, true);
 lost_cargo.axisAlignedBB = AxisAlignedBB.create(
-     2.0 / 16.0,
+     1.0 / 16.0,
      0.0 / 16.0,
-     2.0 / 16.0,
-	16.0 / 16.0,
+     1.0 / 16.0,
+	15.0 / 16.0,
     9.0 / 16.0,
-    16.0 / 16.0
+    15.0 / 16.0
 	);
 lost_cargo.setCreativeTab(<creativetab:rotn_blocks>);
 lost_cargo.setFullBlock(false);

@@ -1,4 +1,4 @@
-#reloadable
+#loader crafttweaker reloadable
 
 import crafttweaker.game.IGame;
 import crafttweaker.data.IData;

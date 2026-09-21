@@ -1,5 +1,6 @@
-import mods.dropt.Dropt;
+#loader crafttweaker reloadable
 
+import mods.dropt.Dropt;
   
 /* 
 Dropt.list("fortune_essence")
@@ -837,52 +838,136 @@ Dropt.list("lost_cargo")
 
   .add(Dropt.rule()
       .matchBlocks(["contenttweaker:lost_cargo:*"])
+	  .dropCount(Dropt.range(1, 3))
+	  .matchHarvester(Dropt.harvester().gameStages(["enteredBeneath"]))
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(200))
+		  .items([<ore:rawOreTin>.firstItem], Dropt.range(4, 12)) // alloy raw ore
+      )
 	  .addDrop(Dropt.drop()
           .selector(Dropt.weight(100))
-		  .items([<ore:rawOreTin>.firstItem], Dropt.range(6, 18)) // alloy raw ore
+		  .items([<totf:silk_spindle>], Dropt.range(2, 3)) // fine silks
       )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(50))
-		  .items([<contenttweaker:spider_silk>], Dropt.range(6, 18)) // fine silks
-      )
-	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(30))
+          .selector(Dropt.weight(60))
 		  .items([<ore:rawOreWrought>.firstItem], Dropt.range(4, 6)) // semi steel
       )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(30))
+          .selector(Dropt.weight(60))
 		  .items([<pyrotech:material:36>], Dropt.range(8, 20)) // dense redstone
       )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(5))
-		  .items([<minecraft:painting>.withTag({"jsonpaintings:painting": "Yearn"})]) // art
+          .selector(Dropt.weight(30))
+		  .items([<textiles:spindle>]) // finer textiles
       )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(5))
-		  .items([<minecraft:painting>.withTag({"jsonpaintings:painting": "Blessed Passion"})]) // art
+          .selector(Dropt.weight(30))
+		  .items([<textiles:spindle:17>]) // finer textiles
       )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(5))
-		  .items([<minecraft:painting>.withTag({"jsonpaintings:painting": "The Opera House"})]) // art
+          .selector(Dropt.weight(20))
+		  .items([<contenttweaker:seed_oil>], Dropt.range(2, 8)) // oils
       )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(5))
-		  .items([<glaretorch:itemglaretorchsmall>]) // lumina
+          .selector(Dropt.weight(20))
+		  .items([<betterwithmods:material:29>], Dropt.range(2, 8)) // oils
       )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(5))
-		  .items([<stripmining:excavator_shadits>]) // tool
-      )
-  )
-  .add(Dropt.rule() // luxurious dragonbone after Beneath
-      .matchBlocks(["contenttweaker:lost_cargo"])
-      .replaceStrategy("ADD")
-      .matchHarvester(Dropt.harvester()
-        .gameStages("WHITELIST", "ALL", ["enteredBeneath"])
+          .selector(Dropt.weight(15))
+		  .items([<totf:incense_stick>], Dropt.range(2, 8)) // incense
       )
 	  .addDrop(Dropt.drop()
           .selector(Dropt.weight(10))
-		  .items([<iceandfire:dragonbone>])
+		  .items([<minecraft:painting>.withTag({"jsonpaintings:painting": "Yearn"})]) // art
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10))
+		  .items([<minecraft:painting>.withTag({"jsonpaintings:painting": "Blessed Passion"})]) // art
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10))
+		  .items([<minecraft:painting>.withTag({"jsonpaintings:painting": "The Opera House"})]) // art
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10))
+		  .items([<glaretorch:itemglaretorchsmall>]) // lumina
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(6))
+		  .items([<stripmining:excavator_shadits>]) // tool
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(3))
+		  .items([<da:knight_shard>]) // the shadits special. Garsen
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10))
+          .items([<iceandfire:dragonbone>]) // exclusive post-beneath dragonbone
+      )
+  )
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:lost_cargo:*"])
+	  .dropCount(Dropt.range(1, 3))
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(200))
+		  .items([<ore:rawOreTin>.firstItem], Dropt.range(4, 12)) // alloy raw ore
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(100))
+		  .items([<totf:silk_spindle>], Dropt.range(2, 3)) // fine silks
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(60))
+		  .items([<ore:rawOreWrought>.firstItem], Dropt.range(4, 6)) // semi steel
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(60))
+		  .items([<pyrotech:material:36>], Dropt.range(8, 20)) // dense redstone
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(30))
+		  .items([<textiles:spindle>]) // finer textiles
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(30))
+		  .items([<textiles:spindle:17>]) // finer textiles
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(20))
+		  .items([<contenttweaker:seed_oil>], Dropt.range(2, 8)) // oils
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(20))
+		  .items([<betterwithmods:material:29>], Dropt.range(2, 8)) // oils
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(15))
+		  .items([<totf:incense_stick>], Dropt.range(2, 8)) // incense
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10))
+		  .items([<minecraft:painting>.withTag({"jsonpaintings:painting": "Yearn"})]) // art
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10))
+		  .items([<minecraft:painting>.withTag({"jsonpaintings:painting": "Blessed Passion"})]) // art
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10))
+		  .items([<minecraft:painting>.withTag({"jsonpaintings:painting": "The Opera House"})]) // art
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10))
+		  .items([<glaretorch:itemglaretorchsmall>]) // lumina
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(6))
+		  .items([<stripmining:excavator_shadits>]) // tool
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(3))
+		  .items([<da:knight_shard>]) // the shadits special. Garsen
       )
   );
   
@@ -897,6 +982,10 @@ Dropt.list("marmatite")
 	  .addDrop(Dropt.drop()
           .selector(Dropt.weight(60))
 		  .items([<contenttweaker:material_part:28>,<contenttweaker:material_part:36>], Dropt.range(2)) // iron and zinc dust
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10))
+		  .items([<betterwithmods:material:25>, <contenttweaker:material_part:36>], Dropt.range(2)) // brimstone and zinc dust
       )
   );
 

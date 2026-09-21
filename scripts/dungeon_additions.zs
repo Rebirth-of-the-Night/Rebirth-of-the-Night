@@ -29,7 +29,6 @@ JEI.removeAndHide(<da:gladiator_idol:*>);
 JEI.removeAndHide(<da:colossus_bone:*>);
 JEI.removeAndHide(<da:warlord_crystal:*>);
 JEI.removeAndHide(<da:incendium_core:*>);
-JEI.removeAndHide(<da:volatile_orb:*>);
 JEI.removeAndHide(<da:abberrant_eye:*>);
 JEI.removeAndHide(<da:flame_metal_scrap:*>);
 JEI.removeAndHide(<da:ancient_mana:*>);

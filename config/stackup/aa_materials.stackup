@@ -58,6 +58,7 @@ id~="pyrotech_compat:rock*" -> 256
 # misc. materials
 id="contenttweaker:*quintessence" -> 256
 id="contenttweaker:spider_silk" -> 256
+id="totf:silk_spindle" -> 16
 id="minecraft:stick" -> 256
 id="minecraft:reeds" -> 256
 id="minecraft:dye" -> 256

@@ -1047,7 +1047,88 @@
 		"item": "da:volatile_orb",
 		"itemcount": "1"
 	},
-	
+	{
+		"mob": ["mod_lavacow:parasite"],
+		"player": true,
+		"item": "da:volatile_orb",
+		"itemcount": "1",
+		"random": "0.1"
+	},
+	// Stomach
+	{
+		"mob": [
+			"animania:cow_angus", "animania:bull_angus",
+			"animania:cow_friesian", "animania:bull_friesian",
+			"animania:cow_hereford", "animania:bull_hereford",
+			"animania:cow_holstein", "animania:bull_holstein",
+			"animania:cow_longhorn", "animania:bull_longhorn",
+			"animania:cow_highland", "animania:bull_highland",
+			"animania:cow_jersey", "animania:bull_jersey",
+			"animania:cow_mooshroom", "animania:bull_mooshroom",
+			"animania:buck_alpine", "animania:doe_alpine",
+			"animania:buck_angora", "animania:doe_angora",
+			"animania:buck_fainting", "animania:doe_fainting",
+			"animania:buck_kiko", "animania:doe_kiko",
+			"animania:buck_kinder", "animania:doe_kinder",
+			"animania:buck_nigerian_dwarf", "animania:doe_nigerian_dwarf",
+			"animania:buck_pygmy", "animania:doe_pygmy",
+			"animania:ewe_friesian", "animania:ram_friesian",
+			"animania:ewe_suffolk", "animania:ram_suffolk",
+			"animania:ewe_dorper", "animania:ram_dorper",
+			"animania:ewe_dorset", "animania:ram_dorset",
+			"animania:ewe_merino", "animania:ram_merino",
+			"animania:ewe_jacob", "animania:ram_jacob",
+			"betteranimalsplus:deer", "betteranimalsplus:reindeer", "betteranimalsplus:moose"
+		],
+		"player": true,
+		"helditem": [
+			"dungeontactics:bone_knife",
+			"dungeontactics:iron_knife",
+			"dungeontactics:steel_knife",
+			"animania:carving_knife"
+		],
+		"item": "growthcraft_milk:stomach",
+		"count": "1"
+	},
+	{
+		"mob": [
+			"animania:cow_angus", "animania:bull_angus",
+			"animania:cow_friesian", "animania:bull_friesian",
+			"animania:cow_hereford", "animania:bull_hereford",
+			"animania:cow_holstein", "animania:bull_holstein",
+			"animania:cow_longhorn", "animania:bull_longhorn",
+			"animania:cow_highland", "animania:bull_highland",
+			"animania:cow_jersey", "animania:bull_jersey",
+			"animania:cow_mooshroom", "animania:bull_mooshroom",
+			"animania:buck_alpine", "animania:doe_alpine",
+			"animania:buck_angora", "animania:doe_angora",
+			"animania:buck_fainting", "animania:doe_fainting",
+			"animania:buck_kiko", "animania:doe_kiko",
+			"animania:buck_kinder", "animania:doe_kinder",
+			"animania:buck_nigerian_dwarf", "animania:doe_nigerian_dwarf",
+			"animania:buck_pygmy", "animania:doe_pygmy",
+			"animania:ewe_friesian", "animania:ram_friesian",
+			"animania:ewe_suffolk", "animania:ram_suffolk",
+			"animania:ewe_dorper", "animania:ram_dorper",
+			"animania:ewe_dorset", "animania:ram_dorset",
+			"animania:ewe_merino", "animania:ram_merino",
+			"animania:ewe_jacob", "animania:ram_jacob",
+			"betteranimalsplus:deer", "betteranimalsplus:reindeer", "betteranimalsplus:moose"
+		],
+		"player": true,
+		//exclamation is for rule if it DOESNT use this items
+		"helditem": [
+			"!dungeontactics:bone_knife",
+			"!dungeontactics:iron_knife",
+			"!dungeontactics:steel_knife",
+			"!animania:carving_knife"
+		],
+		"chance": 0.35,
+		"item": "growthcraft_milk:stomach",
+		"count": "1"
+	},
+
+
 	{
 		"mob": ["defiledlands:the_destroyer"],
 		"player": true,

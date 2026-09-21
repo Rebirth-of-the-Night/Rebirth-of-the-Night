@@ -1,53 +1,103 @@
 {
-	"populate": 
-	{
-		"lost_cargo": {
-			"distribution": "surface",
-			"generator": {
-				"type": "decoration",
-				"block": [
-					{
-						"name": "contenttweaker:lost_cargo",
-						"properties": {
-							"facing" : "north"
-						}
-					},
-					{
-						"name": "contenttweaker:lost_cargo",
-						"properties": {
-							"facing" : "east"
-						}
-					},
-					{
-						"name": "contenttweaker:lost_cargo",
-						"properties": {
-							"facing" : "south"
-						}
-					},
-					{
-						"name": "contenttweaker:lost_cargo",
-						"properties": {
-							"facing" : "west"
-						}
-					}
-				],
-				"surface": [
-					"minecraft:grass",
-					"minecraft:sand",
-					"biomesoplenty:grass",
-					"contenttweaker:salty_crust"
-				],
-				"cluster-size": 1
-			},
-			"material": [
-					"minecraft:grass",
-					"minecraft:sand",
-					"biomesoplenty:grass",
-					"contenttweaker:salty_crust"
-				],
-			"cluster-count": 1,
-			"chunk-chance": 6,
+	"dependencies": [
+		"contenttweaker"
+	],
+	"populate": {
+		"lost_cargo_with_skeleton_corpse": {
+			"distribution": "sequential",
+			"chunk-chance": 15,
 			"retrogen": "true",
+			"biomeRestriction": "blacklist",
+			"biomes": [
+				{ "type": "dictionary", "entry": "SWAMP" },
+				{ "type": "dictionary", "entry": "SPOOKY" },
+				{ "type": "dictionary", "entry": "JUNGLE" },
+				{ "type": "dictionary", "entry": "SNOWY" },
+				{ "type": "dictionary", "entry": "COLD" },
+				{ "type": "id", "entry": "minecraft:roofed_forest" },
+				{ "type": "id", "entry": "minecraft:mutated_roofed_forest" },
+				{ "type": "id", "entry": "minecraft:redwood_taiga" },
+				{ "type": "id", "entry": "minecraft:redwood_taiga_hills" },
+				{ "type": "id", "entry": "minecraft:mutated_redwood_taiga" },
+				{ "type": "id", "entry": "minecraft:mutated_redwood_taiga_hills" },
+				{ "type": "id", "entry": "biomesoplenty:bayou" },
+				{ "type": "id", "entry": "biomesoplenty:bog" },
+				{ "type": "id", "entry": "biomesoplenty:dead_swamp" },
+				{ "type": "id", "entry": "biomesoplenty:mangrove" },
+				{ "type": "id", "entry": "biomesoplenty:mystic_grove" },
+				{ "type": "id", "entry": "biomesoplenty:ominous_woods" },
+				{ "type": "id", "entry": "biomesoplenty:fen" },
+				{ "type": "id", "entry": "biomesoplenty:quagmire" },
+				{ "type": "id", "entry": "biomesoplenty:marsh" },
+				{ "type": "id", "entry": "biomesoplenty:boreal_forest" },
+				{ "type": "id", "entry": "biomesoplenty:cherry_blossom_glade" },
+				{ "type": "id", "entry": "biomesoplenty:dead_forest" },
+				{ "type": "id", "entry": "biomesoplenty:grove" },
+				{ "type": "id", "entry": "biomesoplenty:maple_woods" },
+				{ "type": "id", "entry": "biomesoplenty:overgrown_cliffs" },
+				{ "type": "id", "entry": "biomesoplenty:redwood_forest" },
+				{ "type": "id", "entry": "biomesoplenty:seasonal_forest" },
+				{ "type": "id", "entry": "biomesoplenty:shield" },
+				{ "type": "id", "entry": "biomesoplenty:temperate_rainforest" },
+				{ "type": "id", "entry": "biomesoplenty:woodland" },
+				{ "type": "id", "entry": "defiledlands:vileswamp" }
+			],
+			"features": [
+				{
+					"distribution": "surface",
+					"generator": {
+						"type": "decoration",
+						"block": [
+							{ "name": "contenttweaker:lost_cargo", "properties": { "facing" : "north" } },
+							{ "name": "contenttweaker:lost_cargo", "properties": { "facing" : "east" } },
+							{ "name": "contenttweaker:lost_cargo", "properties": { "facing" : "south" } },
+							{ "name": "contenttweaker:lost_cargo", "properties": { "facing" : "west" } }
+						],
+						"surface": [
+							"minecraft:grass",
+							"minecraft:sand",
+							"biomesoplenty:grass",
+							"contenttweaker:salty_crust"
+						],
+						"cluster-size": 1
+					},
+					"material": [
+						"minecraft:grass",
+						"minecraft:sand",
+						"biomesoplenty:grass",
+						"contenttweaker:salty_crust"
+					],
+					"cluster-count": 1
+				},
+				{
+					"distribution": "surface",
+					"chance": 18,
+					"generator": {
+						"type": "decoration",
+						"block": [
+							{ "name": "totf:skeleton_corpse" }
+						],
+						"surface": [
+							"minecraft:grass",
+							"minecraft:sand",
+							"biomesoplenty:grass",
+							"contenttweaker:salty_crust"
+						],
+						"cluster-size": 1,
+						"offset-x": 2,
+						"offset-z": 2,
+						"center-x": false,
+						"center-z": false
+					},
+					"material": [
+						"minecraft:grass",
+						"minecraft:sand",
+						"biomesoplenty:grass",
+						"contenttweaker:salty_crust"
+					],
+					"cluster-count": 1
+				}
+			]
 		}
 	}
 }

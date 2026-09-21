@@ -294,6 +294,9 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 
 <sereneseasons:greenhouse_glass:*>.addTooltip("Lets crops grow out of their normal growing seasons. If the glass is placed more than 7 blocks above a crop, the crop won't gain this benefit.");
 <netherex:ghast_meat_cooked:*>.addTooltip("Slimy, yet satisfying!");
+<growthcraft_milk:stomach>.addTooltip("Dropped by most ruminants.");
+<da:volatile_orb>.removeTooltip("Crafting Material");
+<da:volatile_orb>.addTooltip("Dropped by slugs and rarely parasites.");
 <betterwithmods:raw_egg>.addTooltip("An effective medicine and stomach filler. That is what you tell yourself in order to tolerate the taste.");
 <betterwithmods:raw_egg>.addShiftTooltip("Granny's remedy (whose, you don't know), directly from Causeperse. Heals for a few seconds but causes an upset stomach and leaves you vulnerable.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <harvestcraft:slimegummiesitem>.addTooltip("For years you have underestimated the power of slimes. With your intellect and these super cells, you are untouchable.");
@@ -303,6 +306,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <minecraft:bowl>.addTooltip("Can be placed.");
 <minecraft:paper>.addTooltip("Can be placed and stacked.");
 <iceandfire:manuscript>.addTooltip("Can be placed and stacked.");
+<totf:incense_stick>.addTooltip("Can be placed and ignited for Serenity.");
 
 // Charm
 //<charm:totem_of_returning:*>.addTooltip("§5Right-click a block while holding the totem to bind yourself to that point. Right click again to return to that point.");
