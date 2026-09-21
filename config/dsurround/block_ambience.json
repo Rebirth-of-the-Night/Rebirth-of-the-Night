@@ -1,18 +1,60 @@
 {
-        "blocks":[
-                {
-                        "blocks": [
-                                "rotn_blocks:scuttling_block"
-                        ],
-                        "chance": 1000,
-                        "sounds": [
-                                {
-                                        "sound": "minecraft:entity.silverfish.step",
-                                        "volume": 3.0,
-                                        "pitch": 1.0,
-                                        "variable": true
-                                }
-                        ]
-                }
-        ]
+  "blocks": [
+    {
+      "blocks": [
+        "rotn_blocks:scuttling_block"
+      ],
+      "chance": 1000,
+      "sounds": [
+        {
+          "sound": "minecraft:entity.silverfish.step",
+          "volume": 3.0,
+          "pitch": 1.0,
+          "variable": true
+        }
+      ]
+    },
+    {
+      "blocks": [
+        "minecraft:chorus_plant"
+      ],
+      "chance": 10,
+      "sounds": [
+        {
+          "sound": "totf:entity.specter_ambient",
+          "volume": 0.2,
+          "pitch": 0.65,
+          "variable": true
+        },
+        {
+          "sound": "charm:whispers",
+          "volume": 0.2,
+          "pitch": 0.65,
+          "variable": true
+        },
+        {
+          "sound": "rotn:ambient.whisper_v",
+          "volume": 2.0,
+          "pitch": 0.65,
+          "variable": true
+        }
+      ]
+    },
+    {
+      "blocks": [
+		"artisanworktables:workstation[variant=mage,active=true]"
+      ],
+      "chance": 15,
+      "sounds": [
+        {
+          "sound": "arcanearchives:resonator.complete",
+          "volume": 1.0,
+          "pitch": 0.85,
+          "variable": true
+        }
+      ]
+    }
+  ]
 }
+
+    

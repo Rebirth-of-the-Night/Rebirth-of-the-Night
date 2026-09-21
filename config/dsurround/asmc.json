@@ -51,9 +51,9 @@
 		"simpleores:onyx_ore": "asmc:block.nether_ore.step",
 		"contenttweaker:dormant_onyx": "asmc:block.nether_ore.step",
 		"osv:simpleores_onyx_ore_contenttweaker_ardicite": "asmc:block.nether_ore.step,fire",
-		"osv:simpleores_onyx_ore_contenttweaker_ardicite:[dense=true]": "asmc:block.nether_ore.step,fire",
+		"osv:simpleores_onyx_ore_contenttweaker_ardicite[dense=true]": "asmc:block.nether_ore.step,fire",
 		"contenttweaker:dormant_ardicite_onyx": "asmc:block.nether_ore.step,fire",
 		"osv:simpleores_onyx_ore_futuremc_smooth_quartz": "asmc:block.nether_ore.step,marble",
-		"osv:simpleores_onyx_ore_futuremc_smooth_quartz:[dense=true]": "asmc:block.nether_ore.step,marble"
+		"osv:simpleores_onyx_ore_futuremc_smooth_quartz[dense=true]": "asmc:block.nether_ore.step,marble"
 	}
 }
