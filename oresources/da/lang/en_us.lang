@@ -46,7 +46,7 @@ item.flame_helmet.name=Emberium Hero Helmet
 item.flame_chestplate.name=Emberium Hero Chestplate
 item.flame_leggings.name=Emberium Hero Leggings
 item.flame_boots.name=Emberium Hero Boots
-item.flame_metal_scrap.name=Emberium Hero Scrap
+item.flame_metal_scrap.name=Molten Glass
 item.knight_shard.name=Garsen Shard
 item.knight_ingot.name=Garsen Ingot
 item.novik_plate.name=Novik Metal Plate
@@ -60,11 +60,13 @@ item.dark_core.name=Roh Void Core
 item.dark_locator.name=Cult of Roh Eye
 item.dark_dagger.name=Roh Void Dagger
 item.volatile_orb.name=Goort
+item.gaelon_shard.name=Soul Bead
 
 item.dauntless_fist.name=Gauntlet of Strife
 item.dauntless_crystal.name=Forbidden Crystal
 item.dauntless_spear.name=Attainer Spear
 item.heart_projectile.name=Attainer Locator Projectile
+item.golem_cannon.name=Famfrit
 
 item.crystal_trinket.name=Hùng Carved Lustrian
 
@@ -106,3 +108,5 @@ tile.Pirani_stone.name= Pirani Stone
 
 da.desc.flame_of_Strife=Unseals the Obelisk of the Schism.
 death.attack.da:maelstrom=%1$s succumbed became a sacrifice for the Flower God of Vorfurt.
+
+da.desc.golem_cannon_desc=Requires Gaelon Shards as ammo. Right clicking will shoot a powerful shard bullet.

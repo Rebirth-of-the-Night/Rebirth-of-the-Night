@@ -139,6 +139,15 @@ valkyrien_plate.register();
 val electrum_core = VanillaFactory.createItem("electrum_core");
 electrum_core.register();
 
+// blowpipe
+var blowpipe = VanillaFactory.createItem("blowpipe");
+blowpipe.maxStackSize = 1;
+blowpipe.maxDamage = 2048;
+blowpipe.register();
+var glass_bead = VanillaFactory.createItem("glass_bead");
+glass_bead.maxStackSize = 256;
+glass_bead.register();
+
 // bags of...
 // nails
 var bag_nails = VanillaFactory.createItem("bag_nails");

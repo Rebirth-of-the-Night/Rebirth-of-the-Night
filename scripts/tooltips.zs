@@ -295,7 +295,6 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <sereneseasons:greenhouse_glass:*>.addTooltip("Lets crops grow out of their normal growing seasons. If the glass is placed more than 7 blocks above a crop, the crop won't gain this benefit.");
 <netherex:ghast_meat_cooked:*>.addTooltip("Slimy, yet satisfying!");
 <growthcraft_milk:stomach>.addTooltip("Dropped by most ruminants.");
-<da:volatile_orb>.removeTooltip("Crafting Material");
 <da:volatile_orb>.addTooltip("Dropped by slugs and rarely parasites.");
 <betterwithmods:raw_egg>.addTooltip("An effective medicine and stomach filler. That is what you tell yourself in order to tolerate the taste.");
 <betterwithmods:raw_egg>.addShiftTooltip("Granny's remedy (whose, you don't know), directly from Causeperse. Heals for a few seconds but causes an upset stomach and leaves you vulnerable.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
@@ -307,6 +306,11 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <minecraft:paper>.addTooltip("Can be placed and stacked.");
 <iceandfire:manuscript>.addTooltip("Can be placed and stacked.");
 <totf:incense_stick>.addTooltip("Can be placed and ignited for Serenity.");
+
+<da:flame_metal_scrap>.addTooltip("Turns into Glass when it cools down.");
+<contenttweaker:blowpipe>.addTooltip("Use with Molten Glass in inventory to glassblow.");
+<totf:cleaner>.addTooltip("Cleans cooking appliances.");
+
 
 // Charm
 //<charm:totem_of_returning:*>.addTooltip("§5Right-click a block while holding the totem to bind yourself to that point. Right click again to return to that point.");
@@ -614,6 +618,10 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <dungeontactics:lantern_magic:*>.addTooltip("Outputs a magical aura that forces most creatures to steer away from it.");
 <dungeontactics:ducttape>.addShiftTooltip("Single use. Items can be repaired a maximum amount of 5 times with repair kits. Will prevent enchanting unless a true enchanting table is used.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <iceandfire:dragonbone_bow:*>.addTooltip("Only shoots Dragonbone Arrows.");
+<da:golem_cannon:*>.removeTooltip("Requires Gaelon Shards as ammo. Right clicking will shoot a powerful shard bullet.");
+<da:golem_cannon:*>.addTooltip(format.aqua("The Soul Forged Cannon"));
+<da:golem_cannon:*>.addTooltip("Shoots Soul Beads.");
+<da:golem_cannon:*>.addShiftTooltip("Pulling their power aggressively they shatter away from reality into the Limbinite.");
 <dungeontactics:lantern_magic:*>.addTooltip("Light with a Flint and Steel to activate.");
 <dungeontactics:lantern_magic:*>.addTooltip(format.red("DOES NOT DROP WHEN BROKEN!"));
 <extraalchemy:potion_ring:*>.addTooltip("Consumes 5 or 8 xp every 30 seconds while active, depending on potion strength.");

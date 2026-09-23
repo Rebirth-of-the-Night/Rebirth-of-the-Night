@@ -72,8 +72,12 @@ JEI.removeAndHide(<betterwithmods:material:44>);
 
 JEI.removeAndHide(<betterwithmods:material:40>);
 
-JEI.removeAndHide(<betterwithmods:steel_sword>);
-JEI.removeAndHide(<betterwithmods:steel_battleaxe>);
+JEI.removeAndHide(<betterwithaddons:steel_spade>);
+JEI.removeAndHide(<betterwithaddons:steel_matchpick>);
+JEI.removeAndHide(<betterwithaddons:steel_machete>);
+JEI.removeAndHide(<betterwithaddons:steel_machete>);
+JEI.removeAndHide(<betterwithaddons:steel_carpentersaw>);
+JEI.removeAndHide(<betterwithmods:steel_hacksaw>);
 
 JEI.removeAndHide(<betterwithmods:candle_holder>); 
 JEI.removeAndHide(<betterwithmods:aesthetic:8>);
@@ -239,6 +243,8 @@ var tanned_hide = <ore:hideTanned>;
 var paper = <ore:paper>;
 var spring = <betterwithmods:material:49>;
 val bark_strips = <primallib:bark_strips_generic>;
+var soap = <betterwithmods:material:50>;
+var soap_block = <betterwithmods:aesthetic:10>;
 
 // gear wood
 recipes.remove(gear_wood);
@@ -341,14 +347,14 @@ recipes.addShaped("mech_booster_rail_32", <betterwithmods:booster>*32, [
 ]);
 // bellows
 recipes.remove(<betterwithmods:bellows>);
-recipes.addShaped("bellows_block", <betterwithmods:bellows>, [
+recipes.addShapedMirrored("bellows_block", <betterwithmods:bellows>, [
     [plank_wood, plank_wood, plank_wood],
-    [tanned_hide, tanned_hide, tanned_hide],
+    [tanned_hide, tanned_hide, <contenttweaker:blowpipe>],
 	[belt, gear_wood, belt]
 ]);
-recipes.addShaped("bellows_siding", <betterwithmods:bellows>, [
+recipes.addShapedMirrored("bellows_siding", <betterwithmods:bellows>, [
     [siding_wood, siding_wood, siding_wood],
-    [tanned_hide, tanned_hide, tanned_hide],
+    [tanned_hide, tanned_hide, <contenttweaker:blowpipe>],
 	[belt, gear_wood, belt]
 ]);
 recipes.remove(<betterwithmods:bellows:1>);
@@ -523,6 +529,13 @@ recipes.addShaped("copper_chime", <betterwithmods:metal_chime:1>, [
     <betterwithmods:metal_chime:4>,
     <betterwithmods:metal_chime:5>
 */
+
+recipes.remove(soap_block);
+recipes.addShaped("soap_block", soap_block, [
+    [soap,soap,soap],
+    [soap,soap,soap],
+	[soap,soap,soap]
+]);
 
 recipes.remove(<betterwithmods:broadhead_arrow>);
 recipes.addShaped("broadhead_arrow", <betterwithmods:broadhead_arrow>, [

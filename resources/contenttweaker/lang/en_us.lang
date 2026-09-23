@@ -352,6 +352,7 @@ item.contenttweaker.zanite_ingot.name=Zanite Ingot
 # Tools
 #------------------------------------------------------------------------------
 
+item.contenttweaker.blowpipe.name=Blowpipe
 item.contenttweaker.mythril_masonpick.name=Mythril Mason Pick
 item.contenttweaker.mythril_mattock.name=Mythril Mattock
 item.contenttweaker.sfs_masonpick.name=Soulforged Steel Mason Pick
@@ -904,6 +905,8 @@ tile.contenttweaker.unfired_mud_brick.name=Unfired Mud Brick
 tile.contenttweaker.unfired_fiery_brick.name=Unfired Fiery Brick
 tile.contenttweaker.unfired_refractory_brick.name=Unfired Refractory Brick
 tile.contenttweaker.unfired_porcelain_brick.name=Unfired Porcelain Brick
+
+item.contenttweaker.glass_bead.name=Glass Bead
 
 tile.contenttweaker.crucible_of_souls.name=Crucible of Souls
 

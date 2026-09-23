@@ -42,6 +42,12 @@ Anvil.removeShaped(spring);
 Anvil.removeShaped(<betterwithmods:grate>);
 Anvil.removeShaped(<betterwithmods:grate:1>);
 Anvil.removeShaped(<betterwithmods:grate:2>);
+Anvil.removeShaped(<betterwithaddons:steel_spade>);
+Anvil.removeShaped(<betterwithaddons:steel_matchpick>);
+Anvil.removeShaped(<betterwithaddons:steel_machete>);
+Anvil.removeShaped(<betterwithaddons:steel_machete>);
+Anvil.removeShaped(<betterwithaddons:steel_carpentersaw>);
+Anvil.removeShaped(<betterwithmods:steel_hacksaw>);
 
 Anvil.removeShaped(<betterwithmods:steel_axle>);
 Anvil.removeShaped(<betterwithmods:steel_gearbox>);

@@ -107,6 +107,8 @@ furnace.remove(<ore:nuggetIron>);
 furnace.remove(<minecraft:brick>);
 furnace.remove(<quark:tallow>);
 
+furnace.remove(<minecraft:glass>);
+
 furnace.setFuel(<ore:barkWood>, 100);
 furnace.setFuel(<pyrotech_compat:rock_igneous_sand:9>, 400);
 furnace.setFuel(<chutes:chute_wood>, 25);
@@ -720,6 +722,10 @@ recipes.addShaped("quality_bucket", <minecraft:bucket>,[
     [<pyrotech:material:4>, <pyrotech:bucket_stone>, <pyrotech:material:4>],
     [<ore:glue>,<ore:glue>,<ore:glue>],
     [<pyrotech:material:4>, <contenttweaker:crucible>, <pyrotech:material:4>]
+]);
+
+recipes.addShaped("blowpipe",<contenttweaker:blowpipe>,[
+    [<ore:genericMetal>,<ore:genericMetal>,<ore:genericMetal>]
 ]);
 // new redstone recipes
 recipes.remove(<minecraft:daylight_detector>);

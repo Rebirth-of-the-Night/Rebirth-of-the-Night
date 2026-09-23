@@ -1157,6 +1157,13 @@
 		"itemcount": "1",
 		"random": "0.1"
 	},
+	{
+		"mob": "totf:gnossic",
+		"player": true,
+		"item": "defiledlands:black_heart",
+		"itemcount": "1",
+		"random": "0.5"
+	},
 	
 	// Chronologist
 	{

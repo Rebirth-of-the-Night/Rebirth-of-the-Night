@@ -30,7 +30,6 @@ JEI.removeAndHide(<da:colossus_bone:*>);
 JEI.removeAndHide(<da:warlord_crystal:*>);
 JEI.removeAndHide(<da:incendium_core:*>);
 JEI.removeAndHide(<da:abberrant_eye:*>);
-JEI.removeAndHide(<da:flame_metal_scrap:*>);
 JEI.removeAndHide(<da:ancient_mana:*>);
 JEI.removeAndHide(<da:novik_plate:*>);
 JEI.removeAndHide(<da:sentinel_part:*>);
@@ -275,7 +274,6 @@ JEI.removeAndHide(<da:sword_spear_blood:*>);
 JEI.removeAndHide(<da:king_claw:*>);
 JEI.removeAndHide(<da:mage_staff:*>);
 JEI.removeAndHide(<da:wyrk_staff:*>);
-JEI.removeAndHide(<da:golem_cannon:*>);
 JEI.removeAndHide(<da:voidiant_catalyst:*>);
 JEI.removeAndHide(<da:void_staff:*>);
 JEI.removeAndHide(<da:dragon_bow:*>);
@@ -382,3 +380,26 @@ JEI.removeAndHide(<da:blood_meteor:*>);
 JEI.removeAndHide(<da:sorcery_dagger:*>);
 
 JEI.removeAndHide(<da:bomd_mod_logo:*>);
+
+JEI.removeAndHide(<da:midnight_void:*>);
+JEI.removeAndHide(<da:mace_trinket:*>);
+JEI.removeAndHide(<da:petal_trinket:*>);
+JEI.removeAndHide(<da:goat_trinket:*>);
+JEI.removeAndHide(<da:pistol_trinket:*>);
+JEI.removeAndHide(<da:dark_ruins_locator>);
+JEI.removeAndHide(<da:nightfall_sword>);
+JEI.removeAndHide(<da:nightfall_gauntlets>);
+JEI.removeAndHide(<da:nightfall_helmet>);
+JEI.removeAndHide(<da:nightfall_chestplate>);
+JEI.removeAndHide(<da:dauntless_crystal>);
+JEI.removeAndHide(<da:dauntless_fist>);
+JEI.removeAndHide(<da:heart_projectile>);
+
+
+val sfs_shield = <spartanshields:shield_basic_soulforged_steel>;
+
+recipes.addShaped(<da:golem_cannon>,[
+[<contenttweaker:crucible_of_souls>, sfs_shield, <contenttweaker:adhesive_shadow>],
+[<betterwithmods:material:14>, <betterwithmods:material:14>, <contenttweaker:ofuda>],
+[null, sfs_shield, <betterwithmods:material:14>]
+]);

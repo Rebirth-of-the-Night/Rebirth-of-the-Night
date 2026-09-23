@@ -2784,6 +2784,7 @@ fancy_magicked.register();
 var fancy_dark_oak = VanillaFactory.createBlock("fancy_dark_oak", <blockmaterial:Wood>);
 fancy_dark_oak.setCreativeTab(<creativetab:rotn_blocks>);
 fancy_dark_oak.setToolLevel(0);
+fancy_dark_oak.setToolClass("axe");
 fancy_dark_oak.setBlockHardness(5);
 fancy_dark_oak.register();
 

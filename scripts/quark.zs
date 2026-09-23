@@ -192,7 +192,7 @@ recipes.remove(<quark:soul_powder>);
 RecipeBuilder.get("mage")
   .setShaped([
     [<quark:soul_powder>, <contenttweaker:vis_sliver>, <quark:soul_powder>],
-    [<contenttweaker:vis_sliver>, <betterwithmods:material:38>, <contenttweaker:vis_sliver>],
+    [<contenttweaker:vis_sliver>, <contenttweaker:glass_bead>, <contenttweaker:vis_sliver>],
     [<quark:soul_powder>, <contenttweaker:vis_sliver>, <quark:soul_powder>]])
   .addTool(<contenttweaker:soul_rune>, 1)
   .setMinimumTier(1)

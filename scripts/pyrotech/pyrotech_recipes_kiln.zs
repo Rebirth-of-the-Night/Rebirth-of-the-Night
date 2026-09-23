@@ -96,7 +96,8 @@ StoneKiln.addRecipe("sedimentary_cobble_to_stone6", <undergroundbiomes:sedimenta
 StoneKiln.addRecipe("sedimentary_cobble_to_stone7", <undergroundbiomes:sedimentary_stone:7>, <contenttweaker:chert_cobble>, 20*320, true);
 StoneKiln.addRecipe("metamorphic_cobble_to_stone_extra0", <contenttweaker:serpentinite>, <contenttweaker:serpentinite_cobblestone>, 20*320, true);
 
-StoneKiln.addRecipe("sand_to_glass", <minecraft:glass>, <ore:sand>, 20*320, true);
+StoneKiln.addRecipe("sand_to_glass", <da:flame_metal_scrap>, <ore:sand>, 20*320, true);
+StoneKiln.addRecipe("glass_to_glass", <da:flame_metal_scrap>, <contenttweaker:glass_bead>, 20*120, true);
 
 StoneKiln.addRecipe("wrought_shard_to_ingot", <contenttweaker:material_part:49>, <contenttweaker:material_part:52>, 20*320, true);
 StoneKiln.addRecipe("zinc_bits_to_ingot", <contenttweaker:material_part:32>, <pyrotech:rock:3>, 20*320, true);

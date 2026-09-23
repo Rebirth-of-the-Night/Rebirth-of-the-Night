@@ -584,7 +584,7 @@ if (!isNull(<iceandfire:dragonsteel_ice_block:0>)) {<iceandfire:dragonsteel_ice_
 if (!isNull(<cyclicmagic:block_fragile>)) {<cyclicmagic:block_fragile>.hardness = 0.3;}
 if (!isNull(<quark:framed_glass:0>)) {<quark:framed_glass:0>.hardness = 1;}
 if (!isNull(<quark:framed_glass_pane:0>)) {<quark:framed_glass_pane:0>.hardness = 1;}
-if (!isNull(<minecraft:obsidian:0>)) {<minecraft:obsidian:0>.hardness = 50;}
+if (!isNull(<minecraft:obsidian:0>)) {<minecraft:obsidian:0>.hardness = 2;}
 if (!isNull(<harvestcraft:pressedwax:0>)) {<harvestcraft:pressedwax:0>.hardness = 1;}
 if (!isNull(<quark:crystal:0>)) {<quark:crystal:0>.hardness = 1;}
 if (!isNull(<quark:crystal:1>)) {<quark:crystal:1>.hardness = 1;}

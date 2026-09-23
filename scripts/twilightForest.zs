@@ -131,25 +131,25 @@ Infuser.addShapeless(<twilightforest:shield_scepter>,
 
 // Twilight Scepter
 # Change durability
-<twilightforest:twilight_scepter>.maxDamage = 64;
+<twilightforest:twilight_scepter>.maxDamage = 128;
 
 # Recipe
 recipes.remove(<twilightforest:twilight_scepter>);
 RecipeBuilder.get("mage")
   .setShaped([
-    [null, <nyx:fallen_star>, <contenttweaker:adhesive_shadow>],
-    [<contenttweaker:vis_sliver>, <contenttweaker:scepter_base_arcane>, <nyx:fallen_star>],
-    [<contenttweaker:abyssal_sapphire>, <contenttweaker:vis_sliver>, null]])
+    [null, <minecraft:ender_pearl>, <contenttweaker:glass_bead>],
+    [null, <contenttweaker:scepter_base_arcane>, <minecraft:ender_pearl>],
+    [<contenttweaker:abyssal_sapphire>, null, null]])
   .addTool(<contenttweaker:luna_rune>, 1)
   .addTool(<contenttweaker:chaos_rune>, 1)
-  .addOutput(<twilightforest:twilight_scepter:64>)
+  .addOutput(<twilightforest:twilight_scepter:128>)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
 
 # Spirit charging
 Infuser.addShapeless(<twilightforest:twilight_scepter>,
-[<twilightforest:twilight_scepter>.anyDamage(),<contenttweaker:vis_sliver>], 64);
+[<twilightforest:twilight_scepter>.anyDamage(),<contenttweaker:vis_sliver>], 128);
 
 // Charms
 
