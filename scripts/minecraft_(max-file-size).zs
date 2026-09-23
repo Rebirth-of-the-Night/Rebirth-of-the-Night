@@ -93,6 +93,10 @@ recipes.remove(<extraalchemy:potion_ring>.withTag({Potion: "minecraft:invisibili
 JEI.removeAndHide(<minecraft:potion>.withTag({Potion: "minecraft:invisibility"}));
 JEI.removeAndHide(<extraalchemy:potion_ring>.withTag({Potion: "minecraft:invisibility"}));
 
+recipes.remove(<minecraft:glass_bottle>);
+recipes.remove(<biomesoplenty:jar_empty>);
+recipes.remove(<growthcraft_cellar:culture_jar>);
+recipes.remove(<iceandfire:jar_empty>);
 
 // Contenttweaker icons
 JEI.removeAndHide(<contenttweaker:info>);
