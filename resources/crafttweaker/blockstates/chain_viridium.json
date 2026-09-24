@@ -1,0 +1,48 @@
+{
+    "multipart": [
+        {
+            "when": {
+                "axis": "x"
+            },
+            "apply": {
+                "model": "crafttweaker:chain_horizontal_viridium",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "axis": "y"
+            },
+            "apply": {
+                "model": "crafttweaker:chain_viridium"
+            }
+        },
+        {
+            "when": {
+                "axis": "z"
+            },
+            "apply": {
+                "model": "crafttweaker:chain_horizontal_viridium"
+            }
+        },
+        {
+            "when": {
+                "axis": "x",
+                "dangle": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:chain_dangle_viridium",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "axis": "y|z",
+                "dangle": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:chain_dangle_viridium"
+            }
+        }
+    ]
+}

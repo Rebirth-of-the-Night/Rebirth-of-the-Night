@@ -1,0 +1,7 @@
+{
+    "parent": "crafttweaker:block/candle_cincinnasite",
+    "textures": {
+        "0": "contenttweaker:blocks/candle_gravitite",
+        "particle": "contenttweaker:blocks/candle_gravitite"
+    }
+}

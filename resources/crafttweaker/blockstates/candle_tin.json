@@ -1,0 +1,22 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "crafttweaker:candle_wall_tin"
+        },
+        "facing=east": {
+            "model": "crafttweaker:candle_wall_tin",
+            "y": 90
+        },
+        "facing=south": {
+            "model": "crafttweaker:candle_wall_tin",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "crafttweaker:candle_wall_tin",
+            "y": 270
+        },
+        "facing=up": {
+            "model": "crafttweaker:candle_tin"
+        }
+    }
+}

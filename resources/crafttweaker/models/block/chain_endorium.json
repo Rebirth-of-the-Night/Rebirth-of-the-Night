@@ -1,0 +1,7 @@
+{
+    "parent": "rustic:block/chain",
+    "textures": {
+        "chain": "contenttweaker:blocks/chain_endorium",
+        "particle": "contenttweaker:blocks/chainendorium"
+    }
+}
