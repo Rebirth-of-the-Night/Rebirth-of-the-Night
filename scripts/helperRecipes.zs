@@ -83,3 +83,43 @@ recipes.addShaped("carpet_"+colors[i], itemUtils.getItem("minecraft:carpet", i -
 ]);
 
 }
+
+function rusticMetalRecipes(name as string, ingot as IItemStack) {
+val candle = <betterwithmods:candle:*>;
+recipes.addShaped(name+"_chain", itemUtils.getItem("crafttweaker:chain_"+name)*12, [
+    [ingot],
+    [ingot],
+    [ingot],
+]);
+
+recipes.addShaped(name+"_chandelier", itemUtils.getItem("crafttweaker:chandelier_"+name)*2, [
+    [null, ingot, null],
+    [itemUtils.getItem("crafttweaker:chain_"+name), null, itemUtils.getItem("crafttweaker:chain_"+name)],
+    [ingot, ingot, ingot],
+]);
+
+recipes.addShaped(name+"_candle", itemUtils.getItem("crafttweaker:candle_"+name)*8, [
+    [candle, candle, candle],
+    [candle, ingot, candle],
+    [candle, candle, candle],
+]);
+}
+
+rusticMetalRecipes("copper", <simpleores:copper_ingot>);
+rusticMetalRecipes("tin", <simpleores:tin_ingot>);
+rusticMetalRecipes("bronze", <contenttweaker:material_part>);
+rusticMetalRecipes("brass", <contenttweaker:material_part:45>);
+rusticMetalRecipes("electrum", <contenttweaker:material_part:12>);
+rusticMetalRecipes("diamond", <betterwithmods:material:45>);
+rusticMetalRecipes("alexandrite", <contenttweaker:peridot_ingot>);
+rusticMetalRecipes("ruby", <contenttweaker:ruby_ingot>);
+rusticMetalRecipes("sapphire", <contenttweaker:sapphire_ingot>);
+rusticMetalRecipes("cincinnasite", <betternether:cincinnasite>);
+rusticMetalRecipes("gravitite", <contenttweaker:material_part:40>);
+rusticMetalRecipes("zanite", <contenttweaker:zanite_ingot>);
+rusticMetalRecipes("viridium", <simpleores:adamantium_ingot>);
+rusticMetalRecipes("mythril", <simpleores:mythril_ingot>);
+rusticMetalRecipes("ferrought", <contenttweaker:raw_ferrought_block>);
+rusticMetalRecipes("endorium", <endreborn:item_ingot_endorium>);
+rusticMetalRecipes("exorite", <contenttweaker:exorite_ingot>);
+rusticMetalRecipes("garsen", <da:knight_ingot>);
