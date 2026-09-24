@@ -41,7 +41,7 @@ recipes.addShaped("radiant_resonator", <arcanearchives:radiant_resonator>,[
 val fine_lens = <artisanworktables:artisans_lens_brass>;
 
 recipes.remove(<arcanearchives:gemcutters_table>);
-recipes.addShaped("gemcutters_table", <arcanearchives:lectern_manifest>,[
+recipes.addShaped("gemcutters_table", <arcanearchives:gemcutters_table>,[
 	[fine_lens,fine_lens,fine_lens],
 	[<ore:ingotElectrum>, <betternether:chest_of_drawers>, <ore:ingotElectrum>],
 	[<aether_legacy:holystone>,<ore:arcaneWood>,<wards:enchanted_paper>]
