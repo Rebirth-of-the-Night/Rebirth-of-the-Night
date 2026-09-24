@@ -907,6 +907,7 @@ tile.contenttweaker.unfired_refractory_brick.name=Unfired Refractory Brick
 tile.contenttweaker.unfired_porcelain_brick.name=Unfired Porcelain Brick
 
 item.contenttweaker.glass_bead.name=Glass Bead
+item.contenttweaker.vis_bead.name=Vis Bead
 
 tile.contenttweaker.crucible_of_souls.name=Crucible of Souls
 

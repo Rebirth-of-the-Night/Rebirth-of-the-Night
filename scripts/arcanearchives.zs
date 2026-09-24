@@ -38,20 +38,14 @@ recipes.addShaped("radiant_resonator", <arcanearchives:radiant_resonator>,[
 ]);
 
 //Gemcutters Table
-val magicgoldPaneOredict = <ore:otherworldlyGoldPane>;	
-magicgoldPaneOredict.addItems([<betternether:quartz_glass_framed_pane>,<aether_legacy:quicksoil_glass_pane>]);	
+val fine_lens = <artisanworktables:artisans_lens_brass>;
 
 recipes.remove(<arcanearchives:gemcutters_table>);
-for item1 in magicgoldPaneOredict.items{
-   for item2 in <ore:arcaneWood>.items{
-   mods.betterwithmods.Anvil.addShaped(<arcanearchives:gemcutters_table>, 
-   [
-      [<aether_legacy:holystone>, <ore:ingotElectrum>, <ore:ingotElectrum>, item2],
-      [item1, item2, <betternether:chest_of_drawers>, item2],
-      [item1, item2, <betternether:chest_of_drawers>, item2],
-      [<wards:enchanted_paper>, <ore:ingotElectrum>, <ore:ingotElectrum>, item2]
-   ]);
-}}
+recipes.addShaped("gemcutters_table", <arcanearchives:lectern_manifest>,[
+	[fine_lens,fine_lens,fine_lens],
+	[<ore:ingotElectrum>, <betternether:chest_of_drawers>, <ore:ingotElectrum>],
+	[<aether_legacy:holystone>,<ore:arcaneWood>,<wards:enchanted_paper>]
+]);
 
 recipes.remove(<arcanearchives:scepter_revelation>);
 mods.betterwithmods.Anvil.addShaped(<arcanearchives:scepter_revelation>, 
@@ -63,7 +57,7 @@ mods.betterwithmods.Anvil.addShaped(<arcanearchives:scepter_revelation>,
 ]);   
 
 recipes.remove(<arcanearchives:lectern_manifest>);
-recipes.addShaped("Lectern Manifest", <arcanearchives:lectern_manifest>,[
+recipes.addShaped("lectern_manifest", <arcanearchives:lectern_manifest>,[
 	[<ore:ingotElectrum>, <arcanearchives:manifest>, <ore:ingotElectrum>],
 	[<ore:stickWood>, <ore:arcaneWood>, <ore:stickWood>],
 	[<ore:stickWood>, <ore:ingotElectrum>, <ore:stickWood>]

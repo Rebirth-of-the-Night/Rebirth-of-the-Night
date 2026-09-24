@@ -17,6 +17,7 @@ item.seeds.name=Wheat Seeds
 
 entity.Slime.name=Lime Slime
 entity.EnderCrystal.name=Ender Crystal
+entity.IllusionIllager.name=Enfeebler
 
 item.bucket.name=Quality Bucket
 item.bucketWater.name=Quality Water Bucket

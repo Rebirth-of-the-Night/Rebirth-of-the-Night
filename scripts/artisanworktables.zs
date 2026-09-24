@@ -25,6 +25,12 @@ recipes.addShaped("artisans_lens_iron", <artisanworktables:artisans_lens_iron>, 
     [<ore:nuggetIron>, <minecraft:glass_pane>, <ore:nuggetIron>], 
     [<ore:stickWood>, null, null]
 ]);
+recipes.remove(<artisanworktables:artisans_lens_brass>);
+recipes.addShaped("artisans_lens_fine", <artisanworktables:artisans_lens_brass>, [
+    [null, null, null],
+    [<ore:nuggetBrass>|<betternether:cincinnasite>|<ore:nuggetElectrum>, <betternether:quartz_glass_pane>, <ore:nuggetBrass>|<betternether:cincinnasite>|<ore:nuggetElectrum>], 
+    [<ore:stickWood>, null, null]
+]);
 
 recipes.remove(<artisanworktables:artisans_carver_stone>);
 recipes.addShaped("artisans_carver_stone", <artisanworktables:artisans_carver_stone>, [

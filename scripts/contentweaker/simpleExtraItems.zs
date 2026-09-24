@@ -147,6 +147,9 @@ blowpipe.register();
 var glass_bead = VanillaFactory.createItem("glass_bead");
 glass_bead.maxStackSize = 256;
 glass_bead.register();
+var vis_bead = VanillaFactory.createItem("vis_bead");
+vis_bead.maxStackSize = 256;
+vis_bead.register();
 
 // bags of...
 // nails

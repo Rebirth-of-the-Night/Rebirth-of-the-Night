@@ -29,6 +29,13 @@ RecipeBuilder.get("mage")
  .setExtraOutputOne(<randomthings:ingredient:2>, 0.2)
  .create();
 
+// Vis Bead
+RecipeBuilder.get("mage")
+ .setShapeless([<contenttweaker:glass_bead>, <contenttweaker:vis_speck>])
+ .addOutput(<contenttweaker:vis_bead>)
+ .setExtraOutputOne(<contenttweaker:vis_speck>, 0.1)
+ .create();
+
 // Scepters
 #bases
 
@@ -128,14 +135,28 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setName("magicked_lens")
   .setShaped([
-    [<hitwithaxe:bark:41>, <contenttweaker:pristine_diamond>, <hitwithaxe:bark:41>],
-    [<ore:dustElectrum>.firstItem, <betternether:quartz_glass_framed_pane>, <ore:dustElectrum>.firstItem],
-    [<hitwithaxe:bark:41>, <contenttweaker:pristine_diamond>, <hitwithaxe:bark:41>]])
+    [null, <contenttweaker:pristine_diamond>, null],
+    [null, <artisanworktables:artisans_lens_brass>, null],
+    [null, <contenttweaker:pristine_diamond>, null]])
   .addTool(<contenttweaker:order_rune>, 1)
   .addTool(<contenttweaker:balance_rune>, 1)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .addOutput(<contenttweaker:magicked_lens>)
+  .create();
+
+// Dioptra
+RecipeBuilder.get("mage")
+  .setName("dioptra")
+  .setShaped([
+    [<ore:ingotBrass>, <ore:ingotBrass>, <ore:ingotBrass>],
+    [null, <ore:gearBrass>, null],
+    [<earthworks:item_timber>, null, <earthworks:item_timber>]])
+  .addTool(<contenttweaker:sol_rune>, 1)
+  .addTool(<contenttweaker:balance_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<totf:dioptra>)
   .create();
 
 //Unattuned Focus

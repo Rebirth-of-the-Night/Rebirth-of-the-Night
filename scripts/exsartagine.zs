@@ -3867,3 +3867,22 @@ ExSartagine.addKettleRecipe([null],<ore:soap>,<liquid:water>*1000,null,[null], 1
 
 //soap
 ExSartagine.addKettleRecipe([<betterwithmods:material:21>, <contenttweaker:seed_oil>.transformReplace(<minecraft:glass_bottle>)|<quark:tallow>],null,<liquid:water>*200,null,[<betterwithmods:material:50>],2400,-1000);//liquid
+
+//dyes
+ExSartagine.addKettleRecipe([<minecraft:dye:1>],<minecraft:glass_bottle>*10,waterBucket,null,[<inspirations:dyed_bottle:1>*10],1000,-2000);//red
+ExSartagine.addKettleRecipe([<minecraft:dye:2>],<minecraft:glass_bottle>*10,waterBucket,null,[<inspirations:dyed_bottle:2>*10],1000,-2000);//green
+ExSartagine.addKettleRecipe([<minecraft:dye:5>],<minecraft:glass_bottle>*10,waterBucket,null,[<inspirations:dyed_bottle:5>*10],1000,-2000);//purple
+ExSartagine.addKettleRecipe([<minecraft:dye:6>],<minecraft:glass_bottle>*10,waterBucket,null,[<inspirations:dyed_bottle:6>*10],1000,-2000);//cyan
+ExSartagine.addKettleRecipe([<minecraft:dye:7>],<minecraft:glass_bottle>*10,waterBucket,null,[<inspirations:dyed_bottle:7>*10],1000,-2000);//lightgray
+ExSartagine.addKettleRecipe([<minecraft:dye:8>],<minecraft:glass_bottle>*10,waterBucket,null,[<inspirations:dyed_bottle:8>*10],1000,-2000);//gray
+ExSartagine.addKettleRecipe([<minecraft:dye:9>],<minecraft:glass_bottle>*10,waterBucket,null,[<inspirations:dyed_bottle:9>*10],1000,-2000);//pink
+ExSartagine.addKettleRecipe([<minecraft:dye:10>],<minecraft:glass_bottle>*10,waterBucket,null,[<inspirations:dyed_bottle:10>*10],1000,-2000);//lime
+ExSartagine.addKettleRecipe([<minecraft:dye:11>],<minecraft:glass_bottle>*10,waterBucket,null,[<inspirations:dyed_bottle:11>*10],1000,-2000);//yellow
+ExSartagine.addKettleRecipe([<minecraft:dye:12>],<minecraft:glass_bottle>*10,waterBucket,null,[<inspirations:dyed_bottle:12>*10],1000,-2000);//lightblue
+ExSartagine.addKettleRecipe([<minecraft:dye:13>],<minecraft:glass_bottle>*10,waterBucket,null,[<inspirations:dyed_bottle:13>*10],1000,-2000);//magenta
+ExSartagine.addKettleRecipe([<minecraft:dye:14>],<minecraft:glass_bottle>*10,waterBucket,null,[<inspirations:dyed_bottle:14>*10],1000,-2000);//orange
+ExSartagine.addKettleRecipe([<biomesoplenty:blue_dye>],<minecraft:glass_bottle>*10,waterBucket,null,[<inspirations:dyed_bottle:4>*10],1000,-2000);//blue
+ExSartagine.addKettleRecipe([<biomesoplenty:brown_dye>],<minecraft:glass_bottle>*10,waterBucket,null,[<inspirations:dyed_bottle:3>*10],1000,-2000);//brown
+ExSartagine.addKettleRecipe([<biomesoplenty:green_dye>],<minecraft:glass_bottle>*10,waterBucket,null,[<inspirations:dyed_bottle:2>*10],1000,-2000);//green
+ExSartagine.addKettleRecipe([<biomesoplenty:white_dye>],<minecraft:glass_bottle>*10,waterBucket,null,[<inspirations:dyed_bottle:15>*10],1000,-2000);//white
+ExSartagine.addKettleRecipe([<biomesoplenty:black_dye>],<minecraft:glass_bottle>*10,waterBucket,null,[<inspirations:dyed_bottle:0>*10],1000,-2000);//black

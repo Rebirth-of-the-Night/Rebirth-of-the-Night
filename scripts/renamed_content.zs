@@ -31,6 +31,8 @@ import mods.jei.JEI;
 
 // Artisan Worktables
 
+<artisanworktables:artisans_lens_brass>.displayName = "§aArtisan's Fine Lens";
+
 // Guidebook
 <solcarrot:food_book:*>.addTooltip(format.aqua("Guidebook"));
 <solcarrot:food_book:*>.addTooltip("Max health improvement via food information");
