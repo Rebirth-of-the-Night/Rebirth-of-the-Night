@@ -1,0 +1,6 @@
+{
+    "parent": "inspirations:block/carpet/wall_right/base",
+    "textures": {
+        "wool": "contenttweaker:blocks/tapestry/tapestry_green"
+    }
+}

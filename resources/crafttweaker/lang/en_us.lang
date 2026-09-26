@@ -1,3 +1,12 @@
+tile.crafttweaker.carpet_tapestry_black.name=Black Tapestry Carpet
+tile.crafttweaker.carpet_tapestry_blue.name=Blue Tapestry Carpet
+tile.crafttweaker.carpet_tapestry_cyan.name=Cyan Tapestry Carpet
+tile.crafttweaker.carpet_tapestry_green.name=Green Tapestry Carpet
+tile.crafttweaker.carpet_tapestry_orange.name=Orange Tapestry Carpet
+tile.crafttweaker.carpet_tapestry_purple.name=Purple Tapestry Carpet
+tile.crafttweaker.carpet_tapestry_red.name=Red Tapestry Carpet
+tile.crafttweaker.carpet_tapestry_white.name=White Tapestry Carpet
+
 tile.rustic.candle_copper.name=Copper Candle
 tile.rustic.candle_tin.name=Tin Candle
 tile.rustic.candle_bronze.name=Bronze Candle
@@ -54,3 +63,4 @@ tile.rustic.chain_ferrought.name=Ferrought Chain
 tile.rustic.chain_endorium.name=Endorium Chain
 tile.rustic.chain_exorite.name=Exorite Chain
 tile.rustic.chain_garsen.name=Garsen Chain
+    

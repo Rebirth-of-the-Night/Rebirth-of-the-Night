@@ -945,6 +945,42 @@
                     "category": "block"
                 }
                 ]
+            },
+            {
+            "name": "Open Radiant Matrix",
+			"type": {
+				"type": "block",
+				"name": "arcanearchives:radiant_chest"
+			},
+            "clicktype": "rightclick",
+            "blockRightClick": "false",
+			"properties": [
+                {
+                    "type": "require_sneak",
+					"sneak": "false"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcanearchives:resonator.complete",
+                    "category": "block",
+                    "volume": "0.2",
+                    "pitch": "0.8"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:ritual_item",
+                    "category": "block",
+                    "volume": "0.1",
+                    "pitch": "0.7"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "arcaneworld:general_woosh",
+                    "category": "block",
+                    "volume": "0.04",
+                    "pitch": "0.7"
+                }
+                ]
             }
         ]
     }

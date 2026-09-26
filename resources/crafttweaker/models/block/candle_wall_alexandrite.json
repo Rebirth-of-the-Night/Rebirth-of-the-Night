@@ -2,6 +2,6 @@
     "parent": "crafttweaker:block/candle_wall_cincinnasite",
     "textures": {
         "0": "contenttweaker:blocks/candle_alexandrite",
-        "particle": "contenttweaker:blocks/candlealexandrite"
+        "particle": "contenttweaker:blocks/candle_alexandrite"
     }
 }

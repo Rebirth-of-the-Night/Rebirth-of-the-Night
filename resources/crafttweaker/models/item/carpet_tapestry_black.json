@@ -1,0 +1,7 @@
+{
+    "parent": "block/carpet",
+    "textures": {
+        "particle": "contenttweaker:blocks/tapestry/tapestry_black",
+        "wool": "contenttweaker:blocks/tapestry/tapestry_black"
+    }
+}
