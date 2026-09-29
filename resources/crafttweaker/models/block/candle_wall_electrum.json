@@ -2,6 +2,6 @@
     "parent": "crafttweaker:block/candle_wall_cincinnasite",
     "textures": {
         "0": "contenttweaker:blocks/candle_electrum",
-        "particle": "contenttweaker:blocks/candleelectrum"
+        "particle": "contenttweaker:blocks/candle_electrum"
     }
 }

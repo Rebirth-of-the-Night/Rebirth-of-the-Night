@@ -1,0 +1,6 @@
+{
+    "parent": "inspirations:block/carpet/corner/base",
+    "textures": {
+        "wool": "contenttweaker:blocks/tapestry/tapestry_purple"
+    }
+}

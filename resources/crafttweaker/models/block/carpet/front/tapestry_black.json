@@ -1,0 +1,6 @@
+{
+    "parent": "inspirations:block/carpet/front/base",
+    "textures": {
+        "wool": "contenttweaker:blocks/tapestry/tapestry_black"
+    }
+}
