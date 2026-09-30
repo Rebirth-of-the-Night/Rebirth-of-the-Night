@@ -1,0 +1,127 @@
+{
+    "pools": [
+        {
+            "name": "rare_treasures",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_ingot",
+                    "weight": 25,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "iceandfire:silver_ingot",
+                    "weight": 18,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:emerald",
+                    "weight": 12,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond",
+                    "weight": 5,
+					"quality": 5
+                },
+                {
+                    "type": "item",
+                    "name": "biomesoplenty:gem",
+					"_comment": "sapphire",
+                    "weight": 5,
+					"quality": 5,
+                    "functions": [
+						{
+							"function": "minecraft:set_data",
+							"data": 6
+						}
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "biomesoplenty:gem",
+					"_comment": "ruby",
+                    "weight": 5,
+					"quality": 5,
+                    "functions": [
+						{
+							"function": "minecraft:set_data",
+							"data": 1
+						}
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "biomesoplenty:gem",
+					"_comment": "alexandrite",
+                    "weight": 5,
+					"quality": 5,
+                    "functions": [
+						{
+							"function": "minecraft:set_data",
+							"data": 2
+						}
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "biomesoplenty:gem",
+					"_comment": "benelyte",
+                    "weight": 4,
+					"quality": 5,
+                    "functions": [
+						{
+							"function": "minecraft:set_data",
+							"data": 5
+						}
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "betterwithaddons:material",
+                    "weight": 1,
+					"quality": 10,
+                    "functions": [
+						{
+							"function": "minecraft:set_data",
+							"data": 4
+						}
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "betternether:cincinnasite",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

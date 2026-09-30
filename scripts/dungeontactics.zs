@@ -478,7 +478,7 @@ val steel_ingot = <ore:ingotSteel>;
 
 recipes.addShaped("heroic_steel_great_sword", <dungeontactics:master_hammer_leap>,[
 	[null, steel_ingot, null],
-    [steel_ingot, steel_ingot, steel_ingot],
+    [steel_ingot, <contenttweaker:abyssal_sapphire>, steel_ingot],
     [steel_ingot, broken_sword, steel_ingot]
 ]);
 

@@ -135,3 +135,12 @@ config/fancymenu/config.txt
 /config/fancymenu/locals
 /config/rc_cache
 config/esmtweaks.cfg
+config/Loot Overhaul/Useful Info/Biome IDs.txt
+config/Loot Overhaul/Useful Info/Block IDs.txt
+config/Loot Overhaul/Useful Info/Dimension IDs.txt
+config/Loot Overhaul/Useful Info/Enchantment IDs.txt
+config/Loot Overhaul/Useful Info/Entity IDs.txt
+config/Loot Overhaul/Useful Info/Item IDs.txt
+config/Loot Overhaul/Useful Info/Ore Dictionary Info.txt
+config/Loot Overhaul/Useful Info/Potion IDs.txt
+config/Loot Overhaul/Useful Info/Potion Type IDs.txt
