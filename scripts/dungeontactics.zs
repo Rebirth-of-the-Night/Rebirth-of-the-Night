@@ -460,7 +460,7 @@ JEI.removeAndHide(<dungeontactics:master_cestus_pummel>);
 JEI.removeAndHide(<dungeontactics:master_cestus_roar>);
 JEI.removeAndHide(<dungeontactics:master_knife_multistrike>);
 JEI.removeAndHide(<dungeontactics:master_hammer_smash>);
-JEI.removeAndHide(<dungeontactics:master_hammer_leap>);
+recipes.remove(<dungeontactics:master_hammer_leap>);
 JEI.removeAndHide(<dungeontactics:master_cutlass_riposte>);
 JEI.removeAndHide(<dungeontactics:master_cutlass_pierce>);
 JEI.removeAndHide(<dungeontactics:master_knife_smokebomb>);
@@ -473,6 +473,14 @@ LootTable.removeGlobalItem("dungeontactics:master_cutlass_riposte");
 LootTable.removeGlobalItem("dungeontactics:master_cutlass_pierce");
 LootTable.removeGlobalItem("dungeontactics:master_knife_smokebomb");
 
+val broken_sword = <betterwithaddons:material:4>;
+val steel_ingot = <ore:ingotSteel>;
+
+recipes.addShaped("heroic_steel_great_sword", <dungeontactics:master_hammer_leap>,[
+	[null, steel_ingot, null],
+    [steel_ingot, steel_ingot, steel_ingot],
+    [steel_ingot, broken_sword, steel_ingot]
+]);
 
 JEI.removeAndHide(<dungeontactics:flour>);
 JEI.removeAndHide(<dungeontactics:lantern_iron>);
@@ -481,8 +489,8 @@ JEI.removeAndHide(<dungeontactics:lantern_iron>);
 recipes.remove(<dungeontactics:fan_block>);
 
 recipes.addShaped("Fan", <dungeontactics:fan_block>,[
-	[<ore:cobblestone>, <ore:ingotSteel>, <ore:cobblestone>],
-    [<ore:ingotSteel>, <advancedliftingmethods:rotor>, <ore:ingotSteel>],
+	[<ore:cobblestone>, steel_ingot, <ore:cobblestone>],
+    [steel_ingot, <advancedliftingmethods:rotor>, steel_ingot],
     [<ore:cobblestone>, <ore:pressurePlateWood>, <ore:cobblestone>]
 ]);
 
@@ -510,8 +518,8 @@ RecipeBuilder.get("mage")
 var ironnugget = <ore:nuggetIron>;
 
 recipes.addShaped("steel_sword", <dungeontactics:steel_cutlass>,[
-	[<ore:ingotSteel>],
-    [<ore:ingotSteel>],
+	[steel_ingot],
+    [steel_ingot],
     [<spartanweaponry:material>]
 ]);
 <dungeontactics:steel_cutlass>.maxDamage = 1561;

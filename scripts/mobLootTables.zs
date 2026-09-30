@@ -45,6 +45,11 @@ LootTable.removeGlobalItem("msmlegacy:relic_pie");
 
 <entity:iceandfire:if_troll>.addPlayerOnlyDrop(<behgameon:accessory_1> % 35, 1, 1);
 
+<entity:iceandfire:seaserpent>.addPlayerOnlyDrop(<contenttweaker:abyssal_sapphire> % 45, 1, 2);
+<entity:iceandfire:siren>.addPlayerOnlyDrop(<contenttweaker:abyssal_sapphire> % 8, 1, 1);
+<entity:iceandfire:hippocampus>.addPlayerOnlyDrop(<contenttweaker:abyssal_sapphire> % 10, 1, 1);
+<entity:betteranimalsplus:bobbit_worm>.addPlayerOnlyDrop(<contenttweaker:abyssal_sapphire> % 4, 1, 1);
+
 // QoL drops
 // ghast tears
 <entity:minecraft:ghast>.addPlayerOnlyDrop(<minecraft:ghast_tear> % 80, 1, 2);

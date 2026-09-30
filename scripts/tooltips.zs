@@ -204,6 +204,7 @@ for w, weapon in sapphireweps{
 <arcanearchives:radiant_resonator>.addShiftTooltip("Recipe consumes bucket.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 // BWM BWA
+<betterwithaddons:material:4>.addTooltip("Found among old remains.");
 <betterwithmods:material:12>.addTooltip("Just a crafting material.");
 <betterwithmods:material:12>.addShiftTooltip('Can be eaten, but if it had a label, it would read "DO NOT EAT."', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <betterwithmods:hibachi:*>.addTooltip("Powered by redstone");
