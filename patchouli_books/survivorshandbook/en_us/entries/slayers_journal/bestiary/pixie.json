@@ -26,7 +26,7 @@
         {
             "type": "spotlight",
             "item": "iceandfire:jar_pixie",
-            "text": "$(#734608)Pixies can also be captured with a jar and placed to produce $(item)pixie dust$()$(#734608) every 3 days when the pixie sits down. Breaking the jar with a pixie will release it$(br2)Pixie dust can be directly consumed to give Levitation, Glowing, and Luck for a few seconds"
+            "text": "$(#734608)Pixies can also be captured with a jar and placed to produce $()$(item)pixie dust$()$(#734608) every 3 days when the pixie sits down. Breaking the jar releases it. Pixie dust can be directly consumed to give Levitation, Glowing, and Luck.$()"
         },
         {
             "type": "runic_slim",
