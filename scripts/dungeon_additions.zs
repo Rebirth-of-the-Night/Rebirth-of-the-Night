@@ -33,7 +33,7 @@ JEI.removeAndHide(<da:abberrant_eye:*>);
 JEI.removeAndHide(<da:ancient_mana:*>);
 JEI.removeAndHide(<da:novik_plate:*>);
 JEI.removeAndHide(<da:sentinel_part:*>);
-JEI.removeAndHide(<da:gaelon_shard:*>);
+recipes.remove(<da:gaelon_shard:*>);
 JEI.removeAndHide(<da:gaelon_ingot:*>);
 JEI.removeAndHide(<da:unbridled_soul:*>);
 JEI.removeAndHide(<da:voidiant_core:*>);

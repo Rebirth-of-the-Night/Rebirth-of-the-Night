@@ -18,7 +18,6 @@ import scripts.shared.utils.recipeUtils.removeRecipeArrayRegex;
 val bwaArray = [
     <betterwithaddons:pcb_block>,
     <betterwithaddons:chandelier>,
-    <betterwithaddons:material:4>,
     <betterwithaddons:material:5>,
     <betterwithaddons:laxative>,
     <betterwithaddons:brick_stained>,
@@ -156,6 +155,7 @@ furnace.remove(<betterwithaddons:food_cooked_rice>);
 LootTable.removeGlobalItem("betterwithaddons:food_mulberry");
 
 recipes.remove(<betterwithaddons:material:3>);
+recipes.remove(<betterwithaddons:material:4>);
 recipes.remove(<betterwithaddons:thorn_rose:0>);
 JEI.removeAndHide(<betterwithaddons:steel_masonpick>);
 

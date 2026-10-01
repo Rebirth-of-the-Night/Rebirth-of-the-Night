@@ -60,6 +60,7 @@ JEI.addItem(<biomesoplenty:grass_path:2>);
 val handle = <spartanweaponry:material>;
 val pole = <spartanweaponry:material:1>;
 val valk_pike = <spartanweaponry:pike_invar:*>;
+val broken_sword = <betterwithaddons:material:4>;
 
 JEI.addDescription(handle,"Provides a good grip for more advanced weapons.");
 JEI.addDescription(pole,"A long stick that provides good grip.");
@@ -80,6 +81,8 @@ JEI.addDescription(<betterwithmods:steel_shovel>,"Provides excellent digging spe
 JEI.addDescription(<betterwithmods:steel_hoe>,"Provides excellent durability and harvest area, but can only be enchanted in the True Enchanting Table.");
 JEI.addDescription(<betterwithmods:steel_hacksaw>,"Right-click with this on a block of soulforged steel to cut down the block!");
 
+JEI.addDescription([broken_sword],["A hilt that still retains the howling essence of fierce warriors from the north. Older than the plague, from the last days of the Dragon Purge."]);
+JEI.addDescription([broken_sword],["It may be reforged into weapons infused with great ability. Rarely found in the hands of ancient corpses."]);
 JEI.addDescription([<betterwithaddons:steel_machete>],["A multipurpose tool. Cuts through thick foliage and spiderwebs easily. Acts like shears. When right-clicked, places vines from your inventory. Can only be enchanted in the True Enchanting Table."]);
 JEI.addDescription([<betterwithaddons:steel_matchpick>],["A multipurpose tool. When right-clicked, places torches from your inventory. If you have no torches, or if you're sneaking, it will ignite the ground instead. Useful for exploring the Nether. Can only be enchanted in the True Enchanting Table."]);
 JEI.addDescription([<betterwithaddons:steel_spade>],["A multipurpose tool. When you dig up any soil or sand, it will be placed directly in your inventory. Right-clicking with the Spade places soil and sand from your inventory. Can only be enchanted in the True Enchanting Table."]);
@@ -159,6 +162,8 @@ JEI.addDescription(zincOre, "Also known as calamine. It can be found underground
 
 JEI.addDescription(<biomesoplenty:gem:5>, "An unstable crystal that almost seems to be alive, rarely found in 'wonder geodes.' Current discoveries include the ability to allure and syphon spirits and souls. Maybe more uses will be discovered in the future.");
 JEI.addDescription(<biomesoplenty:gem:5>, "An old tale tells of an army that laid weapons down and gave birth to new life.");
+JEI.addDescription(<contenttweaker:abyssal_sapphire>, "A profound gem that shines with unknown darkness. Although mainly manufactured, these can sometimes be found in the stomachs of deep sea creatures.");
+JEI.addDescription(<contenttweaker:abyssal_sapphire>, "Did they swallow a sinister jeweler's work, or is there something in the abyss that can infuse one of most alluring gems?");
 
 JEI.addDescription(<aether_legacy:golden_amber>, "Beaming Resin can be extracted from the bark of golden trees and turned into useful amber.");
 JEI.addDescription(<aether_legacy:ambrosium_shard>, "A golden resin product of the long-lived golden trees of the Aether. Although little literature persists on the topic, it is said the Valk discovered how to channel all its properties to kickstart their own civilization.");

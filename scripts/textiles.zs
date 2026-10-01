@@ -16,6 +16,7 @@ val sack = <textiles:sack>;
 val burlap = <textiles:material:13>;
 
 JEI.removeAndHide(<textiles:material>);
+JEI.removeAndHide(<textiles:material:8>);
 JEI.removeAndHide(<textiles:material:10>);
 JEI.removeAndHide(<textiles:material:11>);
 JEI.removeAndHide(<textiles:material:12>);

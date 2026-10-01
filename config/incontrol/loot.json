@@ -80,6 +80,36 @@
 		"gamestage": "to_do_list"
 	},
 
+	// Carved Gem Drops
+	{
+		"mob": "iceandfire:seaserpent",
+		"player": true,
+		"item": "contenttweaker:abyssal_sapphire",
+		"chance": 0.45,
+		"looting": [0.45, 0.50, 0.55, 0.60]
+	},
+	{
+		"mob": "iceandfire:hippocampus",
+		"player": true,
+		"item": "contenttweaker:abyssal_sapphire",
+		"chance": 0.10,
+		"looting": [0.10, 0.15, 0.20, 0.25]
+	},
+	{
+		"mob": "iceandfire:siren",
+		"player": true,
+		"item": "contenttweaker:abyssal_sapphire",
+		"chance": 0.08,
+		"looting": [0.08, 0.13, 0.18, 0.23]
+	},
+	{
+		"mob": "betteranimalsplus:bobbit_worm",
+		"player": true,
+		"item": "contenttweaker:abyssal_sapphire",
+		"chance": 0.04,
+		"looting": [0.04, 0.09, 0.14, 0.19]
+	},
+
 	// Developer gear
 	{
 		"mob": ["mod_lavacow:sludgelord", "harvestersnight:harvester","betterslimes:quazar","minecraft:wither","minecraft:ender_dragon","rats:black_death","betteranimalsplus:hirschgeist","aether_legacy:sun_spirit","aether_legacy:slider","aether_legacy:valkyrie_queen","iceandfire:icedragon","iceandfire:firedragon","twilightforest:naga","twilightforest:lich","twilightforest:minoshroom","twilightforest:hydra","twilightforest:knight_phantom","twilightforest:ur_ghast","twilightforest:yeti_alpha","twilightforest:snow_queen","iceandfire:seaserpent","iceandfire:cyclops","iceandfire:if_hydra","mowziesmobs:ferrous_wroughtnaut","mowziesmobs:frostmaw","mowziesmobs:barako"],

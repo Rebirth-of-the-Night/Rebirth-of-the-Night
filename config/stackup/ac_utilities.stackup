@@ -2,7 +2,9 @@
 id~="scalinghealth:healingitem:*" *=2
 id="minecraft:mushroom_stew" -> 16
 id="cyclicmagic:inventory_food" -> 1
+# misc consumable
 id="jsonlootbags:wonder_geode" -> 32
+id="totf:old_world_tinkers_kit" -> 32
 # dev item
 id~="contenttweaker:calamarigold" -> 1
 # throwing stick

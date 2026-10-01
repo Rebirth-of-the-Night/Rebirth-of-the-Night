@@ -1,6 +1,3 @@
-
-#loader crafttweaker reloadable
-
 import crafttweaker.block.IBlock;
 import crafttweaker.block.IBlockState;
 
@@ -898,6 +895,23 @@ events.onPlayerRightClickItem(function(event as crafttweaker.event.PlayerRightCl
 			else{
 				server.commandManager.executeCommand(server, "advancement grant @p only triumph:advancements/magick/incantation/scroll_newlife");
 			}
+        }
+    }
+});
+
+static hammer as IItemStack = <dungeontactics:master_hammer_leap:*>;
+events.onPlayerRightClickItem(function(event as crafttweaker.event.PlayerRightClickItemEvent){
+    if(event.world.isRemote()){
+        return;
+    }
+    
+    val handItem = event.item as IItemStack; 
+    if(!isNull(handItem)){
+        if (hammer.matches(handItem)) {  
+                server.commandManager.executeCommand(event.player, "playsound arcaneworld:general_woosh player @s ~ ~ ~ 1 0.6");
+                server.commandManager.executeCommand(event.player, "playsound mowziesmobs:wroughtnaut.whoosh player @s");
+                server.commandManager.executeCommand(event.player, "particle blockcrack ~ ~ ~ 0.1 0.1 0.1 0.3 100 normal @s 145");
+                server.commandManager.executeCommand(event.player, "effect @s bettercombat:precision 1 9");
         }
     }
 });
