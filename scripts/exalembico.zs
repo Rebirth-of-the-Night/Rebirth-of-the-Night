@@ -141,6 +141,25 @@ ExAlembico.registerHeatSourceBlock(<blockstate:exsartagine:range_extended:facing
 ExAlembico.registerHeatSourceBlock(<blockstate:exsartagine:range_extended:facing=west>, 0);
 ExAlembico.registerHeatSourceBlock(<blockstate:exsartagine:range_extended:facing=south>, 0);
 
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=0,variant=lit>,0,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=1,variant=lit>,0,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=2,variant=lit>,0,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=3,variant=lit>,0,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=4,variant=lit>,0,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=5,variant=lit>,0,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=6,variant=lit>,0,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=7,variant=lit>,0,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=8,variant=lit>,0,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=0,variant=normal>,1,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=1,variant=normal>,1,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=2,variant=normal>,1,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=3,variant=normal>,1,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=4,variant=normal>,1,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=5,variant=normal>,1,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=6,variant=normal>,1,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=7,variant=normal>,1,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=8,variant=normal>,1,true);
+
 Heater.addHeaterRecipe(<minecraft:coal>, 1600, 1, 2); //coal, most basic for alchemy
 Heater.addHeaterRecipe(<minecraft:coal_block>, 16000, 1, 2); //coal, most basic for alchemy
 Heater.addHeaterRecipe(<minecraft:coal:1>, 800, 1, 2); //charcoal, fast burning renewable
@@ -153,170 +172,197 @@ Heater.addHeaterRecipe(nethCoalBlock, 16000, 1, 2, 3, 4); //nether coal block mo
 Heater.addHeaterRecipe(groundRrack, 180000, 1); //ground netherrack, two and a half hours of dim light
 Heater.addHeaterRecipe(groundFiery, 180000, 1); //ground fiery netherrack, two and a half hours of dim light
 
+/*
+  .setHeatLevels(vararg heatLevels: Int)
+  .setHeatLevelRange(minHeatLevel: Int, maxHeatLevel: Int)
+  .setLeftInputItems(ing1: IIngredient, @Optional ing2: IIngredient?)
+  .setRightOutputItem(ingredient: IIngredient)
+  .setLeftInputFluid(fluid: ILiquidStack)
+  .setRightInputFluid(fluid: ILiquidStack)
+  .setLeftOutputItems(stack1: IItemStack, @Optional stack2: IItemStack?)
+  .setRightInputItem(stack: IItemStack)
+  .setLeftOutputFluid(fluid: ILiquidStack)fun setRightOutputFluid(fluid: ILiquidStack)
+  .setBonusOutputItem(stack: IItemStack, @Optional(valueDouble = 1.0) odds: Float)
+  .addToAlembic()
+  .addToNetherAlembic()
+*/
+
 Alembic.beginAlembicRecipe(640)
   .setHeatLevels(2, 3)  
-  .setInputItem(<pyrotech:material:36>, <minecraft:redstone>)
-  .setInputFluid(<liquid:methanol> * 25)
-  .setOutputFluid(<liquid:water> * 25)
-  .setOutputItem(<contenttweaker:raw_gold>)
+  .setLeftInputItems(<pyrotech:material:36>)
+  .setLeftOutputItems(<minecraft:redstone>)
+  .setLeftInputFluid(<liquid:methanol> * 25)
+  .setRightInputFluid(<liquid:water> * 25)
+  .setRightOutputItem(<contenttweaker:raw_gold>)
   .setBonusOutputItem(<contenttweaker:raw_gold>, 0.66)
   .addToAlembic();
-  
+
 Alembic.beginAlembicRecipe(640)
   .setHeatLevels(1, 2)  
-  .setInputItem(<da:volatile_orb>,<minecraft:slime_ball>)
-  .setOutputItem(<mod_lavacow:silky_sludge>)
-  .setInputFluid(<liquid:methanol> * 250)
+  .setLeftInputItems(<da:volatile_orb>)
+  .setLeftOutputItems(<minecraft:slime_ball>)
+  .setRightOutputItem(<mod_lavacow:silky_sludge>)
+  .setLeftInputFluid(<liquid:methanol> * 250)
   .addToAlembic();
 Alembic.beginAlembicRecipe(1200)
   .setHeatLevels(1)
-  .setInputItem(<da:volatile_orb>,<minecraft:slime_ball>)
-  .setInputItem(<primitivemobs:wonder_sap>)
-  .setOutputItem(<betterwithmods:material:12>*3)
-  .setInputFluid(<liquid:methanol> * 250)
+  .setLeftInputItems(<da:volatile_orb>, <primitivemobs:wonder_sap>)
+  .setLeftOutputItems(<minecraft:slime_ball>)
+  .setRightOutputItem(<betterwithmods:material:12> * 3)
+  .setLeftInputFluid(<liquid:methanol> * 250)
+  .addToAlembic();
+  
+Alembic.beginAlembicRecipe(400)
+  .setHeatLevels(1, 2)
+  .setLeftInputItems(<contenttweaker:moss_patch>)
+  .setRightInputItem(<contenttweaker:bandage>)
+  .setRightOutputItem(<contenttweaker:bandage_salve>)
+  .addToAlembic();
+Alembic.beginAlembicRecipe(400)
+  .setHeatLevels(1, 2)
+  .setLeftInputItems(<betteranimalsplus:trillium>)
+  .setRightInputItem(<contenttweaker:bandage>)
+  .setRightOutputItem(<contenttweaker:bandage_salve>)
   .addToAlembic();
 
 Alembic.beginAlembicRecipe(400)
   .setHeatLevels(1, 2)
-  .setInputItem(<contenttweaker:moss_patch>)
-  .setOutputItem(<contenttweaker:bandage_salve>, <contenttweaker:bandage>)
+  .setLeftInputItems(<dynamictreesbop:eucalyptusseed>)
+  .setRightInputItem(<contenttweaker:bandage>)
+  .setRightOutputItem(<contenttweaker:bandage_salve>)
   .addToAlembic();
 Alembic.beginAlembicRecipe(400)
   .setHeatLevels(1, 2)
-  .setInputItem(<betteranimalsplus:trillium>)
-  .setOutputItem(<contenttweaker:bandage_salve>, <contenttweaker:bandage>)
+  .setLeftInputItems(<rustic:aloe_vera>)
+  .setRightInputItem(<contenttweaker:bandage>)
+  .setRightOutputItem(<contenttweaker:bandage_salve>)
   .addToAlembic();
 Alembic.beginAlembicRecipe(400)
   .setHeatLevels(1, 2)
-  .setInputItem(<dynamictreesbop:eucalyptusseed>)
-  .setOutputItem(<contenttweaker:bandage_salve>, <contenttweaker:bandage>)
+  .setLeftInputItems(<quark:glowshroom>)
+  .setRightInputItem(<contenttweaker:bandage>)
+  .setRightOutputItem(<contenttweaker:bandage_salve>)
   .addToAlembic();
 Alembic.beginAlembicRecipe(400)
   .setHeatLevels(1, 2)
-  .setInputItem(<rustic:aloe_vera>)
-  .setOutputItem(<contenttweaker:bandage_salve>, <contenttweaker:bandage>)
+  .setLeftInputItems(<quark:root>)
+  .setRightInputItem(<contenttweaker:bandage>)
+  .setRightOutputItem(<contenttweaker:bandage_salve>)
   .addToAlembic();
 Alembic.beginAlembicRecipe(400)
   .setHeatLevels(1, 2)
-  .setInputItem(<quark:glowshroom>)
-  .setOutputItem(<contenttweaker:bandage_salve>, <contenttweaker:bandage>)
-  .addToAlembic();
-Alembic.beginAlembicRecipe(400)
-  .setHeatLevels(1, 2)
-  .setInputItem(<quark:root>)
-  .setOutputItem(<contenttweaker:bandage_salve>, <contenttweaker:bandage>)
-  .addToAlembic();
-Alembic.beginAlembicRecipe(400)
-  .setHeatLevels(1, 2)
-  .setInputItem(<da:volatile_orb>)
-  .setOutputItem(<contenttweaker:bandage_salve>, <contenttweaker:bandage>)
+  .setLeftInputItems(<da:volatile_orb>)
+  .setRightInputItem(<contenttweaker:bandage>)
+  .setRightOutputItem(<contenttweaker:bandage_salve>)
   .addToAlembic();
   
 //Concentrated Bioflow
 Alembic.beginAlembicRecipe(200)
   .setHeatLevels(3, 4)
-  .setInputItem(<contenttweaker:raw_viridium>)
-  .setInputItem(<betterwithmods:material:4>)
-  .setOutputFluid(<liquid:concentrated_bioflow>*250)
+  .setLeftInputItems(<contenttweaker:raw_viridium>, <betterwithmods:material:4>)
+  .setRightOutputFluid(<liquid:concentrated_bioflow>*250)
   .addToAlembic();
 
 //Dread Cold
 Alembic.beginAlembicRecipe(200)
   .setHeatLevels(3, 4)
-  .setInputItem(<contenttweaker:raw_dread_slate>, <pyrotech:rock:3>)
-  .setOutputFluid(<liquid:dread_cold>*250)
+  .setLeftInputItems(<contenttweaker:raw_dread_slate>)
+  .setRightInputFluid(<liquid:dread_cold>*250)
+  .setLeftOutputItems(<pyrotech:rock:3>)
   .addToAlembic();
 
 //Artificial Nature  
 Alembic.beginAlembicRecipe(200)
   .setHeatLevels(1)  
-  .setInputItem(vis)
-  .setInputItem(allium)
-  .setInputFluid(hotspring * 1000)
-  .setOutputItem(artificialNature, bottle)
+  .setLeftInputItems(vis, allium)
+  .setLeftInputFluid(hotspring * 1000)
+  .setRightInputItem(bottle)
+  .setRightOutputItem(artificialNature)
   .setBonusOutputItem(vis, 0.25)
   .addToAlembic();
 
 //Artificial Nature x3  
 Alembic.beginAlembicRecipe(200)
   .setHeatLevels(2)
-  .setInputItem(vis)
-  .setInputItem(fourclover)
-  .setInputFluid(hotspring * 1000)
-  .setOutputItem(artificialNature*3, bottle)
+  .setLeftInputItems(vis, fourclover)
+  .setLeftInputFluid(hotspring * 1000)
+  .setRightInputItem(bottle)
+  .setRightOutputItem(artificialNature*3)
   .addToAlembic();
 
 //Fast Haw  
 Alembic.beginAlembicRecipe(400)
   .setHeatLevels(2)  
-  .setInputItem(horsetail)
-  .setInputItem(thistle)
-  .setInputFluid(lunarwater * 100)
-  .setOutputItem(fasthaw, <biomesoplenty:berries>*4)
+  .setLeftInputItems(horsetail, thistle)
+  .setLeftInputFluid(lunarwater * 100)
+  .setRightInputItem(<biomesoplenty:berries>*4)
+  .setRightOutputItem(fasthaw)
   .setBonusOutputItem(fasthaw, 0.33)
   .addToAlembic();
   
 //Fast Haw x8 
 Alembic.beginAlembicRecipe(400)
   .setHeatLevels(3)  
-  .setInputItem(horsetail)
-  .setInputItem(alexandrite)
-  .setInputFluid(lunarwater * 500)
-  .setOutputItem(fasthaw*8, <biomesoplenty:berries>*16)
+  .setLeftInputItems(horsetail, alexandrite)
+  .setLeftInputFluid(lunarwater * 500)
+  .setRightInputItem(<biomesoplenty:berries>*16)
+  .setRightOutputItem(fasthaw*8)
   .setBonusOutputItem(fasthaw, 0.66)
   .addToAlembic();
   
 //Jump Haw
 Alembic.beginAlembicRecipe(400)
   .setHeatLevels(2)  
-  .setInputItem(horsetail)
-  .setInputItem(core)
-  .setInputFluid(lunarwater * 100)
-  .setOutputItem(jumphaw, <biomesoplenty:berries>*4)
+  .setLeftInputItems(horsetail, core)
+  .setLeftInputFluid(lunarwater * 100)
+  .setRightInputItem(<biomesoplenty:berries>*4)
+  .setRightOutputItem(jumphaw)
   .setBonusOutputItem(jumphaw, 0.33)
   .addToAlembic();
   
 //Jump Haw x4 
 Alembic.beginAlembicRecipe(400)
   .setHeatLevels(3)  
-  .setInputItem(horsetail)
-  .setInputItem(sapphire)
-  .setInputFluid(lunarwater * 500)
-  .setOutputItem(jumphaw*4, <biomesoplenty:berries>*16)
+  .setLeftInputItems(horsetail, sapphire)
+  .setLeftInputFluid(lunarwater * 500)
+  .setRightInputItem(<biomesoplenty:berries>*16)
+  .setRightOutputItem(jumphaw*4)
   .setBonusOutputItem(jumphaw, 0.66)
   .addToAlembic();
   
 //Health Haw
 Alembic.beginAlembicRecipe(400)
   .setHeatLevels(2)  
-  .setInputItem(horsetail)
-  .setInputItem(<scalinghealth:crystalshard>)
-  .setInputFluid(lunarwater * 100)
-  .setOutputItem(healthhaw, <biomesoplenty:berries>*4)
+  .setLeftInputItems(horsetail, <scalinghealth:crystalshard>)
+  .setLeftInputFluid(lunarwater * 100)
+  .setRightInputItem(<biomesoplenty:berries>*4)
+  .setRightOutputItem(healthhaw)
   .setBonusOutputItem(<scalinghealth:heartdust>, 0.33)
   .addToAlembic();
   
 //Health Haw x16
 Alembic.beginAlembicRecipe(400)
   .setHeatLevels(4)  
-  .setInputItem(horsetail)
-  .setInputItem(heart)
-  .setInputFluid(<liquid:concentrated_bioflow> * 1000)
-  .setOutputItem(healthhaw*16, <biomesoplenty:berries>*32)
+  .setLeftInputItems(horsetail, heart)
+  .setLeftInputFluid(<liquid:concentrated_bioflow> * 1000)
+  .setRightInputItem(<biomesoplenty:berries>*32)
+  .setRightOutputItem(healthhaw*16)
   .setBonusOutputItem(<scalinghealth:heartdust>, 0.66)
   .addToAlembic();
 
 //Crownmetal Alchemy
 Alembic.beginAlembicRecipe(400)
   .setHeatLevels(4)
-  .setInputItem(<betterwithmods:material:21>)
-  .setInputFluid(<liquid:concentrated_bioflow>*250)
-  .setOutputItem(garsenShard, <contenttweaker:raw_tin>)
+  .setLeftInputItems(<betterwithmods:material:21>)
+  .setLeftInputFluid(<liquid:concentrated_bioflow>*250)
+  .setRightInputItem(<contenttweaker:raw_tin>)
+  .setRightOutputItem(garsenShard)
   .addToAlembic();
   
 //Shade Alchemy
 Alembic.beginAlembicRecipe(20)
   .setHeatLevels(3)
-  .setInputItem(shadeSpeck)
-  .setOutputItem(nightShard, glassShard)
+  .setLeftInputItems(shadeSpeck)
+  .setRightInputItem(glassShard)
+  .setRightOutputItem(nightShard)
   .addToAlembic();
