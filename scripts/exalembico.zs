@@ -141,24 +141,24 @@ ExAlembico.registerHeatSourceBlock(<blockstate:exsartagine:range_extended:facing
 ExAlembico.registerHeatSourceBlock(<blockstate:exsartagine:range_extended:facing=west>, 0);
 ExAlembico.registerHeatSourceBlock(<blockstate:exsartagine:range_extended:facing=south>, 0);
 
-ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=0,variant=lit>,0,true);
-ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=1,variant=lit>,0,true);
-ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=2,variant=lit>,0,true);
-ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=3,variant=lit>,0,true);
-ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=4,variant=lit>,0,true);
-ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=5,variant=lit>,0,true);
-ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=6,variant=lit>,0,true);
-ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=7,variant=lit>,0,true);
-ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=8,variant=lit>,0,true);
-ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=0,variant=normal>,1,true);
-ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=1,variant=normal>,1,true);
-ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=2,variant=normal>,1,true);
-ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=3,variant=normal>,1,true);
-ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=4,variant=normal>,1,true);
-ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=5,variant=normal>,1,true);
-ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=6,variant=normal>,1,true);
-ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=7,variant=normal>,1,true);
-ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=8,variant=normal>,1,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=0,variant=normal>,0,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=1,variant=normal>,0,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=2,variant=normal>,0,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=3,variant=normal>,0,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=4,variant=normal>,0,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=5,variant=normal>,0,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=6,variant=normal>,0,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=7,variant=normal>,0,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=8,variant=normal>,0,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=0,variant=lit>,1,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=1,variant=lit>,1,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=2,variant=lit>,1,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=3,variant=lit>,1,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=4,variant=lit>,1,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=5,variant=lit>,1,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=6,variant=lit>,1,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=7,variant=lit>,1,true);
+ExAlembico.registerHeatSourceBlock(<blockstate:pyrotech:campfire:ash=8,variant=lit>,1,true);
 
 Heater.addHeaterRecipe(<minecraft:coal>, 1600, 1, 2); //coal, most basic for alchemy
 Heater.addHeaterRecipe(<minecraft:coal_block>, 16000, 1, 2); //coal, most basic for alchemy
