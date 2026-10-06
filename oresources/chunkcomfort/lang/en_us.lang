@@ -44,6 +44,10 @@ tooltip.chunkcomfort.spacer=
 
 tooltip.chunkcomfort.hidden.furniture=§7You settle into the quiet of your home, where every chair, table, and shelf feels like it has learned your rhythm. Nothing rushes here, only the soft certainty of being where you belong.
 
+tooltip.chunkcomfort.hidden.table=§7On the table, possibilities unbound, tabula rasa ready to serve, solid support reminding you of what lies before you.
+
+tooltip.chunkcomfort.hidden.chair=§7Sit now, sit and rest. Your own safe microcosmos in each sit, where thoughts brew and fatigue recedes.
+
 tooltip.chunkcomfort.hidden.workstation=§7Tools rest where they were last used, as if the work never truly stopped. There is purpose in the air here, a quiet promise that anything you need can be made with time and effort.
 
 tooltip.chunkcomfort.hidden.hearth=§7The warm bathes the stay. You can feel the heart of the fire, crackling, welcoming, enveloping you.
@@ -51,6 +55,8 @@ tooltip.chunkcomfort.hidden.hearth=§7The warm bathes the stay. You can feel the
 tooltip.chunkcomfort.hidden.occult=§7The air feels thinner here, like reality is holding its breath. Soft whispers of forgotten knowledge linger at the edges of your thoughts, just out of understanding, making the line between comfort and distress blurry.
 
 tooltip.chunkcomfort.hidden.luxury=§7Everything here feels intentional. Not necessary, but chosen. The space reminds you that comfort is not survival, but something greater you build for yourself.
+
+tooltip.chunkcomfort.hidden.chair=§7Lights hanging above like twinkling stars on a familiar sky. Not the domain of the moons, nor the Sun, nor Viró, but of those under the ceilings of Khaedyr.
 
 tooltip.chunkcomfort.hidden.carpeting=§Soft flooring provides a respite from the cold harsh world outside. As your feet rest on clouds, you allow yourself to dream of softness.
 
