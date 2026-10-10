@@ -1,0 +1,38 @@
+"message.hordes.EventStart=You hear the howls of a nearby horde
+message.hordes.EventEnd=The air is quiet, the horde has stopped
+message.hordes.TrySleep=A feeling of impending dread prevents you from sleeping
+message.hordes.OtherPlayerTrySleep=%1$s is restless, it seems this night will be eventful
+message.hordes.title=The Hordes
+
+hordes.subtitle.hordeHowls=Zombie Howls
+hordes.subtitle.infected=Player Infected
+hordes.subtitle.immune=Player Infection Blocked
+
+entity.hordes.ZombiePlayer.chat=%1$s's Zombie
+entity.hordes.DrownedPlayer.chat=Drowned %1$s
+entity.hordes.HuskPlayer.chat=%1$s's Husk
+
+entity.hordes.ZombiePlayer.name=Player Zombie
+entity.hordes.DrownedPlayer.name=Drowned Player
+entity.hordes.HuskPlayer.name=Player Husk
+
+entity.hordes.ZombifiedPiglinBrute.name=Zombified Piglin Brute
+entity.hordes.ZombieWanderingTrader.name=Zombie Wandering Trader
+entity.hordes.ZombiePillager.name=Zombie Pillager
+entity.hordes.ZombieVindicator.name=Zombie Vindicator
+entity.hordes.ZombieEvoker.name=Zombie Evoker
+entity.hordes.ZombieIllusioner.name=Zombie Illusioner
+entity.hordes.ZombieWitch.name=Zombie Witch
+
+effect.hordes.infected=Infection
+effect.hordes.immunity=Infection Immunity
+death.attack.infection=%1$s succumbed to infection.
+death.attack.infection.zombified=%1$s was zombified.
+
+tooltip.hordes.cure=Cures infection
+hordes.infection_resistance=Infection Resistance
+
+attribute.name.hordes.infectivity=Infectivity
+attribute.name.hordes.infection_resistance=Infection Resistance
+
+jei.category.hordes.InfectionCures=Infection Cures

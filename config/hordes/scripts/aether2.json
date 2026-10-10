@@ -1,0 +1,32 @@
+[
+    {
+        "function": "hordes:multiple",
+        "value": [
+            {
+                "function": "hordes:set_start_message",
+                "value": "You feel a cold wind and a looming sense of dread..."
+            },
+            {
+                "function": "hordes:set_end_message",
+                "value": "Warmth returns to you as the dread army makes its retreat..."
+            },
+            {
+                "function": "hordes:add_reward_command",
+                "value": "/give @p stone"
+            }
+        ],
+        "conditions": [
+            {
+                "name": "hordes:comparison",
+                "value": {
+                    "type": "string",
+                    "operation": "==",
+                    "value1": {
+                        "name": "hordes:spawn_table"
+                    },
+                    "value2": "hordes:aether2"
+                }
+            }
+        ]
+    }
+]

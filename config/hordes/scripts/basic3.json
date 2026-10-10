@@ -1,0 +1,67 @@
+[
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:multiple",
+        "value": [
+          {
+            "function": "hordes:set_start_message",
+            "value": "You hear a hunting party howling in the distance..."
+          },
+          {
+            "function": "hordes:set_end_message",
+            "value": "The raiders lick their wounds and slink off as the sun rises..."
+          },
+          {
+            "function": "hordes:add_reward_command",
+            "value": "/give @p jsonlootbags:crude_pouch"
+          }
+        ]
+      },
+      {
+        "function": "hordes:multiple",
+        "value": [
+          {
+            "function": "hordes:set_start_message",
+            "value": "You hear a hunting party howling faintly in the distance..."
+          },
+          {
+            "function": "hordes:set_spawn_duration",
+            "value": 6000
+          },
+          {
+            "function": "hordes:set_spawn_interval",
+            "value": 1500
+          },
+          {
+            "function": "hordes:set_spawn_amount",
+            "value": 25
+          }
+        ],
+        "conditions": [
+          {
+            "name": "hordes:not",
+            "value": {
+              "name": "gamestages:gamestage",
+              "value": "killedharvester"
+            }
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:comparison",
+        "value": {
+          "type": "string",
+          "operation": "==",
+          "value1": {
+            "name": "hordes:spawn_table"
+          },
+          "value2": "hordes:basic3"
+        }
+      }
+    ]
+  }
+]

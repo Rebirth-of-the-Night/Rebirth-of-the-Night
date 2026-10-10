@@ -1,0 +1,32 @@
+[
+    {
+        "function": "hordes:multiple",
+        "value": [
+            {
+                "function": "hordes:set_start_message",
+                "value": "You feel a growing heat on your skin as fiery beasts gather on the horizon..."
+            },
+            {
+                "function": "hordes:set_end_message",
+                "value": "The last flames of the raid are extinguished as the morning approaches..."
+            },
+            {
+                "function": "hordes:add_reward_command",
+                "value": "/give @p stone"
+            }
+        ],
+        "conditions": [
+            {
+                "name": "hordes:comparison",
+                "value": {
+                    "type": "string",
+                    "operation": "==",
+                    "value1": {
+                        "name": "hordes:spawn_table"
+                    },
+                    "value2": "hordes:nether2"
+                }
+            }
+        ]
+    }
+]

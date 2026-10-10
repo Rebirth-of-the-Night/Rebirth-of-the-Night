@@ -1,0 +1,34 @@
+message.hordes.EventStart=他们来了……
+message.hordes.EventEnd=空气平静了下来，尸潮停止了。
+message.hordes.TrySleep=你感到了恐惧，你无法入睡
+message.hordes.title=The Hordes
+	
+hordes.subtitle.hordeHowls=僵尸的吼叫
+hordes.subtitle.infected=玩家已被感染
+hordes.subtitle.immune=玩家感染已取消
+
+entity.hordes.ZombiePlayer.chat=%1$s 的变异体
+entity.hordes.DrownedPlayer.chat=堕落的 %1$s
+entity.hordes.HuskPlayer.chat=无价值的 %1$s
+	
+entity.hordes.ZombiePlayer.name=僵尸玩家
+entity.hordes.DrownedPlayer.name=堕落的玩家
+entity.hordes.HuskPlayer.name=无价值的玩家
+	
+entity.hordes.ZombifiedPiglinBrute.name=已感染的猪灵
+entity.hordes.ZombieWanderingTrader.name=已感染的商人
+entity.hordes.ZombiePillager.name=已感染的掠夺者
+entity.hordes.ZombieVindicator.name=已感染的卫道士
+entity.hordes.ZombieEvoker.name=已感染的唤魔者
+entity.hordes.ZombieIllusioner.name=已感染的幻术师
+entity.hordes.ZombieWitch.name=已感染的女巫
+
+effect.hordes.infected=病毒感染
+effect.hordes.immunity=已免疫感染
+death.attack.infection=%1$s 死于僵尸感染。
+death.attack.infection.zombified=%1$s 尸变了。
+
+tooltip.hordes.cure=已治愈感染
+tooltip.hordes.wearableProtection=%1$s 已经免疫了感染
+
+jei.category.hordes.InfectionCures=治愈感染

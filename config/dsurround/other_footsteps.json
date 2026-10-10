@@ -264,5 +264,7 @@
 		"aesthetics:copper_door": "hardmetal",
 		"mod_lavacow:glowshroom_block_cap": "asmc:block.wart_block.break",
 		"mod_lavacow:glowshroom_block_stem": "asmc:block.wart_block.break"
+
+
 	}
 }

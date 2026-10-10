@@ -1,0 +1,32 @@
+[
+    {
+        "function": "hordes:multiple",
+        "value": [
+            {
+                "function": "hordes:set_start_message",
+                "value": "A raiding party from the firey depths approaches..."
+            },
+            {
+                "function": "hordes:set_end_message",
+                "value": "The hellish attackers have been fended off, for now..."
+            },
+            {
+                "function": "hordes:add_reward_command",
+                "value": "/give @p stone"
+            }
+        ],
+        "conditions": [
+            {
+                "name": "hordes:comparison",
+                "value": {
+                    "type": "string",
+                    "operation": "==",
+                    "value1": {
+                        "name": "hordes:spawn_table"
+                    },
+                    "value2": "hordes:nether1"
+                }
+            }
+        ]
+    }
+]

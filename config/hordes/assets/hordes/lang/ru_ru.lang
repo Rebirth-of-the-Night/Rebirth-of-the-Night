@@ -1,0 +1,36 @@
+message.hordes.EventStart=Поблизости слышится вой бродячей орды
+message.hordes.EventEnd=В воздухе тихо, бродячая орда остановилась
+message.hordes.TrySleep=Чувство надвигающегося ужаса мешает вам заснуть
+message.hordes.title=Бродячие орды
+	
+hordes.subtitle.hordeHowls=Вой зомби
+hordes.subtitle.infected=Игрок заражён
+hordes.subtitle.immune=Заражение игрока заблокировано
+
+entity.hordes.ZombiePlayer.chat=Зомби-%1$s
+entity.hordes.DrownedPlayer.chat=Утопленник-%1$s
+entity.hordes.HuskPlayer.chat=Кадавр-%1$s
+	
+entity.hordes.ZombiePlayer.name=Зомби-игрок
+entity.hordes.DrownedPlayer.name=Утопленник-игрок
+entity.hordes.HuskPlayer.name=Кадавр-игрок
+	
+entity.hordes.ZombifiedPiglinBrute.name=Зомбифицированный брутальный пиглин
+entity.hordes.ZombieWanderingTrader.name=Странствующий торговец-зомби
+entity.hordes.ZombiePillager.name=Разбойник-зомби
+entity.hordes.ZombieVindicator.name=Поборник-зомби
+entity.hordes.ZombieEvoker.name=Заклинатель-зомби
+entity.hordes.ZombieIllusioner.name=Иллюзионист-зомби
+entity.hordes.ZombieWitch.name=Ведьма-зомби
+
+effect.hordes.infected=Зомби-инфекция
+effect.hordes.immunity=Иммунитет
+death.attack.infection=%1$s умер от инфекции.
+death.attack.infection.zombified=%1$s был зомбифицирован.
+
+tooltip.hordes.cure=Лечит инфекцию
+tooltip.hordes.wearableProtection=%1$s устойчивость к инфекции
+
+attribute.name.hordes.infection_resistance=Устойчивость к инфекции
+
+jei.category.hordes.InfectionCures=Лечение инфекции

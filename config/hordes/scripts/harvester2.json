@@ -1,0 +1,32 @@
+[
+    {
+        "function": "hordes:multiple",
+        "value": [
+            {
+                "function": "hordes:set_start_message",
+                "value": "You hear the sound of many legs skittering in the distance..."
+            },
+            {
+                "function": "hordes:set_end_message",
+                "value": "The last bugs have been crushed as the raid comes to an end."
+            },
+            {
+                "function": "hordes:add_reward_command",
+                "value": "/give @p jsonlootbags:chitin_sac"
+            }
+        ],
+        "conditions": [
+            {
+                "name": "hordes:comparison",
+                "value": {
+                    "type": "string",
+                    "operation": "==",
+                    "value1": {
+                        "name": "hordes:spawn_table"
+                    },
+                    "value2": "hordes:harvester2"
+                }
+            }
+        ]
+    }
+]
