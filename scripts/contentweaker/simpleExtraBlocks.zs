@@ -3433,6 +3433,11 @@ fancy_soapstone.setCreativeTab(<creativetab:rotn_blocks>);
 fancy_soapstone.setToolLevel(1);
 fancy_soapstone.setBlockHardness(16);
 fancy_soapstone.register();
+var fancy_gneiss = VanillaFactory.createBlock("fancy_gneiss", <blockmaterial:Rock>);
+fancy_gneiss.setCreativeTab(<creativetab:rotn_blocks>);
+fancy_gneiss.setToolLevel(1);
+fancy_gneiss.setBlockHardness(22);
+fancy_gneiss.register();
 
 // Extra coade
 var coade_stone_polished = VanillaFactory.createBlock("coade_stone_polished", <blockmaterial:Rock>);
