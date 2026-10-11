@@ -10,6 +10,38 @@ import mods.artisanworktables.builder.RecipeBuilder;
 import mods.contenttweaker.CreativeTab;
 import mods.contenttweaker.VanillaFactory;
 
+//Vanilla Stuff
+// brewing.addBrew(IIngredient input, IIngredient ingredient, IItemStack output, @Optional boolean hidden);
+// brewing.addBrew(<minecraft:splash_potion>, <minecraft:emerald>, <minecraft:experience_bottle>);
+
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:ghast_tear>);
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <inspirations:edibles>);
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:regeneration"}), <minecraft:redstone>);
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:regeneration"}), <minecraft:glowstone_dust>);
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:regeneration"}), <randomthings:glowingmushroom>);
+
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:regeneration"}), <minecraft:gunpowder>);
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:long_regeneration"}), <minecraft:gunpowder>);
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:strong_regeneration"}), <minecraft:gunpowder>);
+
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:regeneration"}), <minecraft:redstone>);
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:regeneration"}), <minecraft:glowstone_dust>);
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:regeneration"}), <randomthings:glowingmushroom>);
+
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:regeneration"}), <minecraft:dragon_breath>);
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:long_regeneration"}), <minecraft:dragon_breath>);
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:strong_regeneration"}), <minecraft:dragon_breath>);
+
+brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:regeneration"}), <minecraft:redstone>);
+brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:regeneration"}), <minecraft:glowstone_dust>);
+brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:regeneration"}), <randomthings:glowingmushroom>);
+
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:ghast_tear>);
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"}), <inspirations:edibles>);
+
+brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:ghast_tear>);
+brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:awkward"}), <inspirations:edibles>);
+
 //Define ingredients
 var thistle = <rustic:wind_thistle>;
 var fasthaw = <cyclicmagic:horse_upgrade_speed>;
@@ -73,11 +105,14 @@ var vis = <contenttweaker:vis_shard>;
 var allium = <minecraft:red_flower:2>;
 var firetears = <twilightforest:fiery_tears>;
 var firedcin = <contenttweaker:flashfired_cincinnasite>;
-var rabbitfoot = <minecraft:rabbit_foot>;
+var sunflower = <minecraft:double_plant>;
+var hempseeds = <betterwithmods:hemp>;
+
 
 //Define liquids
 var hotspring = <liquid:hot_spring_water>;
 var lunarwater = <liquid:lunar_water>;
+var woodalcohol = <liquid:methanol>;
 var blood = <liquid:blood>;
 var spiritfire = <liquid:unstable_spiritfire>;
 var poison = <liquid:poison>;
@@ -87,15 +122,15 @@ var bioflow = <liquid:concentrated_bioflow>;
 var gravitite = <liquid:gravitite>; 
 var slag = <liquid:ender_slag>;
 
-// Stack sizes
 var potions = <minecraft:potion>;
 var potions_splash = <minecraft:splash_potion>;
 var potions_lingering = <minecraft:lingering_potion>;
+var elixir = <rustic:elixir>;
 
 potions.maxStackSize = 8;
 potions_splash.maxStackSize = 8;
 potions_lingering.maxStackSize = 8;
-<rustic:elixir>.maxStackSize = 8;
+elixir.maxStackSize = 8;
 
 //Change condenser recipes
 recipes.remove(<rustic:condenser>);
@@ -112,6 +147,9 @@ recipes.addShaped(<rustic:retort>, [
 
 recipes.remove(<rustic:condenser_advanced>);
 recipes.remove(<rustic:retort_advanced>);
+
+
+
 
 //advanced condenser
 RecipeBuilder.get("mage")
@@ -217,6 +255,7 @@ val forcefulElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple 
 val fireresElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple Fire Resistance Elixir"},ElixirEffects:[{Effect: "minecraft:fire_resistance", Duration: 9600, Amplifier: 3}]});
 val healthElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Metabolic Whey"},ElixirEffects:[{Effect: "minecraft:regeneration", Duration: 160, Amplifier: 2},{Effect: "minecraft:hunger", Duration: 160, Amplifier: 29},{Effect: "minecraft:nausea", Duration: 160, Amplifier: 0}]});
 val hasteElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple Haste Elixir"},ElixirEffects:[{Effect: "minecraft:haste", Duration: 9600, Amplifier: 1}]});
+val sunfeedElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple Sunfeed Elixir"},ElixirEffects:[{Effect: "extraalchemy:effect.photosynthesis", Duration: 1000, Amplifier: 0}]});
 
 val masteryElixirNether = <rustic:elixir>.withTag({display:{LocName:"Simple Mastery Elixir"},ElixirEffects:[{Effect: "dpt:mastery", Duration: 9600, Amplifier: 1}]});
 val healthElixirNether = <rustic:elixir>.withTag({display:{LocName:"Simple Healing Elixir"},ElixirEffects:[{Effect: "minecraft:instant_health", Amplifier: 4}]});
@@ -240,33 +279,20 @@ val forcefulElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced 
 val fireResElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Fire Resistance Elixir"},ElixirEffects:[{Effect: "minecraft:fire_resistance", Duration: 18000, Amplifier: 9}]});
 val hasteElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Haste Elixir"},ElixirEffects:[{Effect: "minecraft:haste", Duration: 12000, Amplifier: 2}]});
 
-
+val nightvisionElixirEnd = <rustic:elixir>.withTag({display:{LocName:"Advanced Night Vision Elixir"},ElixirEffects:[{Effect: "minecraft:night_vision", Duration: 18000, Amplifier: 0}]});
 val demonicElixirEnd = <rustic:elixir>.withTag({display:{LocName:"Demonic Strength Elixir"},ElixirEffects:[{Effect: "minecraft:strength", Duration: 12000, Amplifier: 6},{Effect: "demonic_scythe:demonic_corruption", Duration: 12000, Amplifier: 8},{Effect: "potioncore:vulnerable", Duration: 12000, Amplifier: 1}]});
 val geomancyElixirEnd = <rustic:elixir>.withTag({display:{LocName:"Earth Master's Elixir"},ElixirEffects:[{Effect: "mowziesmobs:geomancy", Duration: 12000, Amplifier: 1},{Effect: "defiledlands:grounded", Duration: 12000, Amplifier: 2},{Effect: "extraalchemy:effect.magnetism", Duration: 12000, Amplifier: 3},{Effect: "rustic:ironskin", Duration: 12000, Amplifier: 3},{Effect: "potioncore:solid_core", Duration: 12000, Amplifier: 3}]});
 val sunElixirEnd = <rustic:elixir>.withTag({display:{LocName:"Elixir of the Solar Master"},ElixirEffects:[{Effect: "mowziesmobs:suns_blessing", Duration: 12000, Amplifier: 0},{Effect: "minecraft:fire_resistance", Duration: 12000, Amplifier: 9},{Effect: "rustic:blazing_trail", Duration: 12000, Amplifier: 0}]});
-val nightvisionElixirEnd = <rustic:elixir>.withTag({display:{LocName:"Advanced Night Vision Elixir"},ElixirEffects:[{Effect: "minecraft:night_vision", Duration: 18000, Amplifier: 0}]});
 val flightElixirTF = <rustic:elixir>.withTag({display:{LocName:"Air Master's Elixir"},ElixirEffects:[{Effect: "potioncore:flight", Duration: 24000, Amplifier: 0}]});
 
 
 //Add recipes
 //Condenser.addRecipe(output, itemstack[] inputs, modifier, bottle, fluid, time);
 
-/////NON-ELIXIR RECIPES\\\\\
-val artificialNature = <contenttweaker:artificial_nature>;
-Condenser.addRecipe(artificialNature, [vis, allium], null, bottle, hotspring * 1000);
-Condenser.addRecipe(artificialNature*3, [vis, fourclover], null, bottle, hotspring * 2000);
-
-Condenser.addRecipe(fasthaw, [horsetail, thistle], null, <biomesoplenty:berries>*4, lunarwater * 100);
-Condenser.addRecipe(fasthaw*8, [horsetail, <biomesoplenty:gem:2>], null, <biomesoplenty:berries>*16, lunarwater * 500);
-Condenser.addRecipe(jumphaw, [horsetail, core], null, <biomesoplenty:berries>*4, lunarwater * 100);
-Condenser.addRecipe(jumphaw*4, [horsetail, <biomesoplenty:gem:6>], null, <biomesoplenty:berries>*16, lunarwater * 500);
-Condenser.addRecipe(<cyclicmagic:horse_upgrade_health>, [horsetail, <scalinghealth:crystalshard>], null, <biomesoplenty:berries>*4, lunarwater * 100);
-Condenser.addRecipe(<cyclicmagic:horse_upgrade_health>*16, [horsetail, heart, virdust], <biomesoplenty:gem:1>, <biomesoplenty:berries>*32, lunarwater * 1000);
-
 /////CRAFTABLE IN OVERWORLD\\\\\
 Condenser.addRecipe(speedElixirOverworld, [thistle, fasthaw]);
 Condenser.addRecipe(magnetismElixirOverworld, [ironBerry, genericNugg]);
-Condenser.addRecipe(bouncyElixirOverworld, [slime, mallow]);
+Condenser.addRecipe(bouncyElixirOverworld, [slime, mallow], null, bottle, woodalcohol * 125);
 Condenser.addRecipe(healthElixirOverworld, [ginseng, stomach]);
 Condenser.addRecipe(luckElixirOverworld, [fourclover, goldNugg], null, bottle, hotspring * 125);
 Condenser.addRecipe(featherElixirOverworld, [cloudsbluff, cloudgold], null, bottle, lunarwater * 125);
@@ -275,6 +301,7 @@ Condenser.addRecipe(strengthElixirOverworld, [core, spirits], null, bottle, luna
 Condenser.addRecipe(forcefulElixirOverworld, [core, jumphaw], null, bottle, lunarwater * 125);
 Condenser.addRecipe(fireresElixirOverworld, [aloe, scab], null, bottle, lunarwater * 125);
 Condenser.addRecipe(hasteElixirOverworld, [cohosh, redstone], null, bottle, lunarwater * 125);
+Condenser.addRecipe(sunfeedElixirOverworld, [sunflower, hempseeds], null, bottle, woodalcohol * 125);
 
 /////CRAFTABLE POST-NETHER\\\\\
 Condenser.addRecipe(healthElixirNether, [tear, tarblock], null, bottle, lunarwater * 1000);
@@ -293,13 +320,13 @@ Condenser.addRecipe(fireresElixirAether, [aloe, blazepowder], null, bottle, drea
 /////CRAFTABLE POST-BENEATH\\\\\
 Condenser.addRecipe(speedElixirBeneath, [cocaine, fasthaw, virdust], null, bottle, lunarwater * 250);
 Condenser.addRecipe(magnetismElixirBeneath, [metdust, steeldust, mooncap], zanitegem, bottle, arcmythril * 500);
-Condenser.addRecipe(luckElixirBeneath, [paralex, rabbitfoot, fourclover], null, bottle, lunarwater * 250);
+Condenser.addRecipe(luckElixirBeneath, [paralex, <minecraft:rabbit_foot>, fourclover], null, bottle, lunarwater * 250);
 Condenser.addRecipe(featherElixirBeneath, [cloudsbluff, cloudgold], zanitegem, bottle, lunarwater * 250);
 Condenser.addRecipe(healthboostElixirBeneath, [bloodorchid, flesh, plaguehide], null, bottle, bioflow * 250);
 Condenser.addRecipe(strengthElixirBeneath, [core, spirits, voidflame], null, bottle, lunarwater * 250);
 Condenser.addRecipe(forcefulElixirBeneath, [core, jumphaw, cocaine], null, bottle, lunarwater * 250);
-Condenser.addRecipe(fireResElixirBeneath, [aloe, blazepowder, mooncap], null, bottle, dreadcold * 1000);
-Condenser.addRecipe(hasteElixirBeneath, [redstone, firedcin, mooncap], null, bottle, spiritfire * 500);
+Condenser.addRecipe(fireResElixirBeneath, [aloe, blazepowder, mooncap], null, bottle, dreadcold*1000);
+Condenser.addRecipe(hasteElixirBeneath, [redstone, firedcin, mooncap], null, bottle, spiritfire*500);
 
 
 /////CRAFTABLE POST-END\\\\\
@@ -307,6 +334,7 @@ Condenser.addRecipe(geomancyElixirEnd, [earthruby, steeldust, mooncap], biotite,
 Condenser.addRecipe(demonicElixirEnd, [bloodeye, soulurn, core], biotite, bottle, slag * 500);
 Condenser.addRecipe(sunElixirEnd, [suntouched, starblock, mooncap], biotite, bottle, arcmythril * 1000);
 Condenser.addRecipe(nightvisionElixirEnd, [<mowziesmobs:glowing_jelly>, <rotn_blocks:exorite_crystal>, mooncap], biotite, bottle, arcmythril * 500);
+
 
 
 /////CRAFTABLE POST-TWILIGHT FOREST\\\\\
@@ -424,4 +452,325 @@ var transformationTargets as IIngredient[string] = {
 
 for targetTree, seed in transformationTargets{
   Condenser.addRecipe(<dynamictrees:dendropotion:6>.withTag({target:targetTree}), [seed], null, <dynamictrees:dendropotion:6>, null);
+}
+
+//Remove vanilla brewing stand
+recipes.remove(<minecraft:brewing_stand>);
+JEI.removeAndHide(<minecraft:brewing_stand>);
+mods.jei.JEI.hideCategory("minecraft.brewing");
+
+var potionTypes = [
+  "minecraft:mundane",
+  "minecraft:thick",
+  "minecraft:awkward",
+  "minecraft:night_vision",
+  "minecraft:long_night_vision",
+  "minecraft:invisibility",
+  "minecraft:long_invisibility",
+  "minecraft:leaping",
+  "minecraft:long_leaping",
+  "minecraft:strong_leaping",
+  "minecraft:fire_resistance",
+  "minecraft:long_fire_resistance",
+  "minecraft:swiftness",
+  "minecraft:long_swiftness",
+  "minecraft:strong_swiftness",
+  "minecraft:slowness",
+  "minecraft:long_slowness",
+  "minecraft:water_breathing",
+  "minecraft:long_water_breathing",
+  "minecraft:healing",
+  "minecraft:strong_healing",
+  "minecraft:harming",
+  "minecraft:strong_harming",
+  "minecraft:poison",
+  "minecraft:long_poison",
+  "minecraft:strong_poison",
+  "minecraft:regeneration",
+  "minecraft:long_regeneration",
+  "minecraft:strong_regeneration",
+  "minecraft:strength",
+  "minecraft:long_strength",
+  "minecraft:strong_strength",
+  "minecraft:weakness",
+  "minecraft:long_weakness",
+  "minecraft:luck",
+  "elenaidodge2:feathers",
+  "elenaidodge2:long_feathers",
+  "elenaidodge2:strong_feathers",
+  "elenaidodge2:weight",
+  "elenaidodge2:long_weight",
+  "elenaidodge2:endurance",
+  "elenaidodge2:long_endurance",
+  "elenaidodge2:strong_endurance",
+  "elenaidodge2:forceful",
+  "elenaidodge2:long_forceful",
+  "elenaidodge2:strong_forceful",
+  "elenaidodge2:feeble",
+  "elenaidodge2:long_feeble",
+  "elenaidodge2:strong_feeble",
+  "elenaidodge2:replenishment",
+  "elenaidodge2:long_replenishment",
+  "elenaidodge2:strong_replenishment",
+  "randomthings:collapse",
+  "randomthings:long_collapse",
+  "randomthings:strong_collapse",
+  "railcraft:creosote",
+  "railcraft:long_creosote",
+  "railcraft:strong_creosote",
+  "ancientbeasts:poison_ghostly",
+  "ancientbeasts:long_potion_ghostly",
+  "ancientbeasts:poison_rifted",
+  "ancientbeasts:long_potion_rifted",
+  "ancientbeasts:potion_undead",
+  "ancientbeasts:long_potion_undead",
+  "quark:resilience",
+  "quark:long_resilience",
+  "quark:strong_resilience",
+  "quark:haste",
+  "quark:long_haste",
+  "quark:strong_haste",
+  "quark:mining_fatigue",
+  "quark:long_mining_fatigue",
+  "quark:strong_mining_fatigue",
+  "quark:resistance",
+  "quark:long_resistance",
+  "quark:strong_resistance",
+  "quark:danger_sight",
+  "quark:long_danger_sight",
+  "extraalchemy:fuse_normal",
+  "extraalchemy:fuse_strong",
+  "extraalchemy:fuse_quick",
+  "extraalchemy:recall_normal",
+  "extraalchemy:recall_strong",
+  "extraalchemy:recall_long",
+  "extraalchemy:sinking_normal",
+  "extraalchemy:sinking_strong",
+  "extraalchemy:sinking_long",
+  "extraalchemy:freezing",
+  "extraalchemy:dislocation_normal",
+  "extraalchemy:dislocation_strong",
+  "extraalchemy:dislocation_long",
+  "extraalchemy:magnetism_normal",
+  "extraalchemy:magnetism_strong",
+  "extraalchemy:magnetism_long",
+  "extraalchemy:pyper_normal",
+  "extraalchemy:pyper_strong",
+  "extraalchemy:pyper_long",
+  "extraalchemy:pacifism_normal",
+  "extraalchemy:pacifism_strong",
+  "extraalchemy:pacifism_long",
+  "extraalchemy:crumbling_normal",
+  "extraalchemy:crumbling_strong",
+  "extraalchemy:crumbling_long",
+  "extraalchemy:concentration_normal",
+  "extraalchemy:return_normal",
+  "extraalchemy:photosynthesis_normal",
+  "extraalchemy:photosynthesis_strong",
+  "extraalchemy:photosynthesis_long",
+  "extraalchemy:hurry_normal",
+  "extraalchemy:hurry_strong",
+  "extraalchemy:hurry_long",
+  "extraalchemy:cheat_death_normal",
+  "extraalchemy:charged_normal",
+  "extraalchemy:charged2_normal",
+  "extraalchemy:reincarnation_normal",
+  "extraalchemy:reincarnation_strong",
+  "extraalchemy:reincarnation_long",
+  "extraalchemy:combustion_normal",
+  "extraalchemy:combustion_strong",
+  "extraalchemy:combustion_long",
+  "extraalchemy:learning_normal",
+  "extraalchemy:learning_strong",
+  "extraalchemy:learning_long",
+  "extraalchemy:gravity_normal",
+  "extraalchemy:gravity_long",
+  "extraalchemy:gravity_strong",
+  "extraalchemy:leech_normal",
+  "extraalchemy:leech_long",
+  "extraalchemy:leech_strong",
+  "extraalchemy:sails_normal",
+  "extraalchemy:sails_long",
+  "extraalchemy:sails_strong",
+  "extraalchemy:beheading_normal",
+  "extraalchemy:beheading_long",
+  "extraalchemy:beheading_strong",
+  "extraalchemy:dispel_normal",
+  "extraalchemy:pain_normal",
+  "extraalchemy:pain_long",
+  "extraalchemy:pain_strong",
+  "extraalchemy:push_normal",
+  "extraalchemy:push_long",
+  "extraalchemy:push_strong",
+  "extraalchemy:pull_normal",
+  "extraalchemy:pull_long",
+  "extraalchemy:pull_strong",
+  "fireresistancetiers:strong_fire_resistance",
+  "mod_lavacow:corrosive",
+  "mod_lavacow:strong_corrosive",
+  "mod_lavacow:long_corrosive",
+  "mod_lavacow:foulodor",
+  "mod_lavacow:long_foulodor",
+  "mod_lavacow:infestation",
+  "mod_lavacow:strong_infestation",
+  "mod_lavacow:long_infestation",
+  "mod_lavacow:fragile",
+  "mod_lavacow:strong_fragile",
+  "mod_lavacow:long_fragile",
+  "mowziesmobs:poison_resist",
+  "mowziesmobs:long_poison_resist",
+  "netherex:freezing",
+  "netherex:frigid_health",
+  "netherex:dispersal",
+  "netherex:sorrow",
+  "potioncore:saturation",
+  "potioncore:strong_saturation",
+  "potioncore:wither",
+  "potioncore:strong_wither",
+  "potioncore:long_wither",
+  "potioncore:hunger",
+  "potioncore:strong_hunger",
+  "potioncore:long_hunger",
+  "potioncore:blindness",
+  "potioncore:strong_blindness",
+  "potioncore:long_blindness",
+  "potioncore:nausea",
+  "potioncore:long_nausea",
+  "potioncore:levitation",
+  "potioncore:strong_levitation",
+  "potioncore:long_levitation",
+  "potioncore:absorption",
+  "potioncore:strong_absorption",
+  "potioncore:long_absorption",
+  "potioncore:glowing",
+  "potioncore:long_glowing",
+  "potioncore:haste",
+  "potioncore:strong_haste",
+  "potioncore:long_haste",
+  "potioncore:mining_fatigue",
+  "potioncore:strong_mining_fatigue",
+  "potioncore:long_mining_fatigue",
+  "potioncore:health_boost",
+  "potioncore:strong_health_boost",
+  "potioncore:long_health_boost",
+  "potioncore:resistance",
+  "potioncore:strong_resistance",
+  "potioncore:long_resistance",
+  "potioncore:unluck",
+  "potioncore:love",
+  "potioncore:repair",
+  "potioncore:strong_repair",
+  "potioncore:long_repair",
+  "potioncore:flight",
+  "potioncore:long_flight",
+  "potioncore:extension",
+  "potioncore:strong_extension",
+  "potioncore:long_extension",
+  "potioncore:recoil",
+  "potioncore:strong_recoil",
+  "potioncore:long_recoil",
+  "potioncore:broken_magic_shield",
+  "potioncore:strong_broken_magic_shield",
+  "potioncore:long_broken_magic_shield",
+  "potioncore:iron_skin",
+  "potioncore:strong_iron_skin",
+  "potioncore:long_iron_skin",
+  "potioncore:purity",
+  "potioncore:long_purity",
+  "potioncore:reach",
+  "potioncore:strong_reach",
+  "potioncore:long_reach",
+  "potioncore:diamond_skin",
+  "potioncore:strong_diamond_skin",
+  "potioncore:long_diamond_skin",
+  "potioncore:teleport",
+  "potioncore:strong_teleport",
+  "potioncore:teleport_surface",
+  "potioncore:magic_focus",
+  "potioncore:strong_magic_focus",
+  "potioncore:long_magic_focus",
+  "potioncore:cure",
+  "potioncore:step_up",
+  "potioncore:strong_step_up",
+  "potioncore:long_step_up",
+  "potioncore:drown",
+  "potioncore:long_drown",
+  "potioncore:teleport_spawn",
+  "potioncore:disorganization",
+  "potioncore:climb",
+  "potioncore:long_climb",
+  "potioncore:perplexity",
+  "potioncore:long_perplexity",
+  "potioncore:rust",
+  "potioncore:strong_rust",
+  "potioncore:long_rust",
+  "potioncore:vulnerable",
+  "potioncore:strong_vulnerable",
+  "potioncore:long_vulnerable",
+  "potioncore:explode",
+  "potioncore:strong_explode",
+  "potioncore:solid_core",
+  "potioncore:long_solid_core",
+  "potioncore:fire",
+  "potioncore:strong_fire",
+  "potioncore:lightning",
+  "potioncore:magic_inhibition",
+  "potioncore:strong_magic_inhibition",
+  "potioncore:long_magic_inhibition",
+  "potioncore:chance",
+  "potioncore:strong_chance",
+  "potioncore:invert",
+  "potioncore:weight",
+  "potioncore:strong_weight",
+  "potioncore:long_weight",
+  "potioncore:launch",
+  "potioncore:strong_launch",
+  "potioncore:dispel",
+  "potioncore:revival",
+  "potioncore:strong_revival",
+  "potioncore:long_revival",
+  "potioncore:klutz",
+  "potioncore:strong_klutz",
+  "potioncore:long_klutz",
+  "potioncore:bless",
+  "potioncore:strong_bless",
+  "potioncore:broken_armor",
+  "potioncore:strong_broken_armor",
+  "potioncore:long_broken_armor",
+  "potioncore:magic_shield",
+  "potioncore:strong_magic_shield",
+  "potioncore:long_magic_shield",
+  "potioncore:slow_fall",
+  "potioncore:strong_slow_fall",
+  "potioncore:long_slow_fall",
+  "potioncore:antidote",
+  "potioncore:long_antidote",
+  "potioncore:spin",
+  "potioncore:strong_spin",
+  "potioncore:long_spin",
+  "potioncore:curse",
+  "potioncore:strong_curse",
+  "potioncore:burst",
+  "potioncore:strong_burst",
+  "potioncore:archery",
+  "potioncore:strong_archery",
+  "potioncore:long_archery",
+  "rlmixins:curse_break",
+  "cyclicmagic:ender",
+  "cyclicmagic:butter",
+  "cyclicmagic:butter2",
+  "cyclicmagic:swim",
+  "cyclicmagic:swim2",
+  "cyclicmagic:bounce"
+] as string[];
+
+JEI.removeAndHide(<minecraft:splash_potion>.withTag({Potion: "minecraft:water"}));
+JEI.removeAndHide(<minecraft:lingering_potion>.withTag({Potion: "minecraft:water"}));
+recipes.removeByRecipeName("minecraft:tippedarrow");
+
+for nbt in potionTypes {
+    JEI.removeAndHide(<minecraft:potion>.withTag({Potion: nbt}));
+    JEI.removeAndHide(<minecraft:splash_potion>.withTag({Potion: nbt}));
+    JEI.removeAndHide(<minecraft:lingering_potion>.withTag({Potion: nbt}));
+    JEI.removeAndHide(<minecraft:tipped_arrow>.withTag({Potion: nbt}));
 }
