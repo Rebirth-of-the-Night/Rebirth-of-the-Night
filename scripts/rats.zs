@@ -12,6 +12,9 @@ recipes.addShapeless("marbled_cheese_dirt",<rats:marbled_cheese_dirt>,[<rats:mar
 recipes.remove(<rats:marbled_cheese_grass>);
 recipes.addShapeless("marbled_cheese_grass",<rats:marbled_cheese_grass>,[<rats:marbled_cheese>,<ore:grass>]);
 
+recipes.remove(<rats:feral_bagh_nakhs>);
+JEI.removeAndHide(<rats:feral_bagh_nakhs>);
+
 // renamed
 <rats:black_death_mask>.addTooltip(format.darkPurple("Epic Armor"));
 <rats:plague_scythe>.addTooltip(format.gold("Legendary Weapon"));
@@ -186,7 +189,7 @@ recipes.addShaped("rats_replanter_upgrade",<rats:rat_upgrade_replanter>,[
 
 recipes.addShaped("rats_juryrigged_upgrade",<rats:rat_upgrade_jury_rigged>,[
     [<simpleores:mythril_block>,<ore:glue>,<contenttweaker:block_electrum>],
-    [<rats:rat_upgrade_basic>,<scalinghealth:healingitem>,<rats:rat_upgrade_basic>],
+    [<rats:rat_upgrade_basic>,<contenttweaker:bandage>,<rats:rat_upgrade_basic>],
     [<betterwithmods:steel_block:0>,<ore:glue>,<betterwithmods:aesthetic:3>]
 ]);
 
@@ -224,11 +227,6 @@ RecipeBuilder.get("mage")
 
 // Rat Sack
 recipes.remove(<rats:rat_sack>);
-recipes.addShaped("rats_sack",<rats:rat_sack>,[
-    [null,<ore:twine>,null],
-    [<ore:leather>,<rats:cheese>,<ore:leather>],
-    [<ore:leather>,<ore:leather>,<ore:leather>]
-]);
 
 // Rat Cage
 recipes.remove(<rats:rat_cage>);
@@ -288,7 +286,7 @@ recipes.addShaped("rats_cheese_staff",<rats:cheese_stick>,[
 recipes.remove(<rats:rat_seed_bowl>);
 recipes.addShaped("rats_seed_bowl",<rats:rat_seed_bowl>,[
     [<ore:listAllseed>,<ore:listAllseed>,<ore:listAllseed>],
-    [null,<contenttweaker:bowl>|<minecraft:bowl>,null],
+    [null,<minecraft:bowl>,null],
 ]);
 
 // Feral Rat Claw
@@ -411,6 +409,7 @@ mods.rats.recipes.addChefRatRecipe(<iceandfire:fire_dragon_flesh>, <harvestcraft
 mods.rats.recipes.addChefRatRecipe(<iceandfire:ice_dragon_flesh>, <harvestcraft:meatfeastpizzaitem>);
 mods.rats.recipes.addChefRatRecipe(<rats:tiny_coin>, <harvestcraft:chocolatesprinklecakeitem>);
 mods.rats.recipes.addChefRatRecipe(<nyx:fallen_star>, <harvestcraft:starfruititem>);
+mods.rats.recipes.addChefRatRecipe(<contenttweaker:dark_fruit>, <contenttweaker:ratatouille>);
 
 //gem cutter rat recipes
 mods.rats.recipes.addGemcutterRatRecipe(<minecraft:nether_star>, <nyx:fallen_star>*16);
