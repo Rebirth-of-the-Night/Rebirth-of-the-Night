@@ -1,0 +1,22 @@
+{
+    "id": "fickle",
+    "displayName": "Fickle",
+    "tooltip": "A cute and squishy companion",
+    
+    "modelPath": "fickle:plushie/fickle",
+    "texturePath": "fickle:textures/plushie/ficklenew.png",
+    "squishTexturePath": "fickle:textures/plushie/ficklesquishnew.png",
+    
+    "scale": 1.0,
+    "offsetX": 0.5,
+    "offsetY": 0.0,
+    "offsetZ": 0.5,
+    
+    "animated": true,
+    "squishDuration": 12,
+    "squishAmount": 0.35,
+    "squishStyle": "bounce",
+    
+    "material": "cloth",
+    "squishSound": "fickle:plushie.squish"
+}

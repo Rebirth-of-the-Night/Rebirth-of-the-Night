@@ -62,6 +62,7 @@ JEI.addItem(<biomesoplenty:grass_path:2>);
 /* Tools, Weapons, and Armor */
 val handle = <spartanweaponry:material>;
 val pole = <spartanweaponry:material:1>;
+val valk_pike = <spartanweaponry:pike_invar:*>;
 
 JEI.addDescription(handle,"Provides a good grip for more advanced weapons.");
 JEI.addDescription(pole,"A long stick that provides good grip.");
@@ -123,6 +124,8 @@ JEI.addDescription(<dungeontactics:engineer_dungarees>, "Working outfit; will pr
 JEI.addDescription(<defiledlands:the_ravager>, "Fashioned out of a Black Heart, this weapon has an incredibly fast rate of fire, able to deal much damage at the expense of rather expensive ammunition.");
 JEI.addDescription(<defiledlands:pellet_umbrium>, "A pellet made of heavy Soul Forged Steel, able to withstand the energy expelled by a Black Heart and made lighter with a soft core of gravitite.");
 
+JEI.addDescription(valk_pike,"This already long weapon based on the work of the Val-Mitter has an exquisitely crafted core with blessings that can extend attacks of the wearer even further than physicaly possible. Albeit it pales in comparison to the weapons carried by the queen warriors of the Val-Kaisis.");
+JEI.addDescription(<aether_legacy:holy_sword>,"This exquisitely crafted ceremonial weapon is used during Valk rites of passage, award, and funerary rituals. It exemplifies values of life and death. Prolonged use and care have provided it with inherent arcane properties.");
 
 /* Ores and Ingots */
 val crudeSteelIngot = <dungeontactics:steel_ingot>;
@@ -142,6 +145,7 @@ JEI.addDescription(<ore:ingotBronze>,"Tougher than iron, but not quite as good a
 JEI.addDescription(<ore:ingotBrass>,"Used for machines that have lots of moving parts and require little friction. It also has several accoustic properties.");
 JEI.addDescription(<rotn_blocks:exorite_crystal>,"A beautiful gem common to the lands of the Ender folk, sometimes confused with amethysts from the Nether. It possesses qualities that can only be described as alien.");
 JEI.addDescription(<netherex:amethyst_crystal>,"A beautiful gem native to the lands of the Pigfolk, this variety is most rare since all known deposits in the Nether have been mined up. Some villagers in the coldest of places collect this gem through unknown methods.");
+JEI.addDescription(<contenttweaker:ferrought_flesh_deposit>,"Fresh ferrought deposits still form in the flesh of the Nether to this day, usually causing streams of blood.");
 JEI.addDescription(<ore:gemDiamond>,'Diamond! The hardest material available in this world where you awakened. Its applications are countless, but apart of serving various purposes as a gem, like most other gems it can prove a powerful reinforcing material for steel alloy; diamond ingots can create "diamond" armor, tools and weapons.');
 JEI.addDescription(charcoal,"The process to obtaining quality charcoal requires either a proper kiln or pit burning. A simple furnace's direct fire is too strong and would just burn the wood...");
 JEI.addDescription(<quark:biotite>,"An otherworldly crystal made of tough organic matter. Can be found on the center island after killing the Ender Dragon.");
@@ -277,6 +281,7 @@ JEI.addDescription(<pyrotech:compost_bin>,"Composting is simple; fill up the com
 
 JEI.addDescription(<dungeontactics:engineers_wrench_iron>,"Used to rotate blocks, such as pistons or fans, and to reset triggered traps. Good for picking up redstone stuff and rails. Sneak & use on a trap plate to hide it.");
 JEI.addDescription(<contenttweaker:harmony_staff>,"Manipulates the entropy of specific blocks, such as stone. Right click to channel creation, sneak right click to channel disintegration.");
+JEI.addDescription(<contenttweaker:sowing_scepter>,"Channels nature magic to fertilize farmland. Converts up to a 3x3 of farmland into rich soil.");
 JEI.removeAndHide(<base:wrench>);
 JEI.addDescription(<contenttweaker:peat>,"A mass of partially decomposed vegetal matter found in swamps, bogs and the like. It's a good fuel, but it can be improved further.");
 JEI.addDescription(<contenttweaker:mossy_peat>,"Peat overtaken by cave moss. This sponge-like mass will absorb coalbed methane like no other. It also has extreme spring potential, jump at your own risk.");

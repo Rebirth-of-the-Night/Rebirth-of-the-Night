@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "stripmining:items/prospecting_pick_amber"
+    }
+}

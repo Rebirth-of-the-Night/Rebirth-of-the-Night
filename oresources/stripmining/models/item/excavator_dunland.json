@@ -1,0 +1,47 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made by Foreck with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "stripmining:items/excavator_dunland"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, 11, -0.5],
+			"scale": [1.7, 1.7, 1.7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [0, 11, -0.5],
+			"scale": [1.7, 1.7, 1.7]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [1.13, 3.2, 1.13],
+			"scale": [1.36, 1.36, 0.7]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -25],
+			"translation": [1.13, 3.2, 1.13],
+			"scale": [1.36, 1.36, 0.7]
+		},
+		"ground": {
+			"translation": [0, 2, 0]
+		},
+		"gui": {
+			"translation": [1.75, 1.75, 0],
+			"scale": [1.19, 1.19, 1.19]
+		},
+		"head": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 13, 7],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"rotation": [0, -180, 0],
+			"translation": [-2.5, 2.5, 0],
+			"scale": [1.51, 1.51, 1.51]
+		}
+	}
+}

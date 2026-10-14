@@ -6,12 +6,9 @@ import crafttweaker.block.IBlock;
 import crafttweaker.block.IMaterial;
 import mods.jei.JEI;
 
-Kiln.registerBlock(<contenttweaker:bwm_kiln_bricks>);
+Kiln.registerBlock(<ceramics:clay_hard:1>);
 
 Kiln.removeAll();
-
-recipes.addShaped(<contenttweaker:bwm_kiln_bricks>*4, [[<pyrotech:material:4>, <contenttweaker:brick_minecraft_clay>, <pyrotech:material:4>],[<contenttweaker:brick_minecraft_clay>, <pyrotech:material:4>, <contenttweaker:brick_minecraft_clay>], [<pyrotech:material:4>, <contenttweaker:brick_minecraft_clay>, <pyrotech:material:4>]]);
-
 
 var kilnFood as IItemStack[][IIngredient] = {
 	<contenttweaker:salty_crust> : [<animania:salt>],		//Salt

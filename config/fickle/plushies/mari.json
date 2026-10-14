@@ -1,0 +1,22 @@
+{
+    "id": "mari",
+    "displayName": "Mari",
+    "tooltip": "An energetic and bubbly student (Courtesy of CalaMariGold).",
+    
+    "modelPath": "file:plushies/mari/plushie_mari",
+    "texturePath": "file:plushies/mari/plushie_mari_base.png",
+    "squishTexturePath": "file:plushies/mari/plushie_mari_base.png",
+    
+    "scale": 1.0,
+    "offsetX": 0.5,
+    "offsetY": 0.0,
+    "offsetZ": 0.5,
+    
+    "animated": true,
+    "squishDuration": 6,
+    "squishAmount": 0.35,
+    "squishStyle": "bounce",
+    
+    "material": "cloth",
+    "squishSound": "customdisc:itsjoke"
+}

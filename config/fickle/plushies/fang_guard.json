@@ -1,0 +1,22 @@
+{
+    "id": "fang_guard",
+    "displayName": "Sir Fang Guard",
+    "tooltip": "A cute and squishy companion (Courtesy of Sir Fang Guard).",
+    
+    "modelPath": "file:plushies/fang_guard/plushie_fang_guard",
+    "texturePath": "file:plushies/fang_guard/plushie_fang_guard_base.png",
+    "squishTexturePath": "file:plushies/fang_guard/plushie_fang_guard_base.png",
+    
+    "scale": 1.0,
+    "offsetX": 0.5,
+    "offsetY": 0.0,
+    "offsetZ": 0.5,
+    
+    "animated": true,
+    "squishDuration": 6,
+    "squishAmount": 0.35,
+    "squishStyle": "bounce",
+    
+    "material": "cloth",
+    "squishSound": "minecraft:entity.cat.ambient"
+}

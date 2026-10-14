@@ -1,0 +1,22 @@
+{
+    "id": "elite",
+    "displayName": "Elite Meats",
+    "tooltip": "A cute and squishy companion (Courtesy of Elite Meats).",
+    
+    "modelPath": "file:plushies/elite/plushie_elite",
+    "texturePath": "file:plushies/elite/plushie_elite_base.png",
+    "squishTexturePath": "file:plushies/elite/plushie_elite_base.png",
+    
+    "scale": 1.0,
+    "offsetX": 0.5,
+    "offsetY": 0.0,
+    "offsetZ": 0.5,
+    
+    "animated": true,
+    "squishDuration": 6,
+    "squishAmount": 0.35,
+    "squishStyle": "bounce",
+    
+    "material": "cloth",
+    "squishSound": "minecraft:ambient.cave"
+}

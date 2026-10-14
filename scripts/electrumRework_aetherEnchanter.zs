@@ -14,21 +14,51 @@ import mods.advancedmortars.Mortar;
 
 val elec = <ore:ingotElectrum>.firstItem;
 val elecnugget = <ore:nuggetElectrum>.firstItem;
+val elecblock = <ore:blockElectrum>.firstItem;
+val elecslab = <contentcreator:electrum_slab>;
 
 //BLOCKS
-recipes.addShaped("electrum_to_block",<ore:blockElectrum>.firstItem, [
+recipes.addShaped("electrum_to_block",elecblock, [
     [elec, elec, elec],
     [elec, elec, elec], 
     [elec, elec, elec]
 ]);
 recipes.addShapeless("block_to_electrum",<ore:ingotElectrum>.firstItem* 9,
-    [<ore:blockElectrum>]
+    [elecblock]
 );
 recipes.addShaped("electrum_to_plateBlock",<contenttweaker:electrum_plate> * 24, [
     [elec, elec, elec],
     [elec, <minetraps:nails:*>, elec], 
     [elec, elec, elec]
 ]);
+
+recipes.addShaped("plateBlock_to_electrum",elec * 3, [
+    [<contenttweaker:electrum_plate>, <contenttweaker:electrum_plate>, <contenttweaker:electrum_plate>],
+    [<contenttweaker:electrum_plate>, null, <contenttweaker:electrum_plate>], 
+    [<contenttweaker:electrum_plate>, <contenttweaker:electrum_plate>, <contenttweaker:electrum_plate>]
+]);
+
+recipes.addShaped("electrum_trapdoor",<bblsom:electrum_trapdoor>, [
+    [elec, elec],
+    [elec, elec]
+]);
+
+recipes.addShaped("electrum_to_slab",elecslab * 6, [
+    [elecblock, elecblock, elecblock]
+]);
+recipes.addShapeless("slab_to_electrum",elecblock, [elecslab, elecslab]);
+
+recipes.addShapedMirrored("electrum_to_stairs",<contentcreator:electrum_stairs> * 8, [
+    [elecblock, null, null],
+	[elecblock, elecblock, null],
+	[elecblock, elecblock, elecblock]
+]);
+recipes.addShapedMirrored("electrum_slab_to_stairs",<contentcreator:electrum_stairs> * 4, [
+    [elecslab, null, null],
+	[elecslab, elecslab, null],
+	[elecslab, elecslab, elecslab]
+]);
+recipes.addShapeless("stairs_to_electrum",elecblock*3, [<contentcreator:electrum_stairs>,<contentcreator:electrum_stairs>,<contentcreator:electrum_stairs>,<contentcreator:electrum_stairs>]);
 
 //ELECTRUM RECIPES
 recipes.addShaped("electrum_nugget_to_ingot",elec, [
@@ -58,12 +88,14 @@ Enchanter.registerEnchanterFuel(<dungeontactics:ducttape:*>,3000);
 //Misc.
 Enchanter.registerEnchantment(<harvestersnight:harvester_scythe>, 8800);
 Enchanter.registerEnchantment(<dungeontactics:lithen_scythe>, 8800);
+Enchanter.registerEnchantment(<contenttweaker:sowing_scepter>, 8800);
+Enchanter.registerEnchantment(<contenttweaker:harmony_staff>, 8800);
 
 //Aether
 Enchanter.registerEnchantment(<aether_legacy:valkyrie_pickaxe>, 8800);
 Enchanter.registerEnchantment(<aether_legacy:valkyrie_axe>, 8800);
 Enchanter.registerEnchantment(<aether_legacy:valkyrie_shovel>, 8800);
-Enchanter.registerEnchantment(<aether_legacy:valkyrie_lance>, 8800);
+Enchanter.registerEnchantment(<spartanweaponry:pike_invar>, 8800);
 
 Enchanter.registerEnchantment(<aether_legacy:valkyrie_helmet>, 8800);
 Enchanter.registerEnchantment(<aether_legacy:valkyrie_chestplate>, 8800);
@@ -135,6 +167,20 @@ Enchanter.registerEnchantment(<atop:ruby_axe>, 8800);
 Enchanter.registerEnchantment(<atop:ruby_shovel>, 8800);
 Enchanter.registerEnchantment(<atop:ruby_hoe>, 8800);
 
+//Gem Weapons
+Enchanter.registerEnchantment(<spartanweaponry:boomerang_diamond>, 8800);
+Enchanter.registerEnchantment(<spartanweaponry:greatsword_diamond>, 8800);
+Enchanter.registerEnchantment(<spartanweaponry:halberd_diamond>, 8800);
+Enchanter.registerEnchantment(<spartanweaponry:hammer_diamond>, 8800);
+Enchanter.registerEnchantment(<spartanweaponry:javelin_diamond>, 8800);
+Enchanter.registerEnchantment(<spartanweaponry:longsword_diamond>, 8800);
+Enchanter.registerEnchantment(<spartanweaponry:mace_diamond>, 8800);
+Enchanter.registerEnchantment(<spartanweaponry:rapier_diamond>, 8800);
+Enchanter.registerEnchantment(<spartanweaponry:saber_diamond>, 8800);
+Enchanter.registerEnchantment(<spartanweaponry:staff_diamond>, 8800);
+Enchanter.registerEnchantment(<spartanweaponry:throwing_knife_diamond>, 8800);
+Enchanter.registerEnchantment(<spartanweaponry:throwing_axe_diamond>, 8800);
+
 //Sapphire
 Enchanter.registerEnchantment(<atop:sapphire_helmet>, 8800);
 Enchanter.registerEnchantment(<atop:sapphire_chestplate>, 8800);
@@ -167,20 +213,6 @@ Enchanter.registerEnchantment(<minecraft:diamond_pickaxe>, 8800);
 Enchanter.registerEnchantment(<minecraft:diamond_axe>, 8800);
 Enchanter.registerEnchantment(<minecraft:diamond_shovel>, 8800);
 Enchanter.registerEnchantment(<minecraft:diamond_hoe>, 8800);
-
-//Gem Weapons
-Enchanter.registerEnchantment(<spartanweaponry:boomerang_diamond>, 8800);
-Enchanter.registerEnchantment(<spartanweaponry:greatsword_diamond>, 8800);
-Enchanter.registerEnchantment(<spartanweaponry:halberd_diamond>, 8800);
-Enchanter.registerEnchantment(<spartanweaponry:hammer_diamond>, 8800);
-Enchanter.registerEnchantment(<spartanweaponry:javelin_diamond>, 8800);
-Enchanter.registerEnchantment(<spartanweaponry:longsword_diamond>, 8800);
-Enchanter.registerEnchantment(<spartanweaponry:mace_diamond>, 8800);
-Enchanter.registerEnchantment(<spartanweaponry:rapier_diamond>, 8800);
-Enchanter.registerEnchantment(<spartanweaponry:saber_diamond>, 8800);
-Enchanter.registerEnchantment(<spartanweaponry:staff_diamond>, 8800);
-Enchanter.registerEnchantment(<spartanweaponry:throwing_knife_diamond>, 8800);
-Enchanter.registerEnchantment(<spartanweaponry:throwing_axe_diamond>, 8800);
 
 //Onyx
 Enchanter.registerEnchantment(<simpleores:onyx_helmet>, 15600);
@@ -883,6 +915,7 @@ Enchanter.registerEnchantment(<nyx:meteor_hammer>, 12000);
 Enchanter.registerEnchantment(<demonic_scythe:demonic_scythe>, 12000);
 Enchanter.registerEnchantment(<msmlegacy:relic_infinity>, 12000);
 Enchanter.registerEnchantment(<msmlegacy:relic_keyblade>, 12000);
+
 
 //Legendary Quality
 Enchanter.registerEnchantment(<betteranimalsplus:hirschgeistskullwearable>, 32200);

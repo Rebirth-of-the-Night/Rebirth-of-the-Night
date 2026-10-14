@@ -140,6 +140,7 @@ tile.contenttweaker.fancy_limestone.name=Small Limestone Bricks
 tile.contenttweaker.fancy_soapstone.name=Carved Soapstone
 tile.contenttweaker.ferrought_cincinnasite_lamp.name=Ferrought Cincinnasite Lamp
 tile.contenttweaker.ferrought_corrugated.name=Corrugated Ferrought Block
+tile.contenttweaker.ferrought_flesh_deposit.name=Ferrought Deposit
 tile.contenttweaker.ferrought_hammered.name=Hammered Ferrought Block
 tile.contenttweaker.ferrought_plate.name=Ferrought Plate
 tile.contenttweaker.fiery_nether_sludge.name=Block of Fiery Nether Sludge
@@ -261,6 +262,11 @@ tile.contenttweaker.wither_bone_3.name=Three Standing Wither Bones
 tile.contenttweaker.wither_bone_4.name=Four Standing Wither Bones
 tile.contenttweaker.witheredblock.name=Block of Wither Ashes
 tile.contenttweaker.wolf_statue.name=Wolf Statue
+tile.contenttweaker.dread_cold_bud_small.name=Small Dread Crystal Bud
+tile.contenttweaker.dread_cold_bud_medium.name=Medium Dread Crystal Bud
+tile.contenttweaker.dread_cold_bud_large.name=Large Dread Crystal Bud
+tile.contenttweaker.dread_cold_cluster.name=Dread Crystal Cluster
+tile.contenttweaker.dread_cold_geode.name=Dread Crystal Geode
 tile.contenttweaker.wyrmwood_boards.name=Wyrmwood Nailed Boards
 tile.contenttweaker.wyrmwood_lacquered.name=Wyrmwood lacquered Boards
 
@@ -387,6 +393,7 @@ item.contenttweaker.mythril_mattock.name=Mythril Mattock
 item.contenttweaker.sfs_masonpick.name=Soulforged Steel Mason Pick
 item.contenttweaker.steel_crowbar.name=Steel Crowbar
 item.contenttweaker.harmony_staff.name=Staff Of Harmony
+item.contenttweaker.sowing_scepter.name=Scepter Of Sowing
 
 #------------------------------------------------------------------------------
 # Bricks
@@ -474,6 +481,8 @@ tile.contenttweaker.big_chert_bricks.name=Chert Bricks
 tile.contenttweaker.big_dolomite_bricks.name=Dolomite Bricks
 tile.contenttweaker.big_lignite_bricks.name=Lignite Bricks
 tile.contenttweaker.big_serpentinite_bricks.name=Serpentinite Bricks
+tile.contenttweaker.brick_red_granite_sandstone.name=Red Granite Sandstone Bricks
+tile.contenttweaker.brick_white_sandstone.name=White Sandstone Bricks
 
 item.contenttweaker.brick_quartzite.name=Quartzite Brick   
 item.contenttweaker.brick_red_granite.name=Red Granite Brick   
@@ -511,11 +520,11 @@ item.contenttweaker.brick_holystone.name=Holystone Brick
 item.contenttweaker.brick_sandstone.name=Sandstone Brick   
 item.contenttweaker.brick_red_sandstone.name=Red Sandstone Brick   
 item.contenttweaker.brick_soul_sandstone.name=Soul Sandstone Brick   
-tile.contenttweaker.brick_red_granite_sandstone.name=Red Granite Sandstone Bricks
-tile.contenttweaker.brick_white_sandstone.name=White Sandstone Bricks
+
 item.contenttweaker.brick_black_basalt.name=Nether Basalt Brick   
 item.contenttweaker.brick_end.name=End Stone Brick   
 item.contenttweaker.brick_white.name=White Brick
+
 
 #------------------------------------------------------------------------------
 # Temporary Bricks
@@ -882,8 +891,7 @@ fluid.concentrated_bioflow=Concentrated Bioflow
 # Energy Items/Tiles
 #------------------------------------------------------------------------------
 
-item.contenttweaker.condensed_dread_cold.name=Condensed Dread Cold
-item.contenttweaker.raw_dread_slate.name=Dread Slate Figurine
+item.contenttweaker.raw_dread_slate.name=Dread Slate Chunk
 item.contenttweaker.condensed_vilemist.name=Condensed Vilemist
 item.contenttweaker.viridea_biomatter.name=Viridea Biomatter
 item.contenttweaker.viridea_seed.name=Viridea Seed

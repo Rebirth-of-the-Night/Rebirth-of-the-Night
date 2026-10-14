@@ -1,0 +1,22 @@
+{
+    "id": "baa",
+    "displayName": "Baa",
+    "tooltip": "A very helpful grove sprite.",
+    
+    "modelPath": "file:plushies/baa/plushie_baa",
+    "texturePath": "file:plushies/baa/plushie_baa_base.png",
+    "squishTexturePath": "file:plushies/baa/plushie_baa_base.png",
+    
+    "scale": 0.9,
+    "offsetX": 0.5,
+    "offsetY": 0.0,
+    "offsetZ": 0.5,
+    
+    "animated": true,
+    "squishDuration": 6,
+    "squishAmount": 0.35,
+    "squishStyle": "bounce",
+    
+    "material": "cloth",
+    "squishSound": "primitivemobs:entity.grovesprite.thanks"
+}

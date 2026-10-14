@@ -1,0 +1,266 @@
+{
+    "block_pools": [
+		{
+			"name": "Bone Meal Cave Moss Growth",
+			"type": {
+				"type": "block",
+				"name": "rotn_blocks:cave_moss"
+			},
+			"clicktype": "rightclick",
+			"properties": [
+                {
+                    "type": "array_condition",
+                    "conditions": [
+                        {
+                            "type": "require_item",
+                            "name": "minecraft:dye",
+							"meta": "15"
+                        },
+                        {
+                            "type": "require_block",
+                            "name": "minecraft:air",
+                            "sides": "up"
+                        },
+                        {
+                            "type": "require_Height",
+                            "minValue": 0,
+                            "maxValue": 64
+                        }
+                    ]
+                },
+                {
+					"type": "consume_item",
+					"amount": "1"
+				},
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle happyVillager ~ ~ ~ 0.3 0.5 0.3 1 50"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:block.gravel.place",
+                    "category": "block"
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "0", "y": "0", "z": "0" }]}, {"name": "minecraft:air", "positions":[{"x": "0", "y": "1", "z": "0" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "0", "y": "1", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "0", "y": "1", "z": "0" }]}]}},
+								{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "0", "y": "1", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "0", "y": "1", "z": "0" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "1", "y": "0", "z": "0" }]}, {"name": "minecraft:air", "positions":[{"x": "1", "y": "1", "z": "0" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "1", "y": "1", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "1", "y": "1", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "1", "y": "1", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "1", "y": "1", "z": "0" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "0", "y": "0", "z": "1" }]}, {"name": "minecraft:air", "positions":[{"x": "0", "y": "1", "z": "1" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "0", "y": "1", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "0", "y": "1", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "0", "y": "1", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "0", "y": "1", "z": "1" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "1", "y": "0", "z": "1" }]}, {"name": "minecraft:air", "positions":[{"x": "1", "y": "1", "z": "1" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "1", "y": "1", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "1", "y": "1", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "1", "y": "1", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "1", "y": "1", "z": "1" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "1", "y": "0", "z": "-1" }]}, {"name": "minecraft:air", "positions":[{"x": "1", "y": "1", "z": "-1" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "1", "y": "1", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "1", "y": "1", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "1", "y": "1", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "1", "y": "1", "z": "-1" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "-1", "y": "0", "z": "1" }]}, {"name": "minecraft:air", "positions":[{"x": "-1", "y": "1", "z": "1" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "-1", "y": "1", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "-1", "y": "1", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "-1", "y": "1", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "-1", "y": "1", "z": "1" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "-1", "y": "0", "z": "-1" }]}, {"name": "minecraft:air", "positions":[{"x": "-1", "y": "1", "z": "-1" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "-1", "y": "1", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "-1", "y": "1", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "-1", "y": "1", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "-1", "y": "1", "z": "-1" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "-1", "y": "0", "z": "0" }]}, {"name": "minecraft:air", "positions":[{"x": "-1", "y": "1", "z": "0" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "-1", "y": "1", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "-1", "y": "1", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "-1", "y": "1", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "-1", "y": "1", "z": "0" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "0", "y": "0", "z": "-1" }]}, {"name": "minecraft:air", "positions":[{"x": "0", "y": "1", "z": "-1" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "0", "y": "1", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "0", "y": "1", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "0", "y": "1", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "0", "y": "1", "z": "-1" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "0", "y": "1", "z": "0" }]}, {"name": "minecraft:air", "positions":[{"x": "0", "y": "2", "z": "0" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "0", "y": "2", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "0", "y": "2", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "0", "y": "2", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "0", "y": "2", "z": "0" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "1", "y": "1", "z": "0" }]}, {"name": "minecraft:air", "positions":[{"x": "1", "y": "2", "z": "0" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "1", "y": "2", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "1", "y": "2", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "1", "y": "2", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "1", "y": "2", "z": "0" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "0", "y": "1", "z": "1" }]}, {"name": "minecraft:air", "positions":[{"x": "0", "y": "2", "z": "1" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "0", "y": "2", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "0", "y": "2", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "0", "y": "2", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "0", "y": "2", "z": "1" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "1", "y": "1", "z": "1" }]}, {"name": "minecraft:air", "positions":[{"x": "1", "y": "2", "z": "1" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "1", "y": "2", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "1", "y": "2", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "1", "y": "2", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "1", "y": "2", "z": "1" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "1", "y": "1", "z": "-1" }]}, {"name": "minecraft:air", "positions":[{"x": "1", "y": "2", "z": "-1" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "1", "y": "2", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "1", "y": "2", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "1", "y": "2", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "1", "y": "2", "z": "-1" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "-1", "y": "1", "z": "1" }]}, {"name": "minecraft:air", "positions":[{"x": "-1", "y": "2", "z": "1" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "-1", "y": "2", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "-1", "y": "2", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "-1", "y": "2", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "-1", "y": "2", "z": "1" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "-1", "y": "1", "z": "-1" }]}, {"name": "minecraft:air", "positions":[{"x": "-1", "y": "2", "z": "-1" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "-1", "y": "2", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "-1", "y": "2", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "-1", "y": "2", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "-1", "y": "2", "z": "-1" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "-1", "y": "1", "z": "0" }]}, {"name": "minecraft:air", "positions":[{"x": "-1", "y": "2", "z": "0" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "-1", "y": "2", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "-1", "y": "2", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "-1", "y": "2", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "-1", "y": "2", "z": "0" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "0", "y": "1", "z": "-1" }]}, {"name": "minecraft:air", "positions":[{"x": "0", "y": "2", "z": "-1" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "0", "y": "2", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "0", "y": "2", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "0", "y": "2", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "0", "y": "2", "z": "-1" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "0", "y": "-1", "z": "0" }]}, {"name": "minecraft:air", "positions":[{"x": "0", "y": "0", "z": "0" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "0", "y": "0", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "0", "y": "0", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "0", "y": "0", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "0", "y": "0", "z": "0" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "1", "y": "-1", "z": "0" }]}, {"name": "minecraft:air", "positions":[{"x": "1", "y": "0", "z": "0" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "1", "y": "0", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "1", "y": "0", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "1", "y": "0", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "1", "y": "0", "z": "0" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "0", "y": "-1", "z": "1" }]}, {"name": "minecraft:air", "positions":[{"x": "0", "y": "0", "z": "1" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "0", "y": "0", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "0", "y": "0", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "0", "y": "0", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "0", "y": "0", "z": "1" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "1", "y": "-1", "z": "1" }]}, {"name": "minecraft:air", "positions":[{"x": "1", "y": "0", "z": "1" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "1", "y": "0", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "1", "y": "0", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "1", "y": "0", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "1", "y": "0", "z": "1" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "1", "y": "-1", "z": "-1" }]}, {"name": "minecraft:air", "positions":[{"x": "1", "y": "0", "z": "-1" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "1", "y": "0", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "1", "y": "0", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "1", "y": "0", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "1", "y": "0", "z": "-1" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "-1", "y": "-1", "z": "1" }]}, {"name": "minecraft:air", "positions":[{"x": "-1", "y": "0", "z": "1" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "-1", "y": "0", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "-1", "y": "0", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "-1", "y": "0", "z": "1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "-1", "y": "0", "z": "1" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "-1", "y": "-1", "z": "-1" }]}, {"name": "minecraft:air", "positions":[{"x": "-1", "y": "0", "z": "-1" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "-1", "y": "0", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "-1", "y": "0", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "-1", "y": "0", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "-1", "y": "0", "z": "-1" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "-1", "y": "-1", "z": "0" }]}, {"name": "minecraft:air", "positions":[{"x": "-1", "y": "0", "z": "0" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "-1", "y": "0", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "-1", "y": "0", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "-1", "y": "0", "z": "0" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "-1", "y": "0", "z": "0" }]}]}}]
+                },
+                {
+                    "type": "conditional_Effect",
+                    "condition": {"type": "has_block_structure", "blocks": [{"name": "rotn_blocks:cave_moss", "positions":[{"x": "0", "y": "-1", "z": "-1" }]}, {"name": "minecraft:air", "positions":[{"x": "0", "y": "0", "z": "-1" }]}]},
+                    "effects": [{"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 44.4}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:moss_patch", "positions":[{"x": "0", "y": "0", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_grass", "positions":[{"x": "0", "y": "0", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 11.1}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_rafflesia", "positions":[{"x": "0", "y": "0", "z": "-1" }]}]}},
+                                {"type": "conditional_Effect", "condition": {"type": "random_chance", "chance": 33.3}, "effects": {"type": "place_block_structure", "blocks": [{"name": "contenttweaker:cave_bramble", "positions":[{"x": "0", "y": "0", "z": "-1" }]}]}}]
+                }
+            ]
+        }
+    ]
+}

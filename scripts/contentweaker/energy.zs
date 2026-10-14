@@ -48,9 +48,6 @@ refinedLifeblood.register();
 val rawdreadSlate = VanillaFactory.createItem("raw_dread_slate");
 rawdreadSlate.register();
 
-val condensedDreadCold = VanillaFactory.createItem("condensed_dread_cold");
-condensedDreadCold.register();
-
 val virideaBiomatter = VanillaFactory.createItem("viridea_biomatter");
 virideaBiomatter.register();
 

@@ -1,0 +1,22 @@
+{
+  "name": "amber_alexandrite",
+  "displayName": "Beaming Alexandrite Prospector",
+  "craftingMaterial": "amber_alexandrite",
+  "scanradius": 16,
+  "oreBlacklist": [],
+  "oreWhitelist": [],
+  "color": {
+    "red": 237,
+    "green": 174,
+    "blue": 102
+  },
+  "tier": 0,
+  "harvestLevel": 3,
+  "durability": 2064,
+  "efficiency": 8.8,
+  "damage": 5.0,
+  "attackspeed": -2.1,
+  "enchantability": 10,
+  "enchantable": true,
+  "repairable": true
+}

@@ -1,6 +1,59 @@
 {
 	"populate": 
 	{
+		"natural_ferrought_flesh": {
+			"distribution": "cave",
+			"generator": {
+				"type": "cluster",
+				"block": [
+					{
+						"name": "contenttweaker:ferrought_flesh_deposit",
+						"weight": 2
+					},
+					{
+						"name": "biomesoplenty:blood",
+						"weight": 2
+					},
+					{
+						"name": "biomesoplenty:flesh",
+						"weight": 10
+					}
+				],
+				"cluster-size": 9,
+				"material": [
+					"biomesoplenty:flesh"
+				]
+				},
+			"cluster-count": 3,
+			"material": [
+					"biomesoplenty:flesh"
+				],
+			"ground-level": 120,
+			"chunk-chance": 1,
+			"retrogen": "true"
+			"biome": {
+				"restriction": "whitelist",
+				"value": "biomesoplenty:visceral_heap"
+			}
+		},
+		"visceral_green_slate": {
+			"distribution": "cave",
+			"generator": {
+				"type": "boulder",
+				"block": "earthworks:block_slate_green",
+				"material": ["netherex:fiery_netherrack", "minecraft:netherrack", "biomesoplenty:flesh"],
+				"diameter": 7,
+				"size-variance": 4
+			},
+			"cluster-count": 1,
+			"chunk-chance": 17,
+			"ground-level": 90,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": "biomesoplenty:visceral_heap"
+			}
+		},
 		"visceral_scabs": {
 			"distribution": "cave",
 			"generator": {

@@ -17,18 +17,4 @@ volatile_magic.register();
 
 val magicbomb = VanillaFactory.createItem("magic_bomb");
 magicbomb.maxStackSize = 8;
-magicbomb.onItemUse = function(player, world, pos, hand, facing, blockHit) {
-    if (world.getBlockState(pos).getBlock().definition.id == "dimstack:bedrock") {
-        if (!world.remote) {
-            Commands.call("explosion ~ ~1 ~1 2 false false", player, world);
-            world.setBlockState(<block:minecraft:air>, pos);
-            player.getHeldItem(hand).shrink(1);
-            if (world.getRandom().nextInt(100) < 10) {
-                player.world.spawnEntity(<item:contenttweaker:arcane_quintessence>.createEntityItem(player.world, pos.x, pos.y, pos.z));
-            }
-        }
-        return ActionResult.success();
-    }
-    return ActionResult.pass();
-};
 magicbomb.register();

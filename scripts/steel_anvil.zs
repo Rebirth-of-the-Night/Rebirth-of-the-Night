@@ -135,7 +135,8 @@ Anvil.addShaped(<aether_legacy:valkyrie_boots>,[
     [null, null, <ore:ingotElectrum>]
 ]);
 
-Anvil.addShaped(<aether_legacy:valkyrie_lance>,[
+recipes.remove(<spartanweaponry:pike_invar>);
+Anvil.addShaped(<spartanweaponry:pike_invar>,[
     [null, null, null, <contenttweaker:electrum_core>],
     [null, <ore:ingotElectrum>, <spartanfire:witherbone_handle>, null],
     [<ore:ingotElectrum>, <spartanfire:witherbone_handle>, <ore:ingotElectrum>, null],

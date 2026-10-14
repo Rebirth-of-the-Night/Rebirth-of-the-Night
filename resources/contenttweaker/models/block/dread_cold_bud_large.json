@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "contenttweaker:blocks/dread_cold_bud_large"
+  }
+}

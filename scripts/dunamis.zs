@@ -501,6 +501,18 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("sowing_scepter")
+  .setShaped([
+    [null, <contenttweaker:viridea_seed>, <contenttweaker:giant_blue_flower_petal>],
+    [<contenttweaker:material_part:10>, <ore:arcaneWood>, <contenttweaker:viridea_seed>],
+    [<contenttweaker:scepter_base_arcane>, <contenttweaker:material_part:10>, null]])
+  .setSecondaryIngredients([<primitivemobs:wonder_sap> * 64])
+  .addTool(<contenttweaker:life_rune>, 1)
+  .addTool(<contenttweaker:nature_rune>, 1)
+  .addOutput(<contenttweaker:sowing_scepter>)
+  .create();
+
+RecipeBuilder.get("mage")
   .setName("harmony_staff")
   .setShaped([
     [null, null, <contenttweaker:creation_rune>],
@@ -512,7 +524,6 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
-
 
 // OreDicts
 
