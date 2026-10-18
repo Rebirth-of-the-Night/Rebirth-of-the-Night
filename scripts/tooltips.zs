@@ -481,6 +481,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <aether_legacy:notch_hammer:*>.addTooltip("From the #1 princess in the world.");
 <mowziesmobs:wrought_axe:*>.removeTooltip("Never breaks");
 <mowziesmobs:wrought_axe:*>.addTooltip("Only damaged by dying");
+<mowziesmobs:naga_fang>.removeTooltip("Used to brew Potion of Poison Resistance or craft a Naga Fang Dagger");
 <minecraft:enchanting_table:*>.addTooltip("Only usable at night.");
 <minecraft:enchanting_table:*>.addTooltip("Untapped power lies within this table...");
 <eplus:advanced_table:*>.addTooltip("Requires placing an Enchanting Table Upgrade on a regular Enchanting Table.");
@@ -591,6 +592,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <vials:vial_288>.addShiftTooltip("Pick those annoying drops of 1 mb liquid off your machines and into a tank.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <minecraft:chest>.addShiftTooltip("An old looking chest. It's been varnished to withstand the passage of time.");
 <contenttweaker:ground_fiery_netherrack:*>.addTooltip("Turns into sludge if it touches water.");
+<betterwithmods:material:15>.addTooltip(format.red("It might be smart to study this in the guide before throwing a bunch of them into the evil sand."));
+<betterwithmods:material:15>.addTooltip(format.gray("More information on the Filtered Hopper entry in the guidebook."));
 <betterwithmods:material:15>.addTooltip("Turns into sludge if it touches water.");
 <iceandfire:venerable_stump:*>.addTooltip("Can be used on a mysterious vessel.");
 <betterwithmods:cooking_pot:2>.addTooltip("Can be used on a venerable stump.");
@@ -648,6 +651,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <rustic:tomato>.addTooltip(format.yellow("Summer"));
 <rustic:chili_pepper>.addTooltip("Fertile Seasons:");
 <rustic:chili_pepper>.addTooltip(format.yellow("Summer"));
+<betternether:nether_reed>.addTooltip("Can only be grown on lava-adjacent natural or mycelial netherrack.");
 
 // Wands
 <dungeontactics:magic_scroll>.removeTooltip("^Restoration( \\d+)?");
@@ -744,7 +748,6 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <astikorcarts:plowcart>.addTooltip("Right-click to lower its beams to ground level.");
 
 // BUGS
-#<aether_legacy:enchanted_blueberry:*>.addTooltip(format.red("DO NOT FEED TO HYPPOGRYPHS; CURRENTLY BUGGED AND UNTAMABLE."));
 <aether_legacy:valkyrie_lance>.addTooltip(format.red("BROKEN ITEM. Throw into water to fix"));
 <iceandfire:dragon_horn:*>.addTooltip(format.red("DO NOT USE ON YOUR DRAGONS, IT WILL DELETE THEM!"));
 

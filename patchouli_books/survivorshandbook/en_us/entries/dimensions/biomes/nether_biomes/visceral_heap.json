@@ -1,8 +1,9 @@
 {
-    "name": "Visceral Heap",
-    "icon": "biomesoplenty:flesh",
-    "category": "dimensions_nether_biomes",
-    "pages": [
+  "name": "Visceral Heap",
+  "icon": "biomesoplenty:flesh",
+  "category": "dimensions_nether_biomes",
+  "advancement": "triumph:advancements/progression/nether/enterNether",
+  "pages": [
     {
       "type": "text",
       "text": "I could quite literally smell this place from afar. Up to now, the things I have encountered in this hellish land have been horrifying, dangerous, mysterious and ancient, but this place is downright putrid.$(br2)The landscape here is made out of flesh, faintly moving and pulsing, and worst of all, warm. Large hunks of bone stick out of the meaty"
@@ -18,8 +19,8 @@
     },
     {
       "type": "spotlight",
-      "item": "liquid:blood",
-      "text": "I'm a vampire. roar"
+      "item": "contenttweaker:ferrought_flesh_deposit",
+      "text": "Occasionally found by 'springs' of blood, some sort of metal that doesn't seem easy to process. It might have huge potential; why haven't I seen it used elsewhere like cincinnasite? Perhaps they couldn't process it, or obtain it, or..."
     },
     {
       "type": "spotlight",
@@ -33,5 +34,5 @@
       "title": "Scabs",
       "text": "The residents of the Nether seem like they could care less about where they step; the scabbing and scarring here are proof of that. As gross as this place may be, that's gotta hurt."
     }
-    ]
-  }
+  ]
+}

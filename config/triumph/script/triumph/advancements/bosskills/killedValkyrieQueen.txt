@@ -1,4 +1,4 @@
-setIcon(<aether_legacy:valkyrie_lance>)
+setIcon(<spartanweaponry:pike_invar>)
 setTitle("kill Valkyrie Queen")
 setDescription("#PLACEHOLDER#")
 

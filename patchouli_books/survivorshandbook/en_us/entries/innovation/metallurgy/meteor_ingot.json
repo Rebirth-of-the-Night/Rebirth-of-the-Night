@@ -2,7 +2,7 @@
     "name": "Meteorite Ingot",
     "icon": "nyx:meteor_ingot",
     "category": "innovation_metallurgy",
-    "advancements": "triumph:advancements/bosskills/killedQuazar",
+    "advancement": "triumph:advancements/bosskills/killedQuazar",
     "pages": [
         {
             "type": "spotlight",

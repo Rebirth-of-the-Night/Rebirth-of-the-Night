@@ -3,6 +3,7 @@
   "name": "Arcane Trees",
   "icon": "aether_legacy:golden_oak_sapling",
   "category": "magic_leyoftheland",
+  "advancement": "triumph:advancements/placeholder",
   "read_by_default": "true",
   "pages": [
     {

@@ -11,7 +11,7 @@
         },
         {
             "type": "text",
-            "text": "I can even mark waypoints and markers to key locations like my base.$(br2)Recording geographic locations couldn't be easier with the antique map."
+            "text": "I can even mark waypoints and markers to key locations like my base.$(br2)$(italics)$(#a84b0f)Craft two existing atlases to add up their markers. Craft an empty one with an existing one to duplicate the latter.$(br2)$(bold)Duplicate atlases automatically synchronize their contents, keep a spare one at home if you fear losing yours!"
         }
     ]
 }

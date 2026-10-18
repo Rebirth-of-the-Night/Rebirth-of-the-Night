@@ -3,6 +3,7 @@
   "name": "Dimensions of Magick",
   "icon": "aether_legacy:aether_portal_frame",
   "category": "magic_leyoftheland",
+  "advancement": "triumph:advancements/placeholder",
   "read_by_default": "true",
   "pages": [
     {

@@ -1,0 +1,28 @@
+{
+    "name": "Aetherial Electrum",
+    "icon": "contenttweaker:material_part:12",
+    "category": "innovation_metallurgy",
+    "advancement": "triumph:advancements/ores/ambrosium",
+    "pages": [
+		{
+            "type": "spotlight",
+            "item": "contenttweaker:material_part:12",
+            "text": "Beautifully pale and full of mysteries. $(thing)Beaming amber$() helps stabilizing $(thing)gold$() and $(thing)silver$() in a $(l:innovation/burn/kiln)kiln$()."
+        },
+        {
+            "type": "kiln_spotlight",
+            "title": "Aetherial Electrum Ingot",
+            "input": "contenttweaker:material_part:38",
+            "output": "contenttweaker:material_part:12",
+            "time": "5:20min",
+            "text": "Unlike mundane silver and gold alloys, this material seems to hold fascinating purifying properties that allow it to power the $(l:innovation/utilities/aether_machines)aetherium capacitor$() and channel the power of other materials."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "innovation/burn/kiln"
+            ]
+        }
+    ]
+    
+}

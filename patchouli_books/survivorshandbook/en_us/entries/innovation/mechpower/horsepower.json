@@ -17,7 +17,7 @@
             "type": "relations",
             "entries": [
                 "innovation/mechpower/hand_crank",
-                "innovation/light_machines/presser"
+                "innovation/machines/presser"
             ]
         }
     ]

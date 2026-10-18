@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "totf:chitin",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "gland",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "totf:minecrawler_gland",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.25,
+              "looting_multiplier": 0.10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

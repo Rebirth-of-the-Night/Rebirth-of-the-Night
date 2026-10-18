@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:magma_cream",
+          "weight": 37
+        },
+        {
+          "type": "item",
+          "name": "minecraft:blaze_powder",
+          "weight": 33,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "empty",
+          "weight": 30
+        }
+      ]
+    }
+  ]
+}

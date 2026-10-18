@@ -2,6 +2,7 @@
   "name": "Better Entryways",
   "icon": "malisisdoors:big_door_rusty_3x3",
   "category": "construction",
+  "read_by_default": "true",
   "pages": [
   {
       "type": "text",

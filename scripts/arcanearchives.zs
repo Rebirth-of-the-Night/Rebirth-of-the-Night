@@ -74,7 +74,7 @@ recipes.addShapeless("tome_arcana", <arcanearchives:tome_arcana>.withTag({Book: 
 
 
 //dumbass magic wood brewing recipe until transmutation rune is done
-brewing.addBrew(<ore:logWoodWithoutMagic>, <contenttweaker:magic_blend>, <biomesoplenty:log_1:5>);
+brewing.addBrew(<ore:mundaneWood>, <contenttweaker:magic_blend>, <biomesoplenty:log_1:5>);
 
 
 //////////Gemcutter Table Recipes
@@ -142,7 +142,7 @@ GCT.addRecipe("fireetched_onyx", <contenttweaker:fireetched_onyx>, [<simpleores:
 
 GCT.addRecipe("soulinfused_onyx", <contenttweaker:soulinfused_onyx>, [<simpleores:onyx_gem>, <quark:soul_bead>*6, <quark:soul_powder>*8, <betterwithmods:material:38>*4]);
 
-GCT.addRecipe("holy_zanite", <contenttweaker:holy_zanite>, [<aether_legacy:zanite_gemstone>, <aether_legacy:golden_amber>*6, <aether_legacy:healing_stone>*8, <randomthings:ingredient:5>*4]);
+GCT.addRecipe("holy_zanite", <contenttweaker:holy_zanite>, [<aether_legacy:zanite_gemstone>, <aether_legacy:ambrosium_shard>*6, <aether_legacy:healing_stone>*8, <randomthings:ingredient:5>*4]);
 
 GCT.addRecipe("electrified_zanite", <contenttweaker:electrified_zanite>, [<aether_legacy:zanite_gemstone>, <aether_legacy:ambrosium_shard>*6, <ore:nuggetElectrum>.firstItem*8, <minecraft:glowstone_dust>*4]);
 

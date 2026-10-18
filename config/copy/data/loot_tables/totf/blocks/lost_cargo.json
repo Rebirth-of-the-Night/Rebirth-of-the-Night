@@ -1,0 +1,28 @@
+{
+    "pools": [
+        {
+            "name": "lost_cargo",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "totf:blocks/lost_cargo/normal_cargo",
+                    "weight": 15,
+                    "quality": -2
+                },
+                {
+                    "type": "loot_table",
+                    "name": "totf:blocks/lost_cargo/bountiful_cargo",
+                    "weight": 5,
+                    "quality": 2
+                },
+                {
+                    "type": "loot_table",
+                    "name": "totf:blocks/paintings/unique_paintings",
+                    "weight": 5,
+                    "quality": 1
+                }
+            ]
+        }
+    ]
+}

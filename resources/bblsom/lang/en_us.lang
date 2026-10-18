@@ -7,6 +7,7 @@ tile.bblsom.arzabals_veil.name=(WIP) Arzabal's Veil
 tile.bblsom.arzabals_veil_huge.name=(WIP) Arzabal's Veil
 
 tile.bblsom.block_brooding_silk.name=Block of Brooding Silk
+tile.bblsom.block_beaming_resin.name=Block of Beaming Resin
 
 item.tile.bblsom.wildflowers_west_kraired.name=Kraired Wildflowers
 item.tile.bblsom.wildflowers_north_kraired.name=Kraired Wildflowers
@@ -18,8 +19,9 @@ item.tile.bblsom.wildflowers_hailakand.name=Hailakand Wildflowers
 item.tile.bblsom.wildflowers_mortarid.name=Mortarid Wildflowers
 item.tile.bblsom.wildflowers_prektane.name=Prektane Wildflowers
 item.tile.bblsom.wildflowers_wanlonggu.name=Wanlonggu Wildflowers
-item.tile.bblsom.paper.name=Paper
+item.tile.bblsom.paper.name=Loose Paper
 item.tile.bblsom.paper_w.name=Strange Paper
 
 tile.bblsom.cincinnasite_trapdoor.name=Cincinnasite Trapdoor
 
+tile.bblsom.electrum_trapdoor.name=Aetherial Electrum Trapdoor

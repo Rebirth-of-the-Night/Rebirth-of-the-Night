@@ -1,0 +1,39 @@
+{
+  "name": "Valken Heater",
+  "icon": "exalembico:heater",
+  "category": "innovation_burn",
+  "pages": [
+	{
+      "type": "text",
+      "text": "Stoves and forges are good for food and metallurgy, but I could use something more advanced. I know that Valks in the Aether commonly use effective burners for powering everything from their war machine to kōji tea. I could use that for powering an $(l:innovation/alchemy/alembic)alembic$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:heater1",
+      "text": "This burner is not easy to craft, and I might have much better luck trying to source one from abandoned Valken outposts or lodges in the Aether."
+    },
+    {
+      "title": "Usage",
+      "type": "text",
+      "text": "$(#a84b0f)Once fuel is added, the temperature slider will reveal available heat levels. Select one, then turn on the machine. Toggling the button again will stop it after the current fuel has stopped burning.$()"
+    },
+    {
+      "type": "image",
+      "images": ["book:images/valken_heater.png"],
+      "border": "false",
+	  "text": "It's surprisingly convenient. Although fuel-hungry..."
+    },
+    {
+	  "title": "Specific Heat Levels",
+      "type": "text",
+      "text": "$(li)$(t:Bake Kettle, Wok, Cooking Pot)$(thing)Cooking implements:$() 1, 2$()$(li)$(l:innovation/alchemy/alembic)Alembic: $()$(t:Recipe-dependent)(?)$()$(li)$(l:innovation/burn/crucible)Crucible$() / $(l:innovation/burn/cauldron)C. Cauldron$(): $(li2)Normal:$() 2$(li2)$(l:innovation/burn/stoked_flame)Stoked: $()3, 4$(li)$(thing)Melting Crucible:$() $(t:Recipe-dependent. Reaches up to 2600º)1-4$()."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

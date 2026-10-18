@@ -2,6 +2,7 @@
     "name": "Crucible Steel",
     "icon": "dungeontactics:steel_ingot",
     "category": "innovation_metallurgy",
+    "read_by_default": "true",
     "pages": [
         {
             "type": "spotlight",

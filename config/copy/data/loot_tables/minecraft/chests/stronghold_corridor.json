@@ -11,6 +11,13 @@
           "name": "minecraft:ender_pearl"
         },
         {
+          "entryName": "contenttweaker:suturing_kit",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "contenttweaker:suturing_kit"
+        },
+        {
           "entryName": "minecraft:diamond",
           "weight": 3,
           "quality": 0,

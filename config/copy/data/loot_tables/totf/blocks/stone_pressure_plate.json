@@ -1,0 +1,15 @@
+{
+  "pools": [
+    {
+      "name": "stone_pressure_plate",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "totf:stone_pressure_plate",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

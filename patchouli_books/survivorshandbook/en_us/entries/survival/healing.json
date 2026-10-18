@@ -1,0 +1,59 @@
+{
+  "name": "Healing",
+  "icon": "contenttweaker:suturing_kit",
+  "category": "survival",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "text",
+        "text": "I can heal quickly on a full stomach, so alimentation is key, but I can't always rely on food. I should always keep supplies for quick boosts and sustained healing.$(br2)$(#a84b0f)$(italics)Your saturation (yellow outline on hunger bar shanks) heals you, but it slows down when near depleted, and being full prevents recharging it.$()"
+    },
+    {
+      "type": "text",
+        "text": "In the following pages, I list a number of remedies, drugs, and elixirs that I have researched or heard about."
+    },
+    {
+      "type": "spotlight",
+      "item": "betterwithmods:raw_egg",
+      "title": "Not milk and veggies",
+      "text": "This mix of $(t:sourced from Stomachs, dropped by cows)$(thing)enzymes$() and moss, both of which have healing qualities, tastes worse than ferrought but is an effective source of regeneration, if I can stomach it. I might not be able to defend myself during the $(t:short blindness, vulnerability, and nausea)$(thing)aftertaste$()."
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:bandage",
+      "title": "Slow Healing",
+      "text": "Clean bandages of durable fiber sterilized in water, $(bold)reliable$(). They provide an $(t:6 HP)$(thing)instant boost$(). Preparing them requires some initial setup with a kettle, and applying them during combat would be foolish. Something to hold on to, until I'm out of danger."
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:bandage_salve",
+      "text": "Bandages with a healing salve distilled from $(t:found commonly in caves under forests and other places)$(item)Moss$(), $(t:a plant native to swampy areas)$(item)Trillium$(), $(t:the seed for eucalyptus saplings)$(item)Eucalyptus Capsule$(), $(t:common to dry or sandy environments, but found almost everywhere)$(item)Aloe Vera$(), $(t:Extremely rarely found deep underground)$(item)Blue Glowshroom$(), and $(t:commonly found in most caves)$(item)Cave Root$(), heals more and continues healing."
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:suturing_kit",
+      "text": "The best first aid kit that combines practical medicine with non-standard healing techniques. Big drawbacks but lots of health."
+    },
+    {
+      "type": "spotlight",
+      "item": "rustic:elixir{display: {LocName: 'Metabolic Whey'}, ElixirEffects: [{Effect: 'minecraft:regeneration', Duration: 160, Amplifier: 2}, {Effect: 'minecraft:hunger', Duration: 160, Amplifier: 29}, {Effect: 'minecraft:nausea', Duration: 160, Amplifier: 0}]}",
+      "title": "First aid",
+      "text": "This is a rather cheap but relatively dangerous concoction, yet more bearable than Tripe Musguette. I just need to have some food before and after it; large healing boost for large amounts of calories."
+    },
+    {
+      "type": "spotlight",
+      "item": "rustic:elixir{display: {LocName: 'Simple Healing Elixir'}, ElixirEffects: [{Effect: 'minecraft:instant_health', Amplifier: 4}]}",
+      "title": "Panacea",
+      "text": "A powerful and expensive elixir that quickly restores most people to a $(t:10 HP)$(thing)healthy state$().$(br2)The value of healing elixirs lies in their speed, and lack of drawbacks; but the impracticality to create them en masse means they are more of a commodity."
+    },
+    {
+      "type": "spotlight",
+      "item": "aether_legacy:healing_stone",
+      "text": "Ambrosia is the mythical cure-all of divine origin, cause of great joy and discord. As far as I am aware, this rock-like object was real deal but is also equally noxious. I include it here as it may cure $(t:Emancipated Ambrosia has a 80% chance to cure the plague and guarantees recovering any lost hearts from dying to the plague)$(thing)other afflictions$()."
+    },
+    {
+      "type": "spotlight",
+      "item": "iceandfire:ambrosia{display: {Name: '?'}}"
+    }
+  ]
+}

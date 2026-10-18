@@ -1,0 +1,15 @@
+{
+    "pools": [
+        {
+            "name": "hay_bed",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "pyrotech:tinder",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

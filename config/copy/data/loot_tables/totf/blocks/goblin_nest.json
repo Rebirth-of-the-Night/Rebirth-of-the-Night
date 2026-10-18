@@ -1,0 +1,15 @@
+{
+    "pools": [
+        {
+            "name": "goblin_nest",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:cobblestone",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

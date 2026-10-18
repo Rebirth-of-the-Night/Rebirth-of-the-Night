@@ -28,10 +28,11 @@
     {
       "type": "crafting",
       "recipe": "crafttweaker:flint_and_steel_relic",
-      "text": "The superior firestarter, made with a chunk of $(thing)flint$() from gravel and a old piece of $(thing)steel$() dropped from some undead. Unlike previous methods listed, this can be reused many times. The people of the past must have carried these around."
+      "text": "If I can get a $(item)steel artifact$() from some undead, I can create a flint and steel earlier on. Otherwise, I will have to create my own steel. Most wanderers carried flint and steel for its reliability. It shouldn't be hard to get a piece."
     },
     {
       "type": "text",
+	  "anchor": "campfire",
       "text": "As for its applications, I've so far thought of several ways to utilize fire:$(br2)1. Placing some $(thing)dried fibers$() on the ground and surrounding it with logs, then lighting it. Makes for an easy $(thing)campfire$() to cook with and relax by, though the logs burn out eventually.$(br2)2. Heating up a $(thing)cooking cauldron$(), $(thing)crucible$(), or $(thing)soaking pot$() by lighting a fire directly underneath."
     },
     {

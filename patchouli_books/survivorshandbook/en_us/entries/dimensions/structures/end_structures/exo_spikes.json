@@ -2,6 +2,7 @@
     "name": "Exo Spikes",
     "icon": "biomesoplenty:biome_block",
     "category": "dimensions_end_structures",
+    "advancement": "triumph:advancements/progression/end/placeholder",
     "pages": [
     {
         "type": "text",

@@ -1,0 +1,38 @@
+{
+    "name": "Horse",
+    "icon": "biomesoplenty:berries",
+    "category": "slayers_journal_bestiary",
+    "advancement": "triumph:advancements/progression/slayersjournal",
+    "sortnum": 40,
+    "read_by_default": "true",
+    "pages": [
+		{
+			"type": "entity",
+			"entity": "minecraft:horse",
+			"scale": 0.8,
+			"offset": 0.25,
+			"rotate": "true",
+			"default_rotation": -45,
+			"text": "Smart, loving, and $(bold)very versatile."
+		},
+		{
+			"type": "text",
+			"text": "Among other things, horses trottle at a good speed, and can be encouraged to gallop even faster, although that difficults steering. They can jump high and swim decently well.$(br2) Their speed stacks up with that of $(thing)$(t:Blocks that can be searched as 'Valid path block' in JEI.)path blocks$()."
+		},
+		{
+			"type": "text",
+			"text": "Horses live in a variety of $(thing)$(t:Plains, Savanna/Savanna M, Savanna Plateau/Savanna Plateau M, Chaparral, Grassland, Orchard, Prairie, Shrubland, Steppe, Sunflower Plains.)grassy plains$(), although they are particularly common in $(bold)steppes$() and $(bold)grasslands$(). And although a grazing animal, they are huge lovers of prepared $(bold)$(l:survival/gathering/hawthorne)hawthornes$(), the $(bold)key to unlock their true potential$()."
+		},
+		{
+			"type": "text",
+			"text": "Finally, not only are horses a fast method of transport. They can power $(l:innovation/mechpower/horsepower)certain machinery$() just like cows, and pull $(thing)$(t:While mounting a horse, press the default key [G] to attach or detach the cart.)plows and cars$()."
+		},
+		{
+			"type": "relations",
+			"entries": [
+				"survival/gathering/hawthorne",
+				"innovation/mechpower/horsepower"
+			]
+		}
+    ]
+}

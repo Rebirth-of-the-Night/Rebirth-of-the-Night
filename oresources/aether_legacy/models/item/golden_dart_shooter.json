@@ -1,0 +1,36 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made by Foreck with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "aether_legacy:items/projectile/golden_dart_shooter"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-175.75, 88, -155],
+			"translation": [0, 4, 0.5],
+			"scale": [1.73, 1.73, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-177.75, -89.5, 147.5],
+			"translation": [0, 4, 0.5],
+			"scale": [1.73, 1.73, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [90.94, 60.09, -136.4],
+			"translation": [-4.12, 3.7, -0.62],
+			"scale": [0.9, 0.9, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-76.03, -61.13, -34.65],
+			"translation": [-4.12, 3.7, -0.62],
+			"scale": [0.9, 0.9, 0.68]
+		},
+		"gui": {
+			"scale": [1.28, 1.28, 1]
+		},
+		"fixed": {
+			"scale": [1.55, 1.55, 1]
+		}
+	}
+}

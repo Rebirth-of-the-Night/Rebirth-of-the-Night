@@ -1,0 +1,36 @@
+{
+  "sortnum": 6,
+  "name": "Magicite",
+  "icon": "quark:crystal:7",
+  "category": "magic",
+  "advancement": "triumph:advancements/magick/leyoftheland/magicite",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "text",
+      "text": "I've happened upon a type of stone that seems to be saturated with magic. Upon breaking it, it released its quintessence.$(br2)Perhaps by being exposed to leylines, these stones have soaked in magic, and solidified it, allowing for collection.$(br2)I'll use this section to record my findings."
+    },
+    {
+      "type": "image",
+      "images": ["book:images/magicite.png"],
+      "border": "true"
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:vis_speck",
+      "text": "Magicite seems to occassionally contain vis specks upon breaking."
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:magicked_stone",
+      "text": "This familiar looking stone is what is left after magicite has been depleted of its essence. Still, however, it has decorative uses that Botanical fans might enjoy."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "magic/quintessence",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

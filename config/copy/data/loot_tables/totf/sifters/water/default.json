@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:clay_ball",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:dye",
+          "weight": 13,
+          "functions": [
+            {
+              "function": "set_data",
+              "data": 0
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:reeds",
+          "weight": 16
+        },
+        {
+          "type": "item",
+          "name": "minecraft:prismarine_shard",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gold_nugget",
+          "weight": 13
+        },
+        {
+          "type": "empty",
+          "weight": 30
+        }
+      ]
+    }
+  ]
+}

@@ -8,7 +8,7 @@
         {
             "type": "crafting",
             "recipe": "crafttweaker:hand_crank",
-            "text": "A rudimentary but straightforward solution.$(br2)By placing it next to my $(l:innovation/light_machines/millstone)millstone$(), I’m able to grind up materials in short bursts of effort, giving me useful dyes, fibers and hides."
+            "text": "A rudimentary but straightforward solution.$(br2)By placing it next to my $(l:innovation/machines/millstone)millstone$(), I’m able to grind up materials in short bursts of effort, giving me useful dyes, fibers and hides."
         },
         {
             "type": "text",
@@ -17,7 +17,7 @@
         {
             "type": "relations",
             "entries": [
-                "innovation/light_machines/millstone"
+                "innovation/machines/millstone"
             ]
         }
     ]

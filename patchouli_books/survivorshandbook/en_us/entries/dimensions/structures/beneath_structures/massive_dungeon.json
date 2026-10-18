@@ -2,6 +2,7 @@
     "name": "Massive Dungeons",
     "icon": "minecraft:mob_spawner",
     "category": "dimensions_beneath_structures",
+    "advancement": "triumph:advancements/progression/beneath/placeholder",
     "pages": [
     {
         "type": "text",

@@ -1,0 +1,32 @@
+{
+  "name": "Nether Quartz",
+  "icon": "minecraft:quartz",
+  "category": "innovation_materials",
+  "advancement": "triumph:advancements/ores/quartz",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "minecraft:quartz",
+      "title": "Nether Quartz",
+      "text": "Almost opaque quartz extremelly common to the nether with a variety of properties. It can be used for certain redstone components, stronger glass, or as a source of refractory."
+    },
+ 	{
+      "type": "crafting",
+      "recipe": "minecraft:quartz_block",
+      "text": "Particularly pristine, quartz can be found anywhere in the world, but the quality of the samples and the amount found in the Nether are second to none I've seen."
+    },
+    {
+      "type": "spotlight",
+      "item": "pyrotech:material:37",
+      "title": "Dense Nether Quartz",
+      "text": "Of particular note are the sprouts of dense quartz found in the Nether, full of kaolin, from which highly durable porcelain can be created. Perhaps this composition has to do with the toughness of netherbrick?"
+    },
+	{
+		"type": "relations",
+		"entries": [
+			"dimensions/nether"
+		]
+	}
+  ]
+    
+}

@@ -1,0 +1,34 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "aether_legacy:items/weapons/vampire_blade"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, 11.25, -0.25],
+			"scale": [1.7, 1.7, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [0, 2.25, 0.75],
+			"scale": [1.7, 1.7, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [1.13, 4.2, 1.13],
+			"scale": [1, 1, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -25],
+			"translation": [1.13, 4.2, 1.13],
+			"scale": [1, 1, 0.68]
+		},
+		"ground": {
+			"translation": [0, 4.25, 0],
+			"scale": [1.2, 1.2, 0.7]
+		}
+	}
+}

@@ -18,6 +18,7 @@ id="quark:biotite" -> 256
 id="simpleores:onyx_gem" -> 256
 id="aether_legacy:zanite_gemstone" -> 256
 id="aether_legacy:ambrosium_shard" -> 256
+id="aether_legacy:golden_amber" -> 256
 id~="*:*_nugget" -> 256
 id="endreborn:item_raw_endorium" -> 256
 # raw ores
@@ -57,6 +58,7 @@ id~="pyrotech_compat:rock*" -> 256
 # misc. materials
 id="contenttweaker:*quintessence" -> 256
 id="contenttweaker:spider_silk" -> 256
+id="totf:silk_spindle" -> 16
 id="minecraft:stick" -> 256
 id="minecraft:reeds" -> 256
 id="minecraft:dye" -> 256
@@ -180,6 +182,9 @@ id="pyrotech:marshmallow" -> 256
 id="pyrotech:marshmallow_roasted" -> 256
 id="betterwithmods:dirt_pile" -> 256
 # potions & liquids & etc
+id="vials:vial_288" -> 100
+id="vials:vial_432" -> 4
+id="vials:vial_576" -> 2
 id="dynamictrees:dendropotion" -> 8
 id="dynamictrees:dendropotion:1" -> 8
 id="dynamictrees:dendropotion:2" -> 8
@@ -287,4 +292,3 @@ id="dungeontactics:charm_emaciated" -> 8
 id="dungeontactics:charm_heavy" -> 8
 id="dungeontactics:charm_sapping" -> 8
 id="dungeontactics:charm_toxic" -> 8
-

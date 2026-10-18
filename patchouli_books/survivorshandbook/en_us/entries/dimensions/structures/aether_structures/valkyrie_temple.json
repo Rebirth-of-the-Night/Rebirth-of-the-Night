@@ -2,6 +2,7 @@
     "name": "Valkyrie Temple",
     "icon": "aether_legacy:angelic_double_slab",
     "category": "dimensions_aether_structures",
+    "advancement": "triumph:advancements/progression/aether/placeholder",
     "pages": [
     {
         "type": "text",

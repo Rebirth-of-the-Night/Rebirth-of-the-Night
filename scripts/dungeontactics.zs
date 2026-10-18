@@ -1081,7 +1081,7 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setName("wandRestorationJEI")
   .setShaped([
-    [null, <ore:feather>, <aether_legacy:golden_amber>],
+    [null, <ore:feather>, <aether_legacy:ambrosium_shard>],
     [null, <contenttweaker:holy_zanite>, <ore:feather>],
     [<contenttweaker:wand_base_arcane>, null, null]])
   .addTool(<contenttweaker:life_rune>, 1)
@@ -1094,7 +1094,7 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setName("wandRestoration")
   .setShaped([
-    [null, <ore:feather>, <aether_legacy:golden_amber>],
+    [null, <ore:feather>, <aether_legacy:ambrosium_shard>],
     [null, <contenttweaker:holy_zanite>, <ore:feather>],
     [<contenttweaker:wand_base_arcane>, null, null]])
   .addTool(<contenttweaker:life_rune>, 1)

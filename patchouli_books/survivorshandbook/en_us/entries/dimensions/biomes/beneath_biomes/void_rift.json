@@ -2,6 +2,7 @@
     "name": "Void Rift",
     "icon": "contenttweaker:voided_rock",
     "category": "dimensions_beneath_biomes",
+    "advancement": "triumph:advancements/progression/beneath/placeholder",
     "pages": [
     {
         "type": "text",

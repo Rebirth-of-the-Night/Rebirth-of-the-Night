@@ -11,7 +11,7 @@
         },
         {
             "type": "text",
-            "text": "First, I'll need to scour the leather by running it through a $(l:innovation/light_machines/millstone)millstone$() to get scoured leather.$(br2)Then I should be able to throw it in a cooking cauldron with 4 pieces of $(thing)wood bark$() or 1 block of $(thing)dung$() to make tanned leather.$(br2)Afterwards, I can also cut up the leather into cut leather and leather straps with shears if necessary."
+            "text": "First, I'll need to scour the leather by running it through a $(l:innovation/machines/millstone)millstone$() to get scoured leather.$(br2)Then I should be able to throw it in a cooking cauldron with 4 pieces of $(thing)wood bark$() or 1 block of $(thing)dung$() to make tanned leather.$(br2)Afterwards, I can also cut up the leather into cut leather and leather straps with shears if necessary."
         },
         {
             "type": "crafting",
@@ -23,7 +23,7 @@
 			"entries": [
                 "exploration/tools/backpack",
                 "exploration/tools/toolbelt",
-				"innovation/light_machines/millstone"
+				"innovation/machines/millstone"
 			]
 		}
     ]

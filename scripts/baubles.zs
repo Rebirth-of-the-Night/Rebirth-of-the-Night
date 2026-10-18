@@ -23,6 +23,12 @@ import mods.jei.JEI;
 <behgameon:accessory_17>.addTooltip(format.darkPurple("Greatly increases the critical efficacy of daggers."));
 <behgameon:accessory_17>.addTooltip(format.darkPurple("Perhaps the increased balance of the bearer has to do with the loose pieces within?"));
 
+<behgameon:accessory_32>.addTooltip(format.darkPurple("Slightly increases life and heart resilience. A blessing of Asaiosa."));
+<behgameon:accessory_32>.addTooltip(format.darkPurple("Effect can be strengthened by holding a Staff of Harmony."));
+
+<behgameon:ring_53>.addTooltip(format.darkPurple("Greatly decreases weight penalty, allowing to dodge with heavier armor."));
+<behgameon:ring_53>.addTooltip(format.darkPurple("Enchanted with the winds of the Mah'Y'yr desert on which Shushela dances."));
+
 /////////////////////////////////////////////////////
 
 
@@ -477,14 +483,23 @@ recipes.addShapeless("Wormhole to Return", <bountifulbaubles:potionrecall>,
 // Rings, amulets, oh my
 
 recipes.remove(<bountifulbaubles:amuletsinempty>);
-
-
 RecipeBuilder.get("mage")
   .setShaped([
     [<iceandfire:chain_link>, <iceandfire:chain_link>, <iceandfire:chain_link>],
     [<iceandfire:chain_link>, <contenttweaker:vis_speck>, <iceandfire:chain_link>],
     [<iceandfire:silver_nugget>, <iceandfire:silver_ingot>, <iceandfire:silver_nugget>]])
   .addOutput(<bountifulbaubles:amuletsinempty>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<iceandfire:chain_link>, <iceandfire:chain_link>, <iceandfire:chain_link>],
+    [<iceandfire:chain_link>, <contenttweaker:vis_speck>, <iceandfire:chain_link>],
+    [<minecraft:gold_nugget>, <ore:ingotGold>, <minecraft:gold_nugget>]])
+  .addOutput(<behgameon:accessory_32>)
+  .addTool(<contenttweaker:life_rune>, 1)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();

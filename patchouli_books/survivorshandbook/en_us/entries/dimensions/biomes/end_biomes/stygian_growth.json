@@ -2,6 +2,7 @@
     "name": "Stygian Growth",
     "icon": "stygian:endgrass",
     "category": "dimensions_end_biomes",
+    "advancement": "triumph:advancements/progression/end/placeholder",
     "pages": [
     {
         "type": "text",

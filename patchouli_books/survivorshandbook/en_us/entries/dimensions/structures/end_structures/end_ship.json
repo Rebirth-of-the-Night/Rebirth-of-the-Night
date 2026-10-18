@@ -2,6 +2,7 @@
     "name": "End Ship",
     "icon": "minecraft:purpur_block",
     "category": "dimensions_end_structures",
+    "advancement": "triumph:advancements/progression/end/placeholder",
     "pages": [
     {
         "type": "text",

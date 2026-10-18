@@ -1,0 +1,52 @@
+{
+    "pools": [
+        {
+            "name": "unique_paintings",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "totf:painting_in_the_woods",
+                    "entryName": "painting_in_the_woods",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "totf:painting_portrait",
+                    "entryName": "painting_portrait",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "totf:painting_the_bloodcurling",
+                    "entryName": "painting_the_bloodcurling",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "totf:painting_wheel",
+                    "entryName": "painting_wheel",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "totf:painting_resting_mischief",
+                    "entryName": "painting_resting_mischief",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "totf:painting_idyillic_steppes",
+                    "entryName": "painting_idyillic_steppes",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "totf:painting_sifting_winds",
+                    "entryName": "painting_sifting_winds",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

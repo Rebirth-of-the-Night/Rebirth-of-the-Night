@@ -2,6 +2,7 @@
   "name": "The Overworld",
   "icon": "minecraft:grass_block",
   "category": "dimensions_overworld",
+  "advancement": "triumph:advancements/progression/nether/enterNether",
   "sortnum": 5,
   "pages": [
     {

@@ -1,0 +1,19 @@
+{
+    "name": "Moa",
+    "icon": "aether_legacy:moa_egg",
+    "category": "slayers_journal_bestiary",
+    "advancement": "triumph:advancements/progression/slayersjournal",
+    "sortnum": 41,
+    "read_by_default": "true",
+    "pages": [
+		{
+			"type": "entity",
+			"entity": "aether_legacy:moa",
+			"scale": 0.8,
+			"offset": 0.25,
+			"rotate": "true",
+			"default_rotation": -45,
+			"text": "Smart, loving, and $(bold)very versatile."
+		}
+    ]
+}

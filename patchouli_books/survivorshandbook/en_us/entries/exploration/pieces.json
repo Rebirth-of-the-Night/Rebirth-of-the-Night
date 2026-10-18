@@ -1,0 +1,16 @@
+{
+  "name": "Pieces",
+  "icon": "pyrotech:rock:5",
+  "category": "exploration_ruins",
+  "read_by_default": "true",
+  "pages": [
+  {
+      "type": "text",
+      "text": "I live in a ravaged world. I can't escape them. I can't escape them... The dead pursue me, I have restless nights, visions, living and dying, again and again and again.$(p)And though Khaedyr has been broken so many times, people keep building. Before me lies destruction and strife."
+    },
+	{
+		"type": "text",
+		"text": "I must endure, build, nurture, destroy, progress, kill, save. I have to keep moving, so I can attain... what, exactly?"
+	}
+  ]
+}
