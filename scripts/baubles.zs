@@ -835,7 +835,7 @@ recipes.remove(<bountifulbaubles:trinketmagiclenses>);
 
 RecipeBuilder.get("mage")
   .setShaped([
-    [<contenttweaker:vis_shard>, <glaretorch:itemglaretorchlarge2>, <contenttweaker:vis_shard>],
+    [<contenttweaker:vis_shard>, <simplewoodenpipes:pipe> | <simplewoodenpipes:pipe>.withTag({BaseBlock: {id: "dungeontactics:steel_block", Count: 1}}), <contenttweaker:vis_sliver>],
     [<contenttweaker:magicked_lens>, <nyx:fallen_star>, <contenttweaker:magicked_lens>],
     [<contenttweaker:vis_shard>, <mowziesmobs:glowing_jelly>, <contenttweaker:vis_shard>]])
   .addTool(<contenttweaker:sol_rune>, 1)

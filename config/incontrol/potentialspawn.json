@@ -97,7 +97,7 @@
     ]
   },
   
-   {
+  {
     "dimension": [0,10],
     "mobs": [
       {
@@ -108,33 +108,41 @@
       }
     ]
   },
-
-// removed from TF  
   {
-    "dimension": [0],
+    "dimension": [0,10,7],
     "mobs": [
       {
-        "mob": "primitivemobs:goblin",
-        "weight": 0.2,
+        "mob": "totf:goblin_wayfarer",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+  {
+    "dimension": [0,10,7],
+    "mobs": [
+      {
+        "mob": "totf:goblin",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+  {
+    "dimension": [0,10,7],
+    "mobs": [
+      {
+        "mob": "totf:goblin_shaman",
+        "weight": 1,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
     ]
   },
 
-
 // beneath
-  {
-    "dimension": 10,
-    "mobs": [
-      {
-        "mob": "primitivemobs:goblin",
-        "weight": 3,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      }
-    ]
-  },
   
   {
     "dimension": 10,
@@ -160,7 +168,7 @@
     ]
   },
 
- {
+  {
     "dimension": 10,
     "mobs": [
       {
@@ -172,7 +180,7 @@
     ]
   },
 
- {
+  {
     "dimension": 0,
     "mobs": [
       {
@@ -195,7 +203,7 @@
     ]
   },
   
-   {
+  {
     "dimension": 10,
     "mobs": [
       {
@@ -207,7 +215,7 @@
     ]
   },
   
-    {
+  {
     "dimension": 10,
     "mobs": [
       {
@@ -220,7 +228,7 @@
   },
 
 //lantern
-    {
+  {
     "dimension": 10,
     "mobs": [
       {
@@ -233,7 +241,7 @@
   },
   
  //grottol
-    {
+  {
     "dimension": 10,
     "mobs": [
       {
@@ -270,7 +278,21 @@
       }
     ]
   },
-  
+
+  // Slugs
+  {
+    "dimension": [0, 10],
+    "block": ["totf:bricks_stone_mossy", "totf:bricks_stone_carved_mossy", "minecraft:mossy_cobblestone", "rotn_blocks:cave_moss"],
+    "mobs": [
+      {
+        "mob": "totf:dungeon_slug",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 5
+      }
+    ]
+  }, 
+ 
   // Gold Golems
   {
     "dimension": -1,
@@ -357,7 +379,7 @@
     "mobs": [
       {
         "mob": "netherex:ember",
-        "weight": 0.3,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 5
       }
@@ -478,7 +500,7 @@
     ]
   },
   
-   {
+  {
     "dimension": -1,
     "mobs": [
       {
@@ -490,7 +512,7 @@
     ]
   },
 
-   {
+  {
     "dimension": 4,
     "mobs": [
       {
@@ -502,7 +524,7 @@
     ]
   },
 
-   {
+  {
     "dimension": -1,
     "mobs": [
       {
@@ -514,7 +536,7 @@
     ]
   },
 
-   {
+  {
     "dimension": -1,
     "mobs": [
       {
@@ -527,7 +549,7 @@
   },
 
 // magma slimes
-   {
+  {
     "dimension": -1,
     "mobs": [
       {
@@ -539,7 +561,7 @@
     ]
   },
 
-   {
+  {
     "dimension": [-1,10],
     "mobs": [
       {
@@ -552,7 +574,7 @@
   },
 
 
-   {
+  {
     "dimension": -1,
     "mobs": [
       {
@@ -565,7 +587,7 @@
   },
 
 // ghast
-   {
+  {
     "dimension": -1,
     "mobs": [
       {
@@ -577,7 +599,7 @@
     ]
   },
   
-    {
+  {
     "dimension": -1,
     "mobs": [
       {
@@ -589,7 +611,7 @@
     ]
   },
   
-     {
+  {
     "dimension": 10,
     "mobs": [
       {
@@ -1209,7 +1231,7 @@
   },
   
   // removed from TF
-    {
+  {
     "dimension": [0],
     "mobs": [
       {
@@ -1221,7 +1243,7 @@
     ]
   },
   
-    {
+  {
     "dimension": [0,10],
     "mobs": [
       {
@@ -1233,7 +1255,7 @@
     ]
   },
   
-   {
+  {
     "dimension": [0,10],
     "mobs": [
       {
@@ -1258,7 +1280,7 @@
   },
 
 //silverfish
-    {
+  {
     "dimension": [0,10],
     "mobs": [
       {
@@ -1319,7 +1341,7 @@
     ]
   },
   
-   {
+  {
     "dimension": [0,10],
     "mobs": [
       {
@@ -1332,7 +1354,7 @@
   },
   
 // skydrake
- {
+  {
     "dimension": 4,
     "mobs": [
       {
@@ -1344,9 +1366,21 @@
     ]
   },
   
+// Dungeon Additions [Generic]
+  {
+    "dimension": [0],
+    "mobs": [
+      {
+        "mob": "da:reanimate",
+        "weight": 1,
+        "groupcountmin": 2,
+        "groupcountmax": 2
+      }
+    ]
+  },
  
 // KILLED SUN SPIRIT
- {
+  {
     "dimension": 4,
     "mobs": [
       {
@@ -1358,7 +1392,7 @@
     ]
   },
 
- {
+  {
     "dimension": 0,
     "mobs": [
       {
@@ -1370,7 +1404,7 @@
     ]
   },
 
- {
+  {
     "dimension": 0,
     "mobs": [
       {
@@ -1382,7 +1416,7 @@
     ]
   },
 
-{
+  {
     "dimension": 0,
     "mobs": [
       {
@@ -1394,7 +1428,7 @@
     ]
   },
   
- {
+  {
     "dimension": 0,
     "mobs": [
       {
@@ -1406,7 +1440,7 @@
     ]
   },
   
- {
+  {
     "dimension": 0,
     "mobs": [
       {
@@ -1418,7 +1452,7 @@
     ]
   },
 
- {
+  {
     "dimension": 0,
     "mobs": [
       {
@@ -1430,7 +1464,7 @@
     ]
   },
 
- {
+  {
     "dimension": 4,
     "mobs": [
       {
@@ -1515,7 +1549,7 @@
     ]
   },  
   
-    {
+  {
     "dimension": 0,
     "mobs": [
       {
@@ -1527,7 +1561,7 @@
     ]
   },
   
-     {
+  {
     "dimension": 0,
     "mobs": [
       {
@@ -1539,7 +1573,7 @@
     ]
   },
   
-    {
+  {
     "dimension": [0,10],
     "mobs": [
       {
@@ -1551,7 +1585,7 @@
     ]
   },
   
-    {
+  {
     "dimension": 0,
     "mobs": [
       {
@@ -1587,7 +1621,7 @@
     ]
   },  
 // rats
- {
+  {
     "dimension": 0,
     "mobs": [
       {
@@ -1659,7 +1693,7 @@
     ]
   },
  
-   {
+  {
     "dimension": 4,
     "mobs": [
       {
@@ -1671,7 +1705,7 @@
     ]
   },
  
-    {
+  {
     "dimension": 4,
     "mobs": [
       {
@@ -1683,7 +1717,7 @@
     ]
   },
  
-    {
+  {
     "dimension": 4,
     "mobs": [
       {
@@ -1695,7 +1729,7 @@
     ]
   },
 
-   {
+  {
     "dimension": 4,
     "mobs": [
       {
@@ -1721,7 +1755,7 @@
   },
  
  
-   {
+  {
     "dimension": 0,
     "mobs": [
       {
@@ -1732,7 +1766,7 @@
       }
     ]
   },
-   {
+  {
     "dimension": 0,
     "mobs": [
       {
