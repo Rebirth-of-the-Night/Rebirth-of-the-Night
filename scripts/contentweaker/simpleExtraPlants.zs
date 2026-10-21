@@ -5,12 +5,12 @@ import mods.contenttweaker.VanillaFactory;
 
 var moss_patch = VanillaFactory.createBlock("moss_patch", <blockmaterial:Grass>);
 moss_patch.axisAlignedBB = AxisAlignedBB.create(
-	 0.0 / 16.0,
-	 0.0 / 16.0,
-	 0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
 	16.0 / 16.0,
-	 0.1 / 16.0,
-	16.0 / 16.0
+    0.1 / 16.0,
+    16.0 / 16.0
 	);
 moss_patch.setBlockHardness(0.0);
 moss_patch.setBlockResistance(2.0);
@@ -26,12 +26,12 @@ moss_patch.register();
 
 var scab = VanillaFactory.createBlock("scab", <blockmaterial:Ground>);
 scab.axisAlignedBB = AxisAlignedBB.create(
-	 0.0 / 16.0,
-	 0.0 / 16.0,
-	 0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
 	16.0 / 16.0,
-	 0.1 / 16.0,
-	16.0 / 16.0
+    0.1 / 16.0,
+    16.0 / 16.0
 	);
 scab.setBlockHardness(0.0);
 scab.setBlockResistance(2.0);
@@ -47,12 +47,12 @@ scab.register();
 
 var koji_mold = VanillaFactory.createBlock("koji_mold", <blockmaterial:Grass>);
 koji_mold.axisAlignedBB = AxisAlignedBB.create(
-	 0.0 / 16.0,
-	 0.0 / 16.0,
-	 0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
 	16.0 / 16.0,
-	 0.1 / 16.0,
-	16.0 / 16.0
+    0.1 / 16.0,
+    16.0 / 16.0
 	);
 koji_mold.setBlockHardness(3.5);
 koji_mold.setBlockResistance(2.0);
@@ -67,12 +67,12 @@ koji_mold.register();
 
 var cave_rafflesia = VanillaFactory.createBlock("cave_rafflesia", <blockmaterial:Grass>);
 cave_rafflesia.axisAlignedBB = AxisAlignedBB.create(
-	 3.0 / 16.0,
-	 0.0 / 16.0,
-	 3.0 / 16.0,
+     3.0 / 16.0,
+     0.0 / 16.0,
+     3.0 / 16.0,
 	13.0 / 16.0,
-		6.0 / 16.0,
-	13.0 / 16.0
+    6.0 / 16.0,
+    13.0 / 16.0
 	);
 cave_rafflesia.setBlockHardness(0.0);
 cave_rafflesia.setBlockResistance(2.0);
@@ -87,14 +87,14 @@ cave_rafflesia.register();
 
 var cave_grass = VanillaFactory.createBlock("cave_grass", <blockmaterial:Grass>);
 cave_grass.axisAlignedBB = AxisAlignedBB.create(
-	 4.0 / 16.0,
-	 0.0 / 16.0,
-	 4.0 / 16.0,
-	12.0 / 16.0,
-	10.0 / 16.0,
-	12.0 / 16.0
+     2.0 / 16.0,
+     0.0 / 16.0,
+     2.0 / 16.0,
+	14.0 / 16.0,
+    15.0 / 16.0,
+    14.0 / 16.0
 	);
-cave_grass.setBlockHardness(0.0);
+cave_grass.setBlockHardness(2.0);
 cave_grass.setBlockResistance(2.0);
 cave_grass.setFullBlock(false);
 cave_grass.setPassable(true);
@@ -107,14 +107,14 @@ cave_grass.register();
 
 var cave_bramble = VanillaFactory.createBlock("cave_bramble", <blockmaterial:Grass>);
 cave_bramble.axisAlignedBB = AxisAlignedBB.create(
-     5.0 / 16.0,
+     3.0 / 16.0,
      0.0 / 16.0,
-     5.0 / 16.0,
-	11.0 / 16.0,
-    2.0 / 16.0,
-    11.0 / 16.0
+     3.0 / 16.0,
+	13.0 / 16.0,
+    5.0 / 16.0,
+    13.0 / 16.0
 	);
-cave_bramble.setBlockHardness(0.0);
+cave_bramble.setBlockHardness(5.0);
 cave_bramble.setBlockResistance(2.0);
 cave_bramble.setFullBlock(false);
 cave_bramble.setPassable(true);
@@ -127,12 +127,12 @@ cave_bramble.register();
 
 var perforata = VanillaFactory.createBlock("perforata", <blockmaterial:Plants>);
 perforata.axisAlignedBB = AxisAlignedBB.create(
-	 4.0 / 16.0,
-	 0.0 / 16.0,
-	 4.0 / 16.0,
+     4.0 / 16.0,
+     0.0 / 16.0,
+     4.0 / 16.0,
 	12.0 / 16.0,
-	16.0 / 16.0,
-	12.0 / 16.0
+    16.0 / 16.0,
+    12.0 / 16.0
 	);
 perforata.setBlockHardness(0.0);
 perforata.setBlockResistance(2.0);
@@ -167,12 +167,12 @@ nether_flower.register();
 
 var clover3 = VanillaFactory.createBlock("clover_3_block", <blockmaterial:Plants>);
 clover3.axisAlignedBB = AxisAlignedBB.create(
-	 3.0 / 16.0,
-	15.0 / 16.0,
-	 3.0 / 16.0,
+     3.0 / 16.0,
+     15.0 / 16.0,
+     3.0 / 16.0,
 	13.0 / 16.0,
-	16.0 / 16.0,
-	13.0 / 16.0
+    16.0 / 16.0,
+    13.0 / 16.0
 	);
 clover3.setBlockHardness(0.5);
 clover3.setBlockResistance(2.0);
@@ -186,12 +186,12 @@ clover3.register();
 
 var clover4 = VanillaFactory.createBlock("clover_4_block", <blockmaterial:Plants>);
 clover4.axisAlignedBB = AxisAlignedBB.create(
-	 3.0 / 16.0,
-	15.0 / 16.0,
-	 3.0 / 16.0,
+     3.0 / 16.0,
+     15.0 / 16.0,
+     3.0 / 16.0,
 	13.0 / 16.0,
-	16.0 / 16.0,
-	13.0 / 16.0
+    16.0 / 16.0,
+    13.0 / 16.0
 	);
 clover4.setBlockHardness(0.5);
 clover4.setBlockResistance(6.0);
@@ -206,7 +206,7 @@ clover4.register();
 
 var petal_blue_big_flower = VanillaFactory.createBlock("petal_blue_big_flower", <blockmaterial:Leaves>);
 petal_blue_big_flower.setBlockHardness(3.0);
-petal_blue_big_flower.setBlockResistance(1.0);
+petal_blue_big_flower.setBlockResistance(6.0);
 petal_blue_big_flower.setReplaceable(false);
 petal_blue_big_flower.setLightValue(0.1);
 petal_blue_big_flower.setBlockSoundType(<soundtype:plant>);

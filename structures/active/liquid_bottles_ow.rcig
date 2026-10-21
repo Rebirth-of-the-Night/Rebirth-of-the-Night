@@ -1,0 +1,101 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "liquid_bottles_ow",
+  "items": [
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "vials:vial_432",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Fluid": {
+              "nbtType": "compound",
+              "nbt": {
+                "FluidName": {
+                  "nbtType": "string",
+                  "nbt": "hot_spring_water"
+                },
+                "Amount": {
+                  "nbtType": "int",
+                  "nbt": 250
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.5121370553970337,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "vials:vial_432",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Fluid": {
+              "nbtType": "compound",
+              "nbt": {
+                "FluidName": {
+                  "nbtType": "string",
+                  "nbt": "methanol"
+                },
+                "Amount": {
+                  "nbtType": "int",
+                  "nbt": 250
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "vials:vial_432",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Fluid": {
+              "nbtType": "compound",
+              "nbt": {
+                "FluidName": {
+                  "nbtType": "string",
+                  "nbt": "lunar_water"
+                },
+                "Amount": {
+                  "nbtType": "int",
+                  "nbt": 250
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 2.0475566387176514,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "vials:vial_432",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

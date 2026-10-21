@@ -1,5 +1,7 @@
 {
-	"credit": "Made with Blockbench",
+	"format_version": "1.9.0",
+	"credit": "Made by Foreck with Blockbench",
+	"ambientocclusion": false,
 	"textures": {
 		"3": "contenttweaker:blocks/perforata"
 	},

@@ -223,7 +223,8 @@ CrudeDryingRack.addRecipe("dried_jute", <pyrotech:material:2>, <harvestcraft:jut
 CrudeDryingRack.addRecipe("dried_fiber_fresh", <pyrotech:tinder>, <pyrotech:material:12>, 5 * 60 * 20, true);
 CrudeDryingRack.addRecipe("dried_fiber_sapling", <pyrotech:tinder>, <ore:treeSapling>, 5 * 60 * 20, true);
 CrudeDryingRack.addRecipe("dried_soap", <betterwithmods:aesthetic:10>, <betterwithaddons:wet_soap>, 5 * 60 * 20, true);
-CrudeDryingRack.addRecipe("mud_dirt", <betterwithmods:dirt_pile>, <biomesoplenty:mudball>, 8 * 60 * 20, true);
+CrudeDryingRack.addRecipe("mud_dirt", <contenttweaker:weathered_dirt>, <biomesoplenty:mud>, 8 * 60 * 20, true);
+CrudeDryingRack.addRecipe("mudball_dirt", <betterwithmods:dirt_pile>, <biomesoplenty:mudball>, 8 * 60 * 20, true);
 
 SoakingPot.removeRecipes(<pyrotech:material:8>);
 SoakingPot.removeRecipes(<pyrotech:material:31>);
@@ -283,6 +284,13 @@ Campfire.blacklistSmeltingRecipes([<minecraft:cookie>]);
 Campfire.blacklistSmeltingRecipes([<minecraft:rotten_flesh>]);
 Campfire.blacklistSmeltingRecipes([<netherex:ghast_meat_cooked>]);
 Campfire.blacklistSmeltingRecipes([<pyrotech:book>]);
+
+//vessel inputs/ouputs
+val vessel_source_bronze = <rotntweaker:smelting_vessel>.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 1, Damage: 21}, {id: "contenttweaker:material_part", Count: 3, Damage: 20}]});
+val vessel_ingot_bronze = <rotntweaker:smelting_vessel>.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 4, Damage: 0}]});
+
+//Primitive metal
+Campfire.addRecipe("vessel_bronze", vessel_ingot_bronze, vessel_source_bronze);
 
 Campfire.addRecipe("cattail_root", <contenttweaker:cattail_root_cooked>, <contenttweaker:cattail_root_raw>);
 Campfire.addRecipe("traditional_marshmallow", <pyrotech:marshmallow_roasted>.withTag({}), <pyrotech:marshmallow>);

@@ -1,0 +1,257 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "AbandonedChest",
+  "items": [
+    {
+      "weight": 2.01,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:web",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.09,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:bone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.21,
+      "min": 1,
+      "max": 7,
+      "item": {
+        "id": "minecraft:rotten_flesh",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.05,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:brown_mushroom",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.05,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:red_mushroom",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.04,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "reccomplex:artifact_generation_tag",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.011213661171495914,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "fickle:plushie",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "PlushieId": {
+              "nbtType": "string",
+              "nbt": "hikonyan"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.009064221754670143,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "fickle:plushie",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "PlushieId": {
+              "nbtType": "string",
+              "nbt": "elite"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.011213661171495914,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "fickle:plushie",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "PlushieId": {
+              "nbtType": "string",
+              "nbt": "baa"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.009064221754670143,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "fickle:plushie",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "PlushieId": {
+              "nbtType": "string",
+              "nbt": "mari"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.009064221754670143,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "fickle:plushie",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "PlushieId": {
+              "nbtType": "string",
+              "nbt": "providence"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.011213661171495914,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "fickle:plushie",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "PlushieId": {
+              "nbtType": "string",
+              "nbt": "starry_sock"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.011213661171495914,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "fickle:plushie",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "PlushieId": {
+              "nbtType": "string",
+              "nbt": "ozy"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.009064221754670143,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "fickle:plushie",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "PlushieId": {
+              "nbtType": "string",
+              "nbt": "cosmo"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.009064221754670143,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "fickle:plushie",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "PlushieId": {
+              "nbtType": "string",
+              "nbt": "fang_guard"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.011213661171495914,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "fickle:plushie",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "PlushieId": {
+              "nbtType": "string",
+              "nbt": "phos"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

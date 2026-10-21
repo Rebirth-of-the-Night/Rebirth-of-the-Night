@@ -18,6 +18,11 @@ import crafttweaker.item.IIngredient;
 <atop:tanzanite_helmet:*>.addTooltip(format.white("Don't worry..."));
 <atop:tanzanite_helmet:*>.addTooltip(format.white("Everything is going to be okay..."));
 
+// Primitive metal (recipes at pyrotech kiln and rotn tweaker scripts)
+<rotntweaker:smelting_vessel>.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 1, Damage: 21}, {id: "contenttweaker:material_part", Count: 3, Damage: 20}]}).addTooltip(format.gray("Contains 3 Copper Dust."));
+<rotntweaker:smelting_vessel>.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 1, Damage: 21}, {id: "contenttweaker:material_part", Count: 3, Damage: 20}]}).addTooltip(format.gray("Contains 1 Tin Dust."));
+<rotntweaker:smelting_vessel>.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 1, Damage: 0}]}).addTooltip(format.darkGreen("Contains 4 Bronze Ingots."));
+
 // Single item set bonuses
 <minecraft:diamond_sword:*>.addTooltip(format.blue("+15% Attack Speed"));
 <minecraft:diamond_sword:*>.addTooltip(format.blue("+1 Armor Toughness"));
@@ -486,10 +491,18 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <minecraft:enchanting_table:*>.addTooltip("Untapped power lies within this table...");
 <eplus:advanced_table:*>.addTooltip("Requires placing an Enchanting Table Upgrade on a regular Enchanting Table.");
 <eplus:table_upgrade:*>.addTooltip("Shift + right-click on an Enchanting Table to upgrade.");
-<scalinghealth:healingitem>.removeTooltip("Use for 5 seconds to apply.");
-<scalinghealth:healingitem>.addShiftTooltip("Use and hold for 5 seconds to apply. Letting go before applying won't consume the item", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<scalinghealth:healingitem:1>.removeTooltip("Use for 5 seconds to apply.");
-<scalinghealth:healingitem:1>.addShiftTooltip("Use and hold for 5 seconds to apply. Letting go before applying won't consume the item", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<contenttweaker:bandage>.addTooltip("Restores 6HP on use.");
+<contenttweaker:bandage>.addTooltip(format.red("Vulnerable for 10 seconds after use."));
+<contenttweaker:bandage>.addShiftTooltip("After healing, incoming damage is increased by 40%, use out of danger.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<contenttweaker:bandage>.removeTooltip("Compost Value: 1");
+<contenttweaker:bandage_salve>.addTooltip("Restores 6HP on use and continues to heal 3HP.");
+<contenttweaker:bandage_salve>.addTooltip(format.red("Vulnerable for 10 seconds after use."));
+<contenttweaker:bandage_salve>.addShiftTooltip("After healing, incoming damage is increased by 40%, use out of danger.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<contenttweaker:bandage>.removeTooltip("Compost Value: 1");
+<contenttweaker:suturing_kit>.addTooltip("Restores 30HP on use and continues to heal 6HP.");
+<contenttweaker:suturing_kit>.addTooltip(format.red("Very vulnerable for 30 seconds after use."));
+<contenttweaker:suturing_kit>.addShiftTooltip("After healing, incoming damage is increased by 60%, use out of danger.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<contenttweaker:suturing_kit>.removeTooltip("Compost Value: 1");
 <foundry:machine:2>.removeTooltip("Requires RF, FE, or Tesla to operate.");
 <foundry:machine:2>.addTooltip("Requires a Redstone signal to operate.");
 <foundry:machine:3>.removeTooltip("Requires RF, FE, or Tesla to operate.");
@@ -535,13 +548,18 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <futuremc:smoker>.addShiftTooltip(format.gold("Fuel Capacity:") + format.yellow(" full stack; 1 at a time."));
 <futuremc:smoker>.addShiftTooltip(format.gold("Fuel Modifier:") + format.yellow(" 100%; 2x cooking speed"));
 
+<exalembico:heater>.addTooltip("Ultimate control for heat-powered appliances. Courtesy of the Val-Kaine.");
+<exalembico:heater>.addShiftTooltip("Can be turned on and off. Different fuels provide different accessible heat levels. Supports alembics, woks, pots, bake kettles, stoked crucibles, and melting crucibles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exalembico:alembic>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" VALKEN HEATER, STOVE, HEARTH"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:wok>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:pot>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:kettle>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:range:*>.addTooltip("Efficiently heats cooking appliances for fuel.");
 <exsartagine:range:*>.addShiftTooltip("Supports up to three total Stove Extensions on either side, offering four surfaces on which to place woks, pots and bake kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<exsartagine:hearth:*>.addTooltip("Heats cooking appliances for fuel. Requires ignition");
+<exsartagine:range:*>.addShiftTooltip("Acts as heat level 2 for alembics.");
+<exsartagine:hearth:*>.addTooltip("Heats cooking appliances for fuel. Requires ignition.");
 <exsartagine:hearth:*>.addShiftTooltip("Supports one Hearth Extension to its side, offering two total surfaces on which to place woks, pots and bake kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:hearth:*>.addShiftTooltip("Acts as heat level 2 for alembics.");
 <exsartagine:range_extended>.addTooltip("An extension for the Stove. Up to three can be added to either side of a Stove. Can only be placed next to Stoves.");
 <exsartagine:hearth_extended>.addTooltip("An extension for the Hearth. Only one can be added to the side of a Hearth. Can only be placed next to Hearths.");
 
@@ -589,7 +607,9 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <exsartagine:yeast:*>.addTooltip("Can be used as Brewer's Yeast.");
 <contenttweaker:steel_artifact:*>.addTooltip("Can be used to craft flint & steel");
 <contenttweaker:steel_artifact>.addShiftTooltip('Relic of the olden days. Rarely drops from "older" undead.', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<vials:vial_288>.addShiftTooltip("Pick those annoying drops of 1 mb liquid off your machines and into a tank.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<vials:vial_288>.addShiftTooltip("Pick those annoying drops of 1 mb liquid off your machines and into a tank. Stacks up to 100, including filled.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<vials:vial_432>.addShiftTooltip("This bottle was designated for scooping measures of 250 mb. Stacks up to 4, including filled.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<vials:vial_576>.addShiftTooltip("Two measuring bottles used together to hold 250 mb of liquid. Stacks up to 2, including filled.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <minecraft:chest>.addShiftTooltip("An old looking chest. It's been varnished to withstand the passage of time.");
 <contenttweaker:ground_fiery_netherrack:*>.addTooltip("Turns into sludge if it touches water.");
 <betterwithmods:material:15>.addTooltip(format.red("It might be smart to study this in the guide before throwing a bunch of them into the evil sand."));

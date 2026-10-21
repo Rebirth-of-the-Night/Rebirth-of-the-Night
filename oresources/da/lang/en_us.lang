@@ -13,6 +13,32 @@ entity.aoe_tile.name=Strife Flame
 entity.flame_projectile.name=Strife Flame
 entity.light_ring_projectile.name=Gravitas
 
+entity.reanimate.name=Húng Order Revenant
+entity.apathyr.name=The Apathyr
+entity.apathyr_ghost.name=Ghost Apathyr
+entity.ultra_attack.name=Apathyr Crystal Domain
+entity.crystal_wave.name=Gaelon Crystal Wave
+entity.apathyr_spear.name=Apathyr Spear
+entity.apathyr_eye.name=Apathyr's Eye
+entity.cursed_revenant.name=Friendly Cursed Revenant
+entity.cursed_sentinel.name=Cursed Sentinel
+entity.cursed_sentinel_friendly.name=Cursed Golem
+
+entity.voidclysm.name=The Wither
+entity.voidclysm_bolt.name=Wither Bolt
+entity.void_bomb.name=Wither Bomb
+entity.voidclysm_spike.name=Wither Spike
+entity.void_projectile.name=Wither Tracking Magic
+entity.void_hole.name=Wither Void
+
+entity.dauntless_crystal.name=Dhvara Orbit Bomb
+entity.rally_flag.name=Flag of Determination
+entity.dauntless.name=The Attainer
+entity.dauntless_aoe.name=Attainer's Magic
+entity.dauntless_sword.name=Attainer's Sword
+entity.dauntless_slice.name=Attainer Spear
+entity.delayed_lazer.name=Attainer Laser
+
 item.Strife_flame.name=Flame of Strife
 item.Strife_sword.name=Greatsword of Retribution
 item.projectile_flame.name=Strife Flame
@@ -20,7 +46,67 @@ item.flame_helmet.name=Emberium Hero Helmet
 item.flame_chestplate.name=Emberium Hero Chestplate
 item.flame_leggings.name=Emberium Hero Leggings
 item.flame_boots.name=Emberium Hero Boots
-item.flame_metal_scrap.name=Emberium Hero Scrap
+item.flame_metal_scrap.name=Molten Glass
+item.knight_shard.name=Garsen Shard
+item.knight_ingot.name=Garsen Ingot
+item.novik_plate.name=Novik Metal Plate
+item.novik_helmet.name=Novik Helmet
+item.novik_chestplate.name=Novik Chestplate
+item.novik_leggings.name=Novik Leggings
+item.novik_boots.name=Novik Boots
+item.novik_sword.name=Discordant Ruby Sword
+item.dark_mana.name=Shade Speck
+item.dark_core.name=Roh Void Core
+item.dark_locator.name=Cult of Roh Eye
+item.dark_dagger.name=Roh Void Dagger
+item.volatile_orb.name=Goort
+item.gaelon_shard.name=Soul Bead
+
+item.dauntless_fist.name=Gauntlet of Strife
+item.dauntless_crystal.name=Forbidden Crystal
+item.dauntless_spear.name=Attainer Spear
+item.heart_projectile.name=Attainer Locator Projectile
+item.golem_cannon.name=Famfrit
+
+item.crystal_trinket.name=Hùng Carved Lustrian
+
+tile.aza_vines.name=Verrybine
+tile.aza_vines_berries.name=Verrybine With Berries
+
+tile.city_brick.name=Pirani Bricks
+tile.city_brick_alt.name=Pirani Road Bricks
+tile.city_decoration.name=Pirani Decorium
+tile.city_pillar.name=Pirani Pillar
+tile.city_pillar_chisled.name=Chiseled Pirani Pillar
+tile.city_smooth.name=Polished Pirani Stone
+tile.city_tile.name=Pirani Tiled Bricks
+tile.city_chisled.name=Chiseled Pirani Decorium
+tile.city_brick_stairs.name=Pirani Brick Stairs
+tile.city_brick_stairs_alt.name=Pirani Road Brick Stairs
+tile.city_tile_stairs.name=Pirani Tiled Brick Stairs
+tile.city_brick_half.name=Pirani Brick Slab
+tile.city_brick_double.name=Double Pirani Brick Slab
+tile.city_brick_alt_half.name=Pirani Road Brick Slab
+tile.city_brick_alt_double.name=Double Pirani Road Brick Slab
+tile.city_tile_half.name=Pirani Tiled Brick Slab
+tile.city_tile_double.name=Double Pirani Tiled Brick Slab
+tile.city_brick_wall_alt.name=Pirani Brick Road Wall
+tile.city_brick_wall.name=Pirani Brick Wall
+tile.city_tile_wall.name=Pirani Tiled Wall
+tile.city_smooth_wall.name=Polished Pirani Stone Wall
+tile.gold_city_brick.name=Gilded Pirani Bricks
+tile.gold_city_brick_stairs.name=Gilded Pirani Brick Stairs
+tile.gold_city_brick_half.name=Gilded Pirani Brick Slab
+tile.gold_city_brick_double.name=Double Gilded Pirani Brick Slab
+tile.gold_city_brick_wall.name=Gilded Pirani Brick Wall
+tile.Pirani_rope.name=Pirani Rope
+tile.Pirani_lantern.name=Pirani Lantern
+tile.high_spawner.name=High Court City Disappearing Spawner
+tile.sky_key_block.name=High Court City Dungeon Block
+tile.chisled_fire_stone.name=Fiery Chiseled Stonebrick
+tile.Pirani_stone.name= Pirani Stone
 
 da.desc.flame_of_Strife=Unseals the Obelisk of the Schism.
 death.attack.da:maelstrom=%1$s succumbed became a sacrifice for the Flower God of Vorfurt.
+
+da.desc.golem_cannon_desc=Requires Gaelon Shards as ammo. Right clicking will shoot a powerful shard bullet.

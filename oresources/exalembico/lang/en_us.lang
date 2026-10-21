@@ -1,0 +1,32 @@
+tile.exalembico.alembic.alembic.name=Alembic
+tile.exalembico.alembic.alembic_nether.name=Nether Squash Alembic
+tile.exalembico.heater.name=Valken Heater
+
+itemGroup.exalembico=Ex Alembico
+
+container.exalembico.alembic=Alembic
+container.exalembico.heater=Heater
+
+exalembico.tooltip.heat_level.0=No Heat
+exalembico.tooltip.heat_level.1=Heat 1
+exalembico.tooltip.heat_level.2=Heat 2 
+exalembico.tooltip.heat_level.3=Heat 3 (Stoked Fire)
+exalembico.tooltip.heat_level.4=Heat 4
+exalembico.tooltip.heat_level.5=Heat 5
+exalembico.tooltip.heat_level.6=Heat 6
+exalembico.tooltip.heat_level.7=Heat 7
+exalembico.tooltip.heat_level.8=Heat 8
+exalembico.tooltip.heat_level.9=Heat 9
+exalembico.tooltip.heat_level.10=Heat 10
+exalembico.tooltip.heat_level.11=Heat 11
+exalembico.tooltip.heat_level.12=Heat 12
+exalembico.tooltip.heat_level.13=Heat 13
+exalembico.tooltip.heat_level.14=Heat 14
+exalembico.tooltip.heat_level.15=Heat 15
+
+exalembico.tooltip.empty_tank=Empty
+exalembico.tooltip.supports_heat=Supports Heat:
+
+exalembico.jei.category.alembic=Alembic
+exalembico.jei.category.alembic_nether=Nether Squash Alembic
+exalembico.jei.category.heater=Valken Heater Fuels
