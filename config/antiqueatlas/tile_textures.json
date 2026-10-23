@@ -1,6 +1,7 @@
 {
   "version": 1,
   "data": {
+    "CAVE_WALLS": "CAVE_WALLS",
     "endIsland": "END_ISLAND",
     "endIslandPlants": "END_ISLAND_PLANTS",
     "endVoid": "END_VOID",
@@ -17,6 +18,7 @@
     "netherThrone": "NETHER_THRONE",
     "netherTower": "NETHER_TOWER",
     "netherWall": "NETHER_WALL",
+    "npcChocoboStable": "Chocobo Stable Tile",
     "npcVillageButchersShop": "BUTCHERS_SHOP",
     "npcVillageChurch": "CHURCH",
     "npcVillageFarmlandLarge": "FARMLAND_LARGE",

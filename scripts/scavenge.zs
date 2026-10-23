@@ -353,6 +353,7 @@ oreBlockArch.add(
     <contenttweaker:arch_brick_green_schist:*>,
     <contenttweaker:arch_brick_soapstone:*>,
     <contenttweaker:arch_brick_migmatite:*>,
+	<contenttweaker:arch_brick_magicked:*>,
     <contenttweaker:arch_brick_serpentinite:*>,
     <contenttweaker:arch_brick_limestone:*>,
     <contenttweaker:arch_brick_chalk:*>,
@@ -373,6 +374,10 @@ oreBlockArch.add(
     <contenttweaker:arch_brick_mud:*>,
     <contenttweaker:arch_brick_holystone:*>,
     <contenttweaker:arch_brick_raktan:*>,
+    <contenttweaker:arch_brick_carved_stone:*>,
+    <contenttweaker:arch_brick_angelic_stone:*>,
+    <contenttweaker:arch_brick_hellfire_stone:*>,
+    <contenttweaker:arch_brick_pirani:*>,
     <contenttweaker:arch_large_brick_red_granite:*>,
     <contenttweaker:arch_large_brick_black_granite:*>,
     <contenttweaker:arch_large_brick_rhyolite:*>,
@@ -389,6 +394,7 @@ oreBlockArch.add(
     <contenttweaker:arch_large_brick_green_schist:*>,
     <contenttweaker:arch_large_brick_soapstone:*>,
     <contenttweaker:arch_large_brick_migmatite:*>,
+    <contenttweaker:arch_large_brick_magicked:*>,
     <contenttweaker:arch_large_brick_serpentinite:*>,
     <contenttweaker:arch_large_brick_limestone:*>,
     <contenttweaker:arch_large_brick_chalk:*>,
@@ -409,6 +415,10 @@ oreBlockArch.add(
     <contenttweaker:arch_large_brick_mud:*>,
     <contenttweaker:arch_large_brick_holystone:*>,
     <contenttweaker:arch_large_brick_raktan:*>
+    <contenttweaker:arch_large_brick_carved_stone:*>,
+    <contenttweaker:arch_large_brick_angelic_stone:*>,
+    <contenttweaker:arch_large_brick_hellfire_stone:*>,
+    <contenttweaker:arch_large_brick_pirani:*>
     );
 
 mods.jei.JEI.hideCategory("scavenge.click");

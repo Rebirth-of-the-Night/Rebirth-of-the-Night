@@ -1,7 +1,7 @@
 {
   "parent": "contenttweaker:item/arch_brick_red_granite",
   "textures": {
-    "particle": "pyrotech:blocks/masonry_brick",
-    "0": "pyrotech:blocks/masonry_brick"
+    "particle": "pyrotech:blocks/stone_bricks",
+    "0": "pyrotech:blocks/stone_bricks"
   }
 }

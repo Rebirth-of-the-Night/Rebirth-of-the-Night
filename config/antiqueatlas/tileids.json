@@ -1,6 +1,7 @@
 {
   "version": 1,
   "data": {
+    "CAVE_WALLS": -33,
     "endIsland": -26,
     "endIslandPlants": -27,
     "endVoid": -28,

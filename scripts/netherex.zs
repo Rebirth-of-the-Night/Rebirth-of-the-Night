@@ -6,13 +6,6 @@ import mods.ltt.LootTable;
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <netherex:rime_crystal>);
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <netherex:frost_powder>, <minecraft:potion>.withTag({Potion: "netherex:freezing"}));
 
-// temporary
-recipes.addShaped(<netherex:ghast_queen_tear>,[
-[<quark:biotite>, <biomesoplenty:biome_essence>, <quark:biotite>],
-[<minecraft:ghast_tear>, <minecraft:nether_star>, <minecraft:ghast_tear>], 
-[<minecraft:ender_eye>, <minecraft:ender_eye>, <minecraft:ender_eye>]
-]);
-
 JEI.removeAndHide(<netherex:dull_mirror>);
 JEI.removeAndHide(<netherex:worn_iron>);
 

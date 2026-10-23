@@ -11,7 +11,7 @@ val cloth = <ore:fabricHemp>;
 
 // Uncolored bundle
 recipes.remove(<bundles:bundle>);
-recipes.addShaped("bundle_pouch", <bundles:bundle>,
+recipes.addShaped("bundle_pouch", <bundles:bundle:*>,
     [[null,twine,null],
     [null,cloth,null],
     [null,leather,null]]);

@@ -632,6 +632,14 @@ tile.contenttweaker.arch_brick_holystone.name=Holystone Brick Arch
 tile.contenttweaker.arch_large_brick_holystone.name=Large Holystone Brick Arch
 tile.contenttweaker.arch_brick_raktan.name=Raktan Brick Arch
 tile.contenttweaker.arch_large_brick_raktan.name=Large Raktan Brick Arch
+tile.contenttweaker.arch_brick_carved_stone.name=Carved Stone Arch
+tile.contenttweaker.arch_large_brick_carved_stone.name=Large Carved Stone Arch
+tile.contenttweaker.arch_brick_angelic_stone.name=Angelic Stone Arch
+tile.contenttweaker.arch_large_brick_angelic_stone.name=Large Angelic Stone Arch
+tile.contenttweaker.arch_brick_hellfire_stone.name=Hellfire Stone Arch
+tile.contenttweaker.arch_large_brick_hellfire_stone.name=Large Hellfire Stone Arch
+tile.contenttweaker.arch_brick_pirani.name=Pirani Brick Arch
+tile.contenttweaker.arch_large_brick_pirani.name=Large Pirani Brick Arch
 
 #------------------------------------------------------------------------------
 # Dunamis
