@@ -1,0 +1,46 @@
+{
+    "pools": [
+        {
+            "name": "bush_crate",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "totf:blocks/bush_crate/common_items",
+                    "weight": 60,
+                    "quality": -2
+                },
+                {
+                    "type": "loot_table",
+                    "name": "totf:blocks/bush_crate/damaged_gear",
+                    "weight": 40,
+                    "quality": -1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "totf:blocks/bush_crate/dungeon_loot",
+                    "weight": 30,
+                    "quality": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "totf:blocks/bush_crate/rare_treasures",
+                    "weight": 15,
+                    "quality": 3
+                },
+                {
+                    "type": "loot_table",
+                    "name": "totf:blocks/bush_crate/very_rare_diamond",
+                    "weight": 2,
+                    "quality": 4
+                },
+                {
+                    "type": "loot_table",
+                    "name": "totf:blocks/paintings/unique_paintings",
+                    "weight": 5,
+                    "quality": 1
+                }
+            ]
+        }
+    ]
+}

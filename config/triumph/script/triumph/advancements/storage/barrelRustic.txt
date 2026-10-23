@@ -17,4 +17,4 @@ criteria.addItem("rustic:barrel")
 
 // hideLines()
 alwaysVisible()
-setPos(-613,22)
+setPos(-612,21)

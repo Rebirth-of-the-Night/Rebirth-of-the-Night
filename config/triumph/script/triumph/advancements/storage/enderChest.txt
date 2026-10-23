@@ -2,7 +2,8 @@ setIcon(<minecraft:ender_chest>)
 setTitle("Storage in the Cloud!")
 setDescription("Craft an ender chest.")
 
-addParent("triumph:advancements/storage/backpack")
+addParent("triumph:advancements/storage/chest")
+addParent("triumph:advancements/storage/quarkchest")
 
 //Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
 setShowToast(true)
@@ -16,4 +17,4 @@ criteria.addItem("minecraft:ender_chest")
 // hideLines()
 // setHidden(true)
 alwaysVisible()
-setPos(-515,-97)
+setPos(-472,-176)

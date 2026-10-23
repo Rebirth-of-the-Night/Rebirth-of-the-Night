@@ -1,0 +1,91 @@
+{
+    "pools": [
+        {
+            "name": "very_rare",
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.08
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "totf:rune_of_skimming",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_sword",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.3,
+                                "max": 0.8
+                            }
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 25
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_chestplate",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.3,
+                                "max": 0.8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_pickaxe",
+                    "weight": 12,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.3,
+                                "max": 0.8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 15,
+                                "max": 25
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:totem_of_undying",
+                    "weight": 3
+                }
+            ]
+        }
+    ]
+}

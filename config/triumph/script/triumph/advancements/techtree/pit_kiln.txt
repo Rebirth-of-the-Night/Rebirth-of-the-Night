@@ -14,12 +14,6 @@ setAnnounceToChat(true)
 
 criteria = addCriteria("Pit Kiln", "minecraft:inventory_changed")
 criteria.addItem("pyrotech:kiln_pit")
-//Automatically unlocked if skipped with further advancements
-criteria = addCriteria("Brick Kiln", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/techtree/brick_kiln")
-
-criteria = addCriteria("Refractory Kiln", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/techtree/refractory_kiln")
 
 alwaysVisible()
 setPos(-183,-30)

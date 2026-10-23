@@ -14,6 +14,9 @@ setAnnounceToChat(true)
 
 criteria = addCriteria("Refractory Kiln", "minecraft:inventory_changed")
 criteria.addItem("pyrotech:brick_kiln")
+//Automatically unlocks other kilns if not obtained yet
+addRewardFunction("triumph:brick_kiln")
+addRewardFunction("triumph:pit_kiln")
 
 alwaysVisible()
 setPos(-93,-30)

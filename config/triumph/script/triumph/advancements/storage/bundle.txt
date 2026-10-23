@@ -1,0 +1,21 @@
+setIcon(<bundles:bundle>)
+setTitle("Bundle")
+setDescription("Obtain a bundle which can hold different items in the same slot. Useful for scavenging materials!")
+
+
+addParent("triumph:advancements/storage/chest")
+addParent("triumph:advancements/storage/quarkchest")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+criteria = addCriteria("Obtain Bundle", "minecraft:inventory_changed")
+criteria.addItem("bundles:bundle")
+
+// hideLines()
+// setHidden(true)
+alwaysVisible()
+setPos(-552,-84)

@@ -1,0 +1,22 @@
+setIcon(<requious:dryer>)
+setTitle("Hell Dryer")
+setDescription("Craft an advanced dryer using materials from the Nether and the Beneath, truly a hell dryer...")
+
+
+addParent("triumph:advancements/techtree/dried_fiber")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+criteria = addCriteria("Hell Dryer", "minecraft:inventory_changed")
+criteria.addItem(<requious:dryer>)
+
+setFrameType("GOAL")
+
+visibleIf("triumph:advancements/techtree/drying_rack")
+alwaysHidden()
+
+setPos(-244,35)

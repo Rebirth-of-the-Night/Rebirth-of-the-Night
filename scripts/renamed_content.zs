@@ -18,6 +18,9 @@ import mods.jei.JEI;
 <biomesoplenty:bamboo:0>.displayName = "Bamboo Stick";
 <biomesoplenty:blue_fire>.displayName = "Cursed Fire";
 
+// Weaponry
+<spartanweaponry:spear_wood>.displayName = "Practice Spear";
+
 // Better With Mods
 <betterwithmods:axle_generator>.displayName = "Horizontal Windmill";
 

@@ -1,0 +1,22 @@
+setIcon(<pyrotech:drying_rack:1>)
+setTitle("Drying Rack")
+setDescription("Craft a rack to dry fiber, make paper, and more. Time, weather, biome, campfires, and direct sunlight greatly affect drying speed!")
+
+
+addParent("triumph:advancements/techtree/dried_fiber")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+criteria = addCriteria("Drying Rack a", "minecraft:inventory_changed")
+criteria.addItem(<pyrotech:drying_rack:0>)
+criteria = addCriteria("Drying Rack b", "minecraft:inventory_changed")
+criteria.addItem(<pyrotech:drying_rack:1>)
+
+alwaysVisible()
+setPos(-274,35)

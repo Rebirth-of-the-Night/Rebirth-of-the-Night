@@ -1,0 +1,12 @@
+setIcon(<requious:night_jar>)
+setTitle("Nighthawk Drinks")
+setDescription("Craft a Night-Jar to reliably produce lunar water at night with water and luna quintessence.")
+
+addParent("triumph:advancements/magick/alchemy/alchemy")
+
+criteria = addCriteria("Night-Jar", "minecraft:inventory_changed")
+criteria.addItem(<requious:night_jar>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-365,165)

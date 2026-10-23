@@ -9,4 +9,5 @@ criteria.addItem("contenttweaker:doll_heart")
 
 alwaysVisible()
 hideLines()
+
 setPos(-190,138)

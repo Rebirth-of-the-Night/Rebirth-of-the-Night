@@ -39,8 +39,13 @@ recipes.removeByRecipeName("betterwithmods:items/material/material.padding");
 recipes.addShapeless("betterwithmods_items/material/material_padding_feather", <betterwithmods:material:41>, [<ore:feather>,<betterwithmods:material:4>]);
 recipes.addShapeless("betterwithmods_items/material/material_padding_wool", <betterwithmods:material:41>, [<ore:woolBlock>,<betterwithmods:material:4>]);
 
+JEI.removeAndHide(<betterwithmods:steel_axle>);
 JEI.removeAndHide(<betterwithmods:steel_gearbox>);
 JEI.removeAndHide(<betterwithmods:steel_broken_gearbox>);
+JEI.removeAndHide(<betterwithmods:grate>);
+JEI.removeAndHide(<betterwithmods:grate:1>);
+JEI.removeAndHide(<betterwithmods:grate:2>);
+
 
 JEI.removeAndHide(<betterwithmods:bark>);
 JEI.removeAndHide(<betterwithmods:bark:1>);
@@ -48,6 +53,7 @@ JEI.removeAndHide(<betterwithmods:bark:2>);
 JEI.removeAndHide(<betterwithmods:bark:3>);
 JEI.removeAndHide(<betterwithmods:bark:4>);
 JEI.removeAndHide(<betterwithmods:bark:5>);
+JEI.removeAndHide(<betterwithaddons:decomat>);
 JEI.removeAndHide(<betterwithmods:nether_growth>);
 JEI.removeAndHide(<betterwithmods:steel_saw>);
 JEI.removeAndHide(<betterwithmods:material:52>);
@@ -69,20 +75,18 @@ JEI.removeAndHide(<betterwithmods:material:40>);
 
 JEI.removeAndHide(<betterwithmods:steel_sword>);
 JEI.removeAndHide(<betterwithmods:steel_battleaxe>);
+JEI.removeAndHide(<betterwithaddons:steel_spade>);
+JEI.removeAndHide(<betterwithaddons:steel_matchpick>);
+JEI.removeAndHide(<betterwithaddons:steel_machete>);
+JEI.removeAndHide(<betterwithaddons:steel_machete>);
+JEI.removeAndHide(<betterwithaddons:steel_carpentersaw>);
+JEI.removeAndHide(<betterwithmods:steel_hacksaw>);
 
 JEI.removeAndHide(<betterwithmods:candle_holder>); 
 JEI.removeAndHide(<betterwithmods:aesthetic:8>);
 JEI.removeAndHide(<betterwithmods:material:46>);
 
-
-Anvil.removeShaped(<betterwithmods:steel_axle>);
-Anvil.removeShaped(<betterwithmods:steel_gearbox>);
-
-JEI.removeAndHide(<betterwithmods:steel_gearbox>);
-JEI.removeAndHide(<betterwithmods:steel_broken_gearbox>);
-JEI.removeAndHide(<betterwithmods:steel_axle>);
-
-JEI.removeAndHide(<betterwithmods:raw_egg>);
+recipes.remove(<betterwithmods:raw_egg>);
 JEI.removeAndHide(<betterwithmods:cooked_egg>);
 furnace.remove(<betterwithmods:cooked_egg>);
 JEI.removeAndHide(<betterwithmods:ham_and_eggs>);
@@ -149,6 +153,9 @@ recipes.remove(<betterwithmods:wood_table:3>);
 recipes.remove(<betterwithmods:wood_table:4>);
 recipes.remove(<betterwithmods:wood_table:5>);
 
+JEI.removeAndHide(<contenttweaker:fire_block:*>);
+JEI.removeAndHide(<contenttweaker:stoked_fire_block:*>);
+
 //Turntable
 Turntable.removeAll();
 Turntable.add(<minecraft:clay>, <betterwithmods:unfired_pottery:1>, [<minecraft:clay_ball>]);
@@ -182,6 +189,12 @@ recipes.addShaped("fat_candle", <betterwithmods:candle>*2, [
 	[<ore:burnable_fat>]
 ]);
 
+recipes.addShaped("steel_spring", <betterwithmods:material:49>*2, [
+    [<dungeontactics:steel_nugget>,<dungeontactics:steel_nugget>],
+    [<dungeontactics:steel_nugget>,<dungeontactics:steel_nugget>],
+	[<dungeontactics:steel_nugget>,<dungeontactics:steel_nugget>]
+]);
+
 recipes.addShapeless("clay_brick_revert",<minecraft:clay_ball>,[<betterwithmods:unfired_pottery:4>]);
 
 recipes.addShapeless("nether_brick_revert",<betterwithmods:material:35>,[<betterwithmods:unfired_pottery:5>]);
@@ -199,7 +212,8 @@ var gnugg = <minecraft:gold_nugget>;
 var rstone = <minecraft:redstone>;
 var plank_wood = <ore:plankWood>;
 var rope = <betterwithmods:rope>;
-var cattail = <biomesoplenty:plant_1:4>; 
+var cattail = <biomesoplenty:plant_1:4>;
+var flax = <textiles:material:2>;
 var wicker = <betterwithmods:wicker>;
 var driedf = <pyrotech:tinder>;
 var rice = <ore:cropRice>;
@@ -237,6 +251,8 @@ val bark_strips = <primallib:bark_strips_generic>;
 
 <ore:hideScoured>.remove(<betterwithmods:material:7>);
 <ore:leather>.remove(<betterwithmods:material:31>);
+var soap = <betterwithmods:material:50>;
+var soap_block = <betterwithmods:aesthetic:10>;
 
 // gear wood
 recipes.remove(gear_wood);
@@ -315,7 +331,6 @@ recipes.addShaped("gearbox_wood_siding", <betterwithmods:wooden_gearbox>, [
 	[siding_wood, gear_wood, siding_wood]
 ]);
 recipes.addShapeless("gearbox_wood_repair", <betterwithmods:wooden_gearbox>, [<betterwithmods:wooden_broken_gearbox>, gear_wood, gear_wood]);
-recipes.addShapeless("gearbox_steel_repair", <betterwithmods:steel_gearbox>, [<betterwithmods:steel_broken_gearbox>, gear_steel, gear_steel]);
 // mechanical booster rail
 recipes.remove(<betterwithmods:booster>);
 recipes.addShaped("mech_booster_rail_4", <betterwithmods:booster>*4, [
@@ -340,12 +355,12 @@ recipes.addShaped("mech_booster_rail_32", <betterwithmods:booster>*32, [
 ]);
 // bellows
 recipes.remove(<betterwithmods:bellows>);
-recipes.addShaped("bellows_block", <betterwithmods:bellows>, [
+recipes.addShapedMirrored("bellows_block", <betterwithmods:bellows>, [
     [plank_wood, plank_wood, plank_wood],
     [leather_sheet, leather_sheet, leather_sheet],
 	[belt, gear_wood, belt]
 ]);
-recipes.addShaped("bellows_siding", <betterwithmods:bellows>, [
+recipes.addShapedMirrored("bellows_siding", <betterwithmods:bellows>, [
     [siding_wood, siding_wood, siding_wood],
     [leather_sheet, leather_sheet, leather_sheet],
 	[belt, gear_wood, belt]
@@ -383,12 +398,16 @@ recipes.addShaped("wicker2", wicker*4,
   [[cattail,cattail,cattail],
   [cattail,cattail,cattail]]);
   
-recipes.addShaped("wicker3", wicker*3,
+recipes.addShaped("wicker3", wicker*4,
+  [[flax,flax,flax],
+  [flax,flax,flax]]);
+  
+recipes.addShaped("wicker4", wicker*3,
   [[driedf,driedf],
   [driedf,driedf],
   [driedf,driedf]]);
   
-recipes.addShaped("wicker4", wicker*3,
+recipes.addShaped("wicker5", wicker*3,
   [[rice,rice,rice],
   [rice,rice,rice]]);
 	
@@ -519,6 +538,13 @@ recipes.addShaped("copper_chime", <betterwithmods:metal_chime:1>, [
     <betterwithmods:metal_chime:5>
 */
 
+recipes.remove(soap_block);
+recipes.addShaped("soap_block", soap_block, [
+    [soap,soap,soap],
+    [soap,soap,soap],
+	[soap,soap,soap]
+]);
+
 recipes.remove(<betterwithmods:broadhead_arrow>);
 recipes.addShaped("broadhead_arrow", <betterwithmods:broadhead_arrow>, [
     [<betterwithmods:material:43>],
@@ -549,8 +575,6 @@ recipes.addShaped("sewed_haft",haft*2,[
 
 recipes.removeShapeless(<betterwithmods:candle:*>,[<quark:candle:*>]);
 
-Cauldron.remove([<betterwithmods:material:12>]);
-Cauldron.addStoked([<ore:pelt>],[<betterwithmods:material:12>]);
 Cauldron.remove([<minecraft:mushroom_stew>]);
 Cauldron.remove([<minecraft:rabbit_stew>]);
 Cauldron.remove([<betterwithmods:chicken_soup>]);
@@ -669,6 +693,9 @@ HeatRegistry.addHeatSource([
     <blockstate:minecraft:fire>,
     <blockstate:contenttweaker:fire_block>
 ], <contenttweaker:fire_block>, 1);
+HeatRegistry.addHeatSource(<contenttweaker:stoked_fire_block>, 2);
+
+HeatRegistry.addHeatSource(<blockstate:exalembico:heater:heat=2>, 1);
 
 HeatRegistry.addHeatSource(<blockstate:exalembico:heater:heat=3>, 2);
 HeatRegistry.addHeatSource(<blockstate:exalembico:heater:heat=4>, 2);
@@ -741,6 +768,7 @@ var pulleyBlocks as IBlockState[] = [
     <blockstate:betterwithaddons:lattice:down=false,east=false,north=false,south=false,up=false,west=true>,
     <blockstate:betterwithaddons:lattice:down=false,east=false,north=false,south=false,up=false,west=false>,
     <blockstate:quark:sturdy_stone>,
+    <blockstate:contenttweaker:emblem_stone_red>,
     <blockstate:minecraft:bookshelf>,
     <blockstate:aether_legacy:skyroot_bookshelf>,
     <blockstate:quark:custom_bookshelf:variant=bookshelf_spruce>,

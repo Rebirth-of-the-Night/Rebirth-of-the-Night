@@ -155,6 +155,7 @@ for w, weapon in sapphireweps{
 <dungeontactics:golden_club:*>.addTooltip("Has a chance to disarm the enemy.");
 <dungeontactics:golden_battleaxe:*>.addTooltip("Beheading weapon.");
 <contenttweaker:fire_block:*>.addTooltip('"Huh, weird..."');
+<contenttweaker:stoked_fire_block:*>.addShiftTooltip('"We have Ponder at home!"');
 <minecraft:crafting_table:*>.addTooltip("Static version."); 
 <minecraft:crafting_table>.addShiftTooltip(("A") + format.yellow(" Portable Crafting") + format.gray(" Mat is better for long journeys."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <dungeontactics:trap_clamp:*>.addTooltip("Snaps and crushes its victim, inflicting great slowness.");
@@ -273,7 +274,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <sereneseasons:greenhouse_glass:*>.addTooltip("Lets crops grow out of their normal growing seasons. If the glass is placed more than 7 blocks above a crop, the crop won't gain this benefit.");
 <netherex:ghast_meat_cooked:*>.addTooltip("Slimy, yet satisfying!");
 <betterwithmods:raw_egg>.addTooltip("An effective medicine and stomach filler. That is what you tell yourself in order to tolerate the taste.");
-<betterwithmods:raw_egg>.addShiftTooltip("Granny's remedy, directly from Causeperse (whose, you don't know). Heals for a few seconds but causes an upset stomach and leaves you vulnerable.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<betterwithmods:raw_egg>.addShiftTooltip("Granny's remedy (whose, you don't know), directly from Causeperse. Heals for a few seconds but causes an upset stomach and leaves you vulnerable.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <harvestcraft:slimegummiesitem>.addTooltip("For years you have underestimated the power of slimes. With your intellect and these super cells, you are untouchable.");
 <rustic:elixir>.withTag({display:{LocName:"Metabolic Whey"},ElixirEffects:[{Effect: "minecraft:regeneration", Duration: 160, Amplifier: 2},{Effect: "minecraft:hunger", Duration: 160, Amplifier: 29},{Effect: "minecraft:nausea", Duration: 160, Amplifier: 0}]}).addTooltip("Tastes awful, but it will accelerate the natural healing of the body threefold and make you very hungry.");
 
@@ -478,6 +479,22 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 // Warding effect https://en.wikipedia.org/wiki/Apotropaic_magic
 <contenttweaker:ofuda>.addTooltip(format.gray("Apotropaic"));
 
+// Healing and consumables
+<contenttweaker:bandage>.addTooltip("Restores 6HP on use.");
+<contenttweaker:bandage>.addTooltip(format.red("Vulnerable for 10 seconds and revealed to enemies for 20 seconds after use."));
+<contenttweaker:bandage>.addShiftTooltip("After healing, incoming damage is increased by 40%, use out of danger.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<contenttweaker:bandage>.removeTooltip("Compost Value: 1");
+<contenttweaker:bandage_salve>.addTooltip("Restores 7HP on use and continues to heal 3HP.");
+<contenttweaker:bandage_salve>.addTooltip(format.red("Vulnerable for 10 seconds and revealed to enemies for 30 seconds after use."));
+<contenttweaker:bandage_salve>.addShiftTooltip("After healing, incoming damage is increased by 40%, use out of danger.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<contenttweaker:bandage_salve>.removeTooltip("Compost Value: 1");
+<contenttweaker:suturing_kit>.addTooltip("Restores 30HP on use and continues to heal 6HP.");
+<contenttweaker:suturing_kit>.addTooltip(format.red("Very vulnerable for 30 seconds and greatly revealed to enemies for 20 seconds after use."));
+<contenttweaker:suturing_kit>.addShiftTooltip("After healing, incoming damage is increased by 60%, use out of danger.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<contenttweaker:suturing_kit>.removeTooltip("Compost Value: 1");
+
+<contenttweaker:edible_creephae>.addTooltip("Chewy (!?).");
+
 // Misc.
 <antiqueatlas:empty_antique_atlas:*>.addTooltip("Antique Map");
 <golems:golem_head:*>.addTooltip("Used for summoning Golems");
@@ -491,17 +508,6 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <minecraft:enchanting_table:*>.addTooltip("Untapped power lies within this table...");
 <eplus:advanced_table:*>.addTooltip("Requires placing an Enchanting Table Upgrade on a regular Enchanting Table.");
 <eplus:table_upgrade:*>.addTooltip("Shift + right-click on an Enchanting Table to upgrade.");
-<contenttweaker:bandage>.addTooltip("Restores 6HP on use.");
-<contenttweaker:bandage>.addTooltip(format.red("Vulnerable for 10 seconds after use."));
-<contenttweaker:bandage>.addShiftTooltip("After healing, incoming damage is increased by 40%, use out of danger.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<contenttweaker:bandage>.removeTooltip("Compost Value: 1");
-<contenttweaker:bandage_salve>.addTooltip("Restores 6HP on use and continues to heal 3HP.");
-<contenttweaker:bandage_salve>.addTooltip(format.red("Vulnerable for 10 seconds after use."));
-<contenttweaker:bandage_salve>.addShiftTooltip("After healing, incoming damage is increased by 40%, use out of danger.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<contenttweaker:bandage>.removeTooltip("Compost Value: 1");
-<contenttweaker:suturing_kit>.addTooltip("Restores 30HP on use and continues to heal 6HP.");
-<contenttweaker:suturing_kit>.addTooltip(format.red("Very vulnerable for 30 seconds after use."));
-<contenttweaker:suturing_kit>.addShiftTooltip("After healing, incoming damage is increased by 60%, use out of danger.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <contenttweaker:suturing_kit>.removeTooltip("Compost Value: 1");
 <foundry:machine:2>.removeTooltip("Requires RF, FE, or Tesla to operate.");
 <foundry:machine:2>.addTooltip("Requires a Redstone signal to operate.");
@@ -550,18 +556,22 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 
 <exalembico:heater>.addTooltip("Ultimate control for heat-powered appliances. Courtesy of the Val-Kaine.");
 <exalembico:heater>.addShiftTooltip("Can be turned on and off. Different fuels provide different accessible heat levels. Supports alembics, woks, pots, bake kettles, stoked crucibles, and melting crucibles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<exalembico:alembic>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" VALKEN HEATER, STOVE, HEARTH"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<exsartagine:wok>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<exsartagine:pot>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<exsartagine:kettle>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exalembico:heater>.addShiftTooltip("· For use as a Hearth/Stove: Heat 2.");
+<exalembico:heater>.addShiftTooltip("· For use as a Stoked Fire:  Heat 3.");
+<exalembico:alembic>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" VALKEN HEATER, STOVE [Heat 2], HEARTH [Heat 2]"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:wok>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME, VALKEN HEATER [at Heat 2]"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:pot>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME, VALKEN HEATER [at Heat 2]"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:kettle>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME, VALKEN HEATER [at Heat 2]"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:range:*>.addTooltip("Efficiently heats cooking appliances for fuel.");
 <exsartagine:range:*>.addShiftTooltip("Supports up to three total Stove Extensions on either side, offering four surfaces on which to place woks, pots and bake kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<exsartagine:range:*>.addShiftTooltip("Acts as heat level 2 for alembics.");
+<exsartagine:range:*>.addShiftTooltip("[Acts as heat level 2 for alembics]");
 <exsartagine:hearth:*>.addTooltip("Heats cooking appliances for fuel. Requires ignition.");
 <exsartagine:hearth:*>.addShiftTooltip("Supports one Hearth Extension to its side, offering two total surfaces on which to place woks, pots and bake kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<exsartagine:hearth:*>.addShiftTooltip("Acts as heat level 2 for alembics.");
+<exsartagine:hearth:*>.addShiftTooltip("[Acts as heat level 2 for alembics]");
 <exsartagine:range_extended>.addTooltip("An extension for the Stove. Up to three can be added to either side of a Stove. Can only be placed next to Stoves.");
+<exsartagine:range_extended>.addShiftTooltip("[Acts as heat level 1 for alembics]", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:hearth_extended>.addTooltip("An extension for the Hearth. Only one can be added to the side of a Hearth. Can only be placed next to Hearths.");
+<exsartagine:hearth_extended>.addShiftTooltip("[Acts as heat level 1 for alembics]", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 <biomesoplenty:terrestrial_artifact>.addTooltip("Has a chance to be dropped from Mysterious Lodestone.");
 <dungeontactics:mithril_block>.addTooltip("Found in frozen and arctic biomes.");

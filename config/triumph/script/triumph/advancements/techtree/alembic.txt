@@ -1,0 +1,27 @@
+setIcon(<exalembico:alembic>)
+setTitle("Alembic")
+setDescription("Craft an alembic to dabble in more complex alchemical reactions. From transmutations and healing, to ability-boosting applications and the creation of rare materials. Requires progressively more advanced heating techniques.")
+
+
+addParent("triumph:advancements/techtree/campfire")
+
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(true)
+
+criteria = addCriteria("Clay Alembic", "minecraft:inventory_changed")
+criteria.addItem("exalembico:alembic")
+
+//This function grants the hearth advancement retroactively.
+addRewardFunction("triumph:bottle")
+
+setFrameType("GOAL")
+
+visibleIf("triumph:advancements/techtree/bottle")
+alwaysHidden()
+
+setPos(-93,68)
+hideLines()

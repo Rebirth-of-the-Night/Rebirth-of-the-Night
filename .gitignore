@@ -134,3 +134,9 @@ llibrary/config.dat
 /config/litematica
 /config/minihud
 /journeymap
+config/fancymenu/config.txt
+/local
+/config/konkrete
+/impossible_data
+/config/fancymenu/locals
+/config/rc_cache

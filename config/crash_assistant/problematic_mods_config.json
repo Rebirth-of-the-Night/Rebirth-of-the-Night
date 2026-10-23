@@ -1,0 +1,6 @@
+{
+	"essential": {
+		"msg": "You are trying to launch with the Essential Mod installed! Essential is incompatible with Rebirth of the Night. Consider using another option, such as e4mc retro, zerotier, or using code ROTN at https://www.bisecthosting.com/ROTN for 25% percent off a server. For more help setting up these options, join the discord!, ",
+		"should_crash_on_startup": true
+	}
+}

@@ -7,7 +7,7 @@ addRewardFunction("triumph:killedHarvesterHidden")
 addParent("triumph:advancements/progression/earlyArmor")
 
 
-addCriteria("impossible", "minecraft:impossible")
+criteria = addCriteria("impossible", "minecraft:impossible")
 
 setUncompletedIconColor(150,150,150)
 setUncompletedTitleColor(110,110,110)

@@ -3,8 +3,7 @@ setTitle("Backpack")
 setDescription("Craft a backpack which can be equipped to double your inventory space.")
 
 
-addParent("triumph:advancements/storage/chest")
-addParent("triumph:advancements/storage/quarkchest")
+addParent("triumph:advancements/storage/bundle")
 
 //Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
 setShowToast(true)
@@ -15,7 +14,9 @@ setAnnounceToChat(false)
 criteria = addCriteria("Craft Backpack", "minecraft:inventory_changed")
 criteria.addItem("quark:backpack")
 
+setFrameType("CHALLENGE")
+
 // hideLines()
 // setHidden(true)
 alwaysVisible()
-setPos(-552,-97)
+setPos(-490,-62)

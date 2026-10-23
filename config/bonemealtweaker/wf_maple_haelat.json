@@ -1,0 +1,48 @@
+{
+  "block": "minecraft:grass",
+  "iterations": 25,
+  "biomes": [
+    "biomesoplenty:maple_woods"
+  ],
+  "dimensions": [
+    0
+  ],
+  "spawnBlocks": [
+    {
+      "block": "biomesoplenty:plant_0[variant=mediumgrass]",
+      "weight": 80
+    },
+	{
+      "block": "bblsom:wildflowers_haelat[facing=south,slices=0]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_haelat[facing=south,slices=1]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_haelat[facing=south,slices=2]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_haelat[facing=south,slices=3]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_haelat[facing=north,slices=0]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_haelat[facing=north,slices=1]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_haelat[facing=north,slices=2]",
+      "weight": 10
+    },
+    {
+      "block": "bblsom:wildflowers_haelat[facing=north,slices=3]",
+      "weight": 10
+    }
+  ]
+}

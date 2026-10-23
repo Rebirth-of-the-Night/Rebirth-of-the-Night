@@ -1,6 +1,6 @@
 setIcon(<quark:crystal:7>)
 setTitle("Eureka!")
-setDescription("Mine magicite.")
+setDescription("Mine Magicite.")
 
 addParent("triumph:advancements/magick/leyoftheland/leyoftheland")
 

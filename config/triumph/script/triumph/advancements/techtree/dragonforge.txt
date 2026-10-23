@@ -1,0 +1,29 @@
+setIcon(<iceandfire:dragonforge_fire_core_disabled>)
+setTitle("Dragon Forge")
+setDescription("Craft the core piece of an Ice or Fire Dragon Forge. A mythological recreation of the power of extinct beasts summoned from lesser forms of themselves.")
+
+addParent("triumph:advancements/techtree/gemcutters_table")
+
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(true)
+
+setUncompletedIconColor(217,255,92)
+setCompletedIconColor(255, 255, 0)
+
+setFrameType("CHALLENGE")
+
+setRequirements("any")
+
+criteria = addCriteria("Dragon Forge Fire", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:dragonforge_fire_core_disabled")
+criteria = addCriteria("Dragon Forge Ice", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:dragonforge_ice_core_disabled")
+
+visibleIf("triumph:advancements/techtree/gemcutters_table")
+alwaysHidden()
+
+setPos(190,102)

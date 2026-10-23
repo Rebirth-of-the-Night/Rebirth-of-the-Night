@@ -192,6 +192,7 @@ ExSartagine.addPlaceable(<blockstate:pyrotech:campfire:ash=6,variant=lit>,true,t
 ExSartagine.addPlaceable(<blockstate:pyrotech:campfire:ash=7,variant=lit>,true,true);
 ExSartagine.addPlaceable(<blockstate:pyrotech:campfire:ash=8,variant=lit>,true,true);
 ExSartagine.addPlaceable(<blockstate:exalembico:heater>.getBlock(),false);
+ExSartagine.addPlaceable(<blockstate:exalembico:heater:heat=1>,true);
 ExSartagine.addPlaceable(<blockstate:exalembico:heater:heat=2>,true);
 
 ExSartagine.removeSmelterRecipe(<minecraft:gold_ingot>);
@@ -3031,7 +3032,7 @@ RecipeBuilder.get("chef")
   .create();
 // Creeper Cookie
 recipes.remove(<harvestcraft:creepercookieitem>);
-ExSartagine.addKettleRecipe([<rats:charged_creeper_chunk>,batter,sugar],cookKitKettle,null,[<harvestcraft:creepercookieitem>],80);
+ExSartagine.addKettleRecipe([<contenttweaker:edible_creephae>,batter,sugar],cookKitKettle,null,[<harvestcraft:creepercookieitem>],80);
 // Honey Bread
 recipes.remove(<harvestcraft:honeybreaditem>);
 recipes.addShapeless("honeybread", <harvestcraft:honeybreaditem>,[bread,honey,cookKitBad]);
@@ -3080,7 +3081,7 @@ recipes.remove(<harvestcraft:crackersitem>);
 ExSartagine.addKettleRecipe([dough,butter,salt],cookKitKettle,null,[<harvestcraft:crackersitem>],80);
 // Creeper Wings
 recipes.remove(<harvestcraft:creeperwingsitem>);
-ExSartagine.addKettleRecipe([cookedChicken,hotSauce,<minecraft:gunpowder>],cookKitKettle,null,[<harvestcraft:creeperwingsitem>],80);
+ExSartagine.addKettleRecipe([cookedChicken,hotSauce,<contenttweaker:edible_creephae>],cookKitKettle,null,[<harvestcraft:creeperwingsitem>],80);
 // Dhal
 recipes.remove(<harvestcraft:dhalitem>);
 ExSartagine.addKettleRecipe([peas,<harvestcraft:garammasalaitem>,<harvestcraft:curryleafitem>,mustardSeed,veggie,veggie,veggie],cookKitKettle,null,[<harvestcraft:dhalitem>],80);
@@ -3858,3 +3859,6 @@ ExSartagine.addKettleRecipe([woodChips], null, waterBucket, <liquid:methanol>*10
 
 // clean water
 ExSartagine.addKettleRecipe([null],<ore:soap>,<liquid:water>*1000,null,[null], 1200, -5000);// liquid
+
+//soap
+ExSartagine.addKettleRecipe([<betterwithmods:material:21>, <betterwithaddons:decomat>|<quark:tallow>],null,<liquid:water>*200,null,[<betterwithmods:material:50>],2400,-1000);//liquid

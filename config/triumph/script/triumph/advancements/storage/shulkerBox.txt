@@ -1,8 +1,9 @@
 setIcon(<minecraft:purple_shulker_box>)
 setTitle("Shulker Box")
-setDescription("Craft a Shulker Box.")
+setDescription("Craft a Shulker Box. An otherworldly sack.")
 
-addParent("triumph:advancements/storage/enderchest")
+addParent("triumph:advancements/storage/sack")
+addParent("triumph:advancements/storage/basket")
 
 //Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
 setShowToast(true)
@@ -16,4 +17,4 @@ criteria.addItem("minecraft:purple_shulker_box")
 // hideLines()
 // setHidden(true)
 alwaysVisible()
-setPos(-479,-97)
+setPos(-472,-105)

@@ -1,0 +1,20 @@
+setIcon(<textiles:basket>)
+setTitle("Basket")
+setDescription("Craft a basket, which is heavier than a sack, but can be upgraded further for more space.")
+
+
+addParent("triumph:advancements/storage/sack")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+criteria = addCriteria("Craft Basket", "minecraft:inventory_changed")
+criteria.addItem("textiles:sack")
+
+// hideLines()
+// setHidden(true)
+alwaysVisible()
+setPos(-515,-93)

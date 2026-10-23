@@ -15,5 +15,7 @@ setAnnounceToChat(true)
 criteria = addCriteria("Saw", "minecraft:inventory_changed")
 criteria.addItem("betterwithmods:saw")
 
+setFrameType("GOAL")
+
 alwaysVisible()
 setPos(-48,166)

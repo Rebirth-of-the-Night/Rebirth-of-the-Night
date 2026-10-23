@@ -2,7 +2,8 @@
   "block": "minecraft:grass",
   "iterations": 24,
   "biomes": [
-    "biomesoplenty:orchard"
+    "biomesoplenty:orchard",
+	"biomesoplenty:chaparral"
   ],
   "dimensions": [
     0
