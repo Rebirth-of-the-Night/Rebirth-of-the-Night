@@ -1,0 +1,178 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "rolls": {
+        "min": 3,
+        "max": 5
+      },
+      "entries": [
+        {
+          "entryName": "random herbs",
+          "type": "loot_table",
+          "name": "jsonlootbags:subtables/random_herbs",
+          "weight": 6
+        },
+        {
+          "entryName": "sugarcane",
+          "type": "item",
+          "name": "minecraft:reeds",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 24,
+                "max": 32
+              }
+            }
+          ],
+          "weight": 6
+        },
+        {
+          "entryName": "simple healing elixir",
+          "type": "item",
+          "name": "rustic:elixir",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 4
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display: {LocName: \"Simple Healing Elixir\"}, ElixirEffects: [{Effect: \"minecraft:instant_health\", Amplifier: 4}]}"
+            }
+          ],
+          "weight": 6
+        },
+        {
+          "entryName": "scab",
+          "type": "item",
+          "name": "contenttweaker:scab",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 6
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "entryName": "skull",
+          "type": "item",
+          "name": "minecraft:skull",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "entryName": "stomach",
+          "type": "item",
+          "name": "growthcraft_milk:stomach",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "entryName": "magic seed",
+          "type": "item",
+          "name": "dynamictreesbop:magicseed",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 12
+              }
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "stillborn petal",
+          "type": "item",
+          "name": "biomesoplenty:terrestrial_artifact",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "mulch",
+          "type": "item",
+          "name": "pyrotech:mulch",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 24,
+                "max": 32
+              }
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "tanned leather",
+          "type": "item",
+          "name": "betterwithmods:material",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 6
+              }
+            },
+            {
+              "function":"set_data",
+              "data": 6
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "random_plushie",
+      "entries": [
+        {
+          "entryName": "random_plushie",
+          "name": "jsonlootbags:subtables/random_plushie",
+          "weight": 1,
+          "quality": 5,
+          "type": "loot_table"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.1,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    }
+  ]
+}

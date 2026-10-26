@@ -118,8 +118,8 @@ for i in 0 to 6 {
     Anvil.addShaped(<foundry:machine:1>, // Metal Caster
     [
         [null, <ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>],
-        [<ceramics:unfired_clay:5>, <pyrotech:bucket_stone>, <betterwithmods:grate>.definition.makeStack(i), <ceramics:faucet>],
-        [<ceramics:unfired_clay:5>, <pyrotech:bucket_stone>, <betterwithmods:grate>.definition.makeStack(i), <ceramics:faucet>],
+        [<ceramics:unfired_clay:5>, <pyrotech:bucket_stone>, <rustic:iron_lattice>, <ceramics:faucet>],
+        [<ceramics:unfired_clay:5>, <pyrotech:bucket_stone>, <rustic:iron_lattice>, <ceramics:faucet>],
         [null, <ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>]
     ]);
 }

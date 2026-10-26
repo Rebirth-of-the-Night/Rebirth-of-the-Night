@@ -1,0 +1,8 @@
+{
+	"parent": "block/stairs",
+	"textures": {
+		"top":"contenttweaker:blocks/block_electrum",
+		"bottom":"contenttweaker:blocks/block_electrum",
+		"side":"contenttweaker:blocks/block_electrum"
+	}
+}

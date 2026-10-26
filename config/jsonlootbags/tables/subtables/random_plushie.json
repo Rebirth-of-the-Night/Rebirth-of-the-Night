@@ -1,0 +1,170 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "rolls": 1,
+      "entries": [
+        {
+          "entryName": "providence",
+          "type": "item",
+          "name": "fickle:plushie",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{PlushieId: \"providence\"}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "elite",
+          "type": "item",
+          "name": "fickle:plushie",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{PlushieId: \"elite\"}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "cosmo",
+          "type": "item",
+          "name": "fickle:plushie",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{PlushieId: \"cosmo\"}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "hikonyan",
+          "type": "item",
+          "name": "fickle:plushie",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{PlushieId: \"hikonyan\"}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "baa",
+          "type": "item",
+          "name": "fickle:plushie",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{PlushieId: \"baa\"}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "starry_sock",
+          "type": "item",
+          "name": "fickle:plushie",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{PlushieId: \"starry_sock\"}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "phos",
+          "type": "item",
+          "name": "fickle:plushie",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{PlushieId: \"phos\"}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "ozy",
+          "type": "item",
+          "name": "fickle:plushie",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{PlushieId: \"ozy\"}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "mari",
+          "type": "item",
+          "name": "fickle:plushie",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{PlushieId: \"mari\"}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "fang_guard",
+          "type": "item",
+          "name": "fickle:plushie",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{PlushieId: \"fang_guard\"}"
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

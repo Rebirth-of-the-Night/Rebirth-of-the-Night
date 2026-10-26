@@ -1,0 +1,76 @@
+itemGroup.textiles=Textiles
+
+fluid.flaxseed_oil=Flaxseed Oil
+
+# Blocks
+tile.textiles.feather_block.name=Bundle of Feathers
+
+tile.textiles.spindle.name=Plain Fabric
+tile.textiles.spindle_red.name=Red Fabric
+tile.textiles.spindle_orange.name=Orange Fabric
+tile.textiles.spindle_yellow.name=Yellow Fabric
+tile.textiles.spindle_lime.name=Lime Fabric
+tile.textiles.spindle_green.name=Green Fabric
+tile.textiles.spindle_cyan.name=Cyan Fabric
+tile.textiles.spindle_light_blue.name=Light Blue Fabric
+tile.textiles.spindle_blue.name=Blue Fabric
+tile.textiles.spindle_purple.name=Purple Fabric
+tile.textiles.spindle_magenta.name=Magenta Fabric
+tile.textiles.spindle_pink.name=Pink Fabric
+tile.textiles.spindle_white.name=White Fabric
+tile.textiles.spindle_silver.name=Light Gray Fabric
+tile.textiles.spindle_gray.name=Gray Fabric
+tile.textiles.spindle_black.name=Black Fabric
+tile.textiles.spindle_brown.name=Brown Fabric
+
+tile.textiles.cushion.name=Plain Cushion
+tile.textiles.cushion_red.name=Red Cushion
+tile.textiles.cushion_orange.name=Orange Cushion
+tile.textiles.cushion_yellow.name=Yellow Cushion
+tile.textiles.cushion_lime.name=Lime Cushion
+tile.textiles.cushion_green.name=Green Cushion
+tile.textiles.cushion_cyan.name=Cyan Cushion
+tile.textiles.cushion_light_blue.name=Light Blue Cushion
+tile.textiles.cushion_blue.name=Blue Cushion
+tile.textiles.cushion_purple.name=Purple Cushion
+tile.textiles.cushion_magenta.name=Magenta Cushion
+tile.textiles.cushion_pink.name=Pink Cushion
+tile.textiles.cushion_white.name=White Cushion
+tile.textiles.cushion_silver.name=Light Gray Cushion
+tile.textiles.cushion_gray.name=Gray Cushion
+tile.textiles.cushion_black.name=Black Cushion
+tile.textiles.cushion_brown.name=Brown Cushion
+
+tile.textiles.raw_fibers.name=Raw Fiber Bale
+tile.textiles.dried_fibers.name=Retted Fiber Bale
+
+tile.textiles.basket.name=Basket
+tile.textiles.basket_1.name=Sturdy Basket
+
+tile.textiles.sack.name=Sack
+
+# Items
+item.textiles.material.wicker_patch.name=Wicker Patch
+item.textiles.material.twine.name=Flax Fibers
+item.textiles.material.flax_stalks.name=Flax Stalks
+item.textiles.material.pale_blossom.name=Pale Flax Blossoms
+item.textiles.material.vibrant_blossom.name=Vibrant Flax Blossoms
+item.textiles.material.exquisite_blossom.name=Exquisite Flax Blossoms
+item.textiles.material.chain_mesh.name=Chain Mesh
+item.textiles.material.plant_fibers.name=Raw Plant Fibers
+item.textiles.material.silk_thread.name=Silk Thread
+item.textiles.material.silk_wisps.name=Silk Wisps
+item.textiles.material.flaxseed_oil.name=Flaxseed Oil Bottle
+item.textiles.material.wood_stain.name=Wood Stain
+item.textiles.material.wood_bleach.name=Wood Bleach
+item.textiles.material.linen.name=Burlap
+item.textiles.flax_seeds.name=Flax Seeds
+
+# Potions
+effect.textiles.overencumbered=Overencumbered
+
+# Subtitles
+textiles.subtitles.sack_open=Sack opens
+textiles.subtitles.sack_close=Sack closes
+textiles.subtitles.sack_insert=Sack fills
+textiles.subtitles.sack_extract=Sack empties

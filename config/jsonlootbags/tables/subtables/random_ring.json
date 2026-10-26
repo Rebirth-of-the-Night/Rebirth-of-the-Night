@@ -1,0 +1,202 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "rolls": 1,
+      "entries": [
+        {
+          "entryName": "1",
+          "type": "item",
+          "name": "behgameon:ring_1",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "2",
+          "type": "item",
+          "name": "behgameon:ring_2",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "3",
+          "type": "item",
+          "name": "behgameon:ring_3",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "4",
+          "type": "item",
+          "name": "behgameon:ring_4",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "5",
+          "type": "item",
+          "name": "behgameon:ring_5",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "6",
+          "type": "item",
+          "name": "behgameon:ring_6",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "7",
+          "type": "item",
+          "name": "behgameon:ring_7",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "8",
+          "type": "item",
+          "name": "behgameon:ring_8",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "9",
+          "type": "item",
+          "name": "behgameon:ring_9",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "10",
+          "type": "item",
+          "name": "behgameon:ring_10",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "11",
+          "type": "item",
+          "name": "behgameon:ring_11",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "12",
+          "type": "item",
+          "name": "behgameon:ring_12",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "13",
+          "type": "item",
+          "name": "behgameon:ring_13",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "14",
+          "type": "item",
+          "name": "behgameon:ring_14",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "15",
+          "type": "item",
+          "name": "behgameon:ring_15",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "16",
+          "type": "item",
+          "name": "behgameon:ring_16",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "particle": "betterwithmods:blocks/wood_side_oak",
+      "side": "#particle"
+    },
+    "model": "betterwithmods:stick_main",
+    "uvlock": false
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "type": {
+      "oak": {},
+      "spruce": {
+        "textures": {
+          "particle": "betterwithmods:blocks/wood_side_spruce"
+        }
+      },
+      "birch": {
+        "textures": {
+          "particle": "betterwithmods:blocks/wood_side_birch"
+        }
+      },
+      "jungle": {
+        "textures": {
+          "particle": "betterwithmods:blocks/wood_side_jungle"
+        }
+      },
+      "acacia": {
+        "textures": {
+          "particle": "betterwithmods:blocks/wood_side_acacia"
+        }
+      },
+      "dark_oak": {
+        "textures": {
+          "particle": "betterwithmods:blocks/wood_side_dark_oak"
+        }
+      }
+    },
+    "north": {
+      "true": {
+        "submodel": {
+          "ext0": {
+            "model": "betterwithmods:stick_extension",
+            "y": 90
+          }
+        }
+      },
+      "false": {}
+    },
+    "east": {
+      "true": {
+        "submodel": {
+          "ext1": {
+            "model": "betterwithmods:stick_extension",
+            "y": 180
+          }
+        }
+      },
+      "false": {}
+    },
+    "south": {
+      "true": {
+        "submodel": {
+          "ext2": {
+            "model": "betterwithmods:stick_extension",
+            "y": 270
+          }
+        }
+      },
+      "false": {}
+    },
+    "west": {
+      "true": {
+        "submodel": {
+          "ext3": {
+            "model": "betterwithmods:stick_extension"
+          }
+        }
+      },
+      "false": {}
+    }
+  }
+}

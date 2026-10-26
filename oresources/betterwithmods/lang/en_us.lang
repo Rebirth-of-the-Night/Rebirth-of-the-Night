@@ -7,8 +7,8 @@ inv.steel_anvil.name=Steel Anvil
 
 tile.bwm:bucket.name=Robust Fluid Container
 
-item.bwm:material.hemp_fibers.name=Durable Fibers
-item.bwm:material.hemp_cloth.name=Durable Cloth
+item.bwm:material.hemp_fibers.name=Hemp Fibers
+item.bwm:material.hemp_cloth.name=Canvas
 
 item.bwm:wool_helmet.name=Incomplete Developer Helmet
 item.bwm:wool_chest.name=Incomplete Developer Chestplate
@@ -52,7 +52,7 @@ tile.bwm:single_machine.3.name=Turntable
 tile.bwm:pane.0.name=Grate
 tile.bwm:pane.1.name=Slats
 tile.bwm:wicker.name=Wicker
-tile.bwm:grate.0.name=Oak Grate
+tile.bwm:grate.0.name=Stick
 tile.bwm:grate.1.name=Spruce Grate
 tile.bwm:grate.2.name=Birch Grate
 tile.bwm:grate.3.name=Jungle Grate
@@ -372,7 +372,7 @@ item.bwm:material.diamond_ingot.name=Diamond Ingot
 item.bwm:material.diamond_nugget.name=Diamond Nugget
 item.bwm:material.chain_mail.name=Chain Mail
 item.bwm:material.steel_gear.name=Steel Gear
-item.bwm:material.steel_spring.name=Soulforged Steel Spring
+item.bwm:material.steel_spring.name=Steel Spring
 item.bwm:material.soap.name=Soap
 item.bwm:material.mystery_gland.name=Mysterious Gland
 item.bwm:material.witch_wart.name=Witch Wart

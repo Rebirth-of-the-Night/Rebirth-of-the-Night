@@ -41,6 +41,7 @@ JEI.removeAndHide(<cyclicmagic:block_fishing>);//add back
 JEI.removeAndHide(<cyclicmagic:password_block>);//add back
 JEI.removeAndHide(<cyclicmagic:fluid_placer>); //Requires RF
 JEI.removeAndHide(<cyclicmagic:fluid_drain>); //Requires RF
+JEI.removeAndHide(<cyclicmagic:tool_prospector>);
 //JEI.removeAndHide(<cyclicmagic:corrupted_chorus>);//add back in future update
 
 
@@ -72,7 +73,6 @@ recipes.remove(<cyclicmagic:plate_push_corner>);
 recipes.remove(<cyclicmagic:plate_push_med_angle>);
 recipes.remove(<cyclicmagic:shears_obsidian>);
 recipes.remove(<cyclicmagic:doorbell_simple>);
-recipes.remove(<cyclicmagic:tool_prospector>);
 recipes.remove(<cyclicmagic:horse_upgrade_type>);
 recipes.remove(<cyclicmagic:horse_upgrade_variant>);
 recipes.remove(<cyclicmagic:horse_upgrade_health>);
@@ -112,7 +112,6 @@ var carpaper = <cyclicmagic:carbon_paper>;
 var paper = <ore:paper>;
 var obsi_shard = <endreborn:item_shard_obsidian>;
 var obsi_shear = <cyclicmagic:shears_obsidian>;
-var ore_locator = <cyclicmagic:tool_prospector>;
 var blazerod = <minecraft:blaze_rod>;
 var st_conveyor = <cyclicmagic:plate_push_slowest>;
 var masonry_brick = <contenttweaker:masonry_brick>;
@@ -189,7 +188,7 @@ recipes.addShaped("immersive_carbon_paper", carpaper*6, [
 
 recipes.addShaped("immersive_prospector", <cyclicmagic:tool_spelunker>, [
 	[carpaper, <minecraft:stone_pickaxe>],
-    [<minecraft:writable_book>, <artisanworktables:artisans_lens_gold>, <antiqueatlas:empty_antique_atlas>]
+    [paper, <artisanworktables:artisans_lens_gold>]
 ]);
 
 recipes.addShaped("obsidian_shears", obsi_shear,[
@@ -200,12 +199,6 @@ recipes.addShaped("obsidian_shears", obsi_shear,[
 recipes.addShaped("powered_conveyor", st_conveyor*12,[
 	[timber_framing,timber_framing,timber_framing],
     [masonry_brick, dense_redstone, masonry_brick]
-]);
-
-recipes.addShaped("ore_locator", ore_locator,[
-	[null, codex, <betterwithmods:material:45>],
-    [null, blazerod, <cyclicmagic:tool_spelunker>],
-    [blazerod, null, null]
 ]);
 
 recipes.addShapeless("straight_conveyor_2_corner", <cyclicmagic:plate_push_slowest_corner>, [st_conveyor]);

@@ -1,0 +1,130 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "entryName": "blood orchid",
+          "type": "item",
+          "name": "rustic:blood_orchid",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 6
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "entryName": "wind thistle",
+          "type": "item",
+          "name": "rustic:wind_thistle",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 6
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "entryName": "aloe vera",
+          "type": "item",
+          "name": "rustic:aloe_vera",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 6
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "entryName": "cohosh",
+          "type": "item",
+          "name": "rustic:cohosh",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 6
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "entryName": "cloudsbluff",
+          "type": "item",
+          "name": "rustic:cloudsbluff",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 6
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "entryName": "horsetail",
+          "type": "item",
+          "name": "rustic:horsetail",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 6
+              }
+            }
+          ],
+          "weight": 2
+        },
+         {
+          "entryName": "clover",
+          "type": "item",
+          "name": "contenttweaker:4leaf_clover",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "hawberry",
+          "type": "item",
+          "name": "biomesoplenty:berries",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 12
+              }
+            }
+          ],
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

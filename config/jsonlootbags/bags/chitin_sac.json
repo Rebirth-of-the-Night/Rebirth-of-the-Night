@@ -1,0 +1,12 @@
+{
+    "loot-table": "jsonlootbags:bags/chitin_sac", 
+    "name": "chitin_sac",                 
+    "human-name": "Chitin Sac",    
+    "texture": "jsonlootbags:bag",  
+    "rarity": "Uncommon",   
+    "effect": true,     
+    "colors": [         
+    "0x90C3D4",         
+    "#DB32DB"           
+    ]
+}

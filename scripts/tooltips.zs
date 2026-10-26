@@ -21,7 +21,7 @@ import crafttweaker.item.IIngredient;
 // Primitive metal (recipes at pyrotech kiln and rotn tweaker scripts)
 <rotntweaker:smelting_vessel>.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 1, Damage: 21}, {id: "contenttweaker:material_part", Count: 3, Damage: 20}]}).addTooltip(format.gray("Contains 3 Copper Dust."));
 <rotntweaker:smelting_vessel>.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 1, Damage: 21}, {id: "contenttweaker:material_part", Count: 3, Damage: 20}]}).addTooltip(format.gray("Contains 1 Tin Dust."));
-<rotntweaker:smelting_vessel>.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 1, Damage: 0}]}).addTooltip(format.darkGreen("Contains 4 Bronze Ingots."));
+<rotntweaker:smelting_vessel>.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 4, Damage: 0}]}).addTooltip(format.darkGreen("Contains 4 Bronze Ingots."));
 
 // Single item set bonuses
 <minecraft:diamond_sword:*>.addTooltip(format.blue("+15% Attack Speed"));
@@ -522,6 +522,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <foundry:burner_heater>.addShiftTooltip(format.gold("Fuel Capacity:") + format.yellow(" 4 stacks"));
 <foundry:burner_heater>.addShiftTooltip(format.gold("Fuel Modifier:") + format.yellow(" 25% (1 stack) - 100% (4 stacks)"));
 <foundry:burner_heater:*>.addTooltip("Burns all 4 fuel slots concurrently. Make sure all 4 slots are filled with at least 1 fuel item for maximum efficiency!");
+<ore:rock>.addTooltip("Can be thrown.");
 
 <ironfurnaces:iron_furnace_idle>.addShiftTooltip(format.gold("Input Capacity:") + "" + format.yellow(" full stack; 1 at a time."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info.")); // mud furnace
 <ironfurnaces:iron_furnace_idle>.addShiftTooltip(format.gold("Fuel Capacity:") + format.yellow(" full stack; 1 at a time."));
@@ -637,6 +638,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <contenttweaker:ancient_cache:*>.addTooltip(format.darkRed("What, at long last, can be freed once more?"));
 
 <aesthetics:iron_brick_stairs:*>.addTooltip("When used in machines, can be oriented in any position.");
+
+<artifacts:drinking_hat:*>.addTooltip("'This thing is so dumb, you could only get it from giving a fairy cat the key to infinite fish' - Foreck");
 
 // Bombs
 <dungeontactics:bomb_frag:*>.addTooltip("Explodes in an area");

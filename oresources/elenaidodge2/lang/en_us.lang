@@ -1,0 +1,58 @@
+key.elenaidodge2.dodge=Dodge
+elenaidodge2.general.common.weights.weights=Weights Override
+elenaidodge2.general.common.balance.potions=Potion Blacklist
+
+reskillable.unlock.elenaidodge2.dodge=Dodge
+reskillable.unlock.elenaidodge2.dodge.desc=Your hardwork is finally starting to pay off. You are now able to dodge enemy attacks!
+
+tutorial.dodge.title=Hold down %s
+tutorial.dodge.description=Dodge with %s, %s, %s or %s
+
+tutorial.doubledodge.title=Double tap %s, %s or %s
+tutorial.doubledodge.description=Dash with %s
+
+tutorial.forwardsdoubledodge.title=Dodging
+tutorial.forwardsdoubledodge.description=Double tap %s, %s, %s or %s
+
+potion.effect.feathers=Potion of Feathers
+splash_potion.effect.feathers=Splash Potion of Feathers
+lingering_potion.effect.feathers=Lingering Potion of Feathers
+tipped_arrow.effect.feathers=Arrow of Feathers
+effect.feathers=Feathery
+
+potion.effect.replenishment=Potion of Replenishment
+splash_potion.effect.replenishment=Splash Potion of Replenishment
+lingering_potion.effect.replenishment=Lingering Potion of Replenishment
+tipped_arrow.effect.replenishment=Arrow of Replenishment
+effect.replenishment=Replenishment
+
+potion.effect.weight=Potion of Weight
+splash_potion.effect.weight=Splash Potion of Weight
+lingering_potion.effect.weight=Lingering Potion of Weight
+tipped_arrow.effect.weight=Arrow of Weight
+effect.weight=Weight
+
+potion.effect.endurance=Potion of Endurance
+splash_potion.effect.endurance=Splash Potion of Endurance
+lingering_potion.effect.endurance=Lingering Potion of Endurance
+tipped_arrow.effect.endurance=Arrow of Endurance
+effect.endurance=Endurance
+
+potion.effect.forceful=Potion of Forcefulness
+splash_potion.effect.forceful=Splash Potion of Forcefulness
+lingering_potion.effect.forceful=Lingering Potion of Forcefulness
+tipped_arrow.effect.forceful=Arrow of Forcefulness
+effect.forceful=Forceful
+
+potion.effect.feeble=Potion of Feebleness
+splash_potion.effect.feeble=Splash Potion of Feebleness
+lingering_potion.effect.feeble=Lingering Potion of Feebleness
+tipped_arrow.effect.feeble=Arrow of Feebleness
+effect.feeble=Feeble
+
+enchantment.lightweight=Shushela
+enchantment.lightweight.desc=Decreases Weight to provide more Dodges.
+enchantment.elenaidodge2.lightweight.desc=Decreases Weight to provide more Dodges.
+
+item.elenaidodge2.golden_feather.name=Gold Feathery Ingot
+item.elenaidodge2.iron_feather.name=Iron Feathery Ingot

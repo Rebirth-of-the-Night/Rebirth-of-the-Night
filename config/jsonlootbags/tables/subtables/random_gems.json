@@ -1,0 +1,100 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "entryName": "diamond",
+          "type": "item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "ruby",
+          "type": "item",
+          "name": "biomesoplenty:gem",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "alexandrite",
+          "type": "item",
+          "name": "biomesoplenty:gem",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 2
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "sapphire",
+          "type": "item",
+          "name": "biomesoplenty:gem",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 6
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "entryName": "zanite",
+          "type": "item",
+          "name": "aether_legacy:zanite_gemstone",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

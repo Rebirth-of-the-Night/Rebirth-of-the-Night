@@ -290,7 +290,7 @@ val vessel_source_bronze = <rotntweaker:smelting_vessel>.withTag({storedItems: [
 val vessel_ingot_bronze = <rotntweaker:smelting_vessel>.withTag({storedItems: [{id: "contenttweaker:material_part", Count: 4, Damage: 0}]});
 
 //Primitive metal
-Campfire.addRecipe("vessel_bronze", vessel_ingot_bronze, vessel_source_bronze, 100);
+Campfire.addRecipe("vessel_bronze", vessel_ingot_bronze, vessel_source_bronze, 600);
 
 Campfire.addRecipe("cattail_root", <contenttweaker:cattail_root_cooked>, <contenttweaker:cattail_root_raw>);
 Campfire.addRecipe("traditional_marshmallow", <pyrotech:marshmallow_roasted>.withTag({}), <pyrotech:marshmallow>);

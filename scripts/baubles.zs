@@ -474,11 +474,10 @@ rareModifier.addAll(
 */
 
 // Potions
+val benelyte = <biomesoplenty:gem:5>;
 
-brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <ore:ingotMythril>, <bountifulbaubles:potionrecall>);
-brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <quark:arrow_ender>, <bountifulbaubles:potionwormhole>);
 recipes.addShapeless("Wormhole to Return", <bountifulbaubles:potionrecall>,
-   	[<bountifulbaubles:potionwormhole>, <ore:nuggetMythril>.firstItem]);
+   	[<bountifulbaubles:potionwormhole>, benelyte]);
 
 // Rings, amulets, oh my
 
@@ -500,6 +499,18 @@ RecipeBuilder.get("mage")
     [<minecraft:gold_nugget>, <ore:ingotGold>, <minecraft:gold_nugget>]])
   .addOutput(<behgameon:accessory_32>)
   .addTool(<contenttweaker:life_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<iceandfire:chain_link>, <iceandfire:chain_link>, <iceandfire:chain_link>],
+    [<iceandfire:chain_link>, <contenttweaker:vis_sliver>, <iceandfire:chain_link>],
+    [null, <contenttweaker:electrified_zanite>, null]])
+  .addTool(<contenttweaker:air_rune>, 1)
+  .addTool(<contenttweaker:aether_rune>, 1)
+  .addOutput(<artifacts:shock_pendant>)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
@@ -574,6 +585,11 @@ recipes.addShaped(<artifacts:whoopie_cushion>,
 [<harvestcraft:hardenedleatheritem>, <betterwithmods:material:8>, <harvestcraft:hardenedleatheritem>], 
 [null, <harvestcraft:hardenedleatheritem>, null]]);
 
+// Pocket Piston
+recipes.addShaped(<artifacts:pocket_piston>, 
+[[<ore:gemIngot>,<ore:gemIngot>,<ore:gemIngot>],
+[<ore:ingotSteel>, <betterwithmods:material:49>, <ore:ingotSteel>], 
+[<ore:ingotSteel>, <pyrotech:material:36>, <ore:ingotSteel>]]);
 
 // Balloon
 
@@ -586,6 +602,20 @@ RecipeBuilder.get("mage")
     [<contenttweaker:vis_speck>, <minecraft:string>, <contenttweaker:vis_speck>]])
   .addTool(<contenttweaker:air_rune>, 1)
   .addOutput(<bountifulbaubles:trinketballoon>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+// Cloud in a Bottle
+
+recipes.remove(<artifacts:bottled_cloud>);
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>, <aether_legacy:ambrosium_shard>, <contenttweaker:vis_speck>],
+    [null, <minecraft:glass_bottle>, null]])
+  .addTool(<contenttweaker:air_rune>, 1)
+  .addOutput(<artifacts:bottled_cloud>)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
@@ -674,6 +704,18 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .create();
 
+// Power Glove
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_sliver>, <ancientbeasts:tough_glove>, <contenttweaker:vis_sliver>],
+    [<betterwithmods:material:3>, <behgameon:accessory_17>, <betterwithmods:material:3>]])
+  .addTool(<contenttweaker:strength_rune>, 1)
+  .addOutput(<artifacts:power_glove>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
 // Fire Gauntlet
 
 recipes.remove(<artifacts:fire_gauntlet>);
@@ -725,9 +767,9 @@ recipes.remove(<bountifulbaubles:magicmirror>);
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_shard>, <iceandfire:silver_ingot>, <contenttweaker:vis_shard>],
-    [<iceandfire:silver_ingot>, <bountifulbaubles:potionrecall>, <iceandfire:silver_ingot>],
-    [<contenttweaker:vis_shard>, <contenttweaker:voidseen_exorite>, <contenttweaker:vis_shard>]])
-  .addTool(<endreborn:item_end_rune>, 1)
+    [<iceandfire:silver_ingot>, <biomesoplenty:gem_block:5>, <iceandfire:silver_ingot>],
+    [<contenttweaker:vis_shard>, <iceandfire:silver_ingot>, <contenttweaker:vis_shard>]])
+  .addTool(<totf:rune_of_skimming>, 0)
   .addOutput(<bountifulbaubles:magicmirror>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -864,3 +906,4 @@ RecipeBuilder.get("mage")
 
 //remove and hide original BB disint tablet
 JEI.removeAndHide(<bountifulbaubles:disintegrationtablet>);
+JEI.removeAndHide(<artifacts:night_vision_goggles>);
