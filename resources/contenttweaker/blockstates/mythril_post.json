@@ -1,0 +1,30 @@
+{
+  "variants": {
+      "facing=north": {
+      "model": "contenttweaker:mythril_post",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "contenttweaker:mythril_post",
+      "x": 90,
+      "y": 90
+    },
+    "facing=south": {
+      "model": "contenttweaker:mythril_post",
+      "x": 90,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "contenttweaker:mythril_post",
+      "x": 90,
+      "y": 270
+    },
+    "facing=down": {
+      "model": "contenttweaker:mythril_post",
+      "x": 180
+    },
+        "facing=up": {
+      "model": "contenttweaker:mythril_post"
+    }
+  }
+}

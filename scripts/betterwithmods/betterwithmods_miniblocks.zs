@@ -149,7 +149,7 @@ val igneousBrickIDs as IIngredient[string] = {
     "andesite" : <undergroundbiomes:igneous_brick:3>,
     "gabbro" : <undergroundbiomes:igneous_brick:4>,
     "basalt" : <undergroundbiomes:igneous_brick:5>,
-    "komatite" : <undergroundbiomes:igneous_brick:6>,
+    "komatiite" : <undergroundbiomes:igneous_brick:6>,
     "dacite" : <undergroundbiomes:igneous_brick:7>
 } as IIngredient[string];
 
@@ -185,7 +185,7 @@ val igneousCobbleIDs as IIngredient[string] = {
     "andesite" : <undergroundbiomes:igneous_cobble:3>,
     "gabbro" : <undergroundbiomes:igneous_cobble:4>,
     "basalt" : <undergroundbiomes:igneous_cobble:5>,
-    "komatite" : <undergroundbiomes:igneous_cobble:6>,
+    "komatiite" : <undergroundbiomes:igneous_cobble:6>,
     "dacite" : <undergroundbiomes:igneous_cobble:7>
 } as IIngredient[string];
 
@@ -220,7 +220,7 @@ val igneousStoneIDs as IIngredient[string] = {
     "andesite" : <undergroundbiomes:igneous_stone:3>,
     "gabbro" : <undergroundbiomes:igneous_stone:4>,
     "basalt" : <undergroundbiomes:igneous_stone:5>,
-    "komatite" : <undergroundbiomes:igneous_stone:6>,
+    "komatiite" : <undergroundbiomes:igneous_stone:6>,
     "dacite" : <undergroundbiomes:igneous_stone:7>
 } as IIngredient[string];
 
@@ -253,8 +253,8 @@ val metamorphicBrickIDs as IIngredient[string] = {
     "eclogite" : <undergroundbiomes:metamorphic_brick:1>,
     "marble" : <undergroundbiomes:metamorphic_brick:2>,
     "quartzite" : <undergroundbiomes:metamorphic_brick:3>,
-    "blue_schist" : <undergroundbiomes:metamorphic_brick:4>,
-    "green_schist" : <undergroundbiomes:metamorphic_brick:5>,
+    "blueschist" : <undergroundbiomes:metamorphic_brick:4>,
+    "greenschist" : <undergroundbiomes:metamorphic_brick:5>,
     "soapstone" : <undergroundbiomes:metamorphic_brick:6>,
     "migmatite" : <undergroundbiomes:metamorphic_brick:7>
 } as IIngredient[string];
@@ -289,8 +289,8 @@ val metamorphicCobbleIDs as IIngredient[string] = {
     "eclogite" : <undergroundbiomes:metamorphic_cobble:1>,
     "marble" : <undergroundbiomes:metamorphic_cobble:2>,
     "quartzite" : <undergroundbiomes:metamorphic_cobble:3>,
-    "blue_schist" : <undergroundbiomes:metamorphic_cobble:4>,
-    "green_schist" : <undergroundbiomes:metamorphic_cobble:5>,
+    "blueschist" : <undergroundbiomes:metamorphic_cobble:4>,
+    "greenschist" : <undergroundbiomes:metamorphic_cobble:5>,
     "soapstone" : <undergroundbiomes:metamorphic_cobble:6>,
     "migmatite" : <undergroundbiomes:metamorphic_cobble:7>
 } as IIngredient[string];
@@ -325,8 +325,8 @@ val metamorphicStoneIDs as IIngredient[string] = {
     "eclogite" : <undergroundbiomes:metamorphic_stone:1>,
     "marble" : <undergroundbiomes:metamorphic_stone:2>,
     "quartzite" : <undergroundbiomes:metamorphic_stone:3>,
-    "blue_schist" : <undergroundbiomes:metamorphic_stone:4>,
-    "green_schist" : <undergroundbiomes:metamorphic_stone:5>,
+    "blueschist" : <undergroundbiomes:metamorphic_stone:4>,
+    "greenschist" : <undergroundbiomes:metamorphic_stone:5>,
     "soapstone" : <undergroundbiomes:metamorphic_stone:6>,
     "migmatite" : <undergroundbiomes:metamorphic_stone:7>
 } as IIngredient[string];

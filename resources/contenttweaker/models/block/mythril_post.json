@@ -1,0 +1,7 @@
+{
+  "parent": "contenttweaker:block/stick_post",
+  "textures": {
+    "1": "contenttweaker:blocks/mythril_post",
+    "particle": "contenttweaker:blocks/mythril_post"
+  }
+}

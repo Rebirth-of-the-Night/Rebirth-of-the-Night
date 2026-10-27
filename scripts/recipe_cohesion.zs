@@ -190,10 +190,6 @@ recipes.addShaped("stone_spear",<spartanweaponry:spear_stone>,
 recipes.addShaped("flint_spear",<spartanweaponry:spear_stone>,
  [[flint],
   [pole]]);
-recipes.addShapedMirrored("stone_throwing_knife", <spartanweaponry:throwing_knife_stone>,
- [[handle,stone]]);
-recipes.addShapedMirrored("flint_throwing_knife", <spartanweaponry:throwing_knife_stone>,
- [[handle,flint]]);
 recipes.addShapedMirrored("stone_tomahawk", <spartanweaponry:throwing_axe_stone>,
  [[handle,stone],
   [null,stone]]);

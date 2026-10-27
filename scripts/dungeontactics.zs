@@ -315,7 +315,6 @@ LootTable.removeGlobalItem("ironlinks");
 JEI.removeAndHide(<dungeontactics:engineers_wrench_steel>);
 JEI.removeAndHide(<dungeontactics:steel_shield>);
 JEI.removeAndHide(<dungeontactics:steel_cestus>);
-JEI.removeAndHide(<dungeontactics:steel_knife>);
 recipes.remove(<dungeontactics:steel_cutlass>);
 recipes.remove(<dungeontactics:steel_sword>); //Trans Sword
 JEI.removeAndHide(<dungeontactics:steel_glaive>);
@@ -368,7 +367,6 @@ LootTable.removeGlobalItem("dungeontactics:diamond_hammer");
 
 JEI.removeAndHide(<dungeontactics:iron_shield>);
 JEI.removeAndHide(<dungeontactics:iron_cestus>);
-JEI.removeAndHide(<dungeontactics:iron_knife>);
 JEI.removeAndHide(<dungeontactics:iron_cutlass>);
 JEI.removeAndHide(<dungeontactics:iron_glaive>);
 JEI.removeAndHide(<dungeontactics:iron_battleaxe>);
@@ -449,7 +447,6 @@ JEI.removeAndHide(<dungeontactics:bone_helmet>);
 JEI.removeAndHide(<dungeontactics:bone_shield>);
 //JEI.removeAndHide(<dungeontactics:bone_cestus>);
 recipes.remove(<dungeontactics:bone_cestus>);
-JEI.removeAndHide(<dungeontactics:bone_knife>);
 JEI.removeAndHide(<dungeontactics:bone_cutlass>);
 JEI.removeAndHide(<dungeontactics:bone_sword>);
 JEI.removeAndHide(<dungeontactics:bone_glaive>);

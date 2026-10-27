@@ -1,0 +1,30 @@
+{
+  "variants": {
+      "facing=north": {
+      "model": "contenttweaker:stick_post",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "contenttweaker:stick_post",
+      "x": 90,
+      "y": 90
+    },
+    "facing=south": {
+      "model": "contenttweaker:stick_post",
+      "x": 90,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "contenttweaker:stick_post",
+      "x": 90,
+      "y": 270
+    },
+    "facing=down": {
+      "model": "contenttweaker:stick_post",
+      "x": 180
+    },
+        "facing=up": {
+      "model": "contenttweaker:stick_post"
+    }
+  }
+}

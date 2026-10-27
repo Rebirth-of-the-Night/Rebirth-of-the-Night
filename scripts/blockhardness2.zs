@@ -1514,3 +1514,6 @@ if (!isNull(<minecraft:brick_stairs>)){<minecraft:stone_slab:4>.hardness = 6;}
 if (!isNull(<aether_legacy:holystone>)){<minecraft:stone_slab:4>.hardness = 4;}
 if (!isNull(<minecraft:redstone_lamp>)){<minecraft:stone_slab:4>.hardness = 18;}
 if (!isNull(<minecraft:lit_redstone_lamp>)) {<minecraft:stone_slab:4>.hardness = 18;}
+<betterwithmods:grate:0>.hardness = 0.4;
+<betterwithmods:grate:1>.hardness = 1;
+<betterwithmods:grate:2>.hardness = 10;

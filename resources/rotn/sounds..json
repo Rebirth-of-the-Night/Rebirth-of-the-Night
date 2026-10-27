@@ -1,0 +1,12 @@
+{
+  "ambient.whisper_v": {
+    "category": "ambient",
+    "subtitle": "Whispers...",
+    "sounds": [
+      {
+        "name": "rotn:ambient/whisper_v",
+        "stream": false
+      }
+    ]
+  }
+}

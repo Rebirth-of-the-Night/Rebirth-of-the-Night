@@ -180,12 +180,12 @@ codex_junk.register();
 // Rundown cargo cart remains
 var lost_cargo = VanillaFactory.createDirectionalBlock("lost_cargo", <blockmaterial:Wood>, "HORIZONTAL", false, true);
 lost_cargo.axisAlignedBB = AxisAlignedBB.create(
-     2.0 / 16.0,
+     1.0 / 16.0,
      0.0 / 16.0,
-     2.0 / 16.0,
-	16.0 / 16.0,
+     1.0 / 16.0,
+	15.0 / 16.0,
     9.0 / 16.0,
-    16.0 / 16.0
+    15.0 / 16.0
 	);
 lost_cargo.setCreativeTab(<creativetab:rotn_blocks>);
 lost_cargo.setFullBlock(false);
@@ -311,6 +311,24 @@ bowl.setFullBlock(false);
 bowl.setLightOpacity(0);
 bowl.setBlockLayer("CUTOUT");
 bowl.register();
+
+var bottle = VanillaFactory.createBlock("bottle", <blockmaterial:Wood>);
+bottle.axisAlignedBB = AxisAlignedBB.create(
+     5.0 / 16.0,
+     0.0 / 16.0,
+     5.0 / 16.0,
+	11.0 / 16.0,
+	8.0 / 16.0,
+    11.0 / 16.0
+	);
+bottle.setCreativeTab(<creativetab:rotn_blocks>);
+bottle.setBlockHardness(2.0);
+bottle.setBlockResistance(1.0);
+bottle.setFullBlock(false);
+bottle.setLightOpacity(0);
+bottle.setBlockSoundType(<soundtype:glass>);
+bottle.setBlockLayer("CUTOUT");
+bottle.register();
 
 // Bones (add with content creator when possible to take advantage of blockstates and rotations)
 // human(?
@@ -2773,6 +2791,12 @@ loose_big_serpentinite_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_serpentinite_bricks.setGravity(true);
 loose_big_serpentinite_bricks.setToolLevel(1);
 loose_big_serpentinite_bricks.register();
+// Magicked
+var loose_big_magicked_bricks = VanillaFactory.createBlock("loose_big_magicked_bricks", <blockmaterial:Rock>);
+loose_big_magicked_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_big_magicked_bricks.setGravity(true);
+loose_big_magicked_bricks.setToolLevel(1);
+loose_big_magicked_bricks.register();
 // Limestone
 var loose_big_limestone_bricks = VanillaFactory.createBlock("loose_big_limestone_bricks", <blockmaterial:Rock>);
 loose_big_limestone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
@@ -2912,6 +2936,13 @@ big_serpentinite_bricks.setToolLevel(2);
 big_serpentinite_bricks.setBlockHardness(35);
 big_serpentinite_bricks.setBlockResistance(50);
 big_serpentinite_bricks.register();
+// Magicked
+var big_magicked_bricks = VanillaFactory.createBlock("big_magicked_bricks", <blockmaterial:Rock>);
+big_magicked_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+big_magicked_bricks.setToolLevel(2);
+big_magicked_bricks.setBlockHardness(30);
+big_magicked_bricks.setBlockResistance(40);
+big_magicked_bricks.register();
 
 // Greatbricks
 var greatbrick_terracotta = VanillaFactory.createBlock("greatbrick_terracotta", <blockmaterial:Rock>);
@@ -3559,7 +3590,7 @@ tiled_diagonal.setBlockResistance(14.0);
 tiled_diagonal.setToolLevel(2);
 tiled_diagonal.register();
 
-// Special/Ornate Stone Variants
+// Special/Ornate Variants
 var fancy_limestone = VanillaFactory.createBlock("fancy_limestone", <blockmaterial:Rock>);
 fancy_limestone.setCreativeTab(<creativetab:rotn_blocks>);
 fancy_limestone.setToolLevel(1);
@@ -3575,6 +3606,16 @@ fancy_gneiss.setCreativeTab(<creativetab:rotn_blocks>);
 fancy_gneiss.setToolLevel(1);
 fancy_gneiss.setBlockHardness(22);
 fancy_gneiss.register();
+var fancy_magicked = VanillaFactory.createBlock("fancy_magicked", <blockmaterial:Rock>);
+fancy_magicked.setCreativeTab(<creativetab:rotn_blocks>);
+fancy_magicked.setToolLevel(1);
+fancy_magicked.setBlockHardness(24);
+fancy_magicked.register();
+var fancy_dark_oak = VanillaFactory.createBlock("fancy_dark_oak", <blockmaterial:Wood>);
+fancy_dark_oak.setCreativeTab(<creativetab:rotn_blocks>);
+fancy_dark_oak.setToolLevel(0);
+fancy_dark_oak.setBlockHardness(5);
+fancy_dark_oak.register();
 
 // Extra coade
 var coade_stone_polished = VanillaFactory.createBlock("coade_stone_polished", <blockmaterial:Rock>);

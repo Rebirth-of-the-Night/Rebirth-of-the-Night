@@ -274,7 +274,8 @@ Stonecutter.addOutputs(<contenttweaker:big_limestone_bricks>, // Limestone
 							<contenttweaker:fancy_limestone>);
 Stonecutter.addOutputs(<undergroundbiomes:metamorphic_brick:6>, // Soapstone
 							<contenttweaker:fancy_soapstone>);
-							
+Stonecutter.addOutputs(<contenttweaker:magicked_stone>, // Magicked
+							<contenttweaker:fancy_magicked>);							
 // Unifying vanilla recipes
 
 Stonecutter.addOutputs(<contenttweaker:brick_minecraft_clay>,

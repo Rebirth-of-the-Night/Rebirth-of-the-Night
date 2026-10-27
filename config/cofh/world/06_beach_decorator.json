@@ -1,0 +1,47 @@
+{
+	"populate": 
+	{
+		"glass_float": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					"totf:glass_float_clear_blue_landed",
+					"totf:glass_float_blood_red_landed",
+					"totf:glass_float_longing_blue_landed",
+					"totf:glass_float_wine_green_landed"
+				],
+				"surface": [
+					"minecraft:sand",
+					"minecraft:gravel",
+					"biomesoplenty:white_sand"
+				],
+				"cluster-size": 1,
+				"seesky": true
+			},
+			"material": [
+					"minecraft:sand",
+					"minecraft:gravel",
+					"biomesoplenty:white_sand"
+				],
+			"cluster-count": 1,
+			"chunk-chance": 2,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:white_beach",
+					"minecraft:beaches",
+					"minecraft:ocean",
+					"minecraft:deep_ocean"
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+	}
+}

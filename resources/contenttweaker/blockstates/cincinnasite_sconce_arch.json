@@ -1,19 +1,98 @@
 {
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "texture": "contenttweaker:blocks/cincinnasite_sconce_arch",
+      "particle": "contenttweaker:blocks/cincinnasite_sconce_arch"
+    },
+    "model": "base:storage",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
   "variants": {
-    "facing=north": {
-      "model": "contenttweaker:cincinnasite_sconce_arch"
-    },
-    "facing=east": {
-      "model": "contenttweaker:cincinnasite_sconce_arch",
-      "y": 90
-    },
-    "facing=south": {
-      "model": "contenttweaker:cincinnasite_sconce_arch",
-      "y": 180
-    },
-    "facing=west": {
-      "model": "contenttweaker:cincinnasite_sconce_arch",
-      "y": 270
-    }
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ],
+    "facing=north,plane_rot=down": [{
+      "transform": "identity"
+    }],
+    "facing=north,plane_rot=up": [{
+      "transform": {
+        "rotation": [0, 0, 180]
+      }
+    }],
+    "facing=north,plane_rot=left": [{
+      "transform": {
+        "rotation": [0, 0, 90]
+      }
+    }],
+    "facing=north,plane_rot=right": [{
+      "transform": {
+        "rotation": [0, 0, 270]
+      }
+    }],
+    "facing=south,plane_rot=down": [{
+      "transform": {
+        "rotation": [0, 180, 0]
+      }
+    }],
+    "facing=south,plane_rot=up": [{
+      "transform": {
+        "rotation": [0, 180, 180]
+      }
+    }],
+    "facing=south,plane_rot=left": [{
+      "transform": {
+        "rotation": [0, 180, 90]
+      }
+    }],
+    "facing=south,plane_rot=right": [{
+      "transform": {
+        "rotation": [0, 180, 270]
+      }
+    }],
+    "facing=west,plane_rot=down": [{
+      "transform": {
+        "rotation": [0, 90, 0]
+      }
+    }],
+    "facing=west,plane_rot=up": [{
+      "transform": {
+        "rotation": [0, 90, 180]
+      }
+    }],
+    "facing=west,plane_rot=left": [{
+      "transform": {
+        "rotation": [0, 90, 90]
+      }
+    }],
+    "facing=west,plane_rot=right": [{
+      "transform": {
+        "rotation": [0, 90, 270]
+      }
+    }],
+    "facing=east,plane_rot=down": [{
+      "transform": {
+        "rotation": [0, 270, 0]
+      }
+    }],
+    "facing=east,plane_rot=up": [{
+      "transform": {
+        "rotation": [0, 270, 180]
+      }
+    }],
+    "facing=east,plane_rot=left": [{
+      "transform": {
+        "rotation": [0, 270, 90]
+      }
+    }],
+    "facing=east,plane_rot=right": [{
+      "transform": {
+        "rotation": [0, 270, 270]
+      }
+    }]
   }
 }

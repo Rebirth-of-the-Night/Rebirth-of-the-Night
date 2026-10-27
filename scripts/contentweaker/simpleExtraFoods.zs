@@ -9,61 +9,77 @@ import mods.contenttweaker.AxisAlignedBB;
 //ITEMS
 var rat = VanillaFactory.createItemFood("ratatouille", 26);
 rat.setSaturation(15.5);
+rat.setCreativeTab(<creativetab:food>);
 rat.register();
 
 var cattail_root_raw = VanillaFactory.createItemFood("cattail_root_raw", 1);
 cattail_root_raw.setSaturation(0.5);
+cattail_root_raw.setCreativeTab(<creativetab:food>);
 cattail_root_raw.register();
 
 var cattail_root_cooked = VanillaFactory.createItemFood("cattail_root_cooked", 3);
 cattail_root_cooked.setSaturation(3);
+cattail_root_cooked.setCreativeTab(<creativetab:food>);
 cattail_root_cooked.register();
 
 var godrage_eye = VanillaFactory.createItemFood("godrage_eye", 4);
 godrage_eye.setSaturation(1);
+godrage_eye.setCreativeTab(<creativetab:food>);
 godrage_eye.register();
 
 val sprinkles = VanillaFactory.createItem("sprinkles");
+sprinkles.setCreativeTab(<creativetab:food>);
 sprinkles.register();
 
 val raw_fries = VanillaFactory.createItemFood("raw_fries", 1);
 raw_fries.setSaturation(2.5);
+raw_fries.setCreativeTab(<creativetab:food>);
 raw_fries.register();
 
 val ground_beef = VanillaFactory.createItemFood("ground_beef", 2);
 ground_beef.setSaturation(2.5);
+ground_beef.setCreativeTab(<creativetab:food>);
 ground_beef.register();
 
-val wiener = VanillaFactory.createItem("wiener");
-wiener.register();
+val wiener = VanillaFactory.createItemFood("wiener", 1);
+wiener.setSaturation(0.5);
+wiener.setCreativeTab(<creativetab:food>);
 
-val sheep_intestines = VanillaFactory.createItem("sheep_intestines");
-sheep_intestines.register();
+val grin_kale_leaf = VanillaFactory.createItemFood("grin_kale_leaf", 1);
+grin_kale_leaf.setSaturation(0.5);
+grin_kale_leaf.setCreativeTab(<creativetab:food>);
+grin_kale_leaf.register();
+
+val sheep_intestines = VanillaFactory.createItemFood("sheep_intestines", 1);
+sheep_intestines.setSaturation(0.5);
+sheep_intestines.setCreativeTab(<creativetab:food>);
 
 val patty = VanillaFactory.createItem("patty");
 patty.register();
 
 val hydraco = VanillaFactory.createItemFood("hydraco", 24);
 hydraco.setSaturation(44.0);
+hydraco.setCreativeTab(<creativetab:food>);
 hydraco.register();
 
 val abyss_pizza_item = VanillaFactory.createItemFood("abyss_pizza", 32);
 abyss_pizza_item.setSaturation(36.0);
+abyss_pizza_item.setCreativeTab(<creativetab:food>);
 abyss_pizza_item.register();
 
 val dairy_free_cheese_slice = VanillaFactory.createItemFood("dairy_free_cheese_slice", 3);
 dairy_free_cheese_slice.setSaturation(2.5);
-dairy_free_cheese_slice.setCreativeTab(<creativetab:harvestCraft>);
+dairy_free_cheese_slice.setCreativeTab(<creativetab:food>);
 dairy_free_cheese_slice.register();
 
 val edible_creephae = VanillaFactory.createItemFood("edible_creephae", 1);
 edible_creephae.setSaturation(0.5);
-edible_creephae.setCreativeTab(<creativetab:harvestCraft>);
+edible_creephae.setCreativeTab(<creativetab:food>);
 edible_creephae.register();
 
 val stock = VanillaFactory.createItemFood("stock", 1);
 stock.setSaturation(0.5);
-stock.setCreativeTab(<creativetab:harvestCraft>);
+stock.setCreativeTab(<creativetab:food>);
 stock.register();
 
 //BLOCKS

@@ -1,3 +1,5 @@
+#loader crafttweaker reloadable
+
 import mods.dropt.Dropt;
 
 // piles & rocks

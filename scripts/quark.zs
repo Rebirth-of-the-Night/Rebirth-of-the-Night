@@ -72,6 +72,13 @@ recipes.remove(<quark:pipe>);
 recipes.remove(<quark:iron_plate>);
 recipes.removeByRecipeName("quark:iron_plate_2");
 
+recipes.remove(<quark:world_stone_pavement>);
+recipes.addShaped("b&w_contrived_tiles",<quark:world_stone_pavement>,[
+	[<contenttweaker:brick_black_granite>,<contenttweaker:brick_soapstone>,<contenttweaker:brick_black_granite>],
+	[<contenttweaker:brick_soapstone>,<ore:mortarCommon>,<contenttweaker:brick_soapstone>],
+	[<contenttweaker:brick_black_granite>,<contenttweaker:brick_soapstone>,<contenttweaker:brick_black_granite>]
+]);
+
 recipes.addShaped("midori_block",<quark:midori_block>,[
 	[<betterwithaddons:material:2>,<betterwithaddons:material:2>],
 	[<betterwithaddons:material:2>,<betterwithaddons:material:2>]
@@ -129,8 +136,8 @@ recipes.addShaped("sfs_plate", <netherex:worn_iron>*24, [
 
 
 recipes.addShaped("quark_backpack", <quark:backpack>.withTag({Quality: {}}),[
-	[leather_sheet, leather_sheet, leather_sheet],
-    [<betterwithmods:material:8>, <ore:chestWood>, <betterwithmods:material:8>],
+	[<ore:durableFiber>, <ore:hideTanned>, <ore:durableFiber>],
+    [<betterwithmods:material:8>, <ore:genericMetal>, <betterwithmods:material:8>],
    	[leather_sheet, leather_sheet, leather_sheet]
 ]);
 

@@ -15,7 +15,7 @@ addRepairEntry(peridotItems, <contenttweaker:peridot_ingot>);
 var sapphireItems = <atop:sapphire_helmet> | <atop:sapphire_chestplate> | <atop:sapphire_leggings> | <atop:sapphire_boots> | <atop:sapphire_sword> | <atop:sapphire_pickaxe> | <atop:sapphire_axe> | <atop:sapphire_shovel> | <atop:sapphire_hoe> | <spartanweaponry:hammer_diamond> | <spartanweaponry:javelin_diamond> | <spartanweaponry:longsword_diamond>;
 addRepairEntry(sapphireItems, <contenttweaker:sapphire_ingot>);
 
-var diamondItems = <minecraft:diamond_helmet> | <minecraft:diamond_chestplate> | <minecraft:diamond_leggings> | <minecraft:diamond_boots> | <minecraft:diamond_sword> | <minecraft:diamond_pickaxe> | <minecraft:diamond_axe> | <minecraft:diamond_shovel> | <minecraft:diamond_hoe> | <spartanweaponry:halberd_diamond> | <spartanweaponry:saber_diamond> | <spartanweaponry:throwing_knife_diamond> | <quark:pickarang>;
+var diamondItems = <minecraft:diamond_helmet> | <minecraft:diamond_chestplate> | <minecraft:diamond_leggings> | <minecraft:diamond_boots> | <minecraft:diamond_sword> | <minecraft:diamond_pickaxe> | <minecraft:diamond_axe> | <minecraft:diamond_shovel> | <minecraft:diamond_hoe> | <spartanweaponry:halberd_diamond> | <spartanweaponry:saber_diamond> | <quark:pickarang>;
 addRepairEntry(diamondItems, <betterwithmods:material:45>);
 
 

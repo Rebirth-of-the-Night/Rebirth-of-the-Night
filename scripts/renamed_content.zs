@@ -1,4 +1,4 @@
-#reloadable
+#loader crafttweaker reloadable
 
 import crafttweaker.game.IGame;
 import crafttweaker.data.IData;
@@ -19,7 +19,7 @@ import mods.jei.JEI;
 <biomesoplenty:blue_fire>.displayName = "Cursed Fire";
 
 // Weaponry
-<spartanweaponry:spear_wood>.displayName = "Practice Spear";
+<spartanweaponry:spear_wood:*>.displayName = "Practice Spear";
 
 // Better With Mods
 <betterwithmods:axle_generator>.displayName = "Horizontal Windmill";
@@ -218,6 +218,9 @@ for potion in potionMap{
 <betteranimalsplus:wolfhead_4:*>.addTooltip(format.darkGreen("Rare Trophy"));
 <betteranimalsplus:wolfhead_5:*>.addTooltip(format.darkGreen("Rare Trophy"));
 <betteranimalsplus:wolfhead_6:*>.addTooltip(format.darkGreen("Rare Trophy"));
+
+// Normal
+<da:volatile_orb>.displayName = "§aGoort";
 
 // Rare
 <dungeontactics:high_striker:*>.addTooltip(format.darkGreen("Rare Weapon"));

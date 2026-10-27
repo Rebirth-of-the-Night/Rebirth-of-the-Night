@@ -2,10 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "all": "contenttweaker:blocks/fancy_stones/fancy_gneiss",
-      "particle": "contenttweaker:blocks/fancy_stones/fancy_gneiss"
+      "texture": "contenttweaker:blocks/fancy_gneiss",
+      "particle": "contenttweaker:blocks/fancy_gneiss"
     },
-    "model": "contenttweaker:base_block",
+    "model": "base:storage",
     "uvlock": true,
     "transform": "forge:default-block"
   },

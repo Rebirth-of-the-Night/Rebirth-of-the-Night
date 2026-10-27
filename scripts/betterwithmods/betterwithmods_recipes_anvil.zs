@@ -38,7 +38,9 @@ val feralratclaw = <rats:feral_rat_claw>;
 Anvil.removeShaped(<betterwithaddons:wrought_bars>);
 Anvil.removeShaped(<betterwithaddons:steel_masonpick>); // replaced with content tweaker items for removal of building blocks (craftable only at foundry)
 Anvil.removeShaped(spring);
-JEI.removeAndHide(<betterwithmods:grate>);
+Anvil.removeShaped(<betterwithmods:grate>);
+Anvil.removeShaped(<betterwithmods:grate:1>);
+Anvil.removeShaped(<betterwithmods:grate:2>);
 
 Anvil.removeShaped(<betterwithmods:steel_axle>);
 Anvil.removeShaped(<betterwithmods:steel_gearbox>);

@@ -1,15 +1,15 @@
-container.forge=Cincinnasite Forge
-container.chest_of_drawers=Cincinnasite Drawer
+container.forge=True Gold Forge
+container.chest_of_drawers=True Gold Drawer
 
 entity.firefly.name=Firefly
 
 item.black_apple.name=Black Apple
 
-item.cincinnasite.name=Cincinnasite
-item.cincinnasite_axe.name=Cincinnasite Axe
-item.cincinnasite_axe_diamond.name=Cincinnasite-Diamond Axe
-item.cincinnasite_pickaxe.name=Cincinnasite Pickaxe
-item.cincinnasite_pickaxe_diamond.name=Cincinnasite-Diamond Pickaxe
+item.True Gold.name=True Gold
+item.True Gold_axe.name=True Gold Axe
+item.True Gold_axe_diamond.name=True Gold-Diamond Axe
+item.True Gold_pickaxe.name=True Gold Pickaxe
+item.True Gold_pickaxe_diamond.name=True Gold-Diamond Pickaxe
 
 item.stalagnate_bowl.name=Stalagnate Bowl
 item.stalagnate_bowl_apple.name=Black Apple
@@ -33,7 +33,7 @@ tile.block_eyeball_small.name=Small Eyeball
 
 tile.bone_block.name=Hardened Bone Block
 tile.bone_button.name=Hardened Bone Button
-tile.bone_cincinnasite_door.name=Bone-Cincinnasite Door
+tile.bone_True Gold_door.name=Bone-True Gold Door
 tile.bone_mushroom.name=Bone Mushroom Spores
 tile.bone_plate.name=Hardened Bone Pressure Plate
 tile.bone_reed_door.name=Bone-Reed Door
@@ -42,30 +42,30 @@ tile.bone_stairs.name=Hardened Bone Stairs
 tile.bone_tile.name=Hardened Bone Tile
 tile.bone_wall.name=Hardened Bone Wall
 
-tile.chest_of_drawers.name=Cincinnasite Drawer
+tile.chest_of_drawers.name=True Gold Drawer
 
-tile.cincinnasite_bars.name=Cincinnasite Bars
-tile.cincinnasite_block.name=Cincinnasite Block
-tile.cincinnasite_brick_plate.name=Cincinnasite Brick Plate
-tile.cincinnasite_bricks.name=Cincinnasite Bricks
-tile.cincinnasite_bricks_pillar.name=Cincinnasite Brick Pillar
-tile.cincinnasite_button.name=Cincinnasite Button
-tile.cincinnasite_carved.name=Carved Cincinnasite
-tile.cincinnasite_fire_bowl.name=Cincinnasite Fire Bowl
-tile.cincinnasite_forge.name=Cincinnasite Forge
-tile.cincinnasite_forged.name=Forged Cincinnasite Block
-tile.cincinnasite_frame.name=Cincinnasite Frame
-tile.cincinnasite_lantern.name=Cincinnasite Lantern
-tile.cincinnasite_ore.name=Cincinnasite Ore
-tile.cincinnasite_pedestal.name=Cincinnasite Pedestal
-tile.cincinnasite_pillar.name=Cincinnasite Pillar
-tile.cincinnasite_plate.name=Cincinnasite Plate
-tile.cincinnasite_pot.name=Cincinnasite Pot
-tile.cincinnasite_slab_half.name=Cincinnasite Slab
-tile.cincinnasite_stairs.name=Cincinnasite Stairs
-tile.cincinnasite_tile_large.name=Large Cincinnasite Tile
-tile.cincinnasite_tile_small.name=Embossed Cincinnasite
-tile.cincinnasite_wall.name=Cincinnasite Wall
+tile.True Gold_bars.name=True Gold Bars
+tile.True Gold_block.name=True Gold Block
+tile.True Gold_brick_plate.name=True Gold Brick Plate
+tile.True Gold_bricks.name=True Gold Bricks
+tile.True Gold_bricks_pillar.name=True Gold Brick Pillar
+tile.True Gold_button.name=True Gold Button
+tile.True Gold_carved.name=Carved True Gold
+tile.True Gold_fire_bowl.name=True Gold Fire Bowl
+tile.True Gold_forge.name=True Gold Forge
+tile.True Gold_forged.name=Forged True Gold Block
+tile.True Gold_frame.name=True Gold Frame
+tile.True Gold_lantern.name=True Gold Lantern
+tile.True Gold_ore.name=True Gold Ore
+tile.True Gold_pedestal.name=True Gold Pedestal
+tile.True Gold_pillar.name=True Gold Pillar
+tile.True Gold_plate.name=True Gold Plate
+tile.True Gold_pot.name=True Gold Pot
+tile.True Gold_slab_half.name=True Gold Slab
+tile.True Gold_stairs.name=True Gold Stairs
+tile.True Gold_tile_large.name=Large True Gold Tile
+tile.True Gold_tile_small.name=Embossed True Gold
+tile.True Gold_wall.name=True Gold Wall
 
 tile.egg_plant.name=Egg Plant
 

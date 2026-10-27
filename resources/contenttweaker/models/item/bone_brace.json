@@ -1,0 +1,7 @@
+{
+  "parent": "contenttweaker:block/stick_brace",
+  "textures": {
+    "1": "contenttweaker:blocks/bone_post",
+    "particle": "contenttweaker:blocks/bone_post"
+  }
+}

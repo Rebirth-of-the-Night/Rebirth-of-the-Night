@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "rotn:items/to_rot_or_not_to_rot"
+    }
+}
