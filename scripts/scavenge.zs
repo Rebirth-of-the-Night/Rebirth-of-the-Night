@@ -414,7 +414,7 @@ oreBlockArch.add(
     <contenttweaker:arch_large_brick_masonry:*>,
     <contenttweaker:arch_large_brick_mud:*>,
     <contenttweaker:arch_large_brick_holystone:*>,
-    <contenttweaker:arch_large_brick_raktan:*>
+    <contenttweaker:arch_large_brick_raktan:*>,
     <contenttweaker:arch_large_brick_carved_stone:*>,
     <contenttweaker:arch_large_brick_angelic_stone:*>,
     <contenttweaker:arch_large_brick_hellfire_stone:*>,

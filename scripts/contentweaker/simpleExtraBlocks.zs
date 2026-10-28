@@ -738,7 +738,7 @@ bonfire.setBlockSoundType(<soundtype:sand>);
 bonfire.setFullBlock(false);
 bonfire.setBlockHardness(0);
 bonfire.setLightOpacity(0);
-bonfire.setLightValue(1.0);
+bonfire.setLightValue(1);
 bonfire.setBlockLayer("TRANSLUCENT");
 bonfire.setPassable(true);
 bonfire.setCreativeTab(<creativetab:rotn_blocks>);
@@ -758,7 +758,7 @@ soul_bonfire.setBlockSoundType(<soundtype:sand>);
 soul_bonfire.setFullBlock(false);
 soul_bonfire.setBlockHardness(0);
 soul_bonfire.setLightOpacity(0);
-soul_bonfire.setLightValue(1.0);
+soul_bonfire.setLightValue(1);
 soul_bonfire.setBlockLayer("TRANSLUCENT");
 soul_bonfire.setPassable(true);
 soul_bonfire.setCreativeTab(<creativetab:rotn_blocks>);
@@ -854,7 +854,7 @@ seasoned_stump.setToolClass("axe");
 seasoned_stump.setCreativeTab(<creativetab:rotn_blocks>);
 seasoned_stump.register();
 
-// cincinnasite
+// cincinnasite chandellier
 var cincinnasite_chandelier = VanillaFactory.createBlock("cincinnasite_chandelier", <blockmaterial:Wood>);
 cincinnasite_chandelier.axisAlignedBB = AxisAlignedBB.create(
 	0.0 / 16.0,
@@ -872,586 +872,6 @@ cincinnasite_chandelier.setBlockLayer("CUTOUT");
 cincinnasite_chandelier.setToolClass("pickaxe");
 cincinnasite_chandelier.setCreativeTab(<creativetab:rotn_blocks>);
 cincinnasite_chandelier.register();
-
-var cincinnasite_candle_holder = VanillaFactory.createBlock("cincinnasite_candle_holder", <blockmaterial:Iron>);
-cincinnasite_candle_holder.axisAlignedBB = AxisAlignedBB.create(
-     2.0 / 16.0,
-     0.0 / 16.0,
-     2.0 / 16.0,
-	14.0 / 16.0,
-    32.0 / 16.0,
-    14.0 / 16.0
-	);
-cincinnasite_candle_holder.setBlockSoundType(<soundtype:metal>);
-cincinnasite_candle_holder.setFullBlock(false);
-cincinnasite_candle_holder.setLightOpacity(0);
-cincinnasite_candle_holder.setLightValue(1);
-cincinnasite_candle_holder.setBlockLayer("CUTOUT");
-cincinnasite_candle_holder.setPassable(false);
-cincinnasite_candle_holder.setToolClass("pickaxe");
-cincinnasite_candle_holder.setToolLevel(2);
-cincinnasite_candle_holder.setCreativeTab(<creativetab:rotn_blocks>);
-cincinnasite_candle_holder.register();
-
-var patterned_cincinnasite = VanillaFactory.createBlock("patterned_cincinnasite", <blockmaterial:Iron>);
-patterned_cincinnasite.setBlockHardness(8);
-patterned_cincinnasite.setToolClass("pickaxe");
-patterned_cincinnasite.setCreativeTab(<creativetab:rotn_blocks>);
-patterned_cincinnasite.register();
-
-var small_cincinnasite_tile = VanillaFactory.createBlock("small_cincinnasite_tile", <blockmaterial:Iron>);
-small_cincinnasite_tile.setBlockHardness(8);
-small_cincinnasite_tile.setToolClass("pickaxe");
-small_cincinnasite_tile.setCreativeTab(<creativetab:rotn_blocks>);
-small_cincinnasite_tile.register();
-
-var cincinnasite_roof_tile = VanillaFactory.createBlock("cincinnasite_roof_tile", <blockmaterial:Iron>);
-cincinnasite_roof_tile.setBlockHardness(8);
-cincinnasite_roof_tile.setToolClass("pickaxe");
-cincinnasite_roof_tile.setCreativeTab(<creativetab:rotn_blocks>);
-cincinnasite_roof_tile.register();
-
-var cincinnasite_statue = VanillaFactory.createDirectionalBlock("cincinnasite_statue", <blockmaterial:Iron>, "HORIZONTAL", false, true);
-cincinnasite_statue.axisAlignedBB = AxisAlignedBB.create(
-     2.0 / 16.0,
-     0.0 / 16.0,
-     2.0 / 16.0,
-	14.0 / 16.0,
-    32.0 / 16.0,
-    14.0 / 16.0
-	);
-cincinnasite_statue.setFullBlock(false);
-cincinnasite_statue.setLightOpacity(0.5);
-cincinnasite_statue.setLightValue(7);
-cincinnasite_statue.setBlockLayer("CUTOUT");
-cincinnasite_statue.setCreativeTab(<creativetab:decorations>);
-cincinnasite_statue.setBlockSoundType(<soundtype:metal>);
-cincinnasite_statue.setToolLevel(2);
-cincinnasite_statue.setCreativeTab(<creativetab:rotn_blocks>);
-cincinnasite_statue.register();
-
-//Cincinnasite Sconce
-//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//
-var cincinnasite_sconce = VanillaFactory.createDirectionalBlock("cincinnasite_sconce", <blockmaterial:Iron>, "HORIZONTAL", false, false);
-cincinnasite_sconce.placementFacingFunction = IPlacementFacingFunction.side();
-cincinnasite_sconce.setBlockHardness(2.0);
-cincinnasite_sconce.setBlockResistance(1.0);
-cincinnasite_sconce.axisAlignedBB = AxisAlignedBB.create(
-     6.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	10.0 / 16.0,
-    16.0 / 16.0,
-    6.0 / 16.0
-	);
-cincinnasite_sconce.setToolClass("pickaxe");
-cincinnasite_sconce.setFullBlock(false);
-cincinnasite_sconce.setLightOpacity(0);
-cincinnasite_sconce.setLightValue(0);
-cincinnasite_sconce.setBlockSoundType(<soundtype:metal>);
-cincinnasite_sconce.setBlockLayer("CUTOUT_MIPPED");
-cincinnasite_sconce.setCreativeTab(<creativetab:rotn_blocks>);
-cincinnasite_sconce.register();
-
-var flipped_cincinnasite_sconce = VanillaFactory.createDirectionalBlock("flipped_cincinnasite_sconce", <blockmaterial:Iron>, "HORIZONTAL", false, false);
-flipped_cincinnasite_sconce.placementFacingFunction = IPlacementFacingFunction.side();
-flipped_cincinnasite_sconce.setBlockHardness(2.0);
-flipped_cincinnasite_sconce.setBlockResistance(1.0);
-flipped_cincinnasite_sconce.axisAlignedBB = AxisAlignedBB.create(
-     6.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	10.0 / 16.0,
-    16.0 / 16.0,
-    6.0 / 16.0
-	);
-flipped_cincinnasite_sconce.setToolClass("pickaxe");
-flipped_cincinnasite_sconce.setFullBlock(false);
-flipped_cincinnasite_sconce.setLightOpacity(0);
-flipped_cincinnasite_sconce.setLightValue(0);
-flipped_cincinnasite_sconce.setBlockSoundType(<soundtype:metal>);
-flipped_cincinnasite_sconce.setBlockLayer("CUTOUT_MIPPED");
-flipped_cincinnasite_sconce.setDropHandler(function(drops, world, position, state, fortune) {
-    drops.clear();
-    drops.add(<item:contenttweaker:cincinnasite_sconce>);
-    return;
-});
-flipped_cincinnasite_sconce.register();
-
-var cincinnasite_sconce_arch = VanillaFactory.createDirectionalBlock("cincinnasite_sconce_arch", <blockmaterial:Iron>, "HORIZONTAL", false, false);
-cincinnasite_sconce_arch.placementFacingFunction = IPlacementFacingFunction.side();
-cincinnasite_sconce_arch.setBlockHardness(2.0);
-cincinnasite_sconce_arch.setBlockResistance(1.0);
-cincinnasite_sconce_arch.axisAlignedBB = AxisAlignedBB.create(
-     6.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	10.0 / 16.0,
-    16.0 / 16.0,
-    0.0 / 16.0
-	);
-cincinnasite_sconce_arch.setToolClass("pickaxe");
-cincinnasite_sconce_arch.setFullBlock(false);
-cincinnasite_sconce_arch.setLightOpacity(0);
-cincinnasite_sconce_arch.setLightValue(0);
-cincinnasite_sconce_arch.setBlockSoundType(<soundtype:metal>);
-cincinnasite_sconce_arch.setBlockLayer("CUTOUT_MIPPED");
-cincinnasite_sconce_arch.setCreativeTab(<creativetab:rotn_blocks>);
-cincinnasite_sconce_arch.register();
-
-var flipped_cincinnasite_sconce_arch = VanillaFactory.createDirectionalBlock("flipped_cincinnasite_sconce_arch", <blockmaterial:Iron>, "HORIZONTAL", false, false);
-flipped_cincinnasite_sconce_arch.placementFacingFunction = IPlacementFacingFunction.side();
-flipped_cincinnasite_sconce_arch.setBlockHardness(2.0);
-flipped_cincinnasite_sconce_arch.setBlockResistance(1.0);
-flipped_cincinnasite_sconce_arch.axisAlignedBB = AxisAlignedBB.create(
-     6.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	10.0 / 16.0,
-    16.0 / 16.0,
-    0.0 / 16.0
-	);
-flipped_cincinnasite_sconce_arch.setToolClass("pickaxe");
-flipped_cincinnasite_sconce_arch.setFullBlock(false);
-flipped_cincinnasite_sconce_arch.setLightOpacity(0);
-flipped_cincinnasite_sconce_arch.setLightValue(0);
-flipped_cincinnasite_sconce_arch.setBlockSoundType(<soundtype:metal>);
-flipped_cincinnasite_sconce_arch.setBlockLayer("CUTOUT_MIPPED");
-flipped_cincinnasite_sconce_arch.setDropHandler(function(drops, world, position, state, fortune) {
-    drops.clear();
-    drops.add(<item:contenttweaker:cincinnasite_sconce_arch>);
-    return;
-});
-flipped_cincinnasite_sconce_arch.register();
-
-//Cincinnasite Spire
-//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//
-
-var cincinnasite_spire = VanillaFactory.createDirectionalBlock("cincinnasite_spire", <blockmaterial:Iron>, "ALL", false, false);
-cincinnasite_spire.placementFacingFunction = IPlacementFacingFunction.side();
-cincinnasite_spire.setBlockHardness(2.0);
-cincinnasite_spire.setBlockResistance(1.0);
-cincinnasite_spire.axisAlignedBB = AxisAlignedBB.create(
-     5.0 / 16.0,
-     5.0 / 16.0,
-     16.0 / 16.0,
-	11.0 / 16.0,
-    11.0 / 16.0,
-    1.0 / 16.0
-	);
-cincinnasite_spire.setToolClass("pickaxe");
-cincinnasite_spire.setFullBlock(false);
-cincinnasite_spire.setLightOpacity(0);
-cincinnasite_spire.setLightValue(0);
-cincinnasite_spire.setBlockSoundType(<soundtype:metal>);
-cincinnasite_spire.setBlockLayer("CUTOUT_MIPPED");
-cincinnasite_spire.setCreativeTab(<creativetab:rotn_blocks>);
-cincinnasite_spire.register();
-
-var cincinnasite_spire_tall = VanillaFactory.createDirectionalBlock("cincinnasite_spire_tall", <blockmaterial:Iron>, "ALL", false, false);
-cincinnasite_spire_tall.placementFacingFunction = IPlacementFacingFunction.side();
-cincinnasite_spire_tall.setBlockHardness(2.0);
-cincinnasite_spire_tall.setBlockResistance(1.0);
-cincinnasite_spire_tall.axisAlignedBB = AxisAlignedBB.create(
-     5.0 / 16.0,
-     5.0 / 16.0,
-     16.0 / 16.0,
-	11.0 / 16.0,
-    11.0 / 16.0,
-    1.0 / 16.0
-	);
-cincinnasite_spire_tall.setToolClass("pickaxe");
-cincinnasite_spire_tall.setFullBlock(false);
-cincinnasite_spire_tall.setLightOpacity(0);
-cincinnasite_spire_tall.setLightValue(0);
-cincinnasite_spire_tall.setBlockSoundType(<soundtype:metal>);
-cincinnasite_spire_tall.setBlockLayer("CUTOUT_MIPPED");
-cincinnasite_spire_tall.setDropHandler(function(drops, world, position, state, fortune) {
-    drops.clear();
-    drops.add(<item:contenttweaker:cincinnasite_spire>);
-    drops.add(<item:contenttweaker:cincinnasite_spire>);
-    return;
-});
-cincinnasite_spire_tall.register();
-
-//Quartz Lamp
-//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//
-var quartz_lamp = VanillaFactory.createDirectionalBlock("quartz_lamp", <blockmaterial:Iron>, "ALL", false, false);
-quartz_lamp.placementFacingFunction = IPlacementFacingFunction.side();
-quartz_lamp.axisAlignedBB = AxisAlignedBB.create(
-     4.0 / 16.0,
-     4.0 / 16.0,
-     4.0 / 16.0,
-	12.0 / 16.0,
-    12.0 / 16.0,
-    12.0 / 16.0
-	);
-quartz_lamp.setFullBlock(false);
-quartz_lamp.setLightOpacity(0.0);
-quartz_lamp.setBlockLayer("TRANSLUCENT");
-quartz_lamp.setCreativeTab(<creativetab:rotn_blocks>);
-quartz_lamp.setBlockSoundType(<soundtype:metal>);
-quartz_lamp.setToolLevel(2);
-quartz_lamp.register();
-
-var quartz_lamp_on = VanillaFactory.createDirectionalBlock("quartz_lamp_on", <blockmaterial:Iron>, "ALL", false, false);
-quartz_lamp_on.placementFacingFunction = IPlacementFacingFunction.side();
-quartz_lamp_on.axisAlignedBB = AxisAlignedBB.create(
-     4.0 / 16.0,
-     4.0 / 16.0,
-     4.0 / 16.0,
-	12.0 / 16.0,
-    12.0 / 16.0,
-    12.0 / 16.0
-	);
-quartz_lamp_on.setFullBlock(false);
-quartz_lamp_on.setLightOpacity(0.0);
-quartz_lamp_on.setLightValue(1.0);
-quartz_lamp_on.setBlockLayer("TRANSLUCENT");
-quartz_lamp_on.setBlockSoundType(<soundtype:metal>);
-quartz_lamp_on.setToolLevel(2);
-quartz_lamp_on.setDropHandler(function(drops, world, position, state, fortune) {
-    drops.clear();
-    drops.add(<item:contenttweaker:quartz_lamp>);
-    return;
-});
-quartz_lamp_on.register();
-
-//Raktan
-//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//
-
-var polished_raktan = VanillaFactory.createBlock("polished_raktan", <blockmaterial:Rock>);
-polished_raktan.setBlockHardness(8);
-polished_raktan.setToolClass("pickaxe");
-polished_raktan.setCreativeTab(<creativetab:rotn_blocks>);
-polished_raktan.register();
-
-var smooth_raktan = VanillaFactory.createBlock("smooth_raktan", <blockmaterial:Rock>);
-smooth_raktan.setBlockHardness(8);
-smooth_raktan.setToolClass("pickaxe");
-smooth_raktan.setCreativeTab(<creativetab:rotn_blocks>);
-smooth_raktan.register();
-
-var brick_raktan = VanillaFactory.createBlock("brick_raktan", <blockmaterial:Rock>);
-brick_raktan.setToolLevel(1);
-brick_raktan.setBlockHardness(45);
-brick_raktan.setBlockResistance(33.0);
-brick_raktan.setToolClass("pickaxe");
-brick_raktan.setCreativeTab(<creativetab:rotn_blocks>);
-brick_raktan.register();
-
-//Raktan Sconce
-//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//
-var raktan_sconce = VanillaFactory.createDirectionalBlock("raktan_sconce", <blockmaterial:Rock>, "HORIZONTAL", false, false);
-raktan_sconce.placementFacingFunction = IPlacementFacingFunction.side();
-raktan_sconce.setBlockHardness(2.0);
-raktan_sconce.setBlockResistance(1.0);
-raktan_sconce.axisAlignedBB = AxisAlignedBB.create(
-     6.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	10.0 / 16.0,
-    16.0 / 16.0,
-    6.0 / 16.0
-	);
-raktan_sconce.setToolClass("pickaxe");
-raktan_sconce.setFullBlock(false);
-raktan_sconce.setLightOpacity(0);
-raktan_sconce.setLightValue(0);
-raktan_sconce.setBlockSoundType(<soundtype:stone>);
-raktan_sconce.setBlockLayer("CUTOUT_MIPPED");
-raktan_sconce.setCreativeTab(<creativetab:rotn_blocks>);
-raktan_sconce.register();
-
-var flipped_raktan_sconce = VanillaFactory.createDirectionalBlock("flipped_raktan_sconce", <blockmaterial:Rock>, "HORIZONTAL", false, false);
-flipped_raktan_sconce.placementFacingFunction = IPlacementFacingFunction.side();
-flipped_raktan_sconce.setBlockHardness(2.0);
-flipped_raktan_sconce.setBlockResistance(1.0);
-flipped_raktan_sconce.axisAlignedBB = AxisAlignedBB.create(
-     6.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	10.0 / 16.0,
-    16.0 / 16.0,
-    6.0 / 16.0
-	);
-flipped_raktan_sconce.setToolClass("pickaxe");
-flipped_raktan_sconce.setFullBlock(false);
-flipped_raktan_sconce.setLightOpacity(0);
-flipped_raktan_sconce.setLightValue(0);
-flipped_raktan_sconce.setBlockSoundType(<soundtype:stone>);
-flipped_raktan_sconce.setBlockLayer("CUTOUT_MIPPED");
-flipped_raktan_sconce.setDropHandler(function(drops, world, position, state, fortune) {
-    drops.clear();
-    drops.add(<item:contenttweaker:raktan_sconce>);
-    return;
-});
-flipped_raktan_sconce.register();
-
-//Raktan Lantern
-//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//
-var raktan_lantern = VanillaFactory.createBlock("raktan_lantern", <blockmaterial:Rock>);
-raktan_lantern.setBlockHardness(8);
-raktan_lantern.setToolClass("pickaxe");
-raktan_lantern.setCreativeTab(<creativetab:rotn_blocks>);
-raktan_lantern.register();
-
-var raktan_lantern_on = VanillaFactory.createBlock("raktan_lantern_on", <blockmaterial:Rock>);
-raktan_lantern_on.setBlockHardness(8);
-raktan_lantern_on.setLightValue(1.0);
-raktan_lantern_on.setToolClass("pickaxe");
-raktan_lantern_on.setDropHandler(function(drops, world, position, state, fortune) {
-    drops.clear();
-    drops.add(<item:contenttweaker:raktan_lantern>);
-    return;
-});
-raktan_lantern_on.register();
-
-//Fleshweave
-//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//
-
-var fleshweave = VanillaFactory.createBlock("fleshweave", <blockmaterial:Cloth>);
-fleshweave.setBlockHardness(8);
-fleshweave.setCreativeTab(<creativetab:rotn_blocks>);
-fleshweave.setBlockSoundType(<soundtype:cloth>);
-fleshweave.register();
-
-var fleshweave_carpet = VanillaFactory.createBlock("fleshweave_carpet", <blockmaterial:Cloth>);
-fleshweave_carpet.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     0.0 / 16.0,
-	16.0 / 16.0,
-    1.0 / 16.0,
-    16.0 / 16.0
-	);
-fleshweave_carpet.setBlockHardness(8);
-fleshweave_carpet.setFullBlock(false);
-fleshweave_carpet.setLightOpacity(0);
-fleshweave_carpet.setCreativeTab(<creativetab:rotn_blocks>);
-fleshweave_carpet.setBlockSoundType(<soundtype:cloth>);
-fleshweave_carpet.register();
-
-var gilded_fleshweave = VanillaFactory.createBlock("gilded_fleshweave", <blockmaterial:Cloth>);
-gilded_fleshweave.setBlockHardness(8);
-gilded_fleshweave.setCreativeTab(<creativetab:rotn_blocks>);
-gilded_fleshweave.setBlockSoundType(<soundtype:cloth>);
-gilded_fleshweave.register();
-
-var gilded_fleshweave_carpet = VanillaFactory.createBlock("gilded_fleshweave_carpet", <blockmaterial:Cloth>);
-gilded_fleshweave_carpet.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     0.0 / 16.0,
-	16.0 / 16.0,
-    1.0 / 16.0,
-    16.0 / 16.0
-	);
-gilded_fleshweave_carpet.setBlockHardness(8);
-gilded_fleshweave_carpet.setFullBlock(false);
-gilded_fleshweave_carpet.setLightOpacity(0);
-gilded_fleshweave_carpet.setCreativeTab(<creativetab:rotn_blocks>);
-gilded_fleshweave_carpet.setBlockSoundType(<soundtype:cloth>);
-gilded_fleshweave_carpet.register();
-
-var ornate_fleshweave = VanillaFactory.createBlock("ornate_fleshweave", <blockmaterial:Cloth>);
-ornate_fleshweave.setBlockHardness(8);
-ornate_fleshweave.setCreativeTab(<creativetab:rotn_blocks>);
-ornate_fleshweave.setBlockSoundType(<soundtype:cloth>);
-ornate_fleshweave.register();
-
-var ornate_fleshweave_carpet = VanillaFactory.createBlock("ornate_fleshweave_carpet", <blockmaterial:Cloth>);
-ornate_fleshweave_carpet.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     0.0 / 16.0,
-	16.0 / 16.0,
-    1.0 / 16.0,
-    16.0 / 16.0
-	);
-ornate_fleshweave_carpet.setBlockHardness(8);
-ornate_fleshweave_carpet.setFullBlock(false);
-ornate_fleshweave_carpet.setLightOpacity(0);
-ornate_fleshweave_carpet.setCreativeTab(<creativetab:rotn_blocks>);
-ornate_fleshweave_carpet.setBlockSoundType(<soundtype:cloth>);
-ornate_fleshweave_carpet.register();
-
-var fleshweave_barrier_base = VanillaFactory.createBlock("fleshweave_barrier_base", <blockmaterial:Iron>);
-fleshweave_barrier_base.axisAlignedBB = AxisAlignedBB.create(
-     5.0 / 16.0,
-     0.0 / 16.0,
-     5.0 / 16.0,
-	11.0 / 16.0,
-    16.0 / 16.0,
-    11.0 / 16.0
-	);
-fleshweave_barrier_base.setBlockHardness(3);
-fleshweave_barrier_base.setBlockSoundType(<soundtype:metal>);
-fleshweave_barrier_base.setFullBlock(false);
-fleshweave_barrier_base.setLightOpacity(0.5);
-fleshweave_barrier_base.setToolClass("pickaxe");
-fleshweave_barrier_base.setCreativeTab(<creativetab:rotn_blocks>);
-fleshweave_barrier_base.onBlockPlace = function(world, blockPos, blockState) {
-    if(world.getBlockState(blockPos.getOffset('up', 1)) == <block:minecraft:air>)
-	{
-	    world.setBlockState(<block:contenttweaker:fleshweave_barrier_top>, blockPos.getOffset('up', 1));
-	}
-};
-fleshweave_barrier_base.onBlockBreak = function(world, blockPos, blockState) {
-    if(world.getBlockState(blockPos.getOffset('up', 1)) == <block:contenttweaker:fleshweave_barrier_top>)
-	{
-	    world.setBlockState(<block:minecraft:air>, blockPos.getOffset('up', 1));
-	}
-};
-fleshweave_barrier_base.register();
-
-var fleshweave_barrier_top = VanillaFactory.createBlock("fleshweave_barrier_top", <blockmaterial:Iron>);
-fleshweave_barrier_top.axisAlignedBB = AxisAlignedBB.create(
-     5.0 / 16.0,
-     0.0 / 16.0,
-     5.0 / 16.0,
-	11.0 / 16.0,
-    7.0 / 16.0,
-    11.0 / 16.0
-	);
-fleshweave_barrier_top.setBlockHardness(3);
-fleshweave_barrier_top.setBlockSoundType(<soundtype:metal>);
-fleshweave_barrier_top.setFullBlock(false);
-fleshweave_barrier_top.setLightOpacity(0.5);
-fleshweave_barrier_top.setBlockLayer("CUTOUT_MIPPED");
-fleshweave_barrier_top.setToolClass("pickaxe");
-fleshweave_barrier_top.onBlockPlace = function(world, blockPos, blockState) {
-    if(world.getBlockState(blockPos.getOffset('down', 1)) == <block:minecraft:air>)
-	{
-	    world.setBlockState(<block:contenttweaker:fleshweave_barrier_base>, blockPos.getOffset('down', 1));
-	}
-};
-fleshweave_barrier_top.onBlockBreak = function(world, blockPos, blockState) {
-    if(world.getBlockState(blockPos.getOffset('down', 1)) == <block:contenttweaker:fleshweave_barrier_base>)
-	{
-	    world.destroyBlock(blockPos.getOffset('down', 1), true);
-	}
-};
-fleshweave_barrier_top.setDropHandler(function(drops, world, position, state, fortune) {
-    drops.clear();
-    return;
-});
-fleshweave_barrier_top.register();
-
-var fleshweave_barrier_ribbon = VanillaFactory.createDirectionalBlock("fleshweave_barrier_ribbon", <blockmaterial:Cloth>, "HORIZONTAL", false, true);
-fleshweave_barrier_ribbon.axisAlignedBB = AxisAlignedBB.create(
-     7.0 / 16.0,
-     -3.0 / 16.0,
-     -8.0 / 16.0,
-	8.0 / 16.0,
-    6.0 / 16.0,
-    24.0 / 16.0
-	);
-fleshweave_barrier_ribbon.setBlockHardness(0.3);
-fleshweave_barrier_ribbon.setBlockSoundType(<soundtype:cloth>);
-fleshweave_barrier_ribbon.setFullBlock(false);
-fleshweave_barrier_ribbon.setLightOpacity(0.5);
-fleshweave_barrier_ribbon.setBlockLayer("CUTOUT_MIPPED");
-fleshweave_barrier_ribbon.setDropHandler(function(drops, world, position, state, fortune) {
-    drops.clear();
-    return;
-});
-fleshweave_barrier_ribbon.register();
-
-var steel_barrier_base = VanillaFactory.createBlock("steel_barrier_base", <blockmaterial:Iron>);
-steel_barrier_base.axisAlignedBB = AxisAlignedBB.create(
-     5.0 / 16.0,
-     0.0 / 16.0,
-     5.0 / 16.0,
-	11.0 / 16.0,
-    16.0 / 16.0,
-    11.0 / 16.0
-	);
-steel_barrier_base.setBlockHardness(3);
-steel_barrier_base.setBlockSoundType(<soundtype:metal>);
-steel_barrier_base.setFullBlock(false);
-steel_barrier_base.setLightOpacity(0.5);
-steel_barrier_base.setToolClass("pickaxe");
-steel_barrier_base.setCreativeTab(<creativetab:rotn_blocks>);
-steel_barrier_base.onBlockPlace = function(world, blockPos, blockState) {
-    if(world.getBlockState(blockPos.getOffset('up', 1)) == <block:minecraft:air>)
-	{
-	    world.setBlockState(<block:contenttweaker:steel_barrier_top>, blockPos.getOffset('up', 1));
-	}
-};
-steel_barrier_base.onBlockBreak = function(world, blockPos, blockState) {
-    if(world.getBlockState(blockPos.getOffset('up', 1)) == <block:contenttweaker:steel_barrier_top>)
-	{
-	    world.setBlockState(<block:minecraft:air>, blockPos.getOffset('up', 1));
-	}
-};
-steel_barrier_base.register();
-
-var steel_barrier_top = VanillaFactory.createBlock("steel_barrier_top", <blockmaterial:Iron>);
-steel_barrier_top.axisAlignedBB = AxisAlignedBB.create(
-     5.0 / 16.0,
-     0.0 / 16.0,
-     5.0 / 16.0,
-	11.0 / 16.0,
-    7.0 / 16.0,
-    11.0 / 16.0
-	);
-steel_barrier_top.setBlockHardness(3);
-steel_barrier_top.setBlockSoundType(<soundtype:metal>);
-steel_barrier_top.setFullBlock(false);
-steel_barrier_top.setLightOpacity(0.5);
-steel_barrier_top.setBlockLayer("CUTOUT_MIPPED");
-steel_barrier_top.setToolClass("pickaxe");
-steel_barrier_top.onBlockPlace = function(world, blockPos, blockState) {
-    if(world.getBlockState(blockPos.getOffset('down', 1)) == <block:minecraft:air>)
-	{
-	    world.setBlockState(<block:contenttweaker:steel_barrier_base>, blockPos.getOffset('down', 1));
-	}
-};
-steel_barrier_top.onBlockBreak = function(world, blockPos, blockState) {
-    if(world.getBlockState(blockPos.getOffset('down', 1)) == <block:contenttweaker:steel_barrier_base>)
-	{
-	    world.destroyBlock(blockPos.getOffset('down', 1), true);
-	}
-};
-steel_barrier_top.setDropHandler(function(drops, world, position, state, fortune) {
-    drops.clear();
-    drops.add(<item:contenttweaker:steel_barrier_base>);
-    return;
-});
-steel_barrier_top.register();
-
-var steel_barrier_ribbon = VanillaFactory.createDirectionalBlock("steel_barrier_ribbon", <blockmaterial:Cloth>, "HORIZONTAL", false, true);
-steel_barrier_ribbon.axisAlignedBB = AxisAlignedBB.create(
-     7.0 / 16.0,
-     -3.0 / 16.0,
-     -8.0 / 16.0,
-	8.0 / 16.0,
-    6.0 / 16.0,
-    24.0 / 16.0
-	);
-steel_barrier_ribbon.setBlockHardness(0.3);
-steel_barrier_ribbon.setBlockSoundType(<soundtype:cloth>);
-steel_barrier_ribbon.setFullBlock(false);
-steel_barrier_ribbon.setLightOpacity(0.5);
-steel_barrier_ribbon.setBlockLayer("CUTOUT_MIPPED");
-steel_barrier_ribbon.setDropHandler(function(drops, world, position, state, fortune) {
-    drops.clear();
-    return;
-});
-steel_barrier_ribbon.register();
-
-//
-//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//
-
 
 // Raw Ores
 // raw_tin
@@ -2144,196 +1564,196 @@ refracotta_white.register();
 var oak_boards = VanillaFactory.createBlock("oak_boards", <blockmaterial:Wood>);
 oak_boards.setCreativeTab(<creativetab:rotn_blocks>);
 oak_boards.setToolClass("pickaxe");
-oak_boards.setBlockHardness(20.0);
+oak_boards.setBlockHardness(7.0);
 oak_boards.setToolLevel(1);
 oak_boards.register();
 // spruce
 var spruce_boards = VanillaFactory.createBlock("spruce_boards", <blockmaterial:Wood>);
 spruce_boards.setCreativeTab(<creativetab:rotn_blocks>);
 spruce_boards.setToolClass("pickaxe");
-spruce_boards.setBlockHardness(20.0);
+spruce_boards.setBlockHardness(7.0);
 spruce_boards.setToolLevel(1);
 spruce_boards.register();
 // birch
 var birch_boards = VanillaFactory.createBlock("birch_boards", <blockmaterial:Wood>);
 birch_boards.setCreativeTab(<creativetab:rotn_blocks>);
 birch_boards.setToolClass("pickaxe");
-birch_boards.setBlockHardness(20.0);
+birch_boards.setBlockHardness(7.0);
 birch_boards.setToolLevel(1);
 birch_boards.register();
 // jungle
 var jungle_boards = VanillaFactory.createBlock("jungle_boards", <blockmaterial:Wood>);
 jungle_boards.setCreativeTab(<creativetab:rotn_blocks>);
 jungle_boards.setToolClass("pickaxe");
-jungle_boards.setBlockHardness(20.0);
+jungle_boards.setBlockHardness(7.0);
 jungle_boards.setToolLevel(1);
 jungle_boards.register();
 // acacia
 var acacia_boards = VanillaFactory.createBlock("acacia_boards", <blockmaterial:Wood>);
 acacia_boards.setCreativeTab(<creativetab:rotn_blocks>);
 acacia_boards.setToolClass("pickaxe");
-acacia_boards.setBlockHardness(20.0);
+acacia_boards.setBlockHardness(7.0);
 acacia_boards.setToolLevel(1);
 acacia_boards.register();
 // dark oak
 var dark_oak_boards = VanillaFactory.createBlock("dark_oak_boards", <blockmaterial:Wood>);
 dark_oak_boards.setCreativeTab(<creativetab:rotn_blocks>);
 dark_oak_boards.setToolClass("pickaxe");
-dark_oak_boards.setBlockHardness(20.0);
+dark_oak_boards.setBlockHardness(7.0);
 dark_oak_boards.setToolLevel(1);
 dark_oak_boards.register();
 // stalagnate
 var stalagnate_boards = VanillaFactory.createBlock("stalagnate_boards", <blockmaterial:Wood>);
 stalagnate_boards.setCreativeTab(<creativetab:rotn_blocks>);
 stalagnate_boards.setToolClass("pickaxe");
-stalagnate_boards.setBlockHardness(20.0);
+stalagnate_boards.setBlockHardness(7.0);
 stalagnate_boards.setToolLevel(1);
 stalagnate_boards.register();
 // sacred oak
 var sacred_oak_boards = VanillaFactory.createBlock("sacred_oak_boards", <blockmaterial:Wood>);
 sacred_oak_boards.setCreativeTab(<creativetab:rotn_blocks>);
 sacred_oak_boards.setToolClass("pickaxe");
-sacred_oak_boards.setBlockHardness(20.0);
+sacred_oak_boards.setBlockHardness(7.0);
 sacred_oak_boards.setToolLevel(1);
 sacred_oak_boards.register();
 // cherry
 var cherry_boards = VanillaFactory.createBlock("cherry_boards", <blockmaterial:Wood>);
 cherry_boards.setCreativeTab(<creativetab:rotn_blocks>);
 cherry_boards.setToolClass("pickaxe");
-cherry_boards.setBlockHardness(20.0);
+cherry_boards.setBlockHardness(7.0);
 cherry_boards.setToolLevel(1);
 cherry_boards.register();
 // umbran
 var umbran_boards = VanillaFactory.createBlock("umbran_boards", <blockmaterial:Wood>);
 umbran_boards.setCreativeTab(<creativetab:rotn_blocks>);
 umbran_boards.setToolClass("pickaxe");
-umbran_boards.setBlockHardness(20.0);
+umbran_boards.setBlockHardness(7.0);
 umbran_boards.setToolLevel(1);
 umbran_boards.register();
 // fir
 var fir_boards = VanillaFactory.createBlock("fir_boards", <blockmaterial:Wood>);
 fir_boards.setCreativeTab(<creativetab:rotn_blocks>);
 fir_boards.setToolClass("pickaxe");
-fir_boards.setBlockHardness(20.0);
+fir_boards.setBlockHardness(7.0);
 fir_boards.setToolLevel(1);
 fir_boards.register();
 // magic
 var magic_boards = VanillaFactory.createBlock("magic_boards", <blockmaterial:Wood>);
 magic_boards.setCreativeTab(<creativetab:rotn_blocks>);
 magic_boards.setToolClass("pickaxe");
-magic_boards.setBlockHardness(20.0);
+magic_boards.setBlockHardness(7.0);
 magic_boards.setToolLevel(1);
 magic_boards.register();
 // mangrove
 var mangrove_boards = VanillaFactory.createBlock("mangrove_boards", <blockmaterial:Wood>);
 mangrove_boards.setCreativeTab(<creativetab:rotn_blocks>);
 mangrove_boards.setToolClass("pickaxe");
-mangrove_boards.setBlockHardness(20.0);
+mangrove_boards.setBlockHardness(7.0);
 mangrove_boards.setToolLevel(1);
 mangrove_boards.register();
 // palm
 var palm_boards = VanillaFactory.createBlock("palm_boards", <blockmaterial:Wood>);
 palm_boards.setCreativeTab(<creativetab:rotn_blocks>);
 palm_boards.setToolClass("pickaxe");
-palm_boards.setBlockHardness(20.0);
+palm_boards.setBlockHardness(7.0);
 palm_boards.setToolLevel(1);
 palm_boards.register();
 // redwood
 var redwood_boards = VanillaFactory.createBlock("redwood_boards", <blockmaterial:Wood>);
 redwood_boards.setCreativeTab(<creativetab:rotn_blocks>);
 redwood_boards.setToolClass("pickaxe");
-redwood_boards.setBlockHardness(20.0);
+redwood_boards.setBlockHardness(7.0);
 redwood_boards.setToolLevel(1);
 redwood_boards.register();
 // willow
 var willow_boards = VanillaFactory.createBlock("willow_boards", <blockmaterial:Wood>);
 willow_boards.setCreativeTab(<creativetab:rotn_blocks>);
 willow_boards.setToolClass("pickaxe");
-willow_boards.setBlockHardness(20.0);
+willow_boards.setBlockHardness(7.0);
 willow_boards.setToolLevel(1);
 willow_boards.register();
 // pine
 var pine_boards = VanillaFactory.createBlock("pine_boards", <blockmaterial:Wood>);
 pine_boards.setCreativeTab(<creativetab:rotn_blocks>);
 pine_boards.setToolClass("pickaxe");
-pine_boards.setBlockHardness(20.0);
+pine_boards.setBlockHardness(7.0);
 pine_boards.setToolLevel(1);
 pine_boards.register();
 // hellbark
 var hellbark_boards = VanillaFactory.createBlock("hellbark_boards", <blockmaterial:Wood>);
 hellbark_boards.setCreativeTab(<creativetab:rotn_blocks>);
 hellbark_boards.setToolClass("pickaxe");
-hellbark_boards.setBlockHardness(20.0);
+hellbark_boards.setBlockHardness(7.0);
 hellbark_boards.setToolLevel(1);
 hellbark_boards.register();
 // jacaranda
 var jacaranda_boards = VanillaFactory.createBlock("jacaranda_boards", <blockmaterial:Wood>);
 jacaranda_boards.setCreativeTab(<creativetab:rotn_blocks>);
 jacaranda_boards.setToolClass("pickaxe");
-jacaranda_boards.setBlockHardness(20.0);
+jacaranda_boards.setBlockHardness(7.0);
 jacaranda_boards.setToolLevel(1);
 jacaranda_boards.register();
 // mahogany
 var mahogany_boards = VanillaFactory.createBlock("mahogany_boards", <blockmaterial:Wood>);
 mahogany_boards.setCreativeTab(<creativetab:rotn_blocks>);
 mahogany_boards.setToolClass("pickaxe");
-mahogany_boards.setBlockHardness(20.0);
+mahogany_boards.setBlockHardness(7.0);
 mahogany_boards.setToolLevel(1);
 mahogany_boards.register();
 // ebony
 var ebony_boards = VanillaFactory.createBlock("ebony_boards", <blockmaterial:Wood>);
 ebony_boards.setCreativeTab(<creativetab:rotn_blocks>);
 ebony_boards.setToolClass("pickaxe");
-ebony_boards.setBlockHardness(20.0);
+ebony_boards.setBlockHardness(7.0);
 ebony_boards.setToolLevel(1);
 ebony_boards.register();
 // eucalyptus
 var eucalyptus_boards = VanillaFactory.createBlock("eucalyptus_boards", <blockmaterial:Wood>);
 eucalyptus_boards.setCreativeTab(<creativetab:rotn_blocks>);
 eucalyptus_boards.setToolClass("pickaxe");
-eucalyptus_boards.setBlockHardness(20.0);
+eucalyptus_boards.setBlockHardness(7.0);
 eucalyptus_boards.setToolLevel(1);
 eucalyptus_boards.register();
 // tenebra
 var tenebra_boards = VanillaFactory.createBlock("tenebra_boards", <blockmaterial:Wood>);
 tenebra_boards.setCreativeTab(<creativetab:rotn_blocks>);
 tenebra_boards.setToolClass("pickaxe");
-tenebra_boards.setBlockHardness(20.0);
+tenebra_boards.setBlockHardness(7.0);
 tenebra_boards.setToolLevel(1);
 tenebra_boards.register();
 // dreadwood
 var dreadwood_boards = VanillaFactory.createBlock("dreadwood_boards", <blockmaterial:Wood>);
 dreadwood_boards.setCreativeTab(<creativetab:rotn_blocks>);
 dreadwood_boards.setToolClass("pickaxe");
-dreadwood_boards.setBlockHardness(20.0);
+dreadwood_boards.setBlockHardness(7.0);
 dreadwood_boards.setToolLevel(1);
 dreadwood_boards.register();
 // olive
 var olive_boards = VanillaFactory.createBlock("olive_boards", <blockmaterial:Wood>);
 olive_boards.setCreativeTab(<creativetab:rotn_blocks>);
 olive_boards.setToolClass("pickaxe");
-olive_boards.setBlockHardness(20.0);
+olive_boards.setBlockHardness(7.0);
 olive_boards.setToolLevel(1);
 olive_boards.register();
 // ironwood
 var ironwood_boards = VanillaFactory.createBlock("ironwood_boards", <blockmaterial:Wood>);
 ironwood_boards.setCreativeTab(<creativetab:rotn_blocks>);
 ironwood_boards.setToolClass("pickaxe");
-ironwood_boards.setBlockHardness(20.0);
+ironwood_boards.setBlockHardness(7.0);
 ironwood_boards.setToolLevel(1);
 ironwood_boards.register();
 // wyrmwood
 var wyrmwood_boards = VanillaFactory.createBlock("wyrmwood_boards", <blockmaterial:Wood>);
 wyrmwood_boards.setCreativeTab(<creativetab:rotn_blocks>);
 wyrmwood_boards.setToolClass("pickaxe");
-wyrmwood_boards.setBlockHardness(20.0);
+wyrmwood_boards.setBlockHardness(7.0);
 wyrmwood_boards.setToolLevel(1);
 wyrmwood_boards.register();
 // skywood
 var skywood_boards = VanillaFactory.createBlock("skywood_boards", <blockmaterial:Wood>);
 skywood_boards.setCreativeTab(<creativetab:rotn_blocks>);
 skywood_boards.setToolClass("pickaxe");
-skywood_boards.setBlockHardness(20.0);
+skywood_boards.setBlockHardness(7.0);
 skywood_boards.setToolLevel(1);
 skywood_boards.register();
 
@@ -3564,16 +2984,19 @@ var blendrein_block = VanillaFactory.createBlock("blendrein_block", <blockmateri
 blendrein_block.setCreativeTab(<creativetab:rotn_blocks>);
 blendrein_block.setToolLevel(3);
 blendrein_block.setBlockHardness(80.0);
+blendrein_block.setLightValue(0.1);
 blendrein_block.register();
 var blendrein_chiseled = VanillaFactory.createBlock("blendrein_chiseled", <blockmaterial:Iron>);
 blendrein_chiseled.setCreativeTab(<creativetab:rotn_blocks>);
 blendrein_chiseled.setToolLevel(3);
 blendrein_chiseled.setBlockHardness(80.0);
+blendrein_chiseled.setLightValue(0.2);
 blendrein_chiseled.register();
 var blendrein_nourished = VanillaFactory.createBlock("blendrein_nourished", <blockmaterial:Iron>);
 blendrein_nourished.setCreativeTab(<creativetab:rotn_blocks>);
 blendrein_nourished.setToolLevel(3);
 blendrein_nourished.setBlockHardness(90.0);
+blendrein_nourished.setLightValue(0.1);
 blendrein_nourished.register();
 var blendrein_reinforced = VanillaFactory.createBlock("blendrein_reinforced", <blockmaterial:Iron>);
 blendrein_reinforced.setCreativeTab(<creativetab:rotn_blocks>);
@@ -3644,489 +3067,7 @@ concrete_gray_brick.setBlockResistance(5.0);
 concrete_gray_brick.setToolLevel(1);
 concrete_gray_brick.register();
 
-//Curtains
-
-var curtain_white = VanillaFactory.createDirectionalBlock("curtain_white", <blockmaterial:Wood>, "HORIZONTAL", false, true);
-curtain_white.setBlockHardness(2.0);
-curtain_white.setBlockResistance(1.0);
-curtain_white.setPassable(true);
-curtain_white.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	16.0 / 16.0,
-    16.0 / 16.0,
-    14.0 / 16.0
-	);
-curtain_white.setToolClass("axe");
-curtain_white.setFullBlock(false);
-curtain_white.setLightOpacity(0);
-curtain_white.setLightValue(0);
-curtain_white.setBlockSoundType(<soundtype:wood>);
-curtain_white.setBlockLayer("CUTOUT_MIPPED");
-curtain_white.register();
-
-var curtain_orange = VanillaFactory.createDirectionalBlock("curtain_orange", <blockmaterial:Wood>, "HORIZONTAL", false, true);
-curtain_orange.setBlockHardness(2.0);
-curtain_orange.setBlockResistance(1.0);
-curtain_orange.setPassable(true);
-curtain_orange.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	16.0 / 16.0,
-    16.0 / 16.0,
-    14.0 / 16.0
-	);
-curtain_orange.setToolClass("axe");
-curtain_orange.setFullBlock(false);
-curtain_orange.setLightOpacity(0);
-curtain_orange.setLightValue(0);
-curtain_orange.setBlockSoundType(<soundtype:wood>);
-curtain_orange.setBlockLayer("CUTOUT_MIPPED");
-curtain_orange.register();
-
-var curtain_magenta = VanillaFactory.createDirectionalBlock("curtain_magenta", <blockmaterial:Wood>, "HORIZONTAL", false, true);
-curtain_magenta.setBlockHardness(2.0);
-curtain_magenta.setBlockResistance(1.0);
-curtain_magenta.setPassable(true);
-curtain_magenta.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	16.0 / 16.0,
-    16.0 / 16.0,
-    14.0 / 16.0
-	);
-curtain_magenta.setToolClass("axe");
-curtain_magenta.setFullBlock(false);
-curtain_magenta.setLightOpacity(0);
-curtain_magenta.setLightValue(0);
-curtain_magenta.setBlockSoundType(<soundtype:wood>);
-curtain_magenta.setBlockLayer("CUTOUT_MIPPED");
-curtain_magenta.register();
-
-var curtain_light_blue = VanillaFactory.createDirectionalBlock("curtain_light_blue", <blockmaterial:Wood>, "HORIZONTAL", false, true);
-curtain_light_blue.setBlockHardness(2.0);
-curtain_light_blue.setBlockResistance(1.0);
-curtain_light_blue.setPassable(true);
-curtain_light_blue.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	16.0 / 16.0,
-    16.0 / 16.0,
-    14.0 / 16.0
-	);
-curtain_light_blue.setToolClass("axe");
-curtain_light_blue.setFullBlock(false);
-curtain_light_blue.setLightOpacity(0);
-curtain_light_blue.setLightValue(0);
-curtain_light_blue.setBlockSoundType(<soundtype:wood>);
-curtain_light_blue.setBlockLayer("CUTOUT_MIPPED");
-curtain_light_blue.register();
-
-var curtain_yellow = VanillaFactory.createDirectionalBlock("curtain_yellow", <blockmaterial:Wood>, "HORIZONTAL", false, true);
-curtain_yellow.setBlockHardness(2.0);
-curtain_yellow.setBlockResistance(1.0);
-curtain_yellow.setPassable(true);
-curtain_yellow.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	16.0 / 16.0,
-    16.0 / 16.0,
-    14.0 / 16.0
-	);
-curtain_yellow.setToolClass("axe");
-curtain_yellow.setFullBlock(false);
-curtain_yellow.setLightOpacity(0);
-curtain_yellow.setLightValue(0);
-curtain_yellow.setBlockSoundType(<soundtype:wood>);
-curtain_yellow.setBlockLayer("CUTOUT_MIPPED");
-curtain_yellow.register();
-
-var curtain_lime = VanillaFactory.createDirectionalBlock("curtain_lime", <blockmaterial:Wood>, "HORIZONTAL", false, true);
-curtain_lime.setBlockHardness(2.0);
-curtain_lime.setBlockResistance(1.0);
-curtain_lime.setPassable(true);
-curtain_lime.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	16.0 / 16.0,
-    16.0 / 16.0,
-    14.0 / 16.0
-	);
-curtain_lime.setToolClass("axe");
-curtain_lime.setFullBlock(false);
-curtain_lime.setLightOpacity(0);
-curtain_lime.setLightValue(0);
-curtain_lime.setBlockSoundType(<soundtype:wood>);
-curtain_lime.setBlockLayer("CUTOUT_MIPPED");
-curtain_lime.register();
-
-var curtain_pink = VanillaFactory.createDirectionalBlock("curtain_pink", <blockmaterial:Wood>, "HORIZONTAL", false, true);
-curtain_pink.setBlockHardness(2.0);
-curtain_pink.setBlockResistance(1.0);
-curtain_pink.setPassable(true);
-curtain_pink.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	16.0 / 16.0,
-    16.0 / 16.0,
-    14.0 / 16.0
-	);
-curtain_pink.setToolClass("axe");
-curtain_pink.setFullBlock(false);
-curtain_pink.setLightOpacity(0);
-curtain_pink.setLightValue(0);
-curtain_pink.setBlockSoundType(<soundtype:wood>);
-curtain_pink.setBlockLayer("CUTOUT_MIPPED");
-curtain_pink.register();
-
-var curtain_gray = VanillaFactory.createDirectionalBlock("curtain_gray", <blockmaterial:Wood>, "HORIZONTAL", false, true);
-curtain_gray.setBlockHardness(2.0);
-curtain_gray.setBlockResistance(1.0);
-curtain_gray.setPassable(true);
-curtain_gray.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	16.0 / 16.0,
-    16.0 / 16.0,
-    14.0 / 16.0
-	);
-curtain_gray.setToolClass("axe");
-curtain_gray.setFullBlock(false);
-curtain_gray.setLightOpacity(0);
-curtain_gray.setLightValue(0);
-curtain_gray.setBlockSoundType(<soundtype:wood>);
-curtain_gray.setBlockLayer("CUTOUT_MIPPED");
-curtain_gray.register();
-
-var curtain_light_gray = VanillaFactory.createDirectionalBlock("curtain_light_gray", <blockmaterial:Wood>, "HORIZONTAL", false, true);
-curtain_light_gray.setBlockHardness(2.0);
-curtain_light_gray.setBlockResistance(1.0);
-curtain_light_gray.setPassable(true);
-curtain_light_gray.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	16.0 / 16.0,
-    16.0 / 16.0,
-    14.0 / 16.0
-	);
-curtain_light_gray.setToolClass("axe");
-curtain_light_gray.setFullBlock(false);
-curtain_light_gray.setLightOpacity(0);
-curtain_light_gray.setLightValue(0);
-curtain_light_gray.setBlockSoundType(<soundtype:wood>);
-curtain_light_gray.setBlockLayer("CUTOUT_MIPPED");
-curtain_light_gray.register();
-
-var curtain_cyan = VanillaFactory.createDirectionalBlock("curtain_cyan", <blockmaterial:Wood>, "HORIZONTAL", false, true);
-curtain_cyan.setBlockHardness(2.0);
-curtain_cyan.setBlockResistance(1.0);
-curtain_cyan.setPassable(true);
-curtain_cyan.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	16.0 / 16.0,
-    16.0 / 16.0,
-    14.0 / 16.0
-	);
-curtain_cyan.setToolClass("axe");
-curtain_cyan.setFullBlock(false);
-curtain_cyan.setLightOpacity(0);
-curtain_cyan.setLightValue(0);
-curtain_cyan.setBlockSoundType(<soundtype:wood>);
-curtain_cyan.setBlockLayer("CUTOUT_MIPPED");
-curtain_cyan.register();
-
-var curtain_purple = VanillaFactory.createDirectionalBlock("curtain_purple", <blockmaterial:Wood>, "HORIZONTAL", false, true);
-curtain_purple.setBlockHardness(2.0);
-curtain_purple.setBlockResistance(1.0);
-curtain_purple.setPassable(true);
-curtain_purple.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	16.0 / 16.0,
-    16.0 / 16.0,
-    14.0 / 16.0
-	);
-curtain_purple.setToolClass("axe");
-curtain_purple.setFullBlock(false);
-curtain_purple.setLightOpacity(0);
-curtain_purple.setLightValue(0);
-curtain_purple.setBlockSoundType(<soundtype:wood>);
-curtain_purple.setBlockLayer("CUTOUT_MIPPED");
-curtain_purple.register();
-
-var curtain_blue = VanillaFactory.createDirectionalBlock("curtain_blue", <blockmaterial:Wood>, "HORIZONTAL", false, true);
-curtain_blue.setBlockHardness(2.0);
-curtain_blue.setBlockResistance(1.0);
-curtain_blue.setPassable(true);
-curtain_blue.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	16.0 / 16.0,
-    16.0 / 16.0,
-    14.0 / 16.0
-	);
-curtain_blue.setToolClass("axe");
-curtain_blue.setFullBlock(false);
-curtain_blue.setLightOpacity(0);
-curtain_blue.setLightValue(0);
-curtain_blue.setBlockSoundType(<soundtype:wood>);
-curtain_blue.setBlockLayer("CUTOUT_MIPPED");
-curtain_blue.register();
-
-var curtain_brown = VanillaFactory.createDirectionalBlock("curtain_brown", <blockmaterial:Wood>, "HORIZONTAL", false, true);
-curtain_brown.setBlockHardness(2.0);
-curtain_brown.setBlockResistance(1.0);
-curtain_brown.setPassable(true);
-curtain_brown.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	16.0 / 16.0,
-    16.0 / 16.0,
-    14.0 / 16.0
-	);
-curtain_brown.setToolClass("axe");
-curtain_brown.setFullBlock(false);
-curtain_brown.setLightOpacity(0);
-curtain_brown.setLightValue(0);
-curtain_brown.setBlockSoundType(<soundtype:wood>);
-curtain_brown.setBlockLayer("CUTOUT_MIPPED");
-curtain_brown.register();
-
-var curtain_green = VanillaFactory.createDirectionalBlock("curtain_green", <blockmaterial:Wood>, "HORIZONTAL", false, true);
-curtain_green.setBlockHardness(2.0);
-curtain_green.setBlockResistance(1.0);
-curtain_green.setPassable(true);
-curtain_green.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	16.0 / 16.0,
-    16.0 / 16.0,
-    14.0 / 16.0
-	);
-curtain_green.setToolClass("axe");
-curtain_green.setFullBlock(false);
-curtain_green.setLightOpacity(0);
-curtain_green.setLightValue(0);
-curtain_green.setBlockSoundType(<soundtype:wood>);
-curtain_green.setBlockLayer("CUTOUT_MIPPED");
-curtain_green.register();
-
-var curtain_red = VanillaFactory.createDirectionalBlock("curtain_red", <blockmaterial:Wood>, "HORIZONTAL", false, true);
-curtain_red.setBlockHardness(2.0);
-curtain_red.setBlockResistance(1.0);
-curtain_red.setPassable(true);
-curtain_red.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	16.0 / 16.0,
-    16.0 / 16.0,
-    14.0 / 16.0
-	);
-curtain_red.setToolClass("axe");
-curtain_red.setFullBlock(false);
-curtain_red.setLightOpacity(0);
-curtain_red.setLightValue(0);
-curtain_red.setBlockSoundType(<soundtype:wood>);
-curtain_red.setBlockLayer("CUTOUT_MIPPED");
-curtain_red.register();
-
-var curtain_black = VanillaFactory.createDirectionalBlock("curtain_black", <blockmaterial:Wood>, "HORIZONTAL", false, true);
-curtain_black.setBlockHardness(2.0);
-curtain_black.setBlockResistance(1.0);
-curtain_black.setPassable(true);
-curtain_black.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	16.0 / 16.0,
-    16.0 / 16.0,
-    14.0 / 16.0
-	);
-curtain_black.setToolClass("axe");
-curtain_black.setFullBlock(false);
-curtain_black.setLightOpacity(0);
-curtain_black.setLightValue(0);
-curtain_black.setBlockSoundType(<soundtype:wood>);
-curtain_black.setBlockLayer("CUTOUT_MIPPED");
-curtain_black.register();
-
-var curtain_trans = VanillaFactory.createDirectionalBlock("curtain_trans", <blockmaterial:Wood>, "HORIZONTAL", false, true);
-curtain_trans.setBlockHardness(2.0);
-curtain_trans.setBlockResistance(1.0);
-curtain_trans.setPassable(true);
-curtain_trans.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	16.0 / 16.0,
-    16.0 / 16.0,
-    14.0 / 16.0
-	);
-curtain_trans.setToolClass("axe");
-curtain_trans.setFullBlock(false);
-curtain_trans.setLightOpacity(0);
-curtain_trans.setLightValue(0);
-curtain_trans.setBlockSoundType(<soundtype:wood>);
-curtain_trans.setBlockLayer("CUTOUT_MIPPED");
-curtain_trans.register();
-
-var curtain_checkered = VanillaFactory.createDirectionalBlock("curtain_checkered", <blockmaterial:Wood>, "HORIZONTAL", false, true);
-curtain_checkered.setBlockHardness(2.0);
-curtain_checkered.setBlockResistance(1.0);
-curtain_checkered.setPassable(true);
-curtain_checkered.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	16.0 / 16.0,
-    16.0 / 16.0,
-    14.0 / 16.0
-	);
-curtain_checkered.setToolClass("axe");
-curtain_checkered.setFullBlock(false);
-curtain_checkered.setLightOpacity(0);
-curtain_checkered.setLightValue(0);
-curtain_checkered.setBlockSoundType(<soundtype:wood>);
-curtain_checkered.setBlockLayer("CUTOUT_MIPPED");
-curtain_checkered.register();
-
-var curtain_eye = VanillaFactory.createDirectionalBlock("curtain_eye", <blockmaterial:Wood>, "HORIZONTAL", false, true);
-curtain_eye.setBlockHardness(2.0);
-curtain_eye.setBlockResistance(1.0);
-curtain_eye.setPassable(true);
-curtain_eye.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	16.0 / 16.0,
-    16.0 / 16.0,
-    14.0 / 16.0
-	);
-curtain_eye.setToolClass("axe");
-curtain_eye.setFullBlock(false);
-curtain_eye.setLightOpacity(0);
-curtain_eye.setLightValue(0);
-curtain_eye.setBlockSoundType(<soundtype:wood>);
-curtain_eye.setBlockLayer("CUTOUT_MIPPED");
-curtain_eye.register();
-
-var curtain_peak = VanillaFactory.createDirectionalBlock("curtain_peak", <blockmaterial:Wood>, "HORIZONTAL", false, true);
-curtain_peak.setBlockHardness(2.0);
-curtain_peak.setBlockResistance(1.0);
-curtain_peak.setPassable(true);
-curtain_peak.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	16.0 / 16.0,
-    16.0 / 16.0,
-    14.0 / 16.0
-	);
-curtain_peak.setToolClass("axe");
-curtain_peak.setFullBlock(false);
-curtain_peak.setLightOpacity(0);
-curtain_peak.setLightValue(0);
-curtain_peak.setBlockSoundType(<soundtype:wood>);
-curtain_peak.setBlockLayer("CUTOUT_MIPPED");
-curtain_peak.register();
-
-var curtain_royal = VanillaFactory.createDirectionalBlock("curtain_royal", <blockmaterial:Wood>, "HORIZONTAL", false, true);
-curtain_royal.setBlockHardness(2.0);
-curtain_royal.setBlockResistance(1.0);
-curtain_royal.setPassable(true);
-curtain_royal.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	16.0 / 16.0,
-    16.0 / 16.0,
-    14.0 / 16.0
-	);
-curtain_royal.setToolClass("axe");
-curtain_royal.setFullBlock(false);
-curtain_royal.setLightOpacity(0);
-curtain_royal.setLightValue(0);
-curtain_royal.setBlockSoundType(<soundtype:wood>);
-curtain_royal.setBlockLayer("CUTOUT_MIPPED");
-curtain_royal.register();
-
-var curtain_patterned = VanillaFactory.createDirectionalBlock("curtain_patterned", <blockmaterial:Wood>, "HORIZONTAL", false, true);
-curtain_patterned.setBlockHardness(2.0);
-curtain_patterned.setBlockResistance(1.0);
-curtain_patterned.setPassable(true);
-curtain_patterned.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	16.0 / 16.0,
-    16.0 / 16.0,
-    14.0 / 16.0
-	);
-curtain_patterned.setToolClass("axe");
-curtain_patterned.setFullBlock(false);
-curtain_patterned.setLightOpacity(0);
-curtain_patterned.setLightValue(0);
-curtain_patterned.setBlockSoundType(<soundtype:wood>);
-curtain_patterned.setBlockLayer("CUTOUT_MIPPED");
-curtain_patterned.register();
-
-var curtain_beige = VanillaFactory.createDirectionalBlock("curtain_beige", <blockmaterial:Wood>, "HORIZONTAL", false, true);
-curtain_beige.setBlockHardness(2.0);
-curtain_beige.setBlockResistance(1.0);
-curtain_beige.setPassable(true);
-curtain_beige.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	16.0 / 16.0,
-    16.0 / 16.0,
-    14.0 / 16.0
-	);
-curtain_beige.setToolClass("axe");
-curtain_beige.setFullBlock(false);
-curtain_beige.setLightOpacity(0);
-curtain_beige.setLightValue(0);
-curtain_beige.setBlockSoundType(<soundtype:wood>);
-curtain_beige.setBlockLayer("CUTOUT_MIPPED");
-curtain_beige.register();
-
-var curtain_cloud = VanillaFactory.createDirectionalBlock("curtain_cloud", <blockmaterial:Wood>, "HORIZONTAL", false, true);
-curtain_cloud.setBlockHardness(2.0);
-curtain_cloud.setBlockResistance(1.0);
-curtain_cloud.setPassable(true);
-curtain_cloud.axisAlignedBB = AxisAlignedBB.create(
-     0.0 / 16.0,
-     0.0 / 16.0,
-     16.0 / 16.0,
-	16.0 / 16.0,
-    16.0 / 16.0,
-    14.0 / 16.0
-	);
-curtain_cloud.setToolClass("axe");
-curtain_cloud.setFullBlock(false);
-curtain_cloud.setLightOpacity(0);
-curtain_cloud.setLightValue(0);
-curtain_cloud.setBlockSoundType(<soundtype:wood>);
-curtain_cloud.setBlockLayer("CUTOUT_MIPPED");
-curtain_cloud.register();
-
-// Liquids
+//Liquids
 var ender_slag = VanillaFactory.createFluid("ender_slag", Color.fromHex("fffdd0"));
 ender_slag.density = 1900;
 ender_slag.temperature = 500;

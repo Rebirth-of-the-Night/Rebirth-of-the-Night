@@ -923,8 +923,6 @@ events.onBlockPlace(function(event as crafttweaker.event.BlockPlaceEvent) {
 				event.cancel();
 }}});
 
-});
-
 // heroic steel sword
 static hammer as IItemStack = <dungeontactics:master_hammer_leap:*>;
 events.onPlayerRightClickItem(function(event as crafttweaker.event.PlayerRightClickItemEvent){
