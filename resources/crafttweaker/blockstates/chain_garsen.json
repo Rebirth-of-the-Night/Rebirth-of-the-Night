@@ -1,0 +1,48 @@
+{
+    "multipart": [
+        {
+            "when": {
+                "axis": "x"
+            },
+            "apply": {
+                "model": "crafttweaker:chain_horizontal_garsen",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "axis": "y"
+            },
+            "apply": {
+                "model": "crafttweaker:chain_garsen"
+            }
+        },
+        {
+            "when": {
+                "axis": "z"
+            },
+            "apply": {
+                "model": "crafttweaker:chain_horizontal_garsen"
+            }
+        },
+        {
+            "when": {
+                "axis": "x",
+                "dangle": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:chain_dangle_garsen",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "axis": "y|z",
+                "dangle": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:chain_dangle_garsen"
+            }
+        }
+    ]
+}

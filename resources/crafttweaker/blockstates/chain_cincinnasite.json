@@ -1,0 +1,48 @@
+{
+    "multipart": [
+        {
+            "when": {
+                "axis": "x"
+            },
+            "apply": {
+                "model": "crafttweaker:chain_horizontal_cincinnasite",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "axis": "y"
+            },
+            "apply": {
+                "model": "crafttweaker:chain_cincinnasite"
+            }
+        },
+        {
+            "when": {
+                "axis": "z"
+            },
+            "apply": {
+                "model": "crafttweaker:chain_horizontal_cincinnasite"
+            }
+        },
+        {
+            "when": {
+                "axis": "x",
+                "dangle": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:chain_dangle_cincinnasite",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "axis": "y|z",
+                "dangle": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:chain_dangle_cincinnasite"
+            }
+        }
+    ]
+}

@@ -1,0 +1,208 @@
+======================================================================================================================================================================
+======================================================================= THE BASICS ===================================================================================
+======================================================================================================================================================================
+
+This mod's configs are made up of 2 things; particle factories and particle emitters.
+
+Particle factories decide what particles look like and how they act.
+
+Particle emitters are assigned one or more factories and decide when / where / under what circumstances those factories will create particles.
+
+
+
+Each file in config/customparticles/factories can create one or more factories, though you'll probably have one factory per file most of the time.
+
+Likewise, each file in config/customparticles/emitters can create one or more emitters.
+
+
+
+Whether you're defining a factory or an emitter, you first need to base it on a template.
+Factory templates and emitter templates are just factories and emitters that start with some pre-defined settings.
+After choosing a template, you can then alter its settings with functions.
+
+Anything on a line after a double-forward-slash will be ignored, and empty lines are fine.
+Filenames should have no spaces!
+
+
+
+Let's look at a basic factory file, "config/customparticles/factories/fallingLeaves.txt":
+template leaves
+
+Yep, just two words.  Grats, you've made a falling leaf factory!
+"leaves" in this case is a certain prebuilt template which makes...well...falling leaf particles.
+
+
+
+Now let's look at a basic emitter file, "config/customparticles/emitters/leafBlocks.txt":
+template block leaves true
+modes bottom
+factory fallingLeaves
+
+This one is a bit more complicated.  Let's take it one thing at a time.
+
+First, the "template" line.
+"block" means the block template; an emitter that makes blocks emit particles.
+"leaves" is the block filter.  It decides which blocks do or do not spawn particles.  In this case, any block with the exact name "leaves", with any meta, no matter what mod its from.  More on block filters in a bit.
+"true" means that the block filter is a whitelist.  If this were "false" then the block filter would be a blacklist.
+
+Alright, next line.
+modes bottom
+This makes particles spawn from the BOTTOM of blocks.  If you were to use "modes inside" then particles would spawn INSIDE the block.
+You can put as many modes as you want here, eg "modes north south east west top bottom" would spawn particles on all sides of the block.
+We also just covered all current values for the "modes" function (top, bottom, north, south, west, east, inside)
+You can put the same mode more than once to "weight" the particle spawns.  Eg. "modes bottom bottom north south west east" would spawn particles on all sides except the top, but the bottom would have twice as many as the other sides.
+
+And most importantly, the last line.
+factory fallingLeaves
+You might notice that the 2nd word here matches the filename of the factory we made earlier.  Yep.  This is how you tell an emitter which factories to actually use when spawning particles.
+You can put multiple factories on the same line if you want.  You can even put the same factory multiple times for "weighting" just like with "modes"
+
+
+
+Alright, if you have those two files saved in the right places, you should be able to load up the game and see falling leaf particles coming from leaf blocks...but something's wrong.
+Not all leaf blocks are spawning falling leaves.
+This is because of the first line in our emitter file:
+template block leaves true
+The part we want to look at is the block filter; "leaves"
+Even just in "vanilla" minecraft, there are 2 completely different blocks for leaves (not just meta of the same block...actually differently named blocks)
+Those names are "leaves" and "leaves2"
+So how do we do both?  Well, you could make an emitter file for each one, but if you start doing that for mods, you'll have a million files, so let's try something else...
+
+
+
+REGEX!  Yes, regex, aka "regular expressions".  This is a syntax for matching multiple results when looking at text.
+The most basic thing you should know about regex is that a period followed by a star, like this...
+.*
+...means "anything"
+
+So if we replace "leaves" with "leaves.*", it will now match all vanilla minecraft leaves, and maybe some modded leaves as a bonus, if their names start with "leaves".
+template block leaves.* true
+modes bottom
+factory fallingLeaves
+
+
+
+If we want to take that one step further, we can use ".*leaves.*".  This will match any block name containing the word "leaves", no matter what.
+template block .*leaves.* true
+modes bottom
+factory fallingLeaves
+
+That's probably good for a cover-most-bases falling leaf emitter, and this is a good spot to take a break and watch the grass grow.  Or the leaves fall I guess.
+
+
+
+
+======================================================================================================================================================================
+======================================================================= VARIATION ====================================================================================
+======================================================================================================================================================================
+
+Alright, round 2.
+We're going to make slime particles fall from any solid block in a slime chunk (specifically the part of a slime chunk down low, where they can actually spawn)
+
+Falling slime and falling leaves have a lot in common...well, they both fall anyways, so we're going to make a new leaf factory and turn it into a slime factory.
+First, we need to name the file. "config/customparticles/factories/fallingSlime.txt"
+
+Now, let's start with a leaf template again.
+template leaves
+
+
+
+Of course, the most important thing to change is the texture...or in this case, which PART of the texture we're using, because the default texture in this mod has both leaves and slime in the same image file.
+So technically we don't need to change the texture, but we DO need to change which part of it we're using.
+
+For this, we use spriteMetaData:
+spriteMetaData 128 128 0 8 8 16
+
+"spriteMetaData" is a function that lets you define what part of a texture to use.  It can even be used to define multiple parts, for an animated particle, but let's not worry about that yet.
+If you want to look at the texture we're dealing with right now, you can extract the files from this mod's jar file using winzip, 7zip, or whatever, and look at assets/customparticles/textures/particles.png
+
+The first 2 numbers (128 128) are always the total width and total height of the texture.
+
+The next 4 numbers always define the first (and in this case only) frame of the animation.
+The numbers are in this order: x1, y1, x2, y2
+Aka left, top, right, bottom
+
+So in this case, our file is 128x128 pixels, and we're using the part of it from (0, 8) at its top-left corner, to (8, 16) at its bottom-right corner.
+This is an 8x8 pixel frame within the texture file, and just so happens to have a little slime face in it.
+
+
+
+Now, leaves normally change color based on the biome, but we don't want that for slime (probably), so now we do this:
+useFoliageColor false
+
+This should be pretty self-explanatory, but yeah.  The "leaf" template type starts with this set to "true", so we have to set it to "false" to NOT use the biome-specific foliage color.
+
+
+
+Let's change the rotation on the slime.  Maybe just let it fall without any rotation, actually.
+startingAngle 0
+spinRate 0
+
+These are both pretty self-explanatory, but there are a few things to know if you decide to mess with them.
+1. These are in degrees.
+2. "startingAngle" can have one or two numbers to the right of it.  If it has one number, then the particles will always start at that angle.  If it has 2, then the particles will start at some angle between the two, randomly.
+3. "spinRate" is MAXIMUM spin rate, and is based on "startingAngle".  For example, if you use "startingAngle -15 15" and "spinRate 360", then it will do 1 rotation per second IF it spawns with a -15* or a 15* angle (in opposite directions)
+
+
+
+Moving on, let's also change how they move.
+terminalVelocityMult 10
+terminalVelocityDelayMult 4
+
+These functions are multipliers, so they take the default terminal velocity (max speed) and terminal velocity delay (how long it takes to reach max speed), and multiply the built-in default values by the multipliers you define.
+Big terminal velocity make fast.  Big terminal velocity delay make wait long before start move.
+
+
+
+Ok, that's our slime factory.  Here's the finished file: "config/customparticles/factories/fallingSlime.txt"
+template leaves
+spriteMetaData 128 128 0 8 8 16
+useFoliageColor false
+startingAngle 0
+spinRate 0
+terminalVelocityMult 10
+terminalVelocityDelayMult 4
+
+
+
+Next, let's do our emitter for the slime.  This won't be as bad.  In fact I'll just put it here and then go over it: "config/customparticles/emitters/slimeChunks.txt"
+template block air false
+require slimeChunk fullSolidBlock
+modes bottom
+factory fallingSlime
+
+
+
+Alright, here we go...
+template block air false
+
+If you remember from before, this means we're using the "block" template, aka spawning particles from blocks.
+"air" means air blocks.  You know.  The ones you don't interact with other than walking, flying, or falling (with style) through them.
+"false" means that this is a blacklist, so we're targeting ALL BLOCKS OTHER THAN AIR.  Yeah, that might be overkill, but we'll address that, don't worry.
+
+
+
+require slimeChunk fullSolidBlock
+
+This line is additional requirements for particles to spawn.
+"slimeChunk" means only within slime chunks, below y=40 (aka where slimes can spawn, other than swamps).
+"fullSolidBlock" means only from full solid blocks, so we won't be spawning particles from things like torches.
+
+
+
+modes bottom
+
+This is the same as before; we're spawning particles from the bottom of blocks.
+
+
+
+factory fallingSlime
+
+And this is also familiar.  We're handing our emitter the factory we made just a bit ago.
+
+Time to go test!  You should now have tiny slimes falling when in slime chunks, way down in the ground.
+
+
+
+If you made it this far and it all works, then congratulations, you've finished the tutorial!
+See "Specifications.txt" to find out everything else you can do.

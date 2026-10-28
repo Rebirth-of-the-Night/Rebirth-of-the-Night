@@ -1,0 +1,302 @@
+{
+    "multipart": [
+        {
+            "when": {
+                "northwest": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/lower/tapestry_cyan"
+            }
+        },
+        {
+            "when": {
+                "northwest": "false"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/corner/tapestry_cyan"
+            }
+        },
+        {
+            "when": {
+                "northwest": "false",
+                "northeast": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/wall_right/tapestry_cyan"
+            }
+        },
+        {
+            "when": {
+                "northwest": "false",
+                "southwest": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/wall_left/tapestry_cyan"
+            }
+        },
+        {
+            "when": {
+                "northwest": "false",
+                "northeast": "true",
+                "southwest": "true",
+                "southeast": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/wall_post/tapestry_cyan"
+            }
+        },
+        {
+            "when": {
+                "northeast": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/lower/tapestry_cyan",
+                "y": 90,
+                "uvlock": true
+            }
+        },
+        {
+            "when": {
+                "northeast": "false"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/corner/tapestry_cyan",
+                "y": 90,
+                "uvlock": true
+            }
+        },
+        {
+            "when": {
+                "northeast": "false",
+                "southeast": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/wall_right/tapestry_cyan",
+                "y": 90,
+                "uvlock": true
+            }
+        },
+        {
+            "when": {
+                "northeast": "false",
+                "northwest": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/wall_left/tapestry_cyan",
+                "y": 90,
+                "uvlock": true
+            }
+        },
+        {
+            "when": {
+                "northeast": "false",
+                "northwest": "true",
+                "southwest": "true",
+                "southeast": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/wall_post/tapestry_cyan",
+                "y": 90,
+                "uvlock": true
+            }
+        },
+        {
+            "when": {
+                "southeast": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/lower/tapestry_cyan",
+                "y": 180,
+                "uvlock": true
+            }
+        },
+        {
+            "when": {
+                "southeast": "false"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/corner/tapestry_cyan",
+                "y": 180,
+                "uvlock": true
+            }
+        },
+        {
+            "when": {
+                "southeast": "false",
+                "southwest": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/wall_right/tapestry_cyan",
+                "y": 180,
+                "uvlock": true
+            }
+        },
+        {
+            "when": {
+                "southeast": "false",
+                "northeast": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/wall_left/tapestry_cyan",
+                "y": 180,
+                "uvlock": true
+            }
+        },
+        {
+            "when": {
+                "southeast": "false",
+                "northeast": "true",
+                "southwest": "true",
+                "northwest": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/wall_post/tapestry_cyan",
+                "y": 180,
+                "uvlock": true
+            }
+        },
+        {
+            "when": {
+                "southwest": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/lower/tapestry_cyan",
+                "y": 270,
+                "uvlock": true
+            }
+        },
+        {
+            "when": {
+                "southwest": "false"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/corner/tapestry_cyan",
+                "y": 270,
+                "uvlock": true
+            }
+        },
+        {
+            "when": {
+                "southwest": "false",
+                "northwest": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/wall_right/tapestry_cyan",
+                "y": 270,
+                "uvlock": true
+            }
+        },
+        {
+            "when": {
+                "southwest": "false",
+                "southeast": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/wall_left/tapestry_cyan",
+                "y": 270,
+                "uvlock": true
+            }
+        },
+        {
+            "when": {
+                "southwest": "false",
+                "northeast": "true",
+                "northwest": "true",
+                "southeast": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/wall_post/tapestry_cyan",
+                "y": 270,
+                "uvlock": true
+            }
+        },
+        {
+            "when": {
+                "southwest": "true",
+                "southeast": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/front/tapestry_cyan"
+            }
+        },
+        {
+            "when": {
+                "northwest": "true",
+                "southwest": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/front/tapestry_cyan",
+                "y": 90,
+                "uvlock": true
+            }
+        },
+        {
+            "when": {
+                "northwest": "true",
+                "northeast": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/front/tapestry_cyan",
+                "y": 180,
+                "uvlock": true
+            }
+        },
+        {
+            "when": {
+                "northeast": "true",
+                "southeast": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/front/tapestry_cyan",
+                "y": 270,
+                "uvlock": true
+            }
+        },
+        {
+            "when": {
+                "northeast": "true",
+                "southwest": "true",
+                "southeast": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/front_post/tapestry_cyan"
+            }
+        },
+        {
+            "when": {
+                "northwest": "true",
+                "southwest": "true",
+                "southeast": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/front_post/tapestry_cyan",
+                "y": 90,
+                "uvlock": true
+            }
+        },
+        {
+            "when": {
+                "northwest": "true",
+                "northeast": "true",
+                "southwest": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/front_post/tapestry_cyan",
+                "y": 180,
+                "uvlock": true
+            }
+        },
+        {
+            "when": {
+                "northwest": "true",
+                "northeast": "true",
+                "southeast": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:carpet/front_post/tapestry_cyan",
+                "y": 270,
+                "uvlock": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "crafttweaker:candle_wall_alexandrite"
+        },
+        "facing=east": {
+            "model": "crafttweaker:candle_wall_alexandrite",
+            "y": 90
+        },
+        "facing=south": {
+            "model": "crafttweaker:candle_wall_alexandrite",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "crafttweaker:candle_wall_alexandrite",
+            "y": 270
+        },
+        "facing=up": {
+            "model": "crafttweaker:candle_alexandrite"
+        }
+    }
+}

@@ -1,0 +1,260 @@
+======================================================================================================================================================================
+========================================================================== WARNING! ==================================================================================
+======================================================================================================================================================================
+
+
+IF YOU HAVEN'T GONE THROUGH THE TUTORIAL YET, DO THAT FIRST!!!
+
+(See TUTORIAL.txt)
+
+
+
+
+
+======================================================================================================================================================================
+====================================================================== FACTORY FUNCTIONS =============================================================================
+======================================================================================================================================================================
+
+
+
+template <type> [maxAge]
+
+Type can be one of the following:
+basic / normal / regular - A particle that simply appears, then disappears 3 seconds later (no built-in motion)
+basicRune / basicRunes / normalRune / normalRunes / regularRune / regularRunes - Similar to "basic", but automatically chooses a random vanilla rune as the texture / animation
+leaf / leaves - A particle that can fall and spin.
+
+Max age is optional, and is the particle lifetime in seconds (decimals allowed; converted to ticks internally)
+
+
+
+tex / texture <textureName>
+Which texture to use for the particles from this factory.
+This can be a block texture (from the texture atlas) or a texture file.
+
+tex minecraft:blocks/obsidian
+Block texture layout.
+Uses the texture for obsidian (do not need to / should not specify spriteMetaData).
+
+tex minecraft:blocks/lava_flow
+Block texture layout.
+Uses the texture for flowing lava (including animation; do not need to / should not specify spriteMetaData).
+
+tex minecraft:textures/particle/particles.png
+PNG texture layout.
+Uses minecraft's built-in particle textures file.
+
+tex customparticles:textures/particles.png
+PNG texture layout.
+Uses this mod's built-in textures file.
+
+Any PNG from any mod or texture pack should be available with this layout, but for block textures, there is better performance using the block-based format above (it's also simpler).
+The only time that the PNG layout should be used for block textures is when you DO NOT want them synchronized with the general synced block animations...
+...or when you want to combine multiple block textures in a single animation.
+
+
+
+spriteMeta / spriteMetaData <totalTexW, totalTexH, frame1X1, frame1Y1, frame1X2, frame1Y2, [...see below]>
+Defines the frame (part of the texture) to use, or multiple frames (animation).
+Note that when using the block texture layout, "spriteMetaData" generally does not need to be specified (generally SHOULD NOT be specified).
+Also note that for the PNG texture layout, if not specified, it will use the full texture.
+
+spriteMetaData 128 128 0 8 16 24
+Defines a frame from (0, 8) to (16, 24) for a texture that is 128x128 pixels overall.
+Technically this uses ratios, so if someone eg. replaces a texture with a larger one (and did so correctly) it will still work without needing to change the numbers.
+
+spriteMetaData 128 128 0 8 16 24 false 8
+Similar to the previous example, but only for the first frame.
+The last 2 arguments "false 8" allow for quickly creating more frames that are in sequential order in the texture file.
+"false" is whether the frame sequence is vertical, ie. in this case it is not vertical, ie. it is horizontal.
+"8" is how many frames total, including the first one that was specified.  It will automatically wrap when it hits the edge of the texture file.
+This can load any frame sequence that is orderd from (left to right, top to bottom) ("false"), or from (top to bottom, left to right) ("true").
+
+spriteMetaData 128 128 0 8 16 24 0 8 8 16
+Again, the first frame (first 6 arguments) are the same, but this time we have 4 additional arguments.
+In this case, all numbers after the first 2 (after "128 128") are (frame1x1, frame1y1, frame1x2, frame1y2, frame2x1, frame2y1, frame2x2, frame2y2, etc...).
+This format allows you to define animations that are not in a sequence in the texture file.
+
+
+
+useFoliageColor <true / false>
+Whether to use the biome foliage color.
+
+
+
+startingAngle <minDegrees> [maxDegrees]
+Particles spawn rotated minDegrees, or if maxDegrees is also give, somewhere between the two.
+
+
+
+spinRate <degreesPerSecond>
+If the particle spawned at the maximum possible angle, rotate at the given value in that same direction (scales based actual starting angle vs min and max possible starting angles).
+
+
+
+useBlockLight <true / false>
+Whether to use block lighting values (shadow / light when true) or not (fullbright when false).
+
+
+
+blendSource / blendSrc / sourceFactor / srcFactor / blendSrcFactor / blendSourceFactor <mode>
+GL_ZERO
+GL_ONE
+GL_SRC_COLOR
+GL_ONE_MINUS_SRC_COLOR
+GL_DST_COLOR
+GL_ONE_MINUS_DST_COLOR
+GL_SRC_ALPHA
+GL_ONE_MINUS_SRC_ALPHA
+GL_DST_ALPHA
+GL_ONE_MINUS_DST_ALPHA
+GL_CONSTANT_COLOR
+GL_ONE_MINUS_CONSTANT_COLOR
+GL_CONSTANT_ALPHA
+GL_ONE_MINUS_CONSTANT_ALPHA
+GL_SRC_ALPHA_SATURATE
+
+See https://registry.khronos.org/OpenGL-Refpages/gl4/html/glBlendFunc.xhtml
+Or google "glblendfunc".
+
+
+
+blendDestination / blendDst / destinationFactor / dstFactor / blendDstFactor / blendDestinationFactor <mode>
+GL_ZERO
+GL_ONE
+GL_SRC_COLOR
+GL_ONE_MINUS_SRC_COLOR
+GL_DST_COLOR
+GL_ONE_MINUS_DST_COLOR
+GL_SRC_ALPHA
+GL_ONE_MINUS_SRC_ALPHA
+GL_DST_ALPHA
+GL_ONE_MINUS_DST_ALPHA
+GL_CONSTANT_COLOR
+GL_ONE_MINUS_CONSTANT_COLOR
+GL_CONSTANT_ALPHA
+GL_ONE_MINUS_CONSTANT_ALPHA
+
+See https://registry.khronos.org/OpenGL-Refpages/gl4/html/glBlendFunc.xhtml
+Or google "glblendfunc".
+
+
+
+cullDistance / cullingDistance <distanceInBlocks>
+If the particle is at least this far away from the player, destroy it (default 30).
+
+
+
+useFacingRotation <true / false>
+Whether to start the particle with 3D rotation based on facing (implementation depends on emitter type spawning the particle; block emitters should be obvious)
+
+
+
+
+
+terminalVelocityMult / terminalVelocityMultiplier <multiplier>
+For leaf factories
+Multiplies the top speed by this value.
+
+
+
+terminalVelocityDelayMult / terminalVelocityDelayMultiplier <multiplier>
+For leaf factories
+Multiplies the time it takes to reach max speed by this amount
+
+
+
+
+
+======================================================================================================================================================================
+====================================================================== EMITTER FUNCTIONS =============================================================================
+======================================================================================================================================================================
+
+
+
+template <type> <typeArguments>
+
+Type can be one of the following (each type may have different arguments; see details below):
+block / blocks
+
+template block lava true
+"block" is a particle emitter that spawns particles from blocks.
+"lava" is the block filter, and "true" means that the block filter is a whitelist.
+
+Block filters are split into 3 parts, but only 1 part (block name) is required.
+You can also do things like "minecraft:lava" and "minecraft:stone:0", or just "stone:0".
+Note that any missing part is treated as a wildcard (will accept any value), so "minecraft:lava" is lava with any meta, and "stone:0" is any block from ANY MOD with the exact name "stone", but only with meta 0.
+Oredict is supported, eg "ore:stone".
+Regex is also supported, on a per-part basis.  Ie. ".*cobble.*" will match any block with "cobble" in its block name, from any mod (because not specified), with any meta (because not specified).
+".*:.*:.*" is the full-length definition for "match anything", but since undefined parts default to wildcards anyway, just entering ".*" will also do this.
+".*:.*:0" is any block from any mod with meta 0.  "minecraft:.*:.*" is any block from minecraft with any meta.  ".*:stone:.*" is any block named exactly "stone" from any mod, with any meta.
+Regex and oredict can be combined in all ways.
+
+
+
+factory / factories <factoryname> [factoryname...]
+Tells the emitter which factories to use for spawning particles (see TUTORIAL.txt)
+
+
+
+mode / modes <mode> [mode...]
+top
+bottom
+north
+south
+west
+east
+inside
+
+Defines details about how or where particles should spawn.
+For block emitters, the directional modes will spawn particles on that side of the block UNLESS OBSTRUCTED.
+For block emitters, "inside" will spawn particles INSIDE THAT BLOCK, EVEN IF OBSTRUCTED.
+
+
+
+require / requires / requirement / requirements <requirementType> [requirementType...]
+
+Requirement type can be one of the following:
+slimeChunk
+fullSolidBlock
+
+Sets additional requirements for the emitter to be able to trigger.
+slimeChunk makes an emitter only spawn particles when inside a slime chunk, and below y=40.
+For block emitters, fullSolidBlock makes an emitter only spawn particles if the emitter is attached to a full, solid block (via the block filter).
+
+
+
+dimension / dimensions <dimensionID> [dimensionID...]
+
+Dimension filter; if "dimensionsAreWhitelist" (below) is "true", then the emitter will only spawn particles in these dimensions.
+If "dimensionsAreWhitelist" is "false" then the emitter will only spawn particles if NOT in these dimensions.
+
+If not specified, the emitter will spawn in all dimensions.
+Eg "dimensions 0 1" is the overworld ("0") and the end ("1").  For modded dimensions, you'll have to find their ids on your own.  The "/forge tps" command shows dimension ids of loaded worlds.
+
+
+
+dimensionsAreWhitelist <true / false>
+See above.
+
+
+
+biome / biomes <biomeRegistryName> [biomeRegistryName...]
+
+Biome filter; if "biomesAreWhitelist" (below) is "true", then the emitter will only spawn particles in these biomes.
+If "dimensionsAreWhitelist" is "false" then the emitter will only spawn particles if NOT in these biomes.
+If not specified, the emitter will spawn in all biomes.
+
+Eg "biomes ice_flats desert" is the Ice Plains ("ice_flats") and the desert (just normal desert, not variants).
+A list of all biomes detected the last time the game was run can be found in config/fantasticlib/reference/biomes.txt
+
+
+
+biomesAreWhitelist <true / false>
+See above.
+
+
+
+
+
+If you're ready for more complex systems, check out Advanced.txt
