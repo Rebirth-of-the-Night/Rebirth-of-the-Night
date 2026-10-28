@@ -1,5 +1,4 @@
 import loottweaker.LootTweaker;
-import loottweaker.vanilla.loot.LootTables;
 import loottweaker.vanilla.loot.Functions;
 import crafttweaker.data.IData;
 import crafttweaker.item.WeightedItemStack;

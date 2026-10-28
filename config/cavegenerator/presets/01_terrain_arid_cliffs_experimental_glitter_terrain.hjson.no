@@ -1,0 +1,61 @@
+{
+  // Hills preset by TeksturePako
+  enabled: true
+  replaceableBlocks: [ "air", "grass", "water" ]
+  blacklistBiomes: false
+  biomes: {
+    names: biometweaker:atacamian_desert
+    types: []
+  }
+  caverns: [ {
+      ceiling: {
+        dummy: true
+        cache: true
+        frequency: 0.015
+        range: [ 30, 0 ]
+      }
+      floor: {
+        dummy: true
+        cache: true
+        frequency: 0.02
+        range: [ -5, 5 ]
+      }
+      height: [ 5, 80 ]
+      generators: {
+        seed: 1
+        threshold: 0.83 // [Default: 0.8]
+        frequency: -0.094 // [Default: -0.006]
+        offset: -45 // [Default: -30]
+        type: "ValueFractal" // [Default: ValueFractal]
+        octaves: 6 // [Default: 4]
+        lacunarity: -2.3 // [Default: -1.5]
+        gain: -0.8 // [Default: -0.8]
+        perturb: true
+        perturbAmp: 12 // [Default: 2] You can mess around with this
+        perturbFreq: 0.25 // [Default: 0.07] You can mess around with this
+        jitterY: 0 // You can mess around with this
+        jitterX: 2.7 // You can mess around with this
+        jitterZ: 2.7 // You can mess around with this
+        returnType: NoiseLookup
+        cellularLookup: CubicFractal
+        distFunc: Natural
+        invert: false
+        interp: "Hermite" // [Default: Linear] - Both Hermite and Quintic works good
+        fractal: "RigidMulti" // [Default: RigidMulti]
+        stretch: 2.5 // [Default: 3] - Decrease to make floating island | Increase = more steep
+      }
+    } ]
+  caveBlocks: [
+    { states: "contenttweaker:salty_crust", height: [ 0, 80 ] }
+  ]
+  wallDecorators: [
+    {
+      states: undergroundbiomes:igneous_stone:6
+      directions: down
+      matchers: contenttweaker:salty_crust
+      height: [ 0, 80 ]
+      placement: EMBED
+      integrity: 1
+    }
+  ]
+}
