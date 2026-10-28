@@ -44,6 +44,7 @@ ground_beef.register();
 val wiener = VanillaFactory.createItemFood("wiener", 1);
 wiener.setSaturation(0.5);
 wiener.setCreativeTab(<creativetab:food>);
+wiener.register();
 
 val grin_kale_leaf = VanillaFactory.createItemFood("grin_kale_leaf", 1);
 grin_kale_leaf.setSaturation(0.5);
@@ -53,6 +54,7 @@ grin_kale_leaf.register();
 val sheep_intestines = VanillaFactory.createItemFood("sheep_intestines", 1);
 sheep_intestines.setSaturation(0.5);
 sheep_intestines.setCreativeTab(<creativetab:food>);
+sheep_intestines.register();
 
 val patty = VanillaFactory.createItem("patty");
 patty.register();

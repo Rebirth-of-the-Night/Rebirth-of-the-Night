@@ -207,12 +207,6 @@ recipes.addShaped("aether_dart", <aether_legacy:dart:0>*4,[
     [<ore:feather>]
 ]);
 
-recipes.remove(<aether_legacy:dart>);
-recipes.addShaped("aether_dart", <aether_legacy:dart>*4,[
-    [<dungeontactics:sharp_stick>],
-    [<ore:feather>]
-]);
-
 recipes.remove(<aether_legacy:holystone_button>);
 recipes.addShapeless("holystone_button",<aether_legacy:holystone_button>,[<pyrotech_compat:rock_sedimentary_sand:15>]);
 

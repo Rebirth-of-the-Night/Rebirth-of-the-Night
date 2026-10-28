@@ -981,14 +981,6 @@ recipes.addShaped("brewing_stand_hcstructures", <minecraft:brewing_stand>,[
     [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
 ]);
 
-var woodenPodiumMat = <biomesoplenty:planks_0:0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:6>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|<biomesoplenty:planks_0:14>|<biomesoplenty:planks_0:15>|<betternether:stalagnate_planks>|<betternether:reeds_block>|<rustic:planks>|<rustic:planks:1>|<stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>|<twilightforest:tower_wood:*>|<twilightforest:twilight_oak_planks>|<twilightforest:canopy_planks>|<twilightforest:mangrove_planks>|<twilightforest:dark_planks>|<twilightforest:time_planks>|<twilightforest:trans_planks>|<twilightforest:mine_planks>|<twilightforest:sort_planks>|<aether_legacy:skyroot_plank>|<betterwithaddons:planks_sakura>|<betterwithaddons:planks_mulberry>;
-
-recipes.addShaped("wooden_podium",<iceandfire:podium:0>,[
-    [<minecraft:wooden_slab>,woodenPodiumMat,<minecraft:wooden_slab>],
-    [null,woodenPodiumMat,null],
-    [<minecraft:wooden_slab>,woodenPodiumMat,<minecraft:wooden_slab>]
-]);
-
 recipes.removeByRecipeName("dungeontactics:misc/convenience/books_from_shelves");
 recipes.addShapeless("book_from_bookshelf",<minecraft:book>*3,[<ore:bookshelf>]);
 
@@ -1951,12 +1943,3 @@ JEI.removeAndHide(<contenttweaker:clover_4_block>);
 
 recipes.addShapeless("dragon_scale_convert1", <endreborn:dragon_scales>, [<quark:enderdragon_scale>]);
 recipes.addShapeless("dragon_scale_convert2", <quark:enderdragon_scale>, [<endreborn:dragon_scales>]);
-
-// CoT Alt State Hiding
-JEI.removeAndHide(<contenttweaker:raktan_lantern_on>);
-JEI.removeAndHide(<contenttweaker:flipped_cincinnasite_sconce>);
-JEI.removeAndHide(<contenttweaker:flipped_cincinnasite_sconce_arch>);
-JEI.removeAndHide(<contenttweaker:cincinnasite_spire_tall>);
-JEI.removeAndHide(<contenttweaker:flipped_raktan_sconce>);
-JEI.removeAndHide(<contenttweaker:quartz_lamp_on>);
-JEI.removeAndHide(<contenttweaker:greatbrick_red_granite_connected>);

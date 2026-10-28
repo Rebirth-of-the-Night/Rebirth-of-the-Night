@@ -32,12 +32,6 @@ recipes.addShaped("brass_railing",<cathedral:cathedral_railing_various:6>*8,[
     [<contenttweaker:brass_plate>,<contenttweaker:brass_plate>,<contenttweaker:brass_plate>]
 ]);
 
-recipes.addShaped("brass_chain",<cathedral:cathedral_chain_various:1>*12,[
-    [<ore:ingotBrass>],
-    [<ore:ingotBrass>],
-    [<ore:ingotBrass>]
-]);
-
 recipes.addShaped("brass_bars",<chisel:ironpane:7>*16,[
     [<ore:ingotBrass>,<ore:ingotBrass>,<ore:ingotBrass>],
     [<ore:ingotBrass>,<ore:ingotBrass>,<ore:ingotBrass>]

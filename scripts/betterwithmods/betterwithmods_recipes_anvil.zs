@@ -34,6 +34,7 @@ val glue = <ore:glue>;
 val tanned = <ore:hideTanned>;
 val durafiber = <ore:durableFiber>;
 val feralratclaw = <rats:feral_rat_claw>;
+val spring = <betterwithmods:material:49>;
 
 Anvil.removeShaped(<betterwithaddons:wrought_bars>);
 Anvil.removeShaped(<betterwithaddons:steel_masonpick>); // replaced with content tweaker items for removal of building blocks (craftable only at foundry)

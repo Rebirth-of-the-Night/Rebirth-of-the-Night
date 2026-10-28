@@ -384,6 +384,8 @@ registerArch("brick_carved_stone", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <so
 registerArch("brick_angelic_stone", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
 registerArch("brick_hellfire_stone", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
 registerArch("brick_pirani", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_bleakseal", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
+registerArch("brick_raktan", 18, 1.0, "pickaxe", <blockmaterial:Rock>, <soundtype:stone>);
 
 //registerSconce
 

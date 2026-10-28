@@ -56,6 +56,8 @@ archRecipe("brick_carved_stone", <aether_legacy:dungeon_block>);
 archRecipe("brick_angelic_stone", <aether_legacy:dungeon_block:2>);
 archRecipe("brick_hellfire_stone", <aether_legacy:dungeon_block:4>);
 archRecipe("brick_pirani", <da:city_brick>);
+archRecipe("brick_bleakseal", <railcraft:frostbound>);
+archRecipe("brick_raktan", <contenttweaker:brick_raktan>);
 
 val colors = ["", "white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "light_gray", "cyan", "purple", "blue", "brown", "green", "red", "black"] as string[];
 

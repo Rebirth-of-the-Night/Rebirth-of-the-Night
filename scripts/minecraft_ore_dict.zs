@@ -348,6 +348,9 @@ val arrowSfS = <ore:arrowSoulforgedSteel>;
 arrowSfS.remove(<betterwithmods:material:43>);
 arrowSfS.add(<betterwithaddons:material:0>);
 
+val gearBrass = <ore:gearBrass>;
+gearBrass.remove(<railcraft:gear>);
+
 val bamboo = <ore:cropBamboo>;
 bamboo.add(<biomesoplenty:bamboo>);
 
