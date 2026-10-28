@@ -1,0 +1,148 @@
+======================================================================================================================================================================
+========================================================================== WARNING! ==================================================================================
+======================================================================================================================================================================
+
+
+IF YOU HAVEN'T GONE THROUGH THE TUTORIAL OR MESSED WITH THE NORMAL SPECIFICATIONS YET, DO THOSE FIRST!!!
+
+(See TUTORIAL.txt and Specifications.txt)
+
+
+
+
+
+======================================================================================================================================================================
+=================================================================== BASIC PATH DEFINITIONS ===========================================================================
+======================================================================================================================================================================
+
+
+
+Paths are effectively mathematical equations that operate on n-dimensional vectors.
+All paths can have any number of numbers as arguments.  A path with 3 numbers after it is a 3D path, and will return a 3D vector based on time.
+
+
+constant / position / pos
+Returns the given arguments.
+
+
+linear / speed / rate
+For each argument, returns a scaled value.  At 0 seconds, returns 0 for all values.  At 1 second, returns the given arguments.  At 2 seconds, returns the given arguments multiplied by 2.
+
+
+randomConstant / randomPosition / randomPos
+Returns a set of random values between 0 and the given arguments.  Will always return the same values for the same calling particle.
+
+
+
+
+
+======================================================================================================================================================================
+=================================================================== PATH TRANSFORMER LOGIC ===========================================================================
+======================================================================================================================================================================
+
+
+
+Paths can also be combined via transformers.
+A transformer takes the current path and changes the results it will return based on the transformer type and the path given as the transformer argument.
+
+For example, this file:
+constant 0 1 0
+add linear 0 -1 0
+
+Will return the vector (0, 1, 0) at 0 seconds, and (0, 0, 0) at 1 second (smoothly transitioning between them for times in-between).
+
+
+
+Multiple transformers in a row will apply each transformation to the first path defined, in definition order (NOT mathematical order of operations).
+This behavior changes when braces {} are used, but that will be covered further below.
+
+For example, this file:
+constant 1
+mult constant 0
+add linear -1
+
+Looks like this in other formats...
+Programmatical: constant(1).mult(constant(0)).add(linear(-1));
+Mathematical: (1 * 0) + -1s, where s is seconds
+
+And will result in 0 at 0 seconds and -1 at 1 second
+
+
+
+And this file:
+constant 1
+add linear -1
+mult constant 0
+
+Looks like this in other formats...
+Programmatical: constant(1).add(linear(-1)).mult(constant(0));
+Mathematical: (1 + -1s) * 0, where s is seconds
+
+And will result in 0 at all times
+
+
+
+You can also use braces, like so:
+linear 1
+mult linear 1
+{
+    add constant 2
+    mult linear -1
+}
+
+Programmatical: linear(1).mult(linear(1).add(constant(2)).mult(linear(-1)));
+Mathematical: 1s * ((1s + 2) * -1s), where s is seconds
+
+
+
+
+
+======================================================================================================================================================================
+=================================================================== PATH TRANSFORMER TYPES ===========================================================================
+======================================================================================================================================================================
+
+
+
+add
+mult
+lowLimit (limits the result of the transformed path to no lower than the result of the transforming path)
+highLimit (limits the result of the transformed path to no higher than the result of the transforming path)
+
+
+
+
+
+======================================================================================================================================================================
+================================================================ PATH-BASED FACTORY FUNCTIONS ========================================================================
+======================================================================================================================================================================
+
+
+
+These are functions not for path files, but for factory files.
+These are factory functions that allow you to apply paths to different aspects of the particles the factory will create.
+Unless otherwise noted, for functions in this section which can take multiple paths, all paths given will run simultaneously, and their results will be added together before being applied.
+
+
+
+motionPath / motionPaths <pathName> [pathName...]
+Controls motion.
+
+
+rotationPath / rotation <pathName> [pathName...]
+Controls rotation.
+Either all paths should be 1D, or all paths should be 3D.
+If they are 1D, then particles always face the player as normal, and rotation is applied to roll.
+If they are 3D, then rotation is absolute 3D rotation (no relation to player camera).
+If paths applied here do not match existing paths in number of dimensions, existing paths will be removed first.
+
+
+rgbPath / rgbPaths <pathName> [pathName...]
+Controls color.
+
+
+alphaPath / alphaPaths <pathName> [pathName...]
+Controls alpha / transparency.
+
+
+animationPath / animationPaths <pathName> [pathName...]
+Controls animation.

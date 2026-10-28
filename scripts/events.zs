@@ -908,7 +908,7 @@ events.onPlayerRightClickItem(function(event as crafttweaker.event.PlayerRightCl
     }
 });
 
-//Block Placement Definitions
+// Block Placement Definitions
 events.onBlockPlace(function(event as crafttweaker.event.BlockPlaceEvent) {
     var blockToReplace = crafttweaker.util.Position3f.create(event.position.x, event.position.y + 1, event.position.z).asBlockPos();
     if (event.block.definition.id.matches("contenttweaker:fleshweave_barrier_base")){
@@ -922,3 +922,23 @@ events.onBlockPlace(function(event as crafttweaker.event.BlockPlaceEvent) {
 			if (!event.world.getBlock(blockToReplace).definition.id.matches("minecraft:air")){
 				event.cancel();
 }}});
+
+});
+
+// heroic steel sword
+static hammer as IItemStack = <dungeontactics:master_hammer_leap:*>;
+events.onPlayerRightClickItem(function(event as crafttweaker.event.PlayerRightClickItemEvent){
+    if(event.world.isRemote()){
+        return;
+    }
+    
+    val handItem = event.item as IItemStack; 
+    if(!isNull(handItem)){
+        if (hammer.matches(handItem)) {  
+                server.commandManager.executeCommand(event.player, "playsound arcaneworld:general_woosh player @s ~ ~ ~ 1 0.6");
+                server.commandManager.executeCommand(event.player, "playsound mowziesmobs:wroughtnaut.whoosh player @s");
+                server.commandManager.executeCommand(event.player, "particle blockcrack ~ ~ ~ 0.1 0.1 0.1 0.3 100 normal @s 145");
+                server.commandManager.executeCommand(event.player, "effect @s bettercombat:precision 1 9");
+        }
+    }
+});

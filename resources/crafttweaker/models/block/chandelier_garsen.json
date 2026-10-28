@@ -1,0 +1,8 @@
+{
+    "parent": "rustic:block/chandelier",
+    "textures": {
+        "chandelier": "contenttweaker:blocks/chandelier_garsen",
+        "chain": "contenttweaker:blocks/chain_garsen",
+        "particle": "contenttweaker:blocks/chandelier_garsen"
+    }
+}

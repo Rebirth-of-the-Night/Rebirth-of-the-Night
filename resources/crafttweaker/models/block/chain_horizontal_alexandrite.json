@@ -1,0 +1,7 @@
+{
+    "parent": "rustic:block/chain_horizontal",
+    "textures": {
+        "chain": "contenttweaker:blocks/chain_alexandrite",
+        "particle": "contenttweaker:blocks/chain_alexandrite"
+    }
+}

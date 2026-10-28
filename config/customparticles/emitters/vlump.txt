@@ -1,0 +1,3 @@
+template block dark_fruit.* true
+modes bottom
+factory fallingDark

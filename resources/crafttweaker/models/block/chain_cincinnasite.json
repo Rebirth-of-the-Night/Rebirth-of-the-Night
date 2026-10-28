@@ -1,0 +1,7 @@
+{
+    "parent": "rustic:block/chain",
+    "textures": {
+        "chain": "contenttweaker:blocks/chain_cincinnasite",
+        "particle": "contenttweaker:blocks/chaincincinnasite"
+    }
+}

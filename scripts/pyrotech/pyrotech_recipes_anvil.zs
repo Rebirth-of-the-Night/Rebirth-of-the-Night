@@ -127,6 +127,7 @@ GraniteAnvil.addRecipe("blaze_lantern_to_powder", <minecraft:blaze_powder>*3, <q
 GraniteAnvil.addRecipe("dwarven_measures", <minecraft:written_book>.withTag({pages: ["{\"text\":\"And so, the Fellowship lived happily ever after.\\nThe End\"}"], author: "Foreck", title: "Dwarven Measures"}), <extraalchemy:potion_ring>.withTag({Potion: "minecraft:invisibility"}), 1, "hammer", true);
 GraniteAnvil.addRecipe("glass_shards", <quark:glass_shards:0>*4, <minecraft:glass>, 1, "hammer", true);
 GraniteAnvil.addRecipe("rune_to_vis", <contenttweaker:vis_speck>,<ore:runeNoRainbow>, 4, "hammer", true);
+GraniteAnvil.addRecipe("visbead_to_magic_dust", <dungeontactics:magic_powder>,<contenttweaker:vis_bead>, 4, "hammer", true);
 
 // Stained glass shards
 for i in 0 to 16 {

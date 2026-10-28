@@ -1,0 +1,48 @@
+{
+    "multipart": [
+        {
+            "when": {
+                "axis": "x"
+            },
+            "apply": {
+                "model": "crafttweaker:chain_horizontal_gravitite",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "axis": "y"
+            },
+            "apply": {
+                "model": "crafttweaker:chain_gravitite"
+            }
+        },
+        {
+            "when": {
+                "axis": "z"
+            },
+            "apply": {
+                "model": "crafttweaker:chain_horizontal_gravitite"
+            }
+        },
+        {
+            "when": {
+                "axis": "x",
+                "dangle": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:chain_dangle_gravitite",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "axis": "y|z",
+                "dangle": "true"
+            },
+            "apply": {
+                "model": "crafttweaker:chain_dangle_gravitite"
+            }
+        }
+    ]
+}

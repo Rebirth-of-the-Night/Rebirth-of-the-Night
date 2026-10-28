@@ -1,0 +1,8 @@
+{
+    "parent": "rustic:block/chandelier",
+    "textures": {
+        "chandelier": "contenttweaker:blocks/chandelier_brass",
+        "chain": "contenttweaker:blocks/chain_brass",
+        "particle": "contenttweaker:blocks/chandelier_brass"
+    }
+}

@@ -1,0 +1,5 @@
+tooltip.foodspoiling.does_not_rot=Does not decay
+tooltip.foodspoiling.good_for_days=Good for %s more hour(s)
+tooltip.foodspoiling.good_for_less_than_day=Good for less than a hour
+tooltip.foodspoiling.lifetime_factor=Lifetime factor: %s
+tooltip.foodspoiling.stored_in_container=When stored in the opened container:

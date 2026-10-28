@@ -1,0 +1,34 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made by Foreck with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "dungeontactics:items/master_weapons/master_hammer_leap"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, 9.7, 0.5],
+			"scale": [1.7, 1.7, 1.1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [0, 9.7, 0.5],
+			"scale": [1.7, 1.7, 1.1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 30],
+			"translation": [1, 4, 1.25],
+			"scale": [0.95, 0.95, 0.7]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -30],
+			"translation": [1, 4, 1.25],
+			"scale": [0.95, 0.95, 0.7]
+		},
+		"ground": {
+			"translation": [0, 4.25, 0],
+			"scale": [0.9375, 0.9375, 0.9375]
+		}
+	}
+}
