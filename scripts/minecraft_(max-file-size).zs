@@ -1161,7 +1161,6 @@ val stoneBrickBlockMap = {
     <contenttweaker:brick_red_sandstone> : 	[<contenttweaker:brick_quark_red_sandstone>,<contenttweaker:loose_red_sandstone_bricks>],
     <contenttweaker:brick_soul_sandstone> :	[<contenttweaker:brick_quark_soul_sandstone>,<contenttweaker:loose_soulsandstone_bricks>],
     <contenttweaker:brick_holystone> : 		[<contenttweaker:brick_aether_legacy_holystone>,<contenttweaker:loose_holystone_bricks>],
-    <contenttweaker:brick_coade> : 			[<contenttweaker:brick_minecraft_stone>,<contenttweaker:loose_big_coade_bricks>],
     <contenttweaker:brick_red_granite> : 	[<undergroundbiomes:igneous_brick>,<contenttweaker:loose_big_red_granite_bricks>],
     <contenttweaker:brick_black_granite> : 	[<undergroundbiomes:igneous_brick:1>,<contenttweaker:loose_big_black_granite_bricks>],
     <contenttweaker:brick_rhyolite> : 		[<undergroundbiomes:igneous_brick:2>,<contenttweaker:loose_big_rhyolite_bricks>],
@@ -1927,7 +1926,6 @@ JEI.removeAndHide(<quark:biome_brick>);
 JEI.removeAndHide(<quark:biome_brick:1>);
 JEI.removeAndHide(<minecraft:brick_block>);
 JEI.removeAndHide(<quark:sandy_bricks>);
-JEI.removeAndHide(<pyrotech:stone_bricks>);
 JEI.removeAndHide(<minecraft:nether_brick>);
 JEI.removeAndHide(<netherex:fiery_nether_brick>);
 JEI.removeAndHide(<minecraft:end_bricks>);

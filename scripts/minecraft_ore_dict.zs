@@ -280,11 +280,6 @@ val durableFabric = <ore:durableFabric>;
 durableFabric.add(<betterwithmods:material:4>);
 durableFabric.add(<textiles:material:13>);
 
-
-val durableFabric = <ore:durableFabric>;
-durableFabric.add(<betterwithmods:material:4>);
-durableFabric.add(<textiles:material:13>);
-
 val genericMetal = <ore:genericMetal>;
 genericMetal.addAll(<ore:ingotCopper>);
 genericMetal.addAll(<ore:ingotTin>);

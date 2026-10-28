@@ -873,6 +873,441 @@ cincinnasite_chandelier.setToolClass("pickaxe");
 cincinnasite_chandelier.setCreativeTab(<creativetab:rotn_blocks>);
 cincinnasite_chandelier.register();
 
+var cincinnasite_candle_holder = VanillaFactory.createBlock("cincinnasite_candle_holder", <blockmaterial:Iron>);
+cincinnasite_candle_holder.axisAlignedBB = AxisAlignedBB.create(
+     2.0 / 16.0,
+     0.0 / 16.0,
+     2.0 / 16.0,
+	14.0 / 16.0,
+    32.0 / 16.0,
+    14.0 / 16.0
+	);
+cincinnasite_candle_holder.setBlockSoundType(<soundtype:metal>);
+cincinnasite_candle_holder.setFullBlock(false);
+cincinnasite_candle_holder.setLightOpacity(0);
+cincinnasite_candle_holder.setLightValue(1);
+cincinnasite_candle_holder.setBlockLayer("CUTOUT");
+cincinnasite_candle_holder.setPassable(false);
+cincinnasite_candle_holder.setToolClass("pickaxe");
+cincinnasite_candle_holder.setToolLevel(2);
+cincinnasite_candle_holder.setCreativeTab(<creativetab:rotn_blocks>);
+cincinnasite_candle_holder.register();
+
+var patterned_cincinnasite = VanillaFactory.createBlock("patterned_cincinnasite", <blockmaterial:Iron>);
+patterned_cincinnasite.setBlockHardness(8);
+patterned_cincinnasite.setToolClass("pickaxe");
+patterned_cincinnasite.setCreativeTab(<creativetab:rotn_blocks>);
+patterned_cincinnasite.register();
+
+var small_cincinnasite_tile = VanillaFactory.createBlock("small_cincinnasite_tile", <blockmaterial:Iron>);
+small_cincinnasite_tile.setBlockHardness(8);
+small_cincinnasite_tile.setToolClass("pickaxe");
+small_cincinnasite_tile.setCreativeTab(<creativetab:rotn_blocks>);
+small_cincinnasite_tile.register();
+
+var cincinnasite_roof_tile = VanillaFactory.createBlock("cincinnasite_roof_tile", <blockmaterial:Iron>);
+cincinnasite_roof_tile.setBlockHardness(8);
+cincinnasite_roof_tile.setToolClass("pickaxe");
+cincinnasite_roof_tile.setCreativeTab(<creativetab:rotn_blocks>);
+cincinnasite_roof_tile.register();
+
+var cincinnasite_statue = VanillaFactory.createDirectionalBlock("cincinnasite_statue", <blockmaterial:Iron>, "HORIZONTAL", false, true);
+cincinnasite_statue.axisAlignedBB = AxisAlignedBB.create(
+     2.0 / 16.0,
+     0.0 / 16.0,
+     2.0 / 16.0,
+	14.0 / 16.0,
+    32.0 / 16.0,
+    14.0 / 16.0
+	);
+cincinnasite_statue.setFullBlock(false);
+cincinnasite_statue.setLightOpacity(0.5);
+cincinnasite_statue.setLightValue(7);
+cincinnasite_statue.setBlockLayer("CUTOUT");
+cincinnasite_statue.setCreativeTab(<creativetab:decorations>);
+cincinnasite_statue.setBlockSoundType(<soundtype:metal>);
+cincinnasite_statue.setToolLevel(2);
+cincinnasite_statue.setCreativeTab(<creativetab:rotn_blocks>);
+cincinnasite_statue.register();
+
+//Cincinnasite Spire
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//
+
+var cincinnasite_spire = VanillaFactory.createDirectionalBlock("cincinnasite_spire", <blockmaterial:Iron>, "ALL", false, false);
+cincinnasite_spire.placementFacingFunction = IPlacementFacingFunction.side();
+cincinnasite_spire.setBlockHardness(2.0);
+cincinnasite_spire.setBlockResistance(1.0);
+cincinnasite_spire.axisAlignedBB = AxisAlignedBB.create(
+     5.0 / 16.0,
+     5.0 / 16.0,
+     16.0 / 16.0,
+	11.0 / 16.0,
+    11.0 / 16.0,
+    1.0 / 16.0
+	);
+cincinnasite_spire.setToolClass("pickaxe");
+cincinnasite_spire.setFullBlock(false);
+cincinnasite_spire.setLightOpacity(0);
+cincinnasite_spire.setLightValue(0);
+cincinnasite_spire.setBlockSoundType(<soundtype:metal>);
+cincinnasite_spire.setBlockLayer("CUTOUT_MIPPED");
+cincinnasite_spire.setCreativeTab(<creativetab:rotn_blocks>);
+cincinnasite_spire.register();
+
+var cincinnasite_spire_tall = VanillaFactory.createDirectionalBlock("cincinnasite_spire_tall", <blockmaterial:Iron>, "ALL", false, false);
+cincinnasite_spire_tall.placementFacingFunction = IPlacementFacingFunction.side();
+cincinnasite_spire_tall.setBlockHardness(2.0);
+cincinnasite_spire_tall.setBlockResistance(1.0);
+cincinnasite_spire_tall.axisAlignedBB = AxisAlignedBB.create(
+     5.0 / 16.0,
+     5.0 / 16.0,
+     16.0 / 16.0,
+	11.0 / 16.0,
+    11.0 / 16.0,
+    1.0 / 16.0
+	);
+cincinnasite_spire_tall.setToolClass("pickaxe");
+cincinnasite_spire_tall.setFullBlock(false);
+cincinnasite_spire_tall.setLightOpacity(0);
+cincinnasite_spire_tall.setLightValue(0);
+cincinnasite_spire_tall.setBlockSoundType(<soundtype:metal>);
+cincinnasite_spire_tall.setBlockLayer("CUTOUT_MIPPED");
+cincinnasite_spire_tall.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+    drops.add(<item:contenttweaker:cincinnasite_spire>);
+    drops.add(<item:contenttweaker:cincinnasite_spire>);
+    return;
+});
+cincinnasite_spire_tall.register();
+
+//Quartz Lamp
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//
+var quartz_lamp = VanillaFactory.createDirectionalBlock("quartz_lamp", <blockmaterial:Iron>, "ALL", false, false);
+quartz_lamp.placementFacingFunction = IPlacementFacingFunction.side();
+quartz_lamp.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     4.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+    12.0 / 16.0,
+    12.0 / 16.0
+	);
+quartz_lamp.setFullBlock(false);
+quartz_lamp.setLightOpacity(0.0);
+quartz_lamp.setBlockLayer("TRANSLUCENT");
+quartz_lamp.setCreativeTab(<creativetab:rotn_blocks>);
+quartz_lamp.setBlockSoundType(<soundtype:metal>);
+quartz_lamp.setToolLevel(2);
+quartz_lamp.register();
+
+var quartz_lamp_on = VanillaFactory.createDirectionalBlock("quartz_lamp_on", <blockmaterial:Iron>, "ALL", false, false);
+quartz_lamp_on.placementFacingFunction = IPlacementFacingFunction.side();
+quartz_lamp_on.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     4.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+    12.0 / 16.0,
+    12.0 / 16.0
+	);
+quartz_lamp_on.setFullBlock(false);
+quartz_lamp_on.setLightOpacity(0.0);
+quartz_lamp_on.setLightValue(1.0);
+quartz_lamp_on.setBlockLayer("TRANSLUCENT");
+quartz_lamp_on.setBlockSoundType(<soundtype:metal>);
+quartz_lamp_on.setToolLevel(2);
+quartz_lamp_on.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+    drops.add(<item:contenttweaker:quartz_lamp>);
+    return;
+});
+quartz_lamp_on.register();
+
+//Raktan
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//
+
+var polished_raktan = VanillaFactory.createBlock("polished_raktan", <blockmaterial:Rock>);
+polished_raktan.setBlockHardness(8);
+polished_raktan.setToolClass("pickaxe");
+polished_raktan.setCreativeTab(<creativetab:rotn_blocks>);
+polished_raktan.register();
+
+var smooth_raktan = VanillaFactory.createBlock("smooth_raktan", <blockmaterial:Rock>);
+smooth_raktan.setBlockHardness(8);
+smooth_raktan.setToolClass("pickaxe");
+smooth_raktan.setCreativeTab(<creativetab:rotn_blocks>);
+smooth_raktan.register();
+
+var brick_raktan = VanillaFactory.createBlock("brick_raktan", <blockmaterial:Rock>);
+brick_raktan.setToolLevel(1);
+brick_raktan.setBlockHardness(45);
+brick_raktan.setBlockResistance(33.0);
+brick_raktan.setToolClass("pickaxe");
+brick_raktan.setCreativeTab(<creativetab:rotn_blocks>);
+brick_raktan.register();
+
+//Raktan Lantern
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//
+var raktan_lantern = VanillaFactory.createBlock("raktan_lantern", <blockmaterial:Rock>);
+raktan_lantern.setBlockHardness(8);
+raktan_lantern.setToolClass("pickaxe");
+raktan_lantern.setCreativeTab(<creativetab:rotn_blocks>);
+raktan_lantern.register();
+
+var raktan_lantern_on = VanillaFactory.createBlock("raktan_lantern_on", <blockmaterial:Rock>);
+raktan_lantern_on.setBlockHardness(8);
+raktan_lantern_on.setLightValue(1.0);
+raktan_lantern_on.setToolClass("pickaxe");
+raktan_lantern_on.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+    drops.add(<item:contenttweaker:raktan_lantern>);
+    return;
+});
+raktan_lantern_on.register();
+
+//Fleshweave
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//
+
+var fleshweave = VanillaFactory.createBlock("fleshweave", <blockmaterial:Cloth>);
+fleshweave.setBlockHardness(8);
+fleshweave.setCreativeTab(<creativetab:rotn_blocks>);
+fleshweave.setBlockSoundType(<soundtype:cloth>);
+fleshweave.register();
+
+var fleshweave_carpet = VanillaFactory.createBlock("fleshweave_carpet", <blockmaterial:Cloth>);
+fleshweave_carpet.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+    1.0 / 16.0,
+    16.0 / 16.0
+	);
+fleshweave_carpet.setBlockHardness(8);
+fleshweave_carpet.setFullBlock(false);
+fleshweave_carpet.setLightOpacity(0);
+fleshweave_carpet.setCreativeTab(<creativetab:rotn_blocks>);
+fleshweave_carpet.setBlockSoundType(<soundtype:cloth>);
+fleshweave_carpet.register();
+
+var gilded_fleshweave = VanillaFactory.createBlock("gilded_fleshweave", <blockmaterial:Cloth>);
+gilded_fleshweave.setBlockHardness(8);
+gilded_fleshweave.setCreativeTab(<creativetab:rotn_blocks>);
+gilded_fleshweave.setBlockSoundType(<soundtype:cloth>);
+gilded_fleshweave.register();
+
+var gilded_fleshweave_carpet = VanillaFactory.createBlock("gilded_fleshweave_carpet", <blockmaterial:Cloth>);
+gilded_fleshweave_carpet.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+    1.0 / 16.0,
+    16.0 / 16.0
+	);
+gilded_fleshweave_carpet.setBlockHardness(8);
+gilded_fleshweave_carpet.setFullBlock(false);
+gilded_fleshweave_carpet.setLightOpacity(0);
+gilded_fleshweave_carpet.setCreativeTab(<creativetab:rotn_blocks>);
+gilded_fleshweave_carpet.setBlockSoundType(<soundtype:cloth>);
+gilded_fleshweave_carpet.register();
+
+var ornate_fleshweave = VanillaFactory.createBlock("ornate_fleshweave", <blockmaterial:Cloth>);
+ornate_fleshweave.setBlockHardness(8);
+ornate_fleshweave.setCreativeTab(<creativetab:rotn_blocks>);
+ornate_fleshweave.setBlockSoundType(<soundtype:cloth>);
+ornate_fleshweave.register();
+
+var ornate_fleshweave_carpet = VanillaFactory.createBlock("ornate_fleshweave_carpet", <blockmaterial:Cloth>);
+ornate_fleshweave_carpet.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+    1.0 / 16.0,
+    16.0 / 16.0
+	);
+ornate_fleshweave_carpet.setBlockHardness(8);
+ornate_fleshweave_carpet.setFullBlock(false);
+ornate_fleshweave_carpet.setLightOpacity(0);
+ornate_fleshweave_carpet.setCreativeTab(<creativetab:rotn_blocks>);
+ornate_fleshweave_carpet.setBlockSoundType(<soundtype:cloth>);
+ornate_fleshweave_carpet.register();
+
+var fleshweave_barrier_base = VanillaFactory.createBlock("fleshweave_barrier_base", <blockmaterial:Iron>);
+fleshweave_barrier_base.axisAlignedBB = AxisAlignedBB.create(
+     5.0 / 16.0,
+     0.0 / 16.0,
+     5.0 / 16.0,
+	11.0 / 16.0,
+    16.0 / 16.0,
+    11.0 / 16.0
+	);
+fleshweave_barrier_base.setBlockHardness(3);
+fleshweave_barrier_base.setBlockSoundType(<soundtype:metal>);
+fleshweave_barrier_base.setFullBlock(false);
+fleshweave_barrier_base.setLightOpacity(0.5);
+fleshweave_barrier_base.setToolClass("pickaxe");
+fleshweave_barrier_base.setCreativeTab(<creativetab:rotn_blocks>);
+fleshweave_barrier_base.onBlockPlace = function(world, blockPos, blockState) {
+    if(world.getBlockState(blockPos.getOffset('up', 1)) == <block:minecraft:air>)
+	{
+	    world.setBlockState(<block:contenttweaker:fleshweave_barrier_top>, blockPos.getOffset('up', 1));
+	}
+};
+fleshweave_barrier_base.onBlockBreak = function(world, blockPos, blockState) {
+    if(world.getBlockState(blockPos.getOffset('up', 1)) == <block:contenttweaker:fleshweave_barrier_top>)
+	{
+	    world.setBlockState(<block:minecraft:air>, blockPos.getOffset('up', 1));
+	}
+};
+fleshweave_barrier_base.register();
+
+var fleshweave_barrier_top = VanillaFactory.createBlock("fleshweave_barrier_top", <blockmaterial:Iron>);
+fleshweave_barrier_top.axisAlignedBB = AxisAlignedBB.create(
+     5.0 / 16.0,
+     0.0 / 16.0,
+     5.0 / 16.0,
+	11.0 / 16.0,
+    7.0 / 16.0,
+    11.0 / 16.0
+	);
+fleshweave_barrier_top.setBlockHardness(3);
+fleshweave_barrier_top.setBlockSoundType(<soundtype:metal>);
+fleshweave_barrier_top.setFullBlock(false);
+fleshweave_barrier_top.setLightOpacity(0.5);
+fleshweave_barrier_top.setBlockLayer("CUTOUT_MIPPED");
+fleshweave_barrier_top.setToolClass("pickaxe");
+fleshweave_barrier_top.onBlockPlace = function(world, blockPos, blockState) {
+    if(world.getBlockState(blockPos.getOffset('down', 1)) == <block:minecraft:air>)
+	{
+	    world.setBlockState(<block:contenttweaker:fleshweave_barrier_base>, blockPos.getOffset('down', 1));
+	}
+};
+fleshweave_barrier_top.onBlockBreak = function(world, blockPos, blockState) {
+    if(world.getBlockState(blockPos.getOffset('down', 1)) == <block:contenttweaker:fleshweave_barrier_base>)
+	{
+	    world.destroyBlock(blockPos.getOffset('down', 1), true);
+	}
+};
+fleshweave_barrier_top.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+    return;
+});
+fleshweave_barrier_top.register();
+
+var fleshweave_barrier_ribbon = VanillaFactory.createDirectionalBlock("fleshweave_barrier_ribbon", <blockmaterial:Cloth>, "HORIZONTAL", false, true);
+fleshweave_barrier_ribbon.axisAlignedBB = AxisAlignedBB.create(
+     7.0 / 16.0,
+     -3.0 / 16.0,
+     -8.0 / 16.0,
+	8.0 / 16.0,
+    6.0 / 16.0,
+    24.0 / 16.0
+	);
+fleshweave_barrier_ribbon.setBlockHardness(0.3);
+fleshweave_barrier_ribbon.setBlockSoundType(<soundtype:cloth>);
+fleshweave_barrier_ribbon.setFullBlock(false);
+fleshweave_barrier_ribbon.setLightOpacity(0.5);
+fleshweave_barrier_ribbon.setBlockLayer("CUTOUT_MIPPED");
+fleshweave_barrier_ribbon.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+    return;
+});
+fleshweave_barrier_ribbon.register();
+
+var steel_barrier_base = VanillaFactory.createBlock("steel_barrier_base", <blockmaterial:Iron>);
+steel_barrier_base.axisAlignedBB = AxisAlignedBB.create(
+     5.0 / 16.0,
+     0.0 / 16.0,
+     5.0 / 16.0,
+	11.0 / 16.0,
+    16.0 / 16.0,
+    11.0 / 16.0
+	);
+steel_barrier_base.setBlockHardness(3);
+steel_barrier_base.setBlockSoundType(<soundtype:metal>);
+steel_barrier_base.setFullBlock(false);
+steel_barrier_base.setLightOpacity(0.5);
+steel_barrier_base.setToolClass("pickaxe");
+steel_barrier_base.setCreativeTab(<creativetab:rotn_blocks>);
+steel_barrier_base.onBlockPlace = function(world, blockPos, blockState) {
+    if(world.getBlockState(blockPos.getOffset('up', 1)) == <block:minecraft:air>)
+	{
+	    world.setBlockState(<block:contenttweaker:steel_barrier_top>, blockPos.getOffset('up', 1));
+	}
+};
+steel_barrier_base.onBlockBreak = function(world, blockPos, blockState) {
+    if(world.getBlockState(blockPos.getOffset('up', 1)) == <block:contenttweaker:steel_barrier_top>)
+	{
+	    world.setBlockState(<block:minecraft:air>, blockPos.getOffset('up', 1));
+	}
+};
+steel_barrier_base.register();
+
+var steel_barrier_top = VanillaFactory.createBlock("steel_barrier_top", <blockmaterial:Iron>);
+steel_barrier_top.axisAlignedBB = AxisAlignedBB.create(
+     5.0 / 16.0,
+     0.0 / 16.0,
+     5.0 / 16.0,
+	11.0 / 16.0,
+    7.0 / 16.0,
+    11.0 / 16.0
+	);
+steel_barrier_top.setBlockHardness(3);
+steel_barrier_top.setBlockSoundType(<soundtype:metal>);
+steel_barrier_top.setFullBlock(false);
+steel_barrier_top.setLightOpacity(0.5);
+steel_barrier_top.setBlockLayer("CUTOUT_MIPPED");
+steel_barrier_top.setToolClass("pickaxe");
+steel_barrier_top.onBlockPlace = function(world, blockPos, blockState) {
+    if(world.getBlockState(blockPos.getOffset('down', 1)) == <block:minecraft:air>)
+	{
+	    world.setBlockState(<block:contenttweaker:steel_barrier_base>, blockPos.getOffset('down', 1));
+	}
+};
+steel_barrier_top.onBlockBreak = function(world, blockPos, blockState) {
+    if(world.getBlockState(blockPos.getOffset('down', 1)) == <block:contenttweaker:steel_barrier_base>)
+	{
+	    world.destroyBlock(blockPos.getOffset('down', 1), true);
+	}
+};
+steel_barrier_top.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+    drops.add(<item:contenttweaker:steel_barrier_base>);
+    return;
+});
+steel_barrier_top.register();
+
+var steel_barrier_ribbon = VanillaFactory.createDirectionalBlock("steel_barrier_ribbon", <blockmaterial:Cloth>, "HORIZONTAL", false, true);
+steel_barrier_ribbon.axisAlignedBB = AxisAlignedBB.create(
+     7.0 / 16.0,
+     -3.0 / 16.0,
+     -8.0 / 16.0,
+	8.0 / 16.0,
+    6.0 / 16.0,
+    24.0 / 16.0
+	);
+steel_barrier_ribbon.setBlockHardness(0.3);
+steel_barrier_ribbon.setBlockSoundType(<soundtype:cloth>);
+steel_barrier_ribbon.setFullBlock(false);
+steel_barrier_ribbon.setLightOpacity(0.5);
+steel_barrier_ribbon.setBlockLayer("CUTOUT_MIPPED");
+steel_barrier_ribbon.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+    return;
+});
+steel_barrier_ribbon.register();
+
+//
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//
+
 // Raw Ores
 // raw_tin
 var raw_tin = VanillaFactory.createBlock("raw_tin_block", <blockmaterial:Iron>);
