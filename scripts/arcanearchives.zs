@@ -38,14 +38,20 @@ recipes.addShaped("radiant_resonator", <arcanearchives:radiant_resonator>,[
 ]);
 
 //Gemcutters Table
-val fine_lens = <artisanworktables:artisans_lens_brass>;
+val magicgoldPaneOredict = <ore:otherworldlyGoldPane>;	
+magicgoldPaneOredict.addItems([<betternether:quartz_glass_framed_pane>,<aether_legacy:quicksoil_glass_pane>]);	
 
 recipes.remove(<arcanearchives:gemcutters_table>);
-recipes.addShaped("gemcutters_table", <arcanearchives:gemcutters_table>,[
-	[fine_lens,fine_lens,fine_lens],
-	[<ore:ingotElectrum>, <betternether:chest_of_drawers>, <ore:ingotElectrum>],
-	[<aether_legacy:holystone>,<ore:arcaneWood>,<wards:enchanted_paper>]
-]);
+for item1 in magicgoldPaneOredict.items{
+   for item2 in <ore:arcaneWood>.items{
+   mods.betterwithmods.Anvil.addShaped(<arcanearchives:gemcutters_table>, 
+   [
+      [<aether_legacy:holystone>, <ore:ingotElectrum>, <ore:ingotElectrum>, item2],
+      [item1, item2, <betternether:chest_of_drawers>, item2],
+      [item1, item2, <betternether:chest_of_drawers>, item2],
+      [<wards:enchanted_paper>, <ore:ingotElectrum>, <ore:ingotElectrum>, item2]
+   ]);
+}}
 
 recipes.remove(<arcanearchives:scepter_revelation>);
 mods.betterwithmods.Anvil.addShaped(<arcanearchives:scepter_revelation>, 
@@ -57,7 +63,7 @@ mods.betterwithmods.Anvil.addShaped(<arcanearchives:scepter_revelation>,
 ]);   
 
 recipes.remove(<arcanearchives:lectern_manifest>);
-recipes.addShaped("lectern_manifest", <arcanearchives:lectern_manifest>,[
+recipes.addShaped("Lectern Manifest", <arcanearchives:lectern_manifest>,[
 	[<ore:ingotElectrum>, <arcanearchives:manifest>, <ore:ingotElectrum>],
 	[<ore:stickWood>, <ore:arcaneWood>, <ore:stickWood>],
 	[<ore:stickWood>, <ore:ingotElectrum>, <ore:stickWood>]
@@ -118,7 +124,7 @@ GCT.addRecipe("overgrown_emerald", <contenttweaker:overgrown_emerald>, [<minecra
 
 GCT.addRecipe("waterlogged_sapphire", <contenttweaker:waterlogged_sapphire>, [<biomesoplenty:gem:6>, <minecraft:snowball>*8, <contenttweaker:water_quintessence>*4, <minecraft:ice>*6]);
 
-GCT.addRecipe("abyssal_sapphire", <contenttweaker:abyssal_sapphire>, [<biomesoplenty:gem:6>, <da:dark_mana>, <nyx:lunar_water_bottle>]);
+GCT.addRecipe("abyssal_sapphire", <contenttweaker:abyssal_sapphire>, [<biomesoplenty:gem:6>, <betterwithaddons:wheatmat>*8, <betterslimes:black_slime>*6, <nyx:lunar_water_bottle>]);
 
 GCT.addRecipe("lucky_peridot", <contenttweaker:lucky_peridot>, [<biomesoplenty:gem:2>, <contenttweaker:4leaf_clover>*4, <minecraft:dye:4>*8, <minecraft:rabbit_foot>*6]);
 

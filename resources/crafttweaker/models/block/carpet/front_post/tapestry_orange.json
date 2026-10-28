@@ -1,6 +1,0 @@
-{
-    "parent": "inspirations:block/carpet/front_post/base",
-    "textures": {
-        "wool": "contenttweaker:blocks/tapestry/tapestry_orange"
-    }
-}

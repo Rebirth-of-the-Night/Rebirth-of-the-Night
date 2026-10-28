@@ -1,7 +1,0 @@
-{
-    "parent": "rustic:block/chain_horizontal",
-    "textures": {
-        "chain": "contenttweaker:blocks/chain_zanite",
-        "particle": "contenttweaker:blocks/chain_zanite"
-    }
-}

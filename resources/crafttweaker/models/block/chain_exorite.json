@@ -1,7 +1,0 @@
-{
-    "parent": "rustic:block/chain",
-    "textures": {
-        "chain": "contenttweaker:blocks/chain_exorite",
-        "particle": "contenttweaker:blocks/chainexorite"
-    }
-}

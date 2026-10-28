@@ -1,6 +1,0 @@
-{
-    "parent": "rustic:block/chain_dangle",
-    "textures": {
-        "chain": "contenttweaker:blocks/chain_alexandrite"
-    }
-}

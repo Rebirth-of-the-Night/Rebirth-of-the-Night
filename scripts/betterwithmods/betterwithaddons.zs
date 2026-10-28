@@ -18,6 +18,7 @@ import scripts.shared.utils.recipeUtils.removeRecipeArrayRegex;
 val bwaArray = [
     <betterwithaddons:pcb_block>,
     <betterwithaddons:chandelier>,
+    <betterwithaddons:material:4>,
     <betterwithaddons:material:5>,
     <betterwithaddons:laxative>,
     <betterwithaddons:brick_stained>,
@@ -155,7 +156,6 @@ furnace.remove(<betterwithaddons:food_cooked_rice>);
 LootTable.removeGlobalItem("betterwithaddons:food_mulberry");
 
 recipes.remove(<betterwithaddons:material:3>);
-recipes.remove(<betterwithaddons:material:4>);
 recipes.remove(<betterwithaddons:thorn_rose:0>);
 JEI.removeAndHide(<betterwithaddons:steel_masonpick>);
 
@@ -317,9 +317,6 @@ Infuser.addShapeless(<cyclicmagic:wand_hypno>,
 [<cyclicmagic:wand_hypno>.anyDamage(),<contenttweaker:vis_sliver>], 64);
 
 Infuser.addShapeless(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, ench: [{lvl: 5 as short, id: 25 as short}], RepairCost: 1, Quality: {}, display: {Name: "§4Unlabored §o§6Flawlessness"}, "Quark:RuneAttached": 1 as byte}),[<spartanweaponry:katana_wood>, <simpleores:onyx_rod>], 27);
-
-Infuser.addShapeless(<da:gaelon_shard>,
-[<contenttweaker:glass_bead>], 1);
 
 Infuser.removeAllTransmutation();
 Infuser.addTransmutation(<contenttweaker:ofuda>,<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 170}]}), 44); //if this breaks, the enchantment is cursebreak from Charm + RLmixns

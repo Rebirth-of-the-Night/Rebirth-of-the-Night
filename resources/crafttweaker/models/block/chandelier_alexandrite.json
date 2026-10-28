@@ -1,8 +1,0 @@
-{
-    "parent": "rustic:block/chandelier",
-    "textures": {
-        "chandelier": "contenttweaker:blocks/chandelier_alexandrite",
-        "chain": "contenttweaker:blocks/chain_alexandrite",
-        "particle": "contenttweaker:blocks/chandelier_alexandrite"
-    }
-}
