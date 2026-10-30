@@ -271,7 +271,7 @@
   
 // goblin brood common spawn
   {
-	"dimension" : [0],
+	"dimension" : [0,7,10],
 	"mob": "totf:goblin",
 	"seesky": false,
 	"maxlight": 7,
@@ -281,14 +281,14 @@
 	"result": "allow"
   },
   {
-	"dimension" : [0],
+	"dimension" : [0,7,10],
 	"mob": "totf:goblin",
 	"result": "deny"
   },
   
 // goblin wayfarer common spawn
   {
-	"dimension" : [0],
+	"dimension" : [0,7,10],
 	"mob": "totf:goblin_wayfarer",
 	"seesky": false,
 	"maxlight": 5,
@@ -298,14 +298,14 @@
 	"result": "allow"
   },
   {
-	"dimension" : [0],
+	"dimension" : [0,7,10],
 	"mob": "totf:goblin_wayfarer",
 	"result": "deny"
   },
   
 // goblin shaman common spawn
   {
-	"dimension" : [0],
+	"dimension" : [0,7,10],
 	"mob": "totf:goblin_shaman",
 	"seesky": false,
 	"maxlight": 0,
@@ -315,7 +315,7 @@
 	"result": "allow"
   },
   {
-	"dimension" : [0],
+	"dimension" : [0,7,10],
 	"mob": "totf:goblin_shaman",
 	"result": "deny"
   },
