@@ -42,7 +42,7 @@
     },
     {
       "blocks": [
-		"artisanworktables:workstation[variant=mage]"
+		"artisanworktables:workstation[active=true,variant=mage]:*"
       ],
       "chance": 15,
       "sounds": [
