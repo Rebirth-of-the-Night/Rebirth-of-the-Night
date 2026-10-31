@@ -1,0 +1,29 @@
+{
+	"footsteps": {
+		"iceandfire:chared_gravel": "gravel,sand",
+		"iceandfire:myrmex_resin_sticky": "dirt,mud",
+		"iceandfire:myrmex_desert_resin_block": "sandstone",
+		"iceandfire:myrmex_jungle_resin_block": "stone,dirt",
+		"iceandfire:dreadwood_log": "log",
+		"iceandfire:dread_stone_bricks": "brickstone",
+		"iceandfire:dread_stone_bricks_chiseled": "brickstone",
+		"iceandfire:dread_stone_bricks_cracked": "brickstone",
+		"iceandfire:dread_stone_bricks_mossy": "brickstone",
+		"iceandfire:dread_stone_tile": "brickstone",
+		"iceandfire:dread_stone_face": "brickstone",
+		"iceandfire:dread_stone_stairs": "brickstone",
+		"iceandfire:dread_stone_slab": "brickstone",
+		"iceandfire:dread_stone_slab_double": "brickstone",
+		"iceandfire:dreadwood_planks_lock": "wood",
+		"iceandfire:dread_spawner": "metalbar",
+		"iceandfire:venerable_stump": "log",
+		"iceandfire:myrmex_jungle_biolight[down=true]": "mud,straw",
+		"iceandfire:myrmex_desert_biolight[down=true]": "mud,straw",
+		"iceandfire:myrmex_jungle_biolight[down=false]": "mud,straw",
+		"iceandfire:myrmex_desert_biolight[down=false]": "mud,straw",
+		"iceandfire:dragonsteel_fire_block": "futuremc:netherite_block_step",
+		"iceandfire:dragonsteel_ice_block": "futuremc:netherite_block_step",
+		"iceandfire:dragon_bone_wall+bigger": "asmc:block.bone_block.step",
+		"iceandfire:dragon_bone_block": "asmc:block.bone_block.step"
+	}
+}

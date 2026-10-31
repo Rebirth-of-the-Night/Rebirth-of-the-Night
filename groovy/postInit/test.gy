@@ -1,0 +1,40 @@
+import net.minecraft.block.Block;
+import net.minecraft.init.SoundEvents;
+import net.minecraft.util.SoundEvent;
+
+//1st sound breaking, 2nd sound step, 3rd sound placing, 4th sound mining, 5th sound 
+
+SoundType CHUMBO = new SoundType(1.0F, 1.0F, sound('shotgunsandglitter:fire'), sound('asmc:block.basalt.place'), sound('betterwithmods:entity.player.oof'), sound('asmc:block.netherrack.place'), sound('asmc:block.bone_block.place'));
+block('minecraft:stone').setSoundType(CHUMBO);
+
+SoundType NETHERRACK = new SoundType(1.0F, 1.0F, sound('asmc:block.netherrack.break'), sound('asmc:block.netherrack.step'), sound('asmc:block.netherrack.place'), sound('asmc:block.netherrack.hit'), sound('asmc:block.netherrack.fall'));
+block('quark:netherrack_speleothem').setSoundType(NETHERRACK);
+block('betternether:netherrack_moss').setSoundType(NETHERRACK);
+block('betternether:nether_mycelium').setSoundType(NETHERRACK);
+block('betternether:netherrack_furnace').setSoundType(NETHERRACK);
+block('netherex:fiery_netherrack').setSoundType(NETHERRACK);
+block('netherex:netherrack_path').setSoundType(NETHERRACK);
+block('netherex:fiery_netherrack_path').setSoundType(NETHERRACK);
+block('pyrotech_compat:rock_netherrack').setSoundType(NETHERRACK);
+
+SoundType BONE = new SoundType(1.0F, 1.0F, sound('asmc:block.bone_block.break'), sound('asmc:block.bone_block.step'), sound('asmc:block.bone_block.place'), sound('asmc:block.bone_block.hit'), sound('asmc:block.bone_block.fall'));
+block('betternether:bone_stairs').setSoundType(BONE);
+block('betternether:bone_slab_half').setSoundType(BONE);
+block('betternether:bone_button').setSoundType(BONE);
+block('betternether:bone_plate').setSoundType(BONE);
+block('betternether:bone_wall').setSoundType(BONE);
+block('betternether:bone_cincinnasite_door').setSoundType(BONE);
+block('betternether:bone_reed_door').setSoundType(BONE);
+block('contenttweaker:bone_post').setSoundType(BONE);
+block('contenttweaker:bone_cross').setSoundType(BONE);
+block('contenttweaker:bone_brace').setSoundType(BONE);
+block('contenttweaker:bone_1').setSoundType(BONE);
+block('contenttweaker:bone_2').setSoundType(BONE);
+block('contenttweaker:bone_3').setSoundType(BONE);
+block('contenttweaker:bone_4').setSoundType(BONE);
+block('contenttweaker:wither_bone_1').setSoundType(BONE);
+block('contenttweaker:wither_bone_2').setSoundType(BONE);
+block('contenttweaker:wither_bone_3').setSoundType(BONE);
+block('contenttweaker:wither_bone_4').setSoundType(BONE);
+block('iceandfire:dragon_bone_block').setSoundType(BONE);
+block('iceandfire:dragon_bone_wall').setSoundType(BONE);
