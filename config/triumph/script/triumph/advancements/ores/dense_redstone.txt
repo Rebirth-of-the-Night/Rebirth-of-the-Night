@@ -1,6 +1,6 @@
 setIcon("<pyrotech:material:36>")
 setTitle("Powered by...")
-setDescription("Mine dense redstone, a mysteriously compact energy source...")
+setDescription("Mine dense redstone, a mysteriously compact energy source that outcrops near common redstone")
 
 addParent("triumph:advancements/ores/redstone")
 

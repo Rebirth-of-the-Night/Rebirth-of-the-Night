@@ -1,6 +1,6 @@
 setIcon(<contenttweaker:material_part:12>)
 setTitle("Pale Gold")
-setDescription("Obtain electrum, used as a supplement for arcane crafting or as a refined capacitor fuel")
+setDescription("Obtain electrum, used as a supplement for arcane crafting or as prime Aetherial Capacitor fuel for repairing equipment")
 
 addParent("triumph:advancements/ores/gold")
 addParent("triumph:advancements/ores/silver")

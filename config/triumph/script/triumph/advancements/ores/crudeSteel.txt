@@ -1,6 +1,6 @@
 setIcon("dungeontactics:steel_ingot")
 setTitle("Refined!")
-setDescription("Obtain crude steel, the industrialized iron; basis for gem alloys")
+setDescription("Obtain crude steel, the basis for gem alloys, industry, and more obscure uses")
 
 
 addParent("triumph:advancements/ores/iron")

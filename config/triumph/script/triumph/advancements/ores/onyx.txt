@@ -1,6 +1,6 @@
 setIcon("simpleores:onyx_gem")
 setTitle("Unimaginable Strength")
-setDescription("Mine onyx, associated historically as the hardest element, from the hottest depths of the Nether")
+setDescription("Mine onyx, once understood by humans and pratikeval as the hardest element. It is found inside sulfur pockets near the top of the Nether or embedded in geodes deep within its burning oceans")
 
 addParent("triumph:advancements/ores/exorite")
 
