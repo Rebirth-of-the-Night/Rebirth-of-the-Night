@@ -1,6 +1,6 @@
 setIcon("minecraft:gold_ingot")
 setTitle("The Golden Age")
-setDescription("Mine gold, unfavorably seen in this world, but useful for components. Alloyed with silver and ambrosium to make aetherial electrum")
+setDescription("Mine gold, seen unfavorably in this world, but useful for components. Alloyed with silver and ambrosium to make aetherial electrum")
 
 addParent("triumph:advancements/ores/bronze")
 
