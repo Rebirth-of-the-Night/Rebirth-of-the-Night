@@ -1,6 +1,6 @@
 setIcon("iceandfire:dragonsteel_ice_ingot")
 setTitle("Inside The Winter Storm")
-setDescription("Obtain ice dragonsteel")
+setDescription("Obtain ice dragonsteel, infused with the blood of an ice dragon")
 
 addParent("triumph:advancements/ores/crudeSteel")
 

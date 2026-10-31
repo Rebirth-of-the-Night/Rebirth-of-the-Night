@@ -66,6 +66,9 @@ item.cookie.name=Chocolate Chip Cookie
 item.brick.name=Clay Brick
 item.clay.name=Clay Ball
 
+item.redstone.name=Redstone Dust
+tile.redstoneDust.name=Redstone Dust
+
 item.swordIron.name=Iron Arming Sword
 item.swordStone.name=Stone Arming Sword
 item.swordGold.name=Gold Arming Sword

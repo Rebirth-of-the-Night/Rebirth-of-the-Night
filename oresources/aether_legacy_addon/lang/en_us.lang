@@ -19,9 +19,9 @@ tile.aetherion_chest.name=Aetherion Chest
 item.skyroot_sign.name=Skyroot Sign
 item.skyroot_door.name=Skyroot Door
 item.zanite_door.name=Zanite Door
-item.cockatrice.name=Kelenk Meat
+item.cockatrice.name=Raw Kelenk Meat
 item.burnt_cockatrice.name=Burnt Kelenk Meat
-item.enchanted_cockatrice.name=Enchanted Kelenk Meat
+item.enchanted_cockatrice.name=Raw Enchanted Kelenk Meat
 item.cooked_enchanted_cockatrice.name=Cooked Enchanted Kelenk Meat
 item.aetherium_core.name=Aetherium Core
 

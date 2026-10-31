@@ -18,5 +18,5 @@
     "squishStyle": "bounce",
     
     "material": "cloth",
-    "squishSound": "minecraft:entity.bat.ambient"
+    "squishSound": "minecraft:entity.wolf.pant"
 }

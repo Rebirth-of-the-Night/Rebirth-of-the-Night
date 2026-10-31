@@ -1,6 +1,6 @@
 setIcon("iceandfire:dragonsteel_fire_ingot")
 setTitle("Through The Fire And Flames")
-setDescription("Obtain fire dragonsteel")
+setDescription("Obtain fire dragonsteel, infused with the blood of a fire dragon")
 
 addParent("triumph:advancements/ores/crudeSteel")
 

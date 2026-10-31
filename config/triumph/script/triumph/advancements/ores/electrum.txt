@@ -1,6 +1,6 @@
 setIcon(<contenttweaker:material_part:12>)
 setTitle("Pale Gold")
-setDescription("Obtain electrum, which can make the best material for repairing equipment at an Aetherial Capacitor!")
+setDescription("Obtain electrum, used as a supplement for arcane crafting or as a refined capacitor fuel")
 
 addParent("triumph:advancements/ores/gold")
 addParent("triumph:advancements/ores/silver")

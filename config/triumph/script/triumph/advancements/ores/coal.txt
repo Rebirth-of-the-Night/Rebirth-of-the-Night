@@ -1,6 +1,6 @@
 setIcon(<minecraft:coal>)
 setTitle("Being Naughty")
-setDescription("Mine coal ore, an excellent (not yet explosive) fuel")
+setDescription("Mine coal, an excellent fuel")
 
 addParent("triumph:advancements/ores/root")
 
