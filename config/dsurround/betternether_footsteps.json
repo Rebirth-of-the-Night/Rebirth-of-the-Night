@@ -34,7 +34,7 @@
 		"betternether:agave": "futuremc:nether_sprouts_step",
 		"betternether:magma_flower": "futuremc:nether_sprouts_step",
 		"betternether:ink_bush": "futuremc:nether_sprouts_step",
-		"betternether:netherrack_furnace": "brickstone",
+		"betternether:netherrack_furnace": "asmc:block.netherrack.step",
 		"betternether:orange_mushroom": "asmc:block.wart_block.break",
 		"betternether:brown_large_mushroom": "asmc:block.wart_block.break",
 		"betternether:red_large_mushroom": "asmc:block.wart_block.break",
