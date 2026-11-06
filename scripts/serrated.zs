@@ -123,14 +123,20 @@ zenClass MaterialBuilder {
     return this;
   }
 
+  function withStoneProducts(slabItem as IItemStack, slabBlock as IBlockState, slabTime as int,
+                             stairsItem as IItemStack, stairsBlock as IBlockState, stairsTime as int,
+                             wallItem as IItemStack, wallBlock as IBlockState, wallTime as int) as MaterialBuilder {
+    cutStone.addOutput(slabItem * 2, slabTime, slabBlock).addOutput(stairsItem * 1, stairsTime, stairsBlock);
+    if (!isNull(wallItem)) {
+      cutStone.addOutput(wallItem * 1, wallTime, wallBlock);
+    }
+    return this;
+  }
+
   function withStoneProducts(slabItem as IItemStack, slabBlock as IBlockState,
                              stairsItem as IItemStack, stairsBlock as IBlockState,
                              wallItem as IItemStack, wallBlock as IBlockState) as MaterialBuilder {
-    cutStone.addOutput(slabItem * 2, 12, slabBlock).addOutput(stairsItem * 1, 12, stairsBlock);
-    if (!isNull(wallItem)) {
-      cutStone.addOutput(wallItem * 1, 12, wallBlock);
-    }
-    return this;
+    return withStoneProducts(slabItem, slabBlock, 12, stairsItem, stairsBlock, 12, wallItem, wallBlock, 12);
   }
 
   function withUBStoneProducts(products as UBStoneProducts) as MaterialBuilder {
@@ -145,12 +151,20 @@ zenClass MaterialBuilder {
       products.wallBlock.withProperty("type", variant));
   }
 
+  function withSandstoneProducts(chiseledItem as IItemStack, chiseledBlock as IBlockState, chiseledTime as int
+                                 smoothItem as IItemStack, smoothBlock as IBlockState, smoothTime as int,
+                                 smoothToChiseledTime as int) as MaterialBuilder {
+    cutStone
+      .addOutput(chiseledItem * 1, chiseledTime, chiseledBlock)
+      .addOutput(smoothItem * 1, smoothTime, smoothBlock);
+    cutSmooth = CuttingSawRecipeBuilder.newRecipe(smoothItem, smoothBlock)
+      .addOutput(chiseledItem * 1, smoothToChiseledTime, chiseledBlock);
+    return this;
+  }
+
   function withSandstoneProducts(chiseledItem as IItemStack, chiseledBlock as IBlockState,
                                  smoothItem as IItemStack, smoothBlock as IBlockState) as MaterialBuilder {
-    cutStone.addOutput(chiseledItem * 1, 12, chiseledBlock).addOutput(smoothItem * 1, 12, smoothBlock);
-    cutSmooth = CuttingSawRecipeBuilder.newRecipe(smoothItem, smoothBlock)
-      .addOutput(chiseledItem * 1, 6, chiseledBlock);
-    return this;
+    return withSandstoneProducts(chiseledItem, chiseledBlock, 12, smoothItem, smoothBlock, 12, 6);
   }
 
   function withUBSandstoneProducts(products as UBSandstoneProducts) as MaterialBuilder {
@@ -163,9 +177,9 @@ zenClass MaterialBuilder {
       products.smoothBlock.withProperty("type", variant));
   }
 
-  function withBricks(brickItem as IItemStack, brickBlockItem as IItemStack, brickBlockState as IBlockState) as MaterialBuilder {
+  function withBricks(brickItem as IItemStack, brickTime as int, brickBlockItem as IItemStack, brickBlockState as IBlockState) as MaterialBuilder {
     if (!isNull(cutStone)) {
-      cutStone.addOutput(brickItem * 4, 12);
+      cutStone.addOutput(brickItem * 4, brickTime);
     }
     this.brickItem = brickItem;
     this.brickBlockItem = brickBlockItem;
@@ -173,9 +187,13 @@ zenClass MaterialBuilder {
     return this;
   }
 
-  function withLooseBricks(looseBrickBlockItem as IItemStack, looseBrickBlockState as IBlockState) as MaterialBuilder {
+  function withBricks(brickItem as IItemStack, brickBlockItem as IItemStack, brickBlockState as IBlockState) as MaterialBuilder {
+    return withBricks(brickItem, 12, brickBlockItem, brickBlockState);
+  }
+
+  function withLooseBricks(looseBrickBlockItem as IItemStack, looseBrickBlockState as IBlockState, looseBrickTime as int) as MaterialBuilder {
     if (!isNull(cutStone)) {
-      cutStone.addOutput(looseBrickBlockItem * 1, 12, looseBrickBlockState);
+      cutStone.addOutput(looseBrickBlockItem * 1, looseBrickTime, looseBrickBlockState);
     }
     brickDropList.add(Dropt.rule()
       .matchBlocks([looseBrickBlockState.block.definition.id~":"~looseBrickBlockState.meta])
@@ -185,14 +203,24 @@ zenClass MaterialBuilder {
     return this;
   }
 
+  function withLooseBricks(looseBrickBlockItem as IItemStack, looseBrickBlockState as IBlockState) as MaterialBuilder {
+    return withLooseBricks(looseBrickBlockItem, looseBrickBlockState, 12);
+  }
+
+  function withBrickProducts(slabItem as IItemStack, slabBlock as IBlockState, slabTime as int,
+                             stairsItem as IItemStack, stairsBlock as IBlockState, stairsTime as int,
+                             wallItem as IItemStack, wallBlock as IBlockState, wallTime as int) as MaterialBuilder {
+    cutBricks
+      .addOutput(slabItem * 2, slabTime, slabBlock)
+      .addOutput(stairsItem * 1, stairsTime, stairsBlock)
+      .addOutput(wallItem * 1, wallTime, wallBlock);
+    return this;
+  }
+
   function withBrickProducts(slabItem as IItemStack, slabBlock as IBlockState,
                              stairsItem as IItemStack, stairsBlock as IBlockState,
                              wallItem as IItemStack, wallBlock as IBlockState) as MaterialBuilder {
-    cutBricks
-      .addOutput(slabItem * 2, 12, slabBlock)
-      .addOutput(stairsItem * 1, 12, stairsBlock)
-      .addOutput(wallItem * 1, 12, wallBlock);
-    return this;
+    return withBrickProducts(slabItem, slabBlock, 12, stairsItem, stairsBlock, 12, wallItem, wallBlock, 12);
   }
 
   function withUBBrickProducts(products as UBStoneProducts) as MaterialBuilder {
@@ -207,17 +235,25 @@ zenClass MaterialBuilder {
       products.wallBlock.withProperty("type", variant));
   }
 
+  function withFancyBricks(fancyItem as IItemStack, fancyBlock as IBlockState, fancyTime as int) as MaterialBuilder {
+    cutBricks.addOutput(fancyItem, fancyTime, fancyBlock);
+    return this;
+  }
+
   function withFancyBricks(fancyItem as IItemStack, fancyBlock as IBlockState) as MaterialBuilder {
-    cutBricks.addOutput(fancyItem, 12, fancyBlock);
+    return withFancyBricks(fancyItem, fancyBlock, 12);
+  }
+
+  function withRock(rock as IItemStack, brickTime as int) as MaterialBuilder {
+    cutRock = CuttingSawRecipeBuilder.newRecipe(rock).addOutput(masonryBrick * 1, brickTime);
+    if (!isNull(brickItem)) {
+      cutRock.addOutput(brickItem * 1, brickTime);
+    }
     return this;
   }
 
   function withRock(rock as IItemStack) as MaterialBuilder {
-    cutRock = CuttingSawRecipeBuilder.newRecipe(rock).addOutput(masonryBrick * 1, 6);
-    if (!isNull(brickItem)) {
-      cutRock.addOutput(brickItem * 1, 6);
-    }
-    return this;
+    return withRock(rock, 6);
   }
 
   function withCobble(cobbleItem as IItemStack, cobbleBlock as IBlockState) as MaterialBuilder {
@@ -225,14 +261,20 @@ zenClass MaterialBuilder {
     return this;
   }
 
+  function withCobbleProducts(slabItem as IItemStack, slabBlock as IBlockState, slabTime as int,
+                              stairsItem as IItemStack, stairsBlock as IBlockState, stairsTime as int,
+                              wallItem as IItemStack, wallBlock as IBlockState, wallTime as int) as MaterialBuilder {
+    cutCobble
+      .addOutput(slabItem * 2, slabTime, slabBlock)
+      .addOutput(stairsItem * 1, stairsTime, stairsBlock)
+      .addOutput(wallItem * 1, wallTime, wallBlock);
+    return this;
+  }
+
   function withCobbleProducts(slabItem as IItemStack, slabBlock as IBlockState,
                               stairsItem as IItemStack, stairsBlock as IBlockState,
                               wallItem as IItemStack, wallBlock as IBlockState) as MaterialBuilder {
-    cutCobble
-      .addOutput(slabItem * 2, 12, slabBlock)
-      .addOutput(stairsItem * 1, 12, stairsBlock)
-      .addOutput(wallItem * 1, 12, wallBlock);
-    return this;
+    return withCobbleProducts(slabItem, slabBlock, 12, stairsItem, stairsBlock, 12, wallItem, wallBlock, 12);
   }
 
   function withUBCobbleProducts(products as UBStoneProducts) as MaterialBuilder {
@@ -247,16 +289,24 @@ zenClass MaterialBuilder {
       products.wallBlock.withProperty("type", variant));
   }
 
-  function withStoneBricksRecipe() as MaterialBuilder {
+  function withStoneBricksRecipe(bricksTime as int, looseBricksTime as int) as MaterialBuilder {
     cutStone
-      .addOutput(masonryBrick * 4, 12)
-      .addOutput(looseStoneBrickBlockItem * 1, 12, looseStoneBrickBlockState);
+      .addOutput(masonryBrick * 4, bricksTime)
+      .addOutput(looseStoneBrickBlockItem * 1, looseBricksTime, looseStoneBrickBlockState);
+    return this;
+  }
+
+  function withStoneBricksRecipe() as MaterialBuilder {
+    return withStoneBricksRecipe(12, 12);
+  }
+
+  function withFoundationRecipe(foundationTime as int) as MaterialBuilder {
+    cutStone.addOutput(foundation * 1, foundationTime);
     return this;
   }
 
   function withFoundationRecipe() as MaterialBuilder {
-    cutStone.addOutput(foundation * 1, 12);
-    return this;
+    return withFoundationRecipe(12);
   }
 
   function build() {
