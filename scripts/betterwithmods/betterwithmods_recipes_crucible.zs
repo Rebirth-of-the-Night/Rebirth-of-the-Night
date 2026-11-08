@@ -193,6 +193,14 @@ Crucible.addUnstoked(
         <ore:ingotBronze>.firstItem*4
     ]
 );
+Crucible.addUnstoked(
+    [
+        <pyrotech:rock:1>
+    ],
+    [
+        <ore:nuggetBronze>.firstItem*1
+    ]
+);
 // Stoked Bronze Production
 Crucible.addStoked(
     [

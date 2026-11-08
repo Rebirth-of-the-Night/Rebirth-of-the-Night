@@ -141,7 +141,7 @@ for mat1 in denseGemOre {
     StoneKiln.addRecipe("StoneKilnDense"~mat1, oreDict["gem"~mat1].firstItem*2, oreDict["denseore"~mat1], 20*270, true);
 }
 
-
+StoneKiln.addRecipe("CopperonBonanza", <contenttweaker:material_part:1>, <pyrotech:rock:1>, 20*120, true);
 StoneKiln.addRecipe("StoneKilnExorite", <rotn_blocks:exorite_crystal>, <ore:oreAmethyst>, 20*270, true);
 StoneKiln.addRecipe("StoneKilnDenseExorite", <rotn_blocks:exorite_crystal>*2, <ore:denseoreAmethyst>, 20*270, true);
 StoneKiln.addRecipe("StoneKilnBiotite", <quark:biotite>, <quark:biotite_ore>, 20*270, true);
