@@ -151,7 +151,7 @@ zenClass MaterialBuilder {
       products.wallBlock.withProperty("type", variant));
   }
 
-  function withSandstoneProducts(chiseledItem as IItemStack, chiseledBlock as IBlockState, chiseledTime as int
+  function withSandstoneProducts(chiseledItem as IItemStack, chiseledBlock as IBlockState, chiseledTime as int,
                                  smoothItem as IItemStack, smoothBlock as IBlockState, smoothTime as int,
                                  smoothToChiseledTime as int) as MaterialBuilder {
     cutStone
