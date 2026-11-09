@@ -70,6 +70,21 @@ mods.selectionguicrafting.category.categoryBuilder()
 .outputType("INVENTORY")
 .register();
 
+mods.selectionguicrafting.category.categoryBuilder()
+.id("armament_improvement")
+.trigger(<requious:tailoring_tools>.asBlock(), 10.0, 0.1, 10.0)
+.background("minecraft:textures/blocks/wool_colored_brown.png")
+.backgroundType("TILE")
+.border("selectioncrafting:textures/gui/decor/default.png")
+.frame("iceandfire:textures/items/chain_link.png")
+.bar("selectioncrafting:textures/gui/bar/default.png")
+.sound("minecraft:block.cloth.step", 16.0, 1.0)
+//.soundType("RANDOM") //RANDOM or COMBINED
+//.particle("CLOUD", 100, 1.0)
+.queueable(true)
+.outputType("INVENTORY")
+.register();
+
 // whittling
 mods.selectionguicrafting.recipe.recipeBuilder()
 .category("whittling")
@@ -162,4 +177,38 @@ mods.selectionguicrafting.recipe.recipeBuilder()
 .input(<da:flame_metal_scrap>)
 .output(<contenttweaker:glass_bead>)
 .time(1)
+.register();
+
+// Tailoring
+mods.selectionguicrafting.recipe.recipeBuilder()
+.category("armament_improvement")
+.input(<atop:mud_helmet:*>)
+.input(<textiles:spindle:15>)
+.input(<textiles:spindle:15>)
+.output(<iceandfire:armor_copper_metal_helmet>)
+.time(20)
+.register();
+mods.selectionguicrafting.recipe.recipeBuilder()
+.category("armament_improvement")
+.input(<atop:mud_chestplate:*>)
+.input(<textiles:spindle:15>)
+.input(<textiles:spindle:15>)
+.output(<iceandfire:armor_copper_metal_chestplate>)
+.time(20)
+.register();
+mods.selectionguicrafting.recipe.recipeBuilder()
+.category("armament_improvement")
+.input(<atop:mud_leggings:*>)
+.input(<textiles:spindle:15>)
+.input(<textiles:spindle:15>)
+.output(<iceandfire:armor_copper_metal_chestplate>)
+.time(20)
+.register();
+mods.selectionguicrafting.recipe.recipeBuilder()
+.category("armament_improvement")
+.input(<atop:mud_boots:*>)
+.input(<textiles:spindle:15>)
+.input(<textiles:spindle:15>)
+.output(<iceandfire:armor_copper_metal_boots>)
+.time(20)
 .register();

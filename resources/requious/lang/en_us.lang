@@ -1,4 +1,5 @@
 tile.dryer.name=Hell Dryer
+tile.tailoring_tools.name=Tailoring Tools
 tile.interaction.name=Direct Interaction
 tile.growth_ferment.name=Fermentation
 tile.splosher.name=Vis Splosher
@@ -6,6 +7,7 @@ tile.night_jar.name=Night-jar
 tile.alchemical_processor.name=Alchemical Processor
 
 requious.jei.recipe.dryer=Hell Dryer
+requious.jei.recipe.tailoring_tools=Armament Improvement
 requious.jei.recipe.splosher=Splosher
 requious.jei.recipe.night_jar=Night-jar
 requious.jei.recipe.interaction=Direct Interaction

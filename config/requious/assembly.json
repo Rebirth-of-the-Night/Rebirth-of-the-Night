@@ -78,6 +78,32 @@
     }
   },
   {
+    "resourceName": "tailoring_tools",
+    "model": "requious:tailoring_tools",
+    "placeType": "Horizontal",
+    "hasGUI": false,,
+    "aabb": {
+      "x1": 0.2,
+      "y1": 0.0,
+      "z1": 0.2,
+      "x2": 0.8,
+      "y2": 0.4,
+      "z2": 0.8
+    }
+    "colorA": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "colorB": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
+  },
+  {
     "resourceName": "dryer",
     "model": "requious:dryer",
     "placeType": "Horizontal",
