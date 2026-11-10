@@ -291,6 +291,7 @@ Melting.addRecipe(<liquid:iron>*192, <ore:rawOreIron>, 1550);
 Melting.addRecipe(<liquid:tin>*144, <ore:ingotTin>, 1550); // tin
 Melting.addRecipe(<liquid:tin>*16, <ore:nuggetTin>, 1550);
 Melting.addRecipe(<liquid:tin>*192, <ore:rawOreTin>, 1550);
+Melting.addRecipe(<liquid:bronze>*16, <pyrotech:rock:1>, 1200); // bronze
 Melting.addRecipe(<liquid:zinc>*144, <ore:ingotZinc>, 692); // zinc
 Melting.addRecipe(<liquid:zinc>*16, <ore:nuggetZinc>, 692);
 Melting.addRecipe(<liquid:zinc>*192, <pyrotech:rock:3>, 692);
@@ -494,15 +495,6 @@ MoldStation.addRecipe(<contenttweaker:lance_mold>, 6, 6, [
 0,1,2,1,0,0,
 0,1,2,1,0,0,
 0,1,0,1,0,0
-]);
-
-MoldStation.addRecipe(<contenttweaker:throwing_knife_mold>, 6, 6, [
-0,0,0,0,0,0,
-0,0,0,0,0,0,
-0,0,1,0,0,0,
-0,1,1,0,0,0,
-0,1,1,0,0,0,
-0,0,1,0,0,0
 ]);
 
 MoldStation.addRecipe(<contenttweaker:throwing_axe_mold>, 6, 6, [

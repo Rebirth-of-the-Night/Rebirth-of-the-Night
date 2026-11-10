@@ -175,6 +175,26 @@ lost_cargo.setToolLevel(0);
 lost_cargo.setToolClass("axe");
 lost_cargo.register();
 
+// Tailoring Tools
+var tailoring_tools = VanillaFactory.createDirectionalBlock("tailoring_tools", <blockmaterial:Wood>, "HORIZONTAL", false, true);
+tailoring_tools.axisAlignedBB = AxisAlignedBB.create(
+     2.0 / 16.0,
+     0.0 / 16.0,
+     2.0 / 16.0,
+	14.0 / 16.0,
+    4.0 / 16.0,
+    14.0 / 16.0
+	);
+tailoring_tools.setCreativeTab(<creativetab:rotn_blocks>);
+tailoring_tools.setFullBlock(false);
+tailoring_tools.setLightOpacity(0);
+tailoring_tools.setBlockLayer("CUTOUT");
+tailoring_tools.setToolLevel(0);
+tailoring_tools.setLightOpacity(0);
+tailoring_tools.setBlockLayer("CUTOUT");
+tailoring_tools.setToolClass("axe");
+tailoring_tools.register();
+
 // Ender Scythe Statuette
 var scythe_statuette = VanillaFactory.createDirectionalBlock("scythe_statuette", <blockmaterial:Iron>, "HORIZONTAL", false, true);
 scythe_statuette.axisAlignedBB = AxisAlignedBB.create(
@@ -2776,6 +2796,11 @@ fancy_soapstone.setCreativeTab(<creativetab:rotn_blocks>);
 fancy_soapstone.setToolLevel(1);
 fancy_soapstone.setBlockHardness(16);
 fancy_soapstone.register();
+var fancy_gneiss = VanillaFactory.createBlock("fancy_gneiss", <blockmaterial:Rock>);
+fancy_gneiss.setCreativeTab(<creativetab:rotn_blocks>);
+fancy_gneiss.setToolLevel(1);
+fancy_gneiss.setBlockHardness(22);
+fancy_gneiss.register();
 var fancy_magicked = VanillaFactory.createBlock("fancy_magicked", <blockmaterial:Rock>);
 fancy_magicked.setCreativeTab(<creativetab:rotn_blocks>);
 fancy_magicked.setToolLevel(1);

@@ -30,6 +30,11 @@ LootTweaker.getTable("iceandfire:mausoleum_chest").getPool("mausoleum_chest").re
 recipes.remove(<iceandfire:earplugs>);
 recipes.addShapeless("earplugs", <iceandfire:earplugs>, [<ore:buttonWood>, <ore:buttonWood>, <betterwithmods:material:4>, <betterwithmods:material:4>]);
 
+recipes.remove(<iceandfire:armor_copper_metal_helmet>);
+recipes.remove(<iceandfire:armor_copper_metal_chestplate>);
+recipes.remove(<iceandfire:armor_copper_metal_leggings>);
+recipes.remove(<iceandfire:armor_copper_metal_boots>);
+
 recipes.remove(<iceandfire:dragon_horn>);
 /*recipes.addShaped("dragon_horn",<iceandfire:dragon_horn>,[
   [null,null,<iceandfire:dragonbone>],

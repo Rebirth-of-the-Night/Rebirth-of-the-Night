@@ -1,0 +1,19 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+        "0": "contenttweaker:blocks/tailoring_tools",
+		"particle": "minecraft:blocks/planks_oak"
+    },
+    "model": "contenttweaker:tailoring_tools",
+    "uvlock": false
+  },
+  "variants": {
+    "facing=north": { "model": "contenttweaker:tailoring_tools", "y": 0 },
+    "facing=south": { "model": "contenttweaker:tailoring_tools", "y": 180 },
+    "facing=west": { "model": "contenttweaker:tailoring_tools", "y": 270 },
+    "facing=east": { "model": "contenttweaker:tailoring_tools", "y": 90 },
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}
