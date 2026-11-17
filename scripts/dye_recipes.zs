@@ -82,6 +82,7 @@ Mortar.addRecipe(["diamond"], <biomesoplenty:blue_dye>, 3, <biomesoplenty:blue_d
 Mortar.addRecipe(["diamond"], <biomesoplenty:blue_dye>, 3, <biomesoplenty:blue_dye>, 0.15, [<futuremc:cornflower>]);
 Mortar.addRecipe(["diamond"], <biomesoplenty:blue_dye>, 3, <biomesoplenty:blue_dye>, 0.15, [<quark:root_flower:0>]);
 Mortar.addRecipe(["diamond"], <biomesoplenty:blue_dye>, 3, <biomesoplenty:blue_dye>, 0.15, [<contenttweaker:giant_blue_flower_petal>]);
+Mortar.addRecipe(["diamond"], <biomesoplenty:brown_dye>, 3, <biomesoplenty:brown_dye>, 0.85, [<minecraft:dye:3>]);
 Mortar.addRecipe(["diamond"], <biomesoplenty:brown_dye>, 3, <biomesoplenty:brown_dye>, 0.15, [<biomesoplenty:mushroom:4>]);
 Mortar.addRecipe(["diamond"], <biomesoplenty:brown_dye>, 3, <biomesoplenty:brown_dye>, 0.75, [<biomesoplenty:double_plant:1>]);
 Mortar.addRecipe(["diamond"], <biomesoplenty:brown_dye>, 3, <betterwithmods:raw_pastry:3>, 0.2, [<biomesoplenty:plant_1:4>]);
@@ -159,6 +160,7 @@ Mill.addRecipe([<biomesoplenty:flower_1:2>],[<biomesoplenty:blue_dye>*2]);
 Mill.addRecipe([<futuremc:cornflower>],[<biomesoplenty:blue_dye>*2]);
 Mill.addRecipe([<quark:root_flower:0>],[<biomesoplenty:blue_dye>*2]);
 Mill.addRecipe([<contenttweaker:giant_blue_flower_petal>],[<biomesoplenty:blue_dye>*2]);
+Mill.addRecipe([<minecraft:dye:3>],[<biomesoplenty:brown_dye>*3]);
 Mill.addRecipe([<biomesoplenty:mushroom:4>],[<biomesoplenty:brown_dye>*2]);
 Mill.addRecipe([<biomesoplenty:double_plant:1>],[<biomesoplenty:brown_dye>*4]);
 Mill.addRecipe([<biomesoplenty:plant_1:4>*2],[<betterwithmods:raw_pastry:3>,<biomesoplenty:brown_dye>*2]);

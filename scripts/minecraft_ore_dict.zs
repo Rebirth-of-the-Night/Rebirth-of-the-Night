@@ -26,8 +26,16 @@ import crafttweaker.oredict.IOreDictEntry;
 val rock_dictionary = <ore:rock>;
 rock_dictionary.remove([<pyrotech_compat:rock_sedimentary_sand:11>,<pyrotech_compat:rock_sedimentary_sand:12>,<pyrotech_compat:rock_metamorphic_sand:15>,<pyrotech_compat:rock_metamorphic_sand:14>,<pyrotech_compat:rock_metamorphic_sand:13>,<pyrotech_compat:rock_metamorphic_sand:12>,<pyrotech_compat:rock_metamorphic_sand:11>,<pyrotech_compat:rock_metamorphic_sand:10>,<pyrotech_compat:rock_metamorphic_sand:9>,<pyrotech_compat:rock_igneous_sand:15>,<pyrotech_compat:rock_igneous_sand:14>,<pyrotech_compat:rock_igneous_sand:13>,<pyrotech_compat:rock_igneous_sand:12>,<pyrotech_compat:rock_igneous_sand:11>,<pyrotech_compat:rock_igneous_sand:10>,<pyrotech_compat:rock_igneous_sand:8>,<pyrotech:rock:1>,<pyrotech:rock:2>,<pyrotech:rock:3>,<pyrotech_compat:rock_netherrack>,<pyrotech_compat:rock_sedimentary_sand:15>]);
 
+val dye = <ore:dye>;
+dye.addItems([<biomesoplenty:blue_dye>,<biomesoplenty:brown_dye>,<biomesoplenty:green_dye>,<biomesoplenty:white_dye>,<biomesoplenty:black_dye>]);
+
+val dyeBrown = <ore:dyeBrown>;
+dyeBrown.remove(<betterwithmods:material:5>);
+dyeBrown.remove(<minecraft:dye:3>);
+
 val dyeBlack = <ore:dyeBlack>;
 dyeBlack.remove(<netherex:wither_dust>);
+dyeBlack.remove(<minecraft:dye>);
 
 val boneWithered = <ore:boneWithered>;
 boneWithered.remove(<netherex:wither_bone>);
@@ -192,8 +200,6 @@ farmland.add(
 
 <ore:pileDirt>.addItems([<contenttweaker:silty_dirt_pile>,<contenttweaker:loamy_dirt_pile>,<contenttweaker:sandy_dirt_pile>,<contenttweaker:aether_dirt_pile>]);
 
-<ore:dye>.addItems([<biomesoplenty:blue_dye>,<biomesoplenty:brown_dye>,<biomesoplenty:green_dye>,<biomesoplenty:white_dye>,<biomesoplenty:black_dye>]);
-
 <ore:blockGlass>.addItems([<iceandfire:myrmex_desert_resin_glass>,<iceandfire:myrmex_jungle_resin_glass>,<betternether:quartz_glass>,<betternether:quartz_glass_framed>,<betternether:quartz_stained_glass:*>,<betternether:quartz_stained_glass_framed:*>,<dungeontactics:dungeon_glass>,<quark:framed_glass>,<sereneseasons:greenhouse_glass>,<twilightforest:auroralized_glass>]);
 
 <ore:grass>.addItems([<minecraft:grass_path>,<aether_legacy:aether_grass>,<aether_legacy:enchanted_aether_grass>,<betterwithaddons:extra_grass:0>,<betterwithaddons:extra_grass:1>,<betterwithaddons:extra_grass:2>,<betterwithaddons:extra_grass:3>,<biomesoplenty:grass:1>,<biomesoplenty:grass:2>,<biomesoplenty:grass:3>,<biomesoplenty:grass:4>,<biomesoplenty:grass:5>,<biomesoplenty:grass:6>,<biomesoplenty:grass:7>,<biomesoplenty:grass:8>,<biomesoplenty:grass_path:0>,<stygian:endgrass>]);
@@ -213,9 +219,6 @@ farmland.add(
 
 val dirt = <ore:dirt>;
 dirt.addItems([<biomesoplenty:dirt:1>,<biomesoplenty:dirt:2>,<aether_legacy:aether_dirt>,<minecraft:dirt:1>,<biomesoplenty:dirt:8>,<biomesoplenty:dirt:10>,<biomesoplenty:dirt:9>]);
-
-val brown = <ore:dyeBrown>;
-brown.remove(<betterwithmods:material:5>);
 
 <ore:blockCharcoal>.add(<pyrotech:charcoal_block>);
 
