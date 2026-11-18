@@ -44,6 +44,7 @@
     "copper_molten": 5,
     "tin_molten": 7,
     "brass_ingot": 45,
+    "coade_stone_block": 59,
     "electrum_dust": 38,
     "onyx_alloy_molten": 18,
     "silver_dust": 30,
@@ -54,6 +55,7 @@
     "soulforged_steel_molten": 24,
     "brass_nugget": 46,
     "gravitite_nugget": 41,
-    "brass_dust": 48
+    "brass_dust": 48,
+    "ambrosium_ingot": 58
   }
 }
