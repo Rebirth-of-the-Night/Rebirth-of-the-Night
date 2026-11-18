@@ -57,7 +57,7 @@ JEI.removeAndHide(<iceandfire:dragonsteel_lightning_pickaxe:*>);
 JEI.removeAndHide(<iceandfire:dragonsteel_lightning_axe:*>);
 JEI.removeAndHide(<iceandfire:dragonsteel_lightning_shovel:*>);
 JEI.removeAndHide(<iceandfire:dragonsteel_lightning_hoe:*>);
-JEI.removeAndHide(<iceandfire:dragonsteel_lightning_helme:*t>);
+JEI.removeAndHide(<iceandfire:dragonsteel_lightning_helmet:*>);
 JEI.removeAndHide(<iceandfire:dragonsteel_lightning_chestplate:*>);
 JEI.removeAndHide(<iceandfire:dragonsteel_lightning_leggings:*>);
 JEI.removeAndHide(<iceandfire:dragonsteel_lightning_boots:*>);
