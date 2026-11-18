@@ -125,7 +125,7 @@ for mat in dustMat {
     StoneKiln.addRecipe("StoneKiln_dust"~mat, oreDict["ingot"~mat].firstItem, oreDict["dust"~mat], 20*320, true);
 }
 
-var rawOre as string[] = ["Iron", "Copper", "Tin", "Silver", "Gold", "Viridium", "Mythril"];
+var rawOre as string[] = ["Iron", "Copper", "Tin", "Silver", "Gold", "Viridium", "Garsen", "Mythril"];
 for mat in rawOre {
     StoneKiln.addRecipe("StoneKiln_rawOre"~mat, oreDict["ingot"~mat].firstItem, oreDict["rawOre"~mat], 20*320, true);
 }

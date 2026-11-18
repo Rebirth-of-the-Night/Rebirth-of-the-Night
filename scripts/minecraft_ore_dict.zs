@@ -5,6 +5,21 @@ import crafttweaker.data.IData;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
+val ingotCopper = <ore:ingotCopper>;
+ingotCopper.remove(<iceandfire:copper_ingot>);
+val nuggetCopper = <ore:nuggetCopper>;
+nuggetCopper.remove(<iceandfire:copper_nugget>);
+val ingotIron = <ore:ingotIron>;
+ingotIron.add(<contenttweaker:material_part:49>);
+val ingotCrucibleSteel = <ore:ingotCrucibleSteel>;
+ingotCrucibleSteel.add(<dungeontactics:steel_ingot>);
+val ingotEndorium = <ore:ingotEndorium>;
+ingotEndorium.add(<endreborn:item_ingot_endorium>);
+val ingotGarsen = <ore:ingotGarsen>;
+ingotGarsen.add(<da:knight_ingot>);
+val ingotSoulforgedSteel = <ore:ingotSoulforgedSteel>;
+ingotSoulforgedSteel.add(<betterwithmods:material:14>);
+
 <ore:sourceCopper>.addItems([<contenttweaker:raw_copper>,<simpleores:copper_ingot>]);
 <ore:sourceCopper>.addAll(<ore:oreCopper>);
 <ore:sourceTin>.addItems([<contenttweaker:raw_tin>,<simpleores:tin_ingot>]);
@@ -22,6 +37,7 @@ import crafttweaker.oredict.IOreDictEntry;
 <ore:sourceEndorium>.add(<endreborn:item_ingot_endorium>);
 <ore:sourceBronze>.addAll(<ore:ingotBronze>);
 <ore:sourceBrass>.addAll(<ore:ingotBrass>);
+<ore:sourceGarsen>.add(<da:knight_shard>);
 
 val rock_dictionary = <ore:rock>;
 rock_dictionary.remove([<pyrotech_compat:rock_sedimentary_sand:11>,<pyrotech_compat:rock_sedimentary_sand:12>,<pyrotech_compat:rock_metamorphic_sand:15>,<pyrotech_compat:rock_metamorphic_sand:14>,<pyrotech_compat:rock_metamorphic_sand:13>,<pyrotech_compat:rock_metamorphic_sand:12>,<pyrotech_compat:rock_metamorphic_sand:11>,<pyrotech_compat:rock_metamorphic_sand:10>,<pyrotech_compat:rock_metamorphic_sand:9>,<pyrotech_compat:rock_igneous_sand:15>,<pyrotech_compat:rock_igneous_sand:14>,<pyrotech_compat:rock_igneous_sand:13>,<pyrotech_compat:rock_igneous_sand:12>,<pyrotech_compat:rock_igneous_sand:11>,<pyrotech_compat:rock_igneous_sand:10>,<pyrotech_compat:rock_igneous_sand:8>,<pyrotech:rock:1>,<pyrotech:rock:2>,<pyrotech:rock:3>,<pyrotech_compat:rock_netherrack>,<pyrotech_compat:rock_sedimentary_sand:15>]);
@@ -43,12 +59,6 @@ boneWithered.remove(<netherex:wither_bone>);
 val stone = <ore:stone>;
 stone.add(<aether_legacy:holystone>);
 stone.add(<contenttweaker:serpentinite>);
-
-val ingotEndorium = <ore:ingotEndorium>;
-ingotEndorium.add(<endreborn:item_ingot_endorium>);
-
-val ingotSoulforgedSteel = <ore:ingotSoulforgedSteel>;
-ingotSoulforgedSteel.add(<betterwithmods:material:14>);
 
 // the oredict for recipes where there are only vanilla variants
 // use this for oak, default other non-vanilla variants to this as well
@@ -124,14 +134,16 @@ rawOreGravitite.add(<contenttweaker:raw_gravitite>);
 val rawOreViridium = <ore:rawOreViridium>;
 rawOreViridium.add(<contenttweaker:raw_viridium>);
 
+val rawOreGarsen = <ore:rawOreGarsen>;
+rawOreGarsen.add(<da:knight_shard>);
+
 val rawOreMythril = <ore:rawOreMythril>;
 rawOreMythril.add(<contenttweaker:raw_mythril>);
 
 val rawOreWrought = <ore:rawOreWrought>;
 rawOreWrought.add(<contenttweaker:material_part:52>);
 
-val ironIngot = <ore:ingotIron>;
-ironIngot.add(<contenttweaker:material_part:49>);
+
 
 
 val buckets = <ore:bucket>;
@@ -167,7 +179,6 @@ stoneWOHolystone.remove(<aether_legacy:holystone>);
 
 <ore:plankWood>.add(<aether_legacy:skyroot_plank>);
 <ore:sand>.add(<minecraft:sand:1>);
-<ore:ingotCrucibleSteel>.add(<dungeontactics:steel_ingot>);
 <ore:hardReed>.addItems([<biomesoplenty:bamboo>,<minecraft:reeds>,<betternether:nether_reed>]);
 <ore:hollowReed>.addItems([<biomesoplenty:bamboo>,<biomesoplenty:plant_1:8>,<futuremc:bamboo>]);
 <ore:listAllmilk>.addItems([<aether_legacy:skyroot_bucket:4>]);
