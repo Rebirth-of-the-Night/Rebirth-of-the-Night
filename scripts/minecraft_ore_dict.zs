@@ -44,6 +44,7 @@ rock_dictionary.remove([<pyrotech_compat:rock_sedimentary_sand:11>,<pyrotech_com
 
 val dye = <ore:dye>;
 dye.addItems([<biomesoplenty:blue_dye>,<biomesoplenty:brown_dye>,<biomesoplenty:green_dye>,<biomesoplenty:white_dye>,<biomesoplenty:black_dye>]);
+dye.remove(<minecraft:dye>,<minecraft:dye:3>,<minecraft:dye:4>);
 
 val dyeBrown = <ore:dyeBrown>;
 dyeBrown.remove(<betterwithmods:material:5>);
@@ -52,6 +53,9 @@ dyeBrown.remove(<minecraft:dye:3>);
 val dyeBlack = <ore:dyeBlack>;
 dyeBlack.remove(<netherex:wither_dust>);
 dyeBlack.remove(<minecraft:dye>);
+
+val dyeBlue = <ore:dyeBlue>;
+dyeBlue.remove(<minecraft:dye:4>);
 
 val boneWithered = <ore:boneWithered>;
 boneWithered.remove(<netherex:wither_bone>);

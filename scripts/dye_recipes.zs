@@ -47,6 +47,7 @@ recipes.removeByRecipeName("harvestcraft:string_cropjute");
 recipes.removeByRecipeName("harvestcraft:string_cropflax");
 recipes.removeByRecipeName("harvestcraft:string_cropcotton");
 recipes.removeByRecipeName("harvestcraft:string_listallfiber");
+recipes.removeByRecipeName("futuremc:dye/black_dye_from_ink_sack");
 Mill.remove([<minecraft:dye:2>]);
 
 // Mortar recipes
