@@ -1500,8 +1500,8 @@ if (!isNull(<contenttweaker:lunarinfierybrick>)) {<contenttweaker:lunarinfierybr
 if (!isNull(<contenttweaker:lunarinknightbrick>)) {<contenttweaker:lunarinknightbrick>.hardness = 12;}
 if (!isNull(<contenttweaker:lunarinsteelbrick>)) {<contenttweaker:lunarinsteelbrick>.hardness = 12;}
 if (!isNull(<contenttweaker:lunarinsfsbrick>)) {<contenttweaker:lunarinsfsbrick>.hardness = 12;}
-if (!isNull(<villagenames:lunaringoldbrick>)) {<villagenames:lunaringoldbrick>.hardness = 12;}
-if (!isNull(<villagenames:lunarinironbrick>)) {<villagenames:lunarinironbrick>.hardness = 12;}
+if (!isNull(<contenttweaker:lunaringoldbrick>)) {<contenttweaker:lunaringoldbrick>.hardness = 12;}
+if (!isNull(<contenttweaker:lunarinironbrick>)) {<contenttweaker:lunarinironbrick>.hardness = 12;}
 if (!isNull(<minecraft:iron_door>)) {<minecraft:iron_door>.hardness = 18;}
 if (!isNull(<aesthetics:copper_door>)) {<aesthetics:copper_door>.hardness = 12;}
 if (!isNull(<aesthetics:tin_door>)) {<aesthetics:tin_door>.hardness = 11;}

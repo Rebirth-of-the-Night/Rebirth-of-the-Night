@@ -1210,16 +1210,26 @@ brass_plate.setCreativeTab(<creativetab:buildingBlocks>);
 brass_plate.register();
 
 // Lunarin blocks
+// Iron
+var ironLunarin = VanillaFactory.createBlock("lunarinironbrick", <blockmaterial:Iron>);
+ironLunarin.setCreativeTab(<creativetab:buildingBlocks>);
+ironLunarin.setBlockHardness(15);
+ironLunarin.register();
 // Iron pillar
 var lunarinironpillar = VanillaFactory.createBlock("lunarinironpillar", <blockmaterial:Iron>);
 lunarinironpillar.setCreativeTab(<creativetab:buildingBlocks>);
 lunarinironpillar.setBlockHardness(15);
 lunarinironpillar.register();
+// Gold
+var goldLunarin = VanillaFactory.createBlock("lunaringoldbrick", <blockmaterial:Iron>);
+goldLunarin.setCreativeTab(<creativetab:buildingBlocks>);
+goldLunarin.setBlockHardness(12);
+goldLunarin.register();
 // Bronze
-var lunarin = VanillaFactory.createBlock("lunarinbronzebrick", <blockmaterial:Iron>);
-lunarin.setCreativeTab(<creativetab:buildingBlocks>);
-lunarin.setBlockHardness(15);
-lunarin.register();
+var bronzeLunarin = VanillaFactory.createBlock("lunarinbronzebrick", <blockmaterial:Iron>);
+bronzeLunarin.setCreativeTab(<creativetab:buildingBlocks>);
+bronzeLunarin.setBlockHardness(15);
+bronzeLunarin.register();
 // Silver
 var silverlunarin = VanillaFactory.createBlock("lunarinsilverbrick", <blockmaterial:Iron>);
 silverlunarin.setCreativeTab(<creativetab:rotn_blocks>);

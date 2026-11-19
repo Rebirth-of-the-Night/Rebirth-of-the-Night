@@ -1277,20 +1277,15 @@ recipes.addShaped(<defiledlands:sandstone_defiled> * 4, [
 
 // ContentTweaker extra blocks recipes
 // All Lunarin bricks
-recipes.remove(<villagenames:lunaringoldbrick>);
-recipes.remove(<villagenames:lunarinironbrick>);
-recipes.removeByRecipeName("villagenames:lunaringoldbrick_toingots");
-recipes.removeByRecipeName("villagenames:lunarinironbrick_toingots");
-
 recipes.addShapeless("ae_iron_bricks", <aesthetics:iron_bricks>, 
-    [<villagenames:lunarinironbrick>]
+    [<contenttweaker:lunarinironbrick>]
 );
 
 val lunarinlikeBricks = {
-    <villagenames:lunarinironbrick> : <ore:ingotIron>,
+    <contenttweaker:lunarinironbrick> : <ore:ingotIron>,
     <contenttweaker:lunarinbronzebrick> : <ore:ingotBronze>,
     <contenttweaker:lunarinsilverbrick> : <ore:ingotSilver>,
-    <villagenames:lunaringoldbrick> : <ore:ingotGold>,
+    <contenttweaker:lunaringoldbrick> : <ore:ingotGold>,
     <contenttweaker:lunarinviridiumbrick> : <ore:ingotViridium>,
     <contenttweaker:lunarinmythrilbrick> : <ore:ingotMythril>,
     <contenttweaker:lunarinendoriumbrick> : <ore:ingotEndorium>,
