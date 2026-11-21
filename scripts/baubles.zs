@@ -618,9 +618,11 @@ recipes.remove(<bountifulbaubles:brokenblackdragonscale>);
 recipes.addShapeless("Cracked Scale", <bountifulbaubles:brokenblackdragonscale>,
    	[<endreborn:dragon_scales>, <endreborn:dragon_scales>, <endreborn:dragon_scales>]);
 
+// Comfortable Undies
+recipes.addShaped(<contenttweaker:comfortable_undies>, 
+[[<ore:fabricBoltSoft>,<ore:durableFiber>,<ore:fabricBoltSoft>]]);
 
 // Whoopie Cushion
-
 recipes.addShaped(<artifacts:whoopie_cushion>, 
 [[null, <harvestcraft:hardenedleatheritem>, null],
 [<harvestcraft:hardenedleatheritem>, <betterwithmods:material:8>, <harvestcraft:hardenedleatheritem>], 

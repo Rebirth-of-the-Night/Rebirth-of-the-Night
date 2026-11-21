@@ -1,0 +1,149 @@
+{
+  "pools": [
+    {
+      "name": "death_fire_resistance_x_40s",
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ],
+      "entries": [
+        {
+          "entryName": "run_fire_resistance_x_40s",
+          "type": "item",
+          "name": "lootoverhaul:loot_command",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Command:\"effect @p minecraft:fire_resistance 40 9\"}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "plague_essence",
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "rats:plague_essence",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "ash",
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.7
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "biomesoplenty:ash",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "brimstone_dust",
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.3
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "betterwithmods:material",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 25
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ratlantean_flame",
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.9
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "rats:ratlantean_flame",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "plague_essence",
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "rats:plague_essence",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

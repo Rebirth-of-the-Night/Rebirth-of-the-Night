@@ -57,6 +57,11 @@ dyeBlack.remove(<minecraft:dye>);
 val dyeBlue = <ore:dyeBlue>;
 dyeBlue.remove(<minecraft:dye:4>);
 
+val fabricSoft = <ore:fabricBoltSoft>;
+fabricSoft.addItems([<textiles:spindle:1>,<textiles:spindle:2>,<textiles:spindle:3>,<textiles:spindle:4>,<textiles:spindle:5>,<textiles:spindle:6>,<textiles:spindle:7>,<textiles:spindle:8>,<textiles:spindle:9>,<textiles:spindle:10>,<textiles:spindle:11>,<textiles:spindle:12>,<textiles:spindle:13>,<textiles:spindle:14>,<textiles:spindle:15>,<textiles:spindle:16>]);
+val fabricSturdy = <ore:fabricBoltSturdy>;
+fabricSturdy.addItems([<textiles:spindle>,<textiles:spindle:17>]);
+
 val boneWithered = <ore:boneWithered>;
 boneWithered.remove(<netherex:wither_bone>);
 

@@ -101,3 +101,34 @@ doll_heart.onUnequipped = function(bauble, wearer) {
 };
 doll_heart.baubleType = "CHARM";
 doll_heart.register();
+
+// Wings of reflex (Enables midair dodging)
+var reflex_wings = VanillaFactory.createBaubleItem("reflex_wings");
+reflex_wings.rarity = "rare";
+reflex_wings.onUnequipped = function(bauble, wearer) {
+    if(wearer instanceof IPlayer) {
+        var player as IPlayer = wearer;
+        player.executeCommand("elenaidodge disable_airborne @a");
+    }
+};
+reflex_wings.onEquipped = function(bauble, wearer) {
+    if(wearer instanceof IPlayer) {
+        var player as IPlayer = wearer;
+        player.executeCommand("elenaidodge enable_airborne @a");
+    }
+};
+reflex_wings.baubleType = "TRINKET";
+reflex_wings.register();
+
+// Comfortable Undies (Unlocks 2 feathers)
+var comfortable_undies = VanillaFactory.createBaubleItem("comfortable_undies");
+comfortable_undies.onWornTick = function(bauble, wearer) {
+    if(wearer instanceof IPlayer) {
+        var player as IPlayer = wearer;
+        if (!player.world.isRemote() && player.world.getWorldTime() % 10 == 0 as long) {
+            player.removePotionEffect(<potion:minecraft:luck>);
+        } 
+    }
+};
+comfortable_undies.baubleType = "CHARM";
+comfortable_undies.register();
