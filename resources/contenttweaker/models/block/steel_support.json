@@ -1,6 +1,7 @@
 {
 	"format_version": "1.9.0",
-	"credit": "Made with Blockbench",
+	"credit": "Made by Foreck with Blockbench",
+	"parent": "block/block",
 	"textures": {
 		"0": "contenttweaker:blocks/steel_support",
 		"particle": "contenttweaker:blocks/steel_support"
@@ -9,7 +10,6 @@
 		{
 			"from": [5, 0, 5],
 			"to": [11, 16, 11],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 14, 6]},
 			"faces": {
 				"north": {"uv": [7, 0, 13, 16], "texture": "#0"},
 				"east": {"uv": [7, 0, 13, 16], "texture": "#0"},

@@ -213,20 +213,21 @@ scythe_statuette.setToolClass("none");
 scythe_statuette.register();
 
 // Steel Support
-var steel_support = VanillaFactory.createBlock("steel_support", <blockmaterial:Iron>);
+var steel_support = VanillaFactory.createDirectionalBlock("steel_support", <blockmaterial:Iron>, "ALL", false, false);
+steel_support.placementFacingFunction = IPlacementFacingFunction.side();
 steel_support.axisAlignedBB = AxisAlignedBB.create(
      5.0 / 16.0,
-     0.0 / 16.0,
      5.0 / 16.0,
+     0.0 / 16.0,
 	11.0 / 16.0,
-    16.0 / 16.0,
-    11.0 / 16.0
+    11.0 / 16.0,
+    16.0 / 16.0
 	);
 steel_support.setCreativeTab(<creativetab:rotn_blocks>);
 steel_support.setBlockHardness(20.5);
 steel_support.setFullBlock(false);
 steel_support.setLightOpacity(0);
-steel_support.setBlockLayer("CUTOUT");
+steel_support.setBlockLayer("CUTOUT_MIPPED");
 steel_support.setToolLevel(0);
 steel_support.setToolClass("pickaxe");
 steel_support.register();
