@@ -1,0 +1,54 @@
+{
+  enabled: true
+  biomes: {
+    names: [
+      minecraft:mutated_forest
+      minecraft:birch_forest
+      minecraft:mutated_birch_forest
+      minecraft:roofed_forest
+      minecraft:taiga
+      minecraft:extreme_hills
+      biomesoplenty:meadow
+      biomesoplenty:pasture
+      biomesoplenty:flower_field
+      biomesoplenty:lavender_fields
+      biomesoplenty:bog
+      biomesoplenty:moor
+      biomesoplenty:fen
+      biomesoplenty:highland
+      biomesoplenty:land_of_lakes
+      biomesoplenty:boreal_forest
+      biomesoplenty:coniferous_forest
+      biomesoplenty:maple_woods
+      biomesoplenty:temperate_rainforest
+      biomesoplenty:mystic_grove
+      biomesoplenty:ominous_woods
+    ]
+  }
+  structures: [
+    {
+      name: wild_flax_grown
+      matchers: [
+        minecraft:grass
+        minecraft:dirt:2
+        biomesoplenty:grass
+      ]
+      height: [ 63, 255 ]
+      checkSurface: false
+      directions: down
+      chance: 0.35
+      count: 5
+      offset: [ 0, 0, 0 ]
+      noise: {
+        frequency: 0.04
+        threshold: 0.6
+      }
+      nonSolidChecks: [
+        [ 0, 1, 0 ]
+        [ 0, 2, 0 ]
+      ]
+      solidChecks: []
+      debugSpawns: true
+    }
+  ]
+}

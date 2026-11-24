@@ -545,11 +545,14 @@ glassShards.add(<quark:glass_shards:*>);
 val water = <ore:listAllwater>;
 water.addItems([<pyrotech:bucket_wood>.withTag({fluids: {FluidName: "water", Amount: 1000}}),<pyrotech:bucket_clay>.withTag({fluids: {FluidName: "water", Amount: 1000}}),<pyrotech:bucket_stone>.withTag({fluids: {FluidName: "water", Amount: 1000}}),<aether_legacy:skyroot_bucket:1>]);
 
-val smallKnife = <ore:smallKnife>;
-smallKnife.addItems([<animania:carving_knife:*>,<spartanweaponry:dagger_iron:*>,<spartanweaponry:dagger_bronze:*>,<spartanweaponry:dagger_gold:*>,<spartanweaponry:dagger_silver:*>,<spartanweaponry:dagger_diamond:*>,<spartancompat:dagger_holystone:*>,<spartancompat:dagger_zanite:*>,<spartancompat:dagger_gravitite:*>,<spartancompat:dagger_adamantium:*>,<spartanfire:dagger_dragonbone:*>,<spartanfire:dagger_fire_dragonbone:*>,<spartanfire:dagger_ice_dragonbone:*>,<spartanfire:dagger_jungle:*>,<spartanfire:dagger_desert:*>,<spartanfire:dagger_jungle_venom:*>,<spartanfire:dagger_desert_venom:*>,<spartanfire:dagger_ice_dragonsteel:*>,<spartanfire:dagger_fire_dragonsteel:*>,<mod_lavacow:famine:*>,<iceandfire:stymphalian_bird_dagger:*>]);
+val smallKnife = <ore:smallKnife>; //for cooking or whittling
+smallKnife.addItems([<animania:carving_knife:*>,<dungeontactics:bone_knife:*>,<dungeontactics:iron_knife:*>,<dungeontactics:steel_knife:*>]);
+
+val largeKnife = <ore:largeKnife>; //fully for combat
+largeKnife.addItems([<backstab:wood_dagger:*>,<backstab:stone_dagger:*>,<backstab:iron_dagger:*>,<backstab:diamond_dagger:*>,<backstab:gold_dagger:*>]);
 
 val cuttingImplement = <ore:cuttingImplement>;
-cuttingImplement.addItems([<contenttweaker:cooking_kit>,<contenttweaker:cooking_kit_quality>,<contenttweaker:cooking_kit_elite>,<contenttweaker:cooking_kit_premium>,<contenttweaker:cooking_kit_master>]);
+cuttingImplement.addItems([<contenttweaker:cooking_kit:*>,<contenttweaker:cooking_kit_quality:*>,<contenttweaker:cooking_kit_elite:*>,<contenttweaker:cooking_kit_premium:*>,<contenttweaker:cooking_kit_master:*>]);
 cuttingImplement.addAll(<ore:smallKnife>);
 
 val nitrogen = <ore:mulchNitrogen>;

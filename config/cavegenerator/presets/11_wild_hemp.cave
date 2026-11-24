@@ -1,0 +1,50 @@
+{
+  enabled: true
+  biomes: {
+    names: [
+      minecraft:plains
+      minecraft:mutated_plains
+      minecraft:forest
+      minecraft:forest_hills
+      minecraft:savanna
+      minecraft:jungle_edge
+      biomesoplenty:prairie
+      biomesoplenty:steppe
+      biomesoplenty:shrubland
+      biomesoplenty:brushland
+      biomesoplenty:chaparral
+      biomesoplenty:grassland
+      biomesoplenty:orchard
+      biomesoplenty:grove
+      biomesoplenty:woodland
+      biomesoplenty:seasonal_forest
+      biomesoplenty:bamboo_forest
+    ]
+  }
+  structures: [
+    {
+      name: wild_hemp_grown
+      matchers: [
+        minecraft:grass
+        minecraft:dirt:2
+        biomesoplenty:grass
+      ]
+      height: [ 63, 255 ]
+      checkSurface: false
+      directions: down
+      chance: 0.35
+      count: 5
+      offset: [ 0, 0, 0 ]
+      noise: {
+        frequency: 0.04
+        threshold: 0.6
+      }
+      nonSolidChecks: [
+        [ 0, 1, 0 ]
+        [ 0, 2, 0 ]
+      ]
+      solidChecks: []
+      debugSpawns: true
+    }
+  ]
+}

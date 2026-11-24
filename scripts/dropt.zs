@@ -1,5 +1,6 @@
 #loader crafttweaker reloadable
 
+import crafttweaker.item.IItemStack;
 import mods.dropt.Dropt;
   
 /* 
@@ -659,55 +660,153 @@ Dropt.list("plants_basic_dead")
       )
   );
 
+var knives = [] as IItemStack[];
+for item in <ore:smallKnife>.items {
+    knives += item;
+}
+for item in <ore:largeKnife>.items {
+    knives += item;
+}
+
+val tallGrassBlocks = [
+    "biomesoplenty:plant_0:0", "biomesoplenty:plant_0:1", "biomesoplenty:plant_0:2",
+    "biomesoplenty:plant_0:3", "biomesoplenty:plant_0:4", "biomesoplenty:plant_0:5",
+    "biomesoplenty:plant_0:6", "biomesoplenty:plant_0:7", "biomesoplenty:plant_0:8",
+    "biomesoplenty:plant_0:9", "biomesoplenty:plant_1:0", "biomesoplenty:plant_1:1",
+    "biomesoplenty:plant_1:2", "biomesoplenty:plant_1:7", "biomesoplenty:plant_1:11",
+    "minecraft:tallgrass:1", "minecraft:tallgrass:2",
+    "aether_legacy:aether_grass", "aether_legacy:enchanted_aether_grass"
+] as string[];
+
 Dropt.list("tall_grass_base_drops")
 
+// matches ONLY with ore:smallKnife or ore:largeKnife
   .add(Dropt.rule()
-      .matchBlocks(["biomesoplenty:plant_0:0","biomesoplenty:plant_0:1","biomesoplenty:plant_0:2","biomesoplenty:plant_0:3","biomesoplenty:plant_0:4","biomesoplenty:plant_0:5","biomesoplenty:plant_0:6","biomesoplenty:plant_0:7","biomesoplenty:plant_0:8","biomesoplenty:plant_0:9","biomesoplenty:plant_1:0","biomesoplenty:plant_1:1","biomesoplenty:plant_1:2","biomesoplenty:plant_1:7","biomesoplenty:plant_1:11","minecraft:tallgrass:1","minecraft:tallgrass:2","aether_legacy:aether_grass","aether_legacy:enchanted_aether_grass"])
+      .matchBlocks(tallGrassBlocks)
       .matchHarvester(Dropt.harvester()
           .type("PLAYER")
-	  )
-      .replaceStrategy("ADD")
-      .addDrop(Dropt.drop()
-          .selector(Dropt.weight(4200)) // drops nothing if selected
+          .mainHand(knives)
       )
-	  .addDrop(Dropt.drop()
+      .replaceStrategy("REPLACE_ALL")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(400)) // nothing
+      )
+      .addDrop(Dropt.drop()
           .selector(Dropt.weight(840)) // plant fiber
           .items([<pyrotech:material:12>])
       )
-	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(420))
-          .items([<pyrotech:tinder>]) // dried plant fiber
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(420)) // dried plant fiber
+          .items([<pyrotech:tinder>])
       )
-	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(15)) // Worm
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(40))  // wheat seeds
+          .items([<minecraft:wheat_seeds>])
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(35))  // flax seeds
+          .items([<textiles:flax_seeds>])
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(35))  // hemp seeds
+          .items([<betterwithmods:hemp>])
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(35))  // chili pepper seeds
+          .items([<rustic:chili_pepper_seeds>])
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(35))  // tomato seeds
+          .items([<rustic:tomato_seeds>])
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(15))  // worm
           .items([<rats:little_black_worm>])
       )
-	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(14)) // Bathroom berry
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(14))  // mulberry
           .items([<betterwithaddons:food_mulberry>])
+      )
+  )
+
+// matches with anything else
+  .add(Dropt.rule()
+      .matchBlocks(tallGrassBlocks)
+      .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+      )
+      .replaceStrategy("REPLACE_ALL")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(94)) // nothing
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(6))  // plant fiber
+          .items([<pyrotech:material:12>])
       )
   );
 
-Dropt.list("double_tall_grass_base_drops")
+val tallGrassBlocksDouble = [
+    "minecraft:double_plant:2","minecraft:double_plant:3"
+] as string[];
 
+Dropt.list("double_tall_grass_base_drops")
   .add(Dropt.rule()
-      .matchBlocks(["minecraft:double_plant:2","minecraft:double_plant:3"])
-      .replaceStrategy("ADD")
-      .addDrop(Dropt.drop()
-          .selector(Dropt.weight(4200)) // drops nothing if selected
+      .matchBlocks(tallGrassBlocksDouble)
+      .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+          .mainHand(knives)
       )
-	  .addDrop(Dropt.drop()
+      .replaceStrategy("REPLACE_ALL")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(400)) // drops nothing if selected
+      )
+      .addDrop(Dropt.drop()
           .selector(Dropt.weight(840)) // plant fiber
           .items([<pyrotech:material:12>])
       )
-	  .addDrop(Dropt.drop()
+      .addDrop(Dropt.drop()
           .selector(Dropt.weight(420))
           .items([<pyrotech:tinder>]) // dried plant fiber
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(40)) // Minecraft wheat seeds
+          .items([<minecraft:wheat_seeds>])
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(35)) // Textiles flax seeds
+          .items([<textiles:flax_seeds>])
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(35)) // BWM hemp seeds
+          .items([<betterwithmods:hemp>])
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(35)) // Rustic chili pepper seeds
+          .items([<rustic:chili_pepper_seeds>])
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(35)) // Rustic tomato seeds
+          .items([<rustic:tomato_seeds>])
       )
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(8)) // Strange flower
           .items([<dungeontactics:flower_ailment>])
-	  )
+      )
+  )
+
+  .add(Dropt.rule()
+      .matchBlocks(tallGrassBlocksDouble)
+      .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+      )
+      .replaceStrategy("REPLACE_ALL")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(90)) // drops nothing if selected
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10)) // plant fiber
+          .items([<pyrotech:material:12>])
+      )
   );
 
 Dropt.list("wild_flax_base_drops")
@@ -724,7 +823,7 @@ Dropt.list("wild_flax_base_drops")
       )
 	  .addDrop(Dropt.drop()
           .selector(Dropt.weight(2000)) // flax
-          .items([<harvestcraft:flaxitem>])
+          .items([<textiles:flax_seeds>])
       )
 	  .addDrop(Dropt.drop()
           .selector(Dropt.weight(500))
