@@ -1,0 +1,30 @@
+{
+  "configVersion": 2,
+  "javaInstallationsCache": [
+    "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath_target_23296062\\java.exe",
+    "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe"
+  ],
+  "javaInstallation": 0,
+  "minMemoryMB": 1024,
+  "maxMemoryMB": 6144,
+  "recommendedMinMemoryMB": 0,
+  "estimatedMemoryOverheadMB": 1024,
+  "useRecommendedJvmFlags": true,
+  "garbageCollector": "G1GC",
+  "customOptions": [],
+  "hideSettingsOnLaunch": false,
+  "useGamescope": false,
+  "gamescopeOptions": "",
+  "forwardLogs": false,
+  "deduplicateJvmOptions": true,
+  "recordJfr": false,
+  "showLogWindow": true,
+  "allowDebugger": false,
+  "waitForDebugger": false,
+  "mixinDebug": false,
+  "mixinDebugExport": false,
+  "mixinDebugCount": false,
+  "fmlDebugAts": false,
+  "rfbDumpClasses": false,
+  "rfbDumpPerTransformer": false
+}

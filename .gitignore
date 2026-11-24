@@ -144,3 +144,6 @@ config/Loot Overhaul/Useful Info/Item IDs.txt
 config/Loot Overhaul/Useful Info/Ore Dictionary Info.txt
 config/Loot Overhaul/Useful Info/Potion IDs.txt
 config/Loot Overhaul/Useful Info/Potion Type IDs.txt
+/voxtavium_shader_cache
+/shaderpacks
+/config/voxtavium/shaderpacks

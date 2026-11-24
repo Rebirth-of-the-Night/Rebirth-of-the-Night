@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "item": "minecraft:lava_bucket",
+      "light": 15
+    },
+    {
+      "item": "minecraft:glowstone_dust",
+      "light": 8
+    },
+    {
+      "item": "minecraft:blaze_rod",
+      "light": 10
+    }
+  ],
+  "entities": [
+    {
+      "entity": "minecraft:xp_orb",
+      "light": 8
+    }
+  ]
+}
