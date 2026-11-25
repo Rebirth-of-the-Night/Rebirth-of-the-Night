@@ -301,7 +301,9 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <da:flame_metal_scrap>.addTooltip("Turns into Glass when it cools down.");
 <contenttweaker:blowpipe>.addTooltip("Use with Molten Glass in inventory to glassblow.");
 <totf:cleaner>.addTooltip("Cleans cooking appliances.");
-
+<contenttweaker:info>.addTooltip("This is a bookmarked item. Press" + format.gold(" A") + "" + format.gray(" on an item to bookmark or remove it from this list."));
+<contenttweaker:info>.addTooltip("Press" + format.gold(" R") + "" + format.gray(" on items to see if they have any apparent Recipe."));
+<contenttweaker:info>.addTooltip("Press" + format.gold(" U") + "" + format.gray(" on items to see if they have any apparent Use."));
 
 // Charm
 //<charm:totem_of_returning:*>.addTooltip("§5Right-click a block while holding the totem to bind yourself to that point. Right click again to return to that point.");

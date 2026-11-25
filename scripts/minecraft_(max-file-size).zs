@@ -35,6 +35,8 @@ JEI.removeAndHide(<minecraft:written_book>);
 <ore:blockMossy>.addItems([<minecraft:mossy_cobblestone>]);
 JEI.removeAndHide(<forge:bucketfilled:*>);
 
+JEI.removeAndHide(<fickle:plushie>.withTag({PlushieId: "fickle"}));
+
 // Explodey stuff
 recipes.remove(<minecraft:tnt>);
 recipes.addShapeless("tnt_dynamite",<minecraft:tnt>,[ <betterwithmods:dynamite_bundle>, <betterwithmods:dynamite_bundle>, <betterwithmods:dynamite_bundle>, <betterwithmods:dynamite_bundle>]);
@@ -99,7 +101,6 @@ recipes.remove(<growthcraft_cellar:culture_jar>);
 recipes.remove(<iceandfire:jar_empty>);
 
 // Contenttweaker icons
-JEI.removeAndHide(<contenttweaker:info>);
 JEI.removeAndHide(<contenttweaker:four_gem_ingots>);
 JEI.removeAndHide(<contenttweaker:four_gems>);
 
@@ -624,30 +625,35 @@ recipes.remove(<minecraft:bed:*>);
 
 var moulding_wood = MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
 
-recipes.addShaped("Rebirth_of_the_Bed",<minecraft:bed>,[
-    [<minecraft:carpet:*>,<minecraft:carpet:*>,<betterwithmods:material:41>],
-    [<ore:blockWool>,<betterwithmods:aesthetic:9>,<ore:blockWool>],
-    [moulding_wood,<ore:slabWood>,moulding_wood]
-]);
+val bolts = [
+    <textiles:spindle:1>,  <textiles:spindle:2>,  <textiles:spindle:3>,  <textiles:spindle:4>,
+    <textiles:spindle:5>,  <textiles:spindle:6>,  <textiles:spindle:7>,  <textiles:spindle:8>,
+    <textiles:spindle:9>,  <textiles:spindle:10>, <textiles:spindle:11>, <textiles:spindle:12>,
+    <textiles:spindle:13>, <textiles:spindle:14>, <textiles:spindle:15>, <textiles:spindle:16>
+] as IItemStack[];
 
-var BedColors = <minecraft:bed:0>|<minecraft:bed:1>|<minecraft:bed:2>|<minecraft:bed:3>|<minecraft:bed:4>|<minecraft:bed:5>|<minecraft:bed:6>|<minecraft:bed:7>|<minecraft:bed:8>|<minecraft:bed:9>|<minecraft:bed:10>|<minecraft:bed:11>|<minecraft:bed:12>|<minecraft:bed:13>|<minecraft:bed:14>|<minecraft:bed:15>;
+val dyes = [
+    <ore:dyeWhite>,     <ore:dyeOrange>, <ore:dyeMagenta>, <ore:dyeLightBlue>,
+    <ore:dyeYellow>,    <ore:dyeLime>,   <ore:dyePink>,    <ore:dyeGray>,
+    <ore:dyeLightGray>, <ore:dyeCyan>,   <ore:dyePurple>,  <ore:dyeBlue>,
+    <ore:dyeBrown>,     <ore:dyeGreen>,  <ore:dyeRed>,     <ore:dyeBlack>
+] as IIngredient[];
 
-recipes.addShapeless("white_bed",<minecraft:bed:0>,[BedColors,<ore:dyeWhite>]);
-recipes.addShapeless("orange_bed",<minecraft:bed:1>,[BedColors,<ore:dyeOrange>]);
-recipes.addShapeless("magenta_bed",<minecraft:bed:2>,[BedColors,<ore:dyeMagenta>]);
-recipes.addShapeless("light_blue_bed",<minecraft:bed:3>,[BedColors,<ore:dyeLightBlue>]);
-recipes.addShapeless("yellow_bed",<minecraft:bed:4>,[BedColors,<ore:dyeYellow>]);
-recipes.addShapeless("lime_bed",<minecraft:bed:5>,[BedColors,<ore:dyeLime>]);
-recipes.addShapeless("pink_bed",<minecraft:bed:6>,[BedColors,<ore:dyePink>]);
-recipes.addShapeless("gray_bed",<minecraft:bed:7>,[BedColors,<ore:dyeGray>]);
-recipes.addShapeless("light_gray_bed",<minecraft:bed:8>,[BedColors,<ore:dyeLightGray>]);
-recipes.addShapeless("cyan_bed",<minecraft:bed:9>,[BedColors,<ore:dyeCyan>]);
-recipes.addShapeless("purple_bed",<minecraft:bed:10>,[BedColors,<ore:dyePurple>]);
-recipes.addShapeless("blue_bed",<minecraft:bed:11>,[BedColors,<ore:dyeBlue>]);
-recipes.addShapeless("brown_bed",<minecraft:bed:12>,[BedColors,<ore:dyeBrown>]);
-recipes.addShapeless("green_bed",<minecraft:bed:13>,[BedColors,<ore:dyeGreen>]);
-recipes.addShapeless("red_bed",<minecraft:bed:14>,[BedColors,<ore:dyeRed>]);
-recipes.addShapeless("black_bed",<minecraft:bed:15>,[BedColors,<ore:dyeBlack>]);
+val BedColors = <minecraft:bed:*>;
+
+for i in 0 to 16 {
+    val bed = <minecraft:bed>.definition.makeStack(i);
+
+    // bed crafting
+    recipes.addShaped("Rebirth_of_the_Bed_" ~ i, bed, [
+        [null, bolts[i], <betterwithmods:material:41>],
+        [<ore:blockWool>, <betterwithmods:aesthetic:9>, <ore:blockWool>],
+        [moulding_wood, <ore:slabWood>, moulding_wood]
+    ]);
+
+    // bed dyeing
+    recipes.addShapeless("dye_bed_" ~ i, bed, [BedColors, dyes[i]]);
+}
 
 recipes.removeByRecipeName("aether_legacy_addon:white_skyroot_bed");
 
@@ -731,6 +737,13 @@ recipes.addShaped("quality_bucket", <minecraft:bucket>,[
 recipes.addShaped("blowpipe",<contenttweaker:blowpipe>,[
     [<ore:genericMetal>,<ore:genericMetal>,<ore:genericMetal>]
 ]);
+
+recipes.addShaped("tailoring_tools", <contenttweaker:tailoring_tools>,[
+    [<betterwithmods:material:3>,<contenttweaker:material_part:1>,<betterwithmods:material:3>],
+    [<ore:plankWood>,<contenttweaker:material_part:1>,<ore:plankWood>],
+    [<betterwithmods:material:3>,<ore:fabricBoltSoft>,<betterwithmods:material:3>]
+]);
+
 // new redstone recipes
 recipes.remove(<minecraft:daylight_detector>);
 recipes.addShaped("daylightsensor", <minecraft:daylight_detector>,[
