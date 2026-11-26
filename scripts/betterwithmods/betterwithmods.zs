@@ -235,10 +235,12 @@ var blade = <pyrotech:sawmill_blade_iron>;
 var belt = <ore:hideBelt>;
 var stone = <ore:stone>;
 var timber = <earthworks:item_timber>;
+var nails = <minetraps:nails>;
 var dense_redstone = <pyrotech:material:36>;
 var cobblestone = <ore:cobblestone>;
 var stick = <ore:stickWood>;
 var durable_fiber = <ore:durableFiber>;
+var durable_bolt = <ore:fabricBoltSturdy>;
 var tanned_hide = <ore:hideTanned>;
 var paper = <ore:paper>;
 var spring = <betterwithmods:material:49>;
@@ -432,17 +434,10 @@ recipes.addShapeless("betterwithmodsDynamite", <betterwithmods:dynamite>*64,
 [<ore:paper>, <ore:paper>, <ore:paper>, 
 <betterwithmods:material:28>, <betterwithmods:material:29>, <spartanweaponry:material:2>]);
 
-// put wind sail recipe using slabs above recipe using siding so noobs dont ask questions
+// timber sailing
 recipes.remove(<betterwithmods:material:11>);
-recipes.addShaped("Wind Sail Slab", <betterwithmods:material:11>,
-  [[cloth,cloth,cloth],
-  [cloth,cloth,cloth],
-  [slab_wood,slab_wood,slab_wood]]);
-
-recipes.addShaped("Wind Sail Siding", <betterwithmods:material:11>,
-  [[cloth,cloth,cloth],
-  [cloth,cloth,cloth],
-  [siding_wood,siding_wood,siding_wood]]); 
+recipes.addShaped("wind_sail", <betterwithmods:material:11>,
+  [[timber,nails,durable_bolt]]);
 
 // cauldron
 recipes.remove(<betterwithmods:cooking_pot:1>);

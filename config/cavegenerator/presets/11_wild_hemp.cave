@@ -17,7 +17,6 @@
       biomesoplenty:orchard
       biomesoplenty:grove
       biomesoplenty:woodland
-      biomesoplenty:seasonal_forest
       biomesoplenty:bamboo_forest
     ]
   }
@@ -29,10 +28,10 @@
         minecraft:dirt:2
         biomesoplenty:grass
       ]
-      height: [ 63, 255 ]
+      height: [ 63, 126 ]
       checkSurface: false
       directions: down
-      chance: 0.35
+      chance: 0.3
       count: 5
       offset: [ 0, 0, 0 ]
       noise: {

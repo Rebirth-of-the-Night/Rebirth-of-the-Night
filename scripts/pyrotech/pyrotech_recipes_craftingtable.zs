@@ -82,10 +82,6 @@ JEI.hideCategory("pyrotech.worktable");
 JEI.hideCategory("pyrotech.stone.oven");
 JEI.hideCategory("pyrotech.stone.crucible");
 JEI.hideCategory("pyrotech.brick.mill");
-JEI.hideCategory("pyrotech.brick.oven");
-JEI.hideCategory("pyrotech.brick.crucible");
-JEI.hideCategory("pyrotech.chopping");
-JEI.hideCategory("pyrotech.stone.mill");
 furnace.remove(<pyrotech:mushroom_red_roasted>);
 furnace.remove(<pyrotech:mushroom_brown_roasted>);
 /* furnace.remove(<pyrotech:apple_baked>); */

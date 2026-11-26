@@ -247,7 +247,7 @@ recipes.addShaped("jungle_myrmex_swarm",<iceandfire:myrmex_jungle_swarm>*6,[
 recipes.remove(<iceandfire:blindfold>);
 recipes.addShaped("inf_blindfold",<iceandfire:blindfold>,[
     [null,null,null],
-    [<ore:twine>,<betterwithmods:material:4>|<mod_lavacow:curseweave_cloth>,<ore:twine>],
+    [<ore:twine>,<ore:fabricBoltSturdy>,<ore:twine>],
     [null,null,null]
 ]);
 

@@ -147,3 +147,7 @@ config/Loot Overhaul/Useful Info/Potion Type IDs.txt
 /voxtavium_shader_cache
 /shaderpacks
 /config/voxtavium/shaderpacks
+/java/corretto-25
+/cache
+/cache/thalliumrelauncher
+/downloads/corretto

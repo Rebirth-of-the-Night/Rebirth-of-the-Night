@@ -1,12 +1,12 @@
-import com.oblivioussp.spartanweaponry.item.ItemSwordBase
-ItemSwordBase.metaClass.makePublic('attackDamage')
-ItemSwordBase.metaClass.makePublic('attackSpeed')
+def setDamage = { id, float dmg -> item(id).item.@attackDamage = dmg - 1 }
+def setSpeed  = { id, double spd -> item(id).item.@attackSpeed = spd }
 
-item('spartanweaponry:halberd_invar').item.attackDamage = 12
-item('spartanweaponry:halberd_invar').item.attackSpeed = 1.4
-item('spartanweaponry:pike_invar').item.attackDamage = 7.5
+setDamage 'spartanweaponry:halberd_invar', 12
+setSpeed  'spartanweaponry:halberd_invar', 1.4
 
-item('spartanweaponry:staff_diamond').item.attackDamage = 6
+setDamage 'spartanweaponry:pike_invar', 7.5
 
-item('spartanweaponry:spear_wood').item.attackDamage = 0.5
-item('spartanweaponry:spear_wood').item.attackSpeed = 1.8
+setDamage 'spartanweaponry:staff_diamond', 6
+
+setDamage 'spartanweaponry:spear_wood', 0.5
+setSpeed  'spartanweaponry:spear_wood', 1.8

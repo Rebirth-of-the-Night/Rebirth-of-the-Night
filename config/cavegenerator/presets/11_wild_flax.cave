@@ -23,6 +23,7 @@
       biomesoplenty:temperate_rainforest
       biomesoplenty:mystic_grove
       biomesoplenty:ominous_woods
+      biomesoplenty:seasonal_forest
     ]
   }
   structures: [
@@ -33,10 +34,10 @@
         minecraft:dirt:2
         biomesoplenty:grass
       ]
-      height: [ 63, 255 ]
+      height: [ 63, 126 ]
       checkSurface: false
       directions: down
-      chance: 0.35
+      chance: 0.3
       count: 5
       offset: [ 0, 0, 0 ]
       noise: {

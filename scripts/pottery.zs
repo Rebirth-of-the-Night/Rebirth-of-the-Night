@@ -31,7 +31,6 @@ recipes.removeByRecipeName("ceramics:uncrafting/unfired_clay_extension");
 JEI.hideCategory("artisanworktables_mage_worktable");
 JEI.hideCategory("artisanworktables_potter_worktable");
 JEI.hideCategory("artisanworktables_potter_workstation");
-JEI.hideCategory("artisanworkstumps_mage");
 
 recipes.addShaped("wares_table", <artisanworkstumps:workstump_potter>,
  [[null,<minecraft:stone_pressure_plate>,null],

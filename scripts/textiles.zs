@@ -9,6 +9,7 @@ import crafttweaker.oredict.IOreDictEntry;
 val bolt_canvas = <textiles:spindle:17>;
 val spindle = <textiles:spindle>;
 val durableFabric = <ore:durableFabric>;
+val durableBolt = <ore:fabricBoltSturdy>;
 val canvas = <betterwithmods:material:4>;
 val cushion = <textiles:cushion>;
 val durableFiber = <ore:durableFiber>;
@@ -22,6 +23,7 @@ JEI.removeAndHide(<textiles:material:11>);
 JEI.removeAndHide(<textiles:material:12>);
 
 recipes.remove(<textiles:spindle:*>);
+recipes.remove(<textiles:sack>);
 
 //canvas implementation
 recipes.addShaped("bolt_canvas", bolt_canvas*1, [
@@ -34,9 +36,9 @@ recipes.addShapeless("bolt_canvas_return", canvas*8, [
 ]);
 
 recipes.addShaped("canvas_cushion", cushion, [
-    [bolt_canvas,bolt_canvas,bolt_canvas],
+    [durableBolt,durableBolt,durableBolt],
     [durableFiber, <textiles:feather_block>|<pyrotech:thatch>|<minecraft:hay_block>, durableFiber],
-    [bolt_canvas,bolt_canvas,bolt_canvas]
+    [bolt_canvas,durableBolt,durableBolt]
 ]);
 
 recipes.addShaped("sack", sack, [
