@@ -1,0 +1,84 @@
+{
+  /**
+   * The names of portable inventory adaptors to disable.
+   * @type list of strings
+   */
+  "disabledAdaptors": [],
+
+  /**
+   * Should similar inventory interaction features from other mods be automatically disabled?
+   * @type boolean
+   */
+  "disableOtherModInvFeatures": true,
+
+  /**
+   * Client-side configuration
+   */
+  "client": {
+    /**
+     * The offset by which the selected slot in an inventory should change when holding shift while scrolling.
+     * @type integer with minimum 0
+     */
+    "selectedSlotFastOffset": 3,
+
+    /**
+     * The minimum number of slots an inventory should have for the grid tooltip renderer to be used.
+     * @type integer with minimum -1
+     */
+    "tooltipGridMinSlots": -1,
+
+    /**
+     * The number of columns to display in grid mode.
+     * @type integer with minimum 1
+     */
+    "tooltipGridColumns": 9,
+
+    /**
+     * The gap between slots in grid mode.
+     * @type integer with minimum 0
+     */
+    "tooltipGridGap": 1,
+
+    /**
+     * The minimum number of slots an inventory should have for the small-grid tooltip renderer to be used.
+     * @type integer with minimum -1
+     */
+    "tooltipSmallGridMinSlots": 28,
+
+    /**
+     * The number of columns to display in small-grid mode.
+     * @type integer with minimum 1
+     */
+    "tooltipSmallGridColumns": 12,
+
+    /**
+     * The scale factor for slots in small-grid mode.
+     * @type float between 0.0 and 1.0
+     */
+    "tooltipSmallGridScale": 0.75f,
+
+    /**
+     * The gap between slots in small-grid mode.
+     * @type integer with minimum 0
+     */
+    "tooltipSmallGridGap": 1,
+
+    /**
+     * The minimum number of slots an inventory should have for the deck tooltip renderer to be used.
+     * @type integer with minimum -1
+     */
+    "tooltipDeckMinSlots": 60,
+
+    /**
+     * The number of inventory before above and after the selected one to display in deck mode.
+     * @type integer with minimum 0
+     */
+    "tooltipDeckExtent": 4,
+
+    /**
+     * The gap between slots in deck mode.
+     * @type integer with minimum 0
+     */
+    "tooltipDeckGap": 12
+  }
+}

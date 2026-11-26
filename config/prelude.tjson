@@ -1,0 +1,76 @@
+{
+  /**
+   * Mod loading configuration
+   */
+  "mods": {
+    /**
+     * What should happen if a config key is missing while loading a Prelude mod's config file?
+     * This could happen, for instance, if a new config key is added in an update to the mod.
+     * If set to IGNORE, the missing key is ignored and the default value will be used.
+     * If set to OVERWRITE, the config file will be overwritten to add the new keys.
+     * If set to FAIL, the game will crash with an error message indicating which key was missing.
+     * @type [IGNORE, OVERWRITE, FAIL]
+     */
+    "missingConfigKeyLoadBehaviour": "IGNORE",
+
+    /**
+     * What should happen if a config key is missing while syncing a Prelude mod's config from a server?
+     * This could happen, for instance, if the mod versions are mismatched or if the server is misconfigured.
+     * If set to IGNORE, the missing key is ignored and the locally-configured value will be used.
+     * If set to OVERWRITE, the default value for the key will be used.
+     * If set to FAIL, the game will disconnect from the server.
+     * @type [IGNORE, OVERWRITE, FAIL]
+     */
+    "missingConfigKeySyncBehaviour": "IGNORE"
+  },
+
+  /**
+   * Networking configuration
+   */
+  "networking": {
+    /**
+     * The maximum time, in milliseconds, that sync packets for unbound sync hosts stay in the deliver buffer before being dropped.
+     * Set to zero to disable the deliver buffer entirely.
+     * @type long with minimum 0
+     */
+    "syncDeliverBufferTtl": 1000l,
+
+    /**
+     * If enabled, item stacks will include serializable capabilities when being transmitted from the client to the server.
+     * This happens, for example, when manipulating the player inventory in creative mode.
+     * @type boolean
+     */
+    "sendItemStackCapsToServer": true
+  },
+
+  /**
+   * Unclunkification module configuration
+   */
+  "unclunkify": {
+    /**
+     * Enable unclunkification tweaks?
+     * @type boolean
+     */
+    "enabled": false,
+
+    /**
+     * Speed multiplier applied to all mining.
+     * @type float with minimum 0.0
+     */
+    "globalMiningSpeedMultiplier": 1.25f,
+
+    /**
+     * Maximum tool speed for which the tool speed modifier applies.
+     * For reference, vanilla diamond tools have a tool speed of 8.
+     * @type float with minimum 0.0
+     */
+    "toolSpeedThreshold": 8.0f,
+
+    /**
+     * Tool speed modifier coefficient. Modified tool speed is computed as follows:
+     * newSpeed = oldSpeed + toolSpeedModifier * (toolSpeedThreshold - oldSpeed)
+     * @type float between 0.0 and 1.0
+     */
+    "toolSpeedModifier": 0.33f
+  }
+}
