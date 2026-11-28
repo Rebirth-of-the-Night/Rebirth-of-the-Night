@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "chunkcomfort:statue/wind_statue"
+    },
+    "facing=east": {
+      "model": "chunkcomfort:statue/wind_statue",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chunkcomfort:statue/wind_statue",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chunkcomfort:statue/wind_statue",
+      "y": 270
+    }
+  }
+}

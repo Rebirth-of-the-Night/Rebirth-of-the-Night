@@ -11,23 +11,29 @@ chunkcomfort.effects.comfort=Comfort
 # ============================================================
 
 # Main header shown at the top of Comfort-related tooltips
-tooltip.chunkcomfort.header=§8[§6Hold CTRL for comfort info§8]
+tooltip.chunkcomfort.header=§8[§6Comfortable§8] §7Hold CTRL for comfort info
 
-# Tooltip shown for blocks counted as valid comfort fire sources
-# (campfires, fireplaces, etc.)
+# Tooltip shown for blocks counted as the comfort anchor (Fire Blocks config, default the Redstone Hearth)
 tooltip.chunkcomfort.fireblocks=§6A comfy symbol of home, key to establishing a sheltered comfort zone.
 
 # Tooltip for items capable of creating a valid comfort fire
 # (flint & steel, fire charges, etc.)
-tooltip.chunkcomfort.firestarters=§6UNUSED LANG.
+tooltip.chunkcomfort.firestarters=§6Used to create a comfy fire establishing a warm, lit and sheltered comfort zone.
 
 tooltip.chunkcomfort.inactive=§8[§6Comfortable§8].
 
-tooltip.chunkcomfort.blacklisted.environment=§8[§6CC§8] §7This place feels deeply unnatural, as if the land itself rejects comfort.
+# Shown instead of the line above for the first missing comfort requirement
+tooltip.chunkcomfort.missing.shelter=§8[§6Comfortable§8] §7It's too exposed for comfort.
+tooltip.chunkcomfort.missing.light=§8[§6Comfortable§8] §7It's too dark for comfort.
+tooltip.chunkcomfort.missing.fire=§8[§6Comfortable§8] §7A §cRedstone Hearth§7 would give comfort.
+tooltip.chunkcomfort.missing.hot=§8[§6Comfortable§8] §7It's too hot for comfort.
+tooltip.chunkcomfort.missing.cold=§8[§6Comfortable§8] §7It's too cold for comfort.
 
-tooltip.chunkcomfort.blacklisted.boss=§8[§6CC§8] §7A powerful presence looms nearby, comfort is impossible while it draws breath.
+tooltip.chunkcomfort.blacklisted.environment=§8[§6Comfortable§8] §7This place feels deeply unnatural, as if the land itself rejects comfort.
 
-tooltip.chunkcomfort.level=§6Current Comfort: %1$s
+tooltip.chunkcomfort.blacklisted.boss=§8[§6Comfortable§8] §7A powerful presence looms nearby, comfort is impossible while it draws breath.
+
+tooltip.chunkcomfort.level=§6Comfort: %1$s/%2$s
 tooltip.chunkcomfort.level.next=§6Points to next level: %1$s
 tooltip.chunkcomfort.level.maxed=Comfort is at its peak
 
@@ -35,6 +41,11 @@ tooltip.chunkcomfort.positive.effects=§2Comfort Effects:
 tooltip.chunkcomfort.positive.effects.plus=§a+
 tooltip.chunkcomfort.negative.effects=§4Negated Effects:
 tooltip.chunkcomfort.positive.effects.minus=§c-
+
+# Unlocked comfort effect / negation that is waiting on a lit statue candle in the comfort zone
+# %1$s = effect name, %2$s = statue name(s) with a candle slot for it
+tooltip.chunkcomfort.positive.effects.needs=§8+ %1$s §7(light candle %3$s on a %2$s)
+tooltip.chunkcomfort.negative.effects.needs=§8- %1$s §7(light candle %3$s on a %2$s)
 
 tooltip.chunkcomfort.spacer=
 
@@ -217,7 +228,7 @@ debug.chunkcomfort.light_required=Light Level Required: %1$s
 debug.chunkcomfort.light_level=, Level: %1$s
 
 # Fire requirement enabled
-debug.chunkcomfort.fire_required=Fire Required: true
+debug.chunkcomfort.fire_required=Hearth Required: true
 
 # Whether valid fire source was found nearby
 debug.chunkcomfort.fire_found=, Found: %1$s
@@ -245,8 +256,19 @@ chunkcomfort.config.invalid_petting_entry=Invalid ChunkComfort petting comfort c
 
 
 # Messages displayed for comfort levels
-chunkcomfort.config.message.1=§6Restless nights
-chunkcomfort.config.message.2=§6Satisfaction
+chunkcomfort.config.message.1=§6You dreamt of a warm, sheltered house with a §cHearth§6, a pet, and a carpet on the floor
+chunkcomfort.config.message.2=§6As you wake up a thought lingers, surely a sheltered place with a bed, a §cHearth§6 and some drapery would beat this?
+chunkcomfort.config.message.3=§6You dreamt of petting your pet while watching the soft glow of the hearth
+chunkcomfort.config.message.4=§6You feel refreshed, though your residence could use some improvements
+chunkcomfort.config.message.5=§6As you wake and look around your house, you feel somewhat established
+chunkcomfort.config.message.6=§6You had one of those fleeting dreams about building a library expansion
+chunkcomfort.config.message.7=§6Open sky, fresh air... it all sounds so romantic, but nothing beats a place like home
+chunkcomfort.config.message.8=§6You dreamt about beating the Ender Dragon and displaying its trophy egg!
+chunkcomfort.config.message.9=§6Cats, dogs, parrots!? All in the same place — wild! But also comfy!
+chunkcomfort.config.message.10=§6As you open your eyes, there is but one thing you can think of... a parrot called Eagle!
+chunkcomfort.config.message.11=§6You dreamt about a world, Dregora... and being sheltered against the probability of being smitten
+chunkcomfort.config.message.12=§6You wake and have an existential crisis: how much more comfort makes things comfier?!
+chunkcomfort.config.message.13=§6You no longer need to dream — you are living it
 
 
 # Messages when comfort increased
@@ -267,4 +289,86 @@ toast.chunkcomfort.tierup.tier8=Comfort level up.
 toast.chunkcomfort.tierup.tier9=Every corner tells a story.
 toast.chunkcomfort.tierup.tier10=Comfort level up.
 toast.chunkcomfort.tierup.tier11=The home of your dreams.
-toast.chunkcomfort.tierup.tier12=Nothing left to wish for.
+toast.chunkcomfort.tierup.tier12=Nothing left to wish for. 
+
+# ============================================================
+# Statues / Candles
+# ============================================================
+
+itemGroup.chunkcomfort=ChunkComfort
+item.chunkcomfort.candle.name=Candle
+# Tooltip on every Statue Candle Item (no comfort of its own), the info line only while CTRL is held
+tooltip.chunkcomfort.candle.header=§8[§6Comfortable§8] §7Statue Candle - Hold CTRL for info
+tooltip.chunkcomfort.candle.info=§6Sneak-right-click the base of a Comfort Statue to place a candle.
+tooltip.chunkcomfort.candle.info2=§7If that candle spot is assigned to a Comfort effect and you have unlocked its comfort level, you gain that positive effect, or are protected from that negative effect, while in the comfort zone.
+
+tile.chunkcomfort.artisan_statue.name=Artisan Statue
+tile.chunkcomfort.fortune_statue.name=Fortune Statue
+tile.chunkcomfort.wind_statue.name=Swavaste Idol
+tile.chunkcomfort.guardian_statue.name=Sealing Statue
+tile.chunkcomfort.elements_statue.name=Elements Statue
+tile.chunkcomfort.arcane_statue.name=Arcane Statue
+tile.chunkcomfort.warrior_statue.name=Warrior Statue
+tile.chunkcomfort.healer_statue.name=Healer Statue
+
+# Hearth (comfort anchor)
+tile.chunkcomfort.redstone_hearth.name=Redstone Hearth
+chunkcomfort.hearth.already_nearby=§7Another hearth is already nearby, this one joins its comfort zone
+
+# Plaque dedication shown at the top of the statue tooltip (leave a statue out to show none)
+tooltip.chunkcomfort.statue.plaque=§6§o%1$s
+tile.chunkcomfort.artisan_statue.plaque=In Honor of Star Artsy the Artisan
+tile.chunkcomfort.fortune_statue.plaque=In Memory of Skully the Cat
+tile.chunkcomfort.wind_statue.plaque=
+tile.chunkcomfort.guardian_statue.plaque=
+tile.chunkcomfort.elements_statue.plaque=FonnyMunkey & Kotlin
+tile.chunkcomfort.arcane_statue.plaque=cdstk, Nanonaitor & Cath
+tile.chunkcomfort.healer_statue.plaque=NLBlackHeavenNL
+tile.chunkcomfort.warrior_statue.plaque=Shivaxi
+
+# Dedication lines under the plaque, one tooltip line per .descN (leave a statue out to show none)
+tooltip.chunkcomfort.statue.desc=§7§o%1$s
+tile.chunkcomfort.artisan_statue.desc1=A statue of fine craftsmanship, raised in Honor of Star Artsy the Artisan.
+tile.chunkcomfort.artisan_statue.desc2=Those who keep it near are said to share in Artsy’s blessings.
+tile.chunkcomfort.fortune_statue.desc1=A statue of fine craftsmanship, raised in loving Memory of Skully the Cat.
+tile.chunkcomfort.fortune_statue.desc2=Those who keep it near are said to feel Skully’s gentle presence.
+tile.chunkcomfort.wind_statue.desc1=A statue of fine craftsmanship, raised in of Swavaste.
+tile.chunkcomfort.wind_statue.desc2=Those who keep it near are said to be favored by the winds.
+tile.chunkcomfort.guardian_statue.desc1=A stone idol of concerning visage.
+tile.chunkcomfort.guardian_statue.desc2=Those who keep it near are said to prevent disgrace.
+tile.chunkcomfort.elements_statue.desc1=A statue of fine craftsmanship, raised in Honor of FonnyMunkey & Kotlin.
+tile.chunkcomfort.elements_statue.desc2=Those who keep it near are said to share in their blessings.
+tile.chunkcomfort.arcane_statue.desc1=A statue of fine craftsmanship, raised in Honor of cdstk, Nanonaitor & Cath.
+tile.chunkcomfort.arcane_statue.desc2=Those who keep it near are said to share in their blessings.
+tile.chunkcomfort.healer_statue.desc1=A statue of fine craftsmanship, raised in Honor of NLBlackHeavenNL.
+tile.chunkcomfort.healer_statue.desc2=Those who keep it near are said to share in NLBlackHeavenNL’s blessings.
+tile.chunkcomfort.warrior_statue.desc1=A statue of fine craftsmanship, raised in Honor of Shivaxi.
+tile.chunkcomfort.warrior_statue.desc2=Those who keep it near are said to share in Shivaxi’s blessings.
+
+# Statue item tooltip, one line per candle slot
+# %1$s = slot number, %2$s = what the candle does
+# Shown instead of the candle lines below while Shift isn't held
+tooltip.chunkcomfort.statue.hold_shift=§8§o[Hold Shift]
+tooltip.chunkcomfort.statue.slot=§7Candle %1$s: %2$s
+tooltip.chunkcomfort.statue.activates=§a%1$s
+tooltip.chunkcomfort.statue.negates=§cblocks %1$s
+# Not unlocked yet by the player's comfort: %1$s = effect name (shown obfuscated), %2$s = level (" II", empty for blocks), %3$s = unlock.tier or unlock.points
+tooltip.chunkcomfort.statue.locked.activates=§a§k%1$s§r§a%2$s §7- Unlocked at %3$s
+tooltip.chunkcomfort.statue.locked.negates=§c§k%1$s§r§c%2$s §7- Unlocked at %3$s
+# %1$s = the first Comfort tier that reaches the unlock comfort (I = first comfortEffects entry)
+tooltip.chunkcomfort.statue.unlock.tier=Comfort %1$s
+# Fallback when the unlock comfort is above every comfortEffects tier
+tooltip.chunkcomfort.statue.unlock.points=%1$s CC points
+# Effect spot whose potions all failed to load (wrong id, or the mod is not installed)
+tooltip.chunkcomfort.statue.notfound=§cerror, potion effect not found
+tooltip.chunkcomfort.statue.hint=§8Aim at a candle spot and sneak-right-click with a candle to place it, sneak-right-click a candle with an empty hand to take it out. Only the candles listed above burn.
+
+# Action bar while aiming at a candle spot with a candle (or at a candle with an empty hand), within 2 blocks
+# %1$s = slot number (roman), %2$s = what the candle does
+tooltip.chunkcomfort.statue.aim=§6Candle %1$s: §f%2$s
+# Shown for candle spots without an effect
+tooltip.chunkcomfort.statue.decorative=§7decorative
+# Shown instead of the hint above while not sneaking (holding a candle / empty hand)
+tooltip.chunkcomfort.statue.sneak=§e[Hold Sneak]
+
+tooltip.chunkcomfort.hidden.statues=§7Small flames flicker at the feet of old figures. Whatever they once stood for, they keep watch now, and with every candle you light, the house feels a little more looked after.

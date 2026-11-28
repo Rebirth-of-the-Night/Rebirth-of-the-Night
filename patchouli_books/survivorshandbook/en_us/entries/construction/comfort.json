@@ -16,7 +16,7 @@
     },
     {
       "type": "text",
-	  "text": "$(italics)$(#a84b0f)In order to trigger comfort, a home must have a roof, a light source, and a $(t:Showcased on the left page. Also include Fires, Heaters, or Stoves)$(thing)core.$()$(br2)$(italics)$(#a84b0f)Once those requirements are met, any items with the tooltip $(#b38a04)$(t:Can be searched in JEI. Tooltips will be more informative once at least Comfort I has been achieved)[Comfortable]$()$(#a84b0f) will contribute to increasing the level of comfort. With more valuable objects or concepts granting more comfort, up to a certain point.$()"
+	  "text": "$(italics)$(#a84b0f)In order to trigger comfort, a home must have a roof, a light source, and a $(t:Showcased on the left page. Also include Fires, Heaters, or Stoves)$(thing)core.$()$(br2)$(italics)$(#a84b0f)Once those requirements are met, any item with the tooltip $(#b38a04)$(t:Can be searched in JEI. Tooltips will be more informative once at least Comfort I has been achieved)[Comfortable]$()$(#a84b0f) will contribute to increasing the level of comfort. With more valuable objects or concepts granting more comfort, up to a certain point.$()"
     }
   ]
 }

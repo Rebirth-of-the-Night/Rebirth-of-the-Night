@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "chunkcomfort:statue/idol_grief"
+    },
+    "facing=east": {
+      "model": "chunkcomfort:statue/idol_grief",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chunkcomfort:statue/idol_grief",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chunkcomfort:statue/idol_grief",
+      "y": 270
+    }
+  }
+}
